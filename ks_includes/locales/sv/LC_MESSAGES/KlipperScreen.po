@@ -1,0 +1,1812 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 00:09-0300\n"
+"PO-Revision-Date: 2023-12-27 23:25+0000\n"
+"Last-Translator: eltacoloco <hampus.lind@webbpost.nu>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/klipperscreen/"
+"klipperscreen/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4-dev\n"
+
+#, python-format
+msgid "%s will be updated to version"
+msgstr "%s uppdateras till version"
+
+msgid "(default)"
+msgstr "(standard)"
+
+msgid "24 Hour Time"
+msgstr "24 timmars tid"
+
+msgid "A FIRMWARE_RESTART may fix the issue."
+msgstr "En FIRMWARE_RESTART kan lösa problemet."
+
+msgid "ADXL Not Configured"
+msgstr "ADXL inte konfigurerad"
+
+msgid "Abort"
+msgstr "Avbryt"
+
+msgid "Acceleration:"
+msgstr "Acceleration:"
+
+msgid "Accept"
+msgstr "Godkänn"
+
+msgid "Add profile"
+msgstr "Lägg till profil"
+
+msgid "All"
+msgstr "Alla"
+
+msgid "Apply"
+msgstr "Tillämpa"
+
+#, python-format
+msgid "Apply %s%.3f offset to Endstop?"
+msgstr "Tillämpa %s%.3f offset på Ändstopp?"
+
+#, python-format
+msgid "Apply %s%.3f offset to Probe?"
+msgstr "Tillämpa %s%.3f offset på sonden?"
+
+msgid "Archived"
+msgstr "Arkiverad"
+
+msgid "Are you sure do you want to exclude the object?"
+msgstr "Är du säker på att du vill utesluta objektet?"
+
+msgid "Are you sure you want to run Emergency Stop?"
+msgstr "Är du säker på att du vill köra Nödstopp?"
+
+msgid "Are you sure you wish to cancel this print?"
+msgstr "Är du säker på att du vill avbryta denna utskrift?"
+
+msgid "Are you sure you wish to disable motors?"
+msgstr "Är du säker på att du vill inaktivera motorer?"
+
+msgid "Are you sure you wish to reboot the system?"
+msgstr "Är du säker på att du vill starta om systemet?"
+
+msgid "Are you sure you wish to shutdown the system?"
+msgstr "Är du säker på att du vill stänga av systemet?"
+
+msgid "Auto"
+msgstr "Automatisk"
+
+msgid "Auto-calibrate"
+msgstr "Auto-kalibrera"
+
+msgid "Auto-close notifications"
+msgstr "Automatisk stängning av aviseringar"
+
+msgid "Auto-open Extrude On Pause"
+msgstr "Autoöppna Extrude vid paus"
+
+msgid "Auto-scroll"
+msgstr "Auto-scrolla"
+
+msgid "Bed Level"
+msgstr "Bädd Level"
+
+msgid "Bed Mesh"
+msgstr "Bädd Mesh"
+
+msgid "Bed screw configuration:"
+msgstr "Konfiguration bädd skruvar:"
+
+msgid "Calibrate"
+msgstr "Kalibrera"
+
+msgid "Calibrated"
+msgstr "Kalibrerad"
+
+msgid "Calibrating"
+msgstr "Kalibrerar"
+
+msgid "Camera"
+msgstr "Kamera"
+
+msgid "Can't set above the maximum:"
+msgstr "Kan inte ställa in över maxgränsen:"
+
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgid "Cancel Print"
+msgstr "Avbryt utskrift"
+
+msgid "Cancelled"
+msgstr "Avbruten"
+
+msgid "Cancelling"
+msgstr "Avbryter"
+
+msgid "Cannot connect to Moonraker"
+msgstr "Kan inte ansluta till Moonraker"
+
+msgid "Channel"
+msgstr "Kanal"
+
+msgid "Check ADXL Wiring"
+msgstr "Kontrollera ADXL-ledningar"
+
+msgid "Checking for updates, please wait..."
+msgstr "Söker efter uppdateringar, vänta..."
+
+msgid "Clear"
+msgstr "Rensa"
+
+msgid "Close"
+msgstr "Stäng"
+
+msgid "Complete"
+msgstr "Färdig"
+
+msgid "Confirm Emergency Stop"
+msgstr "Bekräfta nödstopp"
+
+msgid "Connected"
+msgstr "Ansluten"
+
+#, python-format
+msgid "Connecting to %s"
+msgstr "Ansluter till %s"
+
+msgid "Connection failed"
+msgstr "Anslutning misslyckades"
+
+msgid "Console"
+msgstr "Konsol"
+
+msgid "Cooldown"
+msgstr "Nedkylning"
+
+msgid "DPMS has failed to load and has been disabled"
+msgstr "DPMS kunde inte laddas och har inaktiverats"
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "Delete Directory?"
+msgstr "Ta bort katalogen?"
+
+msgid "Delete File?"
+msgstr "Radera fil?"
+
+msgid "Deselect"
+msgstr "Avmarkera"
+
+msgid "Disable Motors"
+msgstr "Inaktivera motorer"
+
+msgid "Distance (mm)"
+msgstr "Avstånd (mm)"
+
+#, python-format
+msgid "Do you want to recover %s?"
+msgstr "Vill du återställa %s?"
+
+msgid "Elapsed:"
+msgstr "Förfluten:"
+
+msgid "Error"
+msgstr "Fel"
+
+msgid "Estimated Time Method"
+msgstr "Beräknad tidsmetod"
+
+msgid "Exclude Object"
+msgstr "Exkludera objekt"
+
+msgid "Extra Large"
+msgstr "Extra stor"
+
+msgid "Extrude"
+msgstr "Extrudera"
+
+msgid "Extrusion +"
+msgstr "Extrudering +"
+
+msgid "Extrusion -"
+msgstr "Extrudering -"
+
+msgid "Failed, adjust position first"
+msgstr "Misslyckades, justera positionen först"
+
+msgid "Fan"
+msgstr "Fläkt"
+
+msgid "Filament Used"
+msgstr "Filament används"
+
+msgid "Filament total:"
+msgstr "Totalt filament:"
+
+msgid "Filament used:"
+msgstr "Filament som används:"
+
+msgid "Filament:"
+msgstr "Filament:"
+
+msgid "File"
+msgstr "Fil"
+
+msgid "File:"
+msgstr "Fil:"
+
+msgid "Filter"
+msgstr "Filter"
+
+msgid "Finding ADXL"
+msgstr "Hitta ADXL"
+
+msgid "Fine Tuning"
+msgstr "Finjustering"
+
+msgid "Finish"
+msgstr "Slutför"
+
+msgid "Firmware Restart"
+msgstr "Firmware Omstart"
+
+msgid "Flow:"
+msgstr "Flöde:"
+
+msgid "Flowrate:"
+msgstr "Flödeshastighet:"
+
+msgid "Font Size"
+msgstr "Textstorlek"
+
+msgid "Full Update"
+msgstr "Fullständig Uppdatering"
+
+msgid "Go Back"
+msgstr "Gå tillbaka"
+
+msgid "Height:"
+msgstr "Höjd:"
+
+msgid "Hidden"
+msgstr "Dold"
+
+msgid "Hide"
+msgstr "Dölj"
+
+msgid "Hide sensors in Temp."
+msgstr "Dölj sensorer i Temp."
+
+msgid "Hide temp."
+msgstr "Dölj temp."
+
+msgid "Home"
+msgstr "Hem"
+
+msgid "Home All"
+msgstr "Hem Alla"
+
+msgid "Home X"
+msgstr "Hem X"
+
+msgid "Home XY"
+msgstr "Hem XY"
+
+msgid "Home Y"
+msgstr "Hem Y"
+
+msgid "Home Z"
+msgstr "Hem Z"
+
+msgid "Host"
+msgstr "Värd"
+
+msgid "Hostname"
+msgstr "Värdnamn"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Icon Theme"
+msgstr "Ikon tema"
+
+msgid "Initializing printer..."
+msgstr "Initierar skrivaren..."
+
+msgid "Initiate a PID calibration for:"
+msgstr "Initiera en PID-kalibrering för:"
+
+msgid "Input Shaper"
+msgstr "Input Shaper"
+
+msgid "Interface"
+msgstr "Gränssnitt"
+
+msgid "Invalid"
+msgstr "Ogiltig"
+
+msgid "Invalid password"
+msgstr "Felaktigt lösenord"
+
+msgid "Invert X"
+msgstr "Invertera X"
+
+msgid "Invert Y"
+msgstr "Invertera Y"
+
+msgid "Invert Z"
+msgstr "Invertera Z"
+
+msgid "It may take more than 5 minutes depending on the heater power."
+msgstr "Det kan ta mer än 5 minuter beroende på värmarens effekt."
+
+#msgid "Firmware Restart"
+#msgstr "Starta om firmware"
+
+msgid "Firmware has disconnected"
+msgstr "Firmware har kopplats från"
+
+msgid "Firmware has encountered an error."
+msgstr "Firmware har stött på ett fel."
+
+msgid "Firmware has shutdown"
+msgstr "Firmware har stängts av"
+
+msgid "Firmware is attempting to start"
+msgstr "Firmware försöker starta"
+
+msgid "Firmware will reboot"
+msgstr "Firmware kommer att startas om"
+
+msgid ""
+"LOAD_FILAMENT/UNLOAD_FILAMENT are hidden and should be used from extrude"
+msgstr ""
+"LOAD_FILAMENT/UNLOAD_FILAMENT är dolda och bör användas från extrudering"
+
+msgid "Language"
+msgstr "Språk"
+
+msgid "Large"
+msgstr "Stor"
+
+msgid "Last Used"
+msgstr "Senast använd"
+
+msgid "Layer:"
+msgstr "Lager:"
+
+msgid "Leds"
+msgstr "Lysdioder"
+
+msgid "Left:"
+msgstr "Återstående:"
+
+msgid "Limits"
+msgstr "Begränsningar"
+
+msgid "Load"
+msgstr "Ladda"
+
+msgid "Lower Nozzle"
+msgstr "Sänk munstycket"
+
+msgid "Macro shortcut on sidebar"
+msgstr "Makro genväg på sidofältet"
+
+msgid "Macros"
+msgstr "Makron"
+
+msgid "Main Menu"
+msgstr "Huvudmeny"
+
+msgid "Material"
+msgstr "Material"
+
+msgid "Max"
+msgstr "Max"
+
+msgid "Max Acceleration"
+msgstr "Max acceleration"
+
+msgid "Max Acceleration to Deceleration"
+msgstr "Max acceleration till inbromsning"
+
+msgid "Max Velocity"
+msgstr "Max Hastighet"
+
+msgid "Maximum"
+msgstr "Maximal"
+
+msgid "Measure Both"
+msgstr "Mät båda"
+
+msgid "Measure X"
+msgstr "Mått X"
+
+msgid "Measure Y"
+msgstr "Mått Y"
+
+msgid "Medium"
+msgstr "Medium"
+
+msgid "Menu"
+msgstr "Meny"
+
+msgid "Mesh calibrate"
+msgstr "Mesh kalibrera"
+
+msgid "Modified"
+msgstr "Ändrad"
+
+msgid "Moonraker: connected"
+msgstr "Moonraker: ansluten"
+
+msgid "More"
+msgstr "Mer"
+
+msgid "Move"
+msgstr "Flytta"
+
+msgid "Move Distance (mm)"
+msgstr "Förflyttningsavstånd (mm)"
+
+msgid "Name"
+msgstr "Namn"
+
+msgid "Network"
+msgstr "Nätverk"
+
+msgid "Never"
+msgstr "Aldrig"
+
+msgid "New"
+msgstr "Ny"
+
+msgid "No elegible macros:"
+msgstr "Inga kvalificerade makron:"
+
+msgid ""
+"Not supported for auto-detection, it needs to be configured in klipperscreen."
+"conf"
+msgstr ""
+"Stöds inte för automatisk upptäckt, den måste konfigureras i klipperscreen."
+"conf"
+
+msgid "Nothing selected"
+msgstr "Inget valt"
+
+#, python-format
+msgid "Outdated by %d"
+msgstr "Föråldrad av %d"
+
+msgid "PSK for"
+msgstr "PSK för"
+
+msgid "Package will be updated"
+
+msgstr "Paketet kommer att uppdateras"
+
+
+msgid "Part Fan"
+msgstr "Del Fläkt"
+
+msgid "Password saved"
+msgstr "Lösenordet har sparats"
+
+msgid "Pause"
+msgstr "Pausa"
+
+msgid "Paused"
+msgstr "Pausad"
+
+msgid "Perform a full upgrade?"
+msgstr "Utför en fullständig uppgradering?"
+
+msgid "Pins"
+msgstr "Pins"
+
+msgid "Please recompile and flash the micro-controller."
+msgstr "Vänligen kompilera om och flasha mikrokontrollern."
+
+msgid "Power"
+msgstr "Ström"
+
+msgid "Power On Printer"
+msgstr "Slå på skrivaren"
+
+msgid "Pressure Advance:"
+msgstr "Tryckförflyttning:"
+
+msgid "Print"
+msgstr "Skriv ut"
+
+msgid "Print Control"
+msgstr "Utskriftskontroll"
+
+msgid "Print Time"
+msgstr "Utskriftstid"
+
+msgid "Printer"
+msgstr "Skrivare"
+
+msgid "Printer Connections"
+msgstr "Skrivaranslutningar"
+
+msgid "Printer Select"
+msgstr "Välj skrivare"
+
+msgid "Printing"
+msgstr "Skriver ut"
+
+msgid "Probe Offset"
+msgstr "Sond-offset"
+
+msgid "Profile Name:"
+msgstr "Profilens namn:"
+
+msgid "Provide KlipperScreen.log when asking for help.\n"
+msgstr "Ange KlipperScreen.log när du ber om hjälp.\n"
+
+msgid "Quad Gantry Level"
+msgstr "Quad Gantry nivå"
+
+msgid "Raise Nozzle"
+msgstr "Höj munstycket"
+
+msgid "Recover"
+msgstr "Återställ"
+
+msgid "Recover Hard"
+msgstr "Hård återställning"
+
+msgid "Recover Soft"
+msgstr "Mjuk återställning"
+
+msgid "Reference"
+msgstr "Referens"
+
+msgid "Refresh"
+msgstr "Ladda om"
+
+msgid "Rename/Move:"
+msgstr "Byt namn/flytta:"
+
+msgid "Restart"
+msgstr "Starta om"
+
+msgid "Resume"
+msgstr "Återuppta"
+
+msgid "Retract"
+msgstr "Dra tillbaka"
+
+msgid "Retraction"
+msgstr "Indragning"
+
+msgid "Retraction Length"
+msgstr "Indragningslängd"
+
+msgid "Retraction Speed"
+msgstr "Indragningshastighet"
+
+msgid "Retry"
+msgstr "Försök igen"
+
+msgid "Retrying"
+msgstr "Försöker igen"
+
+msgid "Save"
+msgstr "Spara"
+
+msgid "Save Config"
+msgstr "Spara konfiguration"
+
+msgid "Save Z"
+msgstr "Spara Z"
+
+msgid "Save configuration?"
+msgstr "Spara konfigurationen?"
+
+msgid "Saved"
+msgstr "Sparad"
+
+#, python-format
+msgid "Saved offset: %s"
+msgstr "Sparad offset: %s"
+
+msgid "Screen DPMS"
+msgstr "Skärm DPMS"
+
+msgid "Screen Power Off Time"
+msgstr "Avstängningstid för skärmen"
+
+msgid "Screws Adjust"
+msgstr "Skruvar Justera"
+
+msgid "Select"
+msgstr "Välj"
+
+msgid "Send"
+msgstr "Skicka"
+
+msgid "Set Temp"
+msgstr "Sätt temperatur"
+
+msgid "Settings"
+msgstr "Inställningar"
+
+msgid "Show"
+msgstr "Visa"
+
+msgid "Show Heater Power"
+msgstr "Visa kraft värmare"
+
+msgid "Show Scrollbars Buttons"
+msgstr "Visa rullningslistknappar"
+
+msgid "Shutdown"
+msgstr "Stänga av"
+
+msgid "Size"
+msgstr "Storlek"
+
+msgid "Slicer"
+msgstr "Slicer"
+
+msgid "Slicer:"
+msgstr "Slicer:"
+
+msgid "Small"
+msgstr "Liten"
+
+msgid "Speed (mm/s)"
+msgstr "Hastighet (mm/s)"
+
+msgid "Speed +"
+msgstr "Hastighet +"
+
+msgid "Speed -"
+msgstr "Hastighet -"
+
+msgid "Speed:"
+msgstr "Hastighet:"
+
+msgid "Square Corner Velocity"
+msgstr "Fyrkantigt hörn hastighet"
+
+msgid "Standby"
+msgstr "Vilar"
+
+msgid "Start"
+msgstr "Starta"
+
+msgid "Starting WiFi Association"
+msgstr "Startar WiFi Association"
+
+msgid "Starting recovery for"
+msgstr "Börjar återhämtning för"
+
+msgid "Starting update for"
+msgstr "Startar uppdatering för"
+
+msgid "System"
+msgstr "System"
+
+msgid "System Restart"
+msgstr "System Omstart"
+
+msgid "System Shutdown"
+msgstr "System Avstängning"
+
+msgid "Temp (°C)"
+msgstr "Temperatur (°C)"
+
+msgid "Temperature"
+msgstr "Temperatur"
+
+msgid "Total:"
+msgstr "Total:"
+
+msgid "Unknown Heater"
+msgstr "Okänt värmeelement"
+
+msgid "Unknown screw position"
+msgstr "Okänd skruvposition"
+
+msgid "Unload"
+msgstr "Lasta av"
+
+msgid "Unretract Extra Length"
+msgstr "Dra tillbaka, extra längd"
+
+msgid "Unretract Speed"
+msgstr "Dra tillbaka Hastighet"
+
+msgid "Up To Date"
+msgstr "Aktuellt"
+
+msgid "Update"
+msgstr "Uppdatera"
+
+msgid "Updating"
+msgstr "Uppdaterar"
+
+msgid "Uploaded"
+msgstr "Uppladdad"
+
+msgid "XY Move Speed (mm/s)"
+msgstr "XY rörelsehastighet (mm/s)"
+
+msgid "XY Speed (mm/s)"
+msgstr "XY-hastighet (mm/s)"
+
+msgid "Z Calibrate"
+msgstr "Z Kalibrering"
+
+msgid "Z Move Speed (mm/s)"
+msgstr "Z rörelsehastighet (mm/s)"
+
+msgid "Z Speed (mm/s)"
+msgstr "Z hastighet (mm/s)"
+
+msgid "Z Tilt"
+msgstr "Z Lutning"
+
+msgid "Z offset:"
+msgstr "Z-offset:"
+
+msgid "commit"
+
+msgstr "commit"
+
+
+msgid "dBm"
+msgstr "dBm"
+
+msgid "hour"
+
+msgstr "timme"
+
+
+msgid "macros that use 'rename_existing' are hidden"
+msgstr "makron som använder 'rename_existing' är dolda"
+
+msgid "macros with a name starting with '_' are hidden"
+msgstr "makron med ett namn som börjar med '_' är dolda"
+
+msgid "minute"
+
+msgstr "minut"
+
+
+msgid "mm"
+msgstr "mm"
+
+msgid "mm/s"
+msgstr "mm/s"
+
+msgid "mm/s²"
+msgstr "mm/s²"
+
+msgid "mm³/s"
+msgstr "mm³/s"
+
+msgid "Continue"
+msgstr "Fortsätt"
+
+#~ msgid "Actions"
+#~ msgstr "Åtgärder"
+
+#~ msgid "Configuration"
+#~ msgstr "Konfiguration"
+
+#~ msgid "Disable XY"
+#~ msgstr "Inaktivera XY"
+
+#~ msgid "Calibrated, save configuration to make it permanent"
+#~ msgstr "Kalibrerad, spara konfiguration för att göra den permanent"
+
+#~ msgid "Decrease"
+#~ msgstr "Minska"
+
+#~ msgid "Increase"
+#~ msgstr "Öka"
+
+#, python-format
+#~ msgid "Sending Power ON signal to: %s"
+#~ msgstr "Skickar ström PÅ-signal till: %s"
+
+#~ msgid "Z+"
+#~ msgstr "Z+"
+
+#~ msgid "Z-"
+#~ msgstr "Z-"
+
+#~ msgid "X+"
+#~ msgstr "X+"
+
+#~ msgid "X-"
+#~ msgstr "X-"
+
+#~ msgid "Y+"
+#~ msgstr "Y+"
+
+#~ msgid "Y-"
+#~ msgstr "Y-"
+
+#~ msgid "Add Printer"
+#~ msgstr "Lägg till skrivare"
+
+#~ msgid "Initializing"
+#~ msgstr "Initierar"
+
+#~ msgid "Delete"
+#~ msgstr "Radera"
+
+#~ msgid "Off"
+#~ msgstr "Avstängd"
+
+#~ msgid "Sort by: "
+#~ msgstr "Sortera efter: "
+
+#~ msgid "Bltouch found applied offset"
+#~ msgstr "Bltouch hittade tillämpad offset"
+
+#~ msgid ""
+#~ "Check /tmp/KlipperScreen.log for more information.\n"
+#~ "Please submit an issue on GitHub for help."
+#~ msgstr ""
+#~ "Kontrollera /tmp/KlipperScreen.log för mer information.\n"
+#~ "Skicka in ett problem på GitHub för hjälp."
+
+#~ msgid "Tool"
+#~ msgstr "Verktyg"
+
+#~ msgid "Displayed Macros"
+#~ msgstr "Makron visas"
+
+#~ msgid "Z Position"
+#~ msgstr "Z Position"
+
+msgid "Leveling"
+msgstr "Nivellering"
+
+msgid "The nozzle temperature is too low, Are you sure you want to heat it?"
+msgstr "Dysetemperaturen är för låg. Är du säker på att du vill värma den?"
+
+msgid "General"
+msgstr "Generell"
+
+msgid "Turn off"
+msgstr "Stäng av"
+
+msgid "Brightest"
+msgstr "Ljusast"
+
+msgid "Manual"
+msgstr "Manuell"
+
+msgid "Troubleshooting"
+msgstr "Felsökning"
+
+msgid "Cautions"
+msgstr "Varningar"
+
+msgid "Maintenance"
+msgstr "Underhåll"
+
+msgid "Calibration"
+msgstr "Kalibrering"
+
+msgid "XY Offset"
+msgstr "XY-offset"
+
+msgid "Z Offset"
+msgstr "Z-offset"
+
+msgid "Only one extruder does not require calibration."
+msgstr "Endast en extruder kräver inte kalibrering."
+
+msgid "Please confirm left extruder position."
+msgstr "Bekräfta vänster extruderposition."
+
+msgid "Need to recalculate the offset value."
+msgstr "Behöver omberäkna offsetvärdet."
+
+msgid "Error writing configuration"
+msgstr "Fel vid skrivning av konfiguration"
+
+msgid "Please wait for the camera initialization to complete."
+msgstr "Vänta tills kamerainitieringen är klar."
+
+msgid "Please wait for the camera's fill light to light up for 5 seconds before clicking 'Start'"
+msgstr "Vänta tills kamerans fyllningsljus lyser i 5 sekunder innan du klickar på 'Start'."
+
+msgid "Couldn't get the calibration camera position."
+msgstr "Kunde inte få kalibreringskamerans position."
+
+msgid "Need home axis"
+msgstr "Behöver hemaxel"
+
+msgid "Choose Language"
+msgstr "Välj språk"
+
+msgid "Choose Timezone"
+msgstr "Välj tidszon"
+
+msgid "Select WiFi"
+msgstr "Välj WiFi"
+
+msgid "Self-check"
+msgstr "Självtest"
+
+msgid "Nozzle Heating"
+msgstr "Dyseuppvärmning"
+
+msgid "Hot Bed Heating"
+msgstr "Uppvärming av uppvärmt säng"
+
+msgid "Nozzle Cooling Fan"
+msgstr "Fläkt för dyseavkylning"
+
+msgid "Hotend Cooling Fan"
+msgstr "Fläkt för Hotend-avkylning"
+
+msgid "Filament Detection"
+msgstr "Detektering av filament"
+
+msgid "Auto Leveling"
+msgstr "Automatisk nivellering"
+
+msgid "WiFi"
+msgstr "WiFi"
+
+msgid "Power loss recovery, is resume print?"
+msgstr "Återställning efter strömavbrott, ska utskriften återupptas?"
+
+msgid "Please wait until the bed and nozzle are heated before calibrating."
+msgstr "Vänta tills sängen och dyset är uppvärmda innan kalibrering."
+
+msgid "Current language:"
+msgstr "Nuvarande språk:"
+
+msgid "Skip All"
+msgstr "Hoppa över allt"
+
+msgid "Do not touch the printer during self-check."
+msgstr "Rör inte skrivaren under självtestet."
+
+msgid "Confirm"
+msgstr "Bekräfta"
+
+msgid "Current timezone:"
+msgstr "Nuvarande tidszon:"
+
+msgid "Choose a timezone"
+msgstr "Välj tidszon"
+
+msgid "Choose a language"
+msgstr "Välj språk"
+
+msgid "Please wait for the print job to end"
+msgstr "Vänta tills utskriftsjobbet är klart"
+
+msgid "Are you sure you wish to reset the printer?"
+msgstr "Är du säker på att du vill återställa skrivaren?"
+
+msgid "Data will be deleted"
+msgstr "Data kommer att raderas"
+
+msgid "Reset Printer"
+msgstr "Återställ skrivaren"
+
+msgid "Resetting printer, will restart, please wait..."
+msgstr "Återställer skrivaren, kommer att starta om, var god vänta..."
+
+msgid "Reset"
+msgstr "Återställ"
+
+msgid "Poweroff"
+msgstr "Stäng av"
+
+msgid "Confirm Pos"
+msgstr "Bekräfta positionen"
+
+msgid "Shut down after printing completes"
+msgstr "Stäng av efter att utskriften är klar"
+
+msgid "Voice Notify"
+msgstr "Röstdialog"
+
+msgid "Filament Box Power"
+msgstr "Strömförsörjning för filamentlåda"
+
+msgid "If your calibration device is under the PEI, please lift the PEI after homing."
+msgstr "Om din kalibreringsenhet är under PEI, lyft PEI efter homing."
+
+msgid "Homing the printer..."
+msgstr "Homing av skrivaren..."
+
+msgid "Starting dual nozzle height calibration..."
+msgstr "Startar höjdkalibrering av dubbelmunstycke..."
+
+msgid "Please observe if the nozzle is positioned above the probe."
+msgstr "Observera om munstycket är positionerat ovanför sonden."
+
+msgid "Warning: Negative value detected. This is dangerous and may damage the machine. Please recalibrate."
+msgstr "Varning: Negativt värde upptäckt. Detta är farligt och kan skada maskinen. Vänligen kalibrera om."
+
+msgid "New nozzle height difference is: "
+msgstr "Ny munstyckshöjdskillnad är: "
+
+msgid "Warning: Current value is negative. This is dangerous and may damage the machine. Please recalibrate."
+msgstr "Varning: Aktuellt värde är negativt. Detta är farligt och kan skada maskinen. Vänligen kalibrera om."
+
+msgid "Z Height Diff"
+msgstr "Z-höjdskillnad"
+
+msgid "Adjust Zprobe Pos"
+msgstr "Justera Zprobe-position"
+
+msgid "Need reboot, relaunch immediately?"
+msgstr "Behöver omstart, starta om omedelbart?"
+
+msgid "Current nozzle height difference: "
+msgstr "Nuvarande munstyckshöjdskillnad: "
+
+msgid "New nozzle height difference: "
+msgstr "Ny munstyckshöjdskillnad: "
+
+msgid "Dangerous nozzle height difference: "
+msgstr "Farlig munstyckshöjdskillnad: "
+
+msgid "Saved successfully!"
+msgstr "Sparades framgångsrikt!"
+
+# Feed Filament Box
+msgid "Edit"
+msgstr "Redigera"
+
+msgid "Filament Info"
+msgstr "Filamentinformation"
+
+msgid "Not found"
+msgstr "Hittades inte"
+
+msgid "Vendor"
+msgstr "Tillverkare"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Color"
+msgstr "Färg"
+
+msgid "Set Color"
+msgstr "Ställ in färg"
+
+msgid "Filament Settings"
+msgstr "Filamentinställningar"
+
+msgid "Multi-Material Box"
+msgstr "Multimaterialbox"
+
+msgid "Are you sure you wish to restart the firmware?"
+msgstr "Är du säker på att du vill starta om programvara?"
+
+msgid "Autofill filament disable"
+msgstr "Inaktivera automatisk fyllning av tråd"
+
+msgid "Autofill filament enabled"
+msgstr "Aktivera automatisk fyllning av tråd"
+
+msgid "Autofill filament: %s"
+msgstr "Automatisk fyllning av tråd: %s"
+
+msgid "Backing up configuration files."
+msgstr "Säkerhetskopierar konfigurationsfiler."
+
+msgid "Calibrate Cutter Pos"
+msgstr "Kalibrera skärarens position"
+
+msgid "Couldn't get the calibration cutter position."
+msgstr "Kunde inte hämta skärarens kalibreringsposition."
+
+msgid "Current filament indexes are:%s, active tool:%s"
+msgstr "Nuvarande trådindex är:%s, aktivt verktyg:%s"
+
+msgid "Current filament indexes are:%s, active tool:%s, resume_tool:%s, pause_reason:%s"
+msgstr "Nuvarande trådindex är:%s, aktivt verktyg:%s, återuppta_verktyg:%s, pausorsak:%s"
+
+msgid "Current value is %s"
+msgstr "Nuvarande värde är %s"
+
+msgid "Cut Filament Test"
+msgstr "Testa skärning av tråd"
+
+msgid "Do you want to enable multi-material box?"
+msgstr "Vill du aktivera flermaterialboxen?"
+
+msgid "Do you want to use external filament?"
+msgstr "Vill du använda extern tråd?"
+
+msgid "Error: Offset values not found"
+msgstr "Fel: Kunde inte hitta offset-värden"
+
+msgid "Error: Z offset value not found"
+msgstr "Fel: Kunde inte hitta Z-offset-värde"
+
+msgid "External Filament"
+msgstr "Extern tråd"
+
+msgid "Extruder not hot enough"
+msgstr "Extruder är inte tillräckligt het"
+
+msgid "FEED error:External filament not removed"
+msgstr "FEED-fel: Extern tråd ej borttagen"
+
+msgid "Filament %s not found"
+msgstr "Tråd %s ej funnen"
+
+msgid "Filament Sensor%s: No filament detected, canceling print"
+msgstr "Trådsensor%s: Inga trådar upptäckta, avbryter utskrift"
+
+msgid "Filament Sensor%s: No filament detected, pausing print"
+msgstr "Trådsensor%s: Inga trådar upptäckta, pauserar utskrift"
+
+msgid "Filament Sensor0: No filament detected, pausing print"
+msgstr "Trådsensor0: Inga trådar upptäckta, pauserar utskrift"
+
+msgid "Filament Sensor1: No filament detected, pausing print"
+msgstr "Trådsensor1: Inga trådar upptäckta, pauserar utskrift"
+
+msgid "Filament detected! Please remove filament from the hotend before enabling multi-material box."
+msgstr "Tråd upptäckt! Ta bort tråden från spruten innan du aktiverar flermaterialboxen."
+
+msgid "Missing required recovery data"
+msgstr "Krävda återställningsdata saknas"
+
+msgid "No power loss recovery data found"
+msgstr "Inga återställningsdata för strömavbrott funna"
+
+msgid "No valid params 'S'"
+msgstr "Inga giltiga parametrar 'S'"
+
+msgid "No"
+msgstr "Nej"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Options"
+msgstr "Alternativ"
+
+msgid "Pause. The \"extruder\" extrude error!"
+msgstr "Paus. Extruderfel!"
+
+msgid "Please exit the filament from the nozzle first"
+msgstr "Ta bort tråden från sprutan först"
+
+msgid "Please fill in the voice number correctly: 0-start printing, 1-end printing, 2-outage detected, 3-cancel printing, 4-pause printing"
+msgstr "Fyll i rätt ljudnummer: 0-börja skriva ut, 1-sluta skriva ut, 2-strömavbrott upptäckt, 3-avbryt utskrift, 4-pausa utskrift"
+
+msgid "Please select how you would like to proceed."
+msgstr "Välj hur du vill fortsätta."
+
+msgid "Power loss recovery, resuming print."
+msgstr "Återställning efter strömavbrott, fortsätter utskrift."
+
+msgid "Power loss, saving print states."
+msgstr "Strömavbrott, sparar utskriftstillstånd."
+
+msgid "Press feedsys button"
+msgstr "Tryck på feedsys-knappen"
+
+msgid "Print resumed from power loss position"
+msgstr "Utskrift fortsatt från strömavbrottsposition"
+
+msgid "Printer not homed"
+msgstr "Skrivaren är inte hemmatad"
+
+msgid "RESUME error:autofill no fil"
+msgstr "ÅTERUPPTAGNINGSFEL: ingen tråd för automatisk fyllning"
+
+msgid "RESUME error:no fil"
+msgstr "ÅTERUPPTAGNINGSFEL: ingen tråd"
+
+msgid "RESUME error:residual fil"
+msgstr "ÅTERUPPTAGNINGSFEL: kvarvarande tråd"
+
+msgid "Recovery data: Z=%s, File=%s, Pos=%s"
+msgstr "Återställningsdata: Z=%s, Fil=%s, Pos=%s"
+
+msgid "Save & Restart"
+msgstr "Spara & Starta om"
+
+msgid "T%s direct feed"
+msgstr "Direktförsörjning T%s"
+
+msgid "T0 direct feed"
+msgstr "Direktförsörjning T0"
+
+msgid "T0 need exit filament"
+msgstr "T0 behöver ta bort tråd"
+
+msgid "T1 direct feed"
+msgstr "Direktförsörjning T1"
+
+msgid "T1 need exit filament"
+msgstr "T1 behöver ta bort tråd"
+
+msgid "T2 direct feed"
+msgstr "Direktförsörjning T2"
+
+msgid "T2 need exit filament"
+msgstr "T2 behöver ta bort tråd"
+
+msgid "T3 direct feed"
+msgstr "Direktförsörjning T3"
+
+msgid "T3 need exit filament"
+msgstr "T3 behöver ta bort tråd"
+
+msgid "The \"extruder\" extrude error!"
+msgstr "Extruderfel!"
+
+msgid "The current toolheade is T%s"
+msgstr "Nuvarande verktygsnacka är T%s"
+
+msgid "The current toolheade is T0"
+msgstr "Nuvarande verktygsnacka är T0"
+
+msgid "The current toolheade is T1"
+msgstr "Nuvarande verktygsnacka är T1"
+
+msgid "The current toolheade is T2"
+msgstr "Nuvarande verktygsnacka är T2"
+
+msgid "The current toolheade is T3"
+msgstr "Nuvarande verktygsnacka är T3"
+
+msgid "The filament_box_%s no filament"
+msgstr "Trådlådan_%s har ingen tråd"
+
+msgid "The motor is wrong."
+msgstr "Motorn är fel."
+
+msgid "There is a residual filament, Please remove and continue"
+msgstr "Det finns en kvarvarande tråd, ta bort och fortsätt"
+
+msgid "There's a residual filament in box %s"
+msgstr "Det finns en kvarvarande tråd i lådan %s"
+
+msgid "There's a residual filament in box 1"
+msgstr "Det finns en kvarvarande tråd i lådan 1"
+
+msgid "There's a residual filament in box 2"
+msgstr "Det finns en kvarvarande tråd i lådan 2"
+
+msgid "There's a residual filament in box 3"
+msgstr "Det finns en kvarvarande tråd i lådan 3"
+
+msgid "There's a residual filament in box 4"
+msgstr "Det finns en kvarvarande tråd i lådan 4"
+
+msgid "Unknown fan"
+msgstr "Okänd ventilator"
+
+msgid "Unknown filament"
+msgstr "Okänd tråd"
+
+msgid "Use external filament, please manually exit"
+msgstr "Använd extern tråd, ta bort manuellt"
+
+msgid "Warning"
+msgstr "Varning"
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "auto shutdown error"
+msgstr "automatiskt avstängningsfel"
+
+msgid "bed_mash:%s"
+msgstr "säng_mesh:%s"
+
+msgid "clean pause_reason"
+msgstr "rensa pausorsak"
+
+msgid "cut filament"
+msgstr "klipp tråd"
+
+msgid "cutter press!"
+msgstr "klipparknapp tryckt!"
+
+msgid "cutter release!"
+msgstr "klipparknapp släppt!"
+
+msgid "feed busy"
+msgstr "försörjning upptagen"
+
+msgid "feed error"
+msgstr "försörjningsfel"
+
+msgid "feed finish"
+msgstr "försörjning slutförd"
+
+msgid "filament not removed"
+msgstr "tråd ej borttagen"
+
+msgid "filament pause reason"
+msgstr "trådpausorsak"
+
+msgid "filament press"
+msgstr "trådknapp tryckt"
+
+msgid "filament release"
+msgstr "trådknapp släppt"
+
+msgid "filament remove"
+msgstr "ta bort tråd"
+
+msgid "filament runout"
+msgstr "trådet är slut"
+
+msgid "filament%s:%s"
+msgstr "tråd%s:%s"
+
+msgid "flush filament"
+msgstr "spola tråd"
+
+msgid "motion sensor insert"
+msgstr "infoga rörelsesensor"
+
+msgid "motion sensor runout"
+msgstr "rörelsesensor slut"
+
+msgid "motor_%s press"
+msgstr "motor_%s tryckt"
+
+msgid "motor_%s release"
+msgstr "motor_%s släppt"
+
+msgid "motor_1 press"
+msgstr "motor_1 tryckt"
+
+msgid "motor_1 release"
+msgstr "motor_1 släppt"
+
+msgid "motor_2 press"
+msgstr "motor_2 tryckt"
+
+msgid "motor_2 release"
+msgstr "motor_2 släppt"
+
+msgid "motor_3 press"
+msgstr "motor_3 tryckt"
+
+msgid "motor_3 release"
+msgstr "motor_3 släppt"
+
+msgid "motor_4 press"
+msgstr "motor_4 tryckt"
+
+msgid "motor_4 release"
+msgstr "motor_4 släppt"
+
+msgid "no bed_mash name"
+msgstr "ingen säng_mesh-namn"
+
+msgid "no bed_mash"
+msgstr "ingen säng_mesh"
+
+msgid "no enabled"
+msgstr "inte aktiverat"
+
+msgid "press button%s"
+msgstr "tryck på knapp%s"
+
+msgid "press button1"
+msgstr "tryck på knapp1"
+
+msgid "press button2"
+msgstr "tryck på knapp2"
+
+msgid "press button3"
+msgstr "tryck på knapp3"
+
+msgid "press button4"
+msgstr "tryck på knapp4"
+
+msgid "remove filament"
+msgstr "ta bort tråd"
+
+msgid "residual filament%s"
+msgstr "kvarvarande tråd%s"
+
+msgid "residual filament0"
+msgstr "kvarvarande tråd0"
+
+msgid "residual filament1"
+msgstr "kvarvarande tråd1"
+
+msgid "residual filament2"
+msgstr "kvarvarande tråd2"
+
+msgid "residual filament3"
+msgstr "kvarvarande tråd3"
+
+msgid "resume:%s"
+msgstr "fortsätt:%s"
+
+msgid "resume_tool:%s pause_reason:%s"
+msgstr "fortsätt_verktyg:%s pausorsak:%s"
+
+msgid "Copy Print"
+msgstr "Kopiera utskrift"
+
+msgid "Mirror Print"
+msgstr "Spegelvänd utskrift"
+
+msgid "Manual Calibration"
+msgstr "Manuell kalibrering"
+
+msgid "Auto Calibration"
+msgstr "Automatisk kalibrering"
+
+msgid "Calibration successful!"
+msgstr "Kalibrering lyckades!"
+
+msgid "Auto calibration failed. Please clean the nozzle and try again."
+msgstr "Automatisk kalibrering misslyckades. Rengör munstycket och försök igen."
+
+msgid "Auto calibration is not available. Please install required dependencies."
+msgstr "Automatisk kalibrering är inte tillgänglig. Installera nödvändiga beroenden."
+
+msgid "Left extruder template saved"
+msgstr "Mall för vänster extruder sparad"
+
+msgid "Right extruder template saved"
+msgstr "Mall för höger extruder sparad"
+
+msgid "Failed to save template"
+msgstr "Kunde inte spara mallen"
+
+msgid "No template images found. Please perform manual calibration first."
+msgstr "Inga mallbilder hittades. Utför manuell kalibrering först."
+
+msgid "Getting image of left extruder"
+msgstr "Hämtar bild av vänster extruder"
+
+msgid "Getting image of right extruder"
+msgstr "Hämtar bild av höger extruder"
+
+msgid "Left extruder calibration failed. Please clean the nozzle and try again."
+msgstr "Kalibrering av vänster extruder misslyckades. Rengör munstycket och försök igen."
+
+msgid "Right extruder calibration failed. Please clean the nozzle and try again."
+msgstr "Kalibrering av höger extruder misslyckades. Rengör munstycket och försök igen."
+
+msgid "left extruder pos: (%.3f, %.3f, %.3f)"
+msgstr "vänster extruder position: (%.3f, %.3f, %.3f)"
+
+msgid "Right extruder offset is (%.3f, %.3f, %.3f)"
+msgstr "Höger extruder offset är (%.3f, %.3f, %.3f)"
+
+msgid "Please wait for the camera's fill light to light up for 5 seconds before clicking 'Manual Calibration' or 'Auto Calibration'"
+msgstr "Vänta 5 sekunder tills kamerans fyllnadsljus tänds innan du klickar på 'Manuell kalibrering' eller 'Automatisk kalibrering'"
+
+msgid "The door is open."
+msgstr "Dörren är öppen."
+
+msgid "The door is closed."
+msgstr "Dörren är stängd."
+
+msgid "Error getting origin offset values: %s"
+msgstr "Fel vid hämtning av ursprungliga offsetvärden: %s"
+
+msgid "Raise"
+msgstr "Höj"
+
+msgid "Lower"
+msgstr "Sänk"
+
+msgid "Filament run out, pausing print"
+msgstr "Filamentet har slutat, pausar skrivning"
+
+msgid "Not in single extruder mode, pausing print"
+msgstr "Inte i en-extruder-läge, pausar skrivning"
+
+msgid "Current sensor not configured, pausing print"
+msgstr "Nuvarande sensor är inte konfigurerad, pausar skrivning"
+
+msgid "Other sensor not configured, pausing print"
+msgstr "Övriga sensorer är inte konfigurerade, pausar skrivning"
+
+msgid "Current extruder has filament, continuing print"
+msgstr "Den nuvarande extrudern har filament, fortsätter med skrivning"
+
+msgid "Both extruders out of filament, pausing print"
+msgstr "Båda extruderna saknar filament, pausar skrivning"
+
+msgid "Filament run out, switching extruder"
+msgstr "Filamentet har slutat, växlar extruder"
+
+msgid "Switching to left extruder"
+msgstr "Växlar till vänster extruder"
+
+msgid "Switching to right extruder"
+msgstr "Växlar till höger extruder"
+
+msgid "Extruder switch complete, resuming print"
+msgstr "Extruderväxling klar, återupptar skrivning"
+
+msgid "Auto extruder switch already enabled"
+msgstr "Automatisk extruderväxling redan aktiverad"
+
+msgid "Auto extruder switch enabled, this feature only works when printing with a single extruder"
+msgstr "Automatisk extruderväxling aktiverad; denna funktion fungerar endast vid skrivning med en enskild extruder"
+
+msgid "Auto extruder switch already disabled"
+msgstr "Automatisk extruderväxling redan inaktiverad"
+
+msgid "Auto extruder switch disabled"
+msgstr "Automatisk extruderväxling inaktiverad"
+
+msgid "Extruder switch when filament run out"
+msgstr "Extruderväxling när filamentet har slutat"
+
+msgid "Filament Sensor0: No filament detected, canceling print."
+msgstr "Filamentsensor 0: Inget filament upptäckt, avbryter skrivning."
+
+msgid "Filament Sensor1: No filament detected, canceling print."
+msgstr "Filamentsensor 1: Inget filament upptäckt, avbryter skrivning."
+
+msgid "Active Extruder"
+msgstr "Aktiv Extruder"
+
+msgid "Active Extruder:"
+msgstr "Aktiv Extruder:"
+
+msgid "Bed Temp:"
+msgstr "Bäddtemp:"
+
+msgid "Bed Temperature"
+msgstr "Bäddtemperatur"
+
+msgid "Filename"
+msgstr "Filnamn"
+
+msgid "Filename:"
+msgstr "Filnamn:"
+
+msgid "Missing required information"
+msgstr "Saknar nödvändig information"
+
+msgid "Nozzle Temp:"
+msgstr "Munstyckestemp:"
+
+msgid "Nozzle Temperature"
+msgstr "Munstyckestemperatur"
+
+msgid "Power Loss Recovery"
+msgstr "Återställning vid Strömavbrott"
+
+msgid "Print Height"
+msgstr "Utskriftshöjd"
+
+msgid "Print Height:"
+msgstr "Utskriftshöjd:"
+
+msgid "Print height is less than 1mm"
+msgstr "Utskriftshöjden är mindre än 1mm"
+
+msgid "Recovery File"
+msgstr "Återställningsfil"
+
+msgid "Resume Print"
+msgstr "Återuppta Utskrift"
+
+msgid "Tip: Please ensure the nozzle is about 0.1mm above the model"
+msgstr "Tips: Se till att munstycket är cirka 0.1mm ovanför modellen"
+
+msgid "Force Move"
+msgstr "Tvinga förflyttning"
+
+msgid "Force move: "
+msgstr "Tvinga förflyttning:"
+
+msgid "Apply Z offset to Probe?"
+msgstr "Tillämpa Z-offset på sonden?"
+
+msgid "Left Extruder: %s%.3f"
+msgstr "Vänster extruder: %s%.3f"
+
+msgid "Left Extruder: Not adjusted"
+msgstr "Vänster extruder: Inte justerad"
+
+msgid "Right Extruder: %s%.3f"
+msgstr "Höger extruder: %s%.3f"
+
+msgid "Right Extruder: Not adjusted"
+msgstr "Höger extruder: Inte justerad"
+
+msgid "Apply Z offset to Endstop?"
+msgstr "Tillämpa Z-offset på ändläget?"
+
+msgid "Remove Foam"
+msgstr "Ta bort skum"
+
+msgid "Please remove the extruder foam and take out the door handle."
+msgstr "Ta bort extruderskummet och ta ut dörrhandtaget."
+
+msgid "Please click the Z raise button to raise the Z axis to remove the foam around the bottom of the case."
+msgstr "Klicka på Z-höjningsknappen för att höja Z-axeln och ta bort skummet runt botten av höljet."
+
+msgid "Print Issue Detected!"
+msgstr "Utskriftsproblem upptäckt!"
+
+msgid "No prediction image available"
+msgstr "Ingen förutsägelsebild tillgänglig"
+
+msgid "Print resumed"
+msgstr "Utskrift återupptagen"
+
+msgid "Failed to resume print"
+msgstr "Kunde inte återuppta utskrift"
+
+msgid "Print cancelled"
+msgstr "Utskrift avbruten"
+
+msgid "Failed to cancel print"
+msgstr "Kunde inte avbryta utskrift"
+
+msgid "Configure basic AI service settings. Enable the AI service to monitor your prints and adjust the confidence threshold for detection sensitivity."
+msgstr "Konfigurera grundläggande AI-tjänstinställningar. Aktivera AI-tjänsten för att övervaka dina utskrifter och justera konfidenströskeln för detekteringskänslighet."
+
+
+msgid "AI Detection Alert"
+msgstr "AI-detekteringsvarning"
+
+msgid "AI Monitor"
+msgstr "AI-monitor"
+
+msgid "AI Settings"
+msgstr "AI-inställningar"
+
+msgid "Detected defect: %s (Confidence: %.1f%%)"
+msgstr "Defekt upptäckt: %s (Säkerhet: %.1f%%)"
+
+msgid "AI Detection Error: %s"
+msgstr "AI-detektionsfel: %s"
+
+msgid "AI Detection Service"
+msgstr "AI-detekteringstjänst"
+
+msgid "AI Server URL"
+msgstr "AI-server URL"
+
+msgid "Confidence Threshold (%)"
+msgstr "Konfidenströskel (%)"
+
+msgid "Detection Interval (seconds)"
+msgstr "Detekteringsintervall (sekunder)"
+
+msgid "Auto Pause on Detection"
+msgstr "Automatisk paus vid detektion"
+
+msgid "Enabled Defect Types"
+msgstr "Aktiverade defekttyper"
+
+msgid "Camera Source"
+msgstr "Kamerakälla"
+
+msgid "Camera URL"
+msgstr "Kamera-URL"
+
+msgid "Continue Detection While Paused"
+msgstr "Fortsätt detektion under paus"
+
+msgid "Sound Notification"
+msgstr "Ljudnotifiering"
+
+msgid "All valves closed"
+msgstr "Alla ventiler stängda"
+
+msgid "Auto Feed"
+msgstr "Auto-matning"
+
+msgid "Auto feed started"
+msgstr "Auto-matning startad"
+
+msgid "Blowback Valve"
+msgstr "Tillbakablåsventil"
+
+msgid "Buffer"
+msgstr "Buffert"
+
+msgid "Buffer → Printhead"
+msgstr "Buffert → huvud"
+
+msgid "Buffer Valve"
+msgstr "Buffertventil"
+
+msgid "Disconnected"
+msgstr "Frånkopplad"
+
+msgid "Dryer"
+msgstr "Tork"
+
+msgid "Dryer → Buffer"
+msgstr "Tork → buffert"
+
+msgid "Dryer Level"
+msgstr "Torknivå"
+
+msgid "Dryer Sensor"
+msgstr "Torksensor"
+
+msgid "Dryer Valve"
+msgstr "Torkventil"
+
+msgid "Feeder:"
+msgstr "Matning:"
+
+msgid "Hopper"
+msgstr "Tratt"
+
+msgid "Hopper → Dryer"
+msgstr "Tratt → tork"
+
+msgid "Hopper Level"
+msgstr "Trattnivå"
+
+msgid "Hopper Valve"
+msgstr "Trattventil"
+
+msgid "Pressure:"
+msgstr "Tryck:"
+
+msgid "Printhead"
+msgstr "Huvud"
+
+msgid "Printhead 1"
+msgstr "Huvud 1"
+
+msgid "Printhead 2"
+msgstr "Huvud 2"
+
+msgid "Retract blowback"
+msgstr "Tillbakablås"
+
+msgid "Retract started"
+msgstr "Tillbakadrag startad"
+
+msgid "Run Mode:"
+msgstr "Läge:"
+
+msgid "Stop All"
+msgstr "Stoppa allt"
+
+msgid "To Dryer"
+msgstr "Till tork"
+
+msgid "To Buffer"
+msgstr "Till buffert"
+
+msgid "To Printhead"
+msgstr "Till huvud"
+
+msgid "Return Buffer"
+msgstr "Retur buffert"

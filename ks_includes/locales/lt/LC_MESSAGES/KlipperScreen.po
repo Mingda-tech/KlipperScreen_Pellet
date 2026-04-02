@@ -1,0 +1,1738 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 00:09-0300\n"
+"PO-Revision-Date: 2023-11-28 09:22+0000\n"
+"Last-Translator: vjurka <v@jurka.lt>\n"
+"Language-Team: Lithuanian <https://hosted.weblate.org/projects/klipperscreen/"
+"klipperscreen/lt/>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.2.1\n"
+
+#, python-format
+msgid "%s will be updated to version"
+msgstr "%s bus atnaujinta iki versijos"
+
+msgid "(default)"
+msgstr "(pagal nutylėjimą)"
+
+msgid "24 Hour Time"
+msgstr "24-laiko formatas"
+
+msgid "A FIRMWARE_RESTART may fix the issue."
+msgstr "Perkraukite valdiklį, norėdami ištaisyti problemą."
+
+msgid "ADXL Not Configured"
+msgstr "ADXL nekonfigūruotas"
+
+msgid "Abort"
+msgstr "Atšaukti"
+
+msgid "Acceleration:"
+msgstr "Pagreitis:"
+
+msgid "Accept"
+msgstr "Patvirtinti"
+
+msgid "Add profile"
+msgstr "Pridėti profilį"
+
+msgid "All"
+msgstr "Viskas"
+
+msgid "Apply"
+msgstr "Pritaikyti"
+
+#, python-format
+msgid "Apply %s%.3f offset to Endstop?"
+msgstr "Pritaikyti poslinkį %s%.3f pabaigos jutikliui?"
+
+#, python-format
+msgid "Apply %s%.3f offset to Probe?"
+msgstr "Pritaikyti poslinkį %s%.3f zondui?"
+
+msgid "Archived"
+msgstr "Archyvuota"
+
+msgid "Are you sure do you want to exclude the object?"
+msgstr "Ar tikrai norite išmesti objektą?"
+
+msgid "Are you sure you want to run Emergency Stop?"
+msgstr "Ar tikrai paleisti avarinį stabdymą?"
+
+msgid "Are you sure you wish to cancel this print?"
+msgstr "Ar tikrai norite nutraukti spausdinimą?"
+
+msgid "Are you sure you wish to disable motors?"
+msgstr "Ar tikrai norite išjungti variklius?"
+
+msgid "Are you sure you wish to reboot the system?"
+msgstr "Ar tikrai norite perkrauti sistemą?"
+
+msgid "Are you sure you wish to shutdown the system?"
+msgstr "Ar tikrai norite išjungti spausdintuvą?"
+
+msgid "Auto"
+msgstr "Auto"
+
+msgid "Auto-calibrate"
+msgstr "Automatinis kalibravimas"
+
+msgid "Auto-close notifications"
+msgstr "Automatinis pranešimų slėpimas"
+
+msgid "Auto-open Extrude On Pause"
+msgstr "Automatiškai atidaryti Extruderio menių kai suveikia Pauzė"
+
+msgid "Auto-scroll"
+msgstr "Automatinis slinkimas"
+
+msgid "Bed Level"
+msgstr "Platformos lygis"
+
+msgid "Bed Mesh"
+msgstr "Platformos tinkliukas"
+
+msgid "Bed screw configuration:"
+msgstr "Platformos varžtų konfigūracija:"
+
+msgid "Calibrate"
+msgstr "Kalibravimas"
+
+msgid "Calibrated"
+msgstr "Sukalibruota"
+
+msgid "Calibrating"
+msgstr "Kalibruojama"
+
+msgid "Camera"
+msgstr "Kamera"
+
+msgid "Can't set above the maximum:"
+msgstr "Negalima nustatyti virš maksimumo:"
+
+msgid "Cancel"
+msgstr "Atšaukti"
+
+msgid "Cancel Print"
+msgstr "Atšaukti spausdinimą"
+
+msgid "Cancelled"
+msgstr "Atšaukta"
+
+msgid "Cancelling"
+msgstr "Atšaukiama"
+
+msgid "Cannot connect to Moonraker"
+msgstr "Nepavyksta prisijungti prie Moonraker"
+
+msgid "Channel"
+msgstr "Kanalas"
+
+msgid "Check ADXL Wiring"
+msgstr "Patikrinkite ADXL laidus"
+
+msgid "Checking for updates, please wait..."
+msgstr "Atnaujinimų paieška, laukite..."
+
+msgid "Clear"
+msgstr "Išvalyti"
+
+msgid "Close"
+msgstr "Uždaryti"
+
+msgid "Complete"
+msgstr "Baigta"
+
+msgid "Confirm Emergency Stop"
+msgstr "Patvirtinkite avarinį stabdymą"
+
+msgid "Connected"
+msgstr "Prijungta"
+
+#, python-format
+msgid "Connecting to %s"
+msgstr "Prisijungiama prie %s"
+
+msgid "Connection failed"
+msgstr "Prisijungimas nepavyko"
+
+msgid "Console"
+msgstr "Terminalas"
+
+msgid "Cooldown"
+msgstr "Atvėsinti"
+
+msgid "DPMS has failed to load and has been disabled"
+msgstr "DPMS nepakrauta ir išjungta"
+
+msgid "Date"
+msgstr "Data"
+
+msgid "Delete Directory?"
+msgstr "Šalinti katalogą?"
+
+msgid "Delete File?"
+msgstr "Šalinti failą?"
+
+msgid "Deselect"
+msgstr "Atžymėti"
+
+msgid "Disable Motors"
+msgstr "Išjungti variklius"
+
+msgid "Distance (mm)"
+msgstr "Atstumas (mm)"
+
+#, python-format
+msgid "Do you want to recover %s?"
+msgstr "Ar norite atstatyti %s?"
+
+msgid "Elapsed:"
+msgstr "Praėjo:"
+
+msgid "Error"
+msgstr "Klaida"
+
+msgid "Estimated Time Method"
+msgstr "Numatomas laikas"
+
+msgid "Exclude Object"
+msgstr "Atmesti objektą"
+
+msgid "Extra Large"
+msgstr "Labai didelis"
+
+msgid "Extrude"
+msgstr "Išstumti"
+
+msgid "Extrusion +"
+msgstr "Išstumti +"
+
+msgid "Extrusion -"
+msgstr "Įtraukti -"
+
+msgid "Failed, adjust position first"
+msgstr "Klaida. Pakeiskite padėtį"
+
+msgid "Fan"
+msgstr "Ventiliatorius"
+
+msgid "Filament Used"
+msgstr "Panaudota plastiko"
+
+msgid "Filament total:"
+msgstr "Viso plastiko:"
+
+msgid "Filament used:"
+msgstr "Plastiko naudojimas:"
+
+msgid "Filament:"
+msgstr "Plastikas:"
+
+msgid "File"
+msgstr "Failas"
+
+msgid "File:"
+msgstr "Failas:"
+
+msgid "Filter"
+msgstr "Filtras"
+
+msgid "Finding ADXL"
+msgstr "ADXL paieška"
+
+msgid "Fine Tuning"
+msgstr "Tikslus nustatymas"
+
+msgid "Finish"
+msgstr "Pabaiga"
+
+msgid "Firmware Restart"
+msgstr "Perkrauti kontrolerį"
+
+msgid "Flow:"
+msgstr "Srautas:"
+
+msgid "Flowrate:"
+msgstr "Sąnaudos:"
+
+msgid "Font Size"
+msgstr "Šrifto dydis"
+
+msgid "Full Update"
+msgstr "Atnaujinti viską"
+
+msgid "Go Back"
+msgstr "Atgal"
+
+msgid "Height:"
+msgstr "Aukštis:"
+
+msgid "Hidden"
+msgstr "Paslėpta"
+
+msgid "Hide"
+msgstr "Paslėpti"
+
+msgid "Hide sensors in Temp."
+msgstr "Slėpti temperatūros daviklius."
+
+msgid "Hide temp."
+msgstr "Slėpti temperatūrą."
+
+msgid "Home"
+msgstr "Parkavimas"
+
+msgid "Home All"
+msgstr "Parkuoti viską"
+
+msgid "Home X"
+msgstr "Parkuoti X"
+
+msgid "Home XY"
+msgstr "Parkuoti XY"
+
+msgid "Home Y"
+msgstr "Parkuoti Y"
+
+msgid "Home Z"
+msgstr "Parkuoti Z"
+
+msgid "Host"
+msgstr "Hostas"
+
+msgid "Hostname"
+msgstr "Hosto vardas"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Icon Theme"
+msgstr "Temos"
+
+msgid "Initializing printer..."
+msgstr "Printeris kraunasi..."
+
+msgid "Initiate a PID calibration for:"
+msgstr "Paleiskite PID kalibravimą:"
+
+msgid "Input Shaper"
+msgstr "Input Shaper"
+
+msgid "Interface"
+msgstr "Interfeisas"
+
+msgid "Invalid"
+msgstr "Neteisinga"
+
+msgid "Invalid password"
+msgstr "Blogas slaptažodis"
+
+msgid "Invert X"
+msgstr "X inversija"
+
+msgid "Invert Y"
+msgstr "Y inversija"
+
+msgid "Invert Z"
+msgstr "Z inversija"
+
+msgid "It may take more than 5 minutes depending on the heater power."
+msgstr "Priklausomai nuo šildytuvo galios gali užtrukti daugiau kaip 5 minutes."
+
+#msgid "Firmware Restart"
+#msgstr "Įrangos programinės įrangos paleidimas iš naujo"
+
+msgid "Firmware has disconnected"
+msgstr "Įrangos programa nutrūko"
+
+msgid "Firmware has encountered an error."
+msgstr "Įrangos programa susidūrė su klaida."
+
+msgid "Firmware has shutdown"
+msgstr "Įrangos programa buvo išjungta"
+
+msgid "Firmware is attempting to start"
+msgstr "Įrangos programa bandymas paleisti"
+
+msgid "Firmware will reboot"
+msgstr "Įrangos programa bus paleista iš naujo"
+
+msgid ""
+"LOAD_FILAMENT/UNLOAD_FILAMENT are hidden and should be used from extrude"
+msgstr ""
+"LOAD FILAMENT / UNLOAD FILAMENT yra paslėpti ir turėtų būti naudojami nuo "
+"išspaudimo"
+
+msgid "Language"
+msgstr "Kalba"
+
+msgid "Large"
+msgstr "Didelis"
+
+msgid "Last Used"
+msgstr "Paskutinis naudotas"
+
+msgid "Layer:"
+msgstr "Sluoksnis:"
+
+msgid "Leds"
+msgstr "LED"
+
+msgid "Left:"
+msgstr "Liko:"
+
+msgid "Limits"
+msgstr "Ribos"
+
+msgid "Load"
+msgstr "Užkrauti"
+
+msgid "Lower Nozzle"
+msgstr "Nuleisti purkštuką"
+
+msgid "Macro shortcut on sidebar"
+msgstr "Rodyti makro komandas šoninėje juostoje"
+
+msgid "Macros"
+msgstr "Makro komandos"
+
+msgid "Main Menu"
+msgstr "Pagrindinis meniu"
+
+msgid "Material"
+msgstr "Medžiaga"
+
+msgid "Max"
+msgstr "Max"
+
+msgid "Max Acceleration"
+msgstr "Maksimalus pagreitis"
+
+msgid "Max Acceleration to Deceleration"
+msgstr "Pagreitintas stabdymas"
+
+msgid "Max Velocity"
+msgstr "Maksimalus greitis"
+
+msgid "Maximum"
+msgstr "Maksimum"
+
+msgid "Measure Both"
+msgstr "Išmatuoti abu"
+
+msgid "Measure X"
+msgstr "Išmatuoti X"
+
+msgid "Measure Y"
+msgstr "Išmatuoti Y"
+
+msgid "Medium"
+msgstr "Vidutinis"
+
+msgid "Menu"
+msgstr "Meniu"
+
+msgid "Mesh calibrate"
+msgstr "Tinklelio kalibravimas"
+
+msgid "Modified"
+msgstr "Pakeista"
+
+msgid "Moonraker: connected"
+msgstr "Moonraker: prijungtas"
+
+msgid "More"
+msgstr "Daugiau"
+
+msgid "Move"
+msgstr "Judinti"
+
+msgid "Move Distance (mm)"
+msgstr "Poslinkis (mm)"
+
+msgid "Name"
+msgstr "Vardas"
+
+msgid "Network"
+msgstr "Tinklas"
+
+msgid "Never"
+msgstr "Niekada"
+
+msgid "New"
+msgstr "Naujas"
+
+msgid "No elegible macros:"
+msgstr "Nėra teisingų makro komandų:"
+
+msgid ""
+"Not supported for auto-detection, it needs to be configured in klipperscreen."
+"conf"
+msgstr "Neaptinkamas automatiškai, reikia konfigūruoti klipperscreen.conf"
+
+msgid "Nothing selected"
+msgstr "Niekas nepasirinkta"
+
+#, python-format
+msgid "Outdated by %d"
+msgstr "Pasenę %d"
+
+msgid "PSK for"
+msgstr "PSK"
+
+msgid "Package will be updated"
+msgid_plural "Packages will be updated"
+msgstr[0] "Paketas bus atnaujintas"
+msgstr[1] "Paketai bus atnaujinti"
+msgstr[2] "Paketai bus atnaujinti"
+
+msgid "Part Fan"
+msgstr "Dirbinio ventiliatorius"
+
+msgid "Password saved"
+msgstr "Slaptažodis išsaugotas"
+
+msgid "Pause"
+msgstr "Pauzė"
+
+msgid "Paused"
+msgstr "Pristabdyta"
+
+msgid "Perform a full upgrade?"
+msgstr "Atlikti pilną atnaujinimą?"
+
+msgid "Pins"
+msgstr "Prievadai"
+
+msgid "Please recompile and flash the micro-controller."
+msgstr "Perprogramuokite mikrovaldiklį."
+
+msgid "Power"
+msgstr "Maitinimas"
+
+msgid "Power On Printer"
+msgstr "Išjungti spausdintuvą"
+
+msgid "Pressure Advance:"
+msgstr "Slėgio kontrolė:"
+
+msgid "Print"
+msgstr "Spausdinti"
+
+msgid "Print Control"
+msgstr "Spausdinimo valdymas"
+
+msgid "Print Time"
+msgstr "Spausdinimo laikas"
+
+msgid "Printer"
+msgstr "Spausdintuvas"
+
+msgid "Printer Connections"
+msgstr "Prijungti spausdintuvai"
+
+msgid "Printer Select"
+msgstr "Išsirinkti spausdintuvą"
+
+msgid "Printing"
+msgstr "Spausdinama"
+
+msgid "Probe Offset"
+msgstr "Zondo poslinkis"
+
+msgid "Profile Name:"
+msgstr "Profilio vardas:"
+
+msgid "Provide KlipperScreen.log when asking for help.\n"
+msgstr "Prašydami pagalbos pateikite KlipperScreen.log.\n"
+
+msgid "Quad Gantry Level"
+msgstr "Diržų lygiavimas"
+
+msgid "Raise Nozzle"
+msgstr "Pakelti purkštuką"
+
+msgid "Recover"
+msgstr "Atstatyti"
+
+msgid "Recover Hard"
+msgstr "Pilnas atstatymas"
+
+msgid "Recover Soft"
+msgstr "Švelnus atstatymas"
+
+msgid "Reference"
+msgstr "Nuoroda"
+
+msgid "Refresh"
+msgstr "Atnaujinti"
+
+msgid "Rename/Move:"
+msgstr "Pervadinti/Perkelti:"
+
+msgid "Restart"
+msgstr "Perkrauti"
+
+msgid "Resume"
+msgstr "Tęsti"
+
+msgid "Retract"
+msgstr "Įtraukti"
+
+msgid "Retraction"
+msgstr "Išstumimas"
+
+msgid "Retraction Length"
+msgstr "Išstūmimo ilgis"
+
+msgid "Retraction Speed"
+msgstr "Išstūmimo greitis"
+
+msgid "Retry"
+msgstr "Pakartoti"
+
+msgid "Retrying"
+msgstr "Antras bandymas"
+
+msgid "Save"
+msgstr "Išsaugoti"
+
+msgid "Save Config"
+msgstr "Išsaugoti konfigūraciją"
+
+msgid "Save Z"
+msgstr "Išsaugoti Z"
+
+msgid "Save configuration?"
+msgstr "Išsaugoti konfigūraciją?"
+
+msgid "Saved"
+msgstr "Išsaugota"
+
+#, python-format
+msgid "Saved offset: %s"
+msgstr "Išsaugotas poslinkis: %s"
+
+msgid "Screen DPMS"
+msgstr "Ekrano DPMS"
+
+msgid "Screen Power Off Time"
+msgstr "Ekrano išjungimo laikas"
+
+msgid "Screws Adjust"
+msgstr "Reguliuoti varžtus"
+
+msgid "Select"
+msgstr "Išsirinkti"
+
+msgid "Send"
+msgstr "Siūsti"
+
+msgid "Set Temp"
+msgstr "Nustatyta temperatūra"
+
+msgid "Settings"
+msgstr "Nustatymai"
+
+msgid "Show"
+msgstr "Rodyti"
+
+msgid "Show Heater Power"
+msgstr "Rodyti šildytuvo galią"
+
+msgid "Show Scrollbars Buttons"
+msgstr "Rodyti stumdymo juostą"
+
+msgid "Shutdown"
+msgstr "Išjungti"
+
+msgid "Size"
+msgstr "Dydis"
+
+msgid "Slicer"
+msgstr "Slaiseris"
+
+msgid "Slicer:"
+msgstr "Slaiseris:"
+
+msgid "Small"
+msgstr "Mažas"
+
+msgid "Speed (mm/s)"
+msgstr "Greitis (mm/s)"
+
+msgid "Speed +"
+msgstr "Greitis +"
+
+msgid "Speed -"
+msgstr "Greitis -"
+
+msgid "Speed:"
+msgstr "Greitis:"
+
+msgid "Square Corner Velocity"
+msgstr "Stataus kampo greitis"
+
+msgid "Standby"
+msgstr "Laukiama"
+
+msgid "Start"
+msgstr "Pradėti"
+
+msgid "Starting WiFi Association"
+msgstr "WiFi prisijungimas"
+
+msgid "Starting recovery for"
+msgstr "Paleidžiamas atkūrimas"
+
+msgid "Starting update for"
+msgstr "Paleidžiami atnaujinimai"
+
+msgid "System"
+msgstr "Sistema"
+
+msgid "System Restart"
+msgstr "Sistemos perkrovimas"
+
+msgid "System Shutdown"
+msgstr "Išjungti sistemą"
+
+msgid "Temp (°C)"
+msgstr "Temperatūra (°С)"
+
+msgid "Temperature"
+msgstr "Temperatūra"
+
+msgid "Total:"
+msgstr "Viso:"
+
+msgid "Unknown Heater"
+msgstr "Nežinomas šildytuvas"
+
+msgid "Unknown screw position"
+msgstr "Nežinoma varžto padėtis"
+
+msgid "Unload"
+msgstr "Iškrauti"
+
+msgid "Unretract Extra Length"
+msgstr "Papildomas plastiko padavimo ilgis"
+
+msgid "Unretract Speed"
+msgstr "Įtraukimo greitis"
+
+msgid "Up To Date"
+msgstr "Atnaujinta"
+
+msgid "Update"
+msgstr "Atnaujinimai"
+
+msgid "Updating"
+msgstr "Atnaujinama"
+
+msgid "Uploaded"
+msgstr "Nusiųsta"
+
+msgid "XY Move Speed (mm/s)"
+msgstr "XY judėjimo greitis (mm/s)"
+
+msgid "XY Speed (mm/s)"
+msgstr "XY greitis (mm/s)"
+
+msgid "Z Calibrate"
+msgstr "Z kalibravimas"
+
+msgid "Z Move Speed (mm/s)"
+msgstr "Z judėjimo greitis (mm/s)"
+
+msgid "Z Speed (mm/s)"
+msgstr "Z greitis (mm/s)"
+
+msgid "Z Tilt"
+msgstr "Z polinkis"
+
+msgid "Z offset:"
+msgstr "Poslinkis Z:"
+
+msgid "commit"
+msgid_plural "commits"
+msgstr[0] "pakeitimas"
+msgstr[1] "pakeitimai"
+msgstr[2] "pakeitimai"
+
+msgid "dBm"
+msgstr "dBm"
+
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "valanda"
+msgstr[1] "valandos"
+msgstr[2] "valandos"
+
+msgid "macros that use 'rename_existing' are hidden"
+msgstr "makrokomandos, kurios naudoja 'rename_existing', yra paslėptos"
+
+msgid "macros with a name starting with '_' are hidden"
+msgstr "makrokomandos, kurių pavadinimas prasideda raide \"_\", yra paslėptos"
+
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "minutė"
+msgstr[1] "minutės"
+msgstr[2] "minutės"
+
+msgid "mm"
+msgstr "mm"
+
+msgid "mm/s"
+msgstr "mm/s"
+
+msgid "mm/s²"
+msgstr "mm/s²"
+
+msgid "mm³/s"
+msgstr "mm³/s"
+
+msgid "Leveling"
+msgstr "Lyginimas"
+
+msgid "The nozzle temperature is too low, Are you sure you want to heat it?"
+msgstr "Dūzės temperatūra per žema. Ar tikrai norite ją kaitinti?"
+
+msgid "General"
+msgstr "Bendra informacija"
+
+msgid "Turn off"
+msgstr "Išjungti"
+
+msgid "Brightest"
+msgstr "Šviesiausias"
+
+msgid "Manual"
+msgstr "Rankinis"
+
+msgid "Troubleshooting"
+msgstr "Problemų šalinimas"
+
+msgid "Cautions"
+msgstr "Įspėjimai"
+
+msgid "Maintenance"
+msgstr "Priežiūra"
+
+msgid "Calibration"
+msgstr "Kalibravimas"
+
+msgid "XY Offset"
+msgstr "XY poslinkis"
+
+msgid "Z Offset"
+msgstr "Z poslinkis"
+
+msgid "Only one extruder does not require calibration."
+msgstr "Tik vienas ekstrūderis nereikalauja kalibravimo."
+
+msgid "Please confirm left extruder position."
+msgstr "Patvirtinkite kairės ekstrūderio poziciją."
+
+msgid "Need to recalculate the offset value."
+msgstr "Reikia iš naujo apskaičiuoti poslinkio reikšmę."
+
+msgid "Error writing configuration"
+msgstr "Klaida rašant konfigūraciją"
+
+msgid "Please wait for the camera initialization to complete."
+msgstr "Palaukite, kol kamera bus paruošta."
+
+msgid "Please wait for the camera's fill light to light up for 5 seconds before clicking 'Start'"
+msgstr "Palaukite, kol kamerai užsidegs papildomas šviesos signalas 5 sekundėms prieš spustelėdami „Pradėti“."
+
+msgid "Couldn't get the calibration camera position."
+msgstr "Nepavyko gauti kalibravimo kameros pozicijos."
+
+msgid "Need home axis"
+msgstr "Reikia grįžti į namų ašį"
+
+msgid "Choose Language"
+msgstr "Pasirinkite kalbą"
+
+msgid "Choose Timezone"
+msgstr "Pasirinkite laiko juostą"
+
+msgid "Select WiFi"
+msgstr "Pasirinkite WiFi"
+
+msgid "Self-check"
+msgstr "Savęs patikra"
+
+msgid "Nozzle Heating"
+msgstr "Dūzės šildymas"
+
+msgid "Hot Bed Heating"
+msgstr "Karšto lovos šildymas"
+
+msgid "Nozzle Cooling Fan"
+msgstr "Dūzės vėdinimo ventiliatorius"
+
+msgid "Hotend Cooling Fan"
+msgstr "Karšto galinio vėdinimo ventiliatorius"
+
+msgid "Filament Detection"
+msgstr "Filamento aptikimas"
+
+msgid "Auto Leveling"
+msgstr "Automatinis lyginimas"
+
+msgid "WiFi"
+msgstr "WiFi"
+
+msgid "Power loss recovery, is resume print?"
+msgstr "Nuskaičius galiai, ar norite tęsti spausdinimą?"
+
+msgid "Please wait until the bed and nozzle is heated before calibrating."
+msgstr "Palaukite, kol lova ir dūzė bus pašildytos prieš kalibravimą."
+
+msgid "Current language:"
+msgstr "Dabartinė kalba:"
+
+msgid "Skip All"
+msgstr "Praleisti viską"
+
+msgid "Do not touch the printer during self-check."
+msgstr "Nelieskite spausdintuvo patikrinimo metu."
+
+msgid "Confirm"
+msgstr "Patvirtinti"
+
+msgid "Current timezone:"
+msgstr "Dabartinė laiko juosta:"
+
+msgid "Choose a timezone"
+msgstr "Pasirinkite laiko juostą"
+
+msgid "Choose a language"
+msgstr "Pasirinkite kalbą"
+
+msgid "Please wait for the print job to end"
+msgstr "Palaukite, kol spausdinimo užduotis bus baigta"
+
+msgid "Are you sure you wish to reset the printer?"
+msgstr "Ar tikrai norite pernaušinti spausdintuvą?"
+
+msgid "Data will be deleted"
+msgstr "Duomenys bus ištrinti"
+
+msgid "Reset Printer"
+msgstr "Pernaušinti spausdintuvą"
+
+msgid "Resetting printer, will restart, please wait..."
+msgstr "Spausdintuvas pernaušinamas, paleidžiamas iš naujo, palaukite..."
+
+msgid "Reset"
+msgstr "Pernaušinti"
+
+msgid "Poweroff"
+msgstr "Išjungti"
+
+msgid "Confirm Pos"
+msgstr "Patvirtinti poziciją"
+
+msgid "Shut down after printing completes"
+msgstr "Išjunkite po spausdinimo pabaigos"
+
+msgid "Voice Notify"
+msgstr "Balsinis pranešimas"
+
+msgid "Filament Box Power"
+msgstr "Filamentų dėžės maitinimas"
+
+msgid "If your calibration device is under the PEI, please lift the PEI after homing."
+msgstr "Jei jūsų kalibravimo įrenginys yra po PEI, prašome pakelti PEI po pradinio nustatymo."
+
+msgid "Homing the printer..."
+msgstr "Nustatoma spausdintuvo pradinė padėtis..."
+
+msgid "Starting dual nozzle height calibration..."
+msgstr "Pradedamas dvigubo purkštuko aukščio kalibravimas..."
+
+msgid "Please observe if the nozzle is positioned above the probe."
+msgstr "Prašome stebėti, ar purkštukas yra virš zondo."
+
+msgid "Warning: Negative value detected. This is dangerous and may damage the machine. Please recalibrate."
+msgstr "Įspėjimas: Aptikta neigiama reikšmė. Tai pavojinga ir gali sugadinti įrenginį. Prašome perkalibruoti."
+
+msgid "New nozzle height difference is: "
+msgstr "Naujas purkštuko aukščio skirtumas yra: "
+
+msgid "Warning: Current value is negative. This is dangerous and may damage the machine. Please recalibrate."
+msgstr "Įspėjimas: Dabartinė reikšmė yra neigiama. Tai pavojinga ir gali sugadinti įrenginį. Prašome perkalibruoti."
+
+msgid "Z Height Diff"
+msgstr "Z aukščio skirtumas"
+
+msgid "Adjust Zprobe Pos"
+msgstr "Koreguoti Zprobe padėtį"
+
+msgid "Need reboot, relaunch immediately?"
+msgstr "Reikia perkrauti, paleisti iš naujo nedelsiant?"
+
+msgid "Current nozzle height difference: "
+msgstr "Dabartinis purkštuko aukščio skirtumas: "
+
+msgid "New nozzle height difference: "
+msgstr "Naujas purkštuko aukščio skirtumas: "
+
+msgid "Dangerous nozzle height difference: "
+msgstr "Pavojingas purkštuko aukščio skirtumas: "
+
+msgid "Saved successfully!"
+msgstr "Succesvol opgeslagen!"
+
+# Feed Filament Box
+msgid "Edit"
+msgstr "Redaguoti"
+
+msgid "Filament Info"
+msgstr "Gijos informacija"
+
+msgid "Not found"
+msgstr "Nerasta"
+
+msgid "Vendor"
+msgstr "Gamintojas"
+
+msgid "Type"
+msgstr "Tipas"
+
+msgid "Color"
+msgstr "Spalva"
+
+msgid "Set Color"
+msgstr "Nustatyti spalvą"
+
+msgid "Filament Settings"
+msgstr "Gijos nustatymai"
+
+msgid "Multi-Material Box"
+msgstr "Kelių medžiagų dėžė"
+
+msgid "Are you sure you wish to restart the firmware?"
+msgstr "Ar tikrai norite paleisti firmware iš naujo?"
+
+msgid "Autofill filament disable"
+msgstr "Išjungti automatinį filamento užpildymą"
+
+msgid "Autofill filament enabled"
+msgstr "Automatinis filamento užpildymas įjungtas"
+
+msgid "Autofill filament: %s"
+msgstr "Automatinis filamento užpildymas: %s"
+
+msgid "Backing up configuration files."
+msgstr "Kopijuojami konfigūracijos failai."
+
+msgid "Calibrate Cutter Pos"
+msgstr "Kalibruoti kertiklio poziciją"
+
+msgid "Couldn't get the calibration cutter position."
+msgstr "Nepavyko gauti kertiklio kalibravimo pozicijos."
+
+msgid "Current filament indexes are:%s, active tool:%s"
+msgstr "Esamos filamento indeksai yra: %s, aktyvus įrankis: %s"
+
+msgid "Current filament indexes are:%s, active tool:%s, resume_tool:%s, pause_reason:%s"
+msgstr "Esamos filamento indeksai yra: %s, aktyvus įrankis: %s, tęstamas įrankis: %s, pauzės priežastis: %s"
+
+msgid "Current value is %s"
+msgstr "Esama reikšmė yra %s"
+
+msgid "Cut Filament Test"
+msgstr "Filamento kirtimo testas"
+
+msgid "Do you want to enable multi-material box?"
+msgstr "Ar norite įjungti daugiamačio medžiagos dėklą?"
+
+msgid "Do you want to use external filament?"
+msgstr "Ar norite naudoti išorinį filamantą?"
+
+msgid "Error: Offset values not found"
+msgstr "Klaida: nėra rastos nuokrypio reikšmės"
+
+msgid "Error: Z offset value not found"
+msgstr "Klaida: nėra rastos Z nuokrypio reikšmės"
+
+msgid "External Filament"
+msgstr "Išorinis filamantas"
+
+msgid "Extruder not hot enough"
+msgstr "Ekstruderis nepakankamai karštas"
+
+msgid "FEED error:External filament not removed"
+msgstr "DUODAS klaida: išorinis filamantas nebuvo pašalintas"
+
+msgid "Filament %s not found"
+msgstr "Filamanto %s nėra rasta"
+
+msgid "Filament Sensor%s: No filament detected, canceling print"
+msgstr "Filamento jutiklis %s: filamanto nėra aptiktas, spausdinimas nutraukiamas"
+
+msgid "Filament Sensor%s: No filament detected, pausing print"
+msgstr "Filamento jutiklis %s: filamanto nėra aptiktas, spausdinimas pristabdomas"
+
+msgid "Filament Sensor0: No filament detected, pausing print"
+msgstr "Filamento jutiklis 0: filamanto nėra aptiktas, spausdinimas pristabdomas"
+
+msgid "Filament Sensor1: No filament detected, pausing print"
+msgstr "Filamento jutiklis 1: filamanto nėra aptiktas, spausdinimas pristabdomas"
+
+msgid "Filament detected! Please remove filament from the hotend before enabling multi-material box."
+msgstr "Filamantas aptiktas! Prieš įjungdamas daugiamačio medžiagos dėklą, prašome pašalinti filamantą iš karšto galio."
+
+msgid "Missing required recovery data"
+msgstr "Trūksta būtimo atkurti duomenų"
+
+msgid "No power loss recovery data found"
+msgstr "Nerasta jėgos nutraukimo atkurimo duomenų"
+
+msgid "No valid params 'S'"
+msgstr "Neteisingi parametrai 'S'"
+
+msgid "No"
+msgstr "Ne"
+
+msgid "OK"
+msgstr "Gerai"
+
+msgid "Options"
+msgstr "Parinktys"
+
+msgid "Pause. The \"extruder\" extrude error!"
+msgstr "Pristabdymas. Ekstruderio išleidimo klaida!"
+
+msgid "Please exit the filament from the nozzle first"
+msgstr "Pirmiausia, prašome pašalinti filamantą iš trupmenos"
+
+msgid "Please fill in the voice number correctly: 0-start printing, 1-end printing, 2-outage detected, 3-cancel printing, 4-pause printing"
+msgstr "Prašome teisingai įvesti balsinį numerį: 0-pradėti spausdinimą, 1-užbaigti spausdinimą, 2-aptikta jėgos nutrauka, 3-atšaukti spausdinimą, 4-pristabdyti spausdinimą"
+
+msgid "Please select how you would like to proceed."
+msgstr "Prašome pasirinkti, kaip norite tęsti."
+
+msgid "Power loss recovery, resuming print."
+msgstr "Jėgos nutraukimo atkūrimas, tęsiama spausdinimas."
+
+msgid "Power loss, saving print states."
+msgstr "Jėgos nutraukimas, išsaugomi spausdinimo būsenos."
+
+msgid "Press feedsys button"
+msgstr "Paspauskite duomenų sistemos mygtuką"
+
+msgid "Print resumed from power loss position"
+msgstr "Spausdinimas tęsiamas iš jėgos nutraukimo pozicijos"
+
+msgid "Printer not homed"
+msgstr "Spausdintuvas nebuvo sugrąžintas į pradinę poziciją"
+
+msgid "RESUME error:autofill no fil"
+msgstr "TĘSTI klaida: automatinis užpildymas be filamanto"
+
+msgid "RESUME error:no fil"
+msgstr "TĘSTI klaida: be filamanto"
+
+msgid "RESUME error:residual fil"
+msgstr "TĘSTI klaida: likęs filamantas"
+
+msgid "Recovery data: Z=%s, File=%s, Pos=%s"
+msgstr "Atkūrimo duomenys: Z=%s, Failas=%s, Pozicija=%s"
+
+msgid "Save & Restart"
+msgstr "Išsaugoti ir paleisti iš naujo"
+
+msgid "T%s direct feed"
+msgstr "T%s tiesioginis duodas"
+
+msgid "T0 direct feed"
+msgstr "T0 tiesioginis duodas"
+
+msgid "T0 need exit filament"
+msgstr "T0 reikia pašalinti filamantą"
+
+msgid "T1 direct feed"
+msgstr "T1 tiesioginis duodas"
+
+msgid "T1 need exit filament"
+msgstr "T1 reikia pašalinti filamantą"
+
+msgid "T2 direct feed"
+msgstr "T2 tiesioginis duodas"
+
+msgid "T2 need exit filament"
+msgstr "T2 reikia pašalinti filamantą"
+
+msgid "T3 direct feed"
+msgstr "T3 tiesioginis duodas"
+
+msgid "T3 need exit filament"
+msgstr "T3 reikia pašalinti filamantą"
+
+msgid "The \"extruder\" extrude error!"
+msgstr "Ekstruderio išleidimo klaida!"
+
+msgid "The current toolheade is T%s"
+msgstr "Esamas įrankio galas yra T%s"
+
+msgid "The current toolheade is T0"
+msgstr "Esamas įrankio galas yra T0"
+
+msgid "The current toolheade is T1"
+msgstr "Esamas įrankio galas yra T1"
+
+msgid "The current toolheade is T2"
+msgstr "Esamas įrankio galas yra T2"
+
+msgid "The current toolheade is T3"
+msgstr "Esamas įrankio galas yra T3"
+
+msgid "The filament_box_%s no filament"
+msgstr "Filamanto dėklas %s neturi filamanto"
+
+msgid "The motor is wrong."
+msgstr "Variklis neteisingas."
+
+msgid "There is a residual filament, Please remove and continue"
+msgstr "Yra likęs filamantas, prašome pašalinti ir tęsti"
+
+msgid "There's a residual filament in box %s"
+msgstr "Dėkle %s yra likęs filamantas"
+
+msgid "There's a residual filament in box 1"
+msgstr "Dėkle 1 yra likęs filamantas"
+
+msgid "There's a residual filament in box 2"
+msgstr "Dėkle 2 yra likęs filamantas"
+
+msgid "There's a residual filament in box 3"
+msgstr "Dėkle 3 yra likęs filamantas"
+
+msgid "There's a residual filament in box 4"
+msgstr "Dėkle 4 yra likęs filamantas"
+
+msgid "Unknown fan"
+msgstr "Nežinomas ventilatorius"
+
+msgid "Unknown filament"
+msgstr "Nežinomas filamantas"
+
+msgid "Use external filament, please manually exit"
+msgstr "Naudojant išorinį filamantą, prašome rankiniu būdu pašalinti"
+
+msgid "Warning"
+msgstr "Įspėjimas"
+
+msgid "Yes"
+msgstr "Taip"
+
+msgid "auto shutdown error"
+msgstr "automatinio išjungimo klaida"
+
+msgid "bed_mash:%s"
+msgstr "ložto mazgas:%s"
+
+msgid "clean pause_reason"
+msgstr "valyti pauzės priežastį"
+
+msgid "cut filament"
+msgstr "kirpti filamantą"
+
+msgid "cutter press!"
+msgstr "kirpyklė spaudžia!"
+
+msgid "cutter release!"
+msgstr "kirpyklė išleidžia!"
+
+msgid "feed busy"
+msgstr "duodas užimtas"
+
+msgid "feed error"
+msgstr "duodas klaida"
+
+msgid "feed finish"
+msgstr "duodas baigtas"
+
+msgid "filament not removed"
+msgstr "filamantas nebuvo pašalintas"
+
+msgid "filament pause reason"
+msgstr "filamanto pauzės priežastis"
+
+msgid "filament press"
+msgstr "filamanto spaudimas"
+
+msgid "filament release"
+msgstr "filamanto išleidimas"
+
+msgid "filament remove"
+msgstr "filamanto pašalinimas"
+
+msgid "filament runout"
+msgstr "filamanto trūkumas"
+
+msgid "filament%s:%s"
+msgstr "filamantas%s:%s"
+
+msgid "flush filament"
+msgstr "išvalyti filamantą"
+
+msgid "motion sensor insert"
+msgstr "judesio jutiklio įterpimas"
+
+msgid "motion sensor runout"
+msgstr "judesio jutiklio trūkumas"
+
+msgid "motor_%s press"
+msgstr "variklis_%s spaudžia"
+
+msgid "motor_%s release"
+msgstr "variklis_%s išleidžia"
+
+msgid "motor_1 press"
+msgstr "variklis_1 spaudžia"
+
+msgid "motor_1 release"
+msgstr "variklis_1 išleidžia"
+
+msgid "motor_2 press"
+msgstr "variklis_2 spaudžia"
+
+msgid "motor_2 release"
+msgstr "variklis_2 išleidžia"
+
+msgid "motor_3 press"
+msgstr "variklis_3 spaudžia"
+
+msgid "motor_3 release"
+msgstr "variklis_3 išleidžia"
+
+msgid "motor_4 press"
+msgstr "variklis_4 spaudžia"
+
+msgid "motor_4 release"
+msgstr "variklis_4 išleidžia"
+
+msgid "no bed_mash name"
+msgstr "nėra ložto mazgo pavadinimo"
+
+msgid "no bed_mash"
+msgstr "nėra ložto mazgo"
+
+msgid "no enabled"
+msgstr "neįjungta"
+
+msgid "press button%s"
+msgstr "paspauskite mygtuką%s"
+
+msgid "press button1"
+msgstr "paspauskite mygtuką1"
+
+msgid "press button2"
+msgstr "paspauskite mygtuką2"
+
+msgid "press button3"
+msgstr "paspauskite mygtuką3"
+
+msgid "press button4"
+msgstr "paspauskite mygtuką4"
+
+msgid "remove filament"
+msgstr "pašalinti filamantą"
+
+msgid "residual filament%s"
+msgstr "likęs filamantas%s"
+
+msgid "residual filament0"
+msgstr "likęs filamantas0"
+
+msgid "residual filament1"
+msgstr "likęs filamantas1"
+
+msgid "residual filament2"
+msgstr "likęs filamantas2"
+
+msgid "residual filament3"
+msgstr "likęs filamantas3"
+
+msgid "resume:%s"
+msgstr "tęsti:%s"
+
+msgid "resume_tool:%s pause_reason:%s"
+msgstr "tęsti įrankį:%s pauzės priežastis:%s"
+
+msgid "Copy Print"
+msgstr "Kopijuoti spausdinimą"
+
+msgid "Mirror Print"
+msgstr "Veidrodinis spausdinimas"
+
+msgid "Manual Calibration"
+msgstr "Rankinis kalibravimas"
+
+msgid "Auto Calibration"
+msgstr "Automatinis kalibravimas"
+
+msgid "Calibration successful!"
+msgstr "Kalibravimas sėkmingas!"
+
+msgid "Auto calibration failed. Please clean the nozzle and try again."
+msgstr "Automatinis kalibravimas nepavyko. Išvalykite purkštuką ir bandykite dar kartą."
+
+msgid "Auto calibration is not available. Please install required dependencies."
+msgstr "Automatinis kalibravimas negalimas. Įdiekite reikiamas priklausomybes."
+
+msgid "Left extruder template saved"
+msgstr "Kairiojo ekstruderio šablonas išsaugotas"
+
+msgid "Right extruder template saved"
+msgstr "Dešiniojo ekstruderio šablonas išsaugotas"
+
+msgid "Failed to save template"
+msgstr "Nepavyko išsaugoti šablono"
+
+msgid "No template images found. Please perform manual calibration first."
+msgstr "Nerasta šablono vaizdų. Pirmiausia atlikite rankinį kalibravimą."
+
+msgid "Getting image of left extruder"
+msgstr "Gaunamas kairiojo ekstruderio vaizdas"
+
+msgid "Getting image of right extruder"
+msgstr "Gaunamas dešiniojo ekstruderio vaizdas"
+
+msgid "Left extruder calibration failed. Please clean the nozzle and try again."
+msgstr "Kairiojo ekstruderio kalibravimas nepavyko. Išvalykite purkštuką ir bandykite dar kartą."
+
+msgid "Right extruder calibration failed. Please clean the nozzle and try again."
+msgstr "Dešiniojo ekstruderio kalibravimas nepavyko. Išvalykite purkštuką ir bandykite dar kartą."
+
+msgid "left extruder pos: (%.3f, %.3f, %.3f)"
+msgstr "kairiojo ekstruderio padėtis: (%.3f, %.3f, %.3f)"
+
+msgid "Right extruder offset is (%.3f, %.3f, %.3f)"
+msgstr "Dešiniojo ekstruderio poslinkis yra (%.3f, %.3f, %.3f)"
+
+msgid "Please wait for the camera's fill light to light up for 5 seconds before clicking 'Manual Calibration' or 'Auto Calibration'"
+msgstr "Palaukite 5 sekundes, kol užsidegs kameros užpildymo šviesa, prieš spausdami 'Rankinis kalibravimas' arba 'Automatinis kalibravimas'"
+
+msgid "The door is open."
+msgstr "Durelės atidarytos."
+
+msgid "The door is closed."
+msgstr "Durelės uždarytos."
+
+msgid "Error getting origin offset values: %s"
+msgstr "Klaida gaunant pradinių poslinkio reikšmes: %s"
+
+msgid "Raise"
+msgstr "Pakelti"
+
+msgid "Lower"
+msgstr "Žeminti"
+
+msgid "Filament run out, pausing print"
+msgstr "Filamentas baigėsi, stabdau spausdinimą"
+
+msgid "Not in single extruder mode, pausing print"
+msgstr "Nėra vieno ekstrudoro režime, stabdau spausdinimą"
+
+msgid "Current sensor not configured, pausing print"
+msgstr "Esamas jutiklis nesukonfigūruotas, stabdau spausdinimą"
+
+msgid "Other sensor not configured, pausing print"
+msgstr "Kiti jutikliai nesukonfigūruoti, stabdau spausdinimą"
+
+msgid "Current extruder has filament, continuing print"
+msgstr "Eskistuojeis yra su filamente, tęsiu spausdinimą"
+
+msgid "Both extruders out of filament, pausing print"
+msgstr "Abu ekstrudoriai be filamento, stabdau spausdinimą"
+
+msgid "Filament run out, switching extruder"
+msgstr "Filamentas baigėsi, keičiu ekstrudorių"
+
+msgid "Switching to left extruder"
+msgstr "Keičiu į kairįjį ekstrudorius"
+
+msgid "Switching to right extruder"
+msgstr "Keičiu į dešinįjį ekstrudorius"
+
+msgid "Extruder switch complete, resuming print"
+msgstr "Ekstrudorio keitimas užbaigtas, tęsiu spausdinimą"
+
+msgid "Auto extruder switch already enabled"
+msgstr "Automatinis ekstrudorio keitimas jau įjungtas"
+
+msgid "Auto extruder switch enabled, this feature only works when printing with a single extruder"
+msgstr "Automatinis ekstrudorio keitimas įjungtas; ši funkcija veikia tik vieno ekstrudoriaus spausdinimo metu"
+
+msgid "Auto extruder switch already disabled"
+msgstr "Automatinis ekstrudorio keitimas jau išjungtas"
+
+msgid "Auto extruder switch disabled"
+msgstr "Automatinis ekstrudorio keitimas išjungtas"
+
+msgid "Extruder switch when filament run out"
+msgstr "Ekstrudorio keitimas, kai filamentas baigiasi"
+
+msgid "Filament Sensor0: No filament detected, canceling print."
+msgstr "Filamento jutiklis 0: Filamento nėra aptiktas, atsisakau spausdinimo."
+
+msgid "Filament Sensor1: No filament detected, canceling print."
+msgstr "Filamento jutiklis 1: Filamento nėra aptiktas, atsisakau spausdinimo."
+
+msgid "Active Extruder"
+msgstr "Aktyvus Ekstruderis"
+
+msgid "Active Extruder:"
+msgstr "Aktyvus Ekstruderis:"
+
+msgid "Bed Temp:"
+msgstr "Pagrindo Temp.:"
+
+msgid "Bed Temperature"
+msgstr "Pagrindo Temperatūra"
+
+msgid "Filename"
+msgstr "Failo Pavadinimas"
+
+msgid "Filename:"
+msgstr "Failo Pavadinimas:"
+
+msgid "Missing required information"
+msgstr "Trūksta būtinos informacijos"
+
+msgid "Nozzle Temp:"
+msgstr "Antgalio Temp.:"
+
+msgid "Nozzle Temperature"
+msgstr "Antgalio Temperatūra"
+
+msgid "Power Loss Recovery"
+msgstr "Maitinimo Praradimo Atkūrimas"
+
+msgid "Print Height"
+msgstr "Spausdinimo Aukštis"
+
+msgid "Print Height:"
+msgstr "Spausdinimo Aukštis:"
+
+msgid "Print height is less than 1mm"
+msgstr "Spausdinimo aukštis mažesnis nei 1mm"
+
+msgid "Recovery File"
+msgstr "Atkūrimo Failas"
+
+msgid "Resume Print"
+msgstr "Tęsti Spausdinimą"
+
+msgid "Tip: Please ensure the nozzle is about 0.1mm above the model"
+msgstr "Patarimas: Įsitikinkite, kad antgalis yra apie 0.1mm virš modelio"
+
+msgid "Force Move"
+msgstr "Priverstinis judėjimas"
+
+msgid "Force move: "
+msgstr "Priverstinis judėjimas:"
+
+msgid "Apply Z offset to Probe?"
+msgstr "Taikyti Z poslinkį zondui?"
+
+msgid "Left Extruder: %s%.3f"
+msgstr "Kairysis ekstruderis: %s%.3f"
+
+msgid "Left Extruder: Not adjusted"
+msgstr "Kairysis ekstruderis: Nekoreguotas"
+
+msgid "Right Extruder: %s%.3f"
+msgstr "Dešinysis ekstruderis: %s%.3f"
+
+msgid "Right Extruder: Not adjusted"
+msgstr "Dešinysis ekstruderis: Nekoreguotas"
+
+msgid "Apply Z offset to Endstop?"
+msgstr "Taikyti Z poslinkį galiniam jungikliui?"
+
+msgid "Remove Foam"
+msgstr "Pašalinti putas"
+
+msgid "Please remove the extruder foam and take out the door handle."
+msgstr "Prašome pašalinti ekstruderio putas ir išimti durų rankeną."
+
+msgid "Please click the Z raise button to raise the Z axis to remove the foam around the bottom of the case."
+msgstr "Spustelėkite Z kėlimo mygtuką, kad pakeltumėte Z ašį ir pašalintumėte putas aplink korpuso apačią."
+
+msgid "Print Issue Detected!"
+msgstr "Aptikta spausdinimo problema!"
+
+msgid "No prediction image available"
+msgstr "Prognozės vaizdas neprieinamas"
+
+msgid "Print resumed"
+msgstr "Spausdinimas tęsiamas"
+
+msgid "Failed to resume print"
+msgstr "Nepavyko tęsti spausdinimo"
+
+msgid "Print cancelled"
+msgstr "Spausdinimas atšauktas"
+
+msgid "Failed to cancel print"
+msgstr "Nepavyko atšaukti spausdinimo"
+
+msgid "Configure basic AI service settings. Enable the AI service to monitor your prints and adjust the confidence threshold for detection sensitivity."
+msgstr "Konfigūruokite pagrindinius AI paslaugos nustatymus. Įjunkite AI paslaugą, kad stebėtų jūsų spaudas ir sureguliuokite pasitikėjimo slenkstį aptikimo jautrumui."
+
+
+msgid "AI Detection Alert"
+msgstr "AI Aptikimo Įspėjimas"
+
+msgid "AI Monitor"
+msgstr "AI Monitorius"
+
+msgid "AI Settings"
+msgstr "AI Nustatymai"
+
+msgid "Detected defect: %s (Confidence: %.1f%%)"
+msgstr "Aptiktas defektas: %s (Patikimumas: %.1f%%)"
+
+msgid "AI Detection Error: %s"
+msgstr "AI aptikimo klaida: %s"
+
+msgid "AI Detection Service"
+msgstr "AI Aptikimo Tarnyba"
+
+msgid "AI Server URL"
+msgstr "AI Serverio URL"
+
+msgid "Confidence Threshold (%)"
+msgstr "Patikimumo Slenkstis (%)"
+
+msgid "Detection Interval (seconds)"
+msgstr "Aptikimo Intervalas (sekundės)"
+
+msgid "Auto Pause on Detection"
+msgstr "Automatinė Pauzė Aptikus"
+
+msgid "Enabled Defect Types"
+msgstr "Įgalinti Defektų Tipai"
+
+msgid "Camera Source"
+msgstr "Kameros Šaltinis"
+
+msgid "Camera URL"
+msgstr "Kameros URL"
+
+msgid "Continue Detection While Paused"
+msgstr "Tęsti Aptikimą Pauzės Metu"
+
+msgid "Sound Notification"
+msgstr "Garso Pranešimas"
+
+msgid "All valves closed"
+msgstr "Visi vožtuvai uždaryti"
+
+msgid "Auto Feed"
+msgstr "Auto padavimas"
+
+msgid "Auto feed started"
+msgstr "Auto padavimas paleistas"
+
+msgid "Blowback Valve"
+msgstr "Atpūtimo vožtuvas"
+
+msgid "Buffer"
+msgstr "Buferis"
+
+msgid "Buffer → Printhead"
+msgstr "Buferis → galvutė"
+
+msgid "Buffer Valve"
+msgstr "Buferio vožtuvas"
+
+msgid "Disconnected"
+msgstr "Atjungta"
+
+msgid "Dryer"
+msgstr "Džiovyklė"
+
+msgid "Dryer → Buffer"
+msgstr "Džiovyklė → buferis"
+
+msgid "Dryer Level"
+msgstr "Džiovyklės lygis"
+
+msgid "Dryer Sensor"
+msgstr "Džiovyklės jutiklis"
+
+msgid "Dryer Valve"
+msgstr "Džiovyklės vožtuvas"
+
+msgid "Feeder:"
+msgstr "Tiekimas:"
+
+msgid "Hopper"
+msgstr "Bunkeris"
+
+msgid "Hopper → Dryer"
+msgstr "Bunkeris → džiovyklė"
+
+msgid "Hopper Level"
+msgstr "Bunkerio lygis"
+
+msgid "Hopper Valve"
+msgstr "Bunkerio vožtuvas"
+
+msgid "Pressure:"
+msgstr "Slėgis:"
+
+msgid "Printhead"
+msgstr "Galvutė"
+
+msgid "Printhead 1"
+msgstr "Galvutė 1"
+
+msgid "Printhead 2"
+msgstr "Galvutė 2"
+
+msgid "Retract blowback"
+msgstr "Atpūtimo grąža"
+
+msgid "Retract started"
+msgstr "Atitraukimas paleistas"
+
+msgid "Run Mode:"
+msgstr "Režimas:"
+
+msgid "Stop All"
+msgstr "Stabdyti viską"
+
+msgid "To Dryer"
+msgstr "Į džiovyklę"
+
+msgid "To Buffer"
+msgstr "Į buferį"
+
+msgid "To Printhead"
+msgstr "Į galvutę"
+
+msgid "Return Buffer"
+msgstr "Grįžti į buferį"

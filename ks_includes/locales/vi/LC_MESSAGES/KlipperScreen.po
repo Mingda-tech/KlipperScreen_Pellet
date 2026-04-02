@@ -1,0 +1,1967 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-09 18:08-0300\n"
+"PO-Revision-Date: 2024-08-12 07:09+0000\n"
+"Last-Translator: Hiep Nguyen <tanhiep26@gmail.com>\n"
+"Language-Team: Vietnamese <https://hosted.weblate.org/projects/klipperscreen/"
+"klipperscreen/vi/>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.7-dev\n"
+
+#, python-format
+msgid "%s will be updated to version"
+msgstr "%s sẽ được cập nhật lên phiên bản"
+
+msgid "(default)"
+msgstr "(mặc định)"
+
+msgid "24 Hour Time"
+msgstr "Thời gian định dạng 24 giờ"
+
+msgid "A FIRMWARE_RESTART may fix the issue."
+msgstr "Một FIRMWARE_RESTART có thể sửa được vấn đề."
+
+msgid "ADXL Not Configured"
+msgstr "Gia tốc kế chưa được cấu hình"
+
+msgid "Abort"
+msgstr "Hủy"
+
+msgid "Acceleration:"
+msgstr "Gia tốc:"
+
+msgid "Accept"
+msgstr "Chấp nhận"
+
+msgid "Add profile"
+msgstr "Thêm hồ sơ"
+
+msgid "All"
+msgstr "Tất cả"
+
+msgid "Apply"
+msgstr "Áp dụng"
+
+#, python-format
+msgid "Apply %s%.3f offset to Endstop?"
+msgstr "Áp dụng %s%.3f offset cho Endstop?"
+
+#, python-format
+msgid "Apply %s%.3f offset to Probe?"
+msgstr "Áp dụng %s%.3f offset cho Probe?"
+
+msgid "Archived"
+msgstr "Đã lưu trữ"
+
+msgid "Are you sure do you want to exclude the object?"
+msgstr "Bạn có chắc chắn muốn loại bỏ vật này không?"
+
+msgid "Are you sure you want to run Emergency Stop?"
+msgstr "Bạn có chắc chắn muốn chạy Dừng Khẩn cấp không?"
+
+msgid "Are you sure you wish to cancel this print?"
+msgstr "Bạn có chắc chắn muốn hủy in này không?"
+
+msgid "Are you sure you wish to disable motors?"
+msgstr "Bạn có chắc chắn muốn tắt các động cơ không?"
+
+msgid "Are you sure you wish to reboot the system?"
+msgstr "Bạn có chắc chắn muốn khởi động lại hệ thống không?"
+
+msgid "Are you sure you wish to shutdown the system?"
+msgstr "Bạn có chắc chắn muốn tắt hệ thống không?"
+
+msgid "Asks for confirmation before stopping"
+msgstr "Yêu cầu xác nhận trước khi dừng lại"
+
+msgid "Auto"
+msgstr "Tự động"
+
+msgid "Auto-calibrate"
+msgstr "Tự động hiệu chuẩn"
+
+msgid "Auto-close notifications"
+msgstr "Tự động đóng thông báo"
+
+msgid "Auto-open Extrude On Pause"
+msgstr "Tự động mở Extrude Khi Tạm Dừng"
+
+msgid "Auto-scroll"
+msgstr "Tự động cuộn"
+
+msgid "Bed Level"
+msgstr "Cân bằng bàn"
+
+msgid "Bed Mesh"
+msgstr "Lưới bàn"
+
+msgid "Both"
+msgstr "Cả hai"
+
+msgid "Calibrate"
+msgstr "Hiệu chuẩn"
+
+msgid "Calibrated"
+msgstr "Đã hiệu chuẩn"
+
+msgid "Calibrating"
+msgstr "Đang hiệu chuẩn"
+
+msgid "Camera"
+msgstr "Máy ảnh"
+
+msgid "Can't set above the maximum:"
+msgstr "Không thể đặt cao hơn tối đa:"
+
+msgid "Cancel"
+msgstr "Hủy bỏ"
+
+msgid "Cancel Print"
+msgstr "Hủy in"
+
+msgid "Cancelled"
+msgstr "Đã hủy"
+
+msgid "Cancelling"
+msgstr "Đang hủy"
+
+msgid "Cannot connect to Moonraker"
+msgstr "Không thể kết nối với Moonraker"
+
+msgid "Changes how the interface looks"
+msgstr "Thay đổi cách giao diện hiển thị"
+
+msgid "Changes how the time remaining is calculated"
+msgstr "Thay đổi cách tính thời gian còn lại"
+
+msgid "Channel"
+msgstr "Kênh"
+
+msgid "Check ADXL Wiring"
+msgstr "Kiểm tra dây kết nối ADXL"
+
+msgid "Checking for updates, please wait..."
+msgstr "Đang kiểm tra cập nhật, vui lòng đợi..."
+
+msgid "Clear"
+msgstr "Xóa"
+
+msgid "Close"
+msgstr "Đóng"
+
+msgid "Close messages after a timeout"
+msgstr "Đóng tin nhắn sau một khoảng thời gian chờ"
+
+msgid "Complete"
+msgstr "Hoàn thành"
+
+msgid "Confirm Emergency Stop"
+msgstr "Xác nhận Dừng Khẩn cấp"
+
+msgid "Connected"
+msgstr "Đã kết nối"
+
+msgid "Connecting"
+msgstr "Kết nối"
+
+#, python-format
+msgid "Connecting to %s"
+msgstr "Đang kết nối đến %s"
+
+msgid "Connection failed"
+msgstr "Kết nối thất bại"
+
+msgid "Console"
+msgstr "Bảng điều khiển"
+
+msgid "Cooldown"
+msgstr "Làm nguội"
+
+msgid "Couldn't add network"
+msgstr "Không thể kết nối với mạng"
+
+msgid "Current"
+msgstr ""
+
+msgid "Current percentage and graph line"
+msgstr "Phần trăm hiện tại và đường đồ thị"
+
+msgid "DPMS has failed to load and has been disabled"
+msgstr "DPMS không thể tải và đã bị vô hiệu hóa"
+
+msgid "Date"
+msgstr "Ngày"
+
+msgid "Delete"
+msgstr "Xóa"
+
+msgid "Delete Directory?"
+msgstr "Xóa Thư mục?"
+
+msgid "Delete File?"
+msgstr "Xóa File?"
+
+msgid "Disable Motors"
+msgstr "Tắt Động cơ"
+
+msgid "Disable for 12hs with am / pm"
+msgstr ""
+
+msgid "Disconnect"
+msgstr ""
+
+msgid "Distance (mm)"
+msgstr "Khoảng cách (mm)"
+
+#, python-format
+msgid "Do you want to forget or disconnect %s?"
+msgstr ""
+
+#, python-format
+msgid "Do you want to recover %s?"
+msgstr "Bạn có muốn khôi phục %s không?"
+
+msgid "Elapsed:"
+msgstr "Đã qua:"
+
+msgid "Emergency Stop"
+msgstr "Dừng Khẩn cấp"
+
+msgid "Enable screen power management"
+msgstr "Bật quản lý nguồn màn hình"
+
+msgid "Error"
+msgstr "Lỗi"
+
+msgid "Error clearing active spool"
+msgstr "Lỗi khi xóa spool đang hoạt động"
+
+msgid "Error getting active spool"
+msgstr "Lỗi khi lấy spool đang hoạt động"
+
+msgid "Error setting active spool"
+msgstr "Lỗi khi đặt spool đang hoạt động"
+
+msgid "Error trying to fetch spools"
+msgstr "Lỗi khi tìm kiếm các spool"
+
+msgid "Error: Couldn't get a position to probe"
+msgstr "Lỗi: Không thể lấy vị trí để thăm dò"
+
+msgid "Estimated Time"
+msgstr ""
+
+msgid "Estimated Time Method"
+msgstr "Phương thức tính thời gian dự kiến"
+
+msgid "Example"
+msgstr ""
+
+msgid "Exclude Object"
+msgstr "Loại trừ vật in"
+
+msgid "Extra Large"
+msgstr "Lớn hơn"
+
+msgid "Extrude"
+msgstr "Đùn"
+
+msgid "Extruders"
+msgstr "Các bộ đùn"
+
+msgid "Extrusion +"
+msgstr "Nhựa đùn ra +"
+
+msgid "Extrusion -"
+msgstr "Nhựa đùng ra -"
+
+msgid "Failed to delete connection"
+msgstr ""
+
+msgid "Failed to initialize"
+msgstr ""
+
+msgid "Failed, adjust position first"
+msgstr "Không thành công, trước tiên hãy điều chỉnh vị trí"
+
+msgid "Fan"
+msgstr "Quạt"
+
+msgid "Filament"
+msgstr ""
+
+msgid "Filament Used"
+msgstr "Nhựa in đã dùng"
+
+msgid "Filament total:"
+msgstr "Tổng nhựa in:"
+
+msgid "Filament used:"
+msgstr "Nhựa đã dùng:"
+
+msgid "Filament:"
+msgstr "Nhựa:"
+
+msgid "File"
+msgstr "File"
+
+msgid "File:"
+msgstr "File:"
+
+msgid "Filter"
+msgstr "Bộ lọc"
+
+msgid "Finding ADXL"
+msgstr "Tìm kiếm gia tốc kế"
+
+msgid "Fine Tuning"
+msgstr "Tinh chỉnh"
+
+msgid "Finish"
+msgstr "Hoàn thành"
+
+msgid "Firmware Restart"
+msgstr "Khởi động lại bộ điều khiển"
+
+msgid "Flow:"
+msgstr "Lưu lượng nhựa đùn ra:"
+
+msgid "Flowrate:"
+msgstr "Lưu lượng nhựa đùn ra:"
+
+msgid "Font Size"
+msgstr "Kích thước hiển thị chữ"
+
+msgid "For mouse control or to verify touchscreen accuracy"
+msgstr ""
+
+msgid "Forget"
+msgstr ""
+
+msgid "Full Update"
+msgstr "Cập nhật toàn bộ"
+
+msgid "Gcodes"
+msgstr ""
+
+msgid "Getting IP address"
+msgstr ""
+
+msgid "Go Back"
+msgstr "Về trước"
+
+msgid "Height:"
+msgstr "Chiều cao:"
+
+msgid "Hide"
+msgstr "Ẩn"
+
+msgid "Hide sensors in Temp."
+msgstr "Ẩn các cảm biến trong nhệt."
+
+msgid "Home"
+msgstr "Home"
+
+msgid "Home All"
+msgstr "Home tất cả"
+
+msgid "Home X"
+msgstr "Home trục X"
+
+msgid "Home XY"
+msgstr "Home trục X và Y"
+
+msgid "Home Y"
+msgstr "Home trục Y"
+
+msgid "Home Z"
+msgstr "Home trục Z"
+
+msgid "Host"
+msgstr "Máy chủ chạy Klipper"
+
+msgid "Hostname"
+msgstr "Tên miền máy chủ"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Icon Theme"
+msgstr "Chủ đề biểu tượng"
+
+msgid "Initializing printer..."
+msgstr "Đang khởi tạo máy in..."
+
+msgid "Initiate a PID calibration for:"
+msgstr "Bắt đầu hiệu chỉnh PID cho:"
+
+msgid "Input Shaper"
+msgstr "Bộ định hình đầu vào"
+
+msgid "Insufficient privileges"
+msgstr ""
+
+msgid "Interface"
+msgstr "Giao diện"
+
+msgid "Invalid"
+msgstr "Không hợp lệ"
+
+msgid "Invalid password"
+msgstr "Mật khẩu không hợp lệ"
+
+#, fuzzy
+#| msgid "Temperature"
+msgid "Invalid temperature"
+msgstr "Nhiệt độ"
+
+msgid "Inversely affects the icon size"
+msgstr "Mật khẩu không hợp lệ"
+
+msgid "Invert X"
+msgstr "Đảo ngược trục X"
+
+msgid "Invert Y"
+msgstr "Đảo ngược trục Y"
+
+msgid "Invert Z"
+msgstr "Đảo ngược trục Z"
+
+msgid "It may take more than 5 minutes depending on the heater power."
+msgstr "Có thể mất hơn 5 phút tùy thuộc vào công suất máy sưởi."
+
+msgid "It's possible that the configuration is not correct"
+msgstr "Cấu hình có thể không chính xác"
+
+msgid "Job Status"
+msgstr ""
+
+msgid "Klipper Restart"
+msgstr "Khởi động lại Klipper"
+
+msgid "Klipper has disconnected"
+msgstr "Klipper đã bị ngắt kết nối"
+
+msgid "Klipper has encountered an error."
+msgstr "Klipper đã gặp lỗi."
+
+msgid "Klipper has shutdown"
+msgstr "Klipper đã tắt"
+
+msgid "Klipper is attempting to start"
+msgstr "Klipper đang cố gắng khởi động"
+
+msgid "Klipper will reboot"
+msgstr "Klipper sẽ khởi động lại"
+
+msgid ""
+"LOAD_FILAMENT/UNLOAD_FILAMENT are hidden and should be used from extrude"
+msgstr "Tải/Lấy nhựa ra được ẩn và nên sử dụng từ bảng điều khiển đùn"
+
+msgid "Language"
+msgstr "Ngôn ngữ"
+
+msgid "Large"
+msgstr "Lớn"
+
+msgid "Last Duration"
+msgstr ""
+
+msgid "Last Used"
+msgstr "Đã sử dụng lần cuối"
+
+msgid "Layer Height"
+msgstr ""
+
+msgid "Layer:"
+msgstr "Lớp:"
+
+msgid "Leds"
+msgstr "Đèn LED"
+
+msgid "Left:"
+msgstr "Còn lại:"
+
+msgid "Limits"
+msgstr "Giới hạn"
+
+msgid "Load"
+msgstr "Tải"
+
+msgid "Loading..."
+msgstr "Đang tải..."
+
+msgid "Lost Connection to Moonraker"
+msgstr "Mất kết nối tới Moonraker"
+
+msgid "Lower Nozzle"
+msgstr "Hạ đầu phun"
+
+msgid "Macro shortcut on sidebar"
+msgstr "Lối tắt macro trên thanh bên"
+
+msgid "Macros"
+msgstr "Các macro"
+
+msgid "Main Menu"
+msgstr "Menu chính"
+
+msgid "Material"
+msgstr "Vật liệu"
+
+msgid "Max"
+msgstr "Tối đa"
+
+msgid "Max Acceleration"
+msgstr "Gia tốc tối đa"
+
+msgid "Max Velocity"
+msgstr "Vận tốc tối đa"
+
+msgid "Max:"
+msgstr ""
+
+msgid "Maximum"
+msgstr "Cực đại"
+
+msgid "Measure Both"
+msgstr "Đo cả hai"
+
+msgid "Measure X"
+msgstr "Đo trục X"
+
+msgid "Measure Y"
+msgstr "Đo trục Y"
+
+msgid "Medium"
+msgstr "Vừa"
+
+msgid "Memory"
+msgstr "Bộ nhớ"
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "Minimum Cruise Ratio"
+msgstr "Tỉ lệ tối thiểu"
+
+msgid "Minimum:"
+msgstr ""
+
+msgid "Modified"
+msgstr "Đã chỉnh sửa"
+
+msgid "Moonraker: connected"
+msgstr "Moonraker: đã kết nối"
+
+msgid "More"
+msgstr "Thêm"
+
+msgid "Move"
+msgstr "Di chuyển"
+
+msgid "Move Distance (mm)"
+msgstr "Khoảng cách di chuyển (mm)"
+
+msgid "Name"
+msgstr "Tên"
+
+msgid "Network"
+msgstr "Mạng"
+
+msgid "Network connected"
+msgstr ""
+
+msgid "Network disconnected"
+msgstr ""
+
+msgid "Network not found"
+msgstr ""
+
+msgid "Never"
+msgstr "Không bao giờ"
+
+msgid "New"
+msgstr "Mới"
+
+msgid "No elegible macros:"
+msgstr "Không có macro hợp lệ:"
+
+msgid "No info available"
+msgstr ""
+
+msgid "No mesh has been loaded"
+msgstr "Không có lưới nào được tải"
+
+msgid "No wireless interface has been found"
+msgstr "Không tìm thấy giao diện không dây"
+
+msgid "Not all screens support this"
+msgstr "Không phải tất cả các màn hình đều hỗ trợ điều này"
+
+msgid "Not working or not configured"
+msgstr "Không hoạt động hoặc chưa được cấu hình"
+
+msgid "Nothing selected"
+msgstr "Không có gì được chọn"
+
+msgid "Notification log empty"
+msgstr "Nhật ký thông báo trống"
+
+msgid "Notifications"
+msgstr "Thông báo"
+
+msgid "Nozzle diameter"
+msgstr ""
+
+msgid "Only for the move panel"
+msgstr "Chỉ dành cho bảng điều khiển di chuyển"
+
+#, python-format
+msgid "Outdated by %d"
+msgstr "Lỗi thời bởi %d"
+
+msgid "Package will be updated"
+
+msgstr "Gói sẽ được cập nhật"
+
+msgid "Part Fan"
+msgstr "Quạt phần"
+
+#, fuzzy
+#| msgid "Password saved"
+msgid "Password"
+msgstr "Mật khẩu đã lưu"
+
+msgid "Password saved"
+msgstr "Mật khẩu đã lưu"
+
+msgid "Pause"
+msgstr "Tạm dừng"
+
+msgid "Paused"
+msgstr "Đã tạm dừng"
+
+msgid "Perform a full upgrade?"
+msgstr "Thực hiện nâng cấp toàn bộ?"
+
+msgid "Pins"
+msgstr "Chân cắm"
+
+msgid "Please recompile and flash the micro-controller."
+msgstr "Vui lòng biên dịch lại và nạp lại bộ điều khiển."
+
+msgid "Please wait"
+msgstr "Vui lòng đợi"
+
+msgid "Power"
+msgstr "Nguồn điện"
+
+msgid "Power On Printer"
+msgstr "Bật nguồn máy in"
+
+msgid "Pressure Advance"
+msgstr "Nâng áp suất"
+
+msgid "Pressure Advance:"
+msgstr "Nâng áp suất:"
+
+msgid "Pressure advance"
+msgstr ""
+
+msgid "Print"
+msgstr "In"
+
+msgid "Print Control"
+msgstr "Điều khiển in"
+
+msgid "Printer"
+msgstr "Máy in"
+
+msgid "Printer Connections"
+msgstr "Kết nối máy in"
+
+msgid "Printer Select"
+msgstr "Chọn máy in"
+
+msgid "Printing"
+msgstr "Đang in"
+
+msgid "Probe Offset"
+msgstr "Sai lệch đầu dò"
+
+msgid "Profile Name:"
+msgstr "Tên mô tả:"
+
+msgid "Provide KlipperScreen.log when asking for help.\n"
+msgstr "Cung cấp KlipperScreen.log khi cần trợ giúp.\n"
+
+msgid "Quad Gantry Level"
+msgstr "Cân chỉnh bốn trục"
+
+msgid "Raise Nozzle"
+msgstr "Nâng đầu phun"
+
+msgid "Recover"
+msgstr "Khôi phục"
+
+msgid "Recover Hard"
+msgstr "Khôi phục cứng"
+
+msgid "Recover Soft"
+msgstr "Khôi phục mềm"
+
+msgid "Reference"
+msgstr "Tham chiếu"
+
+msgid "Refresh"
+msgstr "Làm mới"
+
+msgid "Remove network"
+msgstr ""
+
+msgid "Rename/Move:"
+msgstr "Đổi tên/Di chuyển:"
+
+msgid "Restart"
+msgstr "Khởi động lại"
+
+msgid "Resume"
+msgstr "Tiếp tục"
+
+msgid "Retract"
+msgstr "Rút lại"
+
+msgid "Retraction"
+msgstr "Rút lại"
+
+msgid "Retraction Length"
+msgstr "Chiều dài rút lại"
+
+msgid "Retraction Speed"
+msgstr "Tốc độ rút lại"
+
+msgid "Retry"
+msgstr "Thử lại"
+
+msgid "Retrying"
+msgstr "Đang thử lại"
+
+msgid "Rotation invalid"
+msgstr "Vị trí không hợp lệ"
+
+msgid "Save"
+msgstr "Lưu"
+
+msgid "Save Config"
+msgstr "Lưu Cấu hình"
+
+msgid "Save Z"
+msgstr "Lưu Z"
+
+msgid "Save configuration?"
+msgstr "Lưu cấu hình?"
+
+msgid "Saved"
+msgstr "Đã lưu"
+
+#, python-format
+msgid "Saved offset: %s"
+msgstr "Đã lưu sai lệch: %s"
+
+msgid "Screen DPMS"
+msgstr "DPMS Màn hình"
+
+msgid "Screen Power Off Time"
+msgstr "Thời Gian Tắt Màn Hình"
+
+msgid "Screws Adjust"
+msgstr "Điều chỉnh Ốc vít"
+
+msgid "Screws not used:"
+msgstr "Ốc vít không được sử dụng:"
+
+msgid "Send"
+msgstr "Gửi"
+
+msgid "Set Temp"
+msgstr "Đặt Nhiệt độ"
+
+msgid "Settings"
+msgstr "Cài đặt"
+
+msgid "Show"
+msgstr "Hiển thị"
+
+msgid "Show Heater Power"
+msgstr "Hiển thị Công suất Bộ sưởi"
+
+msgid "Show Scrollbars Buttons"
+msgstr "Hiển thị Nút Thanh cuộn"
+
+msgid "Show cursor"
+msgstr ""
+
+msgid "Show only devices that are able to be set"
+msgstr "Chỉ hiển thị các thiết bị có thể được đặt"
+
+msgid "Shutdown"
+msgstr "Tắt nguồn"
+
+msgid "Size"
+msgstr "Kích thước"
+
+msgid "Slicer"
+msgstr "Phần mềm chia lớp"
+
+msgid "Slicer:"
+msgstr "Phần mềm chia lớp:"
+
+msgid "Small"
+msgstr "Nhỏ"
+
+msgid "Smooth time"
+msgstr ""
+
+msgid "Speed (mm/s)"
+msgstr "Tốc độ (mm/s)"
+
+msgid "Speed +"
+msgstr "Tốc độ +"
+
+msgid "Speed -"
+msgstr "Tốc độ -"
+
+msgid "Speed:"
+msgstr "Tốc độ:"
+
+msgid "Square Corner Velocity"
+msgstr "Tốc độ Góc Vuông"
+
+msgid "Standby"
+msgstr "Chế độ Chờ"
+
+msgid "Start"
+msgstr "Bắt đầu"
+
+msgid "Starting recovery for"
+msgstr "Bắt đầu phục hồi cho"
+
+msgid "Starting update for"
+msgstr "Bắt đầu cập nhật cho"
+
+msgid "Swaps buttons if they are on top of each other, affects other panels"
+msgstr ""
+"Đổi chỗ các nút nếu chúng nằm trên đỉnh nhau, ảnh hưởng đến các bảng điều "
+"khác"
+
+msgid "System"
+msgstr "Hệ thống"
+
+msgid "System Restart"
+msgstr "Khởi động lại Hệ thống"
+
+msgid "System Shutdown"
+msgstr "Tắt Hệ thống"
+
+msgid "System:"
+msgstr ""
+
+msgid "Temp (°C)"
+msgstr "Nhiệt độ (°C)"
+
+msgid "Temperature"
+msgstr "Nhiệt độ"
+
+msgid "Temperature too low to extrude"
+msgstr ""
+
+msgid "The system doesn't meet the minimum requirement"
+msgstr ""
+
+msgid "This panel supports up-to 9 screws in a 3x3 Grid"
+msgstr "Bảng điều này hỗ trợ tối đa 9 ốc vít trong lưới 3x3"
+
+msgid "This will affect screw positions and mesh graph"
+msgstr "Điều này sẽ ảnh hưởng đến vị trí ốc vít và biểu đồ lưới"
+
+msgid "Timeout for screen black-out or power-off"
+msgstr "Thời gian chờ để màn hình tắt hoặc nguồn tắt"
+
+msgid "Timeout for screen black-out or power-off during printing"
+msgstr "Thời gian chờ để màn hình tắt hoặc nguồn tắt trong quá trình in"
+
+msgid "Total:"
+msgstr "Tổng cộng:"
+
+msgid "Unknown Heater"
+msgstr "Bộ sưởi không xác định"
+
+msgid "Unknown security type"
+msgstr ""
+
+msgid "Unload"
+msgstr "Đã tải"
+
+msgid "Unretract Extra Length"
+msgstr "Độ dài rút thêm"
+
+msgid "Unretract Speed"
+msgstr "Tốc độ rút"
+
+msgid "Up To Date"
+msgstr "Cập Nhật"
+
+msgid "Update"
+msgstr "Cập nhật"
+
+msgid "Updating"
+msgstr "Đang cập nhật"
+
+msgid "Useful for un-responsive touchscreens"
+msgstr "Hữu ích cho màn hình cảm ứng không phản hồi"
+
+msgid "User"
+msgstr ""
+
+msgid "WebRTC is not supported by the backend trying Stream"
+msgstr "WebRTC không được hỗ trợ bởi backend đang thử Stream"
+
+msgid "Working"
+msgstr ""
+
+msgid "XY Move Speed (mm/s)"
+msgstr "Tốc độ Di chuyển XY (mm/s)"
+
+msgid "XY Speed (mm/s)"
+msgstr "Tốc độ XY (mm/s)"
+
+msgid "Z Calibrate"
+msgstr "Hiệu chuẩn Z"
+
+msgid "Z Move Speed (mm/s)"
+msgstr "Tốc độ Di chuyển Z (mm/s)"
+
+msgid "Z Speed (mm/s)"
+msgstr "Tốc độ Z (mm/s)"
+
+msgid "Z Tilt"
+msgstr "Nghiêng Z"
+
+msgid "Z offset:"
+msgstr "Độ lệch Z:"
+
+msgid "commit"
+
+msgstr "commit"
+
+msgid "day"
+
+msgstr "ngày"
+
+msgid "g"
+msgstr ""
+
+msgid "hour"
+
+msgstr "giờ"
+
+msgid "macros that use 'rename_existing' are hidden"
+msgstr "các macro sử dụng 'rename_existing' đã bị ẩn"
+
+msgid "macros with a name starting with '_' are hidden"
+msgstr "các macro có tên bắt đầu bằng '_' đã bị ẩn"
+
+msgid "minute"
+
+msgstr "phút"
+
+msgid "mm"
+msgstr "mm"
+
+msgid "mm/s"
+msgstr "mm/s"
+
+msgid "mm/s²"
+msgstr "mm/s²"
+
+msgid "mm³/s"
+msgstr "mm³/s"
+
+msgid "s"
+msgstr ""
+
+msgid "second"
+
+msgstr "giây"
+
+#~ msgid "Hide temp."
+#~ msgstr "Ẩn nhiệt độ."
+
+#~ msgid "PSK for"
+#~ msgstr "PSK cho"
+
+#~ msgid "Are you sure you want to stop the calibration?"
+#~ msgstr "Bạn có chắc chắn muốn dừng việc hiệu chuẩn không?"
+
+#~ msgid "Mesh calibrate"
+#~ msgstr "Cân chỉnh lưới"
+
+#~ msgid "Uploaded"
+#~ msgstr "Đã tải lên"
+
+#~ msgid "Ended official support in June 2023"
+#~ msgstr "Hỗ trợ chính thức kết thúc vào tháng 6 năm 2023"
+
+#~ msgid "Hidden"
+#~ msgstr "Ẩn"
+
+#~ msgid "KlipperScreen will drop support in June 2024"
+#~ msgstr "KlipperScreen sẽ ngừng hỗ trợ vào tháng 6 năm 2024"
+
+#~ msgid "Print Time"
+#~ msgstr "Thời gian in"
+
+#~ msgid "Starting WiFi Association"
+#~ msgstr "Bắt đầu Liên kết WiFi"
+
+#~ msgid "dBm"
+#~ msgstr "dBm"
+
+#~ msgid "Deselect"
+#~ msgstr "Hủy chọn"
+
+#~ msgid "Bed screw configuration:"
+#~ msgstr "Cấu hình ốc bàn in:"
+
+msgid "The nozzle temperature is too low, Are you sure you want to heat it?"
+msgstr "Nhiệt độ đầu phun quá thấp, bạn có chắc chắn muốn làm nóng nó không?"
+
+msgid "General"
+msgstr "Chung"
+
+msgid "Turn off"
+msgstr "Tắt"
+
+msgid "Manual"
+msgstr "Hướng dẫn sử dụng"
+
+msgid "Troubleshooting"
+msgstr "Xử lý sự cố"
+
+msgid "Cautions"
+msgstr "Cảnh báo"
+
+msgid "Maintenance"
+msgstr "Bảo trì"
+
+msgid "Calibration"
+msgstr "Hiệu chỉnh"
+
+msgid "XY Offset"
+msgstr "Hiệu chỉnh XY"
+
+msgid "Z Offset"
+msgstr "Hiệu chỉnh Z"
+
+msgid "Only one extruder does not require calibration."
+msgstr "Chỉ một đầu phun không cần hiệu chỉnh."
+
+msgid "Please confirm left extruder position."
+msgstr "Vui lòng xác nhận vị trí đầu phun bên trái."
+
+msgid "Need to recalculate the offset value."
+msgstr "Cần tính toán lại giá trị bù trừ."
+
+msgid "Error writing configuration"
+msgstr "Lỗi khi ghi cấu hình"
+
+msgid "Please wait for the camera initialization to complete."
+msgstr "Vui lòng đợi quá trình khởi tạo camera hoàn tất."
+
+msgid "Please wait for the camera's fill light to light up for 5 seconds before clicking 'Start'"
+msgstr "Vui lòng đợi đèn fill của camera sáng trong 5 giây trước khi nhấp vào 'Bắt đầu'"
+
+msgid "Couldn't get the calibration camera position."
+msgstr "Không thể lấy vị trí camera hiệu chỉnh."
+
+msgid "Need home axis"
+msgstr "Cần về gốc trục"
+
+msgid "Choose Language"
+msgstr "Chọn ngôn ngữ"
+
+msgid "Choose Timezone"
+msgstr "Chọn múi giờ"
+
+msgid "Select WiFi"
+msgstr "Chọn WiFi"
+
+msgid "Self-check"
+msgstr "Tự kiểm tra"
+
+msgid "Nozzle Heating"
+msgstr "Làm nóng đầu phun"
+
+msgid "Hot Bed Heating"
+msgstr "Làm nóng bàn nhiệt"
+
+msgid "Nozzle Cooling Fan"
+msgstr "Quạt làm mát đầu phun"
+
+msgid "Hotend Cooling Fan"
+msgstr "Quạt làm mát hotend"
+
+msgid "Filament Detection"
+msgstr "Phát hiện sợi nhựa"
+
+msgid "Auto Leveling"
+msgstr "Tự động cân bằng"
+
+msgid "WiFi"
+msgstr "WiFi"
+
+msgid "Power loss recovery, is resume print?"
+msgstr "Khôi phục sau mất điện, tiếp tục in?"
+
+msgid "Please wait until the bed and nozzle are heated before calibrating."
+msgstr "Vui lòng đợi cho đến khi bàn nhiệt và đầu phun được làm nóng trước khi hiệu chỉnh."
+
+msgid "Current language:"
+msgstr "Ngôn ngữ hiện tại:"
+
+msgid "Skip All"
+msgstr "Bỏ qua tất cả"
+
+msgid "Do not touch the printer during self-check."
+msgstr "Không chạm vào máy in trong quá trình tự kiểm tra."
+
+msgid "Confirm"
+msgstr "Xác nhận"
+
+msgid "Current timezone:"
+msgstr "Múi giờ hiện tại:"
+
+msgid "Choose a timezone"
+msgstr "Chọn múi giờ"
+
+msgid "Choose a language"
+msgstr "Chọn ngôn ngữ"
+
+msgid "Please wait for the print job to end"
+msgstr "Vui lòng đợi công việc in kết thúc"
+
+msgid "Are you sure you wish to reset the printer?"
+msgstr "Bạn có chắc chắn muốn đặt lại máy in không?"
+
+msgid "Data will be deleted"
+msgstr "Dữ liệu sẽ bị xóa"
+
+msgid "Reset Printer"
+msgstr "Đặt lại máy in"
+
+msgid "Resetting printer, will restart, please wait..."
+msgstr "Đang đặt lại máy in, sẽ khởi động lại, vui lòng đợi..."
+
+msgid "Reset"
+msgstr "Đặt lại"
+
+msgid "Confirm Pos"
+msgstr "Xác nhận vị trí"
+
+msgid "Shut down after printing completes"
+msgstr "Tắt máy sau khi in hoàn tất"
+
+msgid "Voice Notify"
+msgstr "Thông báo bằng giọng nói"
+
+msgid "Filament Box Power"
+msgstr "Nguồn điện hộp sợi nhựa"
+
+msgid "If your calibration device is under the PEI, please lift the PEI after homing."
+msgstr "Nếu thiết bị hiệu chỉnh của bạn nằm dưới PEI, vui lòng nâng PEI sau khi về gốc."
+
+msgid "Homing the printer..."
+msgstr "Đang đưa máy in về gốc..."
+
+msgid "Starting dual nozzle height calibration..."
+msgstr "Bắt đầu hiệu chỉnh chiều cao đầu phun kép..."
+
+msgid "Please observe if the nozzle is positioned above the probe."
+msgstr "Vui lòng quan sát xem đầu phun có được đặt phía trên đầu dò không."
+
+msgid "Warning: Negative value detected. This is dangerous and may damage the machine. Please recalibrate."
+msgstr "Cảnh báo: Phát hiện giá trị âm. Điều này nguy hiểm và có thể làm hỏng máy. Vui lòng hiệu chỉnh lại."
+
+msgid "New nozzle height difference is: "
+msgstr "Chênh lệch chiều cao đầu phun mới là: "
+
+msgid "Warning: Current value is negative. This is dangerous and may damage the machine. Please recalibrate."
+msgstr "Cảnh báo: Giá trị hiện tại là âm. Điều này nguy hiểm và có thể làm hỏng máy. Vui lòng hiệu chỉnh lại."
+
+msgid "Z Height Diff"
+msgstr "Chênh lệch chiều cao Z"
+
+msgid "Adjust Zprobe Pos"
+msgstr "Điều chỉnh vị trí đầu dò Z"
+
+msgid "Need reboot, relaunch immediately?"
+msgstr "Cần khởi động lại, khởi chạy lại ngay?"
+
+msgid "Current nozzle height difference: "
+msgstr "Chênh lệch chiều cao đầu phun hiện tại: "
+
+msgid "New nozzle height difference: "
+msgstr "Chênh lệch chiều cao đầu phun mới: "
+
+msgid "Dangerous nozzle height difference: "
+msgstr "Chênh lệch chiều cao đầu phun nguy hiểm: "
+
+msgid "Saved successfully!"
+msgstr "Đã lưu thành công!"
+
+# Feed Filament Box
+msgid "Edit"
+msgstr "Chỉnh sửa"
+
+msgid "Filament Info"
+msgstr "Thông tin dây nhựa"
+
+msgid "Not found"
+msgstr "Không tìm thấy"
+
+msgid "Vendor"
+msgstr "Nhà sản xuất"
+
+msgid "Type"
+msgstr "Loại"
+
+msgid "Color"
+msgstr "Màu sắc"
+
+msgid "Set Color"
+msgstr "Đặt màu"
+
+msgid "Filament Settings"
+msgstr "Cài đặt dây nhựa"
+
+msgid "Multi-Material Box"
+msgstr "Hộp đa vật liệu"
+
+msgid "Are you sure you wish to restart the firmware?"
+msgstr "Bạn có chắc chắn muốn khởi động lại phần mềm không?"
+
+msgid "Autofill filament disable"
+msgstr "Vô hiệu hóa tự động điền vật liệu"
+
+msgid "Autofill filament enabled"
+msgstr "Kích hoạt tự động điền vật liệu"
+
+msgid "Autofill filament: %s"
+msgstr "Tự động điền vật liệu: %s"
+
+msgid "Backing up configuration files."
+msgstr "Đang sao lưu các tệp cấu hình."
+
+msgid "Calibrate Cutter Pos"
+msgstr "Hiệu chuẩn vị trí cắt"
+
+msgid "Couldn't get the calibration cutter position."
+msgstr "Không thể lấy được vị trí hiệu chuẩn của máy cắt."
+
+msgid "Current filament indexes are:%s, active tool:%s"
+msgstr "Chỉ số vật liệu hiện tại là:%s, công cụ đang hoạt động:%s"
+
+msgid "Current filament indexes are:%s, active tool:%s, resume_tool:%s, pause_reason:%s"
+msgstr "Chỉ số vật liệu hiện tại là:%s, công cụ đang hoạt động:%s, công cụ tiếp tục:%s, lý do tạm dừng:%s"
+
+msgid "Current value is %s"
+msgstr "Giá trị hiện tại là %s"
+
+msgid "Cut Filament Test"
+msgstr "Kiểm tra cắt vật liệu"
+
+msgid "Do you want to enable multi-material box?"
+msgstr "Bạn có muốn kích hoạt hộp đa vật liệu không?"
+
+msgid "Do you want to use external filament?"
+msgstr "Bạn có muốn sử dụng vật liệu bên ngoài không?"
+
+msgid "Error: Offset values not found"
+msgstr "Lỗi: Không tìm thấy giá trị bù"
+
+msgid "Error: Z offset value not found"
+msgstr "Lỗi: Không tìm thấy giá trị bù Z"
+
+msgid "External Filament"
+msgstr "Vật liệu bên ngoài"
+
+msgid "Extruder not hot enough"
+msgstr "Đầu ép chưa đủ nóng"
+
+msgid "FEED error:External filament not removed"
+msgstr "Lỗi FEED: Vật liệu bên ngoài chưa được tháo ra"
+
+msgid "Filament %s not found"
+msgstr "Không tìm thấy vật liệu %s"
+
+msgid "Filament Sensor%s: No filament detected, canceling print"
+msgstr "Cảm biến vật liệu%s: Không phát hiện vật liệu, hủy bỏ in ấn"
+
+msgid "Filament Sensor%s: No filament detected, pausing print"
+msgstr "Cảm biến vật liệu%s: Không phát hiện vật liệu, tạm dừng in ấn"
+
+msgid "Filament Sensor0: No filament detected, pausing print"
+msgstr "Cảm biến vật liệu0: Không phát hiện vật liệu, tạm dừng in ấn"
+
+msgid "Filament Sensor1: No filament detected, pausing print"
+msgstr "Cảm biến vật liệu1: Không phát hiện vật liệu, tạm dừng in ấn"
+
+msgid "Filament detected! Please remove filament from the hotend before enabling multi-material box."
+msgstr "Phát hiện vật liệu! Xin vui lòng tháo vật liệu khỏi đầu nóng trước khi kích hoạt hộp đa vật liệu."
+
+msgid "Missing required recovery data"
+msgstr "Thiếu dữ liệu phục hồi cần thiết"
+
+msgid "No power loss recovery data found"
+msgstr "Không tìm thấy dữ liệu phục hồi mất điện"
+
+msgid "No valid params 'S'"
+msgstr "Không có tham số 'S' hợp lệ"
+
+msgid "No"
+msgstr "Không"
+
+msgid "OK"
+msgstr "Đồng ý"
+
+msgid "Options"
+msgstr "Tùy chọn"
+
+msgid "Pause. The \"extruder\" extrude error!"
+msgstr "Tạm dừng. Lỗi ép của \"đầu ép\"!"
+
+msgid "Please exit the filament from the nozzle first"
+msgstr "Xin vui lòng tháo vật liệu khỏi vòi phun trước"
+
+msgid "Please fill in the voice number correctly: 0-start printing, 1-end printing, 2-outage detected, 3-cancel printing, 4-pause printing"
+msgstr "Xin vui lòng nhập đúng số lệnh thoại: 0-bắt đầu in, 1-kết thúc in, 2-phát hiện mất điện, 3-hủy in, 4-tạm dừng in"
+
+msgid "Please select how you would like to proceed."
+msgstr "Xin vui lòng chọn cách bạn muốn tiếp tục."
+
+msgid "Power loss recovery, resuming print."
+msgstr "Phục hồi sau mất điện, tiếp tục in ấn."
+
+msgid "Power loss, saving print states."
+msgstr "Mất điện, đang lưu trạng thái in ấn."
+
+msgid "Press feedsys button"
+msgstr "Nhấn nút feedsys"
+
+msgid "Print resumed from power loss position"
+msgstr "Tiếp tục in từ vị trí mất điện"
+
+msgid "Printer not homed"
+msgstr "Máy in chưa về vị trí gốc"
+
+msgid "RESUME error:autofill no fil"
+msgstr "Lỗi TIẾP TỤC: không có vật liệu tự động điền"
+
+msgid "RESUME error:no fil"
+msgstr "Lỗi TIẾP TỤC: không có vật liệu"
+
+msgid "RESUME error:residual fil"
+msgstr "Lỗi TIẾP TỤC: còn vật liệu"
+
+msgid "Recovery data: Z=%s, File=%s, Pos=%s"
+msgstr "Dữ liệu phục hồi: Z=%s, Tệp=%s, Vị trí=%s"
+
+msgid "Save & Restart"
+msgstr "Lưu & Khởi động lại"
+
+msgid "T%s direct feed"
+msgstr "T%s cấp trực tiếp"
+
+msgid "T0 direct feed"
+msgstr "T0 cấp trực tiếp"
+
+msgid "T0 need exit filament"
+msgstr "T0 cần tháo vật liệu"
+
+msgid "T1 direct feed"
+msgstr "T1 cấp trực tiếp"
+
+msgid "T1 need exit filament"
+msgstr "T1 cần tháo vật liệu"
+
+msgid "T2 direct feed"
+msgstr "T2 cấp trực tiếp"
+
+msgid "T2 need exit filament"
+msgstr "T2 cần tháo vật liệu"
+
+msgid "T3 direct feed"
+msgstr "T3 cấp trực tiếp"
+
+msgid "T3 need exit filament"
+msgstr "T3 cần tháo vật liệu"
+
+msgid "The \"extruder\" extrude error!"
+msgstr "Lỗi ép của \"đầu ép\"!"
+
+msgid "The current toolheade is T%s"
+msgstr "Đầu công cụ hiện tại là T%s"
+
+msgid "The current toolheade is T0"
+msgstr "Đầu công cụ hiện tại là T0"
+
+msgid "The current toolheade is T1"
+msgstr "Đầu công cụ hiện tại là T1"
+
+msgid "The current toolheade is T2"
+msgstr "Đầu công cụ hiện tại là T2"
+
+msgid "The current toolheade is T3"
+msgstr "Đầu công cụ hiện tại là T3"
+
+msgid "The filament_box_%s no filament"
+msgstr "Hộp vật liệu_%s không có vật liệu"
+
+msgid "The motor is wrong."
+msgstr "Motor bị lỗi."
+
+msgid "There is a residual filament, Please remove and continue"
+msgstr "Còn vật liệu, xin vui lòng tháo và tiếp tục"
+
+msgid "There's a residual filament in box %s"
+msgstr "Có vật liệu dư trong hộp %s"
+
+msgid "There's a residual filament in box 1"
+msgstr "Có vật liệu dư trong hộp 1"
+
+msgid "There's a residual filament in box 2"
+msgstr "Có vật liệu dư trong hộp 2"
+
+msgid "There's a residual filament in box 3"
+msgstr "Có vật liệu dư trong hộp 3"
+
+msgid "There's a residual filament in box 4"
+msgstr "Có vật liệu dư trong hộp 4"
+
+msgid "Unknown fan"
+msgstr "Quạt không xác định"
+
+msgid "Unknown filament"
+msgstr "Vật liệu không xác định"
+
+msgid "Use external filament, please manually exit"
+msgstr "Sử dụng vật liệu bên ngoài, xin vui lòng tháo bằng tay"
+
+msgid "Warning"
+msgstr "Cảnh báo"
+
+msgid "Yes"
+msgstr "Có"
+
+msgid "auto shutdown error"
+msgstr "lỗi tắt máy tự động"
+
+msgid "bed_mash:%s"
+msgstr "giường_mash:%s"
+
+msgid "clean pause_reason"
+msgstr "làm sạch lý do tạm dừng"
+
+msgid "cut filament"
+msgstr "cắt vật liệu"
+
+msgid "cutter press!"
+msgstr "máy cắt đã nhấn!"
+
+msgid "cutter release!"
+msgstr "máy cắt đã thả!"
+
+msgid "feed busy"
+msgstr "đang cấp"
+
+msgid "feed error"
+msgstr "lỗi cấp"
+
+msgid "feed finish"
+msgstr "hoàn thành cấp"
+
+msgid "filament not removed"
+msgstr "vật liệu chưa được tháo"
+
+msgid "filament pause reason"
+msgstr "lý do tạm dừng vật liệu"
+
+msgid "filament press"
+msgstr "vật liệu đã nhấn"
+
+msgid "filament release"
+msgstr "vật liệu đã thả"
+
+msgid "filament remove"
+msgstr "tháo vật liệu"
+
+msgid "filament runout"
+msgstr "vật liệu hết"
+
+msgid "filament%s:%s"
+msgstr "vật liệu%s:%s"
+
+msgid "flush filament"
+msgstr "xả vật liệu"
+
+msgid "motion sensor insert"
+msgstr "chèn cảm biến chuyển động"
+
+msgid "motion sensor runout"
+msgstr "cảm biến chuyển động hết"
+
+msgid "motor_%s press"
+msgstr "motor_%s đã nhấn"
+
+msgid "motor_%s release"
+msgstr "motor_%s đã thả"
+
+msgid "motor_1 press"
+msgstr "motor_1 đã nhấn"
+
+msgid "motor_1 release"
+msgstr "motor_1 đã thả"
+
+msgid "motor_2 press"
+msgstr "motor_2 đã nhấn"
+
+msgid "motor_2 release"
+msgstr "motor_2 đã thả"
+
+msgid "motor_3 press"
+msgstr "motor_3 đã nhấn"
+
+msgid "motor_3 release"
+msgstr "motor_3 đã thả"
+
+msgid "motor_4 press"
+msgstr "motor_4 đã nhấn"
+
+msgid "motor_4 release"
+msgstr "motor_4 đã thả"
+
+msgid "no bed_mash name"
+msgstr "không có tên giường_mash"
+
+msgid "no bed_mash"
+msgstr "không có giường_mash"
+
+msgid "no enabled"
+msgstr "không kích hoạt"
+
+msgid "press button%s"
+msgstr "nhấn nút%s"
+
+msgid "press button1"
+msgstr "nhấn nút1"
+
+msgid "press button2"
+msgstr "nhấn nút2"
+
+msgid "press button3"
+msgstr "nhấn nút3"
+
+msgid "press button4"
+msgstr "nhấn nút4"
+
+msgid "remove filament"
+msgstr "tháo vật liệu"
+
+msgid "residual filament%s"
+msgstr "vật liệu dư%s"
+
+msgid "residual filament0"
+msgstr "vật liệu dư0"
+
+msgid "residual filament1"
+msgstr "vật liệu dư1"
+
+msgid "residual filament2"
+msgstr "vật liệu dư2"
+
+msgid "residual filament3"
+msgstr "vật liệu dư3"
+
+msgid "resume:%s"
+msgstr "tiếp tục:%s"
+
+msgid "resume_tool:%s pause_reason:%s"
+msgstr "tiếp tục_công_cụ:%s lý_do_tạm_dừng:%s"
+
+msgid "Copy Print"
+msgstr "In bản sao"
+
+msgid "Mirror Print"
+msgstr "In gương"
+
+msgid "Manual Calibration"
+msgstr "Hiệu chuẩn thủ công"
+
+msgid "Auto Calibration"
+msgstr "Hiệu chuẩn tự động"
+
+msgid "Calibration successful!"
+msgstr "Hiệu chuẩn thành công!"
+
+msgid "Auto calibration failed. Please clean the nozzle and try again."
+msgstr "Hiệu chuẩn tự động thất bại. Vui lòng làm sạch đầu phun và thử lại."
+
+msgid "Auto calibration is not available. Please install required dependencies."
+msgstr "Hiệu chuẩn tự động không khả dụng. Vui lòng cài đặt các phụ thuộc cần thiết."
+
+msgid "Left extruder template saved"
+msgstr "Đã lưu mẫu đầu phun trái"
+
+msgid "Right extruder template saved"
+msgstr "Đã lưu mẫu đầu phun phải"
+
+msgid "Failed to save template"
+msgstr "Không thể lưu mẫu"
+
+msgid "No template images found. Please perform manual calibration first."
+msgstr "Không tìm thấy hình ảnh mẫu. Vui lòng thực hiện hiệu chuẩn thủ công trước."
+
+msgid "Getting image of left extruder"
+msgstr "Đang lấy hình ảnh đầu phun trái"
+
+msgid "Getting image of right extruder"
+msgstr "Đang lấy hình ảnh đầu phun phải"
+
+msgid "Left extruder calibration failed. Please clean the nozzle and try again."
+msgstr "Hiệu chuẩn đầu phun trái thất bại. Vui lòng làm sạch đầu phun và thử lại."
+
+msgid "Right extruder calibration failed. Please clean the nozzle and try again."
+msgstr "Hiệu chuẩn đầu phun phải thất bại. Vui lòng làm sạch đầu phun và thử lại."
+
+msgid "left extruder pos: (%.3f, %.3f, %.3f)"
+msgstr "vị trí đầu phun trái: (%.3f, %.3f, %.3f)"
+
+msgid "Right extruder offset is (%.3f, %.3f, %.3f)"
+msgstr "Độ lệch đầu phun phải là (%.3f, %.3f, %.3f)"
+
+msgid "Please wait for the camera's fill light to light up for 5 seconds before clicking 'Manual Calibration' or 'Auto Calibration'"
+msgstr "Vui lòng đợi 5 giây cho đèn fill của camera sáng lên trước khi nhấp vào 'Hiệu chuẩn thủ công' hoặc 'Hiệu chuẩn tự động'"
+
+msgid "The door is open."
+msgstr "Cửa đang mở."
+
+msgid "The door is closed."
+msgstr "Cửa đã đóng."
+
+msgid "Error getting origin offset values: %s"
+msgstr "Lỗi khi lấy giá trị độ lệch gốc: %s"
+
+msgid "Raise"
+msgstr "Nâng lên"
+
+msgid "Lower"
+msgstr "Hạ xuống"
+
+msgid "Filament run out, pausing print"
+msgstr "Vật liệu filament đã hết, tạm dừng in ấn"
+
+msgid "Not in single extruder mode, pausing print"
+msgstr "Không ở chế độ một đầu phun, tạm dừng in ấn"
+
+msgid "Current sensor not configured, pausing print"
+msgstr "Cảm biến hiện tại chưa được cấu hình, tạm dừng in ấn"
+
+msgid "Other sensor not configured, pausing print"
+msgstr "Các cảm biến khác chưa được cấu hình, tạm dừng in ấn"
+
+msgid "Current extruder has filament, continuing print"
+msgstr "Đầu phun hiện tại có filament, tiếp tục in ấn"
+
+msgid "Both extruders out of filament, pausing print"
+msgstr "Cả hai đầu phun đều hết filament, tạm dừng in ấn"
+
+msgid "Filament run out, switching extruder"
+msgstr "Vật liệu filament đã hết, chuyển đổi đầu phun"
+
+msgid "Switching to left extruder"
+msgstr "Chuyển sang đầu phun bên trái"
+
+msgid "Switching to right extruder"
+msgstr "Chuyển sang đầu phun bên phải"
+
+msgid "Extruder switch complete, resuming print"
+msgstr "Việc chuyển đổi đầu phun hoàn tất, tiếp tục in ấn"
+
+msgid "Auto extruder switch already enabled"
+msgstr "Chế độ tự động chuyển đổi đầu phun đã được kích hoạt"
+
+msgid "Auto extruder switch enabled, this feature only works when printing with a single extruder"
+msgstr "Chế độ tự động chuyển đổi đầu phun đã được kích hoạt; tính năng này chỉ hoạt động khi in với một đầu phun"
+
+msgid "Auto extruder switch already disabled"
+msgstr "Chế độ tự động chuyển đổi đầu phun đã bị vô hiệu hóa"
+
+msgid "Auto extruder switch disabled"
+msgstr "Chế độ tự động chuyển đổi đầu phun đã bị tắt"
+
+msgid "Extruder switch when filament run out"
+msgstr "Chuyển đổi đầu phun khi vật liệu filament hết"
+
+msgid "Filament Sensor0: No filament detected, canceling print."
+msgstr "Cảm biến Filament 0: Không phát hiện filament, hủy bỏ in ấn."
+
+msgid "Filament Sensor1: No filament detected, canceling print."
+msgstr "Cảm biến Filament 1: Không phát hiện filament, hủy bỏ in ấn."
+
+msgid "Active Extruder"
+msgstr "Đầu Phun Hoạt Động"
+
+msgid "Active Extruder:"
+msgstr "Đầu Phun Hoạt Động:"
+
+msgid "Bed Temp:"
+msgstr "Nhiệt Độ Bàn:"
+
+msgid "Bed Temperature"
+msgstr "Nhiệt Độ Bàn"
+
+msgid "Filename"
+msgstr "Tên Tệp"
+
+msgid "Filename:"
+msgstr "Tên Tệp:"
+
+msgid "Missing required information"
+msgstr "Thiếu thông tin cần thiết"
+
+msgid "Nozzle Temp:"
+msgstr "Nhiệt Độ Đầu Phun:"
+
+msgid "Nozzle Temperature"
+msgstr "Nhiệt Độ Đầu Phun"
+
+msgid "Power Loss Recovery"
+msgstr "Khôi Phục Sau Mất Điện"
+
+msgid "Print Height"
+msgstr "Chiều Cao In"
+
+msgid "Print Height:"
+msgstr "Chiều Cao In:"
+
+msgid "Print height is less than 1mm"
+msgstr "Chiều cao in thấp hơn 1mm"
+
+msgid "Recovery File"
+msgstr "Tệp Khôi Phục"
+
+msgid "Resume Print"
+msgstr "Tiếp Tục In"
+
+msgid "Tip: Please ensure the nozzle is about 0.1mm above the model"
+msgstr "Mẹo: Hãy đảm bảo đầu phun cách mô hình khoảng 0.1mm"
+
+msgid "Force Move"
+msgstr "Di chuyển cưỡng bức"
+
+msgid "Force move: "
+msgstr "Di chuyển cưỡng bức:"
+
+msgid "Apply Z offset to Probe?"
+msgstr "Áp dụng độ lệch Z cho đầu dò?"
+
+msgid "Left Extruder: %s%.3f"
+msgstr "Đầu phun trái: %s%.3f"
+
+msgid "Left Extruder: Not adjusted"
+msgstr "Đầu phun trái: Chưa điều chỉnh"
+
+msgid "Right Extruder: %s%.3f"
+msgstr "Đầu phun phải: %s%.3f"
+
+msgid "Right Extruder: Not adjusted"
+msgstr "Đầu phun phải: Chưa điều chỉnh"
+
+msgid "Apply Z offset to Endstop?"
+msgstr "Áp dụng độ lệch Z cho công tắc hành trình?"
+
+msgid "Remove Foam"
+msgstr "Tháo bọt"
+
+msgid "Please remove the extruder foam and take out the door handle."
+msgstr "Vui lòng tháo bọt đầu đùn và lấy tay nắm cửa ra."
+
+msgid "Please click the Z raise button to raise the Z axis to remove the foam around the bottom of the case."
+msgstr "Vui lòng nhấp vào nút nâng Z để nâng trục Z và loại bỏ bọt xung quanh đáy vỏ máy."
+
+msgid "Print Issue Detected!"
+msgstr "Phát hiện vấn đề in ấn!"
+
+msgid "No prediction image available"
+msgstr "Không có hình ảnh dự đoán"
+
+msgid "Print resumed"
+msgstr "Đã tiếp tục in"
+
+msgid "Failed to resume print"
+msgstr "Không thể tiếp tục in"
+
+msgid "Print cancelled"
+msgstr "Đã hủy in"
+
+msgid "Failed to cancel print"
+msgstr "Không thể hủy in"
+
+msgid "Configure basic AI service settings. Enable the AI service to monitor your prints and adjust the confidence threshold for detection sensitivity."
+msgstr "Cấu hình cài đặt cơ bản của dịch vụ AI. Bật dịch vụ AI để giám sát quá trình in của bạn và điều chỉnh ngưỡng tin cậy cho độ nhạy phát hiện."
+
+
+msgid "AI Detection Alert"
+msgstr "Cảnh báo Phát hiện AI"
+
+msgid "AI Monitor"
+msgstr "Giám sát AI"
+
+msgid "AI Settings"
+msgstr "Cài đặt AI"
+
+msgid "Detected defect: %s (Confidence: %.1f%%)"
+msgstr "Phát hiện lỗi: %s (Độ tin cậy: %.1f%%)"
+
+msgid "AI Detection Error: %s"
+msgstr "Lỗi phát hiện AI: %s"
+
+msgid "AI Detection Service"
+msgstr "Dịch vụ phát hiện AI"
+
+msgid "AI Server URL"
+msgstr "URL máy chủ AI"
+
+msgid "Confidence Threshold (%)"
+msgstr "Ngưỡng tin cậy (%)"
+
+msgid "Detection Interval (seconds)"
+msgstr "Khoảng thời gian phát hiện (giây)"
+
+msgid "Auto Pause on Detection"
+msgstr "Tự động tạm dừng khi phát hiện"
+
+msgid "Enabled Defect Types"
+msgstr "Các loại lỗi được kích hoạt"
+
+msgid "Camera Source"
+msgstr "Nguồn camera"
+
+msgid "Local"
+msgstr "Nội bộ"
+
+msgid "Camera URL"
+msgstr "URL camera"
+
+msgid "Continue Detection While Paused"
+msgstr "Tiếp tục phát hiện khi tạm dừng"
+
+msgid "Sound Notification"
+msgstr "Thông báo bằng âm thanh"
+
+msgid "All valves closed"
+msgstr "Tất cả van đã đóng"
+
+msgid "Auto Feed"
+msgstr "Nạp tự động"
+
+msgid "Auto feed started"
+msgstr "Đã bật nạp tự động"
+
+msgid "Blowback Valve"
+msgstr "Van thổi ngược"
+
+msgid "Buffer"
+msgstr "Đệm"
+
+msgid "Buffer → Printhead"
+msgstr "Đệm → đầu in"
+
+msgid "Buffer Valve"
+msgstr "Van đệm"
+
+msgid "Disconnected"
+msgstr "Ngắt kết nối"
+
+msgid "Dryer"
+msgstr "Sấy"
+
+msgid "Dryer → Buffer"
+msgstr "Sấy → đệm"
+
+msgid "Dryer Level"
+msgstr "Mức sấy"
+
+msgid "Dryer Sensor"
+msgstr "Cảm biến sấy"
+
+msgid "Dryer Valve"
+msgstr "Van sấy"
+
+msgid "Feeder:"
+msgstr "Cấp liệu:"
+
+msgid "Hopper"
+msgstr "Phễu"
+
+msgid "Hopper → Dryer"
+msgstr "Phễu → sấy"
+
+msgid "Hopper Level"
+msgstr "Mức phễu"
+
+msgid "Hopper Valve"
+msgstr "Van phễu"
+
+msgid "Pressure:"
+msgstr "Áp suất:"
+
+msgid "Printhead"
+msgstr "Đầu in"
+
+msgid "Printhead 1"
+msgstr "Đầu in 1"
+
+msgid "Printhead 2"
+msgstr "Đầu in 2"
+
+msgid "Retract blowback"
+msgstr "Thổi ngược"
+
+msgid "Retract started"
+msgstr "Đã bắt đầu thu hồi"
+
+msgid "Run Mode:"
+msgstr "Chế độ:"
+
+msgid "Stop All"
+msgstr "Dừng tất cả"
+
+msgid "To Dryer"
+msgstr "Đến sấy"
+
+msgid "To Buffer"
+msgstr "Đến đệm"
+
+msgid "To Printhead"
+msgstr "Đến đầu in"
+
+msgid "Return Buffer"
+msgstr "Về đệm"

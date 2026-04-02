@@ -1,0 +1,1764 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 00:09-0300\n"
+"PO-Revision-Date: 2023-12-17 01:27+0000\n"
+"Last-Translator: Maxime Carrein <maxime.c.work@gmail.com>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/klipperscreen/"
+"klipperscreen/nl/>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#, python-format
+msgid "%s will be updated to version"
+msgstr "%s zal worden ge-update naar versie"
+
+msgid "(default)"
+msgstr "(standaard)"
+
+msgid "24 Hour Time"
+msgstr "24 Uurs Tijd"
+
+msgid "A FIRMWARE_RESTART may fix the issue."
+msgstr "Een FIRMWARE_RESTART kan het probleem oplossen."
+
+msgid "ADXL Not Configured"
+msgstr "ADXL Niet Geconfigureerd"
+
+msgid "Abort"
+msgstr "Annuleer"
+
+msgid "Acceleration:"
+msgstr "Acceleratie:"
+
+msgid "Accept"
+msgstr "Accepteer"
+
+msgid "Add profile"
+msgstr "Profiel toevoegen"
+
+msgid "All"
+msgstr "Alles"
+
+msgid "Apply"
+msgstr "Toepassen"
+
+#, python-format
+msgid "Apply %s%.3f offset to Endstop?"
+msgstr "Gebruik %s%.3f offset voor Eindstop?"
+
+#, python-format
+msgid "Apply %s%.3f offset to Probe?"
+msgstr "Gebruik %s%.3f offset voor Probe?"
+
+msgid "Archived"
+msgstr "Gearchiveerd"
+
+msgid "Are you sure do you want to exclude the object?"
+msgstr "Weet je zeker dat je het object wilt uitsluiten?"
+
+msgid "Are you sure you want to run Emergency Stop?"
+msgstr "Weet je zeker dat je de Noodstop wilt inschakelen?"
+
+msgid "Are you sure you wish to cancel this print?"
+msgstr "Weet je zeker dat je deze print wilt annuleren?"
+
+msgid "Are you sure you wish to disable motors?"
+msgstr "Weet je zeker dat je de motors wilt uitschakelen?"
+
+msgid "Are you sure you wish to reboot the system?"
+msgstr "Weet je zeker dat je het systeem wilt herstarten?"
+
+msgid "Are you sure you wish to shutdown the system?"
+msgstr "Weet je zeker dat je het systeem wilt afsluiten?"
+
+msgid "Auto"
+msgstr "Auto"
+
+msgid "Auto-calibrate"
+msgstr "Auto-kalibreren"
+
+msgid "Auto-close notifications"
+msgstr "Auto-sluit notificaties"
+
+msgid "Auto-open Extrude On Pause"
+msgstr "Auto-open Extrude na Pauze"
+
+msgid "Auto-scroll"
+msgstr "Auto-scroll"
+
+msgid "Bed Level"
+msgstr "Bed Level"
+
+msgid "Bed Mesh"
+msgstr "Bed Mesh"
+
+msgid "Bed screw configuration:"
+msgstr "Bed schroef configuratie:"
+
+msgid "Calibrate"
+msgstr "Kalibreer"
+
+msgid "Calibrated"
+msgstr "Gekalibreerd"
+
+msgid "Calibrating"
+msgstr "Kalibreren"
+
+msgid "Camera"
+msgstr "Camera"
+
+msgid "Can't set above the maximum:"
+msgstr "Kan niet boven maximum instellen:"
+
+msgid "Cancel"
+msgstr "Annuleer"
+
+msgid "Cancel Print"
+msgstr "Annuleer Print"
+
+msgid "Cancelled"
+msgstr "Geannuleerd"
+
+msgid "Cancelling"
+msgstr "Annuleren"
+
+msgid "Cannot connect to Moonraker"
+msgstr "Kan geen verbinding met Moonraker maken"
+
+msgid "Channel"
+msgstr "Kanaal"
+
+msgid "Check ADXL Wiring"
+msgstr "Controleer AXDL Bedrading"
+
+msgid "Checking for updates, please wait..."
+msgstr "Bezig met controleren van updates, moment geduld.."
+
+msgid "Clear"
+msgstr "Leegmaken"
+
+msgid "Close"
+msgstr "Sluiten"
+
+msgid "Complete"
+msgstr "Voltooid"
+
+msgid "Confirm Emergency Stop"
+msgstr "Bevestig Nood Stop"
+
+msgid "Connected"
+msgstr "Verbonden"
+
+#, python-format
+msgid "Connecting to %s"
+msgstr "Verbinden met %s"
+
+msgid "Connection failed"
+msgstr "Verbinding mislukt"
+
+msgid "Console"
+msgstr "Console"
+
+msgid "Cooldown"
+msgstr "Afkoelen"
+
+msgid "DPMS has failed to load and has been disabled"
+msgstr "DPMS kon niet worden geladen en is uitgeschakeld"
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "Delete Directory?"
+msgstr "Verwijder directory?"
+
+msgid "Delete File?"
+msgstr "Verwijder bestand?"
+
+msgid "Deselect"
+msgstr "Deselecteer"
+
+msgid "Disable Motors"
+msgstr "Motors Uitschakelen"
+
+msgid "Distance (mm)"
+msgstr "Afstand (mm)"
+
+#, python-format
+msgid "Do you want to recover %s?"
+msgstr "Wil je %s herstellen?"
+
+msgid "Elapsed:"
+msgstr "Verstreken:"
+
+msgid "Error"
+msgstr "Error"
+
+msgid "Estimated Time Method"
+msgstr "Schatting Tijd Methode"
+
+msgid "Exclude Object"
+msgstr "Uitsluiten Object"
+
+msgid "Extra Large"
+msgstr "Extra Groot"
+
+msgid "Extrude"
+msgstr "Extrude"
+
+msgid "Extrusion +"
+msgstr "Extrusion +"
+
+msgid "Extrusion -"
+msgstr "Extrusion -"
+
+msgid "Failed, adjust position first"
+msgstr "Mislukt, wijzig positie eerst"
+
+msgid "Fan"
+msgstr "Ventilator"
+
+msgid "Filament Used"
+msgstr "Filament Gebruikt"
+
+msgid "Filament total:"
+msgstr "Filament totaal:"
+
+msgid "Filament used:"
+msgstr "Filament gebruikt:"
+
+msgid "Filament:"
+msgstr "Filament:"
+
+msgid "File"
+msgstr "Bestand"
+
+msgid "File:"
+msgstr "Bestand:"
+
+msgid "Filter"
+msgstr "Filter"
+
+msgid "Finding ADXL"
+msgstr "Zoekt ADXL"
+
+msgid "Fine Tuning"
+msgstr "Fine Tuning"
+
+msgid "Finish"
+msgstr "Voltooi"
+
+msgid "Firmware Restart"
+msgstr "Firmware Herstarten"
+
+msgid "Flow:"
+msgstr "Flow:"
+
+msgid "Flowrate:"
+msgstr "Flowrate:"
+
+msgid "Font Size"
+msgstr "Lettertype Grootte"
+
+msgid "Full Update"
+msgstr "Volledige Update"
+
+msgid "Go Back"
+msgstr "Ga Terug"
+
+msgid "Height:"
+msgstr "Hoogte:"
+
+msgid "Hidden"
+msgstr "Verborgen"
+
+msgid "Hide"
+msgstr "Verberg"
+
+msgid "Hide sensors in Temp."
+msgstr "Verberg sensoren in Temp."
+
+msgid "Hide temp."
+msgstr "Verberg temp."
+
+msgid "Home"
+msgstr "Home"
+
+msgid "Home All"
+msgstr "Home alles"
+
+msgid "Home X"
+msgstr "Home X"
+
+msgid "Home XY"
+msgstr "Home XY"
+
+msgid "Home Y"
+msgstr "Home Y"
+
+msgid "Home Z"
+msgstr "Home Z"
+
+msgid "Host"
+msgstr "Host"
+
+msgid "Hostname"
+msgstr "Hostnaam"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Icon Theme"
+msgstr "Icoon Thema"
+
+msgid "Initializing printer..."
+msgstr "Initialiseren printer…"
+
+msgid "Initiate a PID calibration for:"
+msgstr "Initieer een PID-kalibratie voor:"
+
+msgid "Input Shaper"
+msgstr "Input Shaper"
+
+msgid "Interface"
+msgstr "Interface"
+
+msgid "Invalid"
+msgstr "Ongeldig"
+
+msgid "Invalid password"
+msgstr "Ongeldig wachtwoord"
+
+msgid "Invert X"
+msgstr "Invert X"
+
+msgid "Invert Y"
+msgstr "Invert Y"
+
+msgid "Invert Z"
+msgstr "Invert Z"
+
+msgid "It may take more than 5 minutes depending on the heater power."
+msgstr "Het kan meer dan 5 minuten duren op basis van de heater power."
+
+#msgid "Firmware Restart"
+#msgstr "Firmware opnieuw opstarten"
+
+msgid "Firmware has disconnected"
+msgstr "Firmware is verbonden"
+
+msgid "Firmware has encountered an error."
+msgstr "Er is een fout opgetreden in de firmware."
+
+msgid "Firmware has shutdown"
+msgstr "Firmware is uitgeschakeld"
+
+msgid "Firmware is attempting to start"
+msgstr "Firmware probeert te starten"
+
+msgid "Firmware will reboot"
+msgstr "Firmware zal opnieuw opstarten"
+
+msgid ""
+"LOAD_FILAMENT/UNLOAD_FILAMENT are hidden and should be used from extrude"
+msgstr ""
+"LOAD_FILAMENT/UNLOAD_FILAMENT zijn verborgen en kunnen worden gebruikt in "
+"extrude"
+
+msgid "Language"
+msgstr "Taal"
+
+msgid "Large"
+msgstr "Groot"
+
+msgid "Last Used"
+msgstr "Laatst Gebruikt"
+
+msgid "Layer:"
+msgstr "Laag:"
+
+msgid "Leds"
+msgstr "Leds"
+
+msgid "Left:"
+msgstr "Links:"
+
+msgid "Limits"
+msgstr "Limieten"
+
+msgid "Load"
+msgstr "Laad"
+
+msgid "Lower Nozzle"
+msgstr "Onderste Nozzle"
+
+msgid "Macro shortcut on sidebar"
+msgstr "Macro snelkoppeling in sidebar"
+
+msgid "Macros"
+msgstr "Macros"
+
+msgid "Main Menu"
+msgstr "Hoofd Menu"
+
+msgid "Material"
+msgstr "Materiaal"
+
+msgid "Max"
+msgstr "Max"
+
+msgid "Max Acceleration"
+msgstr "Max Acceleratie"
+
+msgid "Max Acceleration to Deceleration"
+msgstr "Max Acceleratie naar De-acceleratie"
+
+msgid "Max Velocity"
+msgstr "Max Velocity"
+
+msgid "Maximum"
+msgstr "Maximum"
+
+msgid "Measure Both"
+msgstr "Meet Beide"
+
+msgid "Measure X"
+msgstr "Meet X"
+
+msgid "Measure Y"
+msgstr "Meet Y"
+
+msgid "Medium"
+msgstr "Medium"
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "Mesh calibrate"
+msgstr "Mesh kalibreren"
+
+msgid "Modified"
+msgstr "Aangepast"
+
+msgid "Moonraker: connected"
+msgstr "Moonraker: verbonden"
+
+msgid "More"
+msgstr "Meer"
+
+msgid "Move"
+msgstr "Beweeg"
+
+msgid "Move Distance (mm)"
+msgstr "Beweeg Afstand (mm)"
+
+msgid "Name"
+msgstr "Naam"
+
+msgid "Network"
+msgstr "Netwerk"
+
+msgid "Never"
+msgstr "Nooit"
+
+msgid "New"
+msgstr "Nieuw"
+
+msgid "No elegible macros:"
+msgstr "Macros komen niet in aanmerking:"
+
+msgid ""
+"Not supported for auto-detection, it needs to be configured in klipperscreen."
+"conf"
+msgstr ""
+"Niet ondersteunt voor auto-detectie, dit moet worden geconfigureerd in "
+"klipperscreen.conf"
+
+msgid "Nothing selected"
+msgstr "Niets geselecteerd"
+
+#, python-format
+msgid "Outdated by %d"
+msgstr "Verouderd sinds %d"
+
+msgid "PSK for"
+msgstr "PSK voor"
+
+msgid "Package will be updated"
+
+msgstr "Pakket word ge-update"
+
+
+msgid "Part Fan"
+msgstr "Part Ventilator"
+
+msgid "Password saved"
+msgstr "Wachtwoord opgeslagen"
+
+msgid "Pause"
+msgstr "Pauzeer"
+
+msgid "Paused"
+msgstr "Gepauzeerd"
+
+msgid "Perform a full upgrade?"
+msgstr "Volledige upgrade uitvoeren?"
+
+msgid "Pins"
+msgstr "Pinnen"
+
+msgid "Please recompile and flash the micro-controller."
+msgstr "Hercompileer en flash de micro-controller aub."
+
+msgid "Power"
+msgstr "Stroom"
+
+msgid "Power On Printer"
+msgstr "Printer Aanzetten"
+
+msgid "Pressure Advance:"
+msgstr "Pressure Advance:"
+
+msgid "Print"
+msgstr "Print"
+
+msgid "Print Control"
+msgstr "Print Control"
+
+msgid "Print Time"
+msgstr "Print Tijd"
+
+msgid "Printer"
+msgstr "Printer"
+
+msgid "Printer Connections"
+msgstr "Printer Verbindingen"
+
+msgid "Printer Select"
+msgstr "Printer Selecteren"
+
+msgid "Printing"
+msgstr "Bezig met printen"
+
+msgid "Probe Offset"
+msgstr "Probe Offset"
+
+msgid "Profile Name:"
+msgstr "Profiel Naam:"
+
+msgid "Provide KlipperScreen.log when asking for help.\n"
+msgstr "Voeg KlipperScreen.log toe als je om hulp vraagt.\n"
+
+msgid "Quad Gantry Level"
+msgstr "Quad Gantry Level"
+
+msgid "Raise Nozzle"
+msgstr "Nozzle omhoog"
+
+msgid "Recover"
+msgstr "Herstellen"
+
+msgid "Recover Hard"
+msgstr "Hard Herstel"
+
+msgid "Recover Soft"
+msgstr "Soft Herstel"
+
+msgid "Reference"
+msgstr "Referentie"
+
+msgid "Refresh"
+msgstr "Refresh"
+
+msgid "Rename/Move:"
+msgstr "Hernoem/beweeg:"
+
+msgid "Restart"
+msgstr "Herstarten"
+
+msgid "Resume"
+msgstr "Hervatten"
+
+msgid "Retract"
+msgstr "Retract"
+
+msgid "Retraction"
+msgstr "Retraction"
+
+msgid "Retraction Length"
+msgstr "Retraction Lengte"
+
+msgid "Retraction Speed"
+msgstr "Retraction Snelheid"
+
+msgid "Retry"
+msgstr "Opnieuw"
+
+msgid "Retrying"
+msgstr "Probeert opnieuw"
+
+msgid "Save"
+msgstr "Opslaan"
+
+msgid "Save Config"
+msgstr "Config Opslaan"
+
+msgid "Save Z"
+msgstr "Z Opslaan"
+
+msgid "Save configuration?"
+msgstr "Configuratie opslaan?"
+
+msgid "Saved"
+msgstr "Opgeslagen"
+
+#, python-format
+msgid "Saved offset: %s"
+msgstr "Offset opgeslagen: %s"
+
+msgid "Screen DPMS"
+msgstr "Scherm DPMS"
+
+msgid "Screen Power Off Time"
+msgstr "Scherm Uitschakelen Tijd"
+
+msgid "Screws Adjust"
+msgstr "Schroeven Aanpassen"
+
+msgid "Select"
+msgstr "Selecteer"
+
+msgid "Send"
+msgstr "Verstuur"
+
+msgid "Set Temp"
+msgstr "Verander Temp"
+
+msgid "Settings"
+msgstr "Instellingen"
+
+msgid "Show"
+msgstr "Toon"
+
+msgid "Show Heater Power"
+msgstr "Toon Heater Stroom"
+
+msgid "Show Scrollbars Buttons"
+msgstr "Toon Scrollbars Knoppen"
+
+msgid "Shutdown"
+msgstr "Afsluiten"
+
+msgid "Size"
+msgstr "Afmetingen"
+
+msgid "Slicer"
+msgstr "Slicer"
+
+msgid "Slicer:"
+msgstr "Slicer:"
+
+msgid "Small"
+msgstr "Klein"
+
+msgid "Speed (mm/s)"
+msgstr "Snelheid (mm/s)"
+
+msgid "Speed +"
+msgstr "Snelheid +"
+
+msgid "Speed -"
+msgstr "Snelheid -"
+
+msgid "Speed:"
+msgstr "Snelheid:"
+
+msgid "Square Corner Velocity"
+msgstr "Square Corner Velocity"
+
+msgid "Standby"
+msgstr "Standby"
+
+msgid "Start"
+msgstr "Start"
+
+msgid "Starting WiFi Association"
+msgstr "WiFi Association starten"
+
+msgid "Starting recovery for"
+msgstr "Herstel starten voor"
+
+msgid "Starting update for"
+msgstr "Update starten voor"
+
+msgid "System"
+msgstr "Systeem"
+
+msgid "System Restart"
+msgstr "Systeem Herstarten"
+
+msgid "System Shutdown"
+msgstr "Systeem Afsluiten"
+
+msgid "Temp (°C)"
+msgstr "Temp (°C)"
+
+msgid "Temperature"
+msgstr "Temperatuur"
+
+msgid "Total:"
+msgstr "Totaal:"
+
+msgid "Unknown Heater"
+msgstr "Onbekende Heater"
+
+msgid "Unknown screw position"
+msgstr "Onbekende schroef positie"
+
+msgid "Unload"
+msgstr "Uitladen"
+
+msgid "Unretract Extra Length"
+msgstr "Unretract Extra Lengte"
+
+msgid "Unretract Speed"
+msgstr "Unretract Snelheid"
+
+msgid "Up To Date"
+msgstr "Up To Date"
+
+msgid "Update"
+msgstr "Update"
+
+msgid "Updating"
+msgstr "Bezig met updaten"
+
+msgid "Uploaded"
+msgstr "Geupload"
+
+msgid "XY Move Speed (mm/s)"
+msgstr "XY Move Snelheid (mm/s)"
+
+msgid "XY Speed (mm/s)"
+msgstr "XY Snelheid (mm/s)"
+
+msgid "Z Calibrate"
+msgstr "Z Kalibratie"
+
+msgid "Z Move Speed (mm/s)"
+msgstr "Z Move Snelheid (mm/s)"
+
+msgid "Z Speed (mm/s)"
+msgstr "Z Snelheid (mm/s)"
+
+msgid "Z Tilt"
+msgstr "Z Tilt"
+
+msgid "Z offset:"
+msgstr "Z offset:"
+
+msgid "commit"
+
+msgstr "commit"
+
+
+msgid "dBm"
+msgstr "dBm"
+
+msgid "hour"
+
+msgstr "uur"
+
+
+msgid "macros that use 'rename_existing' are hidden"
+msgstr "Macro's die 'rename_existing' gebruiken zijn verborgen"
+
+msgid "macros with a name starting with '_' are hidden"
+msgstr "macro's die beginnen met '_' zijn verborgen"
+
+msgid "minute"
+
+msgstr "minuut"
+
+
+msgid "mm"
+msgstr "mm"
+
+msgid "mm/s"
+msgstr "mm/s"
+
+msgid "mm/s²"
+msgstr "mm/s²"
+
+msgid "mm³/s"
+msgstr "mm³/s"
+
+#~ msgid "KlipperScreen will reboot"
+#~ msgstr "KlipperScreen zal herstarten"
+
+msgid "Continue"
+msgstr "Doorgaan"
+
+#~ msgid "Fullscreen"
+#~ msgstr "Volledig Scherm"
+
+#~ msgid "Actions"
+#~ msgstr "Acties"
+
+#~ msgid "Configuration"
+#~ msgstr "Configuratie"
+
+#~ msgid "Homing"
+#~ msgstr "Homing"
+
+#~ msgid "Disable XY"
+#~ msgstr "XY Uitschakelen"
+
+#~ msgid "Slicer Time correction (%)"
+#~ msgstr "Slicer Tijd correctie (%)"
+
+msgid "Leveling"
+msgstr "Nivelleren"
+
+msgid "The nozzle temperature is too low, Are you sure you want to heat it?"
+msgstr "De temperatuur van de nozzle is te laag. Weet u zeker dat u het wilt verwarmen?"
+
+msgid "General"
+msgstr "Algemeen"
+
+msgid "Turn off"
+msgstr "Uitzetten"
+
+msgid "Brightest"
+msgstr "Helderste"
+
+msgid "Manual"
+msgstr "Handmatig"
+
+msgid "Troubleshooting"
+msgstr "Probleemoplossing"
+
+msgid "Cautions"
+msgstr "Waarschuwingen"
+
+msgid "Maintenance"
+msgstr "Onderhoud"
+
+msgid "Calibration"
+msgstr "Kalibratie"
+
+msgid "XY Offset"
+msgstr "XY-offset"
+
+msgid "Z Offset"
+msgstr "Z-offset"
+
+msgid "Only one extruder does not require calibration."
+msgstr "Slechts één extruder hoeft niet te worden gekalibreerd."
+
+msgid "Please confirm left extruder position."
+msgstr "Bevestig de positie van de linker extruder."
+
+msgid "Need to recalculate the offset value."
+msgstr "De offsetwaarde moet opnieuw worden berekend."
+
+msgid "Error writing configuration"
+msgstr "Fout bij het schrijven van de configuratie"
+
+msgid "Please wait for the camera initialization to complete."
+msgstr "Wacht tot de camera-initialisatie is voltooid."
+
+msgid "Please wait for the camera's fill light to light up for 5 seconds before clicking 'Start'"
+msgstr "Wacht tot het invullicht van de camera 5 seconden brandt voordat u op 'Start' klikt."
+
+msgid "Couldn't get the calibration camera position."
+msgstr "Kon de positie van de kalibratiecamera niet verkrijgen."
+
+msgid "Need home axis"
+msgstr "Thuispositie van de as nodig"
+
+msgid "Choose Language"
+msgstr "Kies taal"
+
+msgid "Choose Timezone"
+msgstr "Kies tijdzone"
+
+msgid "Select WiFi"
+msgstr "Selecteer WiFi"
+
+msgid "Self-check"
+msgstr "Zelfcontrole"
+
+msgid "Nozzle Heating"
+msgstr "Nozzle verwarmen"
+
+msgid "Hot Bed Heating"
+msgstr "Hot bed verwarmen"
+
+msgid "Nozzle Cooling Fan"
+msgstr "Nozzle koelventilator"
+
+msgid "Hotend Cooling Fan"
+msgstr "Hotend koelventilator"
+
+msgid "Filament Detection"
+msgstr "Filamentdetectie"
+
+msgid "Auto Leveling"
+msgstr "Automatisch nivelleren"
+
+msgid "WiFi"
+msgstr "WiFi"
+
+msgid "Power loss recovery, is resume print?"
+msgstr "Herstel bij stroomuitval, doorgaan met afdrukken?"
+
+msgid "Please wait until the bed and nozzle are heated before calibrating."
+msgstr "Wacht tot het bed en de nozzle zijn verwarmd voordat u gaat kalibreren."
+
+msgid "Current language:"
+msgstr "Huidige taal:"
+
+msgid "Skip All"
+msgstr "Alles overslaan"
+
+msgid "Do not touch the printer during self-check."
+msgstr "Raak de printer niet aan tijdens zelfcontrole."
+
+msgid "Confirm"
+msgstr "Bevestigen"
+
+msgid "Current timezone:"
+msgstr "Huidige tijdzone:"
+
+msgid "Choose a timezone"
+msgstr "Kies een tijdzone"
+
+msgid "Choose a language"
+msgstr "Kies een taal"
+
+msgid "Please wait for the print job to end"
+msgstr "Wacht tot de afdrukopdracht is voltooid"
+
+msgid "Are you sure you wish to reset the printer?"
+msgstr "Weet u zeker dat u de printer wilt resetten?"
+
+msgid "Data will be deleted"
+msgstr "Gegevens worden verwijderd"
+
+msgid "Reset Printer"
+msgstr "Printer resetten"
+
+msgid "Resetting printer, will restart, please wait..."
+msgstr "Printer wordt gereset, zal opnieuw opstarten, even geduld..."
+
+msgid "Reset"
+msgstr "Resetten"
+
+msgid "Poweroff"
+msgstr "Uitzetten"
+
+msgid "Confirm Pos"
+msgstr "bevestig de positie"
+
+msgid "Shut down after printing completes"
+msgstr "Uitschakelen na voltooiing van het printen"
+
+msgid "Voice Notify"
+msgstr "Stemmelding"
+
+msgid "Filament Box Power"
+msgstr "Voeding van filamentdoos"
+
+msgid "If your calibration device is under the PEI, please lift the PEI after homing."
+msgstr "Als uw kalibratie-apparaat onder de PEI zit, til dan de PEI op na het homen."
+
+msgid "Homing the printer..."
+msgstr "Printer wordt gehomd..."
+
+msgid "Starting dual nozzle height calibration..."
+msgstr "Start dubbele spuitmond hoogte kalibratie..."
+
+msgid "Please observe if the nozzle is positioned above the probe."
+msgstr "Controleer of de spuitmond boven de sonde is gepositioneerd."
+
+msgid "Warning: Negative value detected. This is dangerous and may damage the machine. Please recalibrate."
+msgstr "Waarschuwing: Negatieve waarde gedetecteerd. Dit is gevaarlijk en kan de machine beschadigen. Kalibreer opnieuw."
+
+msgid "New nozzle height difference is: "
+msgstr "Nieuw hoogteverschil spuitmond is: "
+
+msgid "Warning: Current value is negative. This is dangerous and may damage the machine. Please recalibrate."
+msgstr "Waarschuwing: Huidige waarde is negatief. Dit is gevaarlijk en kan de machine beschadigen. Kalibreer opnieuw."
+
+msgid "Z Height Diff"
+msgstr "Z-hoogteverschil"
+
+msgid "Adjust Zprobe Pos"
+msgstr "Pas Zprobe-positie aan"
+
+msgid "Need reboot, relaunch immediately?"
+msgstr "Herstart nodig, onmiddellijk opnieuw starten?"
+
+msgid "Current nozzle height difference: "
+msgstr "Huidig hoogteverschil spuitmond: "
+
+msgid "New nozzle height difference: "
+msgstr "Nieuw hoogteverschil spuitmond: "
+
+msgid "Dangerous nozzle height difference: "
+msgstr "Gevaarlijk hoogteverschil spuitmond: "
+
+msgid "Saved successfully!"
+msgstr "Zapisano pomyślnie!"
+
+# Feed Filament Box
+msgid "Edit"
+msgstr "Bewerken"
+
+msgid "Filament Info"
+msgstr "Filament Info"
+
+msgid "(°C)"
+msgstr "(°C)"
+
+msgid "Not found"
+msgstr "Niet gevonden"
+
+msgid "Vendor"
+msgstr "Fabrikant"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "Color"
+msgstr "Kleur"
+
+msgid "Set Color"
+msgstr "Kleur instellen"
+
+msgid "Filament Settings"
+msgstr "Filament instellingen"
+
+msgid "Multi-Material Box"
+msgstr "Multi-materiaal box"
+
+msgid "Are you sure you wish to restart the firmware?"
+msgstr "Weet u zeker dat u de firmware wilt herstarten?"
+
+msgid "Autofill filament disable"
+msgstr "Automatische filamentvulling uitschakelen"
+
+msgid "Autofill filament enabled"
+msgstr "Automatische filamentvulling ingeschakeld"
+
+msgid "Autofill filament: %s"
+msgstr "Automatische filamentvulling: %s"
+
+msgid "Backing up configuration files."
+msgstr "Configuratiebestanden back-uppen."
+
+msgid "Calibrate Cutter Pos"
+msgstr "Schermpositie kalibreren"
+
+msgid "Couldn't get the calibration cutter position."
+msgstr "Kon de schermpositie voor kalibratie niet ophalen."
+
+msgid "Current filament indexes are:%s, active tool:%s"
+msgstr "Huidige filamentindexen zijn: %s, actief gereedschap: %s"
+
+msgid "Current filament indexes are:%s, active tool:%s, resume_tool:%s, pause_reason:%s"
+msgstr "Huidige filamentindexen zijn: %s, actief gereedschap: %s, hervatting gereedschap: %s, pauze reden: %s"
+
+msgid "Current value is %s"
+msgstr "Huidige waarde is %s"
+
+msgid "Cut Filament Test"
+msgstr "Filamentknip test"
+
+msgid "Do you want to enable multi-material box?"
+msgstr "Wilt u de meervoudig materiaalbak inschakelen?"
+
+msgid "Do you want to use external filament?"
+msgstr "Wilt u extern filament gebruiken?"
+
+msgid "Error: Offset values not found"
+msgstr "Fout: Offsetwaarden niet gevonden"
+
+msgid "Error: Z offset value not found"
+msgstr "Fout: Z-offsetwaarde niet gevonden"
+
+msgid "External Filament"
+msgstr "Extern filament"
+
+msgid "Extruder not hot enough"
+msgstr "Extruder is niet heet genoeg"
+
+msgid "FEED error:External filament not removed"
+msgstr "FEED-fout: Extern filament niet verwijderd"
+
+msgid "Filament %s not found"
+msgstr "Filament %s niet gevonden"
+
+msgid "Filament Sensor%s: No filament detected, canceling print"
+msgstr "Filamentsensor%s: Geen filament gedetecteerd, afdruk annuleren"
+
+msgid "Filament Sensor%s: No filament detected, pausing print"
+msgstr "Filamentsensor%s: Geen filament gedetecteerd, afdruk pauzeren"
+
+msgid "Filament Sensor0: No filament detected, pausing print"
+msgstr "Filamentsensor0: Geen filament gedetecteerd, afdruk pauzeren"
+
+msgid "Filament Sensor1: No filament detected, pausing print"
+msgstr "Filamentsensor1: Geen filament gedetecteerd, afdruk pauzeren"
+
+msgid "Filament detected! Please remove filament from the hotend before enabling multi-material box."
+msgstr "Filament gedetecteerd! Verwijder het filament uit de hotend voordat u de meervoudig materiaalbak inschakelt."
+
+msgid "Missing required recovery data"
+msgstr "Verplichte hersteldata ontbreken"
+
+msgid "No power loss recovery data found"
+msgstr "Geen hersteldata bij stroomonderbreking gevonden"
+
+msgid "No valid params 'S'"
+msgstr "Geen geldige parameters 'S'"
+
+msgid "No"
+msgstr "Nee"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Options"
+msgstr "Opties"
+
+msgid "Pause. The \"extruder\" extrude error!"
+msgstr "Pauze. Extruder-extrusiefout!"
+
+msgid "Please exit the filament from the nozzle first"
+msgstr "Haal eerst het filament uit de nozzle"
+
+msgid "Please fill in the voice number correctly: 0-start printing, 1-end printing, 2-outage detected, 3-cancel printing, 4-pause printing"
+msgstr "Vul het stemnummer correct in: 0-afdruk starten, 1-afdruk beëindigen, 2-stroomonderbreking gedetecteerd, 3-afdruk annuleren, 4-afdruk pauzeren"
+
+msgid "Please select how you would like to proceed."
+msgstr "Selecteer hoe u verder wilt gaan."
+
+msgid "Power loss recovery, resuming print."
+msgstr "Herstel na stroomonderbreking, afdruk hervatten."
+
+msgid "Power loss, saving print states."
+msgstr "Stroomonderbreking, afdrukstatus opslaan."
+
+msgid "Press feedsys button"
+msgstr "Druk op de feedsys-knop"
+
+msgid "Print resumed from power loss position"
+msgstr "Afdruk hervat vanaf stroomonderbrekingpositie"
+
+msgid "Printer not homed"
+msgstr "Printer niet thuisgebracht"
+
+msgid "RESUME error:autofill no fil"
+msgstr "RESUME-fout: automatische vulling geen filament"
+
+msgid "RESUME error:no fil"
+msgstr "RESUME-fout: geen filament"
+
+msgid "RESUME error:residual fil"
+msgstr "RESUME-fout: resterend filament"
+
+msgid "Recovery data: Z=%s, File=%s, Pos=%s"
+msgstr "Hersteldata: Z=%s, Bestand=%s, Positie=%s"
+
+msgid "Save & Restart"
+msgstr "Opslaan en Herstarten"
+
+msgid "T%s direct feed"
+msgstr "T%s direct voeden"
+
+msgid "T0 direct feed"
+msgstr "T0 direct voeden"
+
+msgid "T0 need exit filament"
+msgstr "T0 filament verwijderen nodig"
+
+msgid "T1 direct feed"
+msgstr "T1 direct voeden"
+
+msgid "T1 need exit filament"
+msgstr "T1 filament verwijderen nodig"
+
+msgid "T2 direct feed"
+msgstr "T2 direct voeden"
+
+msgid "T2 need exit filament"
+msgstr "T2 filament verwijderen nodig"
+
+msgid "T3 direct feed"
+msgstr "T3 direct voeden"
+
+msgid "T3 need exit filament"
+msgstr "T3 filament verwijderen nodig"
+
+msgid "The \"extruder\" extrude error!"
+msgstr "De \"extruder\" extrusiefout!"
+
+msgid "The current toolheade is T%s"
+msgstr "Het huidige werktuigkop is T%s"
+
+msgid "The current toolheade is T0"
+msgstr "Het huidige werktuigkop is T0"
+
+msgid "The current toolheade is T1"
+msgstr "Het huidige werktuigkop is T1"
+
+msgid "The current toolheade is T2"
+msgstr "Het huidige werktuigkop is T2"
+
+msgid "The current toolheade is T3"
+msgstr "Het huidige werktuigkop is T3"
+
+msgid "The filament_box_%s no filament"
+msgstr "De filament_box_%s bevat geen filament"
+
+msgid "The motor is wrong."
+msgstr "De motor is fout."
+
+msgid "There is a residual filament, Please remove and continue"
+msgstr "Er is een resterend filament, verwijder en ga verder"
+
+msgid "There's a residual filament in box %s"
+msgstr "Er is een resterend filament in bak %s"
+
+msgid "There's a residual filament in box 1"
+msgstr "Er is een resterend filament in bak 1"
+
+msgid "There's a residual filament in box 2"
+msgstr "Er is een resterend filament in bak 2"
+
+msgid "There's a residual filament in box 3"
+msgstr "Er is een resterend filament in bak 3"
+
+msgid "There's a residual filament in box 4"
+msgstr "Er is een resterend filament in bak 4"
+
+msgid "Unknown fan"
+msgstr "Onbekende ventilator"
+
+msgid "Unknown filament"
+msgstr "Onbekend filament"
+
+msgid "Use external filament, please manually exit"
+msgstr "Gebruik extern filament, verwijder handmatig"
+
+msgid "Warning"
+msgstr "Waarschuwing"
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "auto shutdown error"
+msgstr "automatische afsluitfout"
+
+msgid "bed_mash:%s"
+msgstr "bed_mash:%s"
+
+msgid "clean pause_reason"
+msgstr "pauze_reden wissen"
+
+msgid "cut filament"
+msgstr "filament knippen"
+
+msgid "cutter press!"
+msgstr "knipper indrukken!"
+
+msgid "cutter release!"
+msgstr "knipper loslaten!"
+
+msgid "feed busy"
+msgstr "voeder bezig"
+
+msgid "feed error"
+msgstr "voederfout"
+
+msgid "feed finish"
+msgstr "voeder afgerond"
+
+msgid "filament not removed"
+msgstr "filament niet verwijderd"
+
+msgid "filament pause reason"
+msgstr "filament pauze reden"
+
+msgid "filament press"
+msgstr "filament indrukken"
+
+msgid "filament release"
+msgstr "filament loslaten"
+
+msgid "filament remove"
+msgstr "filament verwijderen"
+
+msgid "filament runout"
+msgstr "filament op"
+
+msgid "filament%s:%s"
+msgstr "filament%s:%s"
+
+msgid "flush filament"
+msgstr "filament doorvoeren"
+
+msgid "motion sensor insert"
+msgstr "bewegingsensor invoegen"
+
+msgid "motion sensor runout"
+msgstr "bewegingsensor leeg"
+
+msgid "motor_%s press"
+msgstr "motor_%s indrukken"
+
+msgid "motor_%s release"
+msgstr "motor_%s loslaten"
+
+msgid "motor_1 press"
+msgstr "motor_1 indrukken"
+
+msgid "motor_1 release"
+msgstr "motor_1 loslaten"
+
+msgid "motor_2 press"
+msgstr "motor_2 indrukken"
+
+msgid "motor_2 release"
+msgstr "motor_2 loslaten"
+
+msgid "motor_3 press"
+msgstr "motor_3 indrukken"
+
+msgid "motor_3 release"
+msgstr "motor_3 loslaten"
+
+msgid "motor_4 press"
+msgstr "motor_4 indrukken"
+
+msgid "motor_4 release"
+msgstr "motor_4 loslaten"
+
+msgid "no bed_mash name"
+msgstr "geen bed_mash naam"
+
+msgid "no bed_mash"
+msgstr "geen bed_mash"
+
+msgid "no enabled"
+msgstr "niet ingeschakeld"
+
+msgid "press button%s"
+msgstr "druk op knop%s"
+
+msgid "press button1"
+msgstr "druk op knop1"
+
+msgid "press button2"
+msgstr "druk op knop2"
+
+msgid "press button3"
+msgstr "druk op knop3"
+
+msgid "press button4"
+msgstr "druk op knop4"
+
+msgid "remove filament"
+msgstr "filament verwijderen"
+
+msgid "residual filament%s"
+msgstr "rest filament%s"
+
+msgid "residual filament0"
+msgstr "rest filament0"
+
+msgid "residual filament1"
+msgstr "rest filament1"
+
+msgid "residual filament2"
+msgstr "rest filament2"
+
+msgid "residual filament3"
+msgstr "rest filament3"
+
+msgid "resume:%s"
+msgstr "hervatten:%s"
+
+msgid "resume_tool:%s pause_reason:%s"
+msgstr "hervatten_gereedschap:%s pauze_reden:%s"
+
+msgid "Copy Print"
+msgstr "Kopieer afdruk"
+
+msgid "Mirror Print"
+msgstr "Spiegel afdruk"
+
+
+msgid "Manual Calibration"
+msgstr "Handmatige kalibratie"
+
+msgid "Auto Calibration"
+msgstr "Automatinis kalibravimas"
+
+msgid "Calibration successful!"
+msgstr "Kalibravimas sėkmingas!"
+
+msgid "Auto calibration failed. Please clean the nozzle and try again."
+msgstr "Automatinis kalibravimas nepavyko. Išvalykite purkštuką ir bandykite dar kartą."
+
+msgid "Auto calibration is not available. Please install required dependencies."
+msgstr "Automatinis kalibravimas negalimas. Įdiekite reikiamas priklausomybes."
+
+msgid "Left extruder template saved"
+msgstr "Kairiojo ekstruderio šablonas išsaugotas"
+
+msgid "Right extruder template saved"
+msgstr "Dešiniojo ekstruderio šablonas išsaugotas"
+
+msgid "Failed to save template"
+msgstr "Nepavyko išsaugoti šablono"
+
+msgid "No template images found. Please perform manual calibration first."
+msgstr "Nerasta šablono vaizdų. Pirmiausia atlikite rankinį kalibravimą."
+
+msgid "Getting image of left extruder"
+msgstr "Gaunamas kairiojo ekstruderio vaizdas"
+
+msgid "Getting image of right extruder"
+msgstr "Gaunamas dešiniojo ekstruderio vaizdas"
+
+msgid "Left extruder calibration failed. Please clean the nozzle and try again."
+msgstr "Kairiojo ekstruderio kalibravimas nepavyko. Išvalykite purkštuką ir bandykite dar kartą."
+
+msgid "Right extruder calibration failed. Please clean the nozzle and try again."
+msgstr "Dešiniojo ekstruderio kalibravimas nepavyko. Išvalykite purkštuką ir bandykite dar kartą."
+
+msgid "left extruder pos: (%.3f, %.3f, %.3f)"
+msgstr "kairiojo ekstruderio padėtis: (%.3f, %.3f, %.3f)"
+
+msgid "Right extruder offset is (%.3f, %.3f, %.3f)"
+msgstr "Dešiniojo ekstruderio poslinkis yra (%.3f, %.3f, %.3f)"
+
+msgid "Please wait for the camera's fill light to light up for 5 seconds before clicking 'Manual Calibration' or 'Auto Calibration'"
+msgstr "Palaukite 5 sekundes, kol užsidegs kameros užpildymo šviesa, prieš spausdami 'Rankinis kalibravimas' arba 'Automatinis kalibravimas'"
+
+msgid "The door is open."
+msgstr "Durelės atidarytos."
+
+msgid "The door is closed."
+msgstr "Durelės uždarytos."
+
+msgid "Error getting origin offset values: %s"
+msgstr "Klaida gaunant pradinių poslinkio reikšmes: %s"
+
+msgid "Raise"
+msgstr "Verheffen"
+
+msgid "Lower"
+msgstr "Verlagen"
+
+msgid "Filament run out, pausing print"
+msgstr "Het filament is op, pauzeer het printen"
+
+msgid "Not in single extruder mode, pausing print"
+msgstr "Niet in enkel-extrudeermode, pauzeer het printen"
+
+msgid "Current sensor not configured, pausing print"
+msgstr "Huidige sensor niet geconfigureerd, pauzeer het printen"
+
+msgid "Other sensor not configured, pausing print"
+msgstr "Andere sensoren niet geconfigureerd, pauzeer het printen"
+
+msgid "Current extruder has filament, continuing print"
+msgstr "De huidige extrudeer heeft filament, hervat het printen"
+
+msgid "Both extruders out of filament, pausing print"
+msgstr "Beide extruders zijn zonder filament, pauzeer het printen"
+
+msgid "Filament run out, switching extruder"
+msgstr "Het filament is op, wissel de extruder"
+
+msgid "Switching to left extruder"
+msgstr "Wisselen naar de linkse extruder"
+
+msgid "Switching to right extruder"
+msgstr "Wisselen naar de rechtse extruder"
+
+msgid "Extruder switch complete, resuming print"
+msgstr "Extruderwisseling voltooid, hervat het printen"
+
+msgid "Auto extruder switch already enabled"
+msgstr "Automatische extruderwisseling is al ingeschakeld"
+
+msgid "Auto extruder switch enabled, this feature only works when printing with a single extruder"
+msgstr "Automatische extruderwisseling is ingeschakeld; deze functie werkt alleen bij printen met een enkele extruder"
+
+msgid "Auto extruder switch already disabled"
+msgstr "Automatische extruderwisseling is al uitgeschakeld"
+
+msgid "Auto extruder switch disabled"
+msgstr "Automatische extruderwisseling is uitgeschakeld"
+
+msgid "Extruder switch when filament run out"
+msgstr "Extruderwisseling wanneer het filament op is"
+
+msgid "Filament Sensor0: No filament detected, canceling print."
+msgstr "Filaam-sensor 0: Geen filament gedetecteerd, annuleer het printen."
+
+msgid "Filament Sensor1: No filament detected, canceling print."
+msgstr "Filaam-sensor 1: Geen filament gedetecteerd, annuleer het printen."
+
+msgid "Active Extruder"
+msgstr "Actieve Extruder"
+
+msgid "Active Extruder:"
+msgstr "Actieve Extruder:"
+
+msgid "Bed Temp:"
+msgstr "Bed Temp:"
+
+msgid "Bed Temperature"
+msgstr "Bed Temperatuur"
+
+msgid "Filename"
+msgstr "Bestandsnaam"
+
+msgid "Filename:"
+msgstr "Bestandsnaam:"
+
+msgid "Missing required information"
+msgstr "Vereiste informatie ontbreekt"
+
+msgid "Nozzle Temp:"
+msgstr "Nozzle Temp:"
+
+msgid "Nozzle Temperature"
+msgstr "Nozzle Temperatuur"
+
+msgid "Power Loss Recovery"
+msgstr "Stroomuitval Herstel"
+
+msgid "Print Height"
+msgstr "Print Hoogte"
+
+msgid "Print Height:"
+msgstr "Print Hoogte:"
+
+msgid "Print height is less than 1mm"
+msgstr "Print hoogte is minder dan 1mm"
+
+msgid "Recovery File"
+msgstr "Herstel Bestand"
+
+msgid "Resume Print"
+msgstr "Print Hervatten"
+
+msgid "Tip: Please ensure the nozzle is about 0.1mm above the model"
+msgstr "Tip: Zorg ervoor dat de nozzle ongeveer 0.1mm boven het model staat"
+
+msgid "Force Move"
+msgstr "Geforceerde beweging"
+
+msgid "Force move: "
+msgstr "Geforceerde beweging:"
+
+msgid "Apply Z offset to Probe?"
+msgstr "Z-offset toepassen op sonde?"
+
+msgid "Left Extruder: %s%.3f"
+msgstr "Linker extruder: %s%.3f"
+
+msgid "Left Extruder: Not adjusted"
+msgstr "Linker extruder: Niet aangepast"
+
+msgid "Right Extruder: %s%.3f"
+msgstr "Rechter extruder: %s%.3f"
+
+msgid "Right Extruder: Not adjusted"
+msgstr "Rechter extruder: Niet aangepast"
+
+msgid "Apply Z offset to Endstop?"
+msgstr "Z-offset toepassen op eindstop?"
+
+msgid "Remove Foam"
+msgstr "Schuim verwijderen"
+
+msgid "Please remove the extruder foam and take out the door handle."
+msgstr "Verwijder het extruderschuim en haal de deurklink eruit."
+
+msgid "Please click the Z raise button to raise the Z axis to remove the foam around the bottom of the case."
+msgstr "Klik op de Z-omhoog knop om de Z-as te verhogen en het schuim rond de onderkant van de behuizing te verwijderen."
+
+msgid "Print Issue Detected!"
+msgstr "Printprobleem gedetecteerd!"
+
+msgid "No prediction image available"
+msgstr "Geen voorspellingsbeeld beschikbaar"
+
+msgid "Print resumed"
+msgstr "Print hervat"
+
+msgid "Failed to resume print"
+msgstr "Hervatten van print mislukt"
+
+msgid "Print cancelled"
+msgstr "Print geannuleerd"
+
+msgid "Failed to cancel print"
+msgstr "Annuleren van print mislukt"
+
+msgid "Configure basic AI service settings. Enable the AI service to monitor your prints and adjust the confidence threshold for detection sensitivity."
+msgstr "Configureer basis AI-service instellingen. Schakel de AI-service in om uw prints te monitoren en pas de betrouwbaarheidsdrempel aan voor detectiegevoeligheid."
+
+
+msgid "AI Detection Alert"
+msgstr "AI Detectie Waarschuwing"
+
+msgid "AI Monitor"
+msgstr "AI Monitor"
+
+msgid "AI Settings"
+msgstr "AI Instellingen"
+
+msgid "Detected defect: %s (Confidence: %.1f%%)"
+msgstr "Defect gedetecteerd: %s (Betrouwbaarheid: %.1f%%)"
+
+msgid "AI Detection Error: %s"
+msgstr "AI-detectiefout: %s"
+
+msgid "AI Detection Service"
+msgstr "AI Detectie Service"
+
+msgid "AI Server URL"
+msgstr "AI Server URL"
+
+msgid "Confidence Threshold (%)"
+msgstr "Betrouwbaarheidsdrempel (%)"
+
+msgid "Detection Interval (seconds)"
+msgstr "Detectie Interval (seconden)"
+
+msgid "Auto Pause on Detection"
+msgstr "Automatisch Pauzeren bij Detectie"
+
+msgid "Enabled Defect Types"
+msgstr "Ingeschakelde Defect Typen"
+
+msgid "Camera Source"
+msgstr "Camera Bron"
+
+msgid "Camera URL"
+msgstr "Camera URL"
+
+msgid "Continue Detection While Paused"
+msgstr "Detectie Voortzetten Tijdens Pauze"
+
+msgid "Sound Notification"
+msgstr "Geluidsnotificatie"
+
+msgid "All valves closed"
+msgstr "Alle kleppen dicht"
+
+msgid "Auto Feed"
+msgstr "Auto toevoer"
+
+msgid "Auto feed started"
+msgstr "Auto toevoer gestart"
+
+msgid "Blowback Valve"
+msgstr "Terugblaasklep"
+
+msgid "Buffer"
+msgstr "Buffer"
+
+msgid "Buffer → Printhead"
+msgstr "Buffer → printkop"
+
+msgid "Buffer Valve"
+msgstr "Bufferklep"
+
+msgid "Disconnected"
+msgstr "Niet verbonden"
+
+msgid "Dryer"
+msgstr "Droger"
+
+msgid "Dryer → Buffer"
+msgstr "Droger → buffer"
+
+msgid "Dryer Level"
+msgstr "Drogerniveau"
+
+msgid "Dryer Sensor"
+msgstr "Drogersensor"
+
+msgid "Dryer Valve"
+msgstr "Drogerklep"
+
+msgid "Feeder:"
+msgstr "Toevoer:"
+
+msgid "Hopper"
+msgstr "Trechter"
+
+msgid "Hopper → Dryer"
+msgstr "Trechter → droger"
+
+msgid "Hopper Level"
+msgstr "Trechterniveau"
+
+msgid "Hopper Valve"
+msgstr "Trechterklep"
+
+msgid "Pressure:"
+msgstr "Druk:"
+
+msgid "Printhead"
+msgstr "Printkop"
+
+msgid "Printhead 1"
+msgstr "Printkop 1"
+
+msgid "Printhead 2"
+msgstr "Printkop 2"
+
+msgid "Retract blowback"
+msgstr "Terugblazen"
+
+msgid "Retract started"
+msgstr "Terugtrekken gestart"
+
+msgid "Run Mode:"
+msgstr "Modus:"
+
+msgid "Stop All"
+msgstr "Stop alles"
+
+msgid "To Dryer"
+msgstr "Naar droger"
+
+msgid "To Buffer"
+msgstr "Naar buffer"
+
+msgid "To Printhead"
+msgstr "Naar kop"
+
+msgid "Return Buffer"
+msgstr "Terug naar buffer"

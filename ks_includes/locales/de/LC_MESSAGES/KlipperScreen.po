@@ -1,0 +1,1808 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR Elektrickser@gmail.com, 2021
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: KlipperScreen\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 00:09-0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.1\n"
+
+msgid "Active Extruder"
+msgstr "Aktiver Extruder"
+
+msgid "Active Extruder:"
+msgstr "Aktiver Extruder:"
+
+msgid "Bed Temp:"
+msgstr "Bett Temp:"
+
+msgid "Bed Temperature"
+msgstr "Bett Temperatur"
+
+msgid "Filename"
+msgstr "Dateiname"
+
+msgid "Filename:"
+msgstr "Dateiname:"
+
+msgid "Missing required information"
+msgstr "Erforderliche Informationen fehlen"
+
+msgid "Nozzle Temp:"
+msgstr "Düsen Temp:"
+
+msgid "Nozzle Temperature"
+msgstr "Düsen Temperatur"
+
+msgid "Power Loss Recovery"
+msgstr "Stromausfall Wiederherstellung"
+
+msgid "Print Height"
+msgstr "Druckhöhe"
+
+msgid "Print Height:"
+msgstr "Druckhöhe:"
+
+msgid "Print height is less than 1mm"
+msgstr "Druckhöhe ist weniger als 1mm"
+
+msgid "Recovery File"
+msgstr "Wiederherstellungsdatei"
+
+msgid "Resume Print"
+msgstr "Druck fortsetzen"
+
+msgid "Tip: Please ensure the nozzle is about 0.1mm above the model"
+msgstr "Tipp: Stellen Sie sicher, dass die Düse etwa 0,1mm über dem Modell ist"
+
+#, python-format
+msgid "%s will be updated to version"
+msgstr "%s wird auf Version aktualisiert"
+
+msgid "(default)"
+msgstr "(Standard)"
+
+msgid "24 Hour Time"
+msgstr "24h-Zeit"
+
+msgid "A FIRMWARE_RESTART may fix the issue."
+msgstr "Ein FIRMWARE_RESTART kann das Problem beheben."
+
+msgid "ADXL Not Configured"
+msgstr "ADXL nicht konfiguriert"
+
+msgid "Abort"
+msgstr "Abbrechen"
+
+msgid "Acceleration:"
+msgstr "Beschleunigung:"
+
+msgid "Accept"
+msgstr "OK"
+
+msgid "Add profile"
+msgstr "Profil hinzufügen"
+
+msgid "All"
+msgstr "Alle"
+
+msgid "Apply"
+msgstr "Anwenden"
+
+#, python-format
+msgid "Apply %s%.3f offset to Endstop?"
+msgstr "%s%.3f Offset auf Endschalter anwenden?"
+
+#, python-format
+msgid "Apply %s%.3f offset to Probe?"
+msgstr "%s%.3f Offset auf Sonde anwenden?"
+
+msgid "Archived"
+msgstr "Archiviert"
+
+msgid "Are you sure do you want to exclude the object?"
+msgstr "Möchtest du das Objekt wirklich ausschließen?"
+
+msgid "Are you sure you want to run Emergency Stop?"
+msgstr "Bist du sicher, dass du den Not-Aus ausführen möchtest?"
+
+msgid "Are you sure you wish to cancel this print?"
+msgstr "Möchtest du diesen Druck wirklich abbrechen?"
+
+msgid "Are you sure you wish to disable motors?"
+msgstr "Möchtest du die Motoren wirklich deaktivieren?"
+
+msgid "Are you sure you wish to reboot the system?"
+msgstr "Möchtest du das System wirklich neu starten?"
+
+msgid "Are you sure you wish to shutdown the system?"
+msgstr "Möchtest du das System wirklich herunterfahren?"
+
+msgid "Auto"
+msgstr "Auto"
+
+msgid "Auto-calibrate"
+msgstr "Automatisch kalibrieren"
+
+msgid "Auto-close notifications"
+msgstr "Benachrichtigungen automatisch schließen"
+
+msgid "Auto-open Extrude On Pause"
+msgstr "Extrudieren bei Pause automatisch öffnen"
+
+msgid "Auto-scroll"
+msgstr "Auto-scroll"
+
+msgid "Bed Level"
+msgstr "Druckbett leveln"
+
+msgid "Bed Mesh"
+msgstr "Druckbett Mesh"
+
+msgid "Bed screw configuration:"
+msgstr "Bettschraubenkonfiguration:"
+
+msgid "Calibrate"
+msgstr "Kalibrieren"
+
+msgid "Calibrated"
+msgstr "Kalibriert"
+
+msgid "Calibrating"
+msgstr "Kalibriere"
+
+msgid "Camera"
+msgstr "Kamera"
+
+msgid "Can't set above the maximum:"
+msgstr "Kann nicht über dem Maximum eingestellt werden:"
+
+msgid "Cancel"
+msgstr "Abbruch"
+
+msgid "Cancel Print"
+msgstr "Druck abbrechen"
+
+msgid "Cancelled"
+msgstr "Abgebrochen"
+
+msgid "Cancelling"
+msgstr "Wird abgebrochen"
+
+msgid "Cannot connect to Moonraker"
+msgstr "Es kann keine Verbindung zu Moonraker hergestellt werden"
+
+msgid "Channel"
+msgstr "Kanal"
+
+msgid "Check ADXL Wiring"
+msgstr "Überprüfe die ADXL-Verkabelung"
+
+msgid "Checking for updates, please wait..."
+msgstr "Suche nach Updates, bitte warten..."
+
+msgid "Clear"
+msgstr "Leeren"
+
+msgid "Close"
+msgstr "Schließen"
+
+msgid "Complete"
+msgstr "Fertiggestellt"
+
+msgid "Confirm Emergency Stop"
+msgstr "Not-Aus bestätigen"
+
+msgid "Connected"
+msgstr "Verbunden"
+
+#, python-format
+msgid "Connecting to %s"
+msgstr "Verbinden zu %s"
+
+msgid "Connection failed"
+msgstr "Verbindung fehlgeschlagen"
+
+msgid "Console"
+msgstr "Konsole"
+
+msgid "Cooldown"
+msgstr "Abkühlen"
+
+msgid "DPMS has failed to load and has been disabled"
+msgstr "DPMS konnte nicht geladen werden und wurde deaktiviert"
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "Delete Directory?"
+msgstr "Ordner löschen?"
+
+msgid "Delete File?"
+msgstr "Datei löschen?"
+
+msgid "Deselect"
+msgstr "Abwählen"
+
+msgid "Disable Motors"
+msgstr "Motoren deaktivieren"
+
+msgid "Distance (mm)"
+msgstr "Entfernung (mm)"
+
+#, python-format
+msgid "Do you want to recover %s?"
+msgstr "Möchtest du zurück zu %s?"
+
+msgid "Elapsed:"
+msgstr "Laufzeit:"
+
+msgid "Error"
+msgstr "Fehler"
+
+msgid "Estimated Time Method"
+msgstr "Verbleibende Zeit"
+
+msgid "Exclude Object"
+msgstr "Objekt ausschließen"
+
+msgid "Extra Large"
+msgstr "Extra groß"
+
+msgid "Extrude"
+msgstr "Extrudieren"
+
+msgid "Extrusion +"
+msgstr "Extrudieren +"
+
+msgid "Extrusion -"
+msgstr "Extrudieren -"
+
+msgid "Failed, adjust position first"
+msgstr "Fehlgeschlagen, Position zuerst anpassen"
+
+msgid "Fan"
+msgstr "Lüfter"
+
+msgid "Filament Used"
+msgstr "Filament verbraucht"
+
+msgid "Filament total:"
+msgstr "Filament insgesamt:"
+
+msgid "Filament used:"
+msgstr "Filamentverbrauch:"
+
+msgid "Filament:"
+msgstr "Filament:"
+
+msgid "File"
+msgstr "Datei"
+
+msgid "File:"
+msgstr "Datei:"
+
+msgid "Filter"
+msgstr "Filter"
+
+msgid "Finding ADXL"
+msgstr "ADXL finden"
+
+msgid "Fine Tuning"
+msgstr "Feintuning"
+
+msgid "Finish"
+msgstr "Fertig"
+
+msgid "Firmware Restart"
+msgstr "Firmware Neustart"
+
+msgid "Flow:"
+msgstr "Fluss:"
+
+msgid "Flowrate:"
+msgstr "Flussrate:"
+
+msgid "Font Size"
+msgstr "Schriftgröße"
+
+msgid "Full Update"
+msgstr "Vollständige Aktualisierung"
+
+msgid "Go Back"
+msgstr "Zurück"
+
+msgid "Height:"
+msgstr "Höhe:"
+
+msgid "Hidden"
+msgstr "Versteckt"
+
+msgid "Hide"
+msgstr "Verstecken"
+
+msgid "Hide sensors in Temp."
+msgstr "Sensoren in Temp ausblenden."
+
+msgid "Hide temp."
+msgstr "Temp. ausblenden"
+
+msgid "Home"
+msgstr "Grundposition"
+
+msgid "Home All"
+msgstr "Alle Achsen referenzieren"
+
+msgid "Home X"
+msgstr "X referenzieren"
+
+msgid "Home XY"
+msgstr "XY referenzieren"
+
+msgid "Home Y"
+msgstr "Y referenzieren"
+
+msgid "Home Z"
+msgstr "Z referenzieren"
+
+msgid "Host"
+msgstr "Host"
+
+msgid "Hostname"
+msgstr "Hostname"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Icon Theme"
+msgstr "Icon Theme"
+
+msgid "Initializing printer..."
+msgstr "Drucker wird initialisiert..."
+
+msgid "Initiate a PID calibration for:"
+msgstr "Initiieren einer PID-Kalibrierung für:"
+
+msgid "Input Shaper"
+msgstr "Input Shaper"
+
+msgid "Interface"
+msgstr "Oberfläche"
+
+msgid "Invalid"
+msgstr "Ungültig"
+
+msgid "Invalid password"
+msgstr "Ungültiges Passwort"
+
+msgid "Invert X"
+msgstr "Achse X invertieren"
+
+msgid "Invert Y"
+msgstr "Achse Y invertieren"
+
+msgid "Invert Z"
+msgstr "Achse Z invertieren"
+
+msgid "It may take more than 5 minutes depending on the heater power."
+msgstr "Je nach Leistung der Heizung kann dies mehr als 5 Minuten dauern."
+
+#msgid "Firmware Restart"
+#msgstr "Firmware Neustart"
+
+msgid "Firmware has disconnected"
+msgstr "Firmware ist getrennt worden"
+
+msgid "Firmware has encountered an error."
+msgstr "Firmware hat einen Fehler festgestellt."
+
+msgid "Firmware has shutdown"
+msgstr "Firmware wurde heruntergefahren"
+
+msgid "Firmware is attempting to start"
+msgstr "Firmware versucht zu starten"
+
+msgid "Firmware will reboot"
+msgstr "Firmware wird neustarten"
+
+msgid ""
+"LOAD_FILAMENT/UNLOAD_FILAMENT are hidden and should be used from extrude"
+msgstr ""
+"Filament_Laden/Filament_Entladen sind versteckt und sollten von extrudieren "
+"aus verwendet werden"
+
+msgid "Language"
+msgstr "Sprache"
+
+msgid "Large"
+msgstr "Groß"
+
+msgid "Last Used"
+msgstr "Zuletzt verwendet"
+
+msgid "Layer:"
+msgstr "Schicht:"
+
+msgid "Leds"
+msgstr "Leds"
+
+msgid "Left:"
+msgstr "Restzeit:"
+
+msgid "Limits"
+msgstr "Grenzwerte"
+
+msgid "Load"
+msgstr "Laden"
+
+msgid "Lower Nozzle"
+msgstr "Düse absenken"
+
+msgid "Macro shortcut on sidebar"
+msgstr "Makro Verknüpfung in Seitenleiste"
+
+msgid "Macros"
+msgstr "Makros"
+
+msgid "Main Menu"
+msgstr "Hauptmenü"
+
+msgid "Material"
+msgstr "Material"
+
+msgid "Max"
+msgstr "Max"
+
+msgid "Max Acceleration"
+msgstr "Max Beschleunigung"
+
+msgid "Max Acceleration to Deceleration"
+msgstr "Max Verzögerung"
+
+msgid "Max Velocity"
+msgstr "Max Geschwindigkeit"
+
+msgid "Maximum"
+msgstr "Maximal"
+
+msgid "Measure Both"
+msgstr "Beides messen"
+
+msgid "Measure X"
+msgstr "Messe X"
+
+msgid "Measure Y"
+msgstr "Messe Y"
+
+msgid "Medium"
+msgstr "Mittel"
+
+msgid "Menu"
+msgstr "Menü"
+
+msgid "Mesh calibrate"
+msgstr "Mesh kalibrieren"
+
+msgid "Modified"
+msgstr "Modifiziert"
+
+msgid "Moonraker: connected"
+msgstr "Moonraker: Verbunden"
+
+msgid "More"
+msgstr "Mehr"
+
+msgid "Move"
+msgstr "Bewegen"
+
+msgid "Move Distance (mm)"
+msgstr "Bewegungsdistanz (mm)"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Network"
+msgstr "Netzwerk"
+
+msgid "Never"
+msgstr "Niemals"
+
+msgid "New"
+msgstr "Neu"
+
+msgid "No elegible macros:"
+msgstr "Keine wählbaren Makros:"
+
+msgid ""
+"Not supported for auto-detection, it needs to be configured in klipperscreen."
+"conf"
+msgstr ""
+"Wird für die automatische Erkennung nicht unterstützt, muss in Klipperscreen."
+"conf konfiguriert werden"
+
+msgid "Nothing selected"
+msgstr "Nichts ausgewählt"
+
+#, python-format
+msgid "Outdated by %d"
+msgstr "Veraltet von %d"
+
+msgid "PSK for"
+msgstr "PSK für"
+
+msgid "Package will be updated"
+
+msgstr "Paket wird aktualisiert"
+
+
+msgid "Part Fan"
+msgstr "Bauteil Lüfter"
+
+msgid "Password saved"
+msgstr "Passwort gespeichert"
+
+msgid "Pause"
+msgstr "Pause"
+
+msgid "Paused"
+msgstr "Pausiert"
+
+msgid "Perform a full upgrade?"
+msgstr "Vollständiges Upgrade durchführen?"
+
+msgid "Pins"
+msgstr "Pins"
+
+msgid "Please recompile and flash the micro-controller."
+msgstr "Bitte neukomplieren und Controller neubespielen."
+
+msgid "Power"
+msgstr "Ein"
+
+msgid "Power On Printer"
+msgstr "Drucker einschalten"
+
+msgid "Pressure Advance:"
+msgstr "Druckvorlauf:"
+
+msgid "Print"
+msgstr "Druck"
+
+msgid "Print Control"
+msgstr "Druck Steuerung"
+
+msgid "Print Time"
+msgstr "Druckzeit"
+
+msgid "Printer"
+msgstr "Drucker"
+
+msgid "Printer Connections"
+msgstr "Drucker Verbindungen"
+
+msgid "Printer Select"
+msgstr "Wähle einen Drucker"
+
+msgid "Printing"
+msgstr "Drucken"
+
+msgid "Probe Offset"
+msgstr "Sonden-Offset"
+
+msgid "Profile Name:"
+msgstr "Profilname:"
+
+msgid "Provide KlipperScreen.log when asking for help.\n"
+msgstr "Wenn Hilfe benötigt wird KlipperScreen.log angeben.\n"
+
+msgid "Quad Gantry Level"
+msgstr "Quad Gantry Level"
+
+msgid "Raise Nozzle"
+msgstr "Düse anheben"
+
+msgid "Recover"
+msgstr "Rücksetzen"
+
+msgid "Recover Hard"
+msgstr "Rücksetzen (Hard)"
+
+msgid "Recover Soft"
+msgstr "Rücksetzen (Soft)"
+
+msgid "Reference"
+msgstr "Referenz"
+
+msgid "Refresh"
+msgstr "Aktualisieren"
+
+msgid "Rename/Move:"
+msgstr "Umbenennen/Bewegen:"
+
+msgid "Restart"
+msgstr "Neustart"
+
+msgid "Resume"
+msgstr "Fortsetzen"
+
+msgid "Retract"
+msgstr "Zurückziehen"
+
+msgid "Retraction"
+msgstr "Rückzug"
+
+msgid "Retraction Length"
+msgstr "Rückzugslänge"
+
+msgid "Retraction Speed"
+msgstr "Rückzugsgeschwindigkeit"
+
+msgid "Retry"
+msgstr "Wiederholen"
+
+msgid "Retrying"
+msgstr "Wiederhole"
+
+msgid "Save"
+msgstr "Speichern"
+
+msgid "Save Config"
+msgstr "Einstellungen speichern"
+
+msgid "Save Z"
+msgstr "Z speichern"
+
+msgid "Save configuration?"
+msgstr "Konfiguration speichern?"
+
+msgid "Saved"
+msgstr "Gespeichert"
+
+#, python-format
+msgid "Saved offset: %s"
+msgstr "Gespeicherter Offset: %s"
+
+msgid "Screen DPMS"
+msgstr "Bildschirm-DPMS"
+
+msgid "Screen Power Off Time"
+msgstr "Bildschirm abschalten in"
+
+msgid "Screws Adjust"
+msgstr "Schrauben Einstellen"
+
+msgid "Select"
+msgstr "Wählen"
+
+msgid "Send"
+msgstr "Senden"
+
+msgid "Set Temp"
+msgstr "Temp. einstellen"
+
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgid "Show"
+msgstr "Zeigen"
+
+msgid "Show Heater Power"
+msgstr "Heizleistung anzeigen"
+
+msgid "Show Scrollbars Buttons"
+msgstr "Zeige Scrollbar Schaltfläche"
+
+msgid "Shutdown"
+msgstr "Ausschalten"
+
+msgid "Size"
+msgstr "Größe"
+
+msgid "Slicer"
+msgstr "Slicer"
+
+msgid "Slicer:"
+msgstr "Slicer:"
+
+msgid "Small"
+msgstr "Klein"
+
+msgid "Speed (mm/s)"
+msgstr "Geschwindigkeit (mm/s)"
+
+msgid "Speed +"
+msgstr "Geschwindigkeit +"
+
+msgid "Speed -"
+msgstr "Geschwindigkeit -"
+
+msgid "Speed:"
+msgstr "Geschwindigkeit:"
+
+msgid "Square Corner Velocity"
+msgstr "Eckgeschwindigkeit"
+
+msgid "Standby"
+msgstr "Standby"
+
+msgid "Start"
+msgstr "Starten"
+
+msgid "Starting WiFi Association"
+msgstr "Wi-Fi Verbindung starten"
+
+msgid "Starting recovery for"
+msgstr "Starte Wiederherstellung für"
+
+msgid "Starting update for"
+msgstr "Starte Update für"
+
+msgid "System"
+msgstr "System"
+
+msgid "System Restart"
+msgstr "System neustarten"
+
+msgid "System Shutdown"
+msgstr "System herunterfahren"
+
+msgid "Temp (°C)"
+msgstr "Temp (°C)"
+
+msgid "Temperature"
+msgstr "Temperatur"
+
+msgid "Total:"
+msgstr "Gesamt:"
+
+msgid "Unknown Heater"
+msgstr "Unbekannte Heizung"
+
+msgid "Unknown screw position"
+msgstr "Unbekannte Schraubenposition"
+
+msgid "Unload"
+msgstr "Entladen"
+
+msgid "Unretract Extra Length"
+msgstr "Überlänge ausfahren"
+
+msgid "Unretract Speed"
+msgstr "Ausfahrgeschwindigkeit"
+
+# Respect the number of characters
+# english text barely fits in small screens
+msgid "Up To Date"
+msgstr "Aktuell"
+
+msgid "Update"
+msgstr "Aktualsieren"
+
+msgid "Updating"
+msgstr "Aktualisiere"
+
+msgid "Uploaded"
+msgstr "Hochgeladen"
+
+msgid "XY Move Speed (mm/s)"
+msgstr "XY Bewegungsgeschwindigkeit (mm/s)"
+
+msgid "XY Speed (mm/s)"
+msgstr "XY Geschwindigkeit (mm/s)"
+
+msgid "Z Calibrate"
+msgstr "Höhe Kalibrieren"
+
+msgid "Z Move Speed (mm/s)"
+msgstr "Z Bewegungsgeschwindigkeit (mm/s)"
+
+msgid "Z Speed (mm/s)"
+msgstr "Z Geschwindigkeit (mm/s)"
+
+msgid "Z Tilt"
+msgstr "Z-Neigung"
+
+msgid "Z offset:"
+msgstr "Z Offset:"
+
+msgid "commit"
+
+msgstr "Änderung"
+
+
+msgid "dBm"
+msgstr "dBm"
+
+msgid "hour"
+
+msgstr "Stunde"
+
+
+msgid "macros that use 'rename_existing' are hidden"
+msgstr "Makros, die 'rename_existing' verwenden, sind ausgeblendet"
+
+msgid "macros with a name starting with '_' are hidden"
+msgstr "Makros mit einem Namen, der mit '_' beginnt, sind ausgeblendet"
+
+msgid "minute"
+
+msgstr "Minute"
+
+
+msgid "mm"
+msgstr "mm"
+
+msgid "mm/s"
+msgstr "mm/s"
+
+msgid "mm/s²"
+msgstr "mm/s²"
+
+msgid "mm³/s"
+msgstr "mm³/s"
+
+#~ msgid "KlipperScreen will reboot"
+#~ msgstr "KlipperScreen startet neu"
+
+msgid "Continue"
+msgstr "Fortsetzen"
+
+#~ msgid "Fullscreen"
+#~ msgstr "Vollbild"
+
+#~ msgid "Actions"
+#~ msgstr "Aktionen"
+
+#~ msgid "Configuration"
+#~ msgstr "Einstellungen"
+
+#~ msgid "Homing"
+#~ msgstr "Grundposition"
+
+#~ msgid "Disable XY"
+#~ msgstr "XY-Achse deaktivieren"
+
+#~ msgid "Slicer Time correction (%)"
+#~ msgstr "Slicer-Zeitkorrektur (%)"
+
+#~ msgid "Calibrated, save configuration to make it permanent"
+#~ msgstr "Kalibriert, Konfiguration dauerhaft speichern"
+
+#~ msgid "Decrease"
+#~ msgstr "Verringern"
+
+#~ msgid "Increase"
+#~ msgstr "Erhöhen"
+
+#, python-format
+#~ msgid "Sending Power ON signal to: %s"
+#~ msgstr "Senden des Einschaltsignals an: %s"
+
+#~ msgid "Sort:"
+#~ msgstr "Sortieren:"
+
+#~ msgid "Calibrating..."
+#~ msgstr "Kalibrieren..."
+
+#~ msgid "Z+"
+#~ msgstr "Z+"
+
+#~ msgid "Z-"
+#~ msgstr "Z-"
+
+#~ msgid "X+"
+#~ msgstr "X+"
+
+#~ msgid "X-"
+#~ msgstr "X-"
+
+#~ msgid "Y+"
+#~ msgstr "Y+"
+
+#~ msgid "Y-"
+#~ msgstr "Y-"
+
+#, python-format
+#~ msgid "Retry #%s"
+#~ msgstr "Wiederholen #%s"
+
+#~ msgid "Add Printer"
+#~ msgstr "Drucker hinzufügen"
+
+#~ msgid "Initializing"
+#~ msgstr "Initialisierung"
+
+#~ msgid "Delete"
+#~ msgstr "Löschen"
+
+#~ msgid "Off"
+#~ msgstr "Aus"
+
+#~ msgid "View Mesh"
+#~ msgstr "Mesh anzeigen"
+
+#~ msgid "Sort by: "
+#~ msgstr "Sortierung nach: "
+
+#~ msgid "Bltouch found applied offset"
+#~ msgstr "Bltouch hat angewendeten Offset gefunden"
+
+#~ msgid ""
+#~ "Check /tmp/KlipperScreen.log for more information.\n"
+#~ "Please submit an issue on GitHub for help."
+#~ msgstr ""
+#~ "Prüfe /tmp/KlipperScreen.log für weitere Informationen.\n"
+#~ "Bitte eröffne einen Fehlerbericht auf GitHub für Hilfe."
+
+#~ msgid "Probe found applied offset"
+#~ msgstr "Probe hat angewendeten Offset gefunden"
+
+#~ msgid "Tool"
+#~ msgstr "Druckkopf"
+
+#~ msgid "Displayed Macros"
+#~ msgstr "Aktive Macros"
+
+#~ msgid "Z Position"
+#~ msgstr "Z-Position"
+
+#~ msgid "IPv4"
+#~ msgstr "IPv4"
+
+#~ msgid "IPv6"
+#~ msgstr "IPv6"
+
+#~ msgid "Disconnect"
+#~ msgstr "Trennen"
+
+#~ msgid "Duration Only"
+#~ msgstr "Reine Druckzeit"
+
+#~ msgid "Klipper Version"
+#~ msgstr "Klipper Version"
+
+#~ msgid ""
+#~ "Klipper has encountered an error with the micro-controller.\n"
+#~ "Please recompile and flash."
+#~ msgstr ""
+#~ "Klipper hat einen Fehler mit dem Microcontroller festgestellt.\n"
+#~ "Bitte Microcontroller neu programmieren."
+
+#~ msgid ""
+#~ "Firmware has encountered an error.\n"
+#~ "Issue a FIRMWARE_RESTART to attempt fixing the issue."
+#~ msgstr ""
+#~ "Klipper hat einen Fehler festgestellt.\n"
+#~ "Führe einen FIRMWARE_RESTART durch um den Fehler zu beheben."
+
+#~ msgid "KlipperScreen Version"
+#~ msgstr "KlipperScreen Version"
+
+#~ msgid "Show Only Heaters in Temp."
+#~ msgstr "Nur Heizungen in Temp anzeigen."
+
+#~ msgid "Target"
+#~ msgstr "Ziel"
+
+#~ msgid "Temp"
+#~ msgstr "Temp"
+
+# Nummernblock is 2 character too long and currently doesn't fit
+#~ msgid "Number Pad"
+#~ msgstr "Tastenfeld"
+
+#~ msgid "Preheat"
+#~ msgstr "Vorheizen"
+
+#~ msgid "Screen will show in less than one second"
+#~ msgstr "Der Bildschirm wird in weniger als einer Sekunde angezeigt"
+
+#~ msgid "Colorized"
+#~ msgstr "Colorized"
+
+#~ msgid "?"
+#~ msgstr "?"
+
+#~ msgid "Cancel Change"
+#~ msgstr "Änderung abbrechen"
+
+#~ msgid "Control"
+#~ msgstr "Steuerung"
+
+#~ msgid "Load Average"
+#~ msgstr "Durchschnittslast"
+
+msgid "Leveling"
+msgstr "Nivellierung"
+
+msgid "The nozzle temperature is too low, Are you sure you want to heat it?"
+msgstr "Die Düsentemperatur ist zu niedrig. Möchten Sie sie wirklich aufheizen?"
+
+msgid "General"
+msgstr "Allgemein"
+
+msgid "Turn off"
+msgstr "Ausschalten"
+
+msgid "Brightest"
+msgstr "Hellste"
+
+msgid "Manual"
+msgstr "Manuell"
+
+msgid "Troubleshooting"
+msgstr "Fehlersuche"
+
+msgid "Cautions"
+msgstr "Warnungen"
+
+msgid "Maintenance"
+msgstr "Wartung"
+
+msgid "Calibration"
+msgstr "Kalibrierung"
+
+msgid "XY Offset"
+msgstr "XY-Offset"
+
+msgid "Z Offset"
+msgstr "Z-Offset"
+
+msgid "Only one extruder does not require calibration."
+msgstr "Nur ein Extruder erfordert keine Kalibrierung."
+
+msgid "Please confirm left extruder position."
+msgstr "Bitte bestätigen Sie die Position des linken Extruders."
+
+msgid "Need to recalculate the offset value."
+msgstr "Offset-Wert muss neu berechnet werden."
+
+msgid "Error writing configuration"
+msgstr "Fehler beim Schreiben der Konfiguration"
+
+msgid "Please wait for the camera initialization to complete."
+msgstr "Bitte warten Sie, bis die Kamerainitialisierung abgeschlossen ist."
+
+msgid "Please wait for the camera's fill light to light up for 5 seconds before clicking 'Start'"
+msgstr "Bitte warten Sie, bis das Aufhelllicht der Kamera 5 Sekunden lang leuchtet, bevor Sie auf 'Start' klicken."
+
+msgid "Couldn't get the calibration camera position."
+msgstr "Die Kalibrierungskameraposition konnte nicht ermittelt werden."
+
+msgid "Need home axis"
+msgstr "Benötige Nullpunkt-Achse"
+
+msgid "Choose Language"
+msgstr "Sprache wählen"
+
+msgid "Choose Timezone"
+msgstr "Zeitzone wählen"
+
+msgid "Select WiFi"
+msgstr "WiFi auswählen"
+
+msgid "Self-check"
+msgstr "Selbsttest"
+
+msgid "Nozzle Heating"
+msgstr "Düsenheizung"
+
+msgid "Hot Bed Heating"
+msgstr "Heizbett heizen"
+
+msgid "Nozzle Cooling Fan"
+msgstr "Düsenkühlgebläse"
+
+msgid "Hotend Cooling Fan"
+msgstr "Hotend-Kühlgebläse"
+
+msgid "Filament Detection"
+msgstr "Filamenterkennung"
+
+msgid "Auto Leveling"
+msgstr "Automatische Nivellierung"
+
+msgid "WiFi"
+msgstr "WiFi"
+
+msgid "Power loss recovery, is resume print?"
+msgstr "Wiederherstellung nach Stromausfall, Druck fortsetzen?"
+
+msgid "Please wait until the bed and nozzle are heated before calibrating."
+msgstr "Bitte warten Sie, bis das Bett und die Düse erhitzt sind, bevor Sie kalibrieren."
+
+msgid "Current language:"
+msgstr "Aktuelle Sprache:"
+
+msgid "Skip All"
+msgstr "Alle überspringen"
+
+msgid "Do not touch the printer during self-check."
+msgstr "Berühren Sie den Drucker während des Selbsttests nicht."
+
+msgid "Confirm"
+msgstr "Bestätigen"
+
+msgid "Current timezone:"
+msgstr "Aktuelle Zeitzone:"
+
+msgid "Choose a timezone"
+msgstr "Zeitzone wählen"
+
+msgid "Choose a language"
+msgstr "Sprache wählen"
+
+msgid "Please wait for the print job to end"
+msgstr "Bitte warten Sie, bis der Druckauftrag abgeschlossen ist"
+
+msgid "Are you sure you wish to reset the printer?"
+msgstr "Sind Sie sicher, dass Sie den Drucker zurücksetzen möchten?"
+
+msgid "Data will be deleted"
+msgstr "Daten werden gelöscht"
+
+msgid "Reset Printer"
+msgstr "Drucker zurücksetzen"
+
+msgid "Resetting printer, will restart, please wait..."
+msgstr "Drucker wird zurückgesetzt, wird neu gestartet, bitte warten..."
+
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+msgid "Poweroff"
+msgstr "Ausschalten"
+
+msgid "Confirm Pos"
+msgstr "Bestätigen Sie die Position"
+
+msgid "Shut down after printing completes"
+msgstr "Herunterfahren nach Abschluss des Druckvorgangs"
+
+msgid "Voice Notify"
+msgstr "Sprachbenachrichtigung"
+
+msgid "Filament Box Power"
+msgstr "Stromversorgung des Filamentkorbs"
+
+msgid "If your calibration device is under the PEI, please lift the PEI after homing."
+msgstr "Wenn sich Ihr Kalibriergerät unter der PEI-Platte befindet, heben Sie bitte die PEI-Platte nach dem Homing an."
+
+msgid "Homing the printer..."
+msgstr "Drucker fährt in die Ausgangsposition..."
+
+msgid "Starting dual nozzle height calibration..."
+msgstr "Starte Höhenkalibrierung der Doppeldüse..."
+
+msgid "Please observe if the nozzle is positioned above the probe."
+msgstr "Bitte beobachten Sie, ob die Düse über der Sonde positioniert ist."
+
+msgid "Warning: Negative value detected. This is dangerous and may damage the machine. Please recalibrate."
+msgstr "Warnung: Negativer Wert erkannt. Dies ist gefährlich und kann die Maschine beschädigen. Bitte kalibrieren Sie erneut."
+
+msgid "New nozzle height difference is: "
+msgstr "Neue Düsenhöhendifferenz ist: "
+
+msgid "Warning: Current value is negative. This is dangerous and may damage the machine. Please recalibrate."
+msgstr "Warnung: Der aktuelle Wert ist negativ. Dies ist gefährlich und kann die Maschine beschädigen. Bitte kalibrieren Sie erneut."
+
+msgid "Z Height Diff"
+msgstr "Z-Höhendifferenz"
+
+msgid "Adjust Zprobe Pos"
+msgstr "Zprobe-Position anpassen"
+
+msgid "Need reboot, relaunch immediately?"
+msgstr "Neustart erforderlich, jetzt neu starten?"
+
+msgid "Current nozzle height difference: "
+msgstr "Aktuelle Düsenhöhendifferenz: "
+
+msgid "New nozzle height difference: "
+msgstr "Neue Düsenhöhendifferenz: "
+
+msgid "Dangerous nozzle height difference: "
+msgstr "Gefährliche Düsenhöhendifferenz: "
+
+msgid "Saved successfully!"
+msgstr "Erfolgreich gespeichert!"
+
+# Feed Filament Box
+msgid "Edit"
+msgstr "Bearbeiten"
+
+msgid "Filament Info"
+msgstr "Filament Info"
+
+msgid "Not found"
+msgstr "Nicht gefunden"
+
+msgid "Vendor"
+msgstr "Hersteller"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Color"
+msgstr "Farbe"
+
+msgid "Set Color"
+msgstr "Farbe einstellen"
+
+msgid "Filament Settings"
+msgstr "Filament-Einstellungen"
+
+msgid "Multi-Material Box"
+msgstr "Multi-Material-Box"
+
+msgid "Are you sure you wish to restart the firmware?"
+msgstr "Sind Sie sicher, dass Sie die Firmware neu starten möchten?"
+
+msgid "Autofill filament disable"
+msgstr "Automatische Filamentzufuhr deaktivieren"
+
+msgid "Autofill filament enabled"
+msgstr "Automatische Filamentzufuhr aktiviert"
+
+msgid "Autofill filament: %s"
+msgstr "Automatische Filamentzufuhr: %s"
+
+msgid "Backing up configuration files."
+msgstr "Sicherung der Konfigurationsdateien."
+
+msgid "Calibrate Cutter Pos"
+msgstr "Schneideposition kalibrieren"
+
+msgid "Couldn't get the calibration cutter position."
+msgstr "Konnte die Kalibrierungsposition des Schneiders nicht ermitteln."
+
+msgid "Current filament indexes are:%s, active tool:%s"
+msgstr "Aktuelle Filamentindizes sind:%s, aktives Werkzeug:%s"
+
+msgid "Current filament indexes are:%s, active tool:%s, resume_tool:%s, pause_reason:%s"
+msgstr "Aktuelle Filamentindizes sind:%s, aktives Werkzeug:%s, Fortsetzungswerkzeug:%s, Pausengrund:%s"
+
+msgid "Current value is %s"
+msgstr "Aktueller Wert ist %s"
+
+msgid "Cut Filament Test"
+msgstr "Filament-Schnitttest"
+
+msgid "Do you want to enable multi-material box?"
+msgstr "Möchten Sie die Multi-Material-Box aktivieren?"
+
+msgid "Do you want to use external filament?"
+msgstr "Möchten Sie externes Filament verwenden?"
+
+msgid "Error: Offset values not found"
+msgstr "Fehler: Offset-Werte nicht gefunden"
+
+msgid "Error: Z offset value not found"
+msgstr "Fehler: Z-Offset-Wert nicht gefunden"
+
+msgid "External Filament"
+msgstr "Externes Filament"
+
+msgid "Extruder not hot enough"
+msgstr "Extruder nicht heiß genug"
+
+msgid "FEED error:External filament not removed"
+msgstr "ZUFÜHRUNGSFEHLER: Externes Filament nicht entfernt"
+
+msgid "Filament %s not found"
+msgstr "Filament %s nicht gefunden"
+
+msgid "Filament Sensor%s: No filament detected, canceling print"
+msgstr "Filamentsensor%s: Kein Filament erkannt, Druck wird abgebrochen"
+
+msgid "Filament Sensor%s: No filament detected, pausing print"
+msgstr "Filamentsensor%s: Kein Filament erkannt, Druck wird pausiert"
+
+msgid "Filament detected! Please remove filament from the hotend before enabling multi-material box."
+msgstr "Filament erkannt! Bitte entfernen Sie das Filament aus dem Hotend, bevor Sie die Multi-Material-Box aktivieren."
+
+msgid "Missing required recovery data"
+msgstr "Erforderliche Wiederherstellungsdaten fehlen"
+
+msgid "No power loss recovery data found"
+msgstr "Keine Daten zur Wiederherstellung nach Stromausfall gefunden"
+
+msgid "No valid params 'S'"
+msgstr "Keine gültigen Parameter 'S'"
+
+msgid "No"
+msgstr "Nein"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Options"
+msgstr "Optionen"
+
+msgid "Pause. The \"extruder\" extrude error!"
+msgstr "Pause. Der \"Extruder\" hat einen Extrusionsfehler!"
+
+msgid "Please exit the filament from the nozzle first"
+msgstr "Bitte entfernen Sie zuerst das Filament aus der Düse"
+
+msgid "Please fill in the voice number correctly: 0-start printing, 1-end printing, 2-outage detected, 3-cancel printing, 4-pause printing"
+msgstr "Bitte geben Sie die Sprachnummer korrekt ein: 0-Druckstart, 1-Druckende, 2-Stromausfall erkannt, 3-Druck abbrechen, 4-Druck pausieren"
+
+msgid "Please select how you would like to proceed."
+msgstr "Bitte wählen Sie, wie Sie fortfahren möchten."
+
+msgid "Power loss recovery, resuming print."
+msgstr "Wiederherstellung nach Stromausfall, Druck wird fortgesetzt."
+
+msgid "Power loss, saving print states."
+msgstr "Stromausfall, Druckzustände werden gespeichert."
+
+msgid "Press feedsys button"
+msgstr "Drücken Sie die Zuführungssystem-Taste"
+
+msgid "Print resumed from power loss position"
+msgstr "Druck von der Position des Stromausfalls fortgesetzt"
+
+msgid "Printer not homed"
+msgstr "Drucker nicht referenziert"
+
+msgid "RESUME error:autofill no fil"
+msgstr "FORTSETZEN Fehler: Automatische Zuführung kein Filament"
+
+msgid "RESUME error:no fil"
+msgstr "FORTSETZEN Fehler: Kein Filament"
+
+msgid "RESUME error:residual fil"
+msgstr "FORTSETZEN Fehler: Restfilament"
+
+msgid "Recovery data: Z=%s, File=%s, Pos=%s"
+msgstr "Wiederherstellungsdaten: Z=%s, Datei=%s, Pos=%s"
+
+msgid "Save & Restart"
+msgstr "Speichern & Neu starten"
+
+msgid "T%s direct feed"
+msgstr "T%s direkte Zuführung"
+
+msgid "T%s need exit filament"
+msgstr "T%s benötigt Filamentauswurf"
+
+msgid "The current toolheade is T%s"
+msgstr "Der aktuelle Werkzeugkopf ist T%s"
+
+msgid "The filament_box_%s no filament"
+msgstr "Die Filamentbox_%s hat kein Filament"
+
+msgid "The motor is wrong."
+msgstr "Der Motor ist falsch."
+
+msgid "There is a residual filament, Please remove and continue"
+msgstr "Es gibt Restfilament, bitte entfernen und fortfahren"
+
+msgid "There's a residual filament in box %s"
+msgstr "Es befindet sich Restfilament in Box %s"
+
+msgid "Unknown fan"
+msgstr "Unbekannter Lüfter"
+
+msgid "Unknown filament"
+msgstr "Unbekanntes Filament"
+
+msgid "Use external filament, please manually exit"
+msgstr "Verwenden Sie externes Filament, bitte manuell auswerfen"
+
+msgid "Warning"
+msgstr "Warnung"
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "auto shutdown error"
+msgstr "Automatischer Abschaltfehler"
+
+msgid "bed_mash:%s"
+msgstr "Bett_Mesh:%s"
+
+msgid "clean pause_reason"
+msgstr "Pausengrund löschen"
+
+msgid "cut filament"
+msgstr "Filament schneiden"
+
+msgid "cutter press!"
+msgstr "Schneider drücken!"
+
+msgid "cutter release!"
+msgstr "Schneider lösen!"
+
+msgid "feed busy"
+msgstr "Zuführung beschäftigt"
+
+msgid "feed error"
+msgstr "Zuführungsfehler"
+
+msgid "feed finish"
+msgstr "Zuführung beendet"
+
+msgid "filament not removed"
+msgstr "Filament nicht entfernt"
+
+msgid "filament pause reason"
+msgstr "Filament Pausengrund"
+
+msgid "filament press"
+msgstr "Filament drücken"
+
+msgid "filament release"
+msgstr "Filament lösen"
+
+msgid "filament remove"
+msgstr "Filament entfernen"
+
+msgid "filament runout"
+msgstr "Filament aufgebraucht"
+
+msgid "filament%s:%s"
+msgstr "Filament%s:%s"
+
+msgid "flush filament"
+msgstr "Filament spülen"
+
+msgid "motion sensor insert"
+msgstr "Bewegungssensor einsetzen"
+
+msgid "motion sensor runout"
+msgstr "Bewegungssensor aufgebraucht"
+
+msgid "motor_%s press"
+msgstr "Motor_%s drücken"
+
+msgid "motor_%s release"
+msgstr "Motor_%s lösen"
+
+msgid "no bed_mash name"
+msgstr "Kein Bett_Mesh Name"
+
+msgid "no bed_mash"
+msgstr "Kein Bett_Mesh"
+
+msgid "no enabled"
+msgstr "Nicht aktiviert"
+
+msgid "press button%s"
+msgstr "Taste%s drücken"
+
+msgid "remove filament"
+msgstr "Filament entfernen"
+
+msgid "residual filament%s"
+msgstr "Restfilament%s"
+
+msgid "resume:%s"
+msgstr "Fortsetzen:%s"
+
+msgid "resume_tool:%s pause_reason:%s"
+msgstr "Fortsetzungswerkzeug:%s Pausengrund:%s"
+
+msgid "Copy Print"
+msgstr "Kopieren drucken"
+msgid "Mirror Print"
+msgstr "Spiegeldruck"
+
+msgid "Manual Calibration"
+msgstr "Manuelle Kalibrierung"
+
+msgid "Auto Calibration"
+msgstr "Automatische Kalibrierung"
+
+msgid "Calibration successful!"
+msgstr "Kalibrierung erfolgreich!"
+
+msgid "Auto calibration failed. Please clean the nozzle and try again."
+msgstr "Automatische Kalibrierung fehlgeschlagen. Bitte reinigen Sie die Düse und versuchen Sie es erneut."
+
+msgid "Auto calibration is not available. Please install required dependencies."
+msgstr "Automatische Kalibrierung ist nicht verfügbar. Bitte installieren Sie die erforderlichen Abhängigkeiten."
+
+msgid "Left extruder template saved"
+msgstr "Linke Extruder-Vorlage gespeichert"
+
+msgid "Right extruder template saved"
+msgstr "Rechte Extruder-Vorlage gespeichert"
+
+msgid "Failed to save template"
+msgstr "Speichern der Vorlage fehlgeschlagen"
+
+msgid "No template images found. Please perform manual calibration first."
+msgstr "Keine Vorlagenbilder gefunden. Bitte führen Sie zuerst eine manuelle Kalibrierung durch."
+
+msgid "Getting image of left extruder"
+msgstr "Bild des linken Extruders wird aufgenommen"
+
+msgid "Getting image of right extruder"
+msgstr "Bild des rechten Extruders wird aufgenommen"
+
+msgid "Left extruder calibration failed. Please clean the nozzle and try again."
+msgstr "Kalibrierung des linken Extruders fehlgeschlagen. Bitte reinigen Sie die Düse und versuchen Sie es erneut."
+
+msgid "Right extruder calibration failed. Please clean the nozzle and try again."
+msgstr "Kalibrierung des rechten Extruders fehlgeschlagen. Bitte reinigen Sie die Düse und versuchen Sie es erneut."
+
+msgid "left extruder pos: (%.3f, %.3f, %.3f)"
+msgstr "Position linker Extruder: (%.3f, %.3f, %.3f)"
+
+msgid "Right extruder offset is (%.3f, %.3f, %.3f)"
+msgstr "Offset rechter Extruder: (%.3f, %.3f, %.3f)"
+
+msgid "Please wait for the camera's fill light to light up for 5 seconds before clicking 'Manual Calibration' or 'Auto Calibration'"
+msgstr "Bitte warten Sie 5 Sekunden, bis das Fülllicht der Kamera aufleuchtet, bevor Sie auf 'Manuelle Kalibrierung' oder 'Automatische Kalibrierung' klicken"
+
+msgid "The door is open."
+msgstr "Die Tür ist offen."
+
+msgid "The door is closed."
+msgstr "Die Tür ist geschlossen."
+
+msgid "Error getting origin offset values: %s"
+msgstr "Fehler beim Abrufen der ursprünglichen Offset-Werte: %s"
+
+msgid "Raise"
+msgstr "Hochfahren"
+
+msgid "Lower"
+msgstr "Senken"
+
+msgid "Filament run out, pausing print"
+msgstr "Filament aufgebraucht, Druck wird pausiert"
+
+msgid "Not in single extruder mode, pausing print"
+msgstr "Nicht im Einzeldüsenmodus, Druck wird pausiert"
+
+msgid "Current sensor not configured, pausing print"
+msgstr "Aktueller Sensor nicht konfiguriert, Druck wird pausiert"
+
+msgid "Other sensor not configured, pausing print"
+msgstr "Weitere Sensoren nicht konfiguriert, Druck wird pausiert"
+
+msgid "Current extruder has filament, continuing print"
+msgstr "Aktuelle Düse hat Filament, Druck wird fortgesetzt"
+
+msgid "Both extruders out of filament, pausing print"
+msgstr "Beide Düsen ohne Filament, Druck wird pausiert"
+
+msgid "Filament run out, switching extruder"
+msgstr "Filament aufgebraucht, wechsle die Düse"
+
+msgid "Switching to left extruder"
+msgstr "Wechsle zur linken Düse"
+
+msgid "Switching to right extruder"
+msgstr "Wechsle zur rechten Düse"
+
+msgid "Extruder switch complete, resuming print"
+msgstr "Düsenwechsel abgeschlossen, Druck wird fortgesetzt"
+
+msgid "Auto extruder switch already enabled"
+msgstr "Automatischer Düsenwechsel bereits aktiviert"
+
+msgid "Auto extruder switch enabled, this feature only works when printing with a single extruder"
+msgstr "Automatischer Düsenwechsel aktiviert, diese Funktion funktioniert nur beim Drucken mit einer einzigen Düse"
+
+msgid "Auto extruder switch already disabled"
+msgstr "Automatischer Düsenwechsel bereits deaktiviert"
+
+msgid "Auto extruder switch disabled"
+msgstr "Automatischer Düsenwechsel deaktiviert"
+
+msgid "Extruder switch when filament run out"
+msgstr "Düsenwechsel bei ausgegangenem Filament"
+
+msgid "Filament Sensor0: No filament detected, canceling print."
+msgstr "Filamentsensor 0: Kein Filament erkannt, Druck wird abgebrochen."
+
+msgid "Filament Sensor1: No filament detected, canceling print."
+msgstr "Filamentsensor 1: Kein Filament erkannt, Druck wird abgebrochen."
+
+msgid "Force Move"
+msgstr "Erzwungene Bewegung"
+
+msgid "Force move: "
+msgstr "Erzwungene Bewegung:"
+
+msgid "Apply Z offset to Probe?"
+msgstr "Z-Offset auf Messsonde anwenden?"
+
+msgid "Left Extruder: %s%.3f"
+msgstr "Linker Extruder: %s%.3f"
+
+msgid "Left Extruder: Not adjusted"
+msgstr "Linker Extruder: Nicht angepasst"
+
+msgid "Right Extruder: %s%.3f"
+msgstr "Rechter Extruder: %s%.3f"
+
+msgid "Right Extruder: Not adjusted"
+msgstr "Rechter Extruder: Nicht angepasst"
+
+msgid "Apply Z offset to Endstop?"
+msgstr "Z-Offset auf Endschalter anwenden?"
+
+msgid "Remove Foam"
+msgstr "Schaum entfernen"
+
+msgid "Please remove the extruder foam and take out the door handle."
+msgstr "Bitte entfernen Sie den Extruderschaum und nehmen Sie den Türgriff heraus."
+
+msgid "Please click the Z raise button to raise the Z axis to remove the foam around the bottom of the case."
+msgstr "Bitte klicken Sie auf die Z-Anheben-Taste, um die Z-Achse anzuheben und den Schaum um den Boden des Gehäuses zu entfernen."
+
+msgid "Print Issue Detected!"
+msgstr "Druckproblem erkannt!"
+
+msgid "No prediction image available"
+msgstr "Kein Vorhersagebild verfügbar"
+
+msgid "Print resumed"
+msgstr "Druck fortgesetzt"
+
+msgid "Failed to resume print"
+msgstr "Druck konnte nicht fortgesetzt werden"
+
+msgid "Print cancelled"
+msgstr "Druck abgebrochen"
+
+msgid "Failed to cancel print"
+msgstr "Druck konnte nicht abgebrochen werden"
+
+msgid "Configure basic AI service settings. Enable the AI service to monitor your prints and adjust the confidence threshold for detection sensitivity."
+msgstr "Grundlegende KI-Service-Einstellungen konfigurieren. Aktivieren Sie den KI-Service zur Überwachung Ihrer Drucke und stellen Sie die Vertrauensschwelle für die Erkennungsempfindlichkeit ein."
+
+
+msgid "AI Detection Alert"
+msgstr "KI-Erkennungsalarm"
+
+msgid "AI Monitor"
+msgstr "KI-Monitor"
+
+msgid "AI Settings"
+msgstr "KI-Einstellungen"
+
+msgid "Detected defect: %s (Confidence: %.1f%%)"
+msgstr "Fehler erkannt: %s (Konfidenz: %.1f%%)"
+
+msgid "AI Detection Error: %s"
+msgstr "KI-Erkennungsfehler: %s"
+
+msgid "AI Detection Service"
+msgstr "KI-Erkennungsdienst"
+
+msgid "AI Server URL"
+msgstr "KI-Server-URL"
+
+msgid "Confidence Threshold (%)"
+msgstr "Vertrauensschwelle (%)"
+
+msgid "Detection Interval (seconds)"
+msgstr "Erkennungsintervall (Sekunden)"
+
+msgid "Auto Pause on Detection"
+msgstr "Automatische Pause bei Erkennung"
+
+msgid "Enabled Defect Types"
+msgstr "Aktivierte Fehlertypen"
+
+msgid "Camera Source"
+msgstr "Kameraquelle"
+
+msgid "Local"
+msgstr "Lokal"
+
+msgid "Camera URL"
+msgstr "Kamera-URL"
+
+msgid "Continue Detection While Paused"
+msgstr "Erkennung während Pause fortsetzen"
+
+msgid "Sound Notification"
+msgstr "Tonbenachrichtigung"
+
+msgid "All valves closed"
+msgstr "Alle Ventile zu"
+
+msgid "Auto Feed"
+msgstr "Autozufuhr"
+
+msgid "Auto feed started"
+msgstr "Autozufuhr gestartet"
+
+msgid "Blowback Valve"
+msgstr "Rückblasventil"
+
+msgid "Buffer"
+msgstr "Puffer"
+
+msgid "Buffer → Printhead"
+msgstr "Puffer → Druckkopf"
+
+msgid "Buffer Valve"
+msgstr "Pufferventil"
+
+msgid "Disconnected"
+msgstr "Getrennt"
+
+msgid "Dryer"
+msgstr "Trockner"
+
+msgid "Dryer → Buffer"
+msgstr "Trockner → Puffer"
+
+msgid "Dryer Level"
+msgstr "Trocknerstand"
+
+msgid "Dryer Sensor"
+msgstr "Trocknersensor"
+
+msgid "Dryer Valve"
+msgstr "Trocknerventil"
+
+msgid "Feeder:"
+msgstr "Zufuhr:"
+
+msgid "Hopper"
+msgstr "Trichter"
+
+msgid "Hopper → Dryer"
+msgstr "Trichter → Trockner"
+
+msgid "Hopper Level"
+msgstr "Trichterstand"
+
+msgid "Hopper Valve"
+msgstr "Trichterventil"
+
+msgid "Pressure:"
+msgstr "Druck:"
+
+msgid "Printhead"
+msgstr "Druckkopf"
+
+msgid "Printhead 1"
+msgstr "Druckkopf 1"
+
+msgid "Printhead 2"
+msgstr "Druckkopf 2"
+
+msgid "Retract blowback"
+msgstr "Rückblasen"
+
+msgid "Retract started"
+msgstr "Rückzug gestartet"
+
+msgid "Run Mode:"
+msgstr "Modus:"
+
+msgid "Stop All"
+msgstr "Alles stoppen"
+
+msgid "To Dryer"
+msgstr "Zum Trockner"
+
+msgid "To Buffer"
+msgstr "Zum Puffer"
+
+msgid "To Printhead"
+msgstr "Zum Kopf"
+
+msgid "Return Buffer"
+msgstr "Zurück zum Puffer"
