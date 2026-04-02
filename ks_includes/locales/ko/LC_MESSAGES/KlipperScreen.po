@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KlipperScreen\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-02 16:39+0800\n"
+"POT-Creation-Date: 2023-10-20 00:09-0300\n"
 "PO-Revision-Date: 2023-12-28 12:05+0000\n"
 "Last-Translator: 방영웅 <bangyeongung20@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/klipperscreen/"
@@ -14,6 +14,54 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.2.1\n"
 
+msgid "Active Extruder"
+msgstr "활성 압출기"
+
+msgid "Active Extruder:"
+msgstr "활성 압출기:"
+
+msgid "Bed Temp:"
+msgstr "베드 온도:"
+
+msgid "Bed Temperature"
+msgstr "베드 온도"
+
+msgid "Filename"
+msgstr "파일명"
+
+msgid "Filename:"
+msgstr "파일명:"
+
+msgid "Missing required information"
+msgstr "필수 정보 누락"
+
+msgid "Nozzle Temp:"
+msgstr "노즐 온도:"
+
+msgid "Nozzle Temperature"
+msgstr "노즐 온도"
+
+msgid "Power Loss Recovery"
+msgstr "전원 복구"
+
+msgid "Print Height"
+msgstr "인쇄 높이"
+
+msgid "Print Height:"
+msgstr "인쇄 높이:"
+
+msgid "Print height is less than 1mm"
+msgstr "인쇄 높이가 1mm 미만입니다"
+
+msgid "Recovery File"
+msgstr "복구 파일"
+
+msgid "Resume Print"
+msgstr "인쇄 재개"
+
+msgid "Tip: Please ensure the nozzle is about 0.1mm above the model"
+msgstr "팁: 노즐이 모델 위로 약 0.1mm에 위치하도록 확인하세요"
+
 #, python-format
 msgid "%s will be updated to version"
 msgstr "%s 버전으로 업데이트 됩니다"
@@ -21,20 +69,14 @@ msgstr "%s 버전으로 업데이트 됩니다"
 msgid "(default)"
 msgstr "(기본)"
 
+msgid "24 Hour Time"
+msgstr "24시간제 사용"
+
 msgid "A FIRMWARE_RESTART may fix the issue."
 msgstr "펌웨어를 재시작해 문제를 해결할 수 있습니다."
 
 msgid "ADXL Not Configured"
 msgstr "가속도계 설정이 없습니다"
-
-msgid "AI Detection Service"
-msgstr "AI 감지 서비스"
-
-msgid "AI Detection Status"
-msgstr ""
-
-msgid "AI Server URL"
-msgstr "AI 서버 URL"
 
 msgid "Abort"
 msgstr "취소"
@@ -45,32 +87,22 @@ msgstr "가속도:"
 msgid "Accept"
 msgstr "확인"
 
-msgid "Active Extruder"
-msgstr "활성 압출기"
-
-msgid "Active Extruder:"
-msgstr "활성 압출기:"
-
 msgid "Add profile"
 msgstr "프로파일 추가"
-
-msgid "Adjust Zprobe Pos"
-msgstr "Z프로브 위치 조정"
 
 msgid "All"
 msgstr "전체"
 
-msgid "All valves closed"
-msgstr "모든 밸브 닫힘"
-
 msgid "Apply"
 msgstr "확인"
 
-msgid "Apply Z offset to Endstop?"
-msgstr "엔드스톱에 Z 오프셋을 적용하시겠습니까?"
+#, python-format
+msgid "Apply %s%.3f offset to Endstop?"
+msgstr "%s%.3f 오프셋을 Endstop에 적용하시겠습니까?"
 
-msgid "Apply Z offset to Probe?"
-msgstr "프로브에 Z 오프셋을 적용하시겠습니까?"
+#, python-format
+msgid "Apply %s%.3f offset to Probe?"
+msgstr "%s%.3f오프셋을 프로브에 적용하시겠습니까?"
 
 msgid "Archived"
 msgstr "저장됨"
@@ -96,56 +128,26 @@ msgstr "시스템을 종료 하시겠습니까?"
 msgid "Auto"
 msgstr "자동"
 
-msgid "Auto Feed"
-msgstr "자동 공급"
-
-msgid "Auto Pause on Detection"
-msgstr "감지 시 자동 일시정지"
-
-msgid "Auto feed started"
-msgstr "자동 공급 시작"
-
 msgid "Auto-calibrate"
 msgstr "자동 교정"
 
 msgid "Auto-close notifications"
 msgstr "자동 알림 닫기"
 
+msgid "Auto-open Extrude On Pause"
+msgstr "일시정지 시 압출 가능"
+
 msgid "Auto-scroll"
 msgstr "자동 스크롤"
-
-msgid "Back"
-msgstr ""
 
 msgid "Bed Level"
 msgstr "베드 레벨링"
 
-msgid "Bed Lower"
-msgstr ""
-
-msgid "Bed Temp:"
-msgstr "베드 온도:"
-
-msgid "Bed Temperature"
-msgstr "베드 온도"
+msgid "Bed Mesh"
+msgstr "배드 메시"
 
 msgid "Bed screw configuration:"
 msgstr "베드 스크류 설정:"
-
-msgid "Blowback Valve"
-msgstr "역분사 밸브"
-
-msgid "Brightest"
-msgstr "가장 밝은"
-
-msgid "Buffer"
-msgstr "버퍼"
-
-msgid "Buffer Valve"
-msgstr "버퍼 밸브"
-
-msgid "Buffer → Printhead"
-msgstr "버퍼 → 헤드"
 
 msgid "Calibrate"
 msgstr "교정"
@@ -156,17 +158,8 @@ msgstr "교정됨"
 msgid "Calibrating"
 msgstr "교정 중"
 
-msgid "Calibration saved!"
-msgstr ""
-
 msgid "Camera"
 msgstr "카메라"
-
-msgid "Camera Source"
-msgstr "카메라 소스"
-
-msgid "Camera URL"
-msgstr "카메라 URL"
 
 msgid "Can't set above the maximum:"
 msgstr "최대 값을 초과하는 설정은 할 수 없습니다:"
@@ -186,9 +179,6 @@ msgstr "취소 중"
 msgid "Cannot connect to Moonraker"
 msgstr "문래이커에 연결할 수 없음"
 
-msgid "Capture Image"
-msgstr ""
-
 msgid "Channel"
 msgstr "채널"
 
@@ -198,54 +188,17 @@ msgstr "가속도 센서 배선을 확인해 주세요"
 msgid "Checking for updates, please wait..."
 msgstr "업데이트 확인 중입니다. 잠시 기다려 주세요..."
 
-msgid "Choose Language"
-msgstr "언어 선택"
-
-msgid "Choose Timezone"
-msgstr "시간대 선택"
-
-msgid "Choose a language"
-msgstr "언어 선택"
-
-msgid "Choose a timezone"
-msgstr "시간대 선택"
-
 msgid "Clear"
 msgstr "초기화"
-
-msgid "Clear History"
-msgstr ""
 
 msgid "Close"
 msgstr "닫기"
 
-msgid "Color"
-msgstr "색상"
-
 msgid "Complete"
 msgstr "완료"
 
-msgid "Confidence Threshold (%)"
-msgstr "신뢰도 임계값 (%)"
-
-msgid ""
-"Configure basic AI service settings. Enable the AI service to monitor your "
-"prints and adjust the confidence threshold for detection sensitivity."
-msgstr ""
-"기본 AI 서비스 설정을 구성합니다. AI 서비스를 활성화하여 프린트를 모니터링하"
-"고 감지 민감도에 대한 신뢰도 임계값을 조정합니다."
-
-msgid "Confirm"
-msgstr "확인"
-
 msgid "Confirm Emergency Stop"
 msgstr "비상정지 확인창 표시"
-
-msgid "Confirm Movement"
-msgstr ""
-
-msgid "Confirm Pos"
-msgstr "위치 확인"
 
 msgid "Connected"
 msgstr "연결됨"
@@ -257,38 +210,14 @@ msgstr "%s에 연결 중"
 msgid "Connection failed"
 msgstr "연결 실패"
 
-msgid "Continue Detection While Paused"
-msgstr "일시정지 중에도 감지 계속"
+msgid "Console"
+msgstr "콘솔 제어"
 
 msgid "Cooldown"
 msgstr "가열 중지"
 
-msgid "Couldn't get the calibration camera position."
-msgstr "보정 카메라 위치를 가져올 수 없습니다."
-
-msgid "Couldn't get the calibration switch position."
-msgstr ""
-
-msgid "Current Detection Image"
-msgstr ""
-
-msgid "Current language: "
-msgstr ""
-
-msgid "Current nozzle height difference: "
-msgstr "현재 노즐 높이 차이: "
-
-msgid "Current nozzle height difference: ?"
-msgstr ""
-
-msgid "Current timezone: "
-msgstr ""
-
 msgid "DPMS has failed to load and has been disabled"
 msgstr "DPMS가 비활성화 되었습니다"
-
-msgid "Dangerous nozzle height difference: "
-msgstr "위험한 노즐 높이 차이: "
 
 msgid "Date"
 msgstr "날짜"
@@ -302,60 +231,21 @@ msgstr "파일을 삭제하시겠습니까?"
 msgid "Deselect"
 msgstr "선택 해제"
 
-msgid "Detection History"
-msgstr ""
-
-msgid "Detection Interval (seconds)"
-msgstr "감지 간격 (초)"
-
 msgid "Disable Motors"
 msgstr "모터 전원 끄기"
 
-msgid "Disabled"
-msgstr ""
-
-msgid "Disconnected"
-msgstr "연결 안 됨"
-
 msgid "Distance (mm)"
 msgstr "거리 (mm)"
-
-msgid "Do not touch the printer during self-check."
-msgstr "자가 진단 중에 프린터에 손대지 마세요."
 
 #, python-format
 msgid "Do you want to recover %s?"
 msgstr "%s을(를) 복구하시겠습니까?"
 
-msgid "Dryer"
-msgstr "건조기"
-
-msgid "Dryer Level"
-msgstr "건조기 잔량"
-
-msgid "Dryer Sensor"
-msgstr "건조기 센서"
-
-msgid "Dryer Valve"
-msgstr "건조기 밸브"
-
-msgid "Dryer → Buffer"
-msgstr "건조기 → 버퍼"
-
 msgid "Elapsed:"
 msgstr "경과:"
 
-msgid "Emergency Stop"
-msgstr ""
-
-msgid "Enabled Defect Types"
-msgstr "활성화된 결함 유형"
-
 msgid "Error"
 msgstr "오류"
-
-msgid "Error writing configuration"
-msgstr "구성 쓰기 오류"
 
 msgid "Estimated Time Method"
 msgstr "예상 시간 옵션"
@@ -363,41 +253,23 @@ msgstr "예상 시간 옵션"
 msgid "Exclude Object"
 msgstr "개체 제외"
 
+msgid "Extra Large"
+msgstr "매우 크게"
+
 msgid "Extrude"
 msgstr "압출"
 
-msgid "Extruder switch when filament run out"
-msgstr "필라멘트가 끝났을 때 압출기를 변경합니다"
+msgid "Extrusion +"
+msgstr "압출 +"
 
-msgid "Failed to cancel print"
-msgstr "프린트 취소에 실패했습니다"
-
-msgid "Failed to capture image"
-msgstr ""
-
-msgid "Failed to detect nozzles"
-msgstr ""
-
-msgid "Failed to resume print"
-msgstr "프린트 재개에 실패했습니다"
-
-msgid "Failed to start AI monitoring"
-msgstr ""
+msgid "Extrusion -"
+msgstr "압출 -"
 
 msgid "Failed, adjust position first"
 msgstr "실패, 먼저 위치를 조정해 주세요"
 
 msgid "Fan"
 msgstr "쿨링 팬"
-
-msgid "Feeder"
-msgstr ""
-
-msgid "Feeder:"
-msgstr "공급:"
-
-msgid "Filament Box Power"
-msgstr "필라멘트 상자 전원"
 
 msgid "Filament Used"
 msgstr "사용된 필라멘트"
@@ -417,12 +289,6 @@ msgstr "파일"
 msgid "File:"
 msgstr "파일:"
 
-msgid "Filename"
-msgstr "파일명"
-
-msgid "Filename:"
-msgstr "파일명:"
-
 msgid "Filter"
 msgstr "필터"
 
@@ -438,49 +304,17 @@ msgstr "완료됨"
 msgid "Firmware Restart"
 msgstr "펌웨어 재시작"
 
-# msgid "Firmware Restart"
-# msgstr "펌웨어 재시작"
-msgid "Firmware has disconnected"
-msgstr "펌웨어가 연결이 해제되었습니다"
-
-msgid "Firmware has encountered an error."
-msgstr "펌웨어에서 오류가 발생했습니다."
-
-msgid "Firmware has shutdown"
-msgstr "펌웨어가 종료되었습니다"
-
-msgid "Firmware is attempting to start"
-msgstr "펌웨어가 시작을 시도하고 있습니다"
-
-msgid "Firmware will reboot"
-msgstr "펌웨어가 재부팅됩니다"
-
-msgid "Flow +"
-msgstr ""
-
-msgid "Flow -"
-msgstr ""
-
 msgid "Flow:"
 msgstr "유량:"
 
 msgid "Flowrate:"
 msgstr "유량 비율:"
 
-msgid "Force Cancel"
-msgstr ""
-
-msgid "Force Move"
-msgstr "강제 이동"
-
-msgid "Force move: "
-msgstr "강제 이동："
+msgid "Font Size"
+msgstr "글꼴 크기"
 
 msgid "Full Update"
 msgstr "전체 업데이트"
-
-msgid "Gcode Buttons"
-msgstr ""
 
 msgid "Go Back"
 msgstr "뒤로"
@@ -491,11 +325,11 @@ msgstr "높이:"
 msgid "Hidden"
 msgstr "숨김"
 
-msgid "Hidden Network"
-msgstr ""
-
 msgid "Hide"
 msgstr "가리기"
+
+msgid "Hide sensors in Temp."
+msgstr "온도 섹션에서 센서 항목 숨김."
 
 msgid "Hide temp."
 msgstr "온도 숨김"
@@ -518,20 +352,8 @@ msgstr "Y축 원점 이동"
 msgid "Home Z"
 msgstr "Z축 원점 이동"
 
-msgid "Homing the printer..."
-msgstr "프린터 원점 복귀 중..."
-
-msgid "Hopper"
-msgstr "호퍼"
-
-msgid "Hopper Level"
-msgstr "호퍼 잔량"
-
-msgid "Hopper Valve"
-msgstr "호퍼 밸브"
-
-msgid "Hopper → Dryer"
-msgstr "호퍼 → 건조기"
+msgid "Host"
+msgstr "호스트"
 
 msgid "Hostname"
 msgstr "호스트 이름"
@@ -539,10 +361,8 @@ msgstr "호스트 이름"
 msgid "ID"
 msgstr "아이디"
 
-msgid ""
-"If your calibration device is under the PEI, please lift the PEI after "
-"homing."
-msgstr "보정 장치가 PEI 아래에 있는 경우, 원점 복귀 후 PEI를 들어올려 주세요."
+msgid "Icon Theme"
+msgstr "아이콘 테마"
 
 msgid "Initializing printer..."
 msgstr "프린터 초기화 중.."
@@ -574,19 +394,33 @@ msgstr "Z축 반전"
 msgid "It may take more than 5 minutes depending on the heater power."
 msgstr "히터에 따라 5분 이상 걸릴 수 있습니다."
 
-msgid "LEDs"
-msgstr ""
+#msgid "Firmware Restart"
+#msgstr "펌웨어 재시작"
+
+msgid "Firmware has disconnected"
+msgstr "펌웨어가 연결이 해제되었습니다"
+
+msgid "Firmware has encountered an error."
+msgstr "펌웨어에서 오류가 발생했습니다."
+
+msgid "Firmware has shutdown"
+msgstr "펌웨어가 종료되었습니다"
+
+msgid "Firmware is attempting to start"
+msgstr "펌웨어가 시작을 시도하고 있습니다"
+
+msgid "Firmware will reboot"
+msgstr "펌웨어가 재부팅됩니다"
 
 msgid ""
 "LOAD_FILAMENT/UNLOAD_FILAMENT are hidden and should be used from extrude"
-msgstr ""
-"LOAD_FILAMENT/UNLOAD_FILAMENT는 숨겨져 있으므로 압출에서 사용해야 합니다"
+msgstr "LOAD_FILAMENT/UNLOAD_FILAMENT는 숨겨져 있으므로 압출에서 사용해야 합니다"
 
 msgid "Language"
 msgstr "언어"
 
-msgid "Last Detection:"
-msgstr ""
+msgid "Large"
+msgstr "크게"
 
 msgid "Last Used"
 msgstr "마지막으로 사용"
@@ -597,42 +431,26 @@ msgstr "레이어:"
 msgid "Leds"
 msgstr "LED들"
 
-#, python-format
-msgid "Left Extruder: %s%.3f"
-msgstr "왼쪽 압출기: %s%.3f"
-
-msgid "Left Extruder: Not adjusted"
-msgstr "왼쪽 압출기: 조정되지 않음"
-
 msgid "Left:"
 msgstr "남음:"
 
-msgid "Leveling"
-msgstr "레벨링"
+msgid "Limits"
+msgstr "제한"
 
 msgid "Load"
 msgstr "필라멘트 로드"
 
-msgid "Local"
-msgstr ""
-
-msgid "Lower"
-msgstr "하강"
-
 msgid "Lower Nozzle"
 msgstr "노즐 낮춤"
 
+msgid "Macro shortcut on sidebar"
+msgstr "사이드바에 매크로 아이콘 표시"
+
+msgid "Macros"
+msgstr "매크로"
+
 msgid "Main Menu"
 msgstr "메인 메뉴"
-
-msgid "Manual"
-msgstr "수동"
-
-msgid "Manual Detect"
-msgstr ""
-
-msgid "Manual Detection"
-msgstr ""
 
 msgid "Material"
 msgstr "재료"
@@ -649,6 +467,9 @@ msgstr "감속을 위한 최대 가속"
 msgid "Max Velocity"
 msgstr "최대 출력 속도"
 
+msgid "Maximum"
+msgstr "최대"
+
 msgid "Measure Both"
 msgstr "X, Y축 모두 측정"
 
@@ -658,6 +479,9 @@ msgstr "X축 측정"
 msgid "Measure Y"
 msgstr "Y축 측정"
 
+msgid "Medium"
+msgstr "중간"
+
 msgid "Menu"
 msgstr "메뉴"
 
@@ -666,12 +490,6 @@ msgstr "메쉬 보정"
 
 msgid "Modified"
 msgstr "수정됨"
-
-msgid "Monitoring:"
-msgstr ""
-
-msgid "Moonraker"
-msgstr ""
 
 msgid "Moonraker: connected"
 msgstr "문래이커: 연결됨"
@@ -688,15 +506,6 @@ msgstr "이동 거리 (mm)"
 msgid "Name"
 msgstr "이름"
 
-msgid "Need home axis"
-msgstr "홈 축 필요"
-
-msgid "Need reboot, relaunch immediately?"
-msgstr "재시작이 필요합니다. 지금 재시작하시겠습니까?"
-
-msgid "Need to recalculate the offset value."
-msgstr "오프셋 값을 다시 계산해야 합니다."
-
 msgid "Network"
 msgstr "네트워크"
 
@@ -706,88 +515,27 @@ msgstr "결코"
 msgid "New"
 msgstr "신규"
 
-msgid "New nozzle height difference is: "
-msgstr "새로운 노즐 높이 차이는: "
-
-msgid "New nozzle height difference: "
-msgstr "새로운 노즐 높이 차이: "
-
-msgid "New nozzle height difference: ?"
-msgstr ""
-
-msgid "No Gcode Buttons configured"
-msgstr ""
-
-msgid "No calibration camera found."
-msgstr ""
-
-msgid "No camera URL available."
-msgstr ""
-
-msgid "No camera configured"
-msgstr ""
-
-msgid "No captured images found"
-msgstr ""
-
 msgid "No elegible macros:"
 msgstr "적절한 매크로 없음:"
-
-msgid "No info available"
-msgstr ""
-
-msgid "No prediction image available"
-msgstr "예측 이미지를 사용할 수 없습니다"
-
-msgid "No wireless interface has been found"
-msgstr ""
-
-#, python-brace-format
-msgid "No {action} gcode configured for {button_name}"
-msgstr ""
 
 msgid ""
 "Not supported for auto-detection, it needs to be configured in klipperscreen."
 "conf"
 msgstr "자동 감지는 지원되지 않으므로 klipperscreen.conf로 구성해야 합니다"
 
-msgid "Not working or not configured"
-msgstr ""
-
 msgid "Nothing selected"
 msgstr "아무것도 선택하지 않음"
-
-msgid "Notification log empty"
-msgstr ""
-
-msgid "Notifications"
-msgstr ""
-
-msgid "Nozzle Temp:"
-msgstr "노즐 온도:"
-
-msgid "Nozzle Temperature"
-msgstr "노즐 온도"
-
-msgid "OK"
-msgstr "확인"
-
-msgid "Only one extruder does not require calibration."
-msgstr "한 개의 엑스트루더만 보정이 필요하지 않습니다."
 
 #, python-format
 msgid "Outdated by %d"
 msgstr "%d 보다 오래됨"
 
-msgid "Output Pins"
-msgstr ""
-
 msgid "PSK for"
 msgstr "PSK 키 값(비밀번호)"
 
 msgid "Package will be updated"
-msgid_plural "Packages will be updated"
-msgstr[0] ""
+
+msgstr "패키지가 업데이트 됩니다"
 
 msgid "Part Fan"
 msgstr "파트 쿨링 팬"
@@ -804,53 +552,23 @@ msgstr "일시정지됨"
 msgid "Perform a full upgrade?"
 msgstr "전체 업그레이드를 실행하시겠습니까?"
 
-msgid ""
-"Please click the Z raise button to raise the Z axis to remove the foam "
-"around the bottom of the case."
-msgstr "Z 상승 버튼을 클릭하여 Z축을 올려 케이스 하단 주변의 폼을 제거하세요."
+msgid "Pins"
+msgstr "핀"
 
-msgid "Please observe if the nozzle is positioned above the probe."
-msgstr "노즐이 프로브 위에 위치해 있는지 확인해 주세요."
+msgid "Output Pins"
+msgstr "출력 핀"
 
 msgid "Please recompile and flash the micro-controller."
 msgstr "MCU 펌웨어를 다시 컴파일 한 다음 플래싱 해주세요."
 
-msgid "Please wait for the camera initialization to complete."
-msgstr "카메라 초기화가 완료될 때까지 기다려주세요."
-
-msgid ""
-"Please wait for the camera's fill light to light up for 5 seconds before "
-"clicking 'Start'"
-msgstr ""
-"시작을 클릭하기 전에 카메라의 보충 라이트가 5초 동안 켜질 때까지 기다려주세"
-"요."
-
-msgid "Please wait until the bed and nozzle is heated before calibrating."
-msgstr ""
-
 msgid "Power"
 msgstr "전원"
-
-msgid "Power Loss Recovery"
-msgstr "전원 복구"
 
 msgid "Power On Printer"
 msgstr "프린터 전원 켜기"
 
-msgid "Preheat"
-msgstr ""
-
-msgid "Press"
-msgstr ""
-
-msgid "Pressed"
-msgstr ""
-
 msgid "Pressure Advance:"
 msgstr "모서리 압출 제어 수치:"
-
-msgid "Pressure:"
-msgstr "압력:"
 
 msgid "Print"
 msgstr "출력"
@@ -858,35 +576,17 @@ msgstr "출력"
 msgid "Print Control"
 msgstr "출력 제어"
 
-msgid "Print Height"
-msgstr "인쇄 높이"
-
-msgid "Print Height:"
-msgstr "인쇄 높이:"
-
 msgid "Print Time"
 msgstr "출력 시간"
 
-msgid "Print cancelled"
-msgstr "프린트가 취소되었습니다"
+msgid "Printer"
+msgstr "프린터"
 
-msgid "Print height is less than 1mm"
-msgstr "인쇄 높이가 1mm 미만입니다"
-
-msgid "Print resumed"
-msgstr "프린트가 재개되었습니다"
+msgid "Printer Connections"
+msgstr "프린터 연결"
 
 msgid "Printer Select"
 msgstr "프린터 선택"
-
-msgid "Printhead"
-msgstr "헤드"
-
-msgid "Printhead 1"
-msgstr "헤드 1"
-
-msgid "Printhead 2"
-msgstr "헤드 2"
 
 msgid "Printing"
 msgstr "출력 중"
@@ -903,9 +603,6 @@ msgstr "도움을 요청하면 KlipperScreen.log를 제공합니다.\n"
 msgid "Quad Gantry Level"
 msgstr "쿼드 갠트리 레벨링"
 
-msgid "Raise"
-msgstr "상승"
-
 msgid "Raise Nozzle"
 msgstr "노즐 높임"
 
@@ -918,23 +615,11 @@ msgstr "강화 복구"
 msgid "Recover Soft"
 msgstr "일반 복구"
 
-msgid "Recovery File"
-msgstr "복구 파일"
-
 msgid "Reference"
 msgstr "참조"
 
 msgid "Refresh"
 msgstr "새로고침"
-
-msgid "Release"
-msgstr ""
-
-msgid "Released"
-msgstr ""
-
-msgid "Remove Foam"
-msgstr "폼 제거"
 
 msgid "Rename/Move:"
 msgstr "이름 변경/이동:"
@@ -942,20 +627,14 @@ msgstr "이름 변경/이동:"
 msgid "Restart"
 msgstr "재시작"
 
-msgid "Restart required. Restart now?"
-msgstr ""
-
 msgid "Resume"
 msgstr "재개"
 
 msgid "Retract"
 msgstr "퇴출"
 
-msgid "Retract blowback"
-msgstr "역분사 복귀"
-
-msgid "Retract started"
-msgstr "복귀 시작"
+msgid "Retraction"
+msgstr "필라멘트 퇴출"
 
 msgid "Retraction Length"
 msgstr "퇴출 길이"
@@ -969,30 +648,11 @@ msgstr "재시도"
 msgid "Retrying"
 msgstr "재시도 중"
 
-msgid "Return Buffer"
-msgstr "버퍼 복귀"
-
-msgid "Right Extruder Z Offset"
-msgstr ""
-
-#, python-format
-msgid "Right Extruder: %s%.3f"
-msgstr "오른쪽 압출기: %s%.3f"
-
-msgid "Right Extruder: Not adjusted"
-msgstr "오른쪽 압출기: 조정되지 않음"
-
-msgid "Run Mode:"
-msgstr "모드:"
-
-msgid "Running"
-msgstr ""
-
 msgid "Save"
 msgstr "저장"
 
-msgid "Save Results"
-msgstr ""
+msgid "Save Config"
+msgstr "설정 저장"
 
 msgid "Save Z"
 msgstr "Z 오프셋 저장"
@@ -1003,11 +663,9 @@ msgstr "구성을 저장하시겠습니까?"
 msgid "Saved"
 msgstr "저장됨"
 
-msgid "Saved successfully!"
-msgstr "성공적으로 저장되었습니다!"
-
-msgid "Saved successfully."
-msgstr ""
+#, python-format
+msgid "Saved offset: %s"
+msgstr "저장된 오프셋: %s"
 
 msgid "Screen DPMS"
 msgstr "화면 DPMS"
@@ -1021,17 +679,8 @@ msgstr "베드 스크류 조정"
 msgid "Select"
 msgstr "선택"
 
-msgid "Select WiFi"
-msgstr "WiFi 선택"
-
-msgid "Self-check"
-msgstr "자가 진단"
-
 msgid "Send"
 msgstr "보내기"
-
-msgid "Service Status:"
-msgstr ""
 
 msgid "Set Temp"
 msgstr "온도 설정"
@@ -1042,8 +691,11 @@ msgstr "설정"
 msgid "Show"
 msgstr "보기"
 
-msgid "Shut down after printing completes"
-msgstr "인쇄가 완료되면 종료"
+msgid "Show Heater Power"
+msgstr "히터 전원 보기"
+
+msgid "Show Scrollbars Buttons"
+msgstr "스크롤바 버튼 보기"
 
 msgid "Shutdown"
 msgstr "셧다운"
@@ -1057,8 +709,8 @@ msgstr "슬라이서"
 msgid "Slicer:"
 msgstr "슬라이서:"
 
-msgid "Sound Notification"
-msgstr "소리 알림"
+msgid "Small"
+msgstr "작게"
 
 msgid "Speed (mm/s)"
 msgstr "속도 (mm/s)"
@@ -1081,41 +733,14 @@ msgstr "준비됨"
 msgid "Start"
 msgstr "시작"
 
-msgid "Start Calibration"
-msgstr ""
-
-msgid "Start Monitoring"
-msgstr ""
-
-msgid "Start Preview"
-msgstr ""
-
 msgid "Starting WiFi Association"
 msgstr "WiFi 연결을 시작하는 중"
-
-msgid "Starting dual nozzle height calibration..."
-msgstr "이중 노즐 높이 보정을 시작합니다..."
 
 msgid "Starting recovery for"
 msgstr "복구 시작"
 
 msgid "Starting update for"
 msgstr "업데이트 시작 중"
-
-msgid "Stop"
-msgstr ""
-
-msgid "Stop All"
-msgstr "전체 정지"
-
-msgid "Stop Monitoring"
-msgstr ""
-
-msgid "Stop Preview"
-msgstr ""
-
-msgid "Stopped"
-msgstr ""
 
 msgid "System"
 msgstr "시스템"
@@ -1132,32 +757,8 @@ msgstr "온도 (°C)"
 msgid "Temperature"
 msgstr "온도"
 
-msgid "The nozzle temperature is too low, Are you sure you want to heat it?"
-msgstr "노즐 온도가 너무 낮습니다. 가열하시겠습니까?"
-
-msgid "To Buffer"
-msgstr "버퍼로"
-
-msgid "To Dryer"
-msgstr "건조기로"
-
-msgid "To Printhead"
-msgstr "헤드로"
-
 msgid "Total:"
 msgstr "총:"
-
-msgid "Troubleshooting"
-msgstr "문제 해결"
-
-msgid "Turn off"
-msgstr "끄기"
-
-msgid "URL"
-msgstr ""
-
-msgid "Unknown"
-msgstr ""
 
 msgid "Unknown Heater"
 msgstr "알 수 없는 히터"
@@ -1186,37 +787,8 @@ msgstr "업데이트 중"
 msgid "Uploaded"
 msgstr "업로드됨"
 
-msgid "Voice Notify"
-msgstr "음성 알림"
-
-msgid "Warning"
-msgstr "경고"
-
-msgid ""
-"Warning: Current value is negative. This is dangerous and may damage the "
-"machine. Please recalibrate."
-msgstr ""
-"경고: 현재 값이 음수입니다. 이는 위험하며 기계에 손상을 줄 수 있습니다. 다시 "
-"보정해 주세요."
-
-msgid ""
-"Warning: Negative value detected. This is dangerous and may damage the "
-"machine. Please recalibrate."
-msgstr ""
-"경고: 음수 값이 감지되었습니다. 이는 위험하며 기계에 손상을 줄 수 있습니다. "
-"다시 보정해 주세요."
-
-msgid "Waste Chute"
-msgstr ""
-
-msgid "WebRTC is not supported by the backend trying Stream"
-msgstr ""
-
 msgid "XY Move Speed (mm/s)"
 msgstr "XY 이동 속도 (mm/s)"
-
-msgid "XY Offset"
-msgstr "XY 오프셋"
 
 msgid "XY Speed (mm/s)"
 msgstr "XY 속도 (mm/s)"
@@ -1224,17 +796,8 @@ msgstr "XY 속도 (mm/s)"
 msgid "Z Calibrate"
 msgstr "Z 오프셋 교정"
 
-msgid "Z Endstop"
-msgstr ""
-
-msgid "Z Height Diff"
-msgstr "Z 높이 차이"
-
 msgid "Z Move Speed (mm/s)"
 msgstr "Z 이동 속도 (mm/s)"
-
-msgid "Z Offset"
-msgstr "Z 오프셋"
 
 msgid "Z Speed (mm/s)"
 msgstr "Z 속도 (mm/s)"
@@ -1242,22 +805,19 @@ msgstr "Z 속도 (mm/s)"
 msgid "Z Tilt"
 msgstr "Z 기울기"
 
-msgid "Z offset exceeds safe range"
-msgstr ""
-
 msgid "Z offset:"
 msgstr "Z 오프셋:"
 
 msgid "commit"
-msgid_plural "commits"
-msgstr[0] ""
+
+msgstr "커밋"
 
 msgid "dBm"
 msgstr "dBm"
 
 msgid "hour"
-msgid_plural "hours"
-msgstr[0] ""
+
+msgstr "시간"
 
 msgid "macros that use 'rename_existing' are hidden"
 msgstr "'rename_existing'을(를) 사용하는 매크로가 숨겨집니다"
@@ -1266,8 +826,8 @@ msgid "macros with a name starting with '_' are hidden"
 msgstr "이름이 '_'로 시작하는 매크로는 숨겨집니다"
 
 msgid "minute"
-msgid_plural "minutes"
-msgstr[0] ""
+
+msgstr "분"
 
 msgid "mm"
 msgstr "mm"
@@ -1281,107 +841,11 @@ msgstr "mm/s²"
 msgid "mm³/s"
 msgstr "mm³/s"
 
-#~ msgid "Missing required information"
-#~ msgstr "필수 정보 누락"
-
-#~ msgid "Resume Print"
-#~ msgstr "인쇄 재개"
-
-#~ msgid "Tip: Please ensure the nozzle is about 0.1mm above the model"
-#~ msgstr "팁: 노즐이 모델 위로 약 0.1mm에 위치하도록 확인하세요"
-
-#~ msgid "24 Hour Time"
-#~ msgstr "24시간제 사용"
-
-#, python-format
-#~ msgid "Apply %s%.3f offset to Endstop?"
-#~ msgstr "%s%.3f 오프셋을 Endstop에 적용하시겠습니까?"
-
-#, python-format
-#~ msgid "Apply %s%.3f offset to Probe?"
-#~ msgstr "%s%.3f오프셋을 프로브에 적용하시겠습니까?"
-
-#~ msgid "Auto-open Extrude On Pause"
-#~ msgstr "일시정지 시 압출 가능"
-
-#~ msgid "Bed Mesh"
-#~ msgstr "배드 메시"
-
-#~ msgid "Console"
-#~ msgstr "콘솔 제어"
-
-#~ msgid "Extra Large"
-#~ msgstr "매우 크게"
-
-#~ msgid "Extrusion +"
-#~ msgstr "압출 +"
-
-#~ msgid "Extrusion -"
-#~ msgstr "압출 -"
-
-#~ msgid "Font Size"
-#~ msgstr "글꼴 크기"
-
-#~ msgid "Hide sensors in Temp."
-#~ msgstr "온도 섹션에서 센서 항목 숨김."
-
-#~ msgid "Host"
-#~ msgstr "호스트"
-
-#~ msgid "Icon Theme"
-#~ msgstr "아이콘 테마"
-
-#~ msgid "Large"
-#~ msgstr "크게"
-
-#~ msgid "Limits"
-#~ msgstr "제한"
-
-#~ msgid "Macro shortcut on sidebar"
-#~ msgstr "사이드바에 매크로 아이콘 표시"
-
-#~ msgid "Macros"
-#~ msgstr "매크로"
-
-#~ msgid "Maximum"
-#~ msgstr "최대"
-
-#~ msgid "Medium"
-#~ msgstr "중간"
-
-#~ msgid "Pins"
-#~ msgstr "핀"
-
-#~ msgid "Printer"
-#~ msgstr "프린터"
-
-#~ msgid "Printer Connections"
-#~ msgstr "프린터 연결"
-
-#~ msgid "Retraction"
-#~ msgstr "필라멘트 퇴출"
-
-#~ msgid "Save Config"
-#~ msgstr "설정 저장"
-
-#, python-format
-#~ msgid "Saved offset: %s"
-#~ msgstr "저장된 오프셋: %s"
-
-#~ msgid "Show Heater Power"
-#~ msgstr "히터 전원 보기"
-
-#~ msgid "Show Scrollbars Buttons"
-#~ msgstr "스크롤바 버튼 보기"
-
-#~ msgid "Small"
-#~ msgstr "작게"
-
 #~ msgid "KlipperScreen will reboot"
 #~ msgstr "KlipperScreen가 재부팅됩니다"
 
-#~ msgid "Continue"
-#~ msgstr "계속"
+msgid "Continue"
+msgstr "계속"
 
 #~ msgid "Actions"
 #~ msgstr "툴 헤드 제어"
@@ -1392,11 +856,17 @@ msgstr "mm³/s"
 #~ msgid "Homing"
 #~ msgstr "툴 헤드 위치 초기화"
 
+#~ msgid "Disable XY"
+#~ msgstr "XY 비활성화"
+
 #~ msgid "Slicer Time correction (%)"
 #~ msgstr "슬라이서 간 보정(%)"
 
 #~ msgid "Calibrated, save configuration to make it permanent"
 #~ msgstr "교정됨, 설정을 저장합니다"
+
+#~ msgid "Decrease"
+#~ msgstr "낮추기"
 
 #~ msgid "Increase"
 #~ msgstr "높이기"
@@ -1473,570 +943,888 @@ msgstr "mm³/s"
 #~ msgid "Z Position"
 #~ msgstr "Z 위치"
 
-#~ msgid "General"
-#~ msgstr "일반"
+msgid "Leveling"
+msgstr "레벨링"
 
-#~ msgid "Cautions"
-#~ msgstr "주의사항"
+msgid "The nozzle temperature is too low, Are you sure you want to heat it?"
+msgstr "노즐 온도가 너무 낮습니다. 가열하시겠습니까?"
 
-#~ msgid "Maintenance"
-#~ msgstr "유지보수"
+msgid "General"
+msgstr "일반"
 
-#~ msgid "Please confirm left extruder position."
-#~ msgstr "왼쪽 엑스트루더 위치를 확인하세요."
+msgid "Turn off"
+msgstr "끄기"
 
-#~ msgid "Nozzle Heating"
-#~ msgstr "노즐 가열"
+msgid "Brightest"
+msgstr "가장 밝은"
 
-#~ msgid "Hot Bed Heating"
-#~ msgstr "온대 가열"
+msgid "Manual"
+msgstr "수동"
 
-#~ msgid "Nozzle Cooling Fan"
-#~ msgstr "노즐 냉각 팬"
+msgid "Troubleshooting"
+msgstr "문제 해결"
 
-#~ msgid "Hotend Cooling Fan"
-#~ msgstr "핫엔드 냉각 팬"
+msgid "Cautions"
+msgstr "주의사항"
 
-#~ msgid "Auto Leveling"
-#~ msgstr "자동 레벨링"
+msgid "Maintenance"
+msgstr "유지보수"
 
-#~ msgid "WiFi"
-#~ msgstr "WiFi"
+msgid "Calibration"
+msgstr "보정"
 
-#~ msgid "Power loss recovery, is resume print?"
-#~ msgstr "전원 손실 복구, 인쇄를 재개할까요?"
+msgid "XY Offset"
+msgstr "XY 오프셋"
 
-#~ msgid "Skip All"
-#~ msgstr "모두 건너뛰기"
+msgid "Z Offset"
+msgstr "Z 오프셋"
 
-#~ msgid "Please wait for the print job to end"
-#~ msgstr "인쇄 작업이 끝날 때까지 기다려주세요"
+msgid "Only one extruder does not require calibration."
+msgstr "한 개의 엑스트루더만 보정이 필요하지 않습니다."
 
-#~ msgid "Are you sure you wish to reset the printer?"
-#~ msgstr "프린터를 재설정하시겠습니까?"
+msgid "Please confirm left extruder position."
+msgstr "왼쪽 엑스트루더 위치를 확인하세요."
 
-#~ msgid "Data will be deleted"
-#~ msgstr "데이터가 삭제됩니다"
+msgid "Need to recalculate the offset value."
+msgstr "오프셋 값을 다시 계산해야 합니다."
 
-#~ msgid "Reset Printer"
-#~ msgstr "프린터 재설정"
+msgid "Error writing configuration"
+msgstr "구성 쓰기 오류"
 
-#~ msgid "Resetting printer, will restart, please wait..."
-#~ msgstr "프린터 재설정 중, 다시 시작됩니다, 기다려주세요..."
+msgid "Please wait for the camera initialization to complete."
+msgstr "카메라 초기화가 완료될 때까지 기다려주세요."
 
-#~ msgid "Reset"
-#~ msgstr "재설정"
+msgid "Please wait for the camera's fill light to light up for 5 seconds before clicking 'Start'"
+msgstr "시작을 클릭하기 전에 카메라의 보충 라이트가 5초 동안 켜질 때까지 기다려주세요."
 
-#~ msgid "Poweroff"
-#~ msgstr "전원 끄기"
+msgid "Couldn't get the calibration camera position."
+msgstr "보정 카메라 위치를 가져올 수 없습니다."
+
+msgid "Need home axis"
+msgstr "홈 축 필요"
+
+msgid "Choose Language"
+msgstr "언어 선택"
+
+msgid "Choose Timezone"
+msgstr "시간대 선택"
+
+msgid "Select WiFi"
+msgstr "WiFi 선택"
+
+msgid "Self-check"
+msgstr "자가 진단"
+
+msgid "Nozzle Heating"
+msgstr "노즐 가열"
+
+msgid "Hot Bed Heating"
+msgstr "온대 가열"
+
+msgid "Nozzle Cooling Fan"
+msgstr "노즐 냉각 팬"
+
+msgid "Hotend Cooling Fan"
+msgstr "핫엔드 냉각 팬"
+
+msgid "Filament Detection"
+msgstr "필라멘트 감지"
+
+msgid "Auto Leveling"
+msgstr "자동 레벨링"
+
+msgid "WiFi"
+msgstr "WiFi"
+
+msgid "Power loss recovery, is resume print?"
+msgstr "전원 손실 복구, 인쇄를 재개할까요?"
+
+msgid "Please wait until the bed and nozzle are heated before calibrating."
+msgstr "보정 전에 침대와 노즐이 가열될 때까지 기다려주세요."
+
+msgid "Current language:"
+msgstr "현재 언어:"
+
+msgid "Skip All"
+msgstr "모두 건너뛰기"
+
+msgid "Do not touch the printer during self-check."
+msgstr "자가 진단 중에 프린터에 손대지 마세요."
+
+msgid "Confirm"
+msgstr "확인"
+
+msgid "Current timezone:"
+msgstr "현재 시간대:"
+
+msgid "Choose a timezone"
+msgstr "시간대 선택"
+
+msgid "Choose a language"
+msgstr "언어 선택"
+
+msgid "Please wait for the print job to end"
+msgstr "인쇄 작업이 끝날 때까지 기다려주세요"
+
+msgid "Are you sure you wish to reset the printer?"
+msgstr "프린터를 재설정하시겠습니까?"
+
+msgid "Data will be deleted"
+msgstr "데이터가 삭제됩니다"
+
+msgid "Reset Printer"
+msgstr "프린터 재설정"
+
+msgid "Resetting printer, will restart, please wait..."
+msgstr "프린터 재설정 중, 다시 시작됩니다, 기다려주세요..."
+
+msgid "Reset"
+msgstr "재설정"
+
+msgid "Poweroff"
+msgstr "전원 끄기"
+
+msgid "Confirm Pos"
+msgstr "위치 확인"
+
+msgid "Shut down after printing completes"
+msgstr "인쇄가 완료되면 종료"
+
+msgid "Voice Notify"
+msgstr "음성 알림"
+
+msgid "Filament Box Power"
+msgstr "필라멘트 상자 전원"
+
+msgid "If your calibration device is under the PEI, please lift the PEI after homing."
+msgstr "보정 장치가 PEI 아래에 있는 경우, 원점 복귀 후 PEI를 들어올려 주세요."
+
+msgid "Homing the printer..."
+msgstr "프린터 원점 복귀 중..."
+
+msgid "Starting dual nozzle height calibration..."
+msgstr "이중 노즐 높이 보정을 시작합니다..."
+
+msgid "Please observe if the nozzle is positioned above the probe."
+msgstr "노즐이 프로브 위에 위치해 있는지 확인해 주세요."
+
+msgid "Warning: Negative value detected. This is dangerous and may damage the machine. Please recalibrate."
+msgstr "경고: 음수 값이 감지되었습니다. 이는 위험하며 기계에 손상을 줄 수 있습니다. 다시 보정해 주세요."
+
+msgid "New nozzle height difference is: "
+msgstr "새로운 노즐 높이 차이는: "
+
+msgid "Warning: Current value is negative. This is dangerous and may damage the machine. Please recalibrate."
+msgstr "경고: 현재 값이 음수입니다. 이는 위험하며 기계에 손상을 줄 수 있습니다. 다시 보정해 주세요."
+
+msgid "Z Height Diff"
+msgstr "Z 높이 차이"
+
+msgid "Adjust Zprobe Pos"
+msgstr "Z프로브 위치 조정"
+
+msgid "Need reboot, relaunch immediately?"
+msgstr "재시작이 필요합니다. 지금 재시작하시겠습니까?"
+
+msgid "Current nozzle height difference: "
+msgstr "현재 노즐 높이 차이: "
+
+msgid "New nozzle height difference: "
+msgstr "새로운 노즐 높이 차이: "
+
+msgid "Dangerous nozzle height difference: "
+msgstr "위험한 노즐 높이 차이: "
+
+msgid "Saved successfully!"
+msgstr "성공적으로 저장되었습니다!"
 
 # Feed Filament Box
-#~ msgid "Edit"
-#~ msgstr "편집"
+msgid "Edit"
+msgstr "편집"
 
-#~ msgid "Filament Info"
-#~ msgstr "필라멘트 정보"
+msgid "Filament Info"
+msgstr "필라멘트 정보"
 
-#~ msgid "Not found"
-#~ msgstr "찾을 수 없음"
+msgid "Not found"
+msgstr "찾을 수 없음"
 
-#~ msgid "Vendor"
-#~ msgstr "제조사"
+msgid "Vendor"
+msgstr "제조사"
 
-#~ msgid "Type"
-#~ msgstr "유형"
+msgid "Type"
+msgstr "유형"
 
-#~ msgid "Set Color"
-#~ msgstr "색상 설정"
+msgid "Color"
+msgstr "색상"
 
-#~ msgid "Filament Settings"
-#~ msgstr "필라멘트 설정"
+msgid "Set Color"
+msgstr "색상 설정"
 
-#~ msgid "Multi-Material Box"
-#~ msgstr "멀티 재료 박스"
+msgid "Filament Settings"
+msgstr "필라멘트 설정"
 
-#~ msgid "Are you sure you wish to restart the firmware?"
-#~ msgstr "펌웨어를 재시작하시겠습니까?"
+msgid "Multi-Material Box"
+msgstr "멀티 재료 박스"
 
-#~ msgid "Autofill filament disable"
-#~ msgstr "자동 필라멘트 채우기 비활성화"
+msgid "Are you sure you wish to restart the firmware?"
+msgstr "펌웨어를 재시작하시겠습니까?"
 
-#~ msgid "Autofill filament enabled"
-#~ msgstr "자동 필라멘트 채우기 활성화"
+msgid "Autofill filament disable"
+msgstr "자동 필라멘트 채우기 비활성화"
 
-#~ msgid "Autofill filament: %s"
-#~ msgstr "자동 필라멘트 채우기: %s"
+msgid "Autofill filament enabled"
+msgstr "자동 필라멘트 채우기 활성화"
 
-#~ msgid "Backing up configuration files."
-#~ msgstr "설정 파일을 백업 중입니다."
+msgid "Autofill filament: %s"
+msgstr "자동 필라멘트 채우기: %s"
 
-#~ msgid "Calibrate Cutter Pos"
-#~ msgstr "커터 위치 교정"
+msgid "Backing up configuration files."
+msgstr "설정 파일을 백업 중입니다."
 
-#~ msgid "Couldn't get the calibration cutter position."
-#~ msgstr "커터 교정 위치를 얻을 수 없습니다."
+msgid "Calibrate Cutter Pos"
+msgstr "커터 위치 교정"
 
-#~ msgid "Current filament indexes are:%s, active tool:%s"
-#~ msgstr "현재 필라멘트 인덱스는 %s이고, 활성 도구는 %s입니다."
+msgid "Couldn't get the calibration cutter position."
+msgstr "커터 교정 위치를 얻을 수 없습니다."
 
-#~ msgid ""
-#~ "Current filament indexes are:%s, active tool:%s, resume_tool:%s, "
-#~ "pause_reason:%s"
-#~ msgstr ""
-#~ "현재 필라멘트 인덱스는 %s이고, 활성 도구는 %s, 재개 도구는 %s, 일시 정지 "
-#~ "이유는 %s입니다."
+msgid "Current filament indexes are:%s, active tool:%s"
+msgstr "현재 필라멘트 인덱스는 %s이고, 활성 도구는 %s입니다."
 
-#~ msgid "Current value is %s"
-#~ msgstr "현재 값은 %s입니다."
+msgid "Current filament indexes are:%s, active tool:%s, resume_tool:%s, pause_reason:%s"
+msgstr "현재 필라멘트 인덱스는 %s이고, 활성 도구는 %s, 재개 도구는 %s, 일시 정지 이유는 %s입니다."
 
-#~ msgid "Cut Filament Test"
-#~ msgstr "필라멘트 절단 테스트"
+msgid "Current value is %s"
+msgstr "현재 값은 %s입니다."
 
-#~ msgid "Do you want to enable multi-material box?"
-#~ msgstr "다중 소재 상자를 활성화하시겠습니까?"
+msgid "Cut Filament Test"
+msgstr "필라멘트 절단 테스트"
 
-#~ msgid "Do you want to use external filament?"
-#~ msgstr "외부 필라멘트를 사용하시겠습니까?"
+msgid "Do you want to enable multi-material box?"
+msgstr "다중 소재 상자를 활성화하시겠습니까?"
 
-#~ msgid "Error: Offset values not found"
-#~ msgstr "오류: 오프셋 값이 없습니다."
+msgid "Do you want to use external filament?"
+msgstr "외부 필라멘트를 사용하시겠습니까?"
 
-#~ msgid "Error: Z offset value not found"
-#~ msgstr "오류: Z 오프셋 값이 없습니다."
+msgid "Error: Offset values not found"
+msgstr "오류: 오프셋 값이 없습니다."
 
-#~ msgid "External Filament"
-#~ msgstr "외부 필라멘트"
+msgid "Error: Z offset value not found"
+msgstr "오류: Z 오프셋 값이 없습니다."
 
-#~ msgid "Extruder not hot enough"
-#~ msgstr "엑스트루더가 충분히 뜨겁지 않습니다."
+msgid "External Filament"
+msgstr "외부 필라멘트"
 
-#~ msgid "FEED error:External filament not removed"
-#~ msgstr "FEED 오류: 외부 필라멘트가 제거되지 않았습니다."
+msgid "Extruder not hot enough"
+msgstr "엑스트루더가 충분히 뜨겁지 않습니다."
 
-#~ msgid "Filament %s not found"
-#~ msgstr "필라멘트 %s를 찾을 수 없습니다."
+msgid "FEED error:External filament not removed"
+msgstr "FEED 오류: 외부 필라멘트가 제거되지 않았습니다."
 
-#~ msgid "Filament Sensor%s: No filament detected, canceling print"
-#~ msgstr ""
-#~ "필라멘트 센서%s: 필라멘트를 감지하지 못했습니다, 프린트를 취소합니다."
+msgid "Filament %s not found"
+msgstr "필라멘트 %s를 찾을 수 없습니다."
 
-#~ msgid "Filament Sensor%s: No filament detected, pausing print"
-#~ msgstr ""
-#~ "필라멘트 센서%s: 필라멘트를 감지하지 못했습니다, 프린트를 일시 정지합니다."
+msgid "Filament Sensor%s: No filament detected, canceling print"
+msgstr "필라멘트 센서%s: 필라멘트를 감지하지 못했습니다, 프린트를 취소합니다."
 
-#~ msgid "Filament Sensor0: No filament detected, pausing print"
-#~ msgstr ""
-#~ "필라멘트 센서0: 필라멘트를 감지하지 못했습니다, 프린트를 일시 정지합니다."
+msgid "Filament Sensor%s: No filament detected, pausing print"
+msgstr "필라멘트 센서%s: 필라멘트를 감지하지 못했습니다, 프린트를 일시 정지합니다."
 
-#~ msgid "Filament Sensor1: No filament detected, pausing print"
-#~ msgstr ""
-#~ "필라멘트 센서1: 필라멘트를 감지하지 못했습니다, 프린트를 일시 정지합니다."
+msgid "Filament Sensor0: No filament detected, pausing print"
+msgstr "필라멘트 센서0: 필라멘트를 감지하지 못했습니다, 프린트를 일시 정지합니다."
 
-#~ msgid ""
-#~ "Filament detected! Please remove filament from the hotend before enabling "
-#~ "multi-material box."
-#~ msgstr ""
-#~ "필라멘트가 감지되었습니다! 다중 소재 상자를 활성화하기 전에 핫엔드에서 필"
-#~ "라멘트를 제거해 주세요."
+msgid "Filament Sensor1: No filament detected, pausing print"
+msgstr "필라멘트 센서1: 필라멘트를 감지하지 못했습니다, 프린트를 일시 정지합니다."
 
-#~ msgid "Missing required recovery data"
-#~ msgstr "필요한 복구 데이터가 없습니다."
+msgid "Filament detected! Please remove filament from the hotend before enabling multi-material box."
+msgstr "필라멘트가 감지되었습니다! 다중 소재 상자를 활성화하기 전에 핫엔드에서 필라멘트를 제거해 주세요."
 
-#~ msgid "No power loss recovery data found"
-#~ msgstr "전원 손실 복구 데이터를 찾을 수 없습니다."
+msgid "Missing required recovery data"
+msgstr "필요한 복구 데이터가 없습니다."
 
-#~ msgid "No valid params 'S'"
-#~ msgstr "'S' 매개변수가 유효하지 않습니다."
+msgid "No power loss recovery data found"
+msgstr "전원 손실 복구 데이터를 찾을 수 없습니다."
 
-#~ msgid "No"
-#~ msgstr "아니오"
+msgid "No valid params 'S'"
+msgstr "'S' 매개변수가 유효하지 않습니다."
 
-#~ msgid "Options"
-#~ msgstr "옵션"
+msgid "No"
+msgstr "아니오"
 
-#~ msgid "Pause. The \"extruder\" extrude error!"
-#~ msgstr "일시 정지. \"엑스트루더\" 엑스트루드 오류!"
+msgid "OK"
+msgstr "확인"
 
-#~ msgid "Please exit the filament from the nozzle first"
-#~ msgstr "먼저 노즐에서 필라멘트를 제거해 주세요."
+msgid "Options"
+msgstr "옵션"
 
-#~ msgid ""
-#~ "Please fill in the voice number correctly: 0-start printing, 1-end "
-#~ "printing, 2-outage detected, 3-cancel printing, 4-pause printing"
-#~ msgstr ""
-#~ "음성 번호를 올바르게 입력해 주세요: 0-프린트 시작, 1-프린트 종료, 2-정전 "
-#~ "감지, 3-프린트 취소, 4-프린트 일시 정지"
+msgid "Pause. The \"extruder\" extrude error!"
+msgstr "일시 정지. \"엑스트루더\" 엑스트루드 오류!"
 
-#~ msgid "Please select how you would like to proceed."
-#~ msgstr "진행 방식을 선택해 주세요."
+msgid "Please exit the filament from the nozzle first"
+msgstr "먼저 노즐에서 필라멘트를 제거해 주세요."
 
-#~ msgid "Power loss recovery, resuming print."
-#~ msgstr "전원 손실 복구, 프린트 재개."
+msgid "Please fill in the voice number correctly: 0-start printing, 1-end printing, 2-outage detected, 3-cancel printing, 4-pause printing"
+msgstr "음성 번호를 올바르게 입력해 주세요: 0-프린트 시작, 1-프린트 종료, 2-정전 감지, 3-프린트 취소, 4-프린트 일시 정지"
 
-#~ msgid "Power loss, saving print states."
-#~ msgstr "전원 손실, 프린트 상태 저장."
+msgid "Please select how you would like to proceed."
+msgstr "진행 방식을 선택해 주세요."
 
-#~ msgid "Press feedsys button"
-#~ msgstr "피드 시스템 버튼을 누르세요."
+msgid "Power loss recovery, resuming print."
+msgstr "전원 손실 복구, 프린트 재개."
 
-#~ msgid "Print resumed from power loss position"
-#~ msgstr "전원 손실 위치에서 프린트 재개."
+msgid "Power loss, saving print states."
+msgstr "전원 손실, 프린트 상태 저장."
 
-#~ msgid "Printer not homed"
-#~ msgstr "프린터가 원점으로 돌아가지 않았습니다."
+msgid "Press feedsys button"
+msgstr "피드 시스템 버튼을 누르세요."
 
-#~ msgid "RESUME error:autofill no fil"
-#~ msgstr "RESUME 오류: 자동 채우기 필라멘트 없음"
+msgid "Print resumed from power loss position"
+msgstr "전원 손실 위치에서 프린트 재개."
 
-#~ msgid "RESUME error:no fil"
-#~ msgstr "RESUME 오류: 필라멘트 없음"
+msgid "Printer not homed"
+msgstr "프린터가 원점으로 돌아가지 않았습니다."
 
-#~ msgid "RESUME error:residual fil"
-#~ msgstr "RESUME 오류: 잔여 필라멘트"
+msgid "RESUME error:autofill no fil"
+msgstr "RESUME 오류: 자동 채우기 필라멘트 없음"
 
-#~ msgid "Recovery data: Z=%s, File=%s, Pos=%s"
-#~ msgstr "복구 데이터: Z=%s, 파일=%s, 위치=%s"
+msgid "RESUME error:no fil"
+msgstr "RESUME 오류: 필라멘트 없음"
 
-#~ msgid "T%s direct feed"
-#~ msgstr "T%s 직접 공급"
+msgid "RESUME error:residual fil"
+msgstr "RESUME 오류: 잔여 필라멘트"
 
-#~ msgid "T0 direct feed"
-#~ msgstr "T0 직접 공급"
+msgid "Recovery data: Z=%s, File=%s, Pos=%s"
+msgstr "복구 데이터: Z=%s, 파일=%s, 위치=%s"
 
-#~ msgid "T0 need exit filament"
-#~ msgstr "T0 필라멘트 제거 필요"
+msgid "Save & Restart"
+msgstr "저장 및 재시작"
 
-#~ msgid "T1 direct feed"
-#~ msgstr "T1 직접 공급"
+msgid "T%s direct feed"
+msgstr "T%s 직접 공급"
 
-#~ msgid "T1 need exit filament"
-#~ msgstr "T1 필라멘트 제거 필요"
+msgid "T0 direct feed"
+msgstr "T0 직접 공급"
 
-#~ msgid "T2 direct feed"
-#~ msgstr "T2 직접 공급"
+msgid "T0 need exit filament"
+msgstr "T0 필라멘트 제거 필요"
 
-#~ msgid "T2 need exit filament"
-#~ msgstr "T2 필라멘트 제거 필요"
+msgid "T1 direct feed"
+msgstr "T1 직접 공급"
 
-#~ msgid "T3 direct feed"
-#~ msgstr "T3 직접 공급"
+msgid "T1 need exit filament"
+msgstr "T1 필라멘트 제거 필요"
 
-#~ msgid "T3 need exit filament"
-#~ msgstr "T3 필라멘트 제거 필요"
+msgid "T2 direct feed"
+msgstr "T2 직접 공급"
 
-#~ msgid "The \"extruder\" extrude error!"
-#~ msgstr "\"엑스트루더\" 엑스트루드 오류!"
+msgid "T2 need exit filament"
+msgstr "T2 필라멘트 제거 필요"
 
-#~ msgid "The current toolheade is T%s"
-#~ msgstr "현재 도구 헤드는 T%s입니다."
+msgid "T3 direct feed"
+msgstr "T3 직접 공급"
 
-#~ msgid "The current toolheade is T0"
-#~ msgstr "현재 도구 헤드는 T0입니다."
+msgid "T3 need exit filament"
+msgstr "T3 필라멘트 제거 필요"
 
-#~ msgid "The current toolheade is T1"
-#~ msgstr "현재 도구 헤드는 T1입니다."
+msgid "The \"extruder\" extrude error!"
+msgstr "\"엑스트루더\" 엑스트루드 오류!"
 
-#~ msgid "The current toolheade is T2"
-#~ msgstr "현재 도구 헤드는 T2입니다."
+msgid "The current toolheade is T%s"
+msgstr "현재 도구 헤드는 T%s입니다."
 
-#~ msgid "The current toolheade is T3"
-#~ msgstr "현재 도구 헤드는 T3입니다."
+msgid "The current toolheade is T0"
+msgstr "현재 도구 헤드는 T0입니다."
 
-#~ msgid "The filament_box_%s no filament"
-#~ msgstr "필라멘트 상자_%s에 필라멘트가 없습니다."
+msgid "The current toolheade is T1"
+msgstr "현재 도구 헤드는 T1입니다."
 
-#~ msgid "The motor is wrong."
-#~ msgstr "모터가 잘못되었습니다."
+msgid "The current toolheade is T2"
+msgstr "현재 도구 헤드는 T2입니다."
 
-#~ msgid "There is a residual filament, Please remove and continue"
-#~ msgstr "잔여 필라멘트가 있습니다. 제거 후 계속 진행해 주세요."
+msgid "The current toolheade is T3"
+msgstr "현재 도구 헤드는 T3입니다."
 
-#~ msgid "There's a residual filament in box %s"
-#~ msgstr "상자 %s에 잔여 필라멘트가 있습니다."
+msgid "The filament_box_%s no filament"
+msgstr "필라멘트 상자_%s에 필라멘트가 없습니다."
 
-#~ msgid "There's a residual filament in box 1"
-#~ msgstr "상자 1에 잔여 필라멘트가 있습니다."
+msgid "The motor is wrong."
+msgstr "모터가 잘못되었습니다."
 
-#~ msgid "There's a residual filament in box 2"
-#~ msgstr "상자 2에 잔여 필라멘트가 있습니다."
+msgid "There is a residual filament, Please remove and continue"
+msgstr "잔여 필라멘트가 있습니다. 제거 후 계속 진행해 주세요."
 
-#~ msgid "There's a residual filament in box 3"
-#~ msgstr "상자 3에 잔여 필라멘트가 있습니다."
+msgid "There's a residual filament in box %s"
+msgstr "상자 %s에 잔여 필라멘트가 있습니다."
 
-#~ msgid "There's a residual filament in box 4"
-#~ msgstr "상자 4에 잔여 필라멘트가 있습니다."
+msgid "There's a residual filament in box 1"
+msgstr "상자 1에 잔여 필라멘트가 있습니다."
 
-#~ msgid "Unknown filament"
-#~ msgstr "알 수 없는 필라멘트"
+msgid "There's a residual filament in box 2"
+msgstr "상자 2에 잔여 필라멘트가 있습니다."
 
-#~ msgid "Use external filament, please manually exit"
-#~ msgstr "외부 필라멘트를 사용하려면 수동으로 제거해 주세요."
+msgid "There's a residual filament in box 3"
+msgstr "상자 3에 잔여 필라멘트가 있습니다."
 
-#~ msgid "Yes"
-#~ msgstr "예"
+msgid "There's a residual filament in box 4"
+msgstr "상자 4에 잔여 필라멘트가 있습니다."
 
-#~ msgid "auto shutdown error"
-#~ msgstr "자동 종료 오류"
+msgid "Unknown fan"
+msgstr "알 수 없는 팬"
 
-#~ msgid "bed_mash:%s"
-#~ msgstr "베드 메쉬:%s"
+msgid "Unknown filament"
+msgstr "알 수 없는 필라멘트"
 
-#~ msgid "clean pause_reason"
-#~ msgstr "일시 정지 이유 초기화"
+msgid "Use external filament, please manually exit"
+msgstr "외부 필라멘트를 사용하려면 수동으로 제거해 주세요."
 
-#~ msgid "cut filament"
-#~ msgstr "필라멘트 절단"
+msgid "Warning"
+msgstr "경고"
 
-#~ msgid "cutter press!"
-#~ msgstr "커터 압박!"
+msgid "Yes"
+msgstr "예"
 
-#~ msgid "cutter release!"
-#~ msgstr "커터 해제!"
+msgid "auto shutdown error"
+msgstr "자동 종료 오류"
 
-#~ msgid "feed busy"
-#~ msgstr "피드 중"
+msgid "bed_mash:%s"
+msgstr "베드 메쉬:%s"
 
-#~ msgid "feed error"
-#~ msgstr "피드 오류"
+msgid "clean pause_reason"
+msgstr "일시 정지 이유 초기화"
 
-#~ msgid "feed finish"
-#~ msgstr "피드 완료"
+msgid "cut filament"
+msgstr "필라멘트 절단"
 
-#~ msgid "filament not removed"
-#~ msgstr "필라멘트 제거되지 않음"
+msgid "cutter press!"
+msgstr "커터 압박!"
 
-#~ msgid "filament pause reason"
-#~ msgstr "필라멘트 일시 정지 이유"
+msgid "cutter release!"
+msgstr "커터 해제!"
 
-#~ msgid "filament press"
-#~ msgstr "필라멘트 압박"
+msgid "feed busy"
+msgstr "피드 중"
 
-#~ msgid "filament release"
-#~ msgstr "필라멘트 해제"
+msgid "feed error"
+msgstr "피드 오류"
 
-#~ msgid "filament remove"
-#~ msgstr "필라멘트 제거"
+msgid "feed finish"
+msgstr "피드 완료"
 
-#~ msgid "filament runout"
-#~ msgstr "필라멘트 부족"
+msgid "filament not removed"
+msgstr "필라멘트 제거되지 않음"
 
-#~ msgid "filament%s:%s"
-#~ msgstr "필라멘트%s:%s"
+msgid "filament pause reason"
+msgstr "필라멘트 일시 정지 이유"
 
-#~ msgid "flush filament"
-#~ msgstr "필라멘트 배출"
+msgid "filament press"
+msgstr "필라멘트 압박"
 
-#~ msgid "motion sensor insert"
-#~ msgstr "모션 센서 삽입"
+msgid "filament release"
+msgstr "필라멘트 해제"
 
-#~ msgid "motion sensor runout"
-#~ msgstr "모션 센서 부족"
+msgid "filament remove"
+msgstr "필라멘트 제거"
 
-#~ msgid "motor_%s press"
-#~ msgstr "모터_%s 압박"
+msgid "filament runout"
+msgstr "필라멘트 부족"
 
-#~ msgid "motor_%s release"
-#~ msgstr "모터_%s 해제"
+msgid "filament%s:%s"
+msgstr "필라멘트%s:%s"
 
-#~ msgid "motor_1 press"
-#~ msgstr "모터_1 압박"
+msgid "flush filament"
+msgstr "필라멘트 배출"
 
-#~ msgid "motor_1 release"
-#~ msgstr "모터_1 해제"
+msgid "motion sensor insert"
+msgstr "모션 센서 삽입"
 
-#~ msgid "motor_2 press"
-#~ msgstr "모터_2 압박"
+msgid "motion sensor runout"
+msgstr "모션 센서 부족"
 
-#~ msgid "motor_2 release"
-#~ msgstr "모터_2 해제"
+msgid "motor_%s press"
+msgstr "모터_%s 압박"
 
-#~ msgid "motor_3 press"
-#~ msgstr "모터_3 압박"
+msgid "motor_%s release"
+msgstr "모터_%s 해제"
 
-#~ msgid "motor_3 release"
-#~ msgstr "모터_3 해제"
+msgid "motor_1 press"
+msgstr "모터_1 압박"
 
-#~ msgid "motor_4 press"
-#~ msgstr "모터_4 압박"
+msgid "motor_1 release"
+msgstr "모터_1 해제"
 
-#~ msgid "motor_4 release"
-#~ msgstr "모터_4 해제"
+msgid "motor_2 press"
+msgstr "모터_2 압박"
 
-#~ msgid "no bed_mash name"
-#~ msgstr "베드 메쉬 이름 없음"
+msgid "motor_2 release"
+msgstr "모터_2 해제"
 
-#~ msgid "no bed_mash"
-#~ msgstr "베드 메쉬 없음"
+msgid "motor_3 press"
+msgstr "모터_3 압박"
 
-#~ msgid "no enabled"
-#~ msgstr "비활성화"
+msgid "motor_3 release"
+msgstr "모터_3 해제"
 
-#~ msgid "press button%s"
-#~ msgstr "버튼%s 누르기"
+msgid "motor_4 press"
+msgstr "모터_4 압박"
 
-#~ msgid "press button1"
-#~ msgstr "버튼1 누르기"
+msgid "motor_4 release"
+msgstr "모터_4 해제"
 
-#~ msgid "press button2"
-#~ msgstr "버튼2 누르기"
+msgid "no bed_mash name"
+msgstr "베드 메쉬 이름 없음"
 
-#~ msgid "press button3"
-#~ msgstr "버튼3 누르기"
+msgid "no bed_mash"
+msgstr "베드 메쉬 없음"
 
-#~ msgid "press button4"
-#~ msgstr "버튼4 누르기"
+msgid "no enabled"
+msgstr "비활성화"
 
-#~ msgid "remove filament"
-#~ msgstr "필라멘트 제거"
+msgid "press button%s"
+msgstr "버튼%s 누르기"
 
-#~ msgid "residual filament%s"
-#~ msgstr "잔여 필라멘트%s"
+msgid "press button1"
+msgstr "버튼1 누르기"
 
-#~ msgid "residual filament0"
-#~ msgstr "잔여 필라멘트0"
+msgid "press button2"
+msgstr "버튼2 누르기"
 
-#~ msgid "residual filament1"
-#~ msgstr "잔여 필라멘트1"
+msgid "press button3"
+msgstr "버튼3 누르기"
 
-#~ msgid "residual filament2"
-#~ msgstr "잔여 필라멘트2"
+msgid "press button4"
+msgstr "버튼4 누르기"
 
-#~ msgid "residual filament3"
-#~ msgstr "잔여 필라멘트3"
+msgid "remove filament"
+msgstr "필라멘트 제거"
 
-#~ msgid "resume:%s"
-#~ msgstr "재개:%s"
+msgid "residual filament%s"
+msgstr "잔여 필라멘트%s"
 
-#~ msgid "resume_tool:%s pause_reason:%s"
-#~ msgstr "재개 도구:%s 일시 정지 이유:%s"
+msgid "residual filament0"
+msgstr "잔여 필라멘트0"
 
-#~ msgid "Copy Print"
-#~ msgstr "복사 인쇄"
+msgid "residual filament1"
+msgstr "잔여 필라멘트1"
 
-#~ msgid "Mirror Print"
-#~ msgstr "미러 인쇄"
+msgid "residual filament2"
+msgstr "잔여 필라멘트2"
 
-#~ msgid "Manual Calibration"
-#~ msgstr "수동 보정"
+msgid "residual filament3"
+msgstr "잔여 필라멘트3"
 
-#~ msgid "Calibration successful!"
-#~ msgstr "보정 성공!"
+msgid "resume:%s"
+msgstr "재개:%s"
 
-#~ msgid "Auto calibration failed. Please clean the nozzle and try again."
-#~ msgstr "자동 보정 실패. 노즐을 청소하고 다시 시도하세요."
+msgid "resume_tool:%s pause_reason:%s"
+msgstr "재개 도구:%s 일시 정지 이유:%s"
 
-#~ msgid ""
-#~ "Auto calibration is not available. Please install required dependencies."
-#~ msgstr "자동 보정을 사용할 수 없습니다. 필요한 종속성을 설치하세요."
+msgid "Copy Print"
+msgstr "복사 인쇄"
 
-#~ msgid "Left extruder template saved"
-#~ msgstr "왼쪽 압출기 템플릿 저장됨"
+msgid "Mirror Print"
+msgstr "미러 인쇄"
 
-#~ msgid "Right extruder template saved"
-#~ msgstr "오른쪽 압출기 템플릿 저장됨"
+msgid "Manual Calibration"
+msgstr "수동 보정"
 
-#~ msgid "No template images found. Please perform manual calibration first."
-#~ msgstr "템플릿 이미지를 찾을 수 없습니다. 먼저 수동 보정을 수행하세요."
+msgid "Auto Calibration"
+msgstr "자동 보정"
 
-#~ msgid "Getting image of left extruder"
-#~ msgstr "왼쪽 압출기 이미지 가져오는 중"
+msgid "Calibration successful!"
+msgstr "보정 성공!"
 
-#~ msgid "Getting image of right extruder"
-#~ msgstr "오른쪽 압출기 이미지 가져오는 중"
+msgid "Auto calibration failed. Please clean the nozzle and try again."
+msgstr "자동 보정 실패. 노즐을 청소하고 다시 시도하세요."
 
-#~ msgid ""
-#~ "Left extruder calibration failed. Please clean the nozzle and try again."
-#~ msgstr "왼쪽 압출기 보정 실패. 노즐을 청소하고 다시 시도하세요."
+msgid "Auto calibration is not available. Please install required dependencies."
+msgstr "자동 보정을 사용할 수 없습니다. 필요한 종속성을 설치하세요."
 
-#~ msgid ""
-#~ "Right extruder calibration failed. Please clean the nozzle and try again."
-#~ msgstr "오른쪽 압출기 보정 실패. 노즐을 청소하고 다시 시도하세요."
+msgid "Left extruder template saved"
+msgstr "왼쪽 압출기 템플릿 저장됨"
 
-#~ msgid "left extruder pos: (%.3f, %.3f, %.3f)"
-#~ msgstr "왼쪽 압출기 위치: (%.3f, %.3f, %.3f)"
+msgid "Right extruder template saved"
+msgstr "오른쪽 압출기 템플릿 저장됨"
 
-#~ msgid "Right extruder offset is (%.3f, %.3f, %.3f)"
-#~ msgstr "오른쪽 압출기 오프셋: (%.3f, %.3f, %.3f)"
+msgid "Failed to save template"
+msgstr "템플릿 저장 실패"
 
-#~ msgid ""
-#~ "Please wait for the camera's fill light to light up for 5 seconds before "
-#~ "clicking 'Manual Calibration' or 'Auto Calibration'"
-#~ msgstr ""
-#~ "'수동 보정' 또는 '자동 보정'을 클릭하기 전에 카메라의 보조광이 5초 동안 켜"
-#~ "질 때까지 기다리세요"
+msgid "No template images found. Please perform manual calibration first."
+msgstr "템플릿 이미지를 찾을 수 없습니다. 먼저 수동 보정을 수행하세요."
 
-#~ msgid "The door is open."
-#~ msgstr "도어가 열려있습니다."
+msgid "Getting image of left extruder"
+msgstr "왼쪽 압출기 이미지 가져오는 중"
 
-#~ msgid "The door is closed."
-#~ msgstr "도어가 닫혀있습니다."
+msgid "Getting image of right extruder"
+msgstr "오른쪽 압출기 이미지 가져오는 중"
 
-#~ msgid "Error getting origin offset values: %s"
-#~ msgstr "원점 오프셋 값을 가져오는 중 오류 발생: %s"
+msgid "Left extruder calibration failed. Please clean the nozzle and try again."
+msgstr "왼쪽 압출기 보정 실패. 노즐을 청소하고 다시 시도하세요."
 
-#~ msgid "Filament run out, pausing print"
-#~ msgstr "필라멘트가 끝났습니다, 인쇄를 일시 중지합니다"
+msgid "Right extruder calibration failed. Please clean the nozzle and try again."
+msgstr "오른쪽 압출기 보정 실패. 노즐을 청소하고 다시 시도하세요."
 
-#~ msgid "Not in single extruder mode, pausing print"
-#~ msgstr "단일 압출기 모드가 아닙니다, 인쇄를 일시 중지합니다"
+msgid "left extruder pos: (%.3f, %.3f, %.3f)"
+msgstr "왼쪽 압출기 위치: (%.3f, %.3f, %.3f)"
 
-#~ msgid "Current sensor not configured, pausing print"
-#~ msgstr "현재 센서가 설정되지 않았습니다, 인쇄를 일시 중지합니다"
+msgid "Right extruder offset is (%.3f, %.3f, %.3f)"
+msgstr "오른쪽 압출기 오프셋: (%.3f, %.3f, %.3f)"
 
-#~ msgid "Other sensor not configured, pausing print"
-#~ msgstr "다른 센서들이 설정되지 않았습니다, 인쇄를 일시 중지합니다"
+msgid "Please wait for the camera's fill light to light up for 5 seconds before clicking 'Manual Calibration' or 'Auto Calibration'"
+msgstr "'수동 보정' 또는 '자동 보정'을 클릭하기 전에 카메라의 보조광이 5초 동안 켜질 때까지 기다리세요"
 
-#~ msgid "Current extruder has filament, continuing print"
-#~ msgstr "현재 압출기에 필라멘트가 있습니다, 인쇄를 계속합니다"
+msgid "The door is open."
+msgstr "도어가 열려있습니다."
 
-#~ msgid "Both extruders out of filament, pausing print"
-#~ msgstr "두 압출기 모두 필라멘트가 없습니다, 인쇄를 일시 중지합니다"
+msgid "The door is closed."
+msgstr "도어가 닫혀있습니다."
 
-#~ msgid "Filament run out, switching extruder"
-#~ msgstr "필라멘트가 끝났습니다, 압출기를 변경합니다"
+msgid "Error getting origin offset values: %s"
+msgstr "원점 오프셋 값을 가져오는 중 오류 발생: %s"
 
-#~ msgid "Switching to left extruder"
-#~ msgstr "왼쪽 압출기로 변경합니다"
+msgid "Raise"
+msgstr "상승"
 
-#~ msgid "Switching to right extruder"
-#~ msgstr "오른쪽 압출기로 변경합니다"
+msgid "Lower"
+msgstr "하강"
 
-#~ msgid "Extruder switch complete, resuming print"
-#~ msgstr "압출기 변경이 완료되었습니다, 인쇄를 재개합니다"
+msgid "Filament run out, pausing print"
+msgstr "필라멘트가 끝났습니다, 인쇄를 일시 중지합니다"
 
-#~ msgid "Auto extruder switch already enabled"
-#~ msgstr "자동 압출기 변경이 이미 활성화되어 있습니다"
+msgid "Not in single extruder mode, pausing print"
+msgstr "단일 압출기 모드가 아닙니다, 인쇄를 일시 중지합니다"
 
-#~ msgid ""
-#~ "Auto extruder switch enabled, this feature only works when printing with "
-#~ "a single extruder"
-#~ msgstr ""
-#~ "자동 압출기 변경을 활성화했습니다; 이 기능은 단일 압출기로 인쇄할 때만 작"
-#~ "동합니다"
+msgid "Current sensor not configured, pausing print"
+msgstr "현재 센서가 설정되지 않았습니다, 인쇄를 일시 중지합니다"
 
-#~ msgid "Auto extruder switch already disabled"
-#~ msgstr "자동 압출기 변경이 이미 비활성화되어 있습니다"
+msgid "Other sensor not configured, pausing print"
+msgstr "다른 센서들이 설정되지 않았습니다, 인쇄를 일시 중지합니다"
 
-#~ msgid "Auto extruder switch disabled"
-#~ msgstr "자동 압출기 변경을 비활성화했습니다"
+msgid "Current extruder has filament, continuing print"
+msgstr "현재 압출기에 필라멘트가 있습니다, 인쇄를 계속합니다"
 
-#~ msgid "Filament Sensor0: No filament detected, canceling print."
-#~ msgstr "필라멘트 센서0: 필라멘트가 감지되지 않았습니다, 인쇄를 취소합니다."
+msgid "Both extruders out of filament, pausing print"
+msgstr "두 압출기 모두 필라멘트가 없습니다, 인쇄를 일시 중지합니다"
 
-#~ msgid "Filament Sensor1: No filament detected, canceling print."
-#~ msgstr "필라멘트 센서1: 필라멘트가 감지되지 않았습니다, 인쇄를 취소합니다."
+msgid "Filament run out, switching extruder"
+msgstr "필라멘트가 끝났습니다, 압출기를 변경합니다"
 
-#~ msgid "Please remove the extruder foam and take out the door handle."
-#~ msgstr "익스트루더 폼을 제거하고 도어 핸들을 꺼내주세요."
+msgid "Switching to left extruder"
+msgstr "왼쪽 압출기로 변경합니다"
 
-#~ msgid "Print Issue Detected!"
-#~ msgstr "프린트 문제가 감지되었습니다!"
+msgid "Switching to right extruder"
+msgstr "오른쪽 압출기로 변경합니다"
 
-#~ msgid "AI Settings"
-#~ msgstr "AI 설정"
+msgid "Extruder switch complete, resuming print"
+msgstr "압출기 변경이 완료되었습니다, 인쇄를 재개합니다"
 
-#~ msgid "Detected defect: %s (Confidence: %.1f%%)"
-#~ msgstr "결함 감지됨: %s (신뢰도: %.1f%%)"
+msgid "Auto extruder switch already enabled"
+msgstr "자동 압출기 변경이 이미 활성화되어 있습니다"
 
-#~ msgid "AI Detection Error: %s"
-#~ msgstr "AI 감지 오류: %s"
+msgid "Auto extruder switch enabled, this feature only works when printing with a single extruder"
+msgstr "자동 압출기 변경을 활성화했습니다; 이 기능은 단일 압출기로 인쇄할 때만 작동합니다"
+
+msgid "Auto extruder switch already disabled"
+msgstr "자동 압출기 변경이 이미 비활성화되어 있습니다"
+
+msgid "Auto extruder switch disabled"
+msgstr "자동 압출기 변경을 비활성화했습니다"
+
+msgid "Extruder switch when filament run out"
+msgstr "필라멘트가 끝났을 때 압출기를 변경합니다"
+
+msgid "Filament Sensor0: No filament detected, canceling print."
+msgstr "필라멘트 센서0: 필라멘트가 감지되지 않았습니다, 인쇄를 취소합니다."
+
+msgid "Filament Sensor1: No filament detected, canceling print."
+msgstr "필라멘트 센서1: 필라멘트가 감지되지 않았습니다, 인쇄를 취소합니다."
+
+msgid "Force Move"
+msgstr "강제 이동"
+
+msgid "Force move: "
+msgstr "강제 이동："
+
+msgid "Apply Z offset to Probe?"
+msgstr "프로브에 Z 오프셋을 적용하시겠습니까?"
+
+msgid "Left Extruder: %s%.3f"
+msgstr "왼쪽 압출기: %s%.3f"
+
+msgid "Left Extruder: Not adjusted"
+msgstr "왼쪽 압출기: 조정되지 않음"
+
+msgid "Right Extruder: %s%.3f"
+msgstr "오른쪽 압출기: %s%.3f"
+
+msgid "Right Extruder: Not adjusted"
+msgstr "오른쪽 압출기: 조정되지 않음"
+
+msgid "Apply Z offset to Endstop?"
+msgstr "엔드스톱에 Z 오프셋을 적용하시겠습니까?"
+
+msgid "Remove Foam"
+msgstr "폼 제거"
+
+msgid "Please remove the extruder foam and take out the door handle."
+msgstr "익스트루더 폼을 제거하고 도어 핸들을 꺼내주세요."
+
+msgid "Please click the Z raise button to raise the Z axis to remove the foam around the bottom of the case."
+msgstr "Z 상승 버튼을 클릭하여 Z축을 올려 케이스 하단 주변의 폼을 제거하세요."
+
+msgid "Print Issue Detected!"
+msgstr "프린트 문제가 감지되었습니다!"
+
+msgid "No prediction image available"
+msgstr "예측 이미지를 사용할 수 없습니다"
+
+msgid "Print resumed"
+msgstr "프린트가 재개되었습니다"
+
+msgid "Failed to resume print"
+msgstr "프린트 재개에 실패했습니다"
+
+msgid "Print cancelled"
+msgstr "프린트가 취소되었습니다"
+
+msgid "Failed to cancel print"
+msgstr "프린트 취소에 실패했습니다"
+
+msgid "Configure basic AI service settings. Enable the AI service to monitor your prints and adjust the confidence threshold for detection sensitivity."
+msgstr "기본 AI 서비스 설정을 구성합니다. AI 서비스를 활성화하여 프린트를 모니터링하고 감지 민감도에 대한 신뢰도 임계값을 조정합니다."
+
+msgid "AI Detection Alert"
+msgstr "AI 감지 알림"
+
+msgid "AI Monitor"
+msgstr "AI 모니터"
+
+msgid "AI Settings"
+msgstr "AI 설정"
+
+msgid "Detected defect: %s (Confidence: %.1f%%)"
+msgstr "결함 감지됨: %s (신뢰도: %.1f%%)"
+
+msgid "AI Detection Error: %s"
+msgstr "AI 감지 오류: %s"
+
+msgid "AI Detection Service"
+msgstr "AI 감지 서비스"
+
+msgid "AI Server URL"
+msgstr "AI 서버 URL"
+
+msgid "Confidence Threshold (%)"
+msgstr "신뢰도 임계값 (%)"
+
+msgid "Detection Interval (seconds)"
+msgstr "감지 간격 (초)"
+
+msgid "Auto Pause on Detection"
+msgstr "감지 시 자동 일시정지"
+
+msgid "Enabled Defect Types"
+msgstr "활성화된 결함 유형"
+
+msgid "Camera Source"
+msgstr "카메라 소스"
+
+msgid "Camera URL"
+msgstr "카메라 URL"
+
+msgid "Continue Detection While Paused"
+msgstr "일시정지 중에도 감지 계속"
+
+msgid "Sound Notification"
+msgstr "소리 알림"
+
+msgid "All valves closed"
+msgstr "모든 밸브 닫힘"
+
+msgid "Auto Feed"
+msgstr "자동 공급"
+
+msgid "Auto feed started"
+msgstr "자동 공급 시작"
+
+msgid "Blowback Valve"
+msgstr "역분사 밸브"
+
+msgid "Buffer"
+msgstr "버퍼"
+
+msgid "Buffer → Printhead"
+msgstr "버퍼 → 헤드"
+
+msgid "Buffer Valve"
+msgstr "버퍼 밸브"
+
+msgid "Disconnected"
+msgstr "연결 안 됨"
+
+msgid "Dryer"
+msgstr "건조기"
+
+msgid "Dryer → Buffer"
+msgstr "건조기 → 버퍼"
+
+msgid "Dryer Level"
+msgstr "건조기 잔량"
+
+msgid "Dryer Sensor"
+msgstr "건조기 센서"
+
+msgid "Dryer Valve"
+msgstr "건조기 밸브"
+
+msgid "Feeder"
+msgstr "공급"
+
+msgid "Feeder:"
+msgstr "공급:"
+
+msgid "Hopper"
+msgstr "호퍼"
+
+msgid "Hopper → Dryer"
+msgstr "호퍼 → 건조기"
+
+msgid "Hopper Level"
+msgstr "호퍼 잔량"
+
+msgid "Hopper Valve"
+msgstr "호퍼 밸브"
+
+msgid "Pressure:"
+msgstr "압력:"
+
+msgid "Printhead"
+msgstr "헤드"
+
+msgid "Printhead 1"
+msgstr "헤드 1"
+
+msgid "Printhead 2"
+msgstr "헤드 2"
+
+msgid "Retract blowback"
+msgstr "역분사 복귀"
+
+msgid "Retract started"
+msgstr "복귀 시작"
+
+msgid "Run Mode:"
+msgstr "모드:"
+
+msgid "Stop All"
+msgstr "전체 정지"
+
+msgid "To Dryer"
+msgstr "건조기로"
+
+msgid "To Buffer"
+msgstr "버퍼로"
+
+msgid "To Printhead"
+msgstr "헤드로"
+
+msgid "Return Buffer"
+msgstr "버퍼 복귀"

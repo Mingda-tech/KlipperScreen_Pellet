@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Klipperscreen\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-02 16:39+0800\n"
+"POT-Creation-Date: 2023-10-20 00:09-0300\n"
 "PO-Revision-Date: 2022-11-30 18:11-0300\n"
 "Last-Translator: Tal Rahav <talrhv1@gmail.com>\n"
 "Language-Team: \n"
@@ -27,20 +27,14 @@ msgstr "%s יעודכן לגרסה"
 msgid "(default)"
 msgstr "(ברירת מחדל)"
 
+msgid "24 Hour Time"
+msgstr "זמן 24 שעות"
+
 msgid "A FIRMWARE_RESTART may fix the issue."
 msgstr "FIRMWARE_RESTART עשוי לפתור את הבעיה."
 
 msgid "ADXL Not Configured"
 msgstr "ADXL אינו מוגדר"
-
-msgid "AI Detection Service"
-msgstr "שירות זיהוי בינה מלאכותית"
-
-msgid "AI Detection Status"
-msgstr ""
-
-msgid "AI Server URL"
-msgstr "URL שרת בינה מלאכותית"
 
 msgid "Abort"
 msgstr "בטל"
@@ -51,32 +45,22 @@ msgstr "האצה"
 msgid "Accept"
 msgstr "אשר"
 
-msgid "Active Extruder"
-msgstr "אקסטרודר פעיל"
-
-msgid "Active Extruder:"
-msgstr "אקסטרודר פעיל:"
-
 msgid "Add profile"
 msgstr "הוסף פרופיל"
-
-msgid "Adjust Zprobe Pos"
-msgstr "התאם מיקום Zprobe"
 
 msgid "All"
 msgstr ""
 
-msgid "All valves closed"
-msgstr "כל השסתומים סגורים"
-
 msgid "Apply"
 msgstr "החל"
 
-msgid "Apply Z offset to Endstop?"
-msgstr "להחיל היסט Z על מפסק הקצה?"
+#, python-format
+msgid "Apply %s%.3f offset to Endstop?"
+msgstr ""
 
-msgid "Apply Z offset to Probe?"
-msgstr "להחיל היסט Z על החיישן?"
+#, python-format
+msgid "Apply %s%.3f offset to Probe?"
+msgstr ""
 
 msgid "Archived"
 msgstr ""
@@ -102,56 +86,26 @@ msgstr "האם אתה בטוח שברצונך לכבות את המערכת?"
 msgid "Auto"
 msgstr "אוטומטי"
 
-msgid "Auto Feed"
-msgstr "הזנה אוטומטית"
-
-msgid "Auto Pause on Detection"
-msgstr "השהיה אוטומטית בזיהוי"
-
-msgid "Auto feed started"
-msgstr "ההזנה האוטומטית החלה"
-
 msgid "Auto-calibrate"
 msgstr "כיול אוטומטי"
 
 msgid "Auto-close notifications"
 msgstr "סגירת התראות אוטומטית"
 
+msgid "Auto-open Extrude On Pause"
+msgstr ""
+
 msgid "Auto-scroll"
 msgstr "גלילה אוטומטית"
-
-msgid "Back"
-msgstr "חזור"
 
 msgid "Bed Level"
 msgstr "פילוס מיטה"
 
-msgid "Bed Lower"
-msgstr ""
-
-msgid "Bed Temp:"
-msgstr "טמפ' מיטה:"
-
-msgid "Bed Temperature"
-msgstr "טמפרטורת מיטה"
+msgid "Bed Mesh"
+msgstr "מיפוי מיטה"
 
 msgid "Bed screw configuration:"
 msgstr "הגדרת בורג מיטה"
-
-msgid "Blowback Valve"
-msgstr "שסתום נשיפה חוזרת"
-
-msgid "Brightest"
-msgstr "הבהיר ביותר"
-
-msgid "Buffer"
-msgstr "מאגר"
-
-msgid "Buffer Valve"
-msgstr "שסתום מאגר"
-
-msgid "Buffer → Printhead"
-msgstr "מאגר → ראש"
 
 msgid "Calibrate"
 msgstr "לכייל"
@@ -162,17 +116,8 @@ msgstr "מכויל"
 msgid "Calibrating"
 msgstr "מכייל"
 
-msgid "Calibration saved!"
-msgstr ""
-
 msgid "Camera"
 msgstr ""
-
-msgid "Camera Source"
-msgstr "מקור מצלמה"
-
-msgid "Camera URL"
-msgstr "URL מצלמה"
 
 msgid "Can't set above the maximum:"
 msgstr "לא ניתן להגדיר מעל המקסימום:"
@@ -192,9 +137,6 @@ msgstr "מבטל"
 msgid "Cannot connect to Moonraker"
 msgstr "לא ניתן להתחבר ל-Moonraker"
 
-msgid "Capture Image"
-msgstr ""
-
 msgid "Channel"
 msgstr "ערוץ"
 
@@ -204,54 +146,17 @@ msgstr "בדוק את החיווט של ה ADXL"
 msgid "Checking for updates, please wait..."
 msgstr "בודק עדכונים, אנא המתן"
 
-msgid "Choose Language"
-msgstr "בחר שפה"
-
-msgid "Choose Timezone"
-msgstr "בחר אזור זמן"
-
-msgid "Choose a language"
-msgstr "בחר שפה"
-
-msgid "Choose a timezone"
-msgstr "בחר אזור זמן"
-
 msgid "Clear"
 msgstr "נקה"
-
-msgid "Clear History"
-msgstr ""
 
 msgid "Close"
 msgstr "סגור"
 
-msgid "Color"
-msgstr "צבע"
-
 msgid "Complete"
 msgstr "הסתיים"
 
-msgid "Confidence Threshold (%)"
-msgstr "סף בטחון (%)"
-
-msgid ""
-"Configure basic AI service settings. Enable the AI service to monitor your "
-"prints and adjust the confidence threshold for detection sensitivity."
-msgstr ""
-"הגדר הגדרות בסיסיות של שירות AI. הפעל את שירות ה-AI כדי לנטר את ההדפסות שלך "
-"והתאם את סף הביטחון לרגישות הזיהוי."
-
-msgid "Confirm"
-msgstr "אשר"
-
 msgid "Confirm Emergency Stop"
 msgstr "אשר עצירת חירום"
-
-msgid "Confirm Movement"
-msgstr ""
-
-msgid "Confirm Pos"
-msgstr "בדוק את המיקום"
 
 msgid "Connected"
 msgstr "מחובר"
@@ -263,38 +168,14 @@ msgstr "מתחבר ל- %s"
 msgid "Connection failed"
 msgstr "החיבור נכשל"
 
-msgid "Continue Detection While Paused"
-msgstr "המשך זיהוי במהלך השהיה"
+msgid "Console"
+msgstr "קונסול"
 
 msgid "Cooldown"
 msgstr "הפעל קירור"
 
-msgid "Couldn't get the calibration camera position."
-msgstr "לא הצלחנו לקבוע את מיקום הקליברציה של המצלמה."
-
-msgid "Couldn't get the calibration switch position."
-msgstr ""
-
-msgid "Current Detection Image"
-msgstr ""
-
-msgid "Current language: "
-msgstr ""
-
-msgid "Current nozzle height difference: "
-msgstr "הפרש גובה הנחיר הנוכחי: "
-
-msgid "Current nozzle height difference: ?"
-msgstr ""
-
-msgid "Current timezone: "
-msgstr ""
-
 msgid "DPMS has failed to load and has been disabled"
 msgstr ""
-
-msgid "Dangerous nozzle height difference: "
-msgstr "הפרש גובה נחיר מסוכן: "
 
 msgid "Date"
 msgstr "תאריך"
@@ -308,60 +189,21 @@ msgstr "מחק קובץ"
 msgid "Deselect"
 msgstr "בטל את הבחירה"
 
-msgid "Detection History"
-msgstr ""
-
-msgid "Detection Interval (seconds)"
-msgstr "מרווח זיהוי (שניות)"
-
 msgid "Disable Motors"
 msgstr "השבת מנועים"
 
-msgid "Disabled"
-msgstr ""
-
-msgid "Disconnected"
-msgstr "מנותק"
-
 msgid "Distance (mm)"
 msgstr "מרחק (מ\"מ)"
-
-msgid "Do not touch the printer during self-check."
-msgstr "אל תיגע במדפסת במהלך בדיקה עצמית."
 
 #, python-format
 msgid "Do you want to recover %s?"
 msgstr "האם ברצונך לשחזר %s?"
 
-msgid "Dryer"
-msgstr "מייבש"
-
-msgid "Dryer Level"
-msgstr "מפלס מייבש"
-
-msgid "Dryer Sensor"
-msgstr "חיישן מייבש"
-
-msgid "Dryer Valve"
-msgstr "שסתום מייבש"
-
-msgid "Dryer → Buffer"
-msgstr "מייבש → מאגר"
-
 msgid "Elapsed:"
 msgstr "זמן שעבר:"
 
-msgid "Emergency Stop"
-msgstr ""
-
-msgid "Enabled Defect Types"
-msgstr "סוגי פגמים מופעלים"
-
 msgid "Error"
 msgstr "שגיאה"
-
-msgid "Error writing configuration"
-msgstr "שגיאה בכתיבת הגדרות"
 
 msgid "Estimated Time Method"
 msgstr "שיטת זמן משוערת"
@@ -369,41 +211,23 @@ msgstr "שיטת זמן משוערת"
 msgid "Exclude Object"
 msgstr "ביטול אובייקט"
 
+msgid "Extra Large"
+msgstr ""
+
 msgid "Extrude"
 msgstr "הוצא חומר"
 
-msgid "Extruder switch when filament run out"
-msgstr "swith צינור כאשר הסיב נגמר"
+msgid "Extrusion +"
+msgstr "שיחול +"
 
-msgid "Failed to cancel print"
-msgstr "נכשל בביטול ההדפסה"
-
-msgid "Failed to capture image"
-msgstr ""
-
-msgid "Failed to detect nozzles"
-msgstr ""
-
-msgid "Failed to resume print"
-msgstr "נכשל בחידוש ההדפסה"
-
-msgid "Failed to start AI monitoring"
-msgstr ""
+msgid "Extrusion -"
+msgstr "שיחול -"
 
 msgid "Failed, adjust position first"
 msgstr "נכשל, תחילה התאם את המיקום"
 
 msgid "Fan"
 msgstr "מאוורר"
-
-msgid "Feeder"
-msgstr ""
-
-msgid "Feeder:"
-msgstr "מזין:"
-
-msgid "Filament Box Power"
-msgstr "ספק החשמל של תיבת פילמנט"
 
 msgid "Filament Used"
 msgstr "חומר ששומש"
@@ -423,12 +247,6 @@ msgstr "קובץ"
 msgid "File:"
 msgstr ""
 
-msgid "Filename"
-msgstr "שם קובץ"
-
-msgid "Filename:"
-msgstr "שם קובץ:"
-
 msgid "Filter"
 msgstr ""
 
@@ -444,49 +262,17 @@ msgstr "סיים"
 msgid "Firmware Restart"
 msgstr "אתחול קושחה"
 
-# msgid "Firmware Restart"
-# msgstr "הפעלת מחדש של התוכנה הבסיסית"
-msgid "Firmware has disconnected"
-msgstr "התוכנה הבסיסית נפרקה"
-
-msgid "Firmware has encountered an error."
-msgstr "התוכנה הבסיסית נתקלה בטעות."
-
-msgid "Firmware has shutdown"
-msgstr "התוכנה הבסיסית כבתה"
-
-msgid "Firmware is attempting to start"
-msgstr "התוכנה הבסיסית מנסה להתחיל"
-
-msgid "Firmware will reboot"
-msgstr "התוכנה הבסיסית תפענח מחדש"
-
-msgid "Flow +"
-msgstr ""
-
-msgid "Flow -"
-msgstr ""
-
 msgid "Flow:"
 msgstr "זרם"
 
 msgid "Flowrate:"
 msgstr "קצב זרימה"
 
-msgid "Force Cancel"
-msgstr ""
-
-msgid "Force Move"
-msgstr "תנועה מאולצת"
-
-msgid "Force move: "
-msgstr "תנועה מאולצת:"
+msgid "Font Size"
+msgstr "גודל טקסט"
 
 msgid "Full Update"
 msgstr "עדכון מלא"
-
-msgid "Gcode Buttons"
-msgstr ""
 
 msgid "Go Back"
 msgstr "חזרה"
@@ -497,11 +283,11 @@ msgstr "גובה"
 msgid "Hidden"
 msgstr "מוסתר"
 
-msgid "Hidden Network"
-msgstr ""
-
 msgid "Hide"
 msgstr "הסתר"
+
+msgid "Hide sensors in Temp."
+msgstr "הסתר חיישנים בטמפ'."
 
 msgid "Hide temp."
 msgstr "הסתר טמפרטורה"
@@ -524,20 +310,8 @@ msgstr "איפוס Y"
 msgid "Home Z"
 msgstr "איפוס Z"
 
-msgid "Homing the printer..."
-msgstr "מבצע הומינג למדפסת..."
-
-msgid "Hopper"
-msgstr "מיכל"
-
-msgid "Hopper Level"
-msgstr "מפלס מיכל"
-
-msgid "Hopper Valve"
-msgstr "שסתום מיכל"
-
-msgid "Hopper → Dryer"
-msgstr "מיכל → מייבש"
+msgid "Host"
+msgstr "שרת"
 
 msgid "Hostname"
 msgstr "שם שרת"
@@ -545,10 +319,8 @@ msgstr "שם שרת"
 msgid "ID"
 msgstr ""
 
-msgid ""
-"If your calibration device is under the PEI, please lift the PEI after "
-"homing."
-msgstr "אם מכשיר הכיול שלך נמצא מתחת ל-PEI, אנא הרם את ה-PEI לאחר ההומינג."
+msgid "Icon Theme"
+msgstr "ערכת נושא"
 
 msgid "Initializing printer..."
 msgstr "מאתחל מדפסת..."
@@ -580,8 +352,23 @@ msgstr "הפוך את Z"
 msgid "It may take more than 5 minutes depending on the heater power."
 msgstr ""
 
-msgid "LEDs"
-msgstr ""
+#msgid "Firmware Restart"
+#msgstr "הפעלת מחדש של התוכנה הבסיסית"
+
+msgid "Firmware has disconnected"
+msgstr "התוכנה הבסיסית נפרקה"
+
+msgid "Firmware has encountered an error."
+msgstr "התוכנה הבסיסית נתקלה בטעות."
+
+msgid "Firmware has shutdown"
+msgstr "התוכנה הבסיסית כבתה"
+
+msgid "Firmware is attempting to start"
+msgstr "התוכנה הבסיסית מנסה להתחיל"
+
+msgid "Firmware will reboot"
+msgstr "התוכנה הבסיסית תפענח מחדש"
 
 msgid ""
 "LOAD_FILAMENT/UNLOAD_FILAMENT are hidden and should be used from extrude"
@@ -590,8 +377,8 @@ msgstr ""
 msgid "Language"
 msgstr "שפה"
 
-msgid "Last Detection:"
-msgstr ""
+msgid "Large"
+msgstr "גדול"
 
 msgid "Last Used"
 msgstr ""
@@ -602,42 +389,26 @@ msgstr "שכבה"
 msgid "Leds"
 msgstr ""
 
-#, python-format
-msgid "Left Extruder: %s%.3f"
-msgstr "אקסטרודר שמאלי: %s%.3f"
-
-msgid "Left Extruder: Not adjusted"
-msgstr "אקסטרודר שמאלי: לא מכוון"
-
 msgid "Left:"
 msgstr "זמן שנותר:"
 
-msgid "Leveling"
-msgstr "ישור"
+msgid "Limits"
+msgstr "גבולות"
 
 msgid "Load"
 msgstr "טעינה"
 
-msgid "Local"
-msgstr "מקומי"
-
-msgid "Lower"
-msgstr "לרדת"
-
 msgid "Lower Nozzle"
 msgstr "הנמך דיזה"
 
+msgid "Macro shortcut on sidebar"
+msgstr "קיצור מקרו בסרגל הצד"
+
+msgid "Macros"
+msgstr "מקרואים"
+
 msgid "Main Menu"
 msgstr "תפריט ראשי"
-
-msgid "Manual"
-msgstr "ידני"
-
-msgid "Manual Detect"
-msgstr ""
-
-msgid "Manual Detection"
-msgstr ""
 
 msgid "Material"
 msgstr ""
@@ -654,6 +425,9 @@ msgstr "האצה מרבית להאטה"
 msgid "Max Velocity"
 msgstr "מהירות מרבית"
 
+msgid "Maximum"
+msgstr ""
+
 msgid "Measure Both"
 msgstr "מדוד את שניהם"
 
@@ -663,6 +437,9 @@ msgstr "מדוד X"
 msgid "Measure Y"
 msgstr "מדוד Y"
 
+msgid "Medium"
+msgstr "בינוני"
+
 msgid "Menu"
 msgstr "תפריט"
 
@@ -671,12 +448,6 @@ msgstr ""
 
 msgid "Modified"
 msgstr "שונה"
-
-msgid "Monitoring:"
-msgstr ""
-
-msgid "Moonraker"
-msgstr ""
 
 msgid "Moonraker: connected"
 msgstr "Moonraker: מחובר"
@@ -693,15 +464,6 @@ msgstr "מרחק הזזה (מ''מ)"
 msgid "Name"
 msgstr "שם"
 
-msgid "Need home axis"
-msgstr "צריך ציר הבית"
-
-msgid "Need reboot, relaunch immediately?"
-msgstr "נדרשת הפעלה מחדש, להפעיל מחדש כעת?"
-
-msgid "Need to recalculate the offset value."
-msgstr "צריך לחשב מחדש את ערך ההיסט."
-
 msgid "Network"
 msgstr "רשת"
 
@@ -711,44 +473,7 @@ msgstr ""
 msgid "New"
 msgstr "חדש"
 
-msgid "New nozzle height difference is: "
-msgstr "הפרש גובה הנחיר החדש הוא: "
-
-msgid "New nozzle height difference: "
-msgstr "הפרש גובה הנחיר החדש: "
-
-msgid "New nozzle height difference: ?"
-msgstr ""
-
-msgid "No Gcode Buttons configured"
-msgstr ""
-
-msgid "No calibration camera found."
-msgstr ""
-
-msgid "No camera URL available."
-msgstr ""
-
-msgid "No camera configured"
-msgstr ""
-
-msgid "No captured images found"
-msgstr ""
-
 msgid "No elegible macros:"
-msgstr ""
-
-msgid "No info available"
-msgstr ""
-
-msgid "No prediction image available"
-msgstr "אין תמונת חיזוי זמינה"
-
-msgid "No wireless interface has been found"
-msgstr ""
-
-#, python-brace-format
-msgid "No {action} gcode configured for {button_name}"
 msgstr ""
 
 msgid ""
@@ -756,46 +481,18 @@ msgid ""
 "conf"
 msgstr "איתור אוטומטי אינו נתמך, זה צריך להיות מוגדר ב klipperscreen"
 
-msgid "Not working or not configured"
-msgstr ""
-
 msgid "Nothing selected"
 msgstr "שום דבר לא נבחר"
-
-msgid "Notification log empty"
-msgstr ""
-
-msgid "Notifications"
-msgstr ""
-
-msgid "Nozzle Temp:"
-msgstr "טמפ' חרטום:"
-
-msgid "Nozzle Temperature"
-msgstr "טמפרטורת חרטום"
-
-msgid "OK"
-msgstr "אישור"
-
-msgid "Only one extruder does not require calibration."
-msgstr "רק מדפיס אחד אינו דורש כיבוד."
 
 #, python-format
 msgid "Outdated by %d"
 msgstr "מיושן על ידי %d"
 
-msgid "Output Pins"
-msgstr ""
-
 msgid "PSK for"
 msgstr "PSK עבור"
 
 msgid "Package will be updated"
-msgid_plural "Packages will be updated"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr "Packages will be updated"
 
 msgid "Part Fan"
 msgstr "מאוורר חומר"
@@ -812,53 +509,23 @@ msgstr "מושהה"
 msgid "Perform a full upgrade?"
 msgstr "לבצע שדרוג מלא?"
 
-msgid ""
-"Please click the Z raise button to raise the Z axis to remove the foam "
-"around the bottom of the case."
-msgstr ""
-"אנא לחץ על כפתור הרמת Z כדי להרים את ציר Z ולהסיר את הקצף סביב תחתית המארז."
+msgid "Pins"
+msgstr "פינים"
 
-msgid "Please observe if the nozzle is positioned above the probe."
-msgstr "אנא בדוק אם הנחיר ממוקם מעל הגשש."
+msgid "Output Pins"
+msgstr "פיני יציאה"
 
 msgid "Please recompile and flash the micro-controller."
 msgstr "אנא הדר (קמפל) מחדש ובצע פלאש למיקרו-בקר."
 
-msgid "Please wait for the camera initialization to complete."
-msgstr "אנא המתן עד שהאתחול של המצלמה יסתיים."
-
-msgid ""
-"Please wait for the camera's fill light to light up for 5 seconds before "
-"clicking 'Start'"
-msgstr ""
-"אנא המתן עד שאור המילוי של המצלמה יידלק למשך 5 שניות לפני ללחוץ על 'התחל'"
-
-msgid "Please wait until the bed and nozzle is heated before calibrating."
-msgstr ""
-
 msgid "Power"
 msgstr "הפעלה"
-
-msgid "Power Loss Recovery"
-msgstr "שחזור לאחר הפסקת חשמל"
 
 msgid "Power On Printer"
 msgstr "הפעל מדפסת"
 
-msgid "Preheat"
-msgstr "חימום מראש"
-
-msgid "Press"
-msgstr ""
-
-msgid "Pressed"
-msgstr ""
-
 msgid "Pressure Advance:"
 msgstr "פרשר אדוונס"
-
-msgid "Pressure:"
-msgstr "לחץ:"
 
 msgid "Print"
 msgstr "הדפסה"
@@ -866,35 +533,17 @@ msgstr "הדפסה"
 msgid "Print Control"
 msgstr "שליטה בהדפסה"
 
-msgid "Print Height"
-msgstr "גובה הדפסה"
-
-msgid "Print Height:"
-msgstr "גובה הדפסה:"
-
 msgid "Print Time"
 msgstr "זמן הדפסה"
 
-msgid "Print cancelled"
-msgstr "ההדפסה בוטלה"
+msgid "Printer"
+msgstr "מדפסת"
 
-msgid "Print height is less than 1mm"
-msgstr "גובה ההדפסה נמוך מ-1 מ\"מ"
-
-msgid "Print resumed"
-msgstr "ההדפסה התחדשה"
+msgid "Printer Connections"
+msgstr "חיבורי מדפסת"
 
 msgid "Printer Select"
 msgstr ""
-
-msgid "Printhead"
-msgstr "ראש"
-
-msgid "Printhead 1"
-msgstr "ראש 1"
-
-msgid "Printhead 2"
-msgstr "ראש 2"
 
 msgid "Printing"
 msgstr "מדפיס"
@@ -911,9 +560,6 @@ msgstr ""
 msgid "Quad Gantry Level"
 msgstr "יישור הגנטרי הריבועי"
 
-msgid "Raise"
-msgstr "להעלות"
-
 msgid "Raise Nozzle"
 msgstr "הגבה דיזה"
 
@@ -926,23 +572,11 @@ msgstr "שחזור מלא"
 msgid "Recover Soft"
 msgstr "שחזור עדין"
 
-msgid "Recovery File"
-msgstr "קובץ שחזור"
-
 msgid "Reference"
 msgstr "התייחסות"
 
 msgid "Refresh"
 msgstr "רענון"
-
-msgid "Release"
-msgstr ""
-
-msgid "Released"
-msgstr ""
-
-msgid "Remove Foam"
-msgstr "הסר קצף"
 
 msgid "Rename/Move:"
 msgstr ""
@@ -950,20 +584,14 @@ msgstr ""
 msgid "Restart"
 msgstr "אתחל"
 
-msgid "Restart required. Restart now?"
-msgstr ""
-
 msgid "Resume"
 msgstr "המשך"
 
 msgid "Retract"
 msgstr "שיחול לאחור"
 
-msgid "Retract blowback"
-msgstr "נשיפה חוזרת"
-
-msgid "Retract started"
-msgstr "החזרה החלה"
+msgid "Retraction"
+msgstr "משיכה"
 
 msgid "Retraction Length"
 msgstr "מרחק משיכה"
@@ -977,30 +605,11 @@ msgstr ""
 msgid "Retrying"
 msgstr "מנסה שוב"
 
-msgid "Return Buffer"
-msgstr "חזרה למאגר"
-
-msgid "Right Extruder Z Offset"
-msgstr ""
-
-#, python-format
-msgid "Right Extruder: %s%.3f"
-msgstr "אקסטרודר ימני: %s%.3f"
-
-msgid "Right Extruder: Not adjusted"
-msgstr "אקסטרודר ימני: לא מכוון"
-
-msgid "Run Mode:"
-msgstr "מצב:"
-
-msgid "Running"
-msgstr ""
-
 msgid "Save"
 msgstr "לשמור"
 
-msgid "Save Results"
-msgstr ""
+msgid "Save Config"
+msgstr "שמור קונפיג"
 
 msgid "Save Z"
 msgstr "שמור Z"
@@ -1011,11 +620,9 @@ msgstr "שמור קונפיגרציה?"
 msgid "Saved"
 msgstr "נשמר"
 
-msgid "Saved successfully!"
-msgstr "נשמר בהצלחה!"
-
-msgid "Saved successfully."
-msgstr ""
+#, python-format
+msgid "Saved offset: %s"
+msgstr "שמור אופ-סט %s"
 
 msgid "Screen DPMS"
 msgstr "DPMS מסך"
@@ -1029,17 +636,8 @@ msgstr "סידור ברגים"
 msgid "Select"
 msgstr "בחר"
 
-msgid "Select WiFi"
-msgstr "בחר WiFi"
-
-msgid "Self-check"
-msgstr "בדיקת עצמית"
-
 msgid "Send"
 msgstr "שליחה"
-
-msgid "Service Status:"
-msgstr ""
 
 msgid "Set Temp"
 msgstr "הגדר טמפ'"
@@ -1050,8 +648,11 @@ msgstr "הגדרות"
 msgid "Show"
 msgstr "הצג"
 
-msgid "Shut down after printing completes"
-msgstr "כשהדפסה מסתיימת, כבה"
+msgid "Show Heater Power"
+msgstr "הצג זרם מיטה"
+
+msgid "Show Scrollbars Buttons"
+msgstr ""
 
 msgid "Shutdown"
 msgstr "כיבוי"
@@ -1065,8 +666,8 @@ msgstr "סלייסר"
 msgid "Slicer:"
 msgstr ""
 
-msgid "Sound Notification"
-msgstr "התראה קולית"
+msgid "Small"
+msgstr "קטן"
 
 msgid "Speed (mm/s)"
 msgstr "מהירות (מ\"מ/שניות)"
@@ -1089,41 +690,14 @@ msgstr ""
 msgid "Start"
 msgstr "התחל"
 
-msgid "Start Calibration"
-msgstr ""
-
-msgid "Start Monitoring"
-msgstr ""
-
-msgid "Start Preview"
-msgstr ""
-
 msgid "Starting WiFi Association"
 msgstr "מתחיל איגוד WiFi"
-
-msgid "Starting dual nozzle height calibration..."
-msgstr "מתחיל כיול גובה דו-נחיר..."
 
 msgid "Starting recovery for"
 msgstr "החל התאוששות עבור"
 
 msgid "Starting update for"
 msgstr "מתחיל עדכון עבור"
-
-msgid "Stop"
-msgstr ""
-
-msgid "Stop All"
-msgstr "עצור הכל"
-
-msgid "Stop Monitoring"
-msgstr ""
-
-msgid "Stop Preview"
-msgstr ""
-
-msgid "Stopped"
-msgstr ""
 
 msgid "System"
 msgstr "מערכת"
@@ -1140,32 +714,8 @@ msgstr "טמפ' (°C)"
 msgid "Temperature"
 msgstr "טמפרטורה"
 
-msgid "The nozzle temperature is too low, Are you sure you want to heat it?"
-msgstr "טמפרטורת הדיוזה נמוכה מדי, אתה בטוח שברצונך לחמם אותה?"
-
-msgid "To Buffer"
-msgstr "אל המאגר"
-
-msgid "To Dryer"
-msgstr "אל המייבש"
-
-msgid "To Printhead"
-msgstr "אל הראש"
-
 msgid "Total:"
 msgstr "סך הכל:"
-
-msgid "Troubleshooting"
-msgstr "איתור תקלות"
-
-msgid "Turn off"
-msgstr "כבה"
-
-msgid "URL"
-msgstr ""
-
-msgid "Unknown"
-msgstr ""
 
 msgid "Unknown Heater"
 msgstr "מחמם לא ידוע"
@@ -1194,35 +744,8 @@ msgstr "מעדכן"
 msgid "Uploaded"
 msgstr "הועלה"
 
-msgid "Voice Notify"
-msgstr "התראה קולית"
-
-msgid "Warning"
-msgstr "אזהרה"
-
-msgid ""
-"Warning: Current value is negative. This is dangerous and may damage the "
-"machine. Please recalibrate."
-msgstr ""
-"אזהרה: הערך הנוכחי שלילי. זה מסוכן ועלול לגרום נזק למכונה. אנא כייל מחדש."
-
-msgid ""
-"Warning: Negative value detected. This is dangerous and may damage the "
-"machine. Please recalibrate."
-msgstr ""
-"אזהרה: התגלה ערך שלילי. זה מסוכן ועלול לגרום נזק למכונה. אנא כייל מחדש."
-
-msgid "Waste Chute"
-msgstr ""
-
-msgid "WebRTC is not supported by the backend trying Stream"
-msgstr ""
-
 msgid "XY Move Speed (mm/s)"
 msgstr "מהירות תנועה XY (מ\"מ/שנייה)"
-
-msgid "XY Offset"
-msgstr "היסט X-Y"
 
 msgid "XY Speed (mm/s)"
 msgstr "מהירות XY (mm/s)"
@@ -1230,17 +753,8 @@ msgstr "מהירות XY (mm/s)"
 msgid "Z Calibrate"
 msgstr "כיול Z"
 
-msgid "Z Endstop"
-msgstr ""
-
-msgid "Z Height Diff"
-msgstr "הפרש גובה Z"
-
 msgid "Z Move Speed (mm/s)"
 msgstr "מהירות תנועה Z (מ\"מ/שניות)"
-
-msgid "Z Offset"
-msgstr "היסט Z"
 
 msgid "Z Speed (mm/s)"
 msgstr "מהירות Z (mm/s)"
@@ -1248,18 +762,11 @@ msgstr "מהירות Z (mm/s)"
 msgid "Z Tilt"
 msgstr "הטיה Z"
 
-msgid "Z offset exceeds safe range"
-msgstr ""
-
 msgid "Z offset:"
 msgstr "Z אוף-סט"
 
 msgid "commit"
-msgid_plural "commits"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr "commits"
 
 msgid "dBm"
 msgstr "dBm"
@@ -1296,78 +803,11 @@ msgstr "mm/s²"
 msgid "mm³/s"
 msgstr ""
 
-#~ msgid "24 Hour Time"
-#~ msgstr "זמן 24 שעות"
-
-#~ msgid "Bed Mesh"
-#~ msgstr "מיפוי מיטה"
-
-#~ msgid "Console"
-#~ msgstr "קונסול"
-
-#~ msgid "Extrusion +"
-#~ msgstr "שיחול +"
-
-#~ msgid "Extrusion -"
-#~ msgstr "שיחול -"
-
-#~ msgid "Font Size"
-#~ msgstr "גודל טקסט"
-
-#~ msgid "Hide sensors in Temp."
-#~ msgstr "הסתר חיישנים בטמפ'."
-
-#~ msgid "Host"
-#~ msgstr "שרת"
-
-#~ msgid "Icon Theme"
-#~ msgstr "ערכת נושא"
-
-#~ msgid "Large"
-#~ msgstr "גדול"
-
-#~ msgid "Limits"
-#~ msgstr "גבולות"
-
-#~ msgid "Macro shortcut on sidebar"
-#~ msgstr "קיצור מקרו בסרגל הצד"
-
-#~ msgid "Macros"
-#~ msgstr "מקרואים"
-
-#~ msgid "Medium"
-#~ msgstr "בינוני"
-
-#~ msgid "Pins"
-#~ msgstr "פינים"
-
-#~ msgid "Printer"
-#~ msgstr "מדפסת"
-
-#~ msgid "Printer Connections"
-#~ msgstr "חיבורי מדפסת"
-
-#~ msgid "Retraction"
-#~ msgstr "משיכה"
-
-#~ msgid "Save Config"
-#~ msgstr "שמור קונפיג"
-
-#, python-format
-#~ msgid "Saved offset: %s"
-#~ msgstr "שמור אופ-סט %s"
-
-#~ msgid "Show Heater Power"
-#~ msgstr "הצג זרם מיטה"
-
-#~ msgid "Small"
-#~ msgstr "קטן"
-
 #~ msgid "KlipperScreen will reboot"
 #~ msgstr "KlipperScreen יאתחל מחדש"
 
-#~ msgid "Continue"
-#~ msgstr "המשך"
+msgid "Continue"
+msgstr "המשך"
 
 #~ msgid "Actions"
 #~ msgstr "פעולות"
@@ -1378,11 +818,17 @@ msgstr ""
 #~ msgid "Homing"
 #~ msgstr "איפוס צירים"
 
+#~ msgid "Disable XY"
+#~ msgstr "השבת את XY"
+
 #~ msgid "Slicer Time correction (%)"
 #~ msgstr "תיקון זמן פריסה (%)"
 
 #~ msgid "Calibrated, save configuration to make it permanent"
 #~ msgstr "מכויל, שמור את התצורה כדי שהיא תהיה קבועה"
+
+#~ msgid "Decrease"
+#~ msgstr "הורד"
 
 #~ msgid "Increase"
 #~ msgstr "הגדל"
@@ -1509,6 +955,9 @@ msgstr ""
 #~ msgid "Number Pad"
 #~ msgstr "פד נומרי"
 
+#~ msgid "Preheat"
+#~ msgstr "חימום מראש"
+
 #~ msgid "Screen will show in less than one second"
 #~ msgstr "המסך יופיע תוך פחות משנייה אחת"
 
@@ -1545,6 +994,9 @@ msgstr ""
 #~ msgid "Network Info"
 #~ msgstr "מידע על הרשת"
 
+#~ msgid "Back"
+#~ msgstr "חזור"
+
 #~ msgid "Extrusion"
 #~ msgstr "שיחול"
 
@@ -1566,571 +1018,940 @@ msgstr ""
 #~ msgid "Tool 1"
 #~ msgstr "כלי 1"
 
-#~ msgid "General"
-#~ msgstr "כללי"
+msgid "Leveling"
+msgstr "ישור"
 
-#~ msgid "Cautions"
-#~ msgstr "אזהרות"
+msgid "The nozzle temperature is too low, Are you sure you want to heat it?"
+msgstr "טמפרטורת הדיוזה נמוכה מדי, אתה בטוח שברצונך לחמם אותה?"
 
-#~ msgid "Maintenance"
-#~ msgstr "תחזוקה"
+msgid "General"
+msgstr "כללי"
 
-#~ msgid "Please confirm left extruder position."
-#~ msgstr "אנא אשר מיקום הדפס שמאל."
+msgid "Turn off"
+msgstr "כבה"
 
-#~ msgid "Nozzle Heating"
-#~ msgstr "חימום דיוזה"
+msgid "Brightest"
+msgstr "הבהיר ביותר"
 
-#~ msgid "Hot Bed Heating"
-#~ msgstr "חימום מיטת הדפסה"
+msgid "Manual"
+msgstr "ידני"
 
-#~ msgid "Nozzle Cooling Fan"
-#~ msgstr "מאוורר קירור דיוזה"
+msgid "Troubleshooting"
+msgstr "איתור תקלות"
 
-#~ msgid "Hotend Cooling Fan"
-#~ msgstr "מאוורר קירור Hotend"
+msgid "Cautions"
+msgstr "אזהרות"
 
-#~ msgid "Auto Leveling"
-#~ msgstr "ישור אוטומטי"
+msgid "Maintenance"
+msgstr "תחזוקה"
 
-#~ msgid "WiFi"
-#~ msgstr "WiFi"
+msgid "Calibration"
+msgstr "כיבוד"
 
-#~ msgid "Power loss recovery, is resume print?"
-#~ msgstr "שחזור אחרי אובדן חשמל, האם להמשיך להדפיס?"
+msgid "XY Offset"
+msgstr "היסט X-Y"
 
-#~ msgid "Skip All"
-#~ msgstr "דלג על הכל"
+msgid "Z Offset"
+msgstr "היסט Z"
 
-#~ msgid "Please wait for the print job to end"
-#~ msgstr "אנא המתן עד שההדפסה תסתיים"
+msgid "Only one extruder does not require calibration."
+msgstr "רק מדפיס אחד אינו דורש כיבוד."
 
-#~ msgid "Are you sure you wish to reset the printer?"
-#~ msgstr "האם אתה בטוח שברצונך לאתחל את המדפסת?"
+msgid "Please confirm left extruder position."
+msgstr "אנא אשר מיקום הדפס שמאל."
 
-#~ msgid "Data will be deleted"
-#~ msgstr "הנתונים יימחקו"
+msgid "Need to recalculate the offset value."
+msgstr "צריך לחשב מחדש את ערך ההיסט."
 
-#~ msgid "Reset Printer"
-#~ msgstr "אתחל מדפסת"
+msgid "Error writing configuration"
+msgstr "שגיאה בכתיבת הגדרות"
 
-#~ msgid "Resetting printer, will restart, please wait..."
-#~ msgstr "מאתחל את המדפסת, המערכת תיתחיל מחדש, אנא המתן..."
+msgid "Please wait for the camera initialization to complete."
+msgstr "אנא המתן עד שהאתחול של המצלמה יסתיים."
 
-#~ msgid "Reset"
-#~ msgstr "איפוס"
+msgid "Please wait for the camera's fill light to light up for 5 seconds before clicking 'Start'"
+msgstr "אנא המתן עד שאור המילוי של המצלמה יידלק למשך 5 שניות לפני ללחוץ על 'התחל'"
 
-#~ msgid "Poweroff"
-#~ msgstr "כבה"
+msgid "Couldn't get the calibration camera position."
+msgstr "לא הצלחנו לקבוע את מיקום הקליברציה של המצלמה."
+
+msgid "Need home axis"
+msgstr "צריך ציר הבית"
+
+msgid "Choose Language"
+msgstr "בחר שפה"
+
+msgid "Choose Timezone"
+msgstr "בחר אזור זמן"
+
+msgid "Select WiFi"
+msgstr "בחר WiFi"
+
+msgid "Self-check"
+msgstr "בדיקת עצמית"
+
+msgid "Nozzle Heating"
+msgstr "חימום דיוזה"
+
+msgid "Hot Bed Heating"
+msgstr "חימום מיטת הדפסה"
+
+msgid "Nozzle Cooling Fan"
+msgstr "מאוורר קירור דיוזה"
+
+msgid "Hotend Cooling Fan"
+msgstr "מאוורר קירור Hotend"
+
+msgid "Filament Detection"
+msgstr "איתור חוט"
+
+msgid "Auto Leveling"
+msgstr "ישור אוטומטי"
+
+msgid "WiFi"
+msgstr "WiFi"
+
+msgid "Power loss recovery, is resume print?"
+msgstr "שחזור אחרי אובדן חשמל, האם להמשיך להדפיס?"
+
+msgid "Please wait until the bed and nozzle are heated before calibrating."
+msgstr "אנא המתן עד שמיטת ההדפסה והדיוזה יחממו לפני הכיבוד."
+
+msgid "Current language:"
+msgstr "שפה נוכחית:"
+
+msgid "Skip All"
+msgstr "דלג על הכל"
+
+msgid "Do not touch the printer during self-check."
+msgstr "אל תיגע במדפסת במהלך בדיקה עצמית."
+
+msgid "Confirm"
+msgstr "אשר"
+
+msgid "Current timezone:"
+msgstr "אזור זמן נוכחי:"
+
+msgid "Choose a timezone"
+msgstr "בחר אזור זמן"
+
+msgid "Choose a language"
+msgstr "בחר שפה"
+
+msgid "Please wait for the print job to end"
+msgstr "אנא המתן עד שההדפסה תסתיים"
+
+msgid "Are you sure you wish to reset the printer?"
+msgstr "האם אתה בטוח שברצונך לאתחל את המדפסת?"
+
+msgid "Data will be deleted"
+msgstr "הנתונים יימחקו"
+
+msgid "Reset Printer"
+msgstr "אתחל מדפסת"
+
+msgid "Resetting printer, will restart, please wait..."
+msgstr "מאתחל את המדפסת, המערכת תיתחיל מחדש, אנא המתן..."
+
+msgid "Reset"
+msgstr "איפוס"
+
+msgid "Poweroff"
+msgstr "כבה"
+
+msgid "Confirm Pos"
+msgstr "בדוק את המיקום"
+
+msgid "Shut down after printing completes"
+msgstr "כשהדפסה מסתיימת, כבה"
+
+msgid "Voice Notify"
+msgstr "התראה קולית"
+
+msgid "Filament Box Power"
+msgstr "ספק החשמל של תיבת פילמנט"
+
+msgid "If your calibration device is under the PEI, please lift the PEI after homing."
+msgstr "אם מכשיר הכיול שלך נמצא מתחת ל-PEI, אנא הרם את ה-PEI לאחר ההומינג."
+
+msgid "Homing the printer..."
+msgstr "מבצע הומינג למדפסת..."
+
+msgid "Starting dual nozzle height calibration..."
+msgstr "מתחיל כיול גובה דו-נחיר..."
+
+msgid "Please observe if the nozzle is positioned above the probe."
+msgstr "אנא בדוק אם הנחיר ממוקם מעל הגשש."
+
+msgid "Warning: Negative value detected. This is dangerous and may damage the machine. Please recalibrate."
+msgstr "אזהרה: התגלה ערך שלילי. זה מסוכן ועלול לגרום נזק למכונה. אנא כייל מחדש."
+
+msgid "New nozzle height difference is: "
+msgstr "הפרש גובה הנחיר החדש הוא: "
+
+msgid "Warning: Current value is negative. This is dangerous and may damage the machine. Please recalibrate."
+msgstr "אזהרה: הערך הנוכחי שלילי. זה מסוכן ועלול לגרום נזק למכונה. אנא כייל מחדש."
+
+msgid "Z Height Diff"
+msgstr "הפרש גובה Z"
+
+msgid "Adjust Zprobe Pos"
+msgstr "התאם מיקום Zprobe"
+
+msgid "Need reboot, relaunch immediately?"
+msgstr "נדרשת הפעלה מחדש, להפעיל מחדש כעת?"
+
+msgid "Current nozzle height difference: "
+msgstr "הפרש גובה הנחיר הנוכחי: "
+
+msgid "New nozzle height difference: "
+msgstr "הפרש גובה הנחיר החדש: "
+
+msgid "Dangerous nozzle height difference: "
+msgstr "הפרש גובה נחיר מסוכן: "
+
+msgid "Saved successfully!"
+msgstr "נשמר בהצלחה!"
 
 # Feed Filament Box
-#~ msgid "Edit"
-#~ msgstr "עריכה"
+msgid "Edit"
+msgstr "עריכה"
 
-#~ msgid "Filament Info"
-#~ msgstr "מידע על הנימה"
+msgid "Filament Info"
+msgstr "מידע על הנימה"
 
-#~ msgid "Not found"
-#~ msgstr "לא נמצא"
+msgid "Not found"
+msgstr "לא נמצא"
 
-#~ msgid "Vendor"
-#~ msgstr "יצרן"
+msgid "Vendor"
+msgstr "יצרן"
 
-#~ msgid "Type"
-#~ msgstr "סוג"
+msgid "Type"
+msgstr "סוג"
 
-#~ msgid "Set Color"
-#~ msgstr "הגדר צבע"
+msgid "Color"
+msgstr "צבע"
 
-#~ msgid "Filament Settings"
-#~ msgstr "הגדרות נימה"
+msgid "Set Color"
+msgstr "הגדר צבע"
 
-#~ msgid "Multi-Material Box"
-#~ msgstr "תיבת חומרים מרובים"
+msgid "Filament Settings"
+msgstr "הגדרות נימה"
 
-#~ msgid "Are you sure you wish to restart the firmware?"
-#~ msgstr "?האם אתה בטוח שברצונך להפעיל מחדש את הקושחה"
+msgid "Multi-Material Box"
+msgstr "תיבת חומרים מרובים"
 
-#~ msgid "Autofill filament disable"
-#~ msgstr "השבתת מילוי אוטומטי של נימה"
+msgid "Are you sure you wish to restart the firmware?"
+msgstr "?האם אתה בטוח שברצונך להפעיל מחדש את הקושחה"
 
-#~ msgid "Autofill filament enabled"
-#~ msgstr "מילוי אוטומטי של נימה מופעל"
+msgid "Autofill filament disable"
+msgstr "השבתת מילוי אוטומטי של נימה"
 
-#~ msgid "Autofill filament: %s"
-#~ msgstr "%s :מילוי אוטומטי של נימה"
+msgid "Autofill filament enabled"
+msgstr "מילוי אוטומטי של נימה מופעל"
 
-#~ msgid "Backing up configuration files."
-#~ msgstr "גיבוי קבצי תצורה"
+msgid "Autofill filament: %s"
+msgstr "%s :מילוי אוטומטי של נימה"
 
-#~ msgid "Calibrate Cutter Pos"
-#~ msgstr "כיול מיקום החותך"
+msgid "Backing up configuration files."
+msgstr "גיבוי קבצי תצורה"
 
-#~ msgid "Couldn't get the calibration cutter position."
-#~ msgstr "לא ניתן לקבל את מיקום כיול החותך"
+msgid "Calibrate Cutter Pos"
+msgstr "כיול מיקום החותך"
 
-#~ msgid "Current filament indexes are:%s, active tool:%s"
-#~ msgstr "%s :כלי פעיל ,%s :אינדקסי הנימה הנוכחיים הם"
+msgid "Couldn't get the calibration cutter position."
+msgstr "לא ניתן לקבל את מיקום כיול החותך"
 
-#~ msgid ""
-#~ "Current filament indexes are:%s, active tool:%s, resume_tool:%s, "
-#~ "pause_reason:%s"
-#~ msgstr ""
-#~ "%s :סיבת השהייה ,%s :כלי המשך ,%s :כלי פעיל ,%s :אינדקסי הנימה הנוכחיים הם"
+msgid "Current filament indexes are:%s, active tool:%s"
+msgstr "%s :כלי פעיל ,%s :אינדקסי הנימה הנוכחיים הם"
 
-#~ msgid "Current value is %s"
-#~ msgstr "%s הערך הנוכחי הוא"
+msgid "Current filament indexes are:%s, active tool:%s, resume_tool:%s, pause_reason:%s"
+msgstr "%s :סיבת השהייה ,%s :כלי המשך ,%s :כלי פעיל ,%s :אינדקסי הנימה הנוכחיים הם"
 
-#~ msgid "Cut Filament Test"
-#~ msgstr "בדיקת חיתוך נימה"
+msgid "Current value is %s"
+msgstr "%s הערך הנוכחי הוא"
 
-#~ msgid "Do you want to enable multi-material box?"
-#~ msgstr "?האם ברצונך להפעיל את תיבת הרב-חומרים"
+msgid "Cut Filament Test"
+msgstr "בדיקת חיתוך נימה"
 
-#~ msgid "Do you want to use external filament?"
-#~ msgstr "?האם ברצונך להשתמש בנימה חיצונית"
+msgid "Do you want to enable multi-material box?"
+msgstr "?האם ברצונך להפעיל את תיבת הרב-חומרים"
 
-#~ msgid "Error: Offset values not found"
-#~ msgstr "שגיאה: ערכי היסט לא נמצאו"
+msgid "Do you want to use external filament?"
+msgstr "?האם ברצונך להשתמש בנימה חיצונית"
 
-#~ msgid "Error: Z offset value not found"
-#~ msgstr "Z שגיאה: לא נמצא ערך היסט"
+msgid "Error: Offset values not found"
+msgstr "שגיאה: ערכי היסט לא נמצאו"
 
-#~ msgid "External Filament"
-#~ msgstr "נימה חיצונית"
+msgid "Error: Z offset value not found"
+msgstr "Z שגיאה: לא נמצא ערך היסט"
 
-#~ msgid "Extruder not hot enough"
-#~ msgstr "האקסטרודר לא חם מספיק"
+msgid "External Filament"
+msgstr "נימה חיצונית"
 
-#~ msgid "FEED error:External filament not removed"
-#~ msgstr "שגיאת הזנה: נימה חיצונית לא הוסרה"
+msgid "Extruder not hot enough"
+msgstr "האקסטרודר לא חם מספיק"
 
-#~ msgid "Filament %s not found"
-#~ msgstr "לא נמצאה %s נימה"
+msgid "FEED error:External filament not removed"
+msgstr "שגיאת הזנה: נימה חיצונית לא הוסרה"
 
-#~ msgid "Filament Sensor%s: No filament detected, canceling print"
-#~ msgstr "חיישן נימה %s: לא זוהתה נימה, מבטל הדפסה"
+msgid "Filament %s not found"
+msgstr "לא נמצאה %s נימה"
 
-#~ msgid "Filament Sensor%s: No filament detected, pausing print"
-#~ msgstr "חיישן נימה %s: לא זוהתה נימה, משהה הדפסה"
+msgid "Filament Sensor%s: No filament detected, canceling print"
+msgstr "חיישן נימה %s: לא זוהתה נימה, מבטל הדפסה"
 
-#~ msgid "Filament Sensor0: No filament detected, pausing print"
-#~ msgstr "חיישן נימה 0: לא זוהתה נימה, משהה הדפסה"
+msgid "Filament Sensor%s: No filament detected, pausing print"
+msgstr "חיישן נימה %s: לא זוהתה נימה, משהה הדפסה"
 
-#~ msgid "Filament Sensor1: No filament detected, pausing print"
-#~ msgstr "חיישן נימה 1: לא זוהתה נימה, משהה הדפסה"
+msgid "Filament Sensor0: No filament detected, pausing print"
+msgstr "חיישן נימה 0: לא זוהתה נימה, משהה הדפסה"
 
-#~ msgid ""
-#~ "Filament detected! Please remove filament from the hotend before enabling "
-#~ "multi-material box."
-#~ msgstr ""
-#~ "זוהתה נימה! אנא הסר את הנימה מראש ההדפסה החם לפני הפעלת תיבת הרב-חומרים"
+msgid "Filament Sensor1: No filament detected, pausing print"
+msgstr "חיישן נימה 1: לא זוהתה נימה, משהה הדפסה"
 
-#~ msgid "Missing required recovery data"
-#~ msgstr "חסרים נתוני שחזור נדרשים"
+msgid "Filament detected! Please remove filament from the hotend before enabling multi-material box."
+msgstr "זוהתה נימה! אנא הסר את הנימה מראש ההדפסה החם לפני הפעלת תיבת הרב-חומרים"
 
-#~ msgid "No power loss recovery data found"
-#~ msgstr "לא נמצאו נתוני שחזור מהפסקת חשמל"
+msgid "Missing required recovery data"
+msgstr "חסרים נתוני שחזור נדרשים"
 
-#~ msgid "No valid params 'S'"
-#~ msgstr "'S' אין פרמטרים תקפים"
+msgid "No power loss recovery data found"
+msgstr "לא נמצאו נתוני שחזור מהפסקת חשמל"
 
-#~ msgid "No"
-#~ msgstr "לא"
+msgid "No valid params 'S'"
+msgstr "'S' אין פרמטרים תקפים"
 
-#~ msgid "Options"
-#~ msgstr "אפשרויות"
+msgid "No"
+msgstr "לא"
 
-#~ msgid "Pause. The \"extruder\" extrude error!"
-#~ msgstr "השהיה. שגיאת שיחול באקסטרודר!"
+msgid "OK"
+msgstr "אישור"
 
-#~ msgid "Please exit the filament from the nozzle first"
-#~ msgstr "אנא הוצא תחילה את הנימה מהנחיר"
+msgid "Options"
+msgstr "אפשרויות"
 
-#~ msgid ""
-#~ "Please fill in the voice number correctly: 0-start printing, 1-end "
-#~ "printing, 2-outage detected, 3-cancel printing, 4-pause printing"
-#~ msgstr ""
-#~ "אנא הזן את מספר הקול הנכון: 0-התחל הדפסה, 1-סיים הדפסה, 2-זוהתה הפסקת "
-#~ "חשמל, 3-בטל הדפסה, 4-השהה הדפסה"
+msgid "Pause. The \"extruder\" extrude error!"
+msgstr "השהיה. שגיאת שיחול באקסטרודר!"
 
-#~ msgid "Please select how you would like to proceed."
-#~ msgstr "אנא בחר כיצד ברצונך להמשיך"
+msgid "Please exit the filament from the nozzle first"
+msgstr "אנא הוצא תחילה את הנימה מהנחיר"
 
-#~ msgid "Power loss recovery, resuming print."
-#~ msgstr "שחזור מהפסקת חשמל, ממשיך הדפסה"
+msgid "Please fill in the voice number correctly: 0-start printing, 1-end printing, 2-outage detected, 3-cancel printing, 4-pause printing"
+msgstr "אנא הזן את מספר הקול הנכון: 0-התחל הדפסה, 1-סיים הדפסה, 2-זוהתה הפסקת חשמל, 3-בטל הדפסה, 4-השהה הדפסה"
 
-#~ msgid "Power loss, saving print states."
-#~ msgstr "הפסקת חשמל, שומר מצבי הדפסה"
+msgid "Please select how you would like to proceed."
+msgstr "אנא בחר כיצד ברצונך להמשיך"
 
-#~ msgid "Press feedsys button"
-#~ msgstr "לחץ על כפתור מערכת ההזנה"
+msgid "Power loss recovery, resuming print."
+msgstr "שחזור מהפסקת חשמל, ממשיך הדפסה"
 
-#~ msgid "Print resumed from power loss position"
-#~ msgstr "ההדפסה התחדשה מנקודת הפסקת החשמל"
+msgid "Power loss, saving print states."
+msgstr "הפסקת חשמל, שומר מצבי הדפסה"
 
-#~ msgid "Printer not homed"
-#~ msgstr "המדפסת לא עברה איפוס"
+msgid "Press feedsys button"
+msgstr "לחץ על כפתור מערכת ההזנה"
 
-#~ msgid "RESUME error:autofill no fil"
-#~ msgstr "שגיאת המשך: אין מילוי אוטומטי של נימה"
+msgid "Print resumed from power loss position"
+msgstr "ההדפסה התחדשה מנקודת הפסקת החשמל"
 
-#~ msgid "RESUME error:no fil"
-#~ msgstr "שגיאת המשך: אין נימה"
+msgid "Printer not homed"
+msgstr "המדפסת לא עברה איפוס"
 
-#~ msgid "RESUME error:residual fil"
-#~ msgstr "שגיאת המשך: נימה שיורית"
+msgid "RESUME error:autofill no fil"
+msgstr "שגיאת המשך: אין מילוי אוטומטי של נימה"
 
-#~ msgid "Recovery data: Z=%s, File=%s, Pos=%s"
-#~ msgstr "%s=מיקום ,%s=קובץ ,%s=Z :נתוני שחזור"
+msgid "RESUME error:no fil"
+msgstr "שגיאת המשך: אין נימה"
 
-#~ msgid "T%s direct feed"
-#~ msgstr "T%s הזנה ישירה"
+msgid "RESUME error:residual fil"
+msgstr "שגיאת המשך: נימה שיורית"
 
-#~ msgid "T0 direct feed"
-#~ msgstr "T0 הזנה ישירה"
+msgid "Recovery data: Z=%s, File=%s, Pos=%s"
+msgstr "%s=מיקום ,%s=קובץ ,%s=Z :נתוני שחזור"
 
-#~ msgid "T0 need exit filament"
-#~ msgstr "T0 יש צורך להוציא נימה"
+msgid "Save & Restart"
+msgstr "שמור והפעל מחדש"
 
-#~ msgid "T1 direct feed"
-#~ msgstr "T1 הזנה ישירה"
+msgid "T%s direct feed"
+msgstr "T%s הזנה ישירה"
 
-#~ msgid "T1 need exit filament"
-#~ msgstr "T1 יש צורך להוציא נימה"
+msgid "T0 direct feed"
+msgstr "T0 הזנה ישירה"
 
-#~ msgid "T2 direct feed"
-#~ msgstr "T2 הזנה ישירה"
+msgid "T0 need exit filament"
+msgstr "T0 יש צורך להוציא נימה"
 
-#~ msgid "T2 need exit filament"
-#~ msgstr "T2 יש צורך להוציא נימה"
+msgid "T1 direct feed"
+msgstr "T1 הזנה ישירה"
 
-#~ msgid "T3 direct feed"
-#~ msgstr "T3 הזנה ישירה"
+msgid "T1 need exit filament"
+msgstr "T1 יש צורך להוציא נימה"
 
-#~ msgid "T3 need exit filament"
-#~ msgstr "T3 יש צורך להוציא נימה"
+msgid "T2 direct feed"
+msgstr "T2 הזנה ישירה"
 
-#~ msgid "The \"extruder\" extrude error!"
-#~ msgstr "שגיאת שיחול באקסטרודר!"
+msgid "T2 need exit filament"
+msgstr "T2 יש צורך להוציא נימה"
 
-#~ msgid "The current toolheade is T%s"
-#~ msgstr "T%s ראש הכלי הנוכחי הוא"
+msgid "T3 direct feed"
+msgstr "T3 הזנה ישירה"
 
-#~ msgid "The current toolheade is T0"
-#~ msgstr "T0 ראש הכלי הנוכחי הוא"
+msgid "T3 need exit filament"
+msgstr "T3 יש צורך להוציא נימה"
 
-#~ msgid "The current toolheade is T1"
-#~ msgstr "T1 ראש הכלי הנוכחי הוא"
+msgid "The \"extruder\" extrude error!"
+msgstr "שגיאת שיחול באקסטרודר!"
 
-#~ msgid "The current toolheade is T2"
-#~ msgstr "T2 ראש הכלי הנוכחי הוא"
+msgid "The current toolheade is T%s"
+msgstr "T%s ראש הכלי הנוכחי הוא"
 
-#~ msgid "The current toolheade is T3"
-#~ msgstr "T3 ראש הכלי הנוכחי הוא"
+msgid "The current toolheade is T0"
+msgstr "T0 ראש הכלי הנוכחי הוא"
 
-#~ msgid "The filament_box_%s no filament"
-#~ msgstr "אין נימה %s_בתיבת הנימה"
+msgid "The current toolheade is T1"
+msgstr "T1 ראש הכלי הנוכחי הוא"
 
-#~ msgid "The motor is wrong."
-#~ msgstr "המנוע לא תקין"
+msgid "The current toolheade is T2"
+msgstr "T2 ראש הכלי הנוכחי הוא"
 
-#~ msgid "There is a residual filament, Please remove and continue"
-#~ msgstr "ישנה נימה שיורית, אנא הסר והמשך"
+msgid "The current toolheade is T3"
+msgstr "T3 ראש הכלי הנוכחי הוא"
 
-#~ msgid "There's a residual filament in box %s"
-#~ msgstr "%s ישנה נימה שיורית בתיבה"
+msgid "The filament_box_%s no filament"
+msgstr "אין נימה %s_בתיבת הנימה"
 
-#~ msgid "There's a residual filament in box 1"
-#~ msgstr "ישנה נימה שיורית בתיבה 1"
+msgid "The motor is wrong."
+msgstr "המנוע לא תקין"
 
-#~ msgid "There's a residual filament in box 2"
-#~ msgstr "ישנה נימה שיורית בתיבה 2"
+msgid "There is a residual filament, Please remove and continue"
+msgstr "ישנה נימה שיורית, אנא הסר והמשך"
 
-#~ msgid "There's a residual filament in box 3"
-#~ msgstr "ישנה נימה שיורית בתיבה 3"
+msgid "There's a residual filament in box %s"
+msgstr "%s ישנה נימה שיורית בתיבה"
 
-#~ msgid "There's a residual filament in box 4"
-#~ msgstr "ישנה נימה שיורית בתיבה 4"
+msgid "There's a residual filament in box 1"
+msgstr "ישנה נימה שיורית בתיבה 1"
 
-#~ msgid "Unknown filament"
-#~ msgstr "נימה לא מוכרת"
+msgid "There's a residual filament in box 2"
+msgstr "ישנה נימה שיורית בתיבה 2"
 
-#~ msgid "Use external filament, please manually exit"
-#~ msgstr "השתמש בנימה חיצונית, אנא צא ידנית"
+msgid "There's a residual filament in box 3"
+msgstr "ישנה נימה שיורית בתיבה 3"
 
-#~ msgid "Yes"
-#~ msgstr "כן"
+msgid "There's a residual filament in box 4"
+msgstr "ישנה נימה שיורית בתיבה 4"
 
-#~ msgid "auto shutdown error"
-#~ msgstr "שגיאת כיבוי אוטומטי"
+msgid "Unknown fan"
+msgstr "מאוורר לא מוכר"
 
-#~ msgid "bed_mash:%s"
-#~ msgstr "%s:רשת_מיטה"
+msgid "Unknown filament"
+msgstr "נימה לא מוכרת"
 
-#~ msgid "clean pause_reason"
-#~ msgstr "נקה סיבת_השהיה"
+msgid "Use external filament, please manually exit"
+msgstr "השתמש בנימה חיצונית, אנא צא ידנית"
 
-#~ msgid "cut filament"
-#~ msgstr "חתוך נימה"
+msgid "Warning"
+msgstr "אזהרה"
 
-#~ msgid "cutter press!"
-#~ msgstr "לחץ על החותך!"
+msgid "Yes"
+msgstr "כן"
 
-#~ msgid "cutter release!"
-#~ msgstr "שחרר את החותך!"
+msgid "auto shutdown error"
+msgstr "שגיאת כיבוי אוטומטי"
 
-#~ msgid "feed busy"
-#~ msgstr "הזנה עסוקה"
+msgid "bed_mash:%s"
+msgstr "%s:רשת_מיטה"
 
-#~ msgid "feed error"
-#~ msgstr "שגיאת הזנה"
+msgid "clean pause_reason"
+msgstr "נקה סיבת_השהיה"
 
-#~ msgid "feed finish"
-#~ msgstr "הזנה הסתיימה"
+msgid "cut filament"
+msgstr "חתוך נימה"
 
-#~ msgid "filament not removed"
-#~ msgstr "הנימה לא הוסרה"
+msgid "cutter press!"
+msgstr "לחץ על החותך!"
 
-#~ msgid "filament pause reason"
-#~ msgstr "סיבת השהיית נימה"
+msgid "cutter release!"
+msgstr "שחרר את החותך!"
 
-#~ msgid "filament press"
-#~ msgstr "לחץ נימה"
+msgid "feed busy"
+msgstr "הזנה עסוקה"
 
-#~ msgid "filament release"
-#~ msgstr "שחרור נימה"
+msgid "feed error"
+msgstr "שגיאת הזנה"
 
-#~ msgid "filament remove"
-#~ msgstr "הסרת נימה"
+msgid "feed finish"
+msgstr "הזנה הסתיימה"
 
-#~ msgid "filament runout"
-#~ msgstr "נימה אזלה"
+msgid "filament not removed"
+msgstr "הנימה לא הוסרה"
 
-#~ msgid "filament%s:%s"
-#~ msgstr "%s:%s נימה"
+msgid "filament pause reason"
+msgstr "סיבת השהיית נימה"
 
-#~ msgid "flush filament"
-#~ msgstr "שטוף נימה"
+msgid "filament press"
+msgstr "לחץ נימה"
 
-#~ msgid "motion sensor insert"
-#~ msgstr "הכנס חיישן תנועה"
+msgid "filament release"
+msgstr "שחרור נימה"
 
-#~ msgid "motion sensor runout"
-#~ msgstr "חיישן תנועה אזל"
+msgid "filament remove"
+msgstr "הסרת נימה"
 
-#~ msgid "motor_%s press"
-#~ msgstr "לחץ %s_מנוע"
+msgid "filament runout"
+msgstr "נימה אזלה"
 
-#~ msgid "motor_%s release"
-#~ msgstr "שחרור %s_מנוע"
+msgid "filament%s:%s"
+msgstr "%s:%s נימה"
 
-#~ msgid "motor_1 press"
-#~ msgstr "לחץ מנוע_1"
+msgid "flush filament"
+msgstr "שטוף נימה"
 
-#~ msgid "motor_1 release"
-#~ msgstr "שחרור מנוע_1"
+msgid "motion sensor insert"
+msgstr "הכנס חיישן תנועה"
 
-#~ msgid "motor_2 press"
-#~ msgstr "לחץ מנוע_2"
+msgid "motion sensor runout"
+msgstr "חיישן תנועה אזל"
 
-#~ msgid "motor_2 release"
-#~ msgstr "שחרור מנוע_2"
+msgid "motor_%s press"
+msgstr "לחץ %s_מנוע"
 
-#~ msgid "motor_3 press"
-#~ msgstr "לחץ מנוע_3"
+msgid "motor_%s release"
+msgstr "שחרור %s_מנוע"
 
-#~ msgid "motor_3 release"
-#~ msgstr "שחרור מנוע_3"
+msgid "motor_1 press"
+msgstr "לחץ מנוע_1"
 
-#~ msgid "motor_4 press"
-#~ msgstr "לחץ מנוע_4"
+msgid "motor_1 release"
+msgstr "שחרור מנוע_1"
 
-#~ msgid "motor_4 release"
-#~ msgstr "שחרור מנוע_4"
+msgid "motor_2 press"
+msgstr "לחץ מנוע_2"
 
-#~ msgid "no bed_mash name"
-#~ msgstr "אין שם רשת_מיטה"
+msgid "motor_2 release"
+msgstr "שחרור מנוע_2"
 
-#~ msgid "no bed_mash"
-#~ msgstr "אין רשת_מיטה"
+msgid "motor_3 press"
+msgstr "לחץ מנוע_3"
 
-#~ msgid "no enabled"
-#~ msgstr "לא מופעל"
+msgid "motor_3 release"
+msgstr "שחרור מנוע_3"
 
-#~ msgid "press button%s"
-#~ msgstr "%s לחץ כפתור"
+msgid "motor_4 press"
+msgstr "לחץ מנוע_4"
 
-#~ msgid "press button1"
-#~ msgstr "לחץ כפתור 1"
+msgid "motor_4 release"
+msgstr "שחרור מנוע_4"
 
-#~ msgid "press button2"
-#~ msgstr "לחץ כפתור 2"
+msgid "no bed_mash name"
+msgstr "אין שם רשת_מיטה"
 
-#~ msgid "press button3"
-#~ msgstr "לחץ כפתור 3"
+msgid "no bed_mash"
+msgstr "אין רשת_מיטה"
 
-#~ msgid "press button4"
-#~ msgstr "לחץ כפתור 4"
+msgid "no enabled"
+msgstr "לא מופעל"
 
-#~ msgid "remove filament"
-#~ msgstr "הסר נימה"
+msgid "press button%s"
+msgstr "%s לחץ כפתור"
 
-#~ msgid "residual filament%s"
-#~ msgstr "%s נימה שיורית"
+msgid "press button1"
+msgstr "לחץ כפתור 1"
 
-#~ msgid "residual filament0"
-#~ msgstr "נימה שיורית 0"
+msgid "press button2"
+msgstr "לחץ כפתור 2"
 
-#~ msgid "residual filament1"
-#~ msgstr "נימה שיורית 1"
+msgid "press button3"
+msgstr "לחץ כפתור 3"
 
-#~ msgid "residual filament2"
-#~ msgstr "נימה שיורית 2"
+msgid "press button4"
+msgstr "לחץ כפתור 4"
 
-#~ msgid "residual filament3"
-#~ msgstr "נימה שיורית 3"
+msgid "remove filament"
+msgstr "הסר נימה"
 
-#~ msgid "resume:%s"
-#~ msgstr "%s:המשך"
+msgid "residual filament%s"
+msgstr "%s נימה שיורית"
 
-#~ msgid "resume_tool:%s pause_reason:%s"
-#~ msgstr "%s:סיבת_השהיה %s:כלי_המשך"
+msgid "residual filament0"
+msgstr "נימה שיורית 0"
 
-#~ msgid "Copy Print"
-#~ msgstr "הדפסת העתק"
+msgid "residual filament1"
+msgstr "נימה שיורית 1"
 
-#~ msgid "Mirror Print"
-#~ msgstr "הדפסת מראה"
+msgid "residual filament2"
+msgstr "נימה שיורית 2"
 
-#~ msgid "Manual Calibration"
-#~ msgstr "כיול ידני"
+msgid "residual filament3"
+msgstr "נימה שיורית 3"
 
-#~ msgid "Calibration successful!"
-#~ msgstr "הכיול הצליח!"
+msgid "resume:%s"
+msgstr "%s:המשך"
 
-#~ msgid "Auto calibration failed. Please clean the nozzle and try again."
-#~ msgstr "הכיול האוטומטי נכשל. אנא נקה את הנחיר ונסה שוב."
+msgid "resume_tool:%s pause_reason:%s"
+msgstr "%s:סיבת_השהיה %s:כלי_המשך"
 
-#~ msgid ""
-#~ "Auto calibration is not available. Please install required dependencies."
-#~ msgstr "כיול אוטומטי אינו זמין. אנא התקן את התלויות הנדרשות."
+msgid "Copy Print"
+msgstr "הדפסת העתק"
 
-#~ msgid "Left extruder template saved"
-#~ msgstr "תבנית האקסטרודר השמאלי נשמרה"
+msgid "Mirror Print"
+msgstr "הדפסת מראה"
 
-#~ msgid "Right extruder template saved"
-#~ msgstr "תבנית האקסטרודר הימני נשמרה"
+msgid "Manual Calibration"
+msgstr "כיול ידני"
 
-#~ msgid "No template images found. Please perform manual calibration first."
-#~ msgstr "לא נמצאו תמונות תבנית. אנא בצע כיול ידני תחילה."
+msgid "Auto Calibration"
+msgstr "כיול אוטומטי"
 
-#~ msgid "Getting image of left extruder"
-#~ msgstr "מקבל תמונה של האקסטרודר השמאלי"
+msgid "Calibration successful!"
+msgstr "הכיול הצליח!"
 
-#~ msgid "Getting image of right extruder"
-#~ msgstr "מקבל תמונה של האקסטרודר הימני"
+msgid "Auto calibration failed. Please clean the nozzle and try again."
+msgstr "הכיול האוטומטי נכשל. אנא נקה את הנחיר ונסה שוב."
 
-#~ msgid ""
-#~ "Left extruder calibration failed. Please clean the nozzle and try again."
-#~ msgstr "כיול האקסטרודר השמאלי נכשל. אנא נקה את הנחיר ונסה שוב."
+msgid "Auto calibration is not available. Please install required dependencies."
+msgstr "כיול אוטומטי אינו זמין. אנא התקן את התלויות הנדרשות."
 
-#~ msgid ""
-#~ "Right extruder calibration failed. Please clean the nozzle and try again."
-#~ msgstr "כיול האקסטרודר הימני נכשל. אנא נקה את הנחיר ונסה שוב."
+msgid "Left extruder template saved"
+msgstr "תבנית האקסטרודר השמאלי נשמרה"
 
-#~ msgid "left extruder pos: (%.3f, %.3f, %.3f)"
-#~ msgstr "מיקום אקסטרודר שמאלי: (%.3f, %.3f, %.3f)"
+msgid "Right extruder template saved"
+msgstr "תבנית האקסטרודר הימני נשמרה"
 
-#~ msgid "Right extruder offset is (%.3f, %.3f, %.3f)"
-#~ msgstr "היסט האקסטרודר הימני הוא (%.3f, %.3f, %.3f)"
+msgid "Failed to save template"
+msgstr "שמירת התבנית נכשלה"
 
-#~ msgid ""
-#~ "Please wait for the camera's fill light to light up for 5 seconds before "
-#~ "clicking 'Manual Calibration' or 'Auto Calibration'"
-#~ msgstr ""
-#~ "אנא המתן 5 שניות עד שאור המילוי של המצלמה יידלק לפני לחיצה על 'כיול ידני' "
-#~ "או 'כיול אוטומטי'"
+msgid "No template images found. Please perform manual calibration first."
+msgstr "לא נמצאו תמונות תבנית. אנא בצע כיול ידני תחילה."
 
-#~ msgid "The door is open."
-#~ msgstr "הדלת פתוחה."
+msgid "Getting image of left extruder"
+msgstr "מקבל תמונה של האקסטרודר השמאלי"
 
-#~ msgid "The door is closed."
-#~ msgstr "הדלת סגורה."
+msgid "Getting image of right extruder"
+msgstr "מקבל תמונה של האקסטרודר הימני"
 
-#~ msgid "Error getting origin offset values: %s"
-#~ msgstr "שגיאה בקבלת ערכי היסט המקור: %s"
+msgid "Left extruder calibration failed. Please clean the nozzle and try again."
+msgstr "כיול האקסטרודר השמאלי נכשל. אנא נקה את הנחיר ונסה שוב."
 
-#~ msgid "Filament run out, pausing print"
-#~ msgstr "סיב נגמר, מפסיק את הדפסה"
+msgid "Right extruder calibration failed. Please clean the nozzle and try again."
+msgstr "כיול האקסטרודר הימני נכשל. אנא נקה את הנחיר ונסה שוב."
 
-#~ msgid "Not in single extruder mode, pausing print"
-#~ msgstr "לא במצב צינור יחיד, מפסיק את הדפסה"
+msgid "left extruder pos: (%.3f, %.3f, %.3f)"
+msgstr "מיקום אקסטרודר שמאלי: (%.3f, %.3f, %.3f)"
 
-#~ msgid "Current sensor not configured, pausing print"
-#~ msgstr " censor נוכחי לא מוגדר, מפסיק את הדפסה"
+msgid "Right extruder offset is (%.3f, %.3f, %.3f)"
+msgstr "היסט האקסטרודר הימני הוא (%.3f, %.3f, %.3f)"
 
-#~ msgid "Other sensor not configured, pausing print"
-#~ msgstr "sensors אחרים לא מוגדרים, מפסיק את הדפסה"
+msgid "Please wait for the camera's fill light to light up for 5 seconds before clicking 'Manual Calibration' or 'Auto Calibration'"
+msgstr "אנא המתן 5 שניות עד שאור המילוי של המצלמה יידלק לפני לחיצה על 'כיול ידני' או 'כיול אוטומטי'"
 
-#~ msgid "Current extruder has filament, continuing print"
-#~ msgstr "צינור הניקוב הנוכחי מכיל סיב, ממשיך את הדפסה"
+msgid "The door is open."
+msgstr "הדלת פתוחה."
 
-#~ msgid "Both extruders out of filament, pausing print"
-#~ msgstr "שני הצינורות חסרים סיב, מפסיק את הדפסה"
+msgid "The door is closed."
+msgstr "הדלת סגורה."
 
-#~ msgid "Filament run out, switching extruder"
-#~ msgstr "סיב נגמר, משנה לצינור אחר"
+msgid "Error getting origin offset values: %s"
+msgstr "שגיאה בקבלת ערכי היסט המקור: %s"
 
-#~ msgid "Switching to left extruder"
-#~ msgstr "מחליף לצינור השמאלי"
+msgid "Raise"
+msgstr "להעלות"
 
-#~ msgid "Switching to right extruder"
-#~ msgstr "מחליף לצינור הימני"
+msgid "Lower"
+msgstr "לרדת"
 
-#~ msgid "Extruder switch complete, resuming print"
-#~ msgstr "החלפת הצינור הושלמה, ממשיך את הדפסה"
+msgid "Filament run out, pausing print"
+msgstr "סיב נגמר, מפסיק את הדפסה"
 
-#~ msgid "Auto extruder switch already enabled"
-#~ msgstr "swith אוטומטי של צינור כבר מופעל"
+msgid "Not in single extruder mode, pausing print"
+msgstr "לא במצב צינור יחיד, מפסיק את הדפסה"
 
-#~ msgid ""
-#~ "Auto extruder switch enabled, this feature only works when printing with "
-#~ "a single extruder"
-#~ msgstr "swith אוטומטי של צינור מופעל; תכונה זו עובדת רק עם צינור יחיד"
+msgid "Current sensor not configured, pausing print"
+msgstr " censor נוכחי לא מוגדר, מפסיק את הדפסה"
 
-#~ msgid "Auto extruder switch already disabled"
-#~ msgstr "swith אוטומטי של צינור כבר כבה"
+msgid "Other sensor not configured, pausing print"
+msgstr "sensors אחרים לא מוגדרים, מפסיק את הדפסה"
 
-#~ msgid "Auto extruder switch disabled"
-#~ msgstr "swith אוטומטי של צינור כבה"
+msgid "Current extruder has filament, continuing print"
+msgstr "צינור הניקוב הנוכחי מכיל סיב, ממשיך את הדפסה"
 
-#~ msgid "Filament Sensor0: No filament detected, canceling print."
-#~ msgstr " censor סיב 0: לא זוהה סיב, בטל את הדפסה."
+msgid "Both extruders out of filament, pausing print"
+msgstr "שני הצינורות חסרים סיב, מפסיק את הדפסה"
 
-#~ msgid "Filament Sensor1: No filament detected, canceling print."
-#~ msgstr " censor סיב 1: לא זוהה סיב, בטל את הדפסה."
+msgid "Filament run out, switching extruder"
+msgstr "סיב נגמר, משנה לצינור אחר"
 
-#~ msgid "Missing required information"
-#~ msgstr "חסר מידע נדרש"
+msgid "Switching to left extruder"
+msgstr "מחליף לצינור השמאלי"
 
-#~ msgid "Resume Print"
-#~ msgstr "המשך הדפסה"
+msgid "Switching to right extruder"
+msgstr "מחליף לצינור הימני"
 
-#~ msgid "Tip: Please ensure the nozzle is about 0.1mm above the model"
-#~ msgstr "טיפ: וודא שהחרטום נמצא כ-0.1 מ\"מ מעל המודל"
+msgid "Extruder switch complete, resuming print"
+msgstr "החלפת הצינור הושלמה, ממשיך את הדפסה"
 
-#~ msgid "Please remove the extruder foam and take out the door handle."
-#~ msgstr "אנא הסר את קצף המכבש והוצא את ידית הדלת."
+msgid "Auto extruder switch already enabled"
+msgstr "swith אוטומטי של צינור כבר מופעל"
 
-#~ msgid "Print Issue Detected!"
-#~ msgstr "זוהתה בעיה בהדפסה!"
+msgid "Auto extruder switch enabled, this feature only works when printing with a single extruder"
+msgstr "swith אוטומטי של צינור מופעל; תכונה זו עובדת רק עם צינור יחיד"
 
-#~ msgid "AI Settings"
-#~ msgstr "הגדרות בינה מלאכותית"
+msgid "Auto extruder switch already disabled"
+msgstr "swith אוטומטי של צינור כבר כבה"
 
-#~ msgid "Detected defect: %s (Confidence: %.1f%%)"
-#~ msgstr "זוהה פגם: %s (רמת ביטחון: %.1f%%)"
+msgid "Auto extruder switch disabled"
+msgstr "swith אוטומטי של צינור כבה"
 
-#~ msgid "AI Detection Error: %s"
-#~ msgstr "שגיאה בזיהוי AI: %s"
+msgid "Extruder switch when filament run out"
+msgstr "swith צינור כאשר הסיב נגמר"
+
+msgid "Filament Sensor0: No filament detected, canceling print."
+msgstr " censor סיב 0: לא זוהה סיב, בטל את הדפסה."
+
+msgid "Filament Sensor1: No filament detected, canceling print."
+msgstr " censor סיב 1: לא זוהה סיב, בטל את הדפסה."
+
+msgid "Active Extruder"
+msgstr "אקסטרודר פעיל"
+
+msgid "Active Extruder:"
+msgstr "אקסטרודר פעיל:"
+
+msgid "Bed Temp:"
+msgstr "טמפ' מיטה:"
+
+msgid "Bed Temperature"
+msgstr "טמפרטורת מיטה"
+
+msgid "Filename"
+msgstr "שם קובץ"
+
+msgid "Filename:"
+msgstr "שם קובץ:"
+
+msgid "Missing required information"
+msgstr "חסר מידע נדרש"
+
+msgid "Nozzle Temp:"
+msgstr "טמפ' חרטום:"
+
+msgid "Nozzle Temperature"
+msgstr "טמפרטורת חרטום"
+
+msgid "Power Loss Recovery"
+msgstr "שחזור לאחר הפסקת חשמל"
+
+msgid "Print Height"
+msgstr "גובה הדפסה"
+
+msgid "Print Height:"
+msgstr "גובה הדפסה:"
+
+msgid "Print height is less than 1mm"
+msgstr "גובה ההדפסה נמוך מ-1 מ\"מ"
+
+msgid "Recovery File"
+msgstr "קובץ שחזור"
+
+msgid "Resume Print"
+msgstr "המשך הדפסה"
+
+msgid "Tip: Please ensure the nozzle is about 0.1mm above the model"
+msgstr "טיפ: וודא שהחרטום נמצא כ-0.1 מ\"מ מעל המודל"
+
+msgid "Force Move"
+msgstr "תנועה מאולצת"
+
+msgid "Force move: "
+msgstr "תנועה מאולצת:"
+
+msgid "Apply Z offset to Probe?"
+msgstr "להחיל היסט Z על החיישן?"
+
+msgid "Left Extruder: %s%.3f"
+msgstr "אקסטרודר שמאלי: %s%.3f"
+
+msgid "Left Extruder: Not adjusted"
+msgstr "אקסטרודר שמאלי: לא מכוון"
+
+msgid "Right Extruder: %s%.3f"
+msgstr "אקסטרודר ימני: %s%.3f"
+
+msgid "Right Extruder: Not adjusted"
+msgstr "אקסטרודר ימני: לא מכוון"
+
+msgid "Apply Z offset to Endstop?"
+msgstr "להחיל היסט Z על מפסק הקצה?"
+
+msgid "Remove Foam"
+msgstr "הסר קצף"
+
+msgid "Please remove the extruder foam and take out the door handle."
+msgstr "אנא הסר את קצף המכבש והוצא את ידית הדלת."
+
+msgid "Please click the Z raise button to raise the Z axis to remove the foam around the bottom of the case."
+msgstr "אנא לחץ על כפתור הרמת Z כדי להרים את ציר Z ולהסיר את הקצף סביב תחתית המארז."
+
+msgid "Print Issue Detected!"
+msgstr "זוהתה בעיה בהדפסה!"
+
+msgid "No prediction image available"
+msgstr "אין תמונת חיזוי זמינה"
+
+msgid "Print resumed"
+msgstr "ההדפסה התחדשה"
+
+msgid "Failed to resume print"
+msgstr "נכשל בחידוש ההדפסה"
+
+msgid "Print cancelled"
+msgstr "ההדפסה בוטלה"
+
+msgid "Failed to cancel print"
+msgstr "נכשל בביטול ההדפסה"
+
+msgid "Configure basic AI service settings. Enable the AI service to monitor your prints and adjust the confidence threshold for detection sensitivity."
+msgstr "הגדר הגדרות בסיסיות של שירות AI. הפעל את שירות ה-AI כדי לנטר את ההדפסות שלך והתאם את סף הביטחון לרגישות הזיהוי."
+
+
+msgid "AI Detection Alert"
+msgstr "התראת זיהוי בינה מלאכותית"
+
+msgid "AI Monitor"
+msgstr "מוניטור בינה מלאכותית"
+
+msgid "AI Settings"
+msgstr "הגדרות בינה מלאכותית"
+
+msgid "Detected defect: %s (Confidence: %.1f%%)"
+msgstr "זוהה פגם: %s (רמת ביטחון: %.1f%%)"
+
+msgid "AI Detection Error: %s"
+msgstr "שגיאה בזיהוי AI: %s"
+
+msgid "AI Detection Service"
+msgstr "שירות זיהוי בינה מלאכותית"
+
+msgid "AI Server URL"
+msgstr "URL שרת בינה מלאכותית"
+
+msgid "Confidence Threshold (%)"
+msgstr "סף בטחון (%)"
+
+msgid "Detection Interval (seconds)"
+msgstr "מרווח זיהוי (שניות)"
+
+msgid "Auto Pause on Detection"
+msgstr "השהיה אוטומטית בזיהוי"
+
+msgid "Enabled Defect Types"
+msgstr "סוגי פגמים מופעלים"
+
+msgid "Camera Source"
+msgstr "מקור מצלמה"
+
+msgid "Local"
+msgstr "מקומי"
+
+msgid "Camera URL"
+msgstr "URL מצלמה"
+
+msgid "Continue Detection While Paused"
+msgstr "המשך זיהוי במהלך השהיה"
+
+msgid "Sound Notification"
+msgstr "התראה קולית"
+
+msgid "All valves closed"
+msgstr "כל השסתומים סגורים"
+
+msgid "Auto Feed"
+msgstr "הזנה אוטומטית"
+
+msgid "Auto feed started"
+msgstr "ההזנה האוטומטית החלה"
+
+msgid "Blowback Valve"
+msgstr "שסתום נשיפה חוזרת"
+
+msgid "Buffer"
+msgstr "מאגר"
+
+msgid "Buffer → Printhead"
+msgstr "מאגר → ראש"
+
+msgid "Buffer Valve"
+msgstr "שסתום מאגר"
+
+msgid "Disconnected"
+msgstr "מנותק"
+
+msgid "Dryer"
+msgstr "מייבש"
+
+msgid "Dryer → Buffer"
+msgstr "מייבש → מאגר"
+
+msgid "Dryer Level"
+msgstr "מפלס מייבש"
+
+msgid "Dryer Sensor"
+msgstr "חיישן מייבש"
+
+msgid "Dryer Valve"
+msgstr "שסתום מייבש"
+
+msgid "Feeder"
+msgstr "מזין"
+
+msgid "Feeder:"
+msgstr "מזין:"
+
+msgid "Hopper"
+msgstr "מיכל"
+
+msgid "Hopper → Dryer"
+msgstr "מיכל → מייבש"
+
+msgid "Hopper Level"
+msgstr "מפלס מיכל"
+
+msgid "Hopper Valve"
+msgstr "שסתום מיכל"
+
+msgid "Pressure:"
+msgstr "לחץ:"
+
+msgid "Printhead"
+msgstr "ראש"
+
+msgid "Printhead 1"
+msgstr "ראש 1"
+
+msgid "Printhead 2"
+msgstr "ראש 2"
+
+msgid "Retract blowback"
+msgstr "נשיפה חוזרת"
+
+msgid "Retract started"
+msgstr "החזרה החלה"
+
+msgid "Run Mode:"
+msgstr "מצב:"
+
+msgid "Stop All"
+msgstr "עצור הכל"
+
+msgid "To Dryer"
+msgstr "אל המייבש"
+
+msgid "To Buffer"
+msgstr "אל המאגר"
+
+msgid "To Printhead"
+msgstr "אל הראש"
+
+msgid "Return Buffer"
+msgstr "חזרה למאגר"

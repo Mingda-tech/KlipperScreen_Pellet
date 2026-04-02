@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KlipperScreen\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-02 16:39+0800\n"
+"POT-Creation-Date: 2023-10-20 00:09-0300\n"
 "PO-Revision-Date: 2023-12-28 12:05+0000\n"
 "Last-Translator: Dr_Perry_Coke <dr.perrycoke@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/klipperscreen/"
@@ -27,20 +27,14 @@ msgstr "%s будет обновлен до версии"
 msgid "(default)"
 msgstr "(дефолт)"
 
+msgid "24 Hour Time"
+msgstr "24-часовой формат"
+
 msgid "A FIRMWARE_RESTART may fix the issue."
 msgstr "Выполните перезагрузку прошивки, чтобы попытаться исправить проблему."
 
 msgid "ADXL Not Configured"
 msgstr "ADXL не настроен"
-
-msgid "AI Detection Service"
-msgstr "Служба Обнаружения ИИ"
-
-msgid "AI Detection Status"
-msgstr ""
-
-msgid "AI Server URL"
-msgstr "URL Сервера ИИ"
 
 msgid "Abort"
 msgstr "Отменить"
@@ -51,32 +45,22 @@ msgstr "Ускорение:"
 msgid "Accept"
 msgstr "Применить"
 
-msgid "Active Extruder"
-msgstr "Активный Экструдер"
-
-msgid "Active Extruder:"
-msgstr "Активный Экструдер:"
-
 msgid "Add profile"
 msgstr "Добавить профиль"
-
-msgid "Adjust Zprobe Pos"
-msgstr "Настройка позиции Zprobe"
 
 msgid "All"
 msgstr "Все"
 
-msgid "All valves closed"
-msgstr "Все клапаны закрыты"
-
 msgid "Apply"
 msgstr "Применить"
 
-msgid "Apply Z offset to Endstop?"
-msgstr "Применить смещение по оси Z к концевому выключателю?"
+#, python-format
+msgid "Apply %s%.3f offset to Endstop?"
+msgstr "Применить смещение %s%.3f к Endstop?"
 
-msgid "Apply Z offset to Probe?"
-msgstr "Применить смещение по оси Z к датчику?"
+#, python-format
+msgid "Apply %s%.3f offset to Probe?"
+msgstr "Применить смещение %s%.3f к зонду?"
 
 msgid "Archived"
 msgstr "Архивные"
@@ -102,56 +86,26 @@ msgstr "Вы хотите выключить принтер?"
 msgid "Auto"
 msgstr "Авто"
 
-msgid "Auto Feed"
-msgstr "Автоподача"
-
-msgid "Auto Pause on Detection"
-msgstr "Автопауза при Обнаружении"
-
-msgid "Auto feed started"
-msgstr "Автоподача запущена"
-
 msgid "Auto-calibrate"
 msgstr "Автокалибровка"
 
 msgid "Auto-close notifications"
 msgstr "Автозакрытие уведомлений"
 
+msgid "Auto-open Extrude On Pause"
+msgstr "Автооткрытие меню Extrude при паузе"
+
 msgid "Auto-scroll"
 msgstr "Автопрокрутка"
-
-msgid "Back"
-msgstr ""
 
 msgid "Bed Level"
 msgstr "Уровень стола"
 
-msgid "Bed Lower"
-msgstr ""
-
-msgid "Bed Temp:"
-msgstr "Темп. Стола:"
-
-msgid "Bed Temperature"
-msgstr "Температура Стола"
+msgid "Bed Mesh"
+msgstr "Сетка стола"
 
 msgid "Bed screw configuration:"
 msgstr "Конфигурация винтов кровати:"
-
-msgid "Blowback Valve"
-msgstr "Клапан продувки"
-
-msgid "Brightest"
-msgstr "Самый яркий"
-
-msgid "Buffer"
-msgstr "Буфер"
-
-msgid "Buffer Valve"
-msgstr "Буферный клапан"
-
-msgid "Buffer → Printhead"
-msgstr "Буфер → головка"
 
 msgid "Calibrate"
 msgstr "Калибровка"
@@ -162,17 +116,8 @@ msgstr "Откалиброванный"
 msgid "Calibrating"
 msgstr "Калибровка"
 
-msgid "Calibration saved!"
-msgstr ""
-
 msgid "Camera"
 msgstr "Камера"
-
-msgid "Camera Source"
-msgstr "Источник Камеры"
-
-msgid "Camera URL"
-msgstr "URL Камеры"
 
 msgid "Can't set above the maximum:"
 msgstr "Невозможно установить выше максимума:"
@@ -192,9 +137,6 @@ msgstr "Отмена"
 msgid "Cannot connect to Moonraker"
 msgstr "Не удается подключиться к Moonraker"
 
-msgid "Capture Image"
-msgstr ""
-
 msgid "Channel"
 msgstr "Канал"
 
@@ -204,55 +146,17 @@ msgstr "Проверьте проводку ADXL"
 msgid "Checking for updates, please wait..."
 msgstr "Проверка обновлений, подождите..."
 
-msgid "Choose Language"
-msgstr "Выберите язык"
-
-msgid "Choose Timezone"
-msgstr "Выберите часовой пояс"
-
-msgid "Choose a language"
-msgstr "Выберите язык"
-
-msgid "Choose a timezone"
-msgstr "Выберите часовой пояс"
-
 msgid "Clear"
 msgstr "Очистить"
-
-msgid "Clear History"
-msgstr ""
 
 msgid "Close"
 msgstr "Закрыть"
 
-msgid "Color"
-msgstr "Цвет"
-
 msgid "Complete"
 msgstr "Готово"
 
-msgid "Confidence Threshold (%)"
-msgstr "Порог Достоверности (%)"
-
-msgid ""
-"Configure basic AI service settings. Enable the AI service to monitor your "
-"prints and adjust the confidence threshold for detection sensitivity."
-msgstr ""
-"Настройте основные параметры службы ИИ. Включите службу ИИ для мониторинга "
-"ваших отпечатков и настройте порог достоверности для чувствительности "
-"обнаружения."
-
-msgid "Confirm"
-msgstr "Подтвердить"
-
 msgid "Confirm Emergency Stop"
 msgstr "Подтвердить аварийную остановку"
-
-msgid "Confirm Movement"
-msgstr ""
-
-msgid "Confirm Pos"
-msgstr "Подтвердите позицию"
 
 msgid "Connected"
 msgstr "Подключено"
@@ -264,38 +168,14 @@ msgstr "Подключён к %s"
 msgid "Connection failed"
 msgstr "Подключение не удалось"
 
-msgid "Continue Detection While Paused"
-msgstr "Продолжить Обнаружение на Паузе"
+msgid "Console"
+msgstr "Консоль"
 
 msgid "Cooldown"
 msgstr "Остудить"
 
-msgid "Couldn't get the calibration camera position."
-msgstr "Не удалось получить позицию калибровочной камеры."
-
-msgid "Couldn't get the calibration switch position."
-msgstr ""
-
-msgid "Current Detection Image"
-msgstr ""
-
-msgid "Current language: "
-msgstr ""
-
-msgid "Current nozzle height difference: "
-msgstr "Текущая разница высоты сопла: "
-
-msgid "Current nozzle height difference: ?"
-msgstr ""
-
-msgid "Current timezone: "
-msgstr ""
-
 msgid "DPMS has failed to load and has been disabled"
 msgstr "DPMS не загрузилась и была отключена"
-
-msgid "Dangerous nozzle height difference: "
-msgstr "Опасная разница высоты сопла: "
 
 msgid "Date"
 msgstr "Дата"
@@ -309,60 +189,21 @@ msgstr "Удалить Файл?"
 msgid "Deselect"
 msgstr "Отменить выбор"
 
-msgid "Detection History"
-msgstr ""
-
-msgid "Detection Interval (seconds)"
-msgstr "Интервал Обнаружения (секунды)"
-
 msgid "Disable Motors"
 msgstr "Откл. моторы"
 
-msgid "Disabled"
-msgstr ""
-
-msgid "Disconnected"
-msgstr "Отключено"
-
 msgid "Distance (mm)"
 msgstr "Расстояние (mm)"
-
-msgid "Do not touch the printer during self-check."
-msgstr "Не касайтесь принтера во время самопроверки."
 
 #, python-format
 msgid "Do you want to recover %s?"
 msgstr "Вы хотите восстановить%s?"
 
-msgid "Dryer"
-msgstr "Сушилка"
-
-msgid "Dryer Level"
-msgstr "Уровень сушилки"
-
-msgid "Dryer Sensor"
-msgstr "Датчик сушилки"
-
-msgid "Dryer Valve"
-msgstr "Клапан сушилки"
-
-msgid "Dryer → Buffer"
-msgstr "Сушилка → буфер"
-
 msgid "Elapsed:"
 msgstr "Прошло:"
 
-msgid "Emergency Stop"
-msgstr ""
-
-msgid "Enabled Defect Types"
-msgstr "Включенные Типы Дефектов"
-
 msgid "Error"
 msgstr "Ошибка"
-
-msgid "Error writing configuration"
-msgstr "Ошибка записи конфигурации"
 
 msgid "Estimated Time Method"
 msgstr "Расчётное время"
@@ -370,41 +211,23 @@ msgstr "Расчётное время"
 msgid "Exclude Object"
 msgstr "Исключить Объект"
 
+msgid "Extra Large"
+msgstr "Очень большой"
+
 msgid "Extrude"
 msgstr "Заправить"
 
-msgid "Extruder switch when filament run out"
-msgstr "Переключение экструдера, когда филамент заканчивается"
+msgid "Extrusion +"
+msgstr "Экструзия +"
 
-msgid "Failed to cancel print"
-msgstr "Не удалось отменить печать"
-
-msgid "Failed to capture image"
-msgstr ""
-
-msgid "Failed to detect nozzles"
-msgstr ""
-
-msgid "Failed to resume print"
-msgstr "Не удалось возобновить печать"
-
-msgid "Failed to start AI monitoring"
-msgstr ""
+msgid "Extrusion -"
+msgstr "Экструзия -"
 
 msgid "Failed, adjust position first"
 msgstr "Ошибка. Сначала измените положение"
 
 msgid "Fan"
 msgstr "Обдув"
-
-msgid "Feeder"
-msgstr ""
-
-msgid "Feeder:"
-msgstr "Подача:"
-
-msgid "Filament Box Power"
-msgstr "Питание коробки с.filаментом"
 
 msgid "Filament Used"
 msgstr "Использование филамента"
@@ -424,12 +247,6 @@ msgstr "Файл"
 msgid "File:"
 msgstr "Файл:"
 
-msgid "Filename"
-msgstr "Имя Файла"
-
-msgid "Filename:"
-msgstr "Имя Файла:"
-
 msgid "Filter"
 msgstr "Фильтр"
 
@@ -445,49 +262,17 @@ msgstr "Конец"
 msgid "Firmware Restart"
 msgstr "Перезапуск прошивки"
 
-# msgid "Firmware Restart"
-# msgstr "Перезагрузка прошивки"
-msgid "Firmware has disconnected"
-msgstr "Прошивка отключена"
-
-msgid "Firmware has encountered an error."
-msgstr "Прошивка столкнулась с ошибкой."
-
-msgid "Firmware has shutdown"
-msgstr "Прошивка выключена"
-
-msgid "Firmware is attempting to start"
-msgstr "Прошивка пытается запуститься"
-
-msgid "Firmware will reboot"
-msgstr "Прошивка будет перезагружена"
-
-msgid "Flow +"
-msgstr ""
-
-msgid "Flow -"
-msgstr ""
-
 msgid "Flow:"
 msgstr "Поток:"
 
 msgid "Flowrate:"
 msgstr "Расход:"
 
-msgid "Force Cancel"
-msgstr ""
-
-msgid "Force Move"
-msgstr "Принудительное перемещение"
-
-msgid "Force move: "
-msgstr "Принудительное перемещение："
+msgid "Font Size"
+msgstr "Размер шрифта"
 
 msgid "Full Update"
 msgstr "Обновить всё"
-
-msgid "Gcode Buttons"
-msgstr ""
 
 msgid "Go Back"
 msgstr "Назад"
@@ -498,11 +283,11 @@ msgstr "Высота:"
 msgid "Hidden"
 msgstr "Скрытый"
 
-msgid "Hidden Network"
-msgstr ""
-
 msgid "Hide"
 msgstr "Скрывать"
+
+msgid "Hide sensors in Temp."
+msgstr "Скрыть датчики в Temp."
 
 msgid "Hide temp."
 msgstr "Скрыть температуру."
@@ -525,20 +310,8 @@ msgstr "Парковать Y"
 msgid "Home Z"
 msgstr "Парковать Z"
 
-msgid "Homing the printer..."
-msgstr "Возврат принтера в исходное положение..."
-
-msgid "Hopper"
-msgstr "Бункер"
-
-msgid "Hopper Level"
-msgstr "Уровень бункера"
-
-msgid "Hopper Valve"
-msgstr "Клапан бункера"
-
-msgid "Hopper → Dryer"
-msgstr "Бункер → сушилка"
+msgid "Host"
+msgstr "Хост"
 
 msgid "Hostname"
 msgstr "Имя хоста"
@@ -546,12 +319,8 @@ msgstr "Имя хоста"
 msgid "ID"
 msgstr "ID"
 
-msgid ""
-"If your calibration device is under the PEI, please lift the PEI after "
-"homing."
-msgstr ""
-"Если ваше калибровочное устройство находится под PEI, пожалуйста, поднимите "
-"PEI после возврата в исходное положение."
+msgid "Icon Theme"
+msgstr "Темы"
 
 msgid "Initializing printer..."
 msgstr "Принтер стартует..."
@@ -583,19 +352,33 @@ msgstr "Инверсия Z"
 msgid "It may take more than 5 minutes depending on the heater power."
 msgstr "В зависимости от мощности нагревателя это может занять более 5 минут."
 
-msgid "LEDs"
-msgstr ""
+#msgid "Firmware Restart"
+#msgstr "Перезагрузка прошивки"
+
+msgid "Firmware has disconnected"
+msgstr "Прошивка отключена"
+
+msgid "Firmware has encountered an error."
+msgstr "Прошивка столкнулась с ошибкой."
+
+msgid "Firmware has shutdown"
+msgstr "Прошивка выключена"
+
+msgid "Firmware is attempting to start"
+msgstr "Прошивка пытается запуститься"
+
+msgid "Firmware will reboot"
+msgstr "Прошивка будет перезагружена"
 
 msgid ""
 "LOAD_FILAMENT/UNLOAD_FILAMENT are hidden and should be used from extrude"
-msgstr ""
-"LOAD_FILAMENT/UNLOAD_FILAMENT скрыты и должны использоваться из extrude"
+msgstr "LOAD_FILAMENT/UNLOAD_FILAMENT скрыты и должны использоваться из extrude"
 
 msgid "Language"
 msgstr "Язык"
 
-msgid "Last Detection:"
-msgstr ""
+msgid "Large"
+msgstr "Большой"
 
 msgid "Last Used"
 msgstr "Последнее использование"
@@ -606,42 +389,26 @@ msgstr "Слой:"
 msgid "Leds"
 msgstr "Светодиоды"
 
-#, python-format
-msgid "Left Extruder: %s%.3f"
-msgstr "Левый экструдер: %s%.3f"
-
-msgid "Left Extruder: Not adjusted"
-msgstr "Левый экструдер: Не настроен"
-
 msgid "Left:"
 msgstr "Осталось:"
 
-msgid "Leveling"
-msgstr "Калибровка"
+msgid "Limits"
+msgstr "Лимиты"
 
 msgid "Load"
 msgstr "Загрузить"
 
-msgid "Local"
-msgstr ""
-
-msgid "Lower"
-msgstr "Опустить"
-
 msgid "Lower Nozzle"
 msgstr "Опустить сопло"
 
+msgid "Macro shortcut on sidebar"
+msgstr "Показать макросы в панели"
+
+msgid "Macros"
+msgstr "Макросы"
+
 msgid "Main Menu"
 msgstr "Главное меню"
-
-msgid "Manual"
-msgstr "Ручной режим"
-
-msgid "Manual Detect"
-msgstr ""
-
-msgid "Manual Detection"
-msgstr ""
 
 msgid "Material"
 msgstr "Тип"
@@ -658,6 +425,9 @@ msgstr "Ускорения торможения"
 msgid "Max Velocity"
 msgstr "Скорость"
 
+msgid "Maximum"
+msgstr "Максимум"
+
 msgid "Measure Both"
 msgstr "Измерьте и то, и другое"
 
@@ -667,6 +437,9 @@ msgstr "Измерьте X"
 msgid "Measure Y"
 msgstr "Измерьте Y"
 
+msgid "Medium"
+msgstr "Средний"
+
 msgid "Menu"
 msgstr "Меню"
 
@@ -675,12 +448,6 @@ msgstr "Калибровка сетки"
 
 msgid "Modified"
 msgstr "Изменено"
-
-msgid "Monitoring:"
-msgstr ""
-
-msgid "Moonraker"
-msgstr ""
 
 msgid "Moonraker: connected"
 msgstr "Moonraker: подключен"
@@ -697,15 +464,6 @@ msgstr "Дистанция перемещения (мм)"
 msgid "Name"
 msgstr "Имя"
 
-msgid "Need home axis"
-msgstr "Необходима начальная ось"
-
-msgid "Need reboot, relaunch immediately?"
-msgstr "Требуется перезагрузка, перезагрузить сейчас?"
-
-msgid "Need to recalculate the offset value."
-msgstr "Необходимо пересчитать значение смещения."
-
 msgid "Network"
 msgstr "Сеть"
 
@@ -715,45 +473,8 @@ msgstr "Никогда"
 msgid "New"
 msgstr "Новый"
 
-msgid "New nozzle height difference is: "
-msgstr "Новая разница высоты сопла: "
-
-msgid "New nozzle height difference: "
-msgstr "Новая разница высоты сопла: "
-
-msgid "New nozzle height difference: ?"
-msgstr ""
-
-msgid "No Gcode Buttons configured"
-msgstr ""
-
-msgid "No calibration camera found."
-msgstr ""
-
-msgid "No camera URL available."
-msgstr ""
-
-msgid "No camera configured"
-msgstr ""
-
-msgid "No captured images found"
-msgstr ""
-
 msgid "No elegible macros:"
 msgstr "Нет понятных макросов:"
-
-msgid "No info available"
-msgstr ""
-
-msgid "No prediction image available"
-msgstr "Изображение прогноза недоступно"
-
-msgid "No wireless interface has been found"
-msgstr ""
-
-#, python-brace-format
-msgid "No {action} gcode configured for {button_name}"
-msgstr ""
 
 msgid ""
 "Not supported for auto-detection, it needs to be configured in klipperscreen."
@@ -762,45 +483,21 @@ msgstr ""
 "Не поддерживается для автоматического обнаружения, его необходимо настроить "
 "в klipperscreen.conf"
 
-msgid "Not working or not configured"
-msgstr ""
-
 msgid "Nothing selected"
 msgstr "Ничего не выбрано"
-
-msgid "Notification log empty"
-msgstr ""
-
-msgid "Notifications"
-msgstr ""
-
-msgid "Nozzle Temp:"
-msgstr "Темп. Сопла:"
-
-msgid "Nozzle Temperature"
-msgstr "Температура Сопла"
-
-msgid "OK"
-msgstr "ОК"
-
-msgid "Only one extruder does not require calibration."
-msgstr "Только один экструдер не требует калибровки."
 
 #, python-format
 msgid "Outdated by %d"
 msgstr "Устарело на %d"
 
-msgid "Output Pins"
-msgstr ""
-
 msgid "PSK for"
 msgstr "PSK для"
 
 msgid "Package will be updated"
-msgid_plural "Packages will be updated"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+
+msgstr "Пакет будет обновлен"
+
+
 
 msgid "Part Fan"
 msgstr "Вентилятор обдува детали"
@@ -817,55 +514,23 @@ msgstr "Приостановлено"
 msgid "Perform a full upgrade?"
 msgstr "Выполнить полное обновление?"
 
-msgid ""
-"Please click the Z raise button to raise the Z axis to remove the foam "
-"around the bottom of the case."
-msgstr ""
-"Пожалуйста, нажмите кнопку подъема Z, чтобы поднять ось Z и удалить пену "
-"вокруг нижней части корпуса."
+msgid "Pins"
+msgstr "Пины"
 
-msgid "Please observe if the nozzle is positioned above the probe."
-msgstr "Пожалуйста, проверьте, расположено ли сопло над зондом."
+msgid "Output Pins"
+msgstr "Выходные пины"
 
 msgid "Please recompile and flash the micro-controller."
 msgstr "Прошейте заново микроконтроллер."
 
-msgid "Please wait for the camera initialization to complete."
-msgstr "Пожалуйста, подождите завершения инициализации камеры."
-
-msgid ""
-"Please wait for the camera's fill light to light up for 5 seconds before "
-"clicking 'Start'"
-msgstr ""
-"Пожалуйста, подождите, пока заполнитель света камеры не засветится в течение "
-"5 секунд, прежде чем нажать 'Старт'."
-
-msgid "Please wait until the bed and nozzle is heated before calibrating."
-msgstr ""
-
 msgid "Power"
 msgstr "Питание"
-
-msgid "Power Loss Recovery"
-msgstr "Восстановление после Сбоя Питания"
 
 msgid "Power On Printer"
 msgstr "Включить принтер"
 
-msgid "Preheat"
-msgstr "Преднагрев"
-
-msgid "Press"
-msgstr ""
-
-msgid "Pressed"
-msgstr ""
-
 msgid "Pressure Advance:"
 msgstr "Повышение давления:"
-
-msgid "Pressure:"
-msgstr "Давление:"
 
 msgid "Print"
 msgstr "Печать"
@@ -873,35 +538,17 @@ msgstr "Печать"
 msgid "Print Control"
 msgstr "Управление печатью"
 
-msgid "Print Height"
-msgstr "Высота Печати"
-
-msgid "Print Height:"
-msgstr "Высота Печати:"
-
 msgid "Print Time"
 msgstr "Время печати"
 
-msgid "Print cancelled"
-msgstr "Печать отменена"
+msgid "Printer"
+msgstr "Принтер"
 
-msgid "Print height is less than 1mm"
-msgstr "Высота печати меньше 1мм"
-
-msgid "Print resumed"
-msgstr "Печать возобновлена"
+msgid "Printer Connections"
+msgstr "Подключённые принтеры"
 
 msgid "Printer Select"
 msgstr "Выбор принтера"
-
-msgid "Printhead"
-msgstr "Головка"
-
-msgid "Printhead 1"
-msgstr "Головка 1"
-
-msgid "Printhead 2"
-msgstr "Головка 2"
 
 msgid "Printing"
 msgstr "Печатается"
@@ -918,9 +565,6 @@ msgstr "При обращении за помощью укажите KlipperScre
 msgid "Quad Gantry Level"
 msgstr "Уровень Quad Gantry"
 
-msgid "Raise"
-msgstr "Поднять"
-
 msgid "Raise Nozzle"
 msgstr "Поднять сопло"
 
@@ -933,23 +577,11 @@ msgstr "Жесткое восстановление"
 msgid "Recover Soft"
 msgstr "Мягкое восстановление"
 
-msgid "Recovery File"
-msgstr "Файл Восстановления"
-
 msgid "Reference"
 msgstr "Ссылка"
 
 msgid "Refresh"
 msgstr "Обновить"
-
-msgid "Release"
-msgstr ""
-
-msgid "Released"
-msgstr ""
-
-msgid "Remove Foam"
-msgstr "Удалить пену"
 
 msgid "Rename/Move:"
 msgstr "Переименовать/переместить:"
@@ -957,20 +589,14 @@ msgstr "Переименовать/переместить:"
 msgid "Restart"
 msgstr "Перезагрузка"
 
-msgid "Restart required. Restart now?"
-msgstr ""
-
 msgid "Resume"
 msgstr "Продолжить"
 
 msgid "Retract"
 msgstr "Втянуть"
 
-msgid "Retract blowback"
-msgstr "Обратная продувка"
-
-msgid "Retract started"
-msgstr "Втягивание запущено"
+msgid "Retraction"
+msgstr "Ретракт"
 
 msgid "Retraction Length"
 msgstr "Длина ретракта"
@@ -984,30 +610,11 @@ msgstr "Повторить попытку"
 msgid "Retrying"
 msgstr "Повторная попытка"
 
-msgid "Return Buffer"
-msgstr "Назад в буфер"
-
-msgid "Right Extruder Z Offset"
-msgstr ""
-
-#, python-format
-msgid "Right Extruder: %s%.3f"
-msgstr "Правый экструдер: %s%.3f"
-
-msgid "Right Extruder: Not adjusted"
-msgstr "Правый экструдер: Не настроен"
-
-msgid "Run Mode:"
-msgstr "Режим:"
-
-msgid "Running"
-msgstr ""
-
 msgid "Save"
 msgstr "Сохранить"
 
-msgid "Save Results"
-msgstr ""
+msgid "Save Config"
+msgstr "Сохр. Конфиг"
 
 msgid "Save Z"
 msgstr "Сохранить Z"
@@ -1018,11 +625,9 @@ msgstr "Сохранить конфигурацию?"
 msgid "Saved"
 msgstr "Сохранено"
 
-msgid "Saved successfully!"
-msgstr "Успешно сохранено!"
-
-msgid "Saved successfully."
-msgstr ""
+#, python-format
+msgid "Saved offset: %s"
+msgstr "Сохраненный офсет: %s"
 
 msgid "Screen DPMS"
 msgstr "Экран DPMS"
@@ -1036,17 +641,8 @@ msgstr "Настроить винты"
 msgid "Select"
 msgstr "Выбирать"
 
-msgid "Select WiFi"
-msgstr "Выберите WiFi"
-
-msgid "Self-check"
-msgstr "Самопроверка"
-
 msgid "Send"
 msgstr "Отправить"
-
-msgid "Service Status:"
-msgstr ""
 
 msgid "Set Temp"
 msgstr "Заданная температура"
@@ -1057,8 +653,11 @@ msgstr "Настройки"
 msgid "Show"
 msgstr "Показывать"
 
-msgid "Shut down after printing completes"
-msgstr "Выключить после завершения печати"
+msgid "Show Heater Power"
+msgstr "Показать мощность нагрева"
+
+msgid "Show Scrollbars Buttons"
+msgstr "Показать полосу прокрутки"
 
 msgid "Shutdown"
 msgstr "Выключить"
@@ -1072,8 +671,8 @@ msgstr "Слайсер"
 msgid "Slicer:"
 msgstr "Слайсер:"
 
-msgid "Sound Notification"
-msgstr "Звуковое Уведомление"
+msgid "Small"
+msgstr "Маленький"
 
 msgid "Speed (mm/s)"
 msgstr "Скорость (мм/с)"
@@ -1096,41 +695,14 @@ msgstr "Ожидание"
 msgid "Start"
 msgstr "Hачать"
 
-msgid "Start Calibration"
-msgstr ""
-
-msgid "Start Monitoring"
-msgstr ""
-
-msgid "Start Preview"
-msgstr ""
-
 msgid "Starting WiFi Association"
 msgstr "Запуск ассоциации WiFi"
-
-msgid "Starting dual nozzle height calibration..."
-msgstr "Начало калибровки высоты двойного сопла..."
 
 msgid "Starting recovery for"
 msgstr "Запуск восстановления для"
 
 msgid "Starting update for"
 msgstr "Запуск обновления для"
-
-msgid "Stop"
-msgstr ""
-
-msgid "Stop All"
-msgstr "Стоп всё"
-
-msgid "Stop Monitoring"
-msgstr ""
-
-msgid "Stop Preview"
-msgstr ""
-
-msgid "Stopped"
-msgstr ""
 
 msgid "System"
 msgstr "Система"
@@ -1147,32 +719,8 @@ msgstr "Температура (°С)"
 msgid "Temperature"
 msgstr "Tемпература"
 
-msgid "The nozzle temperature is too low, Are you sure you want to heat it?"
-msgstr "Температура сопла слишком низкая. Вы уверены, что хотите её нагреть?"
-
-msgid "To Buffer"
-msgstr "К буферу"
-
-msgid "To Dryer"
-msgstr "К сушилке"
-
-msgid "To Printhead"
-msgstr "К головке"
-
 msgid "Total:"
 msgstr "Итого:"
-
-msgid "Troubleshooting"
-msgstr "Устранение неполадок"
-
-msgid "Turn off"
-msgstr "Выключить"
-
-msgid "URL"
-msgstr ""
-
-msgid "Unknown"
-msgstr ""
 
 msgid "Unknown Heater"
 msgstr "Неизвестный нагреватель"
@@ -1201,37 +749,8 @@ msgstr "Обновление"
 msgid "Uploaded"
 msgstr "Загружено"
 
-msgid "Voice Notify"
-msgstr "Голосовое уведомление"
-
-msgid "Warning"
-msgstr "Предупреждение"
-
-msgid ""
-"Warning: Current value is negative. This is dangerous and may damage the "
-"machine. Please recalibrate."
-msgstr ""
-"Предупреждение: Текущее значение отрицательное. Это опасно и может повредить "
-"машину. Пожалуйста, выполните повторную калибровку."
-
-msgid ""
-"Warning: Negative value detected. This is dangerous and may damage the "
-"machine. Please recalibrate."
-msgstr ""
-"Предупреждение: Обнаружено отрицательное значение. Это опасно и может "
-"повредить машину. Пожалуйста, выполните повторную калибровку."
-
-msgid "Waste Chute"
-msgstr ""
-
-msgid "WebRTC is not supported by the backend trying Stream"
-msgstr ""
-
 msgid "XY Move Speed (mm/s)"
 msgstr "Скорость перемещения по осям XY (мм/с)"
-
-msgid "XY Offset"
-msgstr "Смещение XY"
 
 msgid "XY Speed (mm/s)"
 msgstr "Скорость по осям XY (мм/с)"
@@ -1239,17 +758,8 @@ msgstr "Скорость по осям XY (мм/с)"
 msgid "Z Calibrate"
 msgstr "Калибр. Z"
 
-msgid "Z Endstop"
-msgstr ""
-
-msgid "Z Height Diff"
-msgstr "Разница высоты Z"
-
 msgid "Z Move Speed (mm/s)"
 msgstr "Скорость перемещения по оси Z (мм/с)"
-
-msgid "Z Offset"
-msgstr "Смещение Z"
 
 msgid "Z Speed (mm/s)"
 msgstr "Скорость оси Z (мм/с)"
@@ -1257,26 +767,23 @@ msgstr "Скорость оси Z (мм/с)"
 msgid "Z Tilt"
 msgstr "Z Наклон"
 
-msgid "Z offset exceeds safe range"
-msgstr ""
-
 msgid "Z offset:"
 msgstr "Смещение Z:"
 
 msgid "commit"
-msgid_plural "commits"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+
+msgstr "изменение"
+
+
 
 msgid "dBm"
 msgstr "дБм"
 
 msgid "hour"
-msgid_plural "hours"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+
+msgstr "час"
+
+
 
 msgid "macros that use 'rename_existing' are hidden"
 msgstr "макросы, использующие rename_existing, скрыты"
@@ -1285,10 +792,10 @@ msgid "macros with a name starting with '_' are hidden"
 msgstr "макросы с именем, начинающиеся с '_', скрыты"
 
 msgid "minute"
-msgid_plural "minutes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+
+msgstr "минута"
+
+
 
 msgid "mm"
 msgstr "мм"
@@ -1302,98 +809,11 @@ msgstr "мм/с²"
 msgid "mm³/s"
 msgstr "мм³/с"
 
-#~ msgid "24 Hour Time"
-#~ msgstr "24-часовой формат"
-
-#, python-format
-#~ msgid "Apply %s%.3f offset to Endstop?"
-#~ msgstr "Применить смещение %s%.3f к Endstop?"
-
-#, python-format
-#~ msgid "Apply %s%.3f offset to Probe?"
-#~ msgstr "Применить смещение %s%.3f к зонду?"
-
-#~ msgid "Auto-open Extrude On Pause"
-#~ msgstr "Автооткрытие меню Extrude при паузе"
-
-#~ msgid "Bed Mesh"
-#~ msgstr "Сетка стола"
-
-#~ msgid "Console"
-#~ msgstr "Консоль"
-
-#~ msgid "Extra Large"
-#~ msgstr "Очень большой"
-
-#~ msgid "Extrusion +"
-#~ msgstr "Экструзия +"
-
-#~ msgid "Extrusion -"
-#~ msgstr "Экструзия -"
-
-#~ msgid "Font Size"
-#~ msgstr "Размер шрифта"
-
-#~ msgid "Hide sensors in Temp."
-#~ msgstr "Скрыть датчики в Temp."
-
-#~ msgid "Host"
-#~ msgstr "Хост"
-
-#~ msgid "Icon Theme"
-#~ msgstr "Темы"
-
-#~ msgid "Large"
-#~ msgstr "Большой"
-
-#~ msgid "Limits"
-#~ msgstr "Лимиты"
-
-#~ msgid "Macro shortcut on sidebar"
-#~ msgstr "Показать макросы в панели"
-
-#~ msgid "Macros"
-#~ msgstr "Макросы"
-
-#~ msgid "Maximum"
-#~ msgstr "Максимум"
-
-#~ msgid "Medium"
-#~ msgstr "Средний"
-
-#~ msgid "Pins"
-#~ msgstr "Пины"
-
-#~ msgid "Printer"
-#~ msgstr "Принтер"
-
-#~ msgid "Printer Connections"
-#~ msgstr "Подключённые принтеры"
-
-#~ msgid "Retraction"
-#~ msgstr "Ретракт"
-
-#~ msgid "Save Config"
-#~ msgstr "Сохр. Конфиг"
-
-#, python-format
-#~ msgid "Saved offset: %s"
-#~ msgstr "Сохраненный офсет: %s"
-
-#~ msgid "Show Heater Power"
-#~ msgstr "Показать мощность нагрева"
-
-#~ msgid "Show Scrollbars Buttons"
-#~ msgstr "Показать полосу прокрутки"
-
-#~ msgid "Small"
-#~ msgstr "Маленький"
-
 #~ msgid "KlipperScreen will reboot"
 #~ msgstr "KlipperScreen перезагрузится"
 
-#~ msgid "Continue"
-#~ msgstr "Продолжить"
+msgid "Continue"
+msgstr "Продолжить"
 
 #~ msgid "Fullscreen"
 #~ msgstr "Полный экран"
@@ -1407,11 +827,17 @@ msgstr "мм³/с"
 #~ msgid "Homing"
 #~ msgstr "Парковка"
 
+#~ msgid "Disable XY"
+#~ msgstr "Отключить XY"
+
 #~ msgid "Slicer Time correction (%)"
 #~ msgstr "Коррекция времени Слайсер (%)"
 
 #~ msgid "Calibrated, save configuration to make it permanent"
 #~ msgstr "Откалибровано, сохраните конфигурацию, чтобы сделать ее постоянной"
+
+#~ msgid "Decrease"
+#~ msgstr "Уменьшить"
 
 #~ msgid "Increase"
 #~ msgstr "Поднять"
@@ -1532,6 +958,9 @@ msgstr "мм³/с"
 #~ msgid "Number Pad"
 #~ msgstr "Клавиатура"
 
+#~ msgid "Preheat"
+#~ msgstr "Преднагрев"
+
 #~ msgid "Screen will show in less than one second"
 #~ msgstr "Экран отобразится через одну секунду"
 
@@ -1571,586 +1000,937 @@ msgstr "мм³/с"
 #~ msgid "Load Average"
 #~ msgstr "Средняя нагрузка"
 
-#~ msgid "General"
-#~ msgstr "Общее"
+msgid "Leveling"
+msgstr "Калибровка"
 
-#~ msgid "Cautions"
-#~ msgstr "Предостережения"
+msgid "The nozzle temperature is too low, Are you sure you want to heat it?"
+msgstr "Температура сопла слишком низкая. Вы уверены, что хотите её нагреть?"
 
-#~ msgid "Maintenance"
-#~ msgstr "Обслуживание"
+msgid "General"
+msgstr "Общее"
 
-#~ msgid "Please confirm left extruder position."
-#~ msgstr "Пожалуйста, подтвердите позицию левого экструдера."
+msgid "Turn off"
+msgstr "Выключить"
 
-#~ msgid "Nozzle Heating"
-#~ msgstr "Нагрев сопла"
+msgid "Brightest"
+msgstr "Самый яркий"
 
-#~ msgid "Hot Bed Heating"
-#~ msgstr "Нагрев подогреваемой платы"
+msgid "Manual"
+msgstr "Ручной режим"
 
-#~ msgid "Nozzle Cooling Fan"
-#~ msgstr "Вентилятор охлаждения сопла"
+msgid "Troubleshooting"
+msgstr "Устранение неполадок"
 
-#~ msgid "Hotend Cooling Fan"
-#~ msgstr "Вентилятор охлаждения Hotend"
+msgid "Cautions"
+msgstr "Предостережения"
 
-#~ msgid "Auto Leveling"
-#~ msgstr "Автоматическая калибровка"
+msgid "Maintenance"
+msgstr "Обслуживание"
 
-#~ msgid "WiFi"
-#~ msgstr "WiFi"
+msgid "Calibration"
+msgstr "Калибровка"
 
-#~ msgid "Power loss recovery, is resume print?"
-#~ msgstr "Восстановление после потери питания, продолжить печать?"
+msgid "XY Offset"
+msgstr "Смещение XY"
 
-#~ msgid "Skip All"
-#~ msgstr "Пропустить все"
+msgid "Z Offset"
+msgstr "Смещение Z"
 
-#~ msgid "Please wait for the print job to end"
-#~ msgstr "Пожалуйста, подождите завершения печати"
+msgid "Only one extruder does not require calibration."
+msgstr "Только один экструдер не требует калибровки."
 
-#~ msgid "Are you sure you wish to reset the printer?"
-#~ msgstr "Вы уверены, что хотите сбросить принтер?"
+msgid "Please confirm left extruder position."
+msgstr "Пожалуйста, подтвердите позицию левого экструдера."
 
-#~ msgid "Data will be deleted"
-#~ msgstr "Данные будут удалены"
+msgid "Need to recalculate the offset value."
+msgstr "Необходимо пересчитать значение смещения."
 
-#~ msgid "Reset Printer"
-#~ msgstr "Сбросить принтер"
+msgid "Error writing configuration"
+msgstr "Ошибка записи конфигурации"
 
-#~ msgid "Resetting printer, will restart, please wait..."
-#~ msgstr "Сброс принтера, будет перезапущен, подождите..."
+msgid "Please wait for the camera initialization to complete."
+msgstr "Пожалуйста, подождите завершения инициализации камеры."
 
-#~ msgid "Reset"
-#~ msgstr "Сброс"
+msgid "Please wait for the camera's fill light to light up for 5 seconds before clicking 'Start'"
+msgstr "Пожалуйста, подождите, пока заполнитель света камеры не засветится в течение 5 секунд, прежде чем нажать 'Старт'."
 
-#~ msgid "Poweroff"
-#~ msgstr "Выключение"
+msgid "Couldn't get the calibration camera position."
+msgstr "Не удалось получить позицию калибровочной камеры."
+
+msgid "Need home axis"
+msgstr "Необходима начальная ось"
+
+msgid "Choose Language"
+msgstr "Выберите язык"
+
+msgid "Choose Timezone"
+msgstr "Выберите часовой пояс"
+
+msgid "Select WiFi"
+msgstr "Выберите WiFi"
+
+msgid "Self-check"
+msgstr "Самопроверка"
+
+msgid "Nozzle Heating"
+msgstr "Нагрев сопла"
+
+msgid "Hot Bed Heating"
+msgstr "Нагрев подогреваемой платы"
+
+msgid "Nozzle Cooling Fan"
+msgstr "Вентилятор охлаждения сопла"
+
+msgid "Hotend Cooling Fan"
+msgstr "Вентилятор охлаждения Hotend"
+
+msgid "Filament Detection"
+msgstr "Обнаружение филамента"
+
+msgid "Auto Leveling"
+msgstr "Автоматическая калибровка"
+
+msgid "WiFi"
+msgstr "WiFi"
+
+msgid "Power loss recovery, is resume print?"
+msgstr "Восстановление после потери питания, продолжить печать?"
+
+msgid "Please wait until the bed and nozzle are heated before calibrating."
+msgstr "Пожалуйста, подождите, пока стол и сопло не прогреются, прежде чем производить калибровку."
+
+msgid "Current language:"
+msgstr "Текущий язык:"
+
+msgid "Skip All"
+msgstr "Пропустить все"
+
+msgid "Do not touch the printer during self-check."
+msgstr "Не касайтесь принтера во время самопроверки."
+
+msgid "Confirm"
+msgstr "Подтвердить"
+
+msgid "Current timezone:"
+msgstr "Текущий часовой пояс:"
+
+msgid "Choose a timezone"
+msgstr "Выберите часовой пояс"
+
+msgid "Choose a language"
+msgstr "Выберите язык"
+
+msgid "Please wait for the print job to end"
+msgstr "Пожалуйста, подождите завершения печати"
+
+msgid "Are you sure you wish to reset the printer?"
+msgstr "Вы уверены, что хотите сбросить принтер?"
+
+msgid "Data will be deleted"
+msgstr "Данные будут удалены"
+
+msgid "Reset Printer"
+msgstr "Сбросить принтер"
+
+msgid "Resetting printer, will restart, please wait..."
+msgstr "Сброс принтера, будет перезапущен, подождите..."
+
+msgid "Reset"
+msgstr "Сброс"
+
+msgid "Poweroff"
+msgstr "Выключение"
+
+msgid "Confirm Pos"
+msgstr "Подтвердите позицию"
+
+msgid "Shut down after printing completes"
+msgstr "Выключить после завершения печати"
+
+msgid "Voice Notify"
+msgstr "Голосовое уведомление"
+
+msgid "Filament Box Power"
+msgstr "Питание коробки с.filаментом"
+
+msgid "If your calibration device is under the PEI, please lift the PEI after homing."
+msgstr "Если ваше калибровочное устройство находится под PEI, пожалуйста, поднимите PEI после возврата в исходное положение."
+
+msgid "Homing the printer..."
+msgstr "Возврат принтера в исходное положение..."
+
+msgid "Starting dual nozzle height calibration..."
+msgstr "Начало калибровки высоты двойного сопла..."
+
+msgid "Please observe if the nozzle is positioned above the probe."
+msgstr "Пожалуйста, проверьте, расположено ли сопло над зондом."
+
+msgid "Warning: Negative value detected. This is dangerous and may damage the machine. Please recalibrate."
+msgstr "Предупреждение: Обнаружено отрицательное значение. Это опасно и может повредить машину. Пожалуйста, выполните повторную калибровку."
+
+msgid "New nozzle height difference is: "
+msgstr "Новая разница высоты сопла: "
+
+msgid "Warning: Current value is negative. This is dangerous and may damage the machine. Please recalibrate."
+msgstr "Предупреждение: Текущее значение отрицательное. Это опасно и может повредить машину. Пожалуйста, выполните повторную калибровку."
+
+msgid "Z Height Diff"
+msgstr "Разница высоты Z"
+
+msgid "Adjust Zprobe Pos"
+msgstr "Настройка позиции Zprobe"
+
+msgid "Need reboot, relaunch immediately?"
+msgstr "Требуется перезагрузка, перезагрузить сейчас?"
+
+msgid "Current nozzle height difference: "
+msgstr "Текущая разница высоты сопла: "
+
+msgid "New nozzle height difference: "
+msgstr "Новая разница высоты сопла: "
+
+msgid "Dangerous nozzle height difference: "
+msgstr "Опасная разница высоты сопла: "
+
+msgid "Saved successfully!"
+msgstr "Успешно сохранено!"
 
 # Feed Filament Box
-#~ msgid "Edit"
-#~ msgstr "Редактировать"
+msgid "Edit"
+msgstr "Редактировать"
 
-#~ msgid "Filament Info"
-#~ msgstr "Информация о нити"
+msgid "Filament Info"
+msgstr "Информация о нити"
 
-#~ msgid "Not found"
-#~ msgstr "Не найдено"
+msgid "Not found"
+msgstr "Не найдено"
 
-#~ msgid "Vendor"
-#~ msgstr "Производитель"
+msgid "Vendor"
+msgstr "Производитель"
 
-#~ msgid "Type"
-#~ msgstr "Тип"
+msgid "Type"
+msgstr "Тип"
 
-#~ msgid "Set Color"
-#~ msgstr "Установить цвет"
+msgid "Color"
+msgstr "Цвет"
 
-#~ msgid "Filament Settings"
-#~ msgstr "Настройки нити"
+msgid "Set Color"
+msgstr "Установить цвет"
 
-#~ msgid "Multi-Material Box"
-#~ msgstr "Мульти-материальный бокс"
+msgid "Filament Settings"
+msgstr "Настройки нити"
 
-#~ msgid "Are you sure you wish to restart the firmware?"
-#~ msgstr "Вы уверены, что хотите перезагрузить прошивку?"
+msgid "Multi-Material Box"
+msgstr "Мульти-материальный бокс"
 
-#~ msgid "Autofill filament disable"
-#~ msgstr "Отключить автоматическое заполнение филаментом"
+msgid "Are you sure you wish to restart the firmware?"
+msgstr "Вы уверены, что хотите перезагрузить прошивку?"
 
-#~ msgid "Autofill filament enabled"
-#~ msgstr "Включить автоматическое заполнение филаментом"
+msgid "Autofill filament disable"
+msgstr "Отключить автоматическое заполнение филаментом"
 
-#~ msgid "Autofill filament: %s"
-#~ msgstr "Автоматическое заполнение филамента: %s"
+msgid "Autofill filament enabled"
+msgstr "Включить автоматическое заполнение филаментом"
 
-#~ msgid "Backing up configuration files."
-#~ msgstr "Создание резервной копии конфигурационных файлов."
+msgid "Autofill filament: %s"
+msgstr "Автоматическое заполнение филамента: %s"
 
-#~ msgid "Calibrate Cutter Pos"
-#~ msgstr "Калибровка позиции ножа"
+msgid "Backing up configuration files."
+msgstr "Создание резервной копии конфигурационных файлов."
 
-#~ msgid "Couldn't get the calibration cutter position."
-#~ msgstr "Не удалось получить позицию ножа для калибровки."
+msgid "Calibrate Cutter Pos"
+msgstr "Калибровка позиции ножа"
 
-#~ msgid "Current filament indexes are:%s, active tool:%s"
-#~ msgstr "Текущие индексы филамента: %s, активный инструмент: %s"
+msgid "Couldn't get the calibration cutter position."
+msgstr "Не удалось получить позицию ножа для калибровки."
 
-#~ msgid ""
-#~ "Current filament indexes are:%s, active tool:%s, resume_tool:%s, "
-#~ "pause_reason:%s"
-#~ msgstr ""
-#~ "Текущие индексы филамента: %s, активный инструмент: %s, инструмент для "
-#~ "возобновления: %s, причина паузы: %s"
+msgid "Current filament indexes are:%s, active tool:%s"
+msgstr "Текущие индексы филамента: %s, активный инструмент: %s"
 
-#~ msgid "Current value is %s"
-#~ msgstr "Текущее значение: %s"
+msgid "Current filament indexes are:%s, active tool:%s, resume_tool:%s, pause_reason:%s"
+msgstr "Текущие индексы филамента: %s, активный инструмент: %s, инструмент для возобновления: %s, причина паузы: %s"
 
-#~ msgid "Cut Filament Test"
-#~ msgstr "Тест резки филамента"
+msgid "Current value is %s"
+msgstr "Текущее значение: %s"
 
-#~ msgid "Do you want to enable multi-material box?"
-#~ msgstr "Хотите включить коробку для многоматериальных материалов?"
+msgid "Cut Filament Test"
+msgstr "Тест резки филамента"
 
-#~ msgid "Do you want to use external filament?"
-#~ msgstr "Хотите использовать внешний филамент?"
+msgid "Do you want to enable multi-material box?"
+msgstr "Хотите включить коробку для многоматериальных материалов?"
 
-#~ msgid "Error: Offset values not found"
-#~ msgstr "Ошибка: значения смещения не найдены"
+msgid "Do you want to use external filament?"
+msgstr "Хотите использовать внешний филамент?"
 
-#~ msgid "Error: Z offset value not found"
-#~ msgstr "Ошибка: значение смещения Z не найдено"
+msgid "Error: Offset values not found"
+msgstr "Ошибка: значения смещения не найдены"
 
-#~ msgid "External Filament"
-#~ msgstr "Внешний филамент"
+msgid "Error: Z offset value not found"
+msgstr "Ошибка: значение смещения Z не найдено"
 
-#~ msgid "Extruder not hot enough"
-#~ msgstr "Экструдер недостаточно горячий"
+msgid "External Filament"
+msgstr "Внешний филамент"
 
-#~ msgid "FEED error:External filament not removed"
-#~ msgstr "Ошибка ПОДАЧИ: внешний филамент не удален"
+msgid "Extruder not hot enough"
+msgstr "Экструдер недостаточно горячий"
 
-#~ msgid "Filament %s not found"
-#~ msgstr "Филамент %s не найден"
+msgid "FEED error:External filament not removed"
+msgstr "Ошибка ПОДАЧИ: внешний филамент не удален"
 
-#~ msgid "Filament Sensor%s: No filament detected, canceling print"
-#~ msgstr "Датчик филамента %s: филамент не обнаружен, отмена печати"
+msgid "Filament %s not found"
+msgstr "Филамент %s не найден"
 
-#~ msgid "Filament Sensor%s: No filament detected, pausing print"
-#~ msgstr "Датчик филамента %s: филамент не обнаружен, приостановка печати"
+msgid "Filament Sensor%s: No filament detected, canceling print"
+msgstr "Датчик филамента %s: филамент не обнаружен, отмена печати"
 
-#~ msgid "Filament Sensor0: No filament detected, pausing print"
-#~ msgstr "Датчик филамента 0: филамент не обнаружен, приостановка печати"
+msgid "Filament Sensor%s: No filament detected, pausing print"
+msgstr "Датчик филамента %s: филамент не обнаружен, приостановка печати"
 
-#~ msgid "Filament Sensor1: No filament detected, pausing print"
-#~ msgstr "Датчик филамента 1: филамент не обнаружен, приостановка печати"
+msgid "Filament Sensor0: No filament detected, pausing print"
+msgstr "Датчик филамента 0: филамент не обнаружен, приостановка печати"
 
-#~ msgid ""
-#~ "Filament detected! Please remove filament from the hotend before enabling "
-#~ "multi-material box."
-#~ msgstr ""
-#~ "Филамент обнаружен! Пожалуйста, удалите филамент из сопла перед "
-#~ "включением коробки для многоматериальных материалов."
+msgid "Filament Sensor1: No filament detected, pausing print"
+msgstr "Датчик филамента 1: филамент не обнаружен, приостановка печати"
 
-#~ msgid "Missing required recovery data"
-#~ msgstr "Отсутствуют необходимые данные для восстановления"
+msgid "Filament detected! Please remove filament from the hotend before enabling multi-material box."
+msgstr "Филамент обнаружен! Пожалуйста, удалите филамент из сопла перед включением коробки для многоматериальных материалов."
 
-#~ msgid "No power loss recovery data found"
-#~ msgstr "Не найдены данные для восстановления после отключения питания"
+msgid "Missing required recovery data"
+msgstr "Отсутствуют необходимые данные для восстановления"
 
-#~ msgid "No valid params 'S'"
-#~ msgstr "Нет действительных параметров 'S'"
+msgid "No power loss recovery data found"
+msgstr "Не найдены данные для восстановления после отключения питания"
 
-#~ msgid "No"
-#~ msgstr "Нет"
+msgid "No valid params 'S'"
+msgstr "Нет действительных параметров 'S'"
 
-#~ msgid "Options"
-#~ msgstr "Опции"
+msgid "No"
+msgstr "Нет"
 
-#~ msgid "Pause. The \"extruder\" extrude error!"
-#~ msgstr "Пауза. Ошибка экструдера!"
+msgid "OK"
+msgstr "ОК"
 
-#~ msgid "Please exit the filament from the nozzle first"
-#~ msgstr "Пожалуйста, сначала удалите филамент из сопла"
+msgid "Options"
+msgstr "Опции"
 
-#~ msgid ""
-#~ "Please fill in the voice number correctly: 0-start printing, 1-end "
-#~ "printing, 2-outage detected, 3-cancel printing, 4-pause printing"
-#~ msgstr ""
-#~ "Пожалуйста, правильно введите номер голосового команды: 0-начать печать, "
-#~ "1-закончить печать, 2-обнаружено отключение, 3-отменить печать, 4-"
-#~ "приостановить печать"
+msgid "Pause. The \"extruder\" extrude error!"
+msgstr "Пауза. Ошибка экструдера!"
 
-#~ msgid "Please select how you would like to proceed."
-#~ msgstr "Пожалуйста, выберите, как вы хотите продолжить."
+msgid "Please exit the filament from the nozzle first"
+msgstr "Пожалуйста, сначала удалите филамент из сопла"
 
-#~ msgid "Power loss recovery, resuming print."
-#~ msgstr "Восстановление после отключения питания, возобновление печати."
+msgid "Please fill in the voice number correctly: 0-start printing, 1-end printing, 2-outage detected, 3-cancel printing, 4-pause printing"
+msgstr "Пожалуйста, правильно введите номер голосового команды: 0-начать печать, 1-закончить печать, 2-обнаружено отключение, 3-отменить печать, 4-приостановить печать"
 
-#~ msgid "Power loss, saving print states."
-#~ msgstr "Отключение питания, сохранение состояния печати."
+msgid "Please select how you would like to proceed."
+msgstr "Пожалуйста, выберите, как вы хотите продолжить."
 
-#~ msgid "Press feedsys button"
-#~ msgstr "Нажмите кнопку системы подачи"
+msgid "Power loss recovery, resuming print."
+msgstr "Восстановление после отключения питания, возобновление печати."
 
-#~ msgid "Print resumed from power loss position"
-#~ msgstr "Печать возобновлена с позиции после отключения питания"
+msgid "Power loss, saving print states."
+msgstr "Отключение питания, сохранение состояния печати."
 
-#~ msgid "Printer not homed"
-#~ msgstr "Принтер не проинициализирован"
+msgid "Press feedsys button"
+msgstr "Нажмите кнопку системы подачи"
 
-#~ msgid "RESUME error:autofill no fil"
-#~ msgstr "Ошибка ВОССТАНОВЛЕНИЯ: нет филамента для автоматического заполнения"
+msgid "Print resumed from power loss position"
+msgstr "Печать возобновлена с позиции после отключения питания"
 
-#~ msgid "RESUME error:no fil"
-#~ msgstr "Ошибка ВОССТАНОВЛЕНИЯ: нет филамента"
+msgid "Printer not homed"
+msgstr "Принтер не проинициализирован"
 
-#~ msgid "RESUME error:residual fil"
-#~ msgstr "Ошибка ВОССТАНОВЛЕНИЯ: остаточный филамент"
+msgid "RESUME error:autofill no fil"
+msgstr "Ошибка ВОССТАНОВЛЕНИЯ: нет филамента для автоматического заполнения"
 
-#~ msgid "Recovery data: Z=%s, File=%s, Pos=%s"
-#~ msgstr "Данные восстановления: Z=%s, Файл=%s, Позиция=%s"
+msgid "RESUME error:no fil"
+msgstr "Ошибка ВОССТАНОВЛЕНИЯ: нет филамента"
 
-#~ msgid "T%s direct feed"
-#~ msgstr "Прямая подача T%s"
+msgid "RESUME error:residual fil"
+msgstr "Ошибка ВОССТАНОВЛЕНИЯ: остаточный филамент"
 
-#~ msgid "T0 direct feed"
-#~ msgstr "Прямая подача T0"
+msgid "Recovery data: Z=%s, File=%s, Pos=%s"
+msgstr "Данные восстановления: Z=%s, Файл=%s, Позиция=%s"
 
-#~ msgid "T0 need exit filament"
-#~ msgstr "T0 требует удаления филамента"
+msgid "Save & Restart"
+msgstr "Сохранить и перезагрузить"
 
-#~ msgid "T1 direct feed"
-#~ msgstr "Прямая подача T1"
+msgid "T%s direct feed"
+msgstr "Прямая подача T%s"
 
-#~ msgid "T1 need exit filament"
-#~ msgstr "T1 требует удаления филамента"
+msgid "T0 direct feed"
+msgstr "Прямая подача T0"
 
-#~ msgid "T2 direct feed"
-#~ msgstr "Прямая подача T2"
+msgid "T0 need exit filament"
+msgstr "T0 требует удаления филамента"
 
-#~ msgid "T2 need exit filament"
-#~ msgstr "T2 требует удаления филамента"
+msgid "T1 direct feed"
+msgstr "Прямая подача T1"
 
-#~ msgid "T3 direct feed"
-#~ msgstr "Прямая подача T3"
+msgid "T1 need exit filament"
+msgstr "T1 требует удаления филамента"
 
-#~ msgid "T3 need exit filament"
-#~ msgstr "T3 требует удаления филамента"
+msgid "T2 direct feed"
+msgstr "Прямая подача T2"
 
-#~ msgid "The \"extruder\" extrude error!"
-#~ msgstr "Ошибка экструдера!"
+msgid "T2 need exit filament"
+msgstr "T2 требует удаления филамента"
 
-#~ msgid "The current toolheade is T%s"
-#~ msgstr "Текущая головка инструмента: T%s"
+msgid "T3 direct feed"
+msgstr "Прямая подача T3"
 
-#~ msgid "The current toolheade is T0"
-#~ msgstr "Текущая головка инструмента: T0"
+msgid "T3 need exit filament"
+msgstr "T3 требует удаления филамента"
 
-#~ msgid "The current toolheade is T1"
-#~ msgstr "Текущая головка инструмента: T1"
+msgid "The \"extruder\" extrude error!"
+msgstr "Ошибка экструдера!"
 
-#~ msgid "The current toolheade is T2"
-#~ msgstr "Текущая головка инструмента: T2"
+msgid "The current toolheade is T%s"
+msgstr "Текущая головка инструмента: T%s"
 
-#~ msgid "The current toolheade is T3"
-#~ msgstr "Текущая головка инструмента: T3"
+msgid "The current toolheade is T0"
+msgstr "Текущая головка инструмента: T0"
 
-#~ msgid "The filament_box_%s no filament"
-#~ msgstr "В коробке филамента_%s нет филамента"
+msgid "The current toolheade is T1"
+msgstr "Текущая головка инструмента: T1"
 
-#~ msgid "The motor is wrong."
-#~ msgstr "Мотор неисправен."
+msgid "The current toolheade is T2"
+msgstr "Текущая головка инструмента: T2"
 
-#~ msgid "There is a residual filament, Please remove and continue"
-#~ msgstr "Есть остаточный филамент, пожалуйста, удалите и продолжайте"
+msgid "The current toolheade is T3"
+msgstr "Текущая головка инструмента: T3"
 
-#~ msgid "There's a residual filament in box %s"
-#~ msgstr "Есть остаточный филамент в коробке %s"
+msgid "The filament_box_%s no filament"
+msgstr "В коробке филамента_%s нет филамента"
 
-#~ msgid "There's a residual filament in box 1"
-#~ msgstr "Есть остаточный филамент в коробке 1"
+msgid "The motor is wrong."
+msgstr "Мотор неисправен."
 
-#~ msgid "There's a residual filament in box 2"
-#~ msgstr "Есть остаточный филамент в коробке 2"
+msgid "There is a residual filament, Please remove and continue"
+msgstr "Есть остаточный филамент, пожалуйста, удалите и продолжайте"
 
-#~ msgid "There's a residual filament in box 3"
-#~ msgstr "Есть остаточный филамент в коробке 3"
+msgid "There's a residual filament in box %s"
+msgstr "Есть остаточный филамент в коробке %s"
 
-#~ msgid "There's a residual filament in box 4"
-#~ msgstr "Есть остаточный филамент в коробке 4"
+msgid "There's a residual filament in box 1"
+msgstr "Есть остаточный филамент в коробке 1"
 
-#~ msgid "Unknown filament"
-#~ msgstr "Неизвестный филамент"
+msgid "There's a residual filament in box 2"
+msgstr "Есть остаточный филамент в коробке 2"
 
-#~ msgid "Use external filament, please manually exit"
-#~ msgstr "Используйте внешний филамент, пожалуйста, удалите вручную"
+msgid "There's a residual filament in box 3"
+msgstr "Есть остаточный филамент в коробке 3"
 
-#~ msgid "Yes"
-#~ msgstr "Да"
+msgid "There's a residual filament in box 4"
+msgstr "Есть остаточный филамент в коробке 4"
 
-#~ msgid "auto shutdown error"
-#~ msgstr "ошибка автоматического выключения"
+msgid "Unknown fan"
+msgstr "Неизвестный вентилятор"
 
-#~ msgid "bed_mash:%s"
-#~ msgstr "bed_mash:%s"
+msgid "Unknown filament"
+msgstr "Неизвестный филамент"
 
-#~ msgid "clean pause_reason"
-#~ msgstr "очистить причину паузы"
+msgid "Use external filament, please manually exit"
+msgstr "Используйте внешний филамент, пожалуйста, удалите вручную"
 
-#~ msgid "cut filament"
-#~ msgstr "резать филамент"
+msgid "Warning"
+msgstr "Предупреждение"
 
-#~ msgid "cutter press!"
-#~ msgstr "нож нажат!"
+msgid "Yes"
+msgstr "Да"
 
-#~ msgid "cutter release!"
-#~ msgstr "нож освобожден!"
+msgid "auto shutdown error"
+msgstr "ошибка автоматического выключения"
 
-#~ msgid "feed busy"
-#~ msgstr "подача занята"
+msgid "bed_mash:%s"
+msgstr "bed_mash:%s"
 
-#~ msgid "feed error"
-#~ msgstr "ошибка подачи"
+msgid "clean pause_reason"
+msgstr "очистить причину паузы"
 
-#~ msgid "feed finish"
-#~ msgstr "подача завершена"
+msgid "cut filament"
+msgstr "резать филамент"
 
-#~ msgid "filament not removed"
-#~ msgstr "филамент не удален"
+msgid "cutter press!"
+msgstr "нож нажат!"
 
-#~ msgid "filament pause reason"
-#~ msgstr "причина паузы филамента"
+msgid "cutter release!"
+msgstr "нож освобожден!"
 
-#~ msgid "filament press"
-#~ msgstr "нажатие филамента"
+msgid "feed busy"
+msgstr "подача занята"
 
-#~ msgid "filament release"
-#~ msgstr "освобождение филамента"
+msgid "feed error"
+msgstr "ошибка подачи"
 
-#~ msgid "filament remove"
-#~ msgstr "удаление филамента"
+msgid "feed finish"
+msgstr "подача завершена"
 
-#~ msgid "filament runout"
-#~ msgstr "конец филамента"
+msgid "filament not removed"
+msgstr "филамент не удален"
 
-#~ msgid "filament%s:%s"
-#~ msgstr "филамент%s:%s"
+msgid "filament pause reason"
+msgstr "причина паузы филамента"
 
-#~ msgid "flush filament"
-#~ msgstr "очистить филамент"
+msgid "filament press"
+msgstr "нажатие филамента"
 
-#~ msgid "motion sensor insert"
-#~ msgstr "вставка датчика движения"
+msgid "filament release"
+msgstr "освобождение филамента"
 
-#~ msgid "motion sensor runout"
-#~ msgstr "конец датчика движения"
+msgid "filament remove"
+msgstr "удаление филамента"
 
-#~ msgid "motor_%s press"
-#~ msgstr "мотор_%s нажат"
+msgid "filament runout"
+msgstr "конец филамента"
 
-#~ msgid "motor_%s release"
-#~ msgstr "мотор_%s освобожден"
+msgid "filament%s:%s"
+msgstr "филамент%s:%s"
 
-#~ msgid "motor_1 press"
-#~ msgstr "мотор_1 нажат"
+msgid "flush filament"
+msgstr "очистить филамент"
 
-#~ msgid "motor_1 release"
-#~ msgstr "мотор_1 освобожден"
+msgid "motion sensor insert"
+msgstr "вставка датчика движения"
 
-#~ msgid "motor_2 press"
-#~ msgstr "мотор_2 нажат"
+msgid "motion sensor runout"
+msgstr "конец датчика движения"
 
-#~ msgid "motor_2 release"
-#~ msgstr "мотор_2 освобожден"
+msgid "motor_%s press"
+msgstr "мотор_%s нажат"
 
-#~ msgid "motor_3 press"
-#~ msgstr "мотор_3 нажат"
+msgid "motor_%s release"
+msgstr "мотор_%s освобожден"
 
-#~ msgid "motor_3 release"
-#~ msgstr "мотор_3 освобожден"
+msgid "motor_1 press"
+msgstr "мотор_1 нажат"
 
-#~ msgid "motor_4 press"
-#~ msgstr "мотор_4 нажат"
+msgid "motor_1 release"
+msgstr "мотор_1 освобожден"
 
-#~ msgid "motor_4 release"
-#~ msgstr "мотор_4 освобожден"
+msgid "motor_2 press"
+msgstr "мотор_2 нажат"
 
-#~ msgid "no bed_mash name"
-#~ msgstr "нет имени bed_mash"
+msgid "motor_2 release"
+msgstr "мотор_2 освобожден"
 
-#~ msgid "no bed_mash"
-#~ msgstr "нет bed_mash"
+msgid "motor_3 press"
+msgstr "мотор_3 нажат"
 
-#~ msgid "no enabled"
-#~ msgstr "не включен"
+msgid "motor_3 release"
+msgstr "мотор_3 освобожден"
 
-#~ msgid "press button%s"
-#~ msgstr "нажмите кнопку%s"
+msgid "motor_4 press"
+msgstr "мотор_4 нажат"
 
-#~ msgid "press button1"
-#~ msgstr "нажмите кнопку1"
+msgid "motor_4 release"
+msgstr "мотор_4 освобожден"
 
-#~ msgid "press button2"
-#~ msgstr "нажмите кнопку2"
+msgid "no bed_mash name"
+msgstr "нет имени bed_mash"
 
-#~ msgid "press button3"
-#~ msgstr "нажмите кнопку3"
+msgid "no bed_mash"
+msgstr "нет bed_mash"
 
-#~ msgid "press button4"
-#~ msgstr "нажмите кнопку4"
+msgid "no enabled"
+msgstr "не включен"
 
-#~ msgid "remove filament"
-#~ msgstr "удалить филамент"
+msgid "press button%s"
+msgstr "нажмите кнопку%s"
 
-#~ msgid "residual filament%s"
-#~ msgstr "остаточный филамент%s"
+msgid "press button1"
+msgstr "нажмите кнопку1"
 
-#~ msgid "residual filament0"
-#~ msgstr "остаточный филамент0"
+msgid "press button2"
+msgstr "нажмите кнопку2"
 
-#~ msgid "residual filament1"
-#~ msgstr "остаточный филамент1"
+msgid "press button3"
+msgstr "нажмите кнопку3"
 
-#~ msgid "residual filament2"
-#~ msgstr "остаточный филамент2"
+msgid "press button4"
+msgstr "нажмите кнопку4"
 
-#~ msgid "residual filament3"
-#~ msgstr "остаточный филамент3"
+msgid "remove filament"
+msgstr "удалить филамент"
 
-#~ msgid "resume:%s"
-#~ msgstr "возобновить:%s"
+msgid "residual filament%s"
+msgstr "остаточный филамент%s"
 
-#~ msgid "resume_tool:%s pause_reason:%s"
-#~ msgstr "возобновить_инструмент:%s причина_паузы:%s"
+msgid "residual filament0"
+msgstr "остаточный филамент0"
 
-#~ msgid "Copy Print"
-#~ msgstr "Копировать печать"
+msgid "residual filament1"
+msgstr "остаточный филамент1"
 
-#~ msgid "Mirror Print"
-#~ msgstr "Зеркальная печать"
+msgid "residual filament2"
+msgstr "остаточный филамент2"
 
-#~ msgid "Manual Calibration"
-#~ msgstr "Ручная калибровка"
+msgid "residual filament3"
+msgstr "остаточный филамент3"
 
-#~ msgid "Calibration successful!"
-#~ msgstr "Калибровка успешна!"
+msgid "resume:%s"
+msgstr "возобновить:%s"
 
-#~ msgid "Auto calibration failed. Please clean the nozzle and try again."
-#~ msgstr ""
-#~ "Автоматическая калибровка не удалась. Пожалуйста, очистите сопло и "
-#~ "попробуйте снова."
+msgid "resume_tool:%s pause_reason:%s"
+msgstr "возобновить_инструмент:%s причина_паузы:%s"
 
-#~ msgid ""
-#~ "Auto calibration is not available. Please install required dependencies."
-#~ msgstr ""
-#~ "Автоматическая калибровка недоступна. Пожалуйста, установите необходимые "
-#~ "зависимости."
+msgid "Copy Print"
+msgstr "Копировать печать"
 
-#~ msgid "Left extruder template saved"
-#~ msgstr "Шаблон левого экструдера сохранен"
+msgid "Mirror Print"
+msgstr "Зеркальная печать"
 
-#~ msgid "Right extruder template saved"
-#~ msgstr "Шаблон правого экструдера сохранен"
+msgid "Manual Calibration"
+msgstr "Ручная калибровка"
 
-#~ msgid "No template images found. Please perform manual calibration first."
-#~ msgstr ""
-#~ "Изображения шаблонов не найдены. Пожалуйста, сначала выполните ручную "
-#~ "калибровку."
+msgid "Auto Calibration"
+msgstr "Автоматическая калибровка"
 
-#~ msgid "Getting image of left extruder"
-#~ msgstr "Получение изображения левого экструдера"
+msgid "Calibration successful!"
+msgstr "Калибровка успешна!"
 
-#~ msgid "Getting image of right extruder"
-#~ msgstr "Получение изображения правого экструдера"
+msgid "Auto calibration failed. Please clean the nozzle and try again."
+msgstr "Автоматическая калибровка не удалась. Пожалуйста, очистите сопло и попробуйте снова."
 
-#~ msgid ""
-#~ "Left extruder calibration failed. Please clean the nozzle and try again."
-#~ msgstr ""
-#~ "Калибровка левого экструдера не удалась. Пожалуйста, очистите сопло и "
-#~ "попробуйте снова."
+msgid "Auto calibration is not available. Please install required dependencies."
+msgstr "Автоматическая калибровка недоступна. Пожалуйста, установите необходимые зависимости."
 
-#~ msgid ""
-#~ "Right extruder calibration failed. Please clean the nozzle and try again."
-#~ msgstr ""
-#~ "Калибровка правого экструдера не удалась. Пожалуйста, очистите сопло и "
-#~ "попробуйте снова."
+msgid "Left extruder template saved"
+msgstr "Шаблон левого экструдера сохранен"
 
-#~ msgid "left extruder pos: (%.3f, %.3f, %.3f)"
-#~ msgstr "позиция левого экструдера: (%.3f, %.3f, %.3f)"
+msgid "Right extruder template saved"
+msgstr "Шаблон правого экструдера сохранен"
 
-#~ msgid "Right extruder offset is (%.3f, %.3f, %.3f)"
-#~ msgstr "Смещение правого экструдера: (%.3f, %.3f, %.3f)"
+msgid "Failed to save template"
+msgstr "Не удалось сохранить шаблон"
 
-#~ msgid ""
-#~ "Please wait for the camera's fill light to light up for 5 seconds before "
-#~ "clicking 'Manual Calibration' or 'Auto Calibration'"
-#~ msgstr ""
-#~ "Пожалуйста, подождите 5 секунд, пока загорится заполняющий свет камеры, "
-#~ "прежде чем нажать 'Ручная калибровка' или 'Автоматическая калибровка'"
+msgid "No template images found. Please perform manual calibration first."
+msgstr "Изображения шаблонов не найдены. Пожалуйста, сначала выполните ручную калибровку."
 
-#~ msgid "The door is open."
-#~ msgstr "Дверца открыта."
+msgid "Getting image of left extruder"
+msgstr "Получение изображения левого экструдера"
 
-#~ msgid "The door is closed."
-#~ msgstr "Дверца закрыта."
+msgid "Getting image of right extruder"
+msgstr "Получение изображения правого экструдера"
 
-#~ msgid "Error getting origin offset values: %s"
-#~ msgstr "Ошибка при получении значений смещения начала координат: %s"
+msgid "Left extruder calibration failed. Please clean the nozzle and try again."
+msgstr "Калибровка левого экструдера не удалась. Пожалуйста, очистите сопло и попробуйте снова."
 
-#~ msgid "Filament run out, pausing print"
-#~ msgstr "Филамент закончился, приостанавливаю печать"
+msgid "Right extruder calibration failed. Please clean the nozzle and try again."
+msgstr "Калибровка правого экструдера не удалась. Пожалуйста, очистите сопло и попробуйте снова."
 
-#~ msgid "Not in single extruder mode, pausing print"
-#~ msgstr "Не в режиме одного экструдера, приостанавливаю печать"
+msgid "left extruder pos: (%.3f, %.3f, %.3f)"
+msgstr "позиция левого экструдера: (%.3f, %.3f, %.3f)"
 
-#~ msgid "Current sensor not configured, pausing print"
-#~ msgstr "Текущий датчик не настроен, приостанавливаю печать"
+msgid "Right extruder offset is (%.3f, %.3f, %.3f)"
+msgstr "Смещение правого экструдера: (%.3f, %.3f, %.3f)"
 
-#~ msgid "Other sensor not configured, pausing print"
-#~ msgstr "Другие датчики не настроены, приостанавливаю печать"
+msgid "Please wait for the camera's fill light to light up for 5 seconds before clicking 'Manual Calibration' or 'Auto Calibration'"
+msgstr "Пожалуйста, подождите 5 секунд, пока загорится заполняющий свет камеры, прежде чем нажать 'Ручная калибровка' или 'Автоматическая калибровка'"
 
-#~ msgid "Current extruder has filament, continuing print"
-#~ msgstr "Текущий экструдер содержит филамент, продолжаю печать"
+msgid "The door is open."
+msgstr "Дверца открыта."
 
-#~ msgid "Both extruders out of filament, pausing print"
-#~ msgstr "Оба экструдера без филамента, приостанавливаю печать"
+msgid "The door is closed."
+msgstr "Дверца закрыта."
 
-#~ msgid "Filament run out, switching extruder"
-#~ msgstr "Филамент закончился, переключаю экструдер"
+msgid "Error getting origin offset values: %s"
+msgstr "Ошибка при получении значений смещения начала координат: %s"
 
-#~ msgid "Switching to left extruder"
-#~ msgstr "Переключение на левый экструдер"
+msgid "Raise"
+msgstr "Поднять"
 
-#~ msgid "Switching to right extruder"
-#~ msgstr "Переключение на правый экструдер"
+msgid "Lower"
+msgstr "Опустить"
 
-#~ msgid "Extruder switch complete, resuming print"
-#~ msgstr "Переключение экструдера завершено, возобновляю печать"
+msgid "Filament run out, pausing print"
+msgstr "Филамент закончился, приостанавливаю печать"
 
-#~ msgid "Auto extruder switch already enabled"
-#~ msgstr "Автоматическое переключение экструдера уже включено"
+msgid "Not in single extruder mode, pausing print"
+msgstr "Не в режиме одного экструдера, приостанавливаю печать"
 
-#~ msgid ""
-#~ "Auto extruder switch enabled, this feature only works when printing with "
-#~ "a single extruder"
-#~ msgstr ""
-#~ "Автоматическое переключение экструдера включено; эта функция работает "
-#~ "только при печати с одним экструдером"
+msgid "Current sensor not configured, pausing print"
+msgstr "Текущий датчик не настроен, приостанавливаю печать"
 
-#~ msgid "Auto extruder switch already disabled"
-#~ msgstr "Автоматическое переключение экструдера уже выключено"
+msgid "Other sensor not configured, pausing print"
+msgstr "Другие датчики не настроены, приостанавливаю печать"
 
-#~ msgid "Auto extruder switch disabled"
-#~ msgstr "Автоматическое переключение экструдера выключено"
+msgid "Current extruder has filament, continuing print"
+msgstr "Текущий экструдер содержит филамент, продолжаю печать"
 
-#~ msgid "Filament Sensor0: No filament detected, canceling print."
-#~ msgstr "Датчик филамента 0: Филамент не обнаружен, отменяю печать."
+msgid "Both extruders out of filament, pausing print"
+msgstr "Оба экструдера без филамента, приостанавливаю печать"
 
-#~ msgid "Filament Sensor1: No filament detected, canceling print."
-#~ msgstr "Датчик филамента 1: Филамент не обнаружен, отменяю печать."
+msgid "Filament run out, switching extruder"
+msgstr "Филамент закончился, переключаю экструдер"
 
-#~ msgid "Missing required information"
-#~ msgstr "Отсутствует необходимая информация"
+msgid "Switching to left extruder"
+msgstr "Переключение на левый экструдер"
 
-#~ msgid "Resume Print"
-#~ msgstr "Возобновить Печать"
+msgid "Switching to right extruder"
+msgstr "Переключение на правый экструдер"
 
-#~ msgid "Tip: Please ensure the nozzle is about 0.1mm above the model"
-#~ msgstr "Совет: Убедитесь, что сопло находится примерно в 0.1мм над моделью"
+msgid "Extruder switch complete, resuming print"
+msgstr "Переключение экструдера завершено, возобновляю печать"
 
-#~ msgid "Please remove the extruder foam and take out the door handle."
-#~ msgstr "Пожалуйста, удалите пену экструдера и извлеките дверную ручку."
+msgid "Auto extruder switch already enabled"
+msgstr "Автоматическое переключение экструдера уже включено"
 
-#~ msgid "Print Issue Detected!"
-#~ msgstr "Обнаружена проблема печати!"
+msgid "Auto extruder switch enabled, this feature only works when printing with a single extruder"
+msgstr "Автоматическое переключение экструдера включено; эта функция работает только при печати с одним экструдером"
 
-#~ msgid "AI Settings"
-#~ msgstr "Настройки ИИ"
+msgid "Auto extruder switch already disabled"
+msgstr "Автоматическое переключение экструдера уже выключено"
 
-#~ msgid "Detected defect: %s (Confidence: %.1f%%)"
-#~ msgstr "Обнаружен дефект: %s (Уверенность: %.1f%%)"
+msgid "Auto extruder switch disabled"
+msgstr "Автоматическое переключение экструдера выключено"
 
-#~ msgid "AI Detection Error: %s"
-#~ msgstr "Ошибка обнаружения ИИ: %s"
+msgid "Extruder switch when filament run out"
+msgstr "Переключение экструдера, когда филамент заканчивается"
+
+msgid "Filament Sensor0: No filament detected, canceling print."
+msgstr "Датчик филамента 0: Филамент не обнаружен, отменяю печать."
+
+msgid "Filament Sensor1: No filament detected, canceling print."
+msgstr "Датчик филамента 1: Филамент не обнаружен, отменяю печать."
+
+msgid "Active Extruder"
+msgstr "Активный Экструдер"
+
+msgid "Active Extruder:"
+msgstr "Активный Экструдер:"
+
+msgid "Bed Temp:"
+msgstr "Темп. Стола:"
+
+msgid "Bed Temperature"
+msgstr "Температура Стола"
+
+msgid "Filename"
+msgstr "Имя Файла"
+
+msgid "Filename:"
+msgstr "Имя Файла:"
+
+msgid "Missing required information"
+msgstr "Отсутствует необходимая информация"
+
+msgid "Nozzle Temp:"
+msgstr "Темп. Сопла:"
+
+msgid "Nozzle Temperature"
+msgstr "Температура Сопла"
+
+msgid "Power Loss Recovery"
+msgstr "Восстановление после Сбоя Питания"
+
+msgid "Print Height"
+msgstr "Высота Печати"
+
+msgid "Print Height:"
+msgstr "Высота Печати:"
+
+msgid "Print height is less than 1mm"
+msgstr "Высота печати меньше 1мм"
+
+msgid "Recovery File"
+msgstr "Файл Восстановления"
+
+msgid "Resume Print"
+msgstr "Возобновить Печать"
+
+msgid "Tip: Please ensure the nozzle is about 0.1mm above the model"
+msgstr "Совет: Убедитесь, что сопло находится примерно в 0.1мм над моделью"
+
+msgid "Force Move"
+msgstr "Принудительное перемещение"
+
+msgid "Force move: "
+msgstr "Принудительное перемещение："
+
+msgid "Apply Z offset to Probe?"
+msgstr "Применить смещение по оси Z к датчику?"
+
+msgid "Left Extruder: %s%.3f"
+msgstr "Левый экструдер: %s%.3f"
+
+msgid "Left Extruder: Not adjusted"
+msgstr "Левый экструдер: Не настроен"
+
+msgid "Right Extruder: %s%.3f"
+msgstr "Правый экструдер: %s%.3f"
+
+msgid "Right Extruder: Not adjusted"
+msgstr "Правый экструдер: Не настроен"
+
+msgid "Apply Z offset to Endstop?"
+msgstr "Применить смещение по оси Z к концевому выключателю?"
+
+msgid "Remove Foam"
+msgstr "Удалить пену"
+
+msgid "Please remove the extruder foam and take out the door handle."
+msgstr "Пожалуйста, удалите пену экструдера и извлеките дверную ручку."
+
+msgid "Please click the Z raise button to raise the Z axis to remove the foam around the bottom of the case."
+msgstr "Пожалуйста, нажмите кнопку подъема Z, чтобы поднять ось Z и удалить пену вокруг нижней части корпуса."
+
+msgid "Print Issue Detected!"
+msgstr "Обнаружена проблема печати!"
+
+msgid "No prediction image available"
+msgstr "Изображение прогноза недоступно"
+
+msgid "Print resumed"
+msgstr "Печать возобновлена"
+
+msgid "Failed to resume print"
+msgstr "Не удалось возобновить печать"
+
+msgid "Print cancelled"
+msgstr "Печать отменена"
+
+msgid "Failed to cancel print"
+msgstr "Не удалось отменить печать"
+
+msgid "Configure basic AI service settings. Enable the AI service to monitor your prints and adjust the confidence threshold for detection sensitivity."
+msgstr "Настройте основные параметры службы ИИ. Включите службу ИИ для мониторинга ваших отпечатков и настройте порог достоверности для чувствительности обнаружения."
+
+
+msgid "AI Detection Alert"
+msgstr "Оповещение обнаружения ИИ"
+
+msgid "AI Monitor"
+msgstr "Монитор ИИ"
+
+msgid "AI Settings"
+msgstr "Настройки ИИ"
+
+msgid "Detected defect: %s (Confidence: %.1f%%)"
+msgstr "Обнаружен дефект: %s (Уверенность: %.1f%%)"
+
+msgid "AI Detection Error: %s"
+msgstr "Ошибка обнаружения ИИ: %s"
+
+msgid "AI Detection Service"
+msgstr "Служба Обнаружения ИИ"
+
+msgid "AI Server URL"
+msgstr "URL Сервера ИИ"
+
+msgid "Confidence Threshold (%)"
+msgstr "Порог Достоверности (%)"
+
+msgid "Detection Interval (seconds)"
+msgstr "Интервал Обнаружения (секунды)"
+
+msgid "Auto Pause on Detection"
+msgstr "Автопауза при Обнаружении"
+
+msgid "Enabled Defect Types"
+msgstr "Включенные Типы Дефектов"
+
+msgid "Camera Source"
+msgstr "Источник Камеры"
+
+msgid "Camera URL"
+msgstr "URL Камеры"
+
+msgid "Continue Detection While Paused"
+msgstr "Продолжить Обнаружение на Паузе"
+
+msgid "Sound Notification"
+msgstr "Звуковое Уведомление"
+
+msgid "All valves closed"
+msgstr "Все клапаны закрыты"
+
+msgid "Auto Feed"
+msgstr "Автоподача"
+
+msgid "Auto feed started"
+msgstr "Автоподача запущена"
+
+msgid "Blowback Valve"
+msgstr "Клапан продувки"
+
+msgid "Buffer"
+msgstr "Буфер"
+
+msgid "Buffer → Printhead"
+msgstr "Буфер → головка"
+
+msgid "Buffer Valve"
+msgstr "Буферный клапан"
+
+msgid "Disconnected"
+msgstr "Отключено"
+
+msgid "Dryer"
+msgstr "Сушилка"
+
+msgid "Dryer → Buffer"
+msgstr "Сушилка → буфер"
+
+msgid "Dryer Level"
+msgstr "Уровень сушилки"
+
+msgid "Dryer Sensor"
+msgstr "Датчик сушилки"
+
+msgid "Dryer Valve"
+msgstr "Клапан сушилки"
+
+msgid "Feeder"
+msgstr "Подача"
+
+msgid "Feeder:"
+msgstr "Подача:"
+
+msgid "Hopper"
+msgstr "Бункер"
+
+msgid "Hopper → Dryer"
+msgstr "Бункер → сушилка"
+
+msgid "Hopper Level"
+msgstr "Уровень бункера"
+
+msgid "Hopper Valve"
+msgstr "Клапан бункера"
+
+msgid "Pressure:"
+msgstr "Давление:"
+
+msgid "Printhead"
+msgstr "Головка"
+
+msgid "Printhead 1"
+msgstr "Головка 1"
+
+msgid "Printhead 2"
+msgstr "Головка 2"
+
+msgid "Retract blowback"
+msgstr "Обратная продувка"
+
+msgid "Retract started"
+msgstr "Втягивание запущено"
+
+msgid "Run Mode:"
+msgstr "Режим:"
+
+msgid "Stop All"
+msgstr "Стоп всё"
+
+msgid "To Dryer"
+msgstr "К сушилке"
+
+msgid "To Buffer"
+msgstr "К буферу"
+
+msgid "To Printhead"
+msgstr "К головке"
+
+msgid "Return Buffer"
+msgstr "Назад в буфер"

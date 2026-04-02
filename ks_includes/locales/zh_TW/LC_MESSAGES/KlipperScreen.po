@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KlipperScreen\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-02 16:39+0800\n"
+"POT-Creation-Date: 2023-10-20 00:09-0300\n"
 "PO-Revision-Date: 2023-07-07 16:44+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -25,20 +25,14 @@ msgstr "%s 將被更新為版本"
 msgid "(default)"
 msgstr "(預設)"
 
+msgid "24 Hour Time"
+msgstr "使用24小時制"
+
 msgid "A FIRMWARE_RESTART may fix the issue."
 msgstr "重啟Klipper韌體可能會解決這個問題。"
 
 msgid "ADXL Not Configured"
 msgstr "未設定ADXL"
-
-msgid "AI Detection Service"
-msgstr "AI檢測服務"
-
-msgid "AI Detection Status"
-msgstr ""
-
-msgid "AI Server URL"
-msgstr "AI伺服器網址"
 
 msgid "Abort"
 msgstr "取消"
@@ -49,32 +43,22 @@ msgstr "加速度"
 msgid "Accept"
 msgstr "接受"
 
-msgid "Active Extruder"
-msgstr "活動擠出機"
-
-msgid "Active Extruder:"
-msgstr "活動擠出機:"
-
 msgid "Add profile"
 msgstr "新增設定檔案"
-
-msgid "Adjust Zprobe Pos"
-msgstr "調整Z探針位置"
 
 msgid "All"
 msgstr ""
 
-msgid "All valves closed"
-msgstr "全部閥門已關閉"
-
 msgid "Apply"
 msgstr "應用"
 
-msgid "Apply Z offset to Endstop?"
-msgstr "將Z軸偏移應用於限位開關？"
+#, python-format
+msgid "Apply %s%.3f offset to Endstop?"
+msgstr "將 %s%.3f 偏移量應用於限位？"
 
-msgid "Apply Z offset to Probe?"
-msgstr "將Z軸偏移應用於探針？"
+#, python-format
+msgid "Apply %s%.3f offset to Probe?"
+msgstr "將 %s%.3f 偏移量應用於探針？"
 
 msgid "Archived"
 msgstr ""
@@ -100,56 +84,26 @@ msgstr "您確定要關閉系統嗎？"
 msgid "Auto"
 msgstr "自動"
 
-msgid "Auto Feed"
-msgstr "自動送料"
-
-msgid "Auto Pause on Detection"
-msgstr "檢測到時自動暫停"
-
-msgid "Auto feed started"
-msgstr "已開始自動送料"
-
 msgid "Auto-calibrate"
 msgstr "自動校準"
 
 msgid "Auto-close notifications"
 msgstr "自動關閉通知"
 
+msgid "Auto-open Extrude On Pause"
+msgstr ""
+
 msgid "Auto-scroll"
 msgstr "自動滾屏"
-
-msgid "Back"
-msgstr ""
 
 msgid "Bed Level"
 msgstr "熱床調平"
 
-msgid "Bed Lower"
-msgstr ""
-
-msgid "Bed Temp:"
-msgstr "平臺溫度:"
-
-msgid "Bed Temperature"
-msgstr "平臺溫度"
+msgid "Bed Mesh"
+msgstr "床網"
 
 msgid "Bed screw configuration:"
 msgstr "熱床螺絲設定："
-
-msgid "Blowback Valve"
-msgstr "回吹閥"
-
-msgid "Brightest"
-msgstr "最亮"
-
-msgid "Buffer"
-msgstr "緩衝"
-
-msgid "Buffer Valve"
-msgstr "緩衝閥"
-
-msgid "Buffer → Printhead"
-msgstr "緩衝 → 列印頭"
 
 msgid "Calibrate"
 msgstr "校準"
@@ -160,17 +114,8 @@ msgstr "已校準"
 msgid "Calibrating"
 msgstr "正在校準"
 
-msgid "Calibration saved!"
-msgstr ""
-
 msgid "Camera"
 msgstr "相機"
-
-msgid "Camera Source"
-msgstr "攝影機來源"
-
-msgid "Camera URL"
-msgstr "攝影機網址"
 
 msgid "Can't set above the maximum:"
 msgstr "設定值超出最大值："
@@ -190,9 +135,6 @@ msgstr "正在取消"
 msgid "Cannot connect to Moonraker"
 msgstr "無法連線到Moonraker"
 
-msgid "Capture Image"
-msgstr ""
-
 msgid "Channel"
 msgstr "群組"
 
@@ -202,54 +144,17 @@ msgstr "檢查ADXL的接線"
 msgid "Checking for updates, please wait..."
 msgstr "正在檢查更新，請稍等..."
 
-msgid "Choose Language"
-msgstr "選擇語言"
-
-msgid "Choose Timezone"
-msgstr "選擇時區"
-
-msgid "Choose a language"
-msgstr "選擇語言"
-
-msgid "Choose a timezone"
-msgstr "選擇時區"
-
 msgid "Clear"
 msgstr "清除"
-
-msgid "Clear History"
-msgstr ""
 
 msgid "Close"
 msgstr "關閉"
 
-msgid "Color"
-msgstr "顏色"
-
 msgid "Complete"
 msgstr "完成"
 
-msgid "Confidence Threshold (%)"
-msgstr "信心閾值 (%)"
-
-msgid ""
-"Configure basic AI service settings. Enable the AI service to monitor your "
-"prints and adjust the confidence threshold for detection sensitivity."
-msgstr ""
-"配置基本的AI服務設定。啟用AI服務來監控您的列印作業，並調整信心閾值以控制檢測"
-"敏感度。"
-
-msgid "Confirm"
-msgstr "確認"
-
 msgid "Confirm Emergency Stop"
 msgstr "緊急停止需確認"
-
-msgid "Confirm Movement"
-msgstr ""
-
-msgid "Confirm Pos"
-msgstr "確認位置"
 
 msgid "Connected"
 msgstr "已連線"
@@ -261,38 +166,14 @@ msgstr "連線到 %s"
 msgid "Connection failed"
 msgstr "連線失敗"
 
-msgid "Continue Detection While Paused"
-msgstr "暫停時繼續檢測"
+msgid "Console"
+msgstr "控制台"
 
 msgid "Cooldown"
 msgstr "冷卻"
 
-msgid "Couldn't get the calibration camera position."
-msgstr "無法獲取校準攝影機位置。"
-
-msgid "Couldn't get the calibration switch position."
-msgstr ""
-
-msgid "Current Detection Image"
-msgstr ""
-
-msgid "Current language: "
-msgstr ""
-
-msgid "Current nozzle height difference: "
-msgstr "目前噴嘴高度差: "
-
-msgid "Current nozzle height difference: ?"
-msgstr ""
-
-msgid "Current timezone: "
-msgstr ""
-
 msgid "DPMS has failed to load and has been disabled"
 msgstr ""
-
-msgid "Dangerous nozzle height difference: "
-msgstr "危險的噴嘴高度差: "
 
 msgid "Date"
 msgstr "日期"
@@ -306,60 +187,21 @@ msgstr "刪除檔案？"
 msgid "Deselect"
 msgstr "取消選擇"
 
-msgid "Detection History"
-msgstr ""
-
-msgid "Detection Interval (seconds)"
-msgstr "檢測間隔 (秒)"
-
 msgid "Disable Motors"
 msgstr "關閉電機"
 
-msgid "Disabled"
-msgstr ""
-
-msgid "Disconnected"
-msgstr "未連線"
-
 msgid "Distance (mm)"
 msgstr "擠出長度（mm）"
-
-msgid "Do not touch the printer during self-check."
-msgstr "在自檢過程中請勿觸摸印表機。"
 
 #, python-format
 msgid "Do you want to recover %s?"
 msgstr "你想恢復 %s 嗎？"
 
-msgid "Dryer"
-msgstr "乾燥箱"
-
-msgid "Dryer Level"
-msgstr "乾燥箱料位"
-
-msgid "Dryer Sensor"
-msgstr "乾燥箱感測器"
-
-msgid "Dryer Valve"
-msgstr "乾燥箱閥"
-
-msgid "Dryer → Buffer"
-msgstr "乾燥箱 → 緩衝"
-
 msgid "Elapsed:"
 msgstr "已用時間："
 
-msgid "Emergency Stop"
-msgstr ""
-
-msgid "Enabled Defect Types"
-msgstr "啟用的缺陷類型"
-
 msgid "Error"
 msgstr "錯誤"
-
-msgid "Error writing configuration"
-msgstr "寫入配置錯誤"
 
 msgid "Estimated Time Method"
 msgstr "估算剩餘時間方式"
@@ -367,41 +209,23 @@ msgstr "估算剩餘時間方式"
 msgid "Exclude Object"
 msgstr "排除目標"
 
+msgid "Extra Large"
+msgstr "特大"
+
 msgid "Extrude"
 msgstr "擠出機"
 
-msgid "Extruder switch when filament run out"
-msgstr "耗材用盡時切換擠出機"
+msgid "Extrusion +"
+msgstr "擠壓 +"
 
-msgid "Failed to cancel print"
-msgstr "取消列印失敗"
-
-msgid "Failed to capture image"
-msgstr ""
-
-msgid "Failed to detect nozzles"
-msgstr ""
-
-msgid "Failed to resume print"
-msgstr "恢復列印失敗"
-
-msgid "Failed to start AI monitoring"
-msgstr ""
+msgid "Extrusion -"
+msgstr "擠壓 -"
 
 msgid "Failed, adjust position first"
 msgstr "失敗，請先調整位置"
 
 msgid "Fan"
 msgstr "風扇"
-
-msgid "Feeder"
-msgstr ""
-
-msgid "Feeder:"
-msgstr "送料:"
-
-msgid "Filament Box Power"
-msgstr "耗材箱電源"
 
 msgid "Filament Used"
 msgstr "已消耗耗材"
@@ -421,12 +245,6 @@ msgstr "檔案"
 msgid "File:"
 msgstr "檔案："
 
-msgid "Filename"
-msgstr "檔案名稱"
-
-msgid "Filename:"
-msgstr "檔案名稱:"
-
 msgid "Filter"
 msgstr ""
 
@@ -439,56 +257,20 @@ msgstr "微調"
 msgid "Finish"
 msgstr "完成"
 
-msgid "Firmware Restart"
-msgstr "韌體重啟"
+#msgid "Firmware Restart"
+#msgstr "重啟Klipper韌體"
 
-msgid "Firmware has disconnected"
-msgstr "韌體已斷開連接"
-
-msgid "Firmware has encountered an error."
-msgstr "韌體遇到錯誤。"
-
-msgid "Firmware has shutdown"
-msgstr "韌體已關機"
-
-msgid "Firmware is attempting to start"
-msgstr "韌體正在嘗試啟動"
-
-msgid "Firmware will reboot"
-msgstr "韌體即將重啟"
-
-# msgid "Firmware Restart"
-# msgstr "重啟Klipper韌體"
-msgid "Flow +"
-msgstr ""
-
-# msgid "Firmware Restart"
-# msgstr "重啟Klipper韌體"
-msgid "Flow -"
-msgstr ""
-
-# msgid "Firmware Restart"
-# msgstr "重啟Klipper韌體"
 msgid "Flow:"
 msgstr "流量："
 
 msgid "Flowrate:"
 msgstr "流速："
 
-msgid "Force Cancel"
-msgstr ""
-
-msgid "Force Move"
-msgstr "強制移動"
-
-msgid "Force move: "
-msgstr "強制移動："
+msgid "Font Size"
+msgstr "字型大小"
 
 msgid "Full Update"
 msgstr "全部更新"
-
-msgid "Gcode Buttons"
-msgstr ""
 
 msgid "Go Back"
 msgstr "返回"
@@ -499,11 +281,11 @@ msgstr "高度："
 msgid "Hidden"
 msgstr "隱藏的"
 
-msgid "Hidden Network"
-msgstr ""
-
 msgid "Hide"
 msgstr "隱藏"
+
+msgid "Hide sensors in Temp."
+msgstr "在溫度顯示中隱藏其他感測器"
 
 msgid "Hide temp."
 msgstr "隱藏溫度"
@@ -526,20 +308,8 @@ msgstr "Y軸歸零"
 msgid "Home Z"
 msgstr "Z軸歸零"
 
-msgid "Homing the printer..."
-msgstr "正在將印表機歸位..."
-
-msgid "Hopper"
-msgstr "料斗"
-
-msgid "Hopper Level"
-msgstr "料斗料位"
-
-msgid "Hopper Valve"
-msgstr "料斗閥"
-
-msgid "Hopper → Dryer"
-msgstr "料斗 → 乾燥箱"
+msgid "Host"
+msgstr "主機"
 
 msgid "Hostname"
 msgstr "主機名"
@@ -547,10 +317,8 @@ msgstr "主機名"
 msgid "ID"
 msgstr ""
 
-msgid ""
-"If your calibration device is under the PEI, please lift the PEI after "
-"homing."
-msgstr "如果您的校準裝置在PEI下方，請在歸位後抬起PEI。"
+msgid "Icon Theme"
+msgstr "主題"
 
 msgid "Initializing printer..."
 msgstr "正在初始化列印機..."
@@ -582,8 +350,23 @@ msgstr "反轉Z軸"
 msgid "It may take more than 5 minutes depending on the heater power."
 msgstr "這可能需要5分鐘以上的時間，這取決於加熱器的功率。"
 
-msgid "LEDs"
-msgstr ""
+msgid "Firmware Restart"
+msgstr "韌體重啟"
+
+msgid "Firmware has disconnected"
+msgstr "韌體已斷開連接"
+
+msgid "Firmware has encountered an error."
+msgstr "韌體遇到錯誤。"
+
+msgid "Firmware has shutdown"
+msgstr "韌體已關機"
+
+msgid "Firmware is attempting to start"
+msgstr "韌體正在嘗試啟動"
+
+msgid "Firmware will reboot"
+msgstr "韌體即將重啟"
 
 msgid ""
 "LOAD_FILAMENT/UNLOAD_FILAMENT are hidden and should be used from extrude"
@@ -592,8 +375,8 @@ msgstr ""
 msgid "Language"
 msgstr "介面語言"
 
-msgid "Last Detection:"
-msgstr ""
+msgid "Large"
+msgstr "大"
 
 msgid "Last Used"
 msgstr ""
@@ -604,42 +387,26 @@ msgstr "層："
 msgid "Leds"
 msgstr ""
 
-#, python-format
-msgid "Left Extruder: %s%.3f"
-msgstr "左擠出機: %s%.3f"
-
-msgid "Left Extruder: Not adjusted"
-msgstr "左擠出機: 未調整"
-
 msgid "Left:"
 msgstr "剩餘時間："
 
-msgid "Leveling"
-msgstr "調平"
+msgid "Limits"
+msgstr "列印機限制"
 
 msgid "Load"
 msgstr "載入耗材"
 
-msgid "Local"
-msgstr ""
-
-msgid "Lower"
-msgstr "下降"
-
 msgid "Lower Nozzle"
 msgstr "降低噴嘴"
 
+msgid "Macro shortcut on sidebar"
+msgstr "顯示側邊欄巨集按鈕"
+
+msgid "Macros"
+msgstr "巨集"
+
 msgid "Main Menu"
 msgstr "主選單"
-
-msgid "Manual"
-msgstr "手動"
-
-msgid "Manual Detect"
-msgstr ""
-
-msgid "Manual Detection"
-msgstr ""
 
 msgid "Material"
 msgstr ""
@@ -656,6 +423,9 @@ msgstr "最大加速至減速"
 msgid "Max Velocity"
 msgstr "最大速度"
 
+msgid "Maximum"
+msgstr "最大"
+
 msgid "Measure Both"
 msgstr "同時測量"
 
@@ -665,6 +435,9 @@ msgstr "測量X軸"
 msgid "Measure Y"
 msgstr "測量Y軸"
 
+msgid "Medium"
+msgstr "中"
+
 msgid "Menu"
 msgstr "選單"
 
@@ -673,12 +446,6 @@ msgstr "床網校準"
 
 msgid "Modified"
 msgstr "已修改"
-
-msgid "Monitoring:"
-msgstr ""
-
-msgid "Moonraker"
-msgstr ""
 
 msgid "Moonraker: connected"
 msgstr "Moonraker：已連線"
@@ -695,15 +462,6 @@ msgstr "移動距離（mm）"
 msgid "Name"
 msgstr "名稱"
 
-msgid "Need home axis"
-msgstr "需要歸零軸"
-
-msgid "Need reboot, relaunch immediately?"
-msgstr "需要重啟，是否立即重啟?"
-
-msgid "Need to recalculate the offset value."
-msgstr "需要重新計算偏移值。"
-
 msgid "Network"
 msgstr "網路"
 
@@ -713,44 +471,7 @@ msgstr "從不"
 msgid "New"
 msgstr "新的值"
 
-msgid "New nozzle height difference is: "
-msgstr "新的噴嘴高度差異為："
-
-msgid "New nozzle height difference: "
-msgstr "新的噴嘴高度差: "
-
-msgid "New nozzle height difference: ?"
-msgstr ""
-
-msgid "No Gcode Buttons configured"
-msgstr ""
-
-msgid "No calibration camera found."
-msgstr ""
-
-msgid "No camera URL available."
-msgstr ""
-
-msgid "No camera configured"
-msgstr ""
-
-msgid "No captured images found"
-msgstr ""
-
 msgid "No elegible macros:"
-msgstr ""
-
-msgid "No info available"
-msgstr ""
-
-msgid "No prediction image available"
-msgstr "無預測圖片可用"
-
-msgid "No wireless interface has been found"
-msgstr ""
-
-#, python-brace-format
-msgid "No {action} gcode configured for {button_name}"
 msgstr ""
 
 msgid ""
@@ -758,43 +479,19 @@ msgid ""
 "conf"
 msgstr "不支援自動檢測，需要在klpperscreen.conf中進行設定"
 
-msgid "Not working or not configured"
-msgstr ""
-
 msgid "Nothing selected"
 msgstr "未選擇任何內容"
-
-msgid "Notification log empty"
-msgstr ""
-
-msgid "Notifications"
-msgstr ""
-
-msgid "Nozzle Temp:"
-msgstr "噴嘴溫度:"
-
-msgid "Nozzle Temperature"
-msgstr "噴嘴溫度"
-
-msgid "OK"
-msgstr "確定"
-
-msgid "Only one extruder does not require calibration."
-msgstr "只有一個擠出機不需要校準。"
 
 #, python-format
 msgid "Outdated by %d"
 msgstr "已過時 %d"
 
-msgid "Output Pins"
-msgstr ""
-
 msgid "PSK for"
 msgstr "PSK"
 
 msgid "Package will be updated"
-msgid_plural "Packages will be updated"
-msgstr[0] ""
+
+msgstr "軟體包將被更新"
 
 msgid "Part Fan"
 msgstr "模型風扇"
@@ -811,51 +508,23 @@ msgstr "已暫停"
 msgid "Perform a full upgrade?"
 msgstr "是否全部升級？"
 
-msgid ""
-"Please click the Z raise button to raise the Z axis to remove the foam "
-"around the bottom of the case."
-msgstr "請點擊Z軸抬升按鈕，抬升Z軸以移除機箱底部周圍的泡沫。"
+msgid "Pins"
+msgstr "引腳"
 
-msgid "Please observe if the nozzle is positioned above the probe."
-msgstr "請觀察噴嘴是否位於探針上方。"
+msgid "Output Pins"
+msgstr "輸出引腳"
 
 msgid "Please recompile and flash the micro-controller."
 msgstr "請重新編譯並燒錄微控制器。"
 
-msgid "Please wait for the camera initialization to complete."
-msgstr "請等待攝影機初始化完成。"
-
-msgid ""
-"Please wait for the camera's fill light to light up for 5 seconds before "
-"clicking 'Start'"
-msgstr "請等待攝影機的填光燈亮起 5 秒後再點擊 '開始'"
-
-msgid "Please wait until the bed and nozzle is heated before calibrating."
-msgstr ""
-
 msgid "Power"
 msgstr "電源"
-
-msgid "Power Loss Recovery"
-msgstr "斷電恢復"
 
 msgid "Power On Printer"
 msgstr "啟動列印機"
 
-msgid "Preheat"
-msgstr "预热"
-
-msgid "Press"
-msgstr ""
-
-msgid "Pressed"
-msgstr ""
-
 msgid "Pressure Advance:"
 msgstr "壓力推進："
-
-msgid "Pressure:"
-msgstr "氣壓:"
 
 msgid "Print"
 msgstr "列印"
@@ -863,36 +532,17 @@ msgstr "列印"
 msgid "Print Control"
 msgstr "列印控制"
 
-msgid "Print Height"
-msgstr "列印高度"
-
-msgid "Print Height:"
-msgstr "列印高度:"
-
 msgid "Print Time"
 msgstr "列印時間"
 
-msgid "Print cancelled"
-msgstr "列印已取消"
+msgid "Printer"
+msgstr "列印機"
 
-# 翻译自简体“恢复文件”
-msgid "Print height is less than 1mm"
-msgstr "列印高度小於1毫米"
-
-msgid "Print resumed"
-msgstr "列印已恢復"
+msgid "Printer Connections"
+msgstr "列印機連線"
 
 msgid "Printer Select"
 msgstr "列印機選擇"
-
-msgid "Printhead"
-msgstr "列印頭"
-
-msgid "Printhead 1"
-msgstr "列印頭1"
-
-msgid "Printhead 2"
-msgstr "列印頭2"
 
 msgid "Printing"
 msgstr "列印中"
@@ -909,9 +559,6 @@ msgstr ""
 msgid "Quad Gantry Level"
 msgstr "龍門架調平"
 
-msgid "Raise"
-msgstr "上升"
-
 msgid "Raise Nozzle"
 msgstr "升高噴嘴"
 
@@ -924,23 +571,11 @@ msgstr "硬恢復(git recover hard)"
 msgid "Recover Soft"
 msgstr "軟恢復(git reset)"
 
-msgid "Recovery File"
-msgstr "恢復檔案"
-
 msgid "Reference"
 msgstr "參考"
 
 msgid "Refresh"
 msgstr "重新整理"
-
-msgid "Release"
-msgstr ""
-
-msgid "Released"
-msgstr ""
-
-msgid "Remove Foam"
-msgstr "移除泡沫"
 
 msgid "Rename/Move:"
 msgstr "重新命名/移動："
@@ -948,20 +583,14 @@ msgstr "重新命名/移動："
 msgid "Restart"
 msgstr "重啟"
 
-msgid "Restart required. Restart now?"
-msgstr ""
-
 msgid "Resume"
 msgstr "繼續"
 
 msgid "Retract"
 msgstr "抽回"
 
-msgid "Retract blowback"
-msgstr "回抽回吹"
-
-msgid "Retract started"
-msgstr "已開始回抽"
+msgid "Retraction"
+msgstr "回抽"
 
 msgid "Retraction Length"
 msgstr "回抽長度"
@@ -975,30 +604,11 @@ msgstr "重試"
 msgid "Retrying"
 msgstr "正在重試"
 
-msgid "Return Buffer"
-msgstr "回緩衝"
-
-msgid "Right Extruder Z Offset"
-msgstr ""
-
-#, python-format
-msgid "Right Extruder: %s%.3f"
-msgstr "右擠出機: %s%.3f"
-
-msgid "Right Extruder: Not adjusted"
-msgstr "右擠出機: 未調整"
-
-msgid "Run Mode:"
-msgstr "模式:"
-
-msgid "Running"
-msgstr ""
-
 msgid "Save"
 msgstr "儲存"
 
-msgid "Save Results"
-msgstr ""
+msgid "Save Config"
+msgstr "儲存設定"
 
 msgid "Save Z"
 msgstr "儲存Z軸"
@@ -1009,11 +619,9 @@ msgstr "是否儲存設定？"
 msgid "Saved"
 msgstr "已儲存"
 
-msgid "Saved successfully!"
-msgstr "儲存成功!"
-
-msgid "Saved successfully."
-msgstr ""
+#, python-format
+msgid "Saved offset: %s"
+msgstr "儲存偏移：%s"
 
 msgid "Screen DPMS"
 msgstr "螢幕省電管理系統"
@@ -1027,17 +635,8 @@ msgstr "螺絲調整"
 msgid "Select"
 msgstr "選擇"
 
-msgid "Select WiFi"
-msgstr "選擇 WiFi"
-
-msgid "Self-check"
-msgstr "自檢"
-
 msgid "Send"
 msgstr "發送"
-
-msgid "Service Status:"
-msgstr ""
 
 msgid "Set Temp"
 msgstr "設定溫度"
@@ -1048,8 +647,11 @@ msgstr "設定"
 msgid "Show"
 msgstr "顯示"
 
-msgid "Shut down after printing completes"
-msgstr "打印完關機"
+msgid "Show Heater Power"
+msgstr "顯示加熱器功率"
+
+msgid "Show Scrollbars Buttons"
+msgstr ""
 
 msgid "Shutdown"
 msgstr "關閉"
@@ -1063,8 +665,8 @@ msgstr "切片軟體"
 msgid "Slicer:"
 msgstr "切片軟體："
 
-msgid "Sound Notification"
-msgstr "聲音通知"
+msgid "Small"
+msgstr "小"
 
 msgid "Speed (mm/s)"
 msgstr "速度(mm/s)"
@@ -1087,41 +689,14 @@ msgstr ""
 msgid "Start"
 msgstr "開始"
 
-msgid "Start Calibration"
-msgstr ""
-
-msgid "Start Monitoring"
-msgstr ""
-
-msgid "Start Preview"
-msgstr ""
-
 msgid "Starting WiFi Association"
 msgstr "開始WiFi連線"
-
-msgid "Starting dual nozzle height calibration..."
-msgstr "開始雙噴嘴高度校準..."
 
 msgid "Starting recovery for"
 msgstr "開始恢復"
 
 msgid "Starting update for"
 msgstr "開始更新"
-
-msgid "Stop"
-msgstr ""
-
-msgid "Stop All"
-msgstr "全部停止"
-
-msgid "Stop Monitoring"
-msgstr ""
-
-msgid "Stop Preview"
-msgstr ""
-
-msgid "Stopped"
-msgstr ""
 
 msgid "System"
 msgstr "系統"
@@ -1138,32 +713,8 @@ msgstr "溫度 (°C)"
 msgid "Temperature"
 msgstr "溫度"
 
-msgid "The nozzle temperature is too low, Are you sure you want to heat it?"
-msgstr "噴頭溫度太低，確定要加熱嗎？"
-
-msgid "To Buffer"
-msgstr "到緩衝"
-
-msgid "To Dryer"
-msgstr "到乾燥箱"
-
-msgid "To Printhead"
-msgstr "到列印頭"
-
 msgid "Total:"
 msgstr "合計："
-
-msgid "Troubleshooting"
-msgstr "疑難排解"
-
-msgid "Turn off"
-msgstr "關閉"
-
-msgid "URL"
-msgstr ""
-
-msgid "Unknown"
-msgstr ""
 
 msgid "Unknown Heater"
 msgstr "未知加熱器"
@@ -1192,33 +743,8 @@ msgstr "正在更新"
 msgid "Uploaded"
 msgstr "上傳於"
 
-msgid "Voice Notify"
-msgstr "語音提示"
-
-msgid "Warning"
-msgstr "警告"
-
-msgid ""
-"Warning: Current value is negative. This is dangerous and may damage the "
-"machine. Please recalibrate."
-msgstr "警告：當前值為負數。這很危險，可能會損壞機器。請重新校準。"
-
-msgid ""
-"Warning: Negative value detected. This is dangerous and may damage the "
-"machine. Please recalibrate."
-msgstr "警告：檢測到負值。這很危險，可能會損壞機器。請重新校準。"
-
-msgid "Waste Chute"
-msgstr ""
-
-msgid "WebRTC is not supported by the backend trying Stream"
-msgstr ""
-
 msgid "XY Move Speed (mm/s)"
 msgstr "XY軸移動速度(mm/s)"
-
-msgid "XY Offset"
-msgstr "XY 偏移"
 
 msgid "XY Speed (mm/s)"
 msgstr "XY軸速度(mm/s)"
@@ -1226,17 +752,8 @@ msgstr "XY軸速度(mm/s)"
 msgid "Z Calibrate"
 msgstr "Z軸校準"
 
-msgid "Z Endstop"
-msgstr ""
-
-msgid "Z Height Diff"
-msgstr "Z軸高度差"
-
 msgid "Z Move Speed (mm/s)"
 msgstr "Z軸移動速度(mm/s)"
-
-msgid "Z Offset"
-msgstr "Z 偏移"
 
 msgid "Z Speed (mm/s)"
 msgstr "Z軸速度(mm/s)"
@@ -1244,22 +761,19 @@ msgstr "Z軸速度(mm/s)"
 msgid "Z Tilt"
 msgstr "Z軸傾斜校準"
 
-msgid "Z offset exceeds safe range"
-msgstr ""
-
 msgid "Z offset:"
 msgstr "Z軸偏移："
 
 msgid "commit"
-msgid_plural "commits"
-msgstr[0] ""
+
+msgstr "更改"
 
 msgid "dBm"
 msgstr "dBm"
 
 msgid "hour"
-msgid_plural "hours"
-msgstr[0] ""
+
+msgstr "小時"
 
 msgid "macros that use 'rename_existing' are hidden"
 msgstr ""
@@ -1268,8 +782,8 @@ msgid "macros with a name starting with '_' are hidden"
 msgstr ""
 
 msgid "minute"
-msgid_plural "minutes"
-msgstr[0] ""
+
+msgstr "分"
 
 msgid "mm"
 msgstr "秒"
@@ -1283,92 +797,11 @@ msgstr "mm/s²"
 msgid "mm³/s"
 msgstr "mm³/s"
 
-#~ msgid "24 Hour Time"
-#~ msgstr "使用24小時制"
-
-#, python-format
-#~ msgid "Apply %s%.3f offset to Endstop?"
-#~ msgstr "將 %s%.3f 偏移量應用於限位？"
-
-#, python-format
-#~ msgid "Apply %s%.3f offset to Probe?"
-#~ msgstr "將 %s%.3f 偏移量應用於探針？"
-
-#~ msgid "Bed Mesh"
-#~ msgstr "床網"
-
-#~ msgid "Console"
-#~ msgstr "控制台"
-
-#~ msgid "Extra Large"
-#~ msgstr "特大"
-
-#~ msgid "Extrusion +"
-#~ msgstr "擠壓 +"
-
-#~ msgid "Extrusion -"
-#~ msgstr "擠壓 -"
-
-#~ msgid "Font Size"
-#~ msgstr "字型大小"
-
-#~ msgid "Hide sensors in Temp."
-#~ msgstr "在溫度顯示中隱藏其他感測器"
-
-#~ msgid "Host"
-#~ msgstr "主機"
-
-#~ msgid "Icon Theme"
-#~ msgstr "主題"
-
-#~ msgid "Large"
-#~ msgstr "大"
-
-#~ msgid "Limits"
-#~ msgstr "列印機限制"
-
-#~ msgid "Macro shortcut on sidebar"
-#~ msgstr "顯示側邊欄巨集按鈕"
-
-#~ msgid "Macros"
-#~ msgstr "巨集"
-
-#~ msgid "Maximum"
-#~ msgstr "最大"
-
-#~ msgid "Medium"
-#~ msgstr "中"
-
-#~ msgid "Pins"
-#~ msgstr "引腳"
-
-#~ msgid "Printer"
-#~ msgstr "列印機"
-
-#~ msgid "Printer Connections"
-#~ msgstr "列印機連線"
-
-#~ msgid "Retraction"
-#~ msgstr "回抽"
-
-#~ msgid "Save Config"
-#~ msgstr "儲存設定"
-
-#, python-format
-#~ msgid "Saved offset: %s"
-#~ msgstr "儲存偏移：%s"
-
-#~ msgid "Show Heater Power"
-#~ msgstr "顯示加熱器功率"
-
-#~ msgid "Small"
-#~ msgstr "小"
-
 #~ msgid "KlipperScreen will reboot"
 #~ msgstr "KlipperScreen將重新啟動"
 
-#~ msgid "Continue"
-#~ msgstr "繼續"
+msgid "Continue"
+msgstr "繼續"
 
 #~ msgid "Fullscreen"
 #~ msgstr "全螢幕"
@@ -1382,11 +815,17 @@ msgstr "mm³/s"
 #~ msgid "Homing"
 #~ msgstr "归零"
 
+#~ msgid "Disable XY"
+#~ msgstr "关闭 XY 轴电机"
+
 #~ msgid "Slicer Time correction (%)"
 #~ msgstr "切片软件时间校正(%)"
 
 #~ msgid "Calibrated, save configuration to make it permanent"
 #~ msgstr "已校准，保存配置后生效"
+
+#~ msgid "Decrease"
+#~ msgstr "减少"
 
 #~ msgid "Increase"
 #~ msgstr "增加"
@@ -1489,6 +928,9 @@ msgstr "mm³/s"
 #~ msgid "Number Pad"
 #~ msgstr "数字键盘"
 
+#~ msgid "Preheat"
+#~ msgstr "预热"
+
 #~ msgid "Screen will show in less than one second"
 #~ msgstr "屏幕将在1秒内显示"
 
@@ -1528,567 +970,936 @@ msgstr "mm³/s"
 #~ msgid "Screen Blanking Time"
 #~ msgstr "关闭屏幕时间"
 
-#~ msgid "General"
-#~ msgstr "通用"
+msgid "Leveling"
+msgstr "調平"
 
-#~ msgid "Cautions"
-#~ msgstr "注意事項"
+msgid "The nozzle temperature is too low, Are you sure you want to heat it?"
+msgstr "噴頭溫度太低，確定要加熱嗎？"
 
-#~ msgid "Maintenance"
-#~ msgstr "維護"
+msgid "General"
+msgstr "通用"
 
-#~ msgid "Please confirm left extruder position."
-#~ msgstr "請確認左擠出機位置。"
+msgid "Turn off"
+msgstr "關閉"
 
-#~ msgid "Nozzle Heating"
-#~ msgstr "噴頭加熱"
+msgid "Brightest"
+msgstr "最亮"
 
-#~ msgid "Hot Bed Heating"
-#~ msgstr "熱床加熱"
+msgid "Manual"
+msgstr "手動"
 
-#~ msgid "Nozzle Cooling Fan"
-#~ msgstr "噴頭散熱風扇"
+msgid "Troubleshooting"
+msgstr "疑難排解"
 
-#~ msgid "Hotend Cooling Fan"
-#~ msgstr "熱端散熱風扇"
+msgid "Cautions"
+msgstr "注意事項"
 
-#~ msgid "Auto Leveling"
-#~ msgstr "自動調平"
+msgid "Maintenance"
+msgstr "維護"
 
-#~ msgid "WiFi"
-#~ msgstr "WiFi"
+msgid "Calibration"
+msgstr "校準"
 
-#~ msgid "Power loss recovery, is resume print?"
-#~ msgstr "電源喪失恢復，是否恢復打印？"
+msgid "XY Offset"
+msgstr "XY 偏移"
 
-#~ msgid "Skip All"
-#~ msgstr "全部跳過"
+msgid "Z Offset"
+msgstr "Z 偏移"
 
-#~ msgid "Please wait for the print job to end"
-#~ msgstr "請等待打印作業結束"
+msgid "Only one extruder does not require calibration."
+msgstr "只有一個擠出機不需要校準。"
 
-#~ msgid "Are you sure you wish to reset the printer?"
-#~ msgstr "確定要重置印表機嗎？"
+msgid "Please confirm left extruder position."
+msgstr "請確認左擠出機位置。"
 
-#~ msgid "Data will be deleted"
-#~ msgstr "數據將被刪除"
+msgid "Need to recalculate the offset value."
+msgstr "需要重新計算偏移值。"
 
-#~ msgid "Reset Printer"
-#~ msgstr "重置印表機"
+msgid "Error writing configuration"
+msgstr "寫入配置錯誤"
 
-#~ msgid "Resetting printer, will restart, please wait..."
-#~ msgstr "正在重置印表機，將重新啟動，請稍候..."
+msgid "Please wait for the camera initialization to complete."
+msgstr "請等待攝影機初始化完成。"
 
-#~ msgid "Reset"
-#~ msgstr "重置"
+msgid "Please wait for the camera's fill light to light up for 5 seconds before clicking 'Start'"
+msgstr "請等待攝影機的填光燈亮起 5 秒後再點擊 '開始'"
 
-#~ msgid "Poweroff"
-#~ msgstr "關機"
+msgid "Couldn't get the calibration camera position."
+msgstr "無法獲取校準攝影機位置。"
+
+msgid "Need home axis"
+msgstr "需要歸零軸"
+
+msgid "Choose Language"
+msgstr "選擇語言"
+
+msgid "Choose Timezone"
+msgstr "選擇時區"
+
+msgid "Select WiFi"
+msgstr "選擇 WiFi"
+
+msgid "Self-check"
+msgstr "自檢"
+
+msgid "Nozzle Heating"
+msgstr "噴頭加熱"
+
+msgid "Hot Bed Heating"
+msgstr "熱床加熱"
+
+msgid "Nozzle Cooling Fan"
+msgstr "噴頭散熱風扇"
+
+msgid "Hotend Cooling Fan"
+msgstr "熱端散熱風扇"
+
+msgid "Filament Detection"
+msgstr "檢測線料"
+
+msgid "Auto Leveling"
+msgstr "自動調平"
+
+msgid "WiFi"
+msgstr "WiFi"
+
+msgid "Power loss recovery, is resume print?"
+msgstr "電源喪失恢復，是否恢復打印？"
+
+msgid "Please wait until the bed and nozzle are heated before calibrating."
+msgstr "在校準前，請等待床和噴頭加熱。"
+
+msgid "Current language:"
+msgstr "當前語言："
+
+msgid "Skip All"
+msgstr "全部跳過"
+
+msgid "Do not touch the printer during self-check."
+msgstr "在自檢過程中請勿觸摸印表機。"
+
+msgid "Confirm"
+msgstr "確認"
+
+msgid "Current timezone:"
+msgstr "當前時區："
+
+msgid "Choose a timezone"
+msgstr "選擇時區"
+
+msgid "Choose a language"
+msgstr "選擇語言"
+
+msgid "Please wait for the print job to end"
+msgstr "請等待打印作業結束"
+
+msgid "Are you sure you wish to reset the printer?"
+msgstr "確定要重置印表機嗎？"
+
+msgid "Data will be deleted"
+msgstr "數據將被刪除"
+
+msgid "Reset Printer"
+msgstr "重置印表機"
+
+msgid "Resetting printer, will restart, please wait..."
+msgstr "正在重置印表機，將重新啟動，請稍候..."
+
+msgid "Reset"
+msgstr "重置"
+
+msgid "Poweroff"
+msgstr "關機"
+
+msgid "Confirm Pos"
+msgstr "確認位置"
+
+msgid "Shut down after printing completes"
+msgstr "打印完關機"
+
+msgid "Voice Notify"
+msgstr "語音提示"
+
+msgid "Filament Box Power"
+msgstr "耗材箱電源"
+
+msgid "If your calibration device is under the PEI, please lift the PEI after homing."
+msgstr "如果您的校準裝置在PEI下方，請在歸位後抬起PEI。"
+
+msgid "Homing the printer..."
+msgstr "正在將印表機歸位..."
+
+msgid "Starting dual nozzle height calibration..."
+msgstr "開始雙噴嘴高度校準..."
+
+msgid "Please observe if the nozzle is positioned above the probe."
+msgstr "請觀察噴嘴是否位於探針上方。"
+
+msgid "Warning: Negative value detected. This is dangerous and may damage the machine. Please recalibrate."
+msgstr "警告：檢測到負值。這很危險，可能會損壞機器。請重新校準。"
+
+msgid "New nozzle height difference is: "
+msgstr "新的噴嘴高度差異為："
+
+msgid "Warning: Current value is negative. This is dangerous and may damage the machine. Please recalibrate."
+msgstr "警告：當前值為負數。這很危險，可能會損壞機器。請重新校準。"
+
+msgid "Z Height Diff"
+msgstr "Z軸高度差"
+
+msgid "Adjust Zprobe Pos"
+msgstr "調整Z探針位置"
+
+msgid "Need reboot, relaunch immediately?"
+msgstr "需要重啟，是否立即重啟?"
+
+msgid "Current nozzle height difference: "
+msgstr "目前噴嘴高度差: "
+
+msgid "New nozzle height difference: "
+msgstr "新的噴嘴高度差: "
+
+msgid "Dangerous nozzle height difference: "
+msgstr "危險的噴嘴高度差: "
+
+msgid "Saved successfully!"
+msgstr "儲存成功!"
 
 # Feed Filament Box
-#~ msgid "Edit"
-#~ msgstr "編輯"
+msgid "Edit"
+msgstr "編輯"
 
-#~ msgid "Filament Info"
-#~ msgstr "耗材資訊"
+msgid "Filament Info"
+msgstr "耗材資訊"
 
-#~ msgid "Not found"
-#~ msgstr "未找到"
+msgid "Not found"
+msgstr "未找到"
 
-#~ msgid "Vendor"
-#~ msgstr "廠商"
+msgid "Vendor"
+msgstr "廠商"
 
-#~ msgid "Type"
-#~ msgstr "類型"
+msgid "Type"
+msgstr "類型"
 
-#~ msgid "Set Color"
-#~ msgstr "設置顏色"
+msgid "Color"
+msgstr "顏色"
 
-#~ msgid "Filament Settings"
-#~ msgstr "耗材設置"
+msgid "Set Color"
+msgstr "設置顏色"
 
-#~ msgid "Multi-Material Box"
-#~ msgstr "多色耗材箱"
+msgid "Filament Settings"
+msgstr "耗材設置"
 
-#~ msgid "Are you sure you wish to restart the firmware?"
-#~ msgstr "您確定要重新啟動韌體嗎？"
+msgid "Multi-Material Box"
+msgstr "多色耗材箱"
 
-#~ msgid "Autofill filament disable"
-#~ msgstr "禁用自動填充材料"
+msgid "Are you sure you wish to restart the firmware?"
+msgstr "您確定要重新啟動韌體嗎？"
 
-#~ msgid "Autofill filament enabled"
-#~ msgstr "啟用自動填充材料"
+msgid "Autofill filament disable"
+msgstr "禁用自動填充材料"
 
-#~ msgid "Autofill filament: %s"
-#~ msgstr "自動填充材料: %s"
+msgid "Autofill filament enabled"
+msgstr "啟用自動填充材料"
 
-#~ msgid "Backing up configuration files."
-#~ msgstr "正在備份配置文件。"
+msgid "Autofill filament: %s"
+msgstr "自動填充材料: %s"
 
-#~ msgid "Calibrate Cutter Pos"
-#~ msgstr "校準切割器位置"
+msgid "Backing up configuration files."
+msgstr "正在備份配置文件。"
 
-#~ msgid "Couldn't get the calibration cutter position."
-#~ msgstr "無法獲取切割器的校準位置。"
+msgid "Calibrate Cutter Pos"
+msgstr "校準切割器位置"
 
-#~ msgid "Current filament indexes are:%s, active tool:%s"
-#~ msgstr "當前材料索引為：%s，活動工具：%s"
+msgid "Couldn't get the calibration cutter position."
+msgstr "無法獲取切割器的校準位置。"
 
-#~ msgid ""
-#~ "Current filament indexes are:%s, active tool:%s, resume_tool:%s, "
-#~ "pause_reason:%s"
-#~ msgstr "當前材料索引為：%s，活動工具：%s，恢復工具：%s，暫停原因：%s"
+msgid "Current filament indexes are:%s, active tool:%s"
+msgstr "當前材料索引為：%s，活動工具：%s"
 
-#~ msgid "Current value is %s"
-#~ msgstr "當前值為 %s"
+msgid "Current filament indexes are:%s, active tool:%s, resume_tool:%s, pause_reason:%s"
+msgstr "當前材料索引為：%s，活動工具：%s，恢復工具：%s，暫停原因：%s"
 
-#~ msgid "Cut Filament Test"
-#~ msgstr "切斷材料測試"
+msgid "Current value is %s"
+msgstr "當前值為 %s"
 
-#~ msgid "Do you want to enable multi-material box?"
-#~ msgstr "您想要啟用多材料盒嗎？"
+msgid "Cut Filament Test"
+msgstr "切斷材料測試"
 
-#~ msgid "Do you want to use external filament?"
-#~ msgstr "您想要使用外部材料嗎？"
+msgid "Do you want to enable multi-material box?"
+msgstr "您想要啟用多材料盒嗎？"
 
-#~ msgid "Error: Offset values not found"
-#~ msgstr "錯誤：未找到偏移值"
+msgid "Do you want to use external filament?"
+msgstr "您想要使用外部材料嗎？"
 
-#~ msgid "Error: Z offset value not found"
-#~ msgstr "錯誤：未找到 Z 偏移值"
+msgid "Error: Offset values not found"
+msgstr "錯誤：未找到偏移值"
 
-#~ msgid "External Filament"
-#~ msgstr "外部材料"
+msgid "Error: Z offset value not found"
+msgstr "錯誤：未找到 Z 偏移值"
 
-#~ msgid "Extruder not hot enough"
-#~ msgstr "噴頭溫度不夠高"
+msgid "External Filament"
+msgstr "外部材料"
 
-#~ msgid "FEED error:External filament not removed"
-#~ msgstr "進料錯誤：外部材料未移除"
+msgid "Extruder not hot enough"
+msgstr "噴頭溫度不夠高"
 
-#~ msgid "Filament %s not found"
-#~ msgstr "未找到材料 %s"
+msgid "FEED error:External filament not removed"
+msgstr "進料錯誤：外部材料未移除"
 
-#~ msgid "Filament Sensor%s: No filament detected, canceling print"
-#~ msgstr "材料傳感器%s：未檢測到材料，取消打印"
+msgid "Filament %s not found"
+msgstr "未找到材料 %s"
 
-#~ msgid "Filament Sensor%s: No filament detected, pausing print"
-#~ msgstr "材料傳感器%s：未檢測到材料，暫停打印"
+msgid "Filament Sensor%s: No filament detected, canceling print"
+msgstr "材料傳感器%s：未檢測到材料，取消打印"
 
-#~ msgid "Filament Sensor0: No filament detected, pausing print"
-#~ msgstr "材料傳感器0：未檢測到材料，暫停打印"
+msgid "Filament Sensor%s: No filament detected, pausing print"
+msgstr "材料傳感器%s：未檢測到材料，暫停打印"
 
-#~ msgid "Filament Sensor1: No filament detected, pausing print"
-#~ msgstr "材料傳感器1：未檢測到材料，暫停打印"
+msgid "Filament Sensor0: No filament detected, pausing print"
+msgstr "材料傳感器0：未檢測到材料，暫停打印"
 
-#~ msgid ""
-#~ "Filament detected! Please remove filament from the hotend before enabling "
-#~ "multi-material box."
-#~ msgstr "檢測到材料！請在啟用多材料盒之前將材料從熱端移除。"
+msgid "Filament Sensor1: No filament detected, pausing print"
+msgstr "材料傳感器1：未檢測到材料，暫停打印"
 
-#~ msgid "Missing required recovery data"
-#~ msgstr "缺少必要的恢復數據"
+msgid "Filament detected! Please remove filament from the hotend before enabling multi-material box."
+msgstr "檢測到材料！請在啟用多材料盒之前將材料從熱端移除。"
 
-#~ msgid "No power loss recovery data found"
-#~ msgstr "未找到斷電恢復數據"
+msgid "Missing required recovery data"
+msgstr "缺少必要的恢復數據"
 
-#~ msgid "No valid params 'S'"
-#~ msgstr "無效的參數 'S'"
+msgid "No power loss recovery data found"
+msgstr "未找到斷電恢復數據"
 
-#~ msgid "No"
-#~ msgstr "否"
+msgid "No valid params 'S'"
+msgstr "無效的參數 'S'"
 
-#~ msgid "Options"
-#~ msgstr "選項"
+msgid "No"
+msgstr "否"
 
-#~ msgid "Pause. The \"extruder\" extrude error!"
-#~ msgstr "暫停。噴頭擠出錯誤！"
+msgid "OK"
+msgstr "確定"
 
-#~ msgid "Please exit the filament from the nozzle first"
-#~ msgstr "請先將材料從噴嘴中退出"
+msgid "Options"
+msgstr "選項"
 
-#~ msgid ""
-#~ "Please fill in the voice number correctly: 0-start printing, 1-end "
-#~ "printing, 2-outage detected, 3-cancel printing, 4-pause printing"
-#~ msgstr ""
-#~ "請正確填寫語音號碼：0-開始打印，1-結束打印，2-檢測到斷電，3-取消打印，4-暫"
-#~ "停打印"
+msgid "Pause. The \"extruder\" extrude error!"
+msgstr "暫停。噴頭擠出錯誤！"
 
-#~ msgid "Please select how you would like to proceed."
-#~ msgstr "請選擇您希望如何繼續。"
+msgid "Please exit the filament from the nozzle first"
+msgstr "請先將材料從噴嘴中退出"
 
-#~ msgid "Power loss recovery, resuming print."
-#~ msgstr "斷電恢復，恢復打印。"
+msgid "Please fill in the voice number correctly: 0-start printing, 1-end printing, 2-outage detected, 3-cancel printing, 4-pause printing"
+msgstr "請正確填寫語音號碼：0-開始打印，1-結束打印，2-檢測到斷電，3-取消打印，4-暫停打印"
 
-#~ msgid "Power loss, saving print states."
-#~ msgstr "斷電，保存打印狀態。"
+msgid "Please select how you would like to proceed."
+msgstr "請選擇您希望如何繼續。"
 
-#~ msgid "Press feedsys button"
-#~ msgstr "按鈕進料系統按鈕"
+msgid "Power loss recovery, resuming print."
+msgstr "斷電恢復，恢復打印。"
 
-#~ msgid "Print resumed from power loss position"
-#~ msgstr "從斷電位置恢復打印"
+msgid "Power loss, saving print states."
+msgstr "斷電，保存打印狀態。"
 
-#~ msgid "Printer not homed"
-#~ msgstr "打印機未回原點"
+msgid "Press feedsys button"
+msgstr "按鈕進料系統按鈕"
 
-#~ msgid "RESUME error:autofill no fil"
-#~ msgstr "恢復錯誤：無自動填充材料"
+msgid "Print resumed from power loss position"
+msgstr "從斷電位置恢復打印"
 
-#~ msgid "RESUME error:no fil"
-#~ msgstr "恢復錯誤：無材料"
+msgid "Printer not homed"
+msgstr "打印機未回原點"
 
-#~ msgid "RESUME error:residual fil"
-#~ msgstr "恢復錯誤：剩餘材料"
+msgid "RESUME error:autofill no fil"
+msgstr "恢復錯誤：無自動填充材料"
 
-#~ msgid "Recovery data: Z=%s, File=%s, Pos=%s"
-#~ msgstr "恢復數據：Z=%s，檔案=%s，位置=%s"
+msgid "RESUME error:no fil"
+msgstr "恢復錯誤：無材料"
 
-#~ msgid "T%s direct feed"
-#~ msgstr "T%s 直接進料"
+msgid "RESUME error:residual fil"
+msgstr "恢復錯誤：剩餘材料"
 
-#~ msgid "T0 direct feed"
-#~ msgstr "T0 直接進料"
+msgid "Recovery data: Z=%s, File=%s, Pos=%s"
+msgstr "恢復數據：Z=%s，檔案=%s，位置=%s"
 
-#~ msgid "T0 need exit filament"
-#~ msgstr "T0 需要退出材料"
+msgid "Save & Restart"
+msgstr "保存並重新啟動"
 
-#~ msgid "T1 direct feed"
-#~ msgstr "T1 直接進料"
+msgid "T%s direct feed"
+msgstr "T%s 直接進料"
 
-#~ msgid "T1 need exit filament"
-#~ msgstr "T1 需要退出材料"
+msgid "T0 direct feed"
+msgstr "T0 直接進料"
 
-#~ msgid "T2 direct feed"
-#~ msgstr "T2 直接進料"
+msgid "T0 need exit filament"
+msgstr "T0 需要退出材料"
 
-#~ msgid "T2 need exit filament"
-#~ msgstr "T2 需要退出材料"
+msgid "T1 direct feed"
+msgstr "T1 直接進料"
 
-#~ msgid "T3 direct feed"
-#~ msgstr "T3 直接進料"
+msgid "T1 need exit filament"
+msgstr "T1 需要退出材料"
 
-#~ msgid "T3 need exit filament"
-#~ msgstr "T3 需要退出材料"
+msgid "T2 direct feed"
+msgstr "T2 直接進料"
 
-#~ msgid "The \"extruder\" extrude error!"
-#~ msgstr "噴頭擠出錯誤！"
+msgid "T2 need exit filament"
+msgstr "T2 需要退出材料"
 
-#~ msgid "The current toolheade is T%s"
-#~ msgstr "當前工具頭為 T%s"
+msgid "T3 direct feed"
+msgstr "T3 直接進料"
 
-#~ msgid "The current toolheade is T0"
-#~ msgstr "當前工具頭為 T0"
+msgid "T3 need exit filament"
+msgstr "T3 需要退出材料"
 
-#~ msgid "The current toolheade is T1"
-#~ msgstr "當前工具頭為 T1"
+msgid "The \"extruder\" extrude error!"
+msgstr "噴頭擠出錯誤！"
 
-#~ msgid "The current toolheade is T2"
-#~ msgstr "當前工具頭為 T2"
+msgid "The current toolheade is T%s"
+msgstr "當前工具頭為 T%s"
 
-#~ msgid "The current toolheade is T3"
-#~ msgstr "當前工具頭為 T3"
+msgid "The current toolheade is T0"
+msgstr "當前工具頭為 T0"
 
-#~ msgid "The filament_box_%s no filament"
-#~ msgstr "材料盒_%s 無材料"
+msgid "The current toolheade is T1"
+msgstr "當前工具頭為 T1"
 
-#~ msgid "The motor is wrong."
-#~ msgstr "馬達有問題。"
+msgid "The current toolheade is T2"
+msgstr "當前工具頭為 T2"
 
-#~ msgid "There is a residual filament, Please remove and continue"
-#~ msgstr "有剩餘材料，請移除並繼續"
+msgid "The current toolheade is T3"
+msgstr "當前工具頭為 T3"
 
-#~ msgid "There's a residual filament in box %s"
-#~ msgstr "盒子 %s 中有剩餘材料"
+msgid "The filament_box_%s no filament"
+msgstr "材料盒_%s 無材料"
 
-#~ msgid "There's a residual filament in box 1"
-#~ msgstr "盒子 1 中有剩餘材料"
+msgid "The motor is wrong."
+msgstr "馬達有問題。"
 
-#~ msgid "There's a residual filament in box 2"
-#~ msgstr "盒子 2 中有剩餘材料"
+msgid "There is a residual filament, Please remove and continue"
+msgstr "有剩餘材料，請移除並繼續"
 
-#~ msgid "There's a residual filament in box 3"
-#~ msgstr "盒子 3 中有剩餘材料"
+msgid "There's a residual filament in box %s"
+msgstr "盒子 %s 中有剩餘材料"
 
-#~ msgid "There's a residual filament in box 4"
-#~ msgstr "盒子 4 中有剩餘材料"
+msgid "There's a residual filament in box 1"
+msgstr "盒子 1 中有剩餘材料"
 
-#~ msgid "Unknown filament"
-#~ msgstr "未知材料"
+msgid "There's a residual filament in box 2"
+msgstr "盒子 2 中有剩餘材料"
 
-#~ msgid "Use external filament, please manually exit"
-#~ msgstr "使用外部材料，請手動退出"
+msgid "There's a residual filament in box 3"
+msgstr "盒子 3 中有剩餘材料"
 
-#~ msgid "Yes"
-#~ msgstr "是"
+msgid "There's a residual filament in box 4"
+msgstr "盒子 4 中有剩餘材料"
 
-#~ msgid "auto shutdown error"
-#~ msgstr "自動關機錯誤"
+msgid "Unknown fan"
+msgstr "未知風扇"
 
-#~ msgid "bed_mash:%s"
-#~ msgstr "床層網格：%s"
+msgid "Unknown filament"
+msgstr "未知材料"
 
-#~ msgid "clean pause_reason"
-#~ msgstr "清除暫停原因"
+msgid "Use external filament, please manually exit"
+msgstr "使用外部材料，請手動退出"
 
-#~ msgid "cut filament"
-#~ msgstr "切斷材料"
+msgid "Warning"
+msgstr "警告"
 
-#~ msgid "cutter press!"
-#~ msgstr "切割器按下！"
+msgid "Yes"
+msgstr "是"
 
-#~ msgid "cutter release!"
-#~ msgstr "切割器釋放！"
+msgid "auto shutdown error"
+msgstr "自動關機錯誤"
 
-#~ msgid "feed busy"
-#~ msgstr "正在進料"
+msgid "bed_mash:%s"
+msgstr "床層網格：%s"
 
-#~ msgid "feed error"
-#~ msgstr "進料錯誤"
+msgid "clean pause_reason"
+msgstr "清除暫停原因"
 
-#~ msgid "feed finish"
-#~ msgstr "進料完成"
+msgid "cut filament"
+msgstr "切斷材料"
 
-#~ msgid "filament not removed"
-#~ msgstr "材料未移除"
+msgid "cutter press!"
+msgstr "切割器按下！"
 
-#~ msgid "filament pause reason"
-#~ msgstr "材料暫停原因"
+msgid "cutter release!"
+msgstr "切割器釋放！"
 
-#~ msgid "filament press"
-#~ msgstr "材料按下"
+msgid "feed busy"
+msgstr "正在進料"
 
-#~ msgid "filament release"
-#~ msgstr "材料釋放"
+msgid "feed error"
+msgstr "進料錯誤"
 
-#~ msgid "filament remove"
-#~ msgstr "移除材料"
+msgid "feed finish"
+msgstr "進料完成"
 
-#~ msgid "filament runout"
-#~ msgstr "材料耗盡"
+msgid "filament not removed"
+msgstr "材料未移除"
 
-#~ msgid "filament%s:%s"
-#~ msgstr "材料%s:%s"
+msgid "filament pause reason"
+msgstr "材料暫停原因"
 
-#~ msgid "flush filament"
-#~ msgstr "沖洗材料"
+msgid "filament press"
+msgstr "材料按下"
 
-#~ msgid "motion sensor insert"
-#~ msgstr "運動傳感器插入"
+msgid "filament release"
+msgstr "材料釋放"
 
-#~ msgid "motion sensor runout"
-#~ msgstr "運動傳感器耗盡"
+msgid "filament remove"
+msgstr "移除材料"
 
-#~ msgid "motor_%s press"
-#~ msgstr "馬達_%s 按下"
+msgid "filament runout"
+msgstr "材料耗盡"
 
-#~ msgid "motor_%s release"
-#~ msgstr "馬達_%s 釋放"
+msgid "filament%s:%s"
+msgstr "材料%s:%s"
 
-#~ msgid "motor_1 press"
-#~ msgstr "馬達_1 按下"
+msgid "flush filament"
+msgstr "沖洗材料"
 
-#~ msgid "motor_1 release"
-#~ msgstr "馬達_1 釋放"
+msgid "motion sensor insert"
+msgstr "運動傳感器插入"
 
-#~ msgid "motor_2 press"
-#~ msgstr "馬達_2 按下"
+msgid "motion sensor runout"
+msgstr "運動傳感器耗盡"
 
-#~ msgid "motor_2 release"
-#~ msgstr "馬達_2 釋放"
+msgid "motor_%s press"
+msgstr "馬達_%s 按下"
 
-#~ msgid "motor_3 press"
-#~ msgstr "馬達_3 按下"
+msgid "motor_%s release"
+msgstr "馬達_%s 釋放"
 
-#~ msgid "motor_3 release"
-#~ msgstr "馬達_3 釋放"
+msgid "motor_1 press"
+msgstr "馬達_1 按下"
 
-#~ msgid "motor_4 press"
-#~ msgstr "馬達_4 按下"
+msgid "motor_1 release"
+msgstr "馬達_1 釋放"
 
-#~ msgid "motor_4 release"
-#~ msgstr "馬達_4 釋放"
+msgid "motor_2 press"
+msgstr "馬達_2 按下"
 
-#~ msgid "no bed_mash name"
-#~ msgstr "沒有床層網格名稱"
+msgid "motor_2 release"
+msgstr "馬達_2 釋放"
 
-#~ msgid "no bed_mash"
-#~ msgstr "沒有床層網格"
+msgid "motor_3 press"
+msgstr "馬達_3 按下"
 
-#~ msgid "no enabled"
-#~ msgstr "未啟用"
+msgid "motor_3 release"
+msgstr "馬達_3 釋放"
 
-#~ msgid "press button%s"
-#~ msgstr "按鈕%s"
+msgid "motor_4 press"
+msgstr "馬達_4 按下"
 
-#~ msgid "press button1"
-#~ msgstr "按鈕1"
+msgid "motor_4 release"
+msgstr "馬達_4 釋放"
 
-#~ msgid "press button2"
-#~ msgstr "按鈕2"
+msgid "no bed_mash name"
+msgstr "沒有床層網格名稱"
 
-#~ msgid "press button3"
-#~ msgstr "按鈕3"
+msgid "no bed_mash"
+msgstr "沒有床層網格"
 
-#~ msgid "press button4"
-#~ msgstr "按鈕4"
+msgid "no enabled"
+msgstr "未啟用"
 
-#~ msgid "remove filament"
-#~ msgstr "移除材料"
+msgid "press button%s"
+msgstr "按鈕%s"
 
-#~ msgid "residual filament%s"
-#~ msgstr "剩餘材料%s"
+msgid "press button1"
+msgstr "按鈕1"
 
-#~ msgid "residual filament0"
-#~ msgstr "剩餘材料0"
+msgid "press button2"
+msgstr "按鈕2"
 
-#~ msgid "residual filament1"
-#~ msgstr "剩餘材料1"
+msgid "press button3"
+msgstr "按鈕3"
 
-#~ msgid "residual filament2"
-#~ msgstr "剩餘材料2"
+msgid "press button4"
+msgstr "按鈕4"
 
-#~ msgid "residual filament3"
-#~ msgstr "剩餘材料3"
+msgid "remove filament"
+msgstr "移除材料"
 
-#~ msgid "resume:%s"
-#~ msgstr "恢復：%s"
+msgid "residual filament%s"
+msgstr "剩餘材料%s"
 
-#~ msgid "resume_tool:%s pause_reason:%s"
-#~ msgstr "恢復工具：%s 暫停原因：%s"
+msgid "residual filament0"
+msgstr "剩餘材料0"
 
-#~ msgid "Copy Print"
-#~ msgstr "複製列印"
+msgid "residual filament1"
+msgstr "剩餘材料1"
 
-#~ msgid "Mirror Print"
-#~ msgstr "鏡像列印"
+msgid "residual filament2"
+msgstr "剩餘材料2"
 
-#~ msgid "Manual Calibration"
-#~ msgstr "手動校準"
+msgid "residual filament3"
+msgstr "剩餘材料3"
 
-#~ msgid "Calibration successful!"
-#~ msgstr "校準成功！"
+msgid "resume:%s"
+msgstr "恢復：%s"
 
-#~ msgid "Auto calibration failed. Please clean the nozzle and try again."
-#~ msgstr "自動校準失敗。請清潔噴嘴後重試。"
+msgid "resume_tool:%s pause_reason:%s"
+msgstr "恢復工具：%s 暫停原因：%s"
 
-#~ msgid ""
-#~ "Auto calibration is not available. Please install required dependencies."
-#~ msgstr "自動校準功能不可用。請安裝所需的相依套件。"
+msgid "Copy Print"
+msgstr "複製列印"
 
-#~ msgid "Left extruder template saved"
-#~ msgstr "已儲存左噴頭範本"
+msgid "Mirror Print"
+msgstr "鏡像列印"
 
-#~ msgid "Right extruder template saved"
-#~ msgstr "已儲存右噴頭範本"
+msgid "Manual Calibration"
+msgstr "手動校準"
 
-#~ msgid "No template images found. Please perform manual calibration first."
-#~ msgstr "找不到範本影像。請先執行手動校準。"
+msgid "Auto Calibration"
+msgstr "自動校準"
 
-#~ msgid "Getting image of left extruder"
-#~ msgstr "正在取得左噴頭影像"
+msgid "Calibration successful!"
+msgstr "校準成功！"
 
-#~ msgid "Getting image of right extruder"
-#~ msgstr "正在取得右噴頭影像"
+msgid "Auto calibration failed. Please clean the nozzle and try again."
+msgstr "自動校準失敗。請清潔噴嘴後重試。"
 
-#~ msgid ""
-#~ "Left extruder calibration failed. Please clean the nozzle and try again."
-#~ msgstr "左噴頭校準失敗。請清潔噴嘴後重試。"
+msgid "Auto calibration is not available. Please install required dependencies."
+msgstr "自動校準功能不可用。請安裝所需的相依套件。"
 
-#~ msgid ""
-#~ "Right extruder calibration failed. Please clean the nozzle and try again."
-#~ msgstr "右噴頭校準失敗。請清潔噴嘴後重試。"
+msgid "Left extruder template saved"
+msgstr "已儲存左噴頭範本"
 
-#~ msgid "left extruder pos: (%.3f, %.3f, %.3f)"
-#~ msgstr "左噴頭位置：(%.3f, %.3f, %.3f)"
+msgid "Right extruder template saved"
+msgstr "已儲存右噴頭範本"
 
-#~ msgid "Right extruder offset is (%.3f, %.3f, %.3f)"
-#~ msgstr "右噴頭偏移：(%.3f, %.3f, %.3f)"
+msgid "Failed to save template"
+msgstr "儲存範本失敗"
 
-#~ msgid ""
-#~ "Please wait for the camera's fill light to light up for 5 seconds before "
-#~ "clicking 'Manual Calibration' or 'Auto Calibration'"
-#~ msgstr "請等待相機補光燈亮起5秒後，再點擊「手動校準」或「自動校準」"
+msgid "No template images found. Please perform manual calibration first."
+msgstr "找不到範本影像。請先執行手動校準。"
 
-#~ msgid "The door is open."
-#~ msgstr "機門已開啟"
+msgid "Getting image of left extruder"
+msgstr "正在取得左噴頭影像"
 
-#~ msgid "The door is closed."
-#~ msgstr "機門已關閉"
+msgid "Getting image of right extruder"
+msgstr "正在取得右噴頭影像"
 
-#~ msgid "Error getting origin offset values: %s"
-#~ msgstr "取得原點偏移值時發生錯誤：%s"
+msgid "Left extruder calibration failed. Please clean the nozzle and try again."
+msgstr "左噴頭校準失敗。請清潔噴嘴後重試。"
 
-#~ msgid "Filament run out, pausing print"
-#~ msgstr "耗材用盡，暫停列印"
+msgid "Right extruder calibration failed. Please clean the nozzle and try again."
+msgstr "右噴頭校準失敗。請清潔噴嘴後重試。"
 
-#~ msgid "Not in single extruder mode, pausing print"
-#~ msgstr "不在單擠出機模式，暫停列印"
+msgid "left extruder pos: (%.3f, %.3f, %.3f)"
+msgstr "左噴頭位置：(%.3f, %.3f, %.3f)"
 
-#~ msgid "Current sensor not configured, pausing print"
-#~ msgstr "當前感測器未配置，暫停列印"
+msgid "Right extruder offset is (%.3f, %.3f, %.3f)"
+msgstr "右噴頭偏移：(%.3f, %.3f, %.3f)"
 
-#~ msgid "Other sensor not configured, pausing print"
-#~ msgstr "其他感測器未配置，暫停列印"
+msgid "Please wait for the camera's fill light to light up for 5 seconds before clicking 'Manual Calibration' or 'Auto Calibration'"
+msgstr "請等待相機補光燈亮起5秒後，再點擊「手動校準」或「自動校準」"
 
-#~ msgid "Current extruder has filament, continuing print"
-#~ msgstr "當前擠出機有耗材，繼續列印"
+msgid "The door is open."
+msgstr "機門已開啟"
 
-#~ msgid "Both extruders out of filament, pausing print"
-#~ msgstr "兩個擠出機均無耗材，暫停列印"
+msgid "The door is closed."
+msgstr "機門已關閉"
 
-#~ msgid "Filament run out, switching extruder"
-#~ msgstr "耗材用盡，切換擠出機"
+msgid "Error getting origin offset values: %s"
+msgstr "取得原點偏移值時發生錯誤：%s"
 
-#~ msgid "Switching to left extruder"
-#~ msgstr "切換到左擠出機"
+msgid "Raise"
+msgstr "上升"
 
-#~ msgid "Switching to right extruder"
-#~ msgstr "切換到右擠出機"
+msgid "Lower"
+msgstr "下降"
 
-#~ msgid "Extruder switch complete, resuming print"
-#~ msgstr "擠出機切換完成，恢復列印"
+msgid "Filament run out, pausing print"
+msgstr "耗材用盡，暫停列印"
 
-#~ msgid "Auto extruder switch already enabled"
-#~ msgstr "自動擠出機切換已啟用"
+msgid "Not in single extruder mode, pausing print"
+msgstr "不在單擠出機模式，暫停列印"
 
-#~ msgid ""
-#~ "Auto extruder switch enabled, this feature only works when printing with "
-#~ "a single extruder"
-#~ msgstr "自動擠出機切換已啟用，此功能僅在使用單擠出機列印時有效"
+msgid "Current sensor not configured, pausing print"
+msgstr "當前感測器未配置，暫停列印"
 
-#~ msgid "Auto extruder switch already disabled"
-#~ msgstr "自動擠出機切換已禁用"
+msgid "Other sensor not configured, pausing print"
+msgstr "其他感測器未配置，暫停列印"
 
-#~ msgid "Auto extruder switch disabled"
-#~ msgstr "自動擠出機切換已禁用"
+msgid "Current extruder has filament, continuing print"
+msgstr "當前擠出機有耗材，繼續列印"
 
-#~ msgid "Filament Sensor0: No filament detected, canceling print."
-#~ msgstr "耗材感測器0：未檢測到耗材，取消列印。"
+msgid "Both extruders out of filament, pausing print"
+msgstr "兩個擠出機均無耗材，暫停列印"
 
-#~ msgid "Filament Sensor1: No filament detected, canceling print."
-#~ msgstr "耗材感測器1：未檢測到耗材，取消列印。"
+msgid "Filament run out, switching extruder"
+msgstr "耗材用盡，切換擠出機"
 
-#~ msgid "Resume Print"
-#~ msgstr "恢復列印"
+msgid "Switching to left extruder"
+msgstr "切換到左擠出機"
 
-#~ msgid "Tip: Please ensure the nozzle is about 0.1mm above the model"
-#~ msgstr "提示：請確保噴嘴距離模型上方約為0.1毫米"
+msgid "Switching to right extruder"
+msgstr "切換到右擠出機"
 
-#~ msgid "Missing required information"
-#~ msgstr "缺少必要的資訊"
+msgid "Extruder switch complete, resuming print"
+msgstr "擠出機切換完成，恢復列印"
 
-#~ msgid "Please remove the extruder foam and take out the door handle."
-#~ msgstr "請移除擠出頭泡沫並取出門把手。"
+msgid "Auto extruder switch already enabled"
+msgstr "自動擠出機切換已啟用"
 
-#~ msgid "Print Issue Detected!"
-#~ msgstr "檢測到列印問題！"
+msgid "Auto extruder switch enabled, this feature only works when printing with a single extruder"
+msgstr "自動擠出機切換已啟用，此功能僅在使用單擠出機列印時有效"
 
-#~ msgid "AI Settings"
-#~ msgstr "AI設定"
+msgid "Auto extruder switch already disabled"
+msgstr "自動擠出機切換已禁用"
 
-#~ msgid "Detected defect: %s (Confidence: %.1f%%)"
-#~ msgstr "檢測到缺陷：%s（置信度：%.1f%%）"
+msgid "Auto extruder switch disabled"
+msgstr "自動擠出機切換已禁用"
 
-#~ msgid "AI Detection Error: %s"
-#~ msgstr "AI檢測錯誤：%s"
+msgid "Extruder switch when filament run out"
+msgstr "耗材用盡時切換擠出機"
+
+msgid "Filament Sensor0: No filament detected, canceling print."
+msgstr "耗材感測器0：未檢測到耗材，取消列印。"
+
+msgid "Filament Sensor1: No filament detected, canceling print."
+msgstr "耗材感測器1：未檢測到耗材，取消列印。"
+
+msgid "Resume Print"
+msgstr "恢復列印" 
+
+msgid "Filename:"
+msgstr "檔案名稱:"
+
+msgid "Print Height:"
+msgstr "列印高度:" 
+
+msgid "Nozzle Temp:"
+msgstr "噴嘴溫度:"
+
+msgid "Bed Temp:"
+msgstr "平臺溫度:" 
+
+msgid "Active Extruder:"
+msgstr "活動擠出機:"
+
+msgid "Tip: Please ensure the nozzle is about 0.1mm above the model"
+msgstr "提示：請確保噴嘴距離模型上方約為0.1毫米"
+
+msgid "Recovery File"
+msgstr "恢復檔案"  # 翻译自简体“恢复文件”
+
+msgid "Print height is less than 1mm"
+msgstr "列印高度小於1毫米" 
+
+msgid "Missing required information"
+msgstr "缺少必要的資訊" 
+
+msgid "Filename"
+msgstr "檔案名稱" 
+
+msgid "Print Height"
+msgstr "列印高度" 
+
+msgid "Nozzle Temperature"
+msgstr "噴嘴溫度" 
+
+msgid "Bed Temperature"
+msgstr "平臺溫度" 
+
+msgid "Active Extruder"
+msgstr "活動擠出機" 
+
+msgid "Power Loss Recovery"
+msgstr "斷電恢復"
+
+msgid "Force Move"
+msgstr "強制移動"
+
+msgid "Force move: "
+msgstr "強制移動："
+
+msgid "Apply Z offset to Probe?"
+msgstr "將Z軸偏移應用於探針？"
+
+msgid "Left Extruder: %s%.3f"
+msgstr "左擠出機: %s%.3f"
+
+msgid "Left Extruder: Not adjusted"
+msgstr "左擠出機: 未調整"
+
+msgid "Right Extruder: %s%.3f"
+msgstr "右擠出機: %s%.3f"
+
+msgid "Right Extruder: Not adjusted"
+msgstr "右擠出機: 未調整"
+
+msgid "Apply Z offset to Endstop?"
+msgstr "將Z軸偏移應用於限位開關？"
+
+msgid "Remove Foam"
+msgstr "移除泡沫"
+
+msgid "Please remove the extruder foam and take out the door handle."
+msgstr "請移除擠出頭泡沫並取出門把手。"
+
+msgid "Please click the Z raise button to raise the Z axis to remove the foam around the bottom of the case."
+msgstr "請點擊Z軸抬升按鈕，抬升Z軸以移除機箱底部周圍的泡沫。"
+
+msgid "Print Issue Detected!"
+msgstr "檢測到列印問題！"
+
+msgid "No prediction image available"
+msgstr "無預測圖片可用"
+
+msgid "Print resumed"
+msgstr "列印已恢復"
+
+msgid "Failed to resume print"
+msgstr "恢復列印失敗"
+
+msgid "Print cancelled"
+msgstr "列印已取消"
+
+msgid "Failed to cancel print"
+msgstr "取消列印失敗"
+
+msgid "Configure basic AI service settings. Enable the AI service to monitor your prints and adjust the confidence threshold for detection sensitivity."
+msgstr "配置基本的AI服務設定。啟用AI服務來監控您的列印作業，並調整信心閾值以控制檢測敏感度。"
+
+msgid "AI Detection Alert"
+msgstr "AI檢測警報"
+
+msgid "AI Monitor"
+msgstr "AI監控"
+
+msgid "AI Settings"
+msgstr "AI設定"
+
+msgid "Detected defect: %s (Confidence: %.1f%%)"
+msgstr "檢測到缺陷：%s（置信度：%.1f%%）"
+
+msgid "AI Detection Error: %s"
+msgstr "AI檢測錯誤：%s"
+
+msgid "AI Detection Service"
+msgstr "AI檢測服務"
+
+msgid "AI Server URL"
+msgstr "AI伺服器網址"
+
+msgid "Confidence Threshold (%)"
+msgstr "信心閾值 (%)"
+
+msgid "Detection Interval (seconds)"
+msgstr "檢測間隔 (秒)"
+
+msgid "Auto Pause on Detection"
+msgstr "檢測到時自動暫停"
+
+msgid "Enabled Defect Types"
+msgstr "啟用的缺陷類型"
+
+msgid "Camera Source"
+msgstr "攝影機來源"
+
+msgid "Camera URL"
+msgstr "攝影機網址"
+
+msgid "Continue Detection While Paused"
+msgstr "暫停時繼續檢測"
+
+msgid "Sound Notification"
+msgstr "聲音通知"
+
+msgid "All valves closed"
+msgstr "全部閥門已關閉"
+
+msgid "Auto Feed"
+msgstr "自動送料"
+
+msgid "Auto feed started"
+msgstr "已開始自動送料"
+
+msgid "Blowback Valve"
+msgstr "回吹閥"
+
+msgid "Buffer"
+msgstr "緩衝"
+
+msgid "Buffer → Printhead"
+msgstr "緩衝 → 列印頭"
+
+msgid "Buffer Valve"
+msgstr "緩衝閥"
+
+msgid "Disconnected"
+msgstr "未連線"
+
+msgid "Dryer"
+msgstr "乾燥箱"
+
+msgid "Dryer → Buffer"
+msgstr "乾燥箱 → 緩衝"
+
+msgid "Dryer Level"
+msgstr "乾燥箱料位"
+
+msgid "Dryer Sensor"
+msgstr "乾燥箱感測器"
+
+msgid "Dryer Valve"
+msgstr "乾燥箱閥"
+
+msgid "Feeder"
+msgstr "送料"
+
+msgid "Feeder:"
+msgstr "送料:"
+
+msgid "Hopper"
+msgstr "料斗"
+
+msgid "Hopper → Dryer"
+msgstr "料斗 → 乾燥箱"
+
+msgid "Hopper Level"
+msgstr "料斗料位"
+
+msgid "Hopper Valve"
+msgstr "料斗閥"
+
+msgid "Pressure:"
+msgstr "氣壓:"
+
+msgid "Printhead"
+msgstr "列印頭"
+
+msgid "Printhead 1"
+msgstr "列印頭1"
+
+msgid "Printhead 2"
+msgstr "列印頭2"
+
+msgid "Retract blowback"
+msgstr "回抽回吹"
+
+msgid "Retract started"
+msgstr "已開始回抽"
+
+msgid "Run Mode:"
+msgstr "模式:"
+
+msgid "Stop All"
+msgstr "全部停止"
+
+msgid "To Dryer"
+msgstr "到乾燥箱"
+
+msgid "To Buffer"
+msgstr "到緩衝"
+
+msgid "To Printhead"
+msgstr "到列印頭"
+
+msgid "Return Buffer"
+msgstr "回緩衝"

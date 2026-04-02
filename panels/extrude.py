@@ -16,6 +16,10 @@ class Panel(ScreenPanel):
         macros = self._printer.get_config_section_list("gcode_macro ")
         self.load_filament = any("LOAD_FILAMENT" in macro.upper() for macro in macros)
         self.unload_filament = any("UNLOAD_FILAMENT" in macro.upper() for macro in macros)
+        self.has_waste_chute = any(
+            macro[12:].strip().upper() == "MOVE_TO_WASTE_CHUTE"
+            for macro in macros
+        )
 
         self.speeds = ['100', '200']
         self.distances = ['1000', '2500', '5000', '10000']
@@ -40,7 +44,6 @@ class Panel(ScreenPanel):
             'retract': self._gtk.Button("retract", _("Unload"), "color1"),
             'temperature': self._gtk.Button("heat-up", _("Preheat"), "color4"),
             'spoolman': self._gtk.Button("spoolman", "Spoolman", "color3"),
-            'waste_chute': self._gtk.Button("move", _("Waste Chute"), "color1"),
         }
         self.buttons['extrude'].connect("clicked", self.extrude, "+")
         self.buttons['load'].connect("clicked", self.load_unload, "+")
@@ -54,7 +57,9 @@ class Panel(ScreenPanel):
             "name": "Spoolman",
             "panel": "spoolman"
         })
-        self.buttons['waste_chute'].connect("clicked", self.move_to_waste_chute)
+        if self.has_waste_chute:
+            self.buttons['waste_chute'] = self._gtk.Button("move", _("Waste Chute"), "color1")
+            self.buttons['waste_chute'].connect("clicked", self.move_to_waste_chute)
         extgrid = self._gtk.HomogeneousGrid()
         limit = 5
         i = 0
@@ -156,17 +161,21 @@ class Panel(ScreenPanel):
                 grid.attach(self.buttons['unload'], 2, 2, 2, 1)
             else:
                 grid.attach(self.buttons['temperature'], 2, 2, 2, 1)
-            grid.attach(self.buttons['waste_chute'], 0, 3, 4, 1)
-            grid.attach(distbox, 0, 4, 4, 1)
-            grid.attach(speedbox, 0, 5, 4, 1)
-            grid.attach(sensors, 0, 6, 4, 1)
+            next_row = 3
+            if self.has_waste_chute:
+                grid.attach(self.buttons['waste_chute'], 0, next_row, 4, 1)
+                next_row += 1
+            grid.attach(distbox, 0, next_row, 4, 1)
+            grid.attach(speedbox, 0, next_row + 1, 4, 1)
+            grid.attach(sensors, 0, next_row + 2, 4, 1)
         else:
             grid.attach(self.buttons['extrude'], 0, 2, 2, 1)
             if self.unload_filament:
-                grid.attach(self.buttons['unload'], 2, 2, 1, 1)
-                grid.attach(self.buttons['waste_chute'], 3, 2, 1, 1)
+                grid.attach(self.buttons['unload'], 2, 2, 1 if self.has_waste_chute else 2, 1)
             else:
-                grid.attach(self.buttons['temperature'], 2, 2, 2, 1)
+                grid.attach(self.buttons['temperature'], 2, 2, 1 if self.has_waste_chute else 2, 1)
+            if self.has_waste_chute:
+                grid.attach(self.buttons['waste_chute'], 3, 2, 1, 1)
             grid.attach(distbox, 0, 3, 2, 1)
             grid.attach(speedbox, 2, 3, 2, 1)
             grid.attach(sensors, 0, 4, 4, 1)

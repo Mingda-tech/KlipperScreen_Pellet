@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-02 16:39+0800\n"
+"POT-Creation-Date: 2024-06-27 18:24-0300\n"
 "PO-Revision-Date: 2024-04-13 16:48+0000\n"
 "Last-Translator: Dominik <dominik.sostar@gmail.com>\n"
 "Language-Team: Slovenian <https://hosted.weblate.org/projects/klipperscreen/"
@@ -27,20 +27,14 @@ msgstr "%s bo posodobljen na različico"
 msgid "(default)"
 msgstr "(privzeto)"
 
+msgid "24 Hour Time"
+msgstr "24 urni čas"
+
 msgid "A FIRMWARE_RESTART may fix the issue."
 msgstr "Ponovni zagon MKE bi mogoče rešilo težavo."
 
 msgid "ADXL Not Configured"
 msgstr "ADXL ni konfiguriran"
-
-msgid "AI Detection Service"
-msgstr "AI Storitev Zaznavanja"
-
-msgid "AI Detection Status"
-msgstr ""
-
-msgid "AI Server URL"
-msgstr "AI Strežniški URL"
 
 msgid "Abort"
 msgstr "Prekini"
@@ -51,32 +45,22 @@ msgstr "Pospešek:"
 msgid "Accept"
 msgstr "Sprejmi"
 
-msgid "Active Extruder"
-msgstr "Aktivni Ekstruder"
-
-msgid "Active Extruder:"
-msgstr "Aktivni Ekstruder:"
-
 msgid "Add profile"
 msgstr "Dodaj profil"
-
-msgid "Adjust Zprobe Pos"
-msgstr "Prilagodi položaj Z sonde"
 
 msgid "All"
 msgstr "Vse"
 
-msgid "All valves closed"
-msgstr "Vsi ventili zaprti"
-
 msgid "Apply"
 msgstr "Uporabi"
 
-msgid "Apply Z offset to Endstop?"
-msgstr "Uporabim Z odmik za končno stikalo?"
+#, python-format
+msgid "Apply %s%.3f offset to Endstop?"
+msgstr ""
 
-msgid "Apply Z offset to Probe?"
-msgstr "Uporabim Z odmik za sondo?"
+#, python-format
+msgid "Apply %s%.3f offset to Probe?"
+msgstr ""
 
 msgid "Archived"
 msgstr "Arhivirano"
@@ -99,17 +83,11 @@ msgstr "Ali ste prepričani da želite znova zagnati sistem?"
 msgid "Are you sure you wish to shutdown the system?"
 msgstr "Ali ste prepričani da želite zaustaviti sistem?"
 
+msgid "Asks for confirmation before stopping"
+msgstr ""
+
 msgid "Auto"
 msgstr "Samodejno"
-
-msgid "Auto Feed"
-msgstr "Samodejno podajanje"
-
-msgid "Auto Pause on Detection"
-msgstr "Samodejna Prekinitev ob Zaznavanju"
-
-msgid "Auto feed started"
-msgstr "Samodejno podajanje zagnano"
 
 msgid "Auto-calibrate"
 msgstr "Samodejna umeritev"
@@ -117,41 +95,20 @@ msgstr "Samodejna umeritev"
 msgid "Auto-close notifications"
 msgstr "Samodejno zapri obvestila"
 
+msgid "Auto-open Extrude On Pause"
+msgstr ""
+
 msgid "Auto-scroll"
 msgstr "Samodejno pomikanje"
-
-msgid "Back"
-msgstr ""
 
 msgid "Bed Level"
 msgstr "Umerjanje plošče"
 
-msgid "Bed Lower"
+msgid "Bed Mesh"
+msgstr "Umerjanje mreže"
+
+msgid "Both"
 msgstr ""
-
-msgid "Bed Temp:"
-msgstr "Temp. Postelje:"
-
-msgid "Bed Temperature"
-msgstr "Temperatura Postelje"
-
-msgid "Bed screw configuration:"
-msgstr "Umerjanje vijakov plošče:"
-
-msgid "Blowback Valve"
-msgstr "Ventil povratnega pihanja"
-
-msgid "Brightest"
-msgstr ""
-
-msgid "Buffer"
-msgstr "Buffer"
-
-msgid "Buffer Valve"
-msgstr "Ventil bufferja"
-
-msgid "Buffer → Printhead"
-msgstr "Buffer → glava"
 
 msgid "Calibrate"
 msgstr "Umerite"
@@ -162,17 +119,8 @@ msgstr "Umerjeno"
 msgid "Calibrating"
 msgstr "Umerjam"
 
-msgid "Calibration saved!"
-msgstr ""
-
 msgid "Camera"
 msgstr "Kamera"
-
-msgid "Camera Source"
-msgstr "Vir Kamere"
-
-msgid "Camera URL"
-msgstr "URL Kamere"
 
 msgid "Can't set above the maximum:"
 msgstr "Ni mogoče nastaviti nad največjo vrednostjo:"
@@ -192,7 +140,10 @@ msgstr "Preklicujem"
 msgid "Cannot connect to Moonraker"
 msgstr "Ne morem se povezati z Moonrakerjem"
 
-msgid "Capture Image"
+msgid "Changes how the interface looks"
+msgstr ""
+
+msgid "Changes how the time remaining is calculated"
 msgstr ""
 
 msgid "Channel"
@@ -204,57 +155,26 @@ msgstr "Preverite ožičenje ADXL"
 msgid "Checking for updates, please wait..."
 msgstr "Preverjanje posodobitev, počakajte ..."
 
-msgid "Choose Language"
-msgstr "Izberi jezik"
-
-msgid "Choose Timezone"
-msgstr "Izberi časovni pas"
-
-msgid "Choose a language"
-msgstr "Izberi jezik"
-
-msgid "Choose a timezone"
-msgstr "Izberi časovni pas"
-
 msgid "Clear"
 msgstr "Počisti"
-
-msgid "Clear History"
-msgstr ""
 
 msgid "Close"
 msgstr "Zapri"
 
-msgid "Color"
-msgstr "Barva"
+msgid "Close messages after a timeout"
+msgstr ""
 
 msgid "Complete"
 msgstr "Končano"
 
-msgid "Confidence Threshold (%)"
-msgstr "Prag Zanesljivosti (%)"
-
-msgid ""
-"Configure basic AI service settings. Enable the AI service to monitor your "
-"prints and adjust the confidence threshold for detection sensitivity."
-msgstr ""
-"Konfigurirajte osnovne nastavitve storitve AI. Omogočite storitev AI za "
-"nadzor vaših tiskov in prilagodite prag zaupanja za občutljivost zaznave."
-
-msgid "Confirm"
-msgstr "Potrdi"
-
 msgid "Confirm Emergency Stop"
 msgstr "Potrdite zaustavitev v sili"
 
-msgid "Confirm Movement"
-msgstr ""
-
-msgid "Confirm Pos"
-msgstr "Potrdi položaj"
-
 msgid "Connected"
 msgstr "Povezano"
+
+msgid "Connecting"
+msgstr ""
 
 #, python-format
 msgid "Connecting to %s"
@@ -263,41 +183,29 @@ msgstr "Povezujem s/z %s"
 msgid "Connection failed"
 msgstr "Povezava ni uspela"
 
-msgid "Continue Detection While Paused"
-msgstr "Nadaljuj Zaznavanje Med Prekinitvijo"
+msgid "Console"
+msgstr "Konzola"
 
 msgid "Cooldown"
 msgstr "Ohlajanje"
 
-msgid "Couldn't get the calibration camera position."
-msgstr "Ni bilo mogoče pridobiti položaja kalibracijske kamere."
-
-msgid "Couldn't get the calibration switch position."
+msgid "Couldn't add network"
 msgstr ""
 
-msgid "Current Detection Image"
+msgid "Current"
 msgstr ""
 
-msgid "Current language: "
-msgstr ""
-
-msgid "Current nozzle height difference: "
-msgstr "Trenutna razlika v višini šobe: "
-
-msgid "Current nozzle height difference: ?"
-msgstr ""
-
-msgid "Current timezone: "
+msgid "Current percentage and graph line"
 msgstr ""
 
 msgid "DPMS has failed to load and has been disabled"
 msgstr "DPMS se ni uspel naložiti in je onemogočen"
 
-msgid "Dangerous nozzle height difference: "
-msgstr "Nevarna razlika v višini šobe: "
-
 msgid "Date"
 msgstr "Datum"
+
+msgid "Delete"
+msgstr ""
 
 msgid "Delete Directory?"
 msgstr "Izbrišem imenik?"
@@ -305,48 +213,25 @@ msgstr "Izbrišem imenik?"
 msgid "Delete File?"
 msgstr "Izbrišem datoteko?"
 
-msgid "Deselect"
-msgstr "Prekliči izbiro"
-
-msgid "Detection History"
-msgstr ""
-
-msgid "Detection Interval (seconds)"
-msgstr "Interval Zaznavanja (sekunde)"
-
 msgid "Disable Motors"
 msgstr "Onemogoči motorje"
 
-msgid "Disabled"
+msgid "Disable for 12hs with am / pm"
 msgstr ""
 
-msgid "Disconnected"
-msgstr "Odklopljeno"
+msgid "Disconnect"
+msgstr ""
 
 msgid "Distance (mm)"
 msgstr "Razdalja (mm)"
 
-msgid "Do not touch the printer during self-check."
-msgstr "Med samopregledom se ne dotikajte tiskalnika."
+#, python-format
+msgid "Do you want to forget or disconnect %s?"
+msgstr ""
 
 #, python-format
 msgid "Do you want to recover %s?"
 msgstr "Ali želite obnoviti %s?"
-
-msgid "Dryer"
-msgstr "Sušilnik"
-
-msgid "Dryer Level"
-msgstr "Raven sušilnika"
-
-msgid "Dryer Sensor"
-msgstr "Tipalo sušilnika"
-
-msgid "Dryer Valve"
-msgstr "Ventil sušilnika"
-
-msgid "Dryer → Buffer"
-msgstr "Sušilnik → buffer"
 
 msgid "Elapsed:"
 msgstr "Preteklo:"
@@ -354,40 +239,58 @@ msgstr "Preteklo:"
 msgid "Emergency Stop"
 msgstr ""
 
-msgid "Enabled Defect Types"
-msgstr "Omogočene Vrste Napak"
+msgid "Enable screen power management"
+msgstr ""
 
 msgid "Error"
 msgstr "Napaka"
 
-msgid "Error writing configuration"
-msgstr "Napaka pri zapisovanju konfiguracije"
+msgid "Error clearing active spool"
+msgstr ""
+
+msgid "Error getting active spool"
+msgstr ""
+
+msgid "Error setting active spool"
+msgstr ""
+
+msgid "Error trying to fetch spools"
+msgstr ""
+
+msgid "Error: Couldn't get a position to probe"
+msgstr ""
+
+msgid "Estimated Time"
+msgstr ""
 
 msgid "Estimated Time Method"
 msgstr "Način predvidenega časa"
 
+msgid "Example"
+msgstr ""
+
 msgid "Exclude Object"
 msgstr "Izključi predmet"
+
+msgid "Extra Large"
+msgstr "Zelo veliko"
 
 msgid "Extrude"
 msgstr "Ekstrudirajte"
 
-msgid "Extruder switch when filament run out"
-msgstr "Zamenjava ekstruderja, ko se filament izteče"
+msgid "Extruders"
+msgstr "Ekstruderji"
 
-msgid "Failed to cancel print"
-msgstr "Preklic tiskanja ni uspel"
+msgid "Extrusion +"
+msgstr "Ekstruzija +"
 
-msgid "Failed to capture image"
+msgid "Extrusion -"
+msgstr "Ekstruzija -"
+
+msgid "Failed to delete connection"
 msgstr ""
 
-msgid "Failed to detect nozzles"
-msgstr ""
-
-msgid "Failed to resume print"
-msgstr "Nadaljevanje tiskanja ni uspelo"
-
-msgid "Failed to start AI monitoring"
+msgid "Failed to initialize"
 msgstr ""
 
 msgid "Failed, adjust position first"
@@ -396,14 +299,8 @@ msgstr "Ni uspelo, najprej prilagodite položaj"
 msgid "Fan"
 msgstr "Ventilator"
 
-msgid "Feeder"
+msgid "Filament"
 msgstr ""
-
-msgid "Feeder:"
-msgstr "Podajalnik:"
-
-msgid "Filament Box Power"
-msgstr "Napajanje škatle za filament"
 
 msgid "Filament Used"
 msgstr "Poraba filamenta"
@@ -423,12 +320,6 @@ msgstr "Datoteka"
 msgid "File:"
 msgstr "Datoteka:"
 
-msgid "Filename"
-msgstr "Ime Datoteke"
-
-msgid "Filename:"
-msgstr "Ime Datoteke:"
-
 msgid "Filter"
 msgstr "Filter"
 
@@ -444,46 +335,25 @@ msgstr "Končaj"
 msgid "Firmware Restart"
 msgstr "Ponovi zagon MKE"
 
-msgid "Firmware has disconnected"
-msgstr ""
-
-msgid "Firmware has encountered an error."
-msgstr ""
-
-msgid "Firmware has shutdown"
-msgstr ""
-
-msgid "Firmware is attempting to start"
-msgstr ""
-
-msgid "Firmware will reboot"
-msgstr ""
-
-msgid "Flow +"
-msgstr ""
-
-msgid "Flow -"
-msgstr ""
-
 msgid "Flow:"
 msgstr "Pretok:"
 
 msgid "Flowrate:"
 msgstr ""
 
-msgid "Force Cancel"
+msgid "Font Size"
+msgstr "Velikost pisave"
+
+msgid "Forget"
 msgstr ""
-
-msgid "Force Move"
-msgstr "Prisilno premikanje"
-
-msgid "Force move: "
-msgstr "Prisilno premikanje:"
 
 msgid "Full Update"
 msgstr "Polna posodobitev"
 
-msgid "Gcode Buttons"
+msgid "Gcodes"
+msgstr ""
+
+msgid "Getting IP address"
 msgstr ""
 
 msgid "Go Back"
@@ -492,14 +362,11 @@ msgstr "Nazaj"
 msgid "Height:"
 msgstr "Višina:"
 
-msgid "Hidden"
-msgstr "Skrito"
-
-msgid "Hidden Network"
-msgstr ""
-
 msgid "Hide"
 msgstr "Skrij"
+
+msgid "Hide sensors in Temp."
+msgstr "Skrij senzorje v temp."
 
 msgid "Hide temp."
 msgstr "Skrij temp."
@@ -522,20 +389,8 @@ msgstr "Nuliraj Y"
 msgid "Home Z"
 msgstr "Nuliraj Z"
 
-msgid "Homing the printer..."
-msgstr "Vračanje tiskalnika v izhodiščni položaj..."
-
-msgid "Hopper"
-msgstr "Lijak"
-
-msgid "Hopper Level"
-msgstr "Raven lijaka"
-
-msgid "Hopper Valve"
-msgstr "Ventil lijaka"
-
-msgid "Hopper → Dryer"
-msgstr "Lijak → sušilnik"
+msgid "Host"
+msgstr "Gostitelj"
 
 msgid "Hostname"
 msgstr "Ime gostitelja"
@@ -543,12 +398,8 @@ msgstr "Ime gostitelja"
 msgid "ID"
 msgstr "ID"
 
-msgid ""
-"If your calibration device is under the PEI, please lift the PEI after "
-"homing."
-msgstr ""
-"Če je vaša kalibracijska naprava pod PEI, prosimo dvignite PEI po vrnitvi v "
-"izhodiščni položaj."
+msgid "Icon Theme"
+msgstr "Tema ikon"
 
 msgid "Initializing printer..."
 msgstr "Inicializacija tiskalnika ..."
@@ -559,6 +410,9 @@ msgstr "Zaženite kalibracijo PID za:"
 msgid "Input Shaper"
 msgstr "Input Shaper"
 
+msgid "Insufficient privileges"
+msgstr ""
+
 msgid "Interface"
 msgstr "Vmesnik"
 
@@ -567,6 +421,9 @@ msgstr "Napačno"
 
 msgid "Invalid password"
 msgstr "Napačno geslo"
+
+msgid "Inversely affects the icon size"
+msgstr ""
 
 msgid "Invert X"
 msgstr "Zrcali X"
@@ -580,8 +437,29 @@ msgstr "Zrcali Z"
 msgid "It may take more than 5 minutes depending on the heater power."
 msgstr "Lahko traja več kot 5 minut, odvisno od moči grelnika."
 
-msgid "LEDs"
+msgid "It's possible that the configuration is not correct"
 msgstr ""
+
+msgid "Job Status"
+msgstr ""
+
+msgid "Klipper Restart"
+msgstr "Ponovni zagon Klipperja"
+
+msgid "Klipper has disconnected"
+msgstr "Poveza s Klipperjem je prekinjena"
+
+msgid "Klipper has encountered an error."
+msgstr "Klipper je javil napako."
+
+msgid "Klipper has shutdown"
+msgstr "Klipper se je ugasnil"
+
+msgid "Klipper is attempting to start"
+msgstr "Klipper se skuša zagnati"
+
+msgid "Klipper will reboot"
+msgstr "Klipper se bo ponovno zagnal"
 
 msgid ""
 "LOAD_FILAMENT/UNLOAD_FILAMENT are hidden and should be used from extrude"
@@ -592,11 +470,17 @@ msgstr ""
 msgid "Language"
 msgstr "Jezik"
 
-msgid "Last Detection:"
+msgid "Large"
+msgstr "Veliko"
+
+msgid "Last Duration"
 msgstr ""
 
 msgid "Last Used"
 msgstr "Nazadnje uporabljeno"
+
+msgid "Layer Height"
+msgstr ""
 
 msgid "Layer:"
 msgstr "Plast:"
@@ -604,42 +488,32 @@ msgstr "Plast:"
 msgid "Leds"
 msgstr "Led luči"
 
-#, python-format
-msgid "Left Extruder: %s%.3f"
-msgstr "Levi ekstruder: %s%.3f"
-
-msgid "Left Extruder: Not adjusted"
-msgstr "Levi ekstruder: Ni prilagojen"
-
 msgid "Left:"
 msgstr "Levo:"
 
-msgid "Leveling"
-msgstr ""
+msgid "Limits"
+msgstr "Omejitve"
 
 msgid "Load"
 msgstr "Naloži"
 
-msgid "Local"
-msgstr ""
+msgid "Loading..."
+msgstr "Nalagam..."
 
-msgid "Lower"
-msgstr "Navzdol"
+msgid "Lost Connection to Moonraker"
+msgstr "Izgubljena poveza z Moonrakerjem"
 
 msgid "Lower Nozzle"
 msgstr "Znižaj šobo"
 
+msgid "Macro shortcut on sidebar"
+msgstr "Makro bližnjica na stranski vrstici"
+
+msgid "Macros"
+msgstr "Makri"
+
 msgid "Main Menu"
 msgstr "Glavni meni"
-
-msgid "Manual"
-msgstr "Priročnik"
-
-msgid "Manual Detect"
-msgstr ""
-
-msgid "Manual Detection"
-msgstr ""
 
 msgid "Material"
 msgstr "Materijal"
@@ -650,11 +524,14 @@ msgstr "Maks"
 msgid "Max Acceleration"
 msgstr "Največji pospešek"
 
-msgid "Max Acceleration to Deceleration"
-msgstr "Največji pospešek do pojemka"
-
 msgid "Max Velocity"
 msgstr "Največja hitrost"
+
+msgid "Max:"
+msgstr ""
+
+msgid "Maximum"
+msgstr "Največ"
 
 msgid "Measure Both"
 msgstr "Izmeri oboje"
@@ -665,20 +542,23 @@ msgstr "Izmeri X"
 msgid "Measure Y"
 msgstr "Izmeri Y"
 
+msgid "Medium"
+msgstr "Srednje"
+
+msgid "Memory"
+msgstr ""
+
 msgid "Menu"
 msgstr "Meni"
 
-msgid "Mesh calibrate"
-msgstr "Umeritev mreže"
+msgid "Minimum Cruise Ratio"
+msgstr ""
+
+msgid "Minimum:"
+msgstr ""
 
 msgid "Modified"
 msgstr "Spremenjeno"
-
-msgid "Monitoring:"
-msgstr ""
-
-msgid "Moonraker"
-msgstr ""
 
 msgid "Moonraker: connected"
 msgstr "Moonraker: povezan"
@@ -695,17 +575,17 @@ msgstr "Razdalja premika (mm)"
 msgid "Name"
 msgstr "Ime"
 
-msgid "Need home axis"
-msgstr "Potrebna je domača os"
-
-msgid "Need reboot, relaunch immediately?"
-msgstr "Potreben je ponovni zagon, ponovno zaženem takoj?"
-
-msgid "Need to recalculate the offset value."
-msgstr "Potrebno je ponovno izračunati vrednost odmika."
-
 msgid "Network"
 msgstr "Omrežje"
+
+msgid "Network connected"
+msgstr ""
+
+msgid "Network disconnected"
+msgstr ""
+
+msgid "Network not found"
+msgstr ""
 
 msgid "Never"
 msgstr "Nikoli"
@@ -713,52 +593,20 @@ msgstr "Nikoli"
 msgid "New"
 msgstr "Novo"
 
-msgid "New nozzle height difference is: "
-msgstr "Nova razlika v višini šobe je: "
-
-msgid "New nozzle height difference: "
-msgstr "Nova razlika v višini šobe: "
-
-msgid "New nozzle height difference: ?"
-msgstr ""
-
-msgid "No Gcode Buttons configured"
-msgstr ""
-
-msgid "No calibration camera found."
-msgstr ""
-
-msgid "No camera URL available."
-msgstr ""
-
-msgid "No camera configured"
-msgstr ""
-
-msgid "No captured images found"
-msgstr ""
-
 msgid "No elegible macros:"
 msgstr "Neprimerni makri:"
 
 msgid "No info available"
 msgstr ""
 
-msgid "No prediction image available"
-msgstr "Slika napovedovanja ni na voljo"
+msgid "No mesh has been loaded"
+msgstr "Mreža ni naložena"
 
 msgid "No wireless interface has been found"
 msgstr "Brezžičnega vmesnika ni bilo mogoče najti"
 
-#, python-brace-format
-msgid "No {action} gcode configured for {button_name}"
+msgid "Not all screens support this"
 msgstr ""
-
-msgid ""
-"Not supported for auto-detection, it needs to be configured in klipperscreen."
-"conf"
-msgstr ""
-"Ni podprto za samodejno zaznavanje, treba ga je konfigurirati v "
-"klipperscreen.conf"
 
 msgid "Not working or not configured"
 msgstr "Ne deluje ali ni konfigurirano"
@@ -772,34 +620,25 @@ msgstr "Dnevnik obvestil je prazen"
 msgid "Notifications"
 msgstr "Obvestila"
 
-msgid "Nozzle Temp:"
-msgstr "Temp. Šobe:"
+msgid "Nozzle diameter"
+msgstr ""
 
-msgid "Nozzle Temperature"
-msgstr "Temperatura Šobe"
-
-msgid "OK"
-msgstr "V redu"
-
-msgid "Only one extruder does not require calibration."
-msgstr "Samo en ekstruder ne potrebuje kalibracije."
+msgid "Only for the move panel"
+msgstr ""
 
 #, python-format
 msgid "Outdated by %d"
 msgstr "Zastarelo za %d"
 
-msgid "Output Pins"
-msgstr ""
-
 msgid "PSK for"
 msgstr "PSK za"
 
 msgid "Package will be updated"
-msgid_plural "Packages will be updated"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+
+msgstr "Paket bo posodobljen"
+
+
+
 
 msgid "Part Fan"
 msgstr "Ventilator za dele"
@@ -816,55 +655,32 @@ msgstr "Zaustavljeno"
 msgid "Perform a full upgrade?"
 msgstr "Izvedem polno posodobitev?"
 
-msgid ""
-"Please click the Z raise button to raise the Z axis to remove the foam "
-"around the bottom of the case."
-msgstr ""
-"Prosimo, kliknite gumb za dvig Z, da dvignete os Z in odstranite peno okoli "
-"dna ohišja."
+msgid "Pins"
+msgstr "Pini"
 
-msgid "Please observe if the nozzle is positioned above the probe."
-msgstr "Prosimo, opazujte, ali je šoba nameščena nad sondo."
+msgid "Output Pins"
+msgstr "Izhodni pini"
 
 msgid "Please recompile and flash the micro-controller."
 msgstr ""
 
-msgid "Please wait for the camera initialization to complete."
-msgstr "Prosimo, počakajte, da se inicializacija kamere zaključi."
-
-msgid ""
-"Please wait for the camera's fill light to light up for 5 seconds before "
-"clicking 'Start'"
-msgstr ""
-"Prosimo, počakajte, da se polnilna luč kamere prižge za 5 sekund, preden "
-"kliknete 'Začni'"
-
-msgid "Please wait until the bed and nozzle is heated before calibrating."
+msgid "Please wait"
 msgstr ""
 
 msgid "Power"
 msgstr "Vklop"
 
-msgid "Power Loss Recovery"
-msgstr "Obnovitev po Izgubi Napajanja"
-
 msgid "Power On Printer"
 msgstr "Vklopite tiskalnik"
 
-msgid "Preheat"
-msgstr ""
-
-msgid "Press"
-msgstr ""
-
-msgid "Pressed"
-msgstr ""
+msgid "Pressure Advance"
+msgstr "Pressure Advance"
 
 msgid "Pressure Advance:"
 msgstr "Pressure Advance:"
 
-msgid "Pressure:"
-msgstr "Tlak:"
+msgid "Pressure advance"
+msgstr ""
 
 msgid "Print"
 msgstr "Natisni"
@@ -872,35 +688,14 @@ msgstr "Natisni"
 msgid "Print Control"
 msgstr "Nadzor tiskanja"
 
-msgid "Print Height"
-msgstr "Višina Tiska"
+msgid "Printer"
+msgstr "Tiskalnik"
 
-msgid "Print Height:"
-msgstr "Višina Tiska:"
-
-msgid "Print Time"
-msgstr "Čas tiskanja"
-
-msgid "Print cancelled"
-msgstr "Tiskanje preklicano"
-
-msgid "Print height is less than 1mm"
-msgstr "Višina tiska je manjša od 1mm"
-
-msgid "Print resumed"
-msgstr "Tiskanje nadaljevano"
+msgid "Printer Connections"
+msgstr "Povezave tiskalnika"
 
 msgid "Printer Select"
 msgstr "Izberi tiskalnik"
-
-msgid "Printhead"
-msgstr "Glava"
-
-msgid "Printhead 1"
-msgstr "Glava 1"
-
-msgid "Printhead 2"
-msgstr "Glava 2"
 
 msgid "Printing"
 msgstr "Tiskam"
@@ -917,9 +712,6 @@ msgstr "Ko prosite za pomoč, navedite KlipperScreen.log.\n"
 msgid "Quad Gantry Level"
 msgstr ""
 
-msgid "Raise"
-msgstr "Naprej"
-
 msgid "Raise Nozzle"
 msgstr "Dvigni šobo"
 
@@ -932,23 +724,14 @@ msgstr ""
 msgid "Recover Soft"
 msgstr ""
 
-msgid "Recovery File"
-msgstr "Datoteka za Obnovitev"
-
 msgid "Reference"
 msgstr "Referenca"
 
 msgid "Refresh"
 msgstr "Osveži"
 
-msgid "Release"
+msgid "Remove network"
 msgstr ""
-
-msgid "Released"
-msgstr ""
-
-msgid "Remove Foam"
-msgstr "Odstrani peno"
 
 msgid "Rename/Move:"
 msgstr "Preimenuj/Premakni:"
@@ -956,20 +739,14 @@ msgstr "Preimenuj/Premakni:"
 msgid "Restart"
 msgstr "Ponovni zagon"
 
-msgid "Restart required. Restart now?"
-msgstr ""
-
 msgid "Resume"
 msgstr "Nadaljuj"
 
 msgid "Retract"
 msgstr "Umakni"
 
-msgid "Retract blowback"
-msgstr "Povratni pih"
-
-msgid "Retract started"
-msgstr "Povlek zagnan"
+msgid "Retraction"
+msgstr "Umik"
 
 msgid "Retraction Length"
 msgstr "Dolžina umika"
@@ -983,30 +760,14 @@ msgstr "Poskusi znova"
 msgid "Retrying"
 msgstr "Poskušam znova"
 
-msgid "Return Buffer"
-msgstr "Nazaj v buffer"
-
-msgid "Right Extruder Z Offset"
-msgstr ""
-
-#, python-format
-msgid "Right Extruder: %s%.3f"
-msgstr "Desni ekstruder: %s%.3f"
-
-msgid "Right Extruder: Not adjusted"
-msgstr "Desni ekstruder: Ni prilagojen"
-
-msgid "Run Mode:"
-msgstr "Način:"
-
-msgid "Running"
+msgid "Rotation invalid"
 msgstr ""
 
 msgid "Save"
 msgstr "Shrani"
 
-msgid "Save Results"
-msgstr ""
+msgid "Save Config"
+msgstr "Shrani konfiguracijo"
 
 msgid "Save Z"
 msgstr "Shrani Z"
@@ -1017,11 +778,9 @@ msgstr "Shrani konfiguracijo?"
 msgid "Saved"
 msgstr "Shranjeno"
 
-msgid "Saved successfully!"
-msgstr "Uspešno shranjeno!"
-
-msgid "Saved successfully."
-msgstr ""
+#, python-format
+msgid "Saved offset: %s"
+msgstr "Shranjen odmik: %s"
 
 msgid "Screen DPMS"
 msgstr "DPMS zaslona"
@@ -1032,20 +791,11 @@ msgstr "Čas izklopa zaslona"
 msgid "Screws Adjust"
 msgstr "Nastavitev vijakov"
 
-msgid "Select"
-msgstr "Izberi"
-
-msgid "Select WiFi"
-msgstr "Izberi WiFi"
-
-msgid "Self-check"
-msgstr "Samopregled"
+msgid "Screws not used:"
+msgstr ""
 
 msgid "Send"
 msgstr "Pošlji"
-
-msgid "Service Status:"
-msgstr ""
 
 msgid "Set Temp"
 msgstr "Nastavi temperaturo"
@@ -1056,8 +806,14 @@ msgstr "Nastavitve"
 msgid "Show"
 msgstr "Pokaži"
 
-msgid "Shut down after printing completes"
-msgstr "Izklopi po končanem tiskanju"
+msgid "Show Heater Power"
+msgstr "Pokaži moč grelnika"
+
+msgid "Show Scrollbars Buttons"
+msgstr "Pokaži gumbe drsnih trakov"
+
+msgid "Show only devices that are able to be set"
+msgstr ""
 
 msgid "Shutdown"
 msgstr "Zaustavitev"
@@ -1071,8 +827,11 @@ msgstr "Slicer"
 msgid "Slicer:"
 msgstr "Slicer:"
 
-msgid "Sound Notification"
-msgstr "Zvočno Obvestilo"
+msgid "Small"
+msgstr "Majhno"
+
+msgid "Smooth time"
+msgstr ""
 
 msgid "Speed (mm/s)"
 msgstr "Hitrost (mm/s)"
@@ -1095,40 +854,13 @@ msgstr "Ostani v pripravljenosti"
 msgid "Start"
 msgstr "Začni"
 
-msgid "Start Calibration"
-msgstr ""
-
-msgid "Start Monitoring"
-msgstr ""
-
-msgid "Start Preview"
-msgstr ""
-
-msgid "Starting WiFi Association"
-msgstr "Zagon povezave WiFi"
-
-msgid "Starting dual nozzle height calibration..."
-msgstr "Začenjam kalibracijo višine dvojne šobe..."
-
 msgid "Starting recovery for"
 msgstr "Začetek obnovitve čez"
 
 msgid "Starting update for"
 msgstr "Začetek posodobitve čez"
 
-msgid "Stop"
-msgstr ""
-
-msgid "Stop All"
-msgstr "Ustavi vse"
-
-msgid "Stop Monitoring"
-msgstr ""
-
-msgid "Stop Preview"
-msgstr ""
-
-msgid "Stopped"
+msgid "Swaps buttons if they are on top of each other, affects other panels"
 msgstr ""
 
 msgid "System"
@@ -1140,45 +872,38 @@ msgstr "Ponovni zagon sistema"
 msgid "System Shutdown"
 msgstr "Zaustavitev sistema"
 
+msgid "System:"
+msgstr ""
+
 msgid "Temp (°C)"
 msgstr "Temperatura (°C)"
 
 msgid "Temperature"
 msgstr "Temperatura"
 
-msgid "The nozzle temperature is too low, Are you sure you want to heat it?"
+msgid "The system doesn't meet the minimum requirement"
 msgstr ""
-"Temperatura šobe je prenizka. Ali ste prepričani, da jo želite segreti?"
 
-msgid "To Buffer"
-msgstr "V buffer"
+msgid "This panel supports up-to 9 screws in a 3x3 Grid"
+msgstr ""
 
-msgid "To Dryer"
-msgstr "V sušilnik"
+msgid "This will affect screw positions and mesh graph"
+msgstr ""
 
-msgid "To Printhead"
-msgstr "V glavo"
+msgid "Timeout for screen black-out or power-off"
+msgstr ""
+
+msgid "Timeout for screen black-out or power-off during printing"
+msgstr ""
 
 msgid "Total:"
 msgstr "Skupno:"
 
-msgid "Troubleshooting"
-msgstr "Odpravljanje težav"
-
-msgid "Turn off"
-msgstr "Izklopi"
-
-msgid "URL"
-msgstr ""
-
-msgid "Unknown"
-msgstr ""
-
 msgid "Unknown Heater"
 msgstr "Neznan grelec"
 
-msgid "Unknown screw position"
-msgstr "Neznan položaj vijaka"
+msgid "Unknown security type"
+msgstr ""
 
 msgid "Unload"
 msgstr ""
@@ -1198,40 +923,17 @@ msgstr "Posodobi"
 msgid "Updating"
 msgstr "Posodabljam"
 
-msgid "Uploaded"
-msgstr "Naloženo"
-
-msgid "Voice Notify"
-msgstr "Glasovno obveščanje"
-
-msgid "Warning"
-msgstr "Opozorilo"
-
-msgid ""
-"Warning: Current value is negative. This is dangerous and may damage the "
-"machine. Please recalibrate."
-msgstr ""
-"Opozorilo: Trenutna vrednost je negativna. To je nevarno in lahko poškoduje "
-"napravo. Prosimo, ponovno kalibrirajte."
-
-msgid ""
-"Warning: Negative value detected. This is dangerous and may damage the "
-"machine. Please recalibrate."
-msgstr ""
-"Opozorilo: Zaznana je negativna vrednost. To je nevarno in lahko poškoduje "
-"napravo. Prosimo, ponovno kalibrirajte."
-
-msgid "Waste Chute"
+msgid "Useful for un-responsive touchscreens"
 msgstr ""
 
 msgid "WebRTC is not supported by the backend trying Stream"
 msgstr ""
 
+msgid "Working"
+msgstr ""
+
 msgid "XY Move Speed (mm/s)"
 msgstr "Hitrost premikanja XY (mm/s)"
-
-msgid "XY Offset"
-msgstr "XY Odmik"
 
 msgid "XY Speed (mm/s)"
 msgstr "XY hitrost (mm/s)"
@@ -1239,17 +941,8 @@ msgstr "XY hitrost (mm/s)"
 msgid "Z Calibrate"
 msgstr "Umeri Z"
 
-msgid "Z Endstop"
-msgstr ""
-
-msgid "Z Height Diff"
-msgstr "Razlika v višini Z"
-
 msgid "Z Move Speed (mm/s)"
 msgstr "Hitrost premikanja Z (mm/s)"
-
-msgid "Z Offset"
-msgstr "Z Odmik"
 
 msgid "Z Speed (mm/s)"
 msgstr "Z hitrost (mm/s)"
@@ -1257,28 +950,32 @@ msgstr "Z hitrost (mm/s)"
 msgid "Z Tilt"
 msgstr "Z nagib"
 
-msgid "Z offset exceeds safe range"
-msgstr ""
-
 msgid "Z offset:"
 msgstr "Z odmik:"
 
 msgid "commit"
-msgid_plural "commits"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
 
-msgid "dBm"
-msgstr "dBm"
+msgstr ""
+
+
+
+
+msgid "day"
+
+msgstr ""
+
+
+
+
+msgid "g"
+msgstr ""
 
 msgid "hour"
-msgid_plural "hours"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+
+msgstr "Ura"
+
+
+
 
 msgid "macros that use 'rename_existing' are hidden"
 msgstr "makri, ki uporabljajo 'rename_existing' so skriti"
@@ -1287,11 +984,11 @@ msgid "macros with a name starting with '_' are hidden"
 msgstr "makri z imenom, ki se začne z '_', so skriti"
 
 msgid "minute"
-msgid_plural "minutes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+
+msgstr "minuta"
+
+
+
 
 msgid "mm"
 msgstr "mm"
@@ -1305,675 +1002,985 @@ msgstr "mm/s²"
 msgid "mm³/s"
 msgstr "mm³/s"
 
-#~ msgid "24 Hour Time"
-#~ msgstr "24 urni čas"
+msgid "s"
+msgstr ""
 
-#~ msgid "Bed Mesh"
-#~ msgstr "Umerjanje mreže"
+msgid "second"
 
-#~ msgid "Console"
-#~ msgstr "Konzola"
+msgstr ""
 
-#~ msgid "Extra Large"
-#~ msgstr "Zelo veliko"
 
-#~ msgid "Extruders"
-#~ msgstr "Ekstruderji"
 
-#~ msgid "Extrusion +"
-#~ msgstr "Ekstruzija +"
 
-#~ msgid "Extrusion -"
-#~ msgstr "Ekstruzija -"
+#~ msgid "Mesh calibrate"
+#~ msgstr "Umeritev mreže"
 
-#~ msgid "Font Size"
-#~ msgstr "Velikost pisave"
-
-#~ msgid "Hide sensors in Temp."
-#~ msgstr "Skrij senzorje v temp."
-
-#~ msgid "Host"
-#~ msgstr "Gostitelj"
-
-#~ msgid "Icon Theme"
-#~ msgstr "Tema ikon"
-
-#~ msgid "Klipper Restart"
-#~ msgstr "Ponovni zagon Klipperja"
-
-#~ msgid "Large"
-#~ msgstr "Veliko"
-
-#~ msgid "Limits"
-#~ msgstr "Omejitve"
-
-#~ msgid "Loading..."
-#~ msgstr "Nalagam..."
-
-#~ msgid "Lost Connection to Moonraker"
-#~ msgstr "Izgubljena poveza z Moonrakerjem"
-
-#~ msgid "Macro shortcut on sidebar"
-#~ msgstr "Makro bližnjica na stranski vrstici"
-
-#~ msgid "Macros"
-#~ msgstr "Makri"
-
-#~ msgid "Maximum"
-#~ msgstr "Največ"
-
-#~ msgid "Medium"
-#~ msgstr "Srednje"
-
-#~ msgid "No mesh has been loaded"
-#~ msgstr "Mreža ni naložena"
-
-#~ msgid "Pins"
-#~ msgstr "Pini"
-
-#~ msgid "Pressure Advance"
-#~ msgstr "Pressure Advance"
-
-#~ msgid "Printer"
-#~ msgstr "Tiskalnik"
-
-#~ msgid "Printer Connections"
-#~ msgstr "Povezave tiskalnika"
-
-#~ msgid "Retraction"
-#~ msgstr "Umik"
-
-#~ msgid "Save Config"
-#~ msgstr "Shrani konfiguracijo"
-
-#, python-format
-#~ msgid "Saved offset: %s"
-#~ msgstr "Shranjen odmik: %s"
-
-#~ msgid "Show Heater Power"
-#~ msgstr "Pokaži moč grelnika"
-
-#~ msgid "Show Scrollbars Buttons"
-#~ msgstr "Pokaži gumbe drsnih trakov"
-
-#~ msgid "Small"
-#~ msgstr "Majhno"
+#~ msgid "Uploaded"
+#~ msgstr "Naloženo"
 
 #~ msgid "Ended official support in June 2023"
 #~ msgstr "Konec uradne podpore junija 2023"
 
+#~ msgid "Hidden"
+#~ msgstr "Skrito"
+
 #~ msgid "KlipperScreen will drop support in June 2024"
 #~ msgstr "KlipperScreen bo do junija 2024 opustil podporo"
 
-#~ msgid "General"
-#~ msgstr "Splošno"
+#~ msgid "Print Time"
+#~ msgstr "Čas tiskanja"
 
-#~ msgid "Cautions"
-#~ msgstr "Opozorila"
+#~ msgid "Starting WiFi Association"
+#~ msgstr "Zagon povezave WiFi"
 
-#~ msgid "Maintenance"
-#~ msgstr "Vzdrževanje"
+#~ msgid "dBm"
+#~ msgstr "dBm"
 
-#~ msgid "Please confirm left extruder position."
-#~ msgstr "Prosimo, potrdite položaj levega ekstruderja."
+#~ msgid "Deselect"
+#~ msgstr "Prekliči izbiro"
 
-#~ msgid "Nozzle Heating"
-#~ msgstr "Segrevanje šobe"
+#~ msgid "Select"
+#~ msgstr "Izberi"
 
-#~ msgid "Hot Bed Heating"
-#~ msgstr "Segrevanje grelne plošče"
+#~ msgid "Bed screw configuration:"
+#~ msgstr "Umerjanje vijakov plošče:"
 
-#~ msgid "Nozzle Cooling Fan"
-#~ msgstr "Ventilator za hlajenje šobe"
-
-#~ msgid "Hotend Cooling Fan"
-#~ msgstr "Ventilator za hlajenje grelne glave"
-
-#~ msgid "WiFi"
-#~ msgstr "WiFi"
-
-#~ msgid "Power loss recovery, is resume print?"
-#~ msgstr "Obnovitev po izgubi napajanja, nadaljevati tiskanje?"
-
-#~ msgid "Skip All"
-#~ msgstr "Preskoči vse"
-
-#~ msgid "Please wait for the print job to end"
-#~ msgstr "Prosimo, počakajte, da se tiskanje konča"
-
-#~ msgid "Are you sure you wish to reset the printer?"
-#~ msgstr "Ali ste prepričani, da želite ponastaviti tiskalnik?"
-
-#~ msgid "Data will be deleted"
-#~ msgstr "Podatki bodo izbrisani"
-
-#~ msgid "Reset Printer"
-#~ msgstr "Ponastavi tiskalnik"
-
-#~ msgid "Resetting printer, will restart, please wait..."
+#~ msgid ""
+#~ "Not supported for auto-detection, it needs to be configured in "
+#~ "klipperscreen.conf"
 #~ msgstr ""
-#~ "Ponastavljanje tiskalnika, bo se ponovno zagnal, prosimo počakajte..."
+#~ "Ni podprto za samodejno zaznavanje, treba ga je konfigurirati v "
+#~ "klipperscreen.conf"
 
-#~ msgid "Reset"
-#~ msgstr "Ponastavi"
+#~ msgid "Unknown screw position"
+#~ msgstr "Neznan položaj vijaka"
+
+#~ msgid "Max Acceleration to Deceleration"
+#~ msgstr "Največji pospešek do pojemka"
+
+
+msgid "The nozzle temperature is too low, Are you sure you want to heat it?"
+msgstr "Temperatura šobe je prenizka. Ali ste prepričani, da jo želite segreti?"
+
+msgid "General"
+msgstr "Splošno"
+
+msgid "Turn off"
+msgstr "Izklopi"
+
+msgid "Manual"
+msgstr "Priročnik"
+
+msgid "Troubleshooting"
+msgstr "Odpravljanje težav"
+
+msgid "Cautions"
+msgstr "Opozorila"
+
+msgid "Maintenance"
+msgstr "Vzdrževanje"
+
+msgid "Calibration"
+msgstr "Kalibracija"
+
+msgid "XY Offset"
+msgstr "XY Odmik"
+
+msgid "Z Offset"
+msgstr "Z Odmik"
+
+msgid "Only one extruder does not require calibration."
+msgstr "Samo en ekstruder ne potrebuje kalibracije."
+
+msgid "Please confirm left extruder position."
+msgstr "Prosimo, potrdite položaj levega ekstruderja."
+
+msgid "Need to recalculate the offset value."
+msgstr "Potrebno je ponovno izračunati vrednost odmika."
+
+msgid "Error writing configuration"
+msgstr "Napaka pri zapisovanju konfiguracije"
+
+msgid "Please wait for the camera initialization to complete."
+msgstr "Prosimo, počakajte, da se inicializacija kamere zaključi."
+
+msgid "Please wait for the camera's fill light to light up for 5 seconds before clicking 'Start'"
+msgstr "Prosimo, počakajte, da se polnilna luč kamere prižge za 5 sekund, preden kliknete 'Začni'"
+
+msgid "Couldn't get the calibration camera position."
+msgstr "Ni bilo mogoče pridobiti položaja kalibracijske kamere."
+
+msgid "Need home axis"
+msgstr "Potrebna je domača os"
+
+msgid "Choose Language"
+msgstr "Izberi jezik"
+
+msgid "Choose Timezone"
+msgstr "Izberi časovni pas"
+
+msgid "Select WiFi"
+msgstr "Izberi WiFi"
+
+msgid "Self-check"
+msgstr "Samopregled"
+
+msgid "Nozzle Heating"
+msgstr "Segrevanje šobe"
+
+msgid "Hot Bed Heating"
+msgstr "Segrevanje grelne plošče"
+
+msgid "Nozzle Cooling Fan"
+msgstr "Ventilator za hlajenje šobe"
+
+msgid "Hotend Cooling Fan"
+msgstr "Ventilator za hlajenje grelne glave"
+
+msgid "Filament Detection"
+msgstr "Zaznavanje filamenta"
+
+msgid "Auto Leveling"
+msgstr "Samodejno niveliranje"
+
+msgid "WiFi"
+msgstr "WiFi"
+
+msgid "Power loss recovery, is resume print?"
+msgstr "Obnovitev po izgubi napajanja, nadaljevati tiskanje?"
+
+msgid "Please wait until the bed and nozzle are heated before calibrating."
+msgstr "Prosimo, počakajte, da se grelna plošča in šoba segrejeta pred kalibracijo."
+
+msgid "Current language:"
+msgstr "Trenutni jezik:"
+
+msgid "Skip All"
+msgstr "Preskoči vse"
+
+msgid "Do not touch the printer during self-check."
+msgstr "Med samopregledom se ne dotikajte tiskalnika."
+
+msgid "Confirm"
+msgstr "Potrdi"
+
+msgid "Current timezone:"
+msgstr "Trenutni časovni pas:"
+
+msgid "Choose a timezone"
+msgstr "Izberi časovni pas"
+
+msgid "Choose a language"
+msgstr "Izberi jezik"
+
+msgid "Please wait for the print job to end"
+msgstr "Prosimo, počakajte, da se tiskanje konča"
+
+msgid "Are you sure you wish to reset the printer?"
+msgstr "Ali ste prepričani, da želite ponastaviti tiskalnik?"
+
+msgid "Data will be deleted"
+msgstr "Podatki bodo izbrisani"
+
+msgid "Reset Printer"
+msgstr "Ponastavi tiskalnik"
+
+msgid "Resetting printer, will restart, please wait..."
+msgstr "Ponastavljanje tiskalnika, bo se ponovno zagnal, prosimo počakajte..."
+
+msgid "Reset"
+msgstr "Ponastavi"
+
+msgid "Confirm Pos"
+msgstr "Potrdi položaj"
+
+msgid "Shut down after printing completes"
+msgstr "Izklopi po končanem tiskanju"
+
+msgid "Voice Notify"
+msgstr "Glasovno obveščanje"
+
+msgid "Filament Box Power"
+msgstr "Napajanje škatle za filament"
+
+msgid "If your calibration device is under the PEI, please lift the PEI after homing."
+msgstr "Če je vaša kalibracijska naprava pod PEI, prosimo dvignite PEI po vrnitvi v izhodiščni položaj."
+
+msgid "Homing the printer..."
+msgstr "Vračanje tiskalnika v izhodiščni položaj..."
+
+msgid "Starting dual nozzle height calibration..."
+msgstr "Začenjam kalibracijo višine dvojne šobe..."
+
+msgid "Please observe if the nozzle is positioned above the probe."
+msgstr "Prosimo, opazujte, ali je šoba nameščena nad sondo."
+
+msgid "Warning: Negative value detected. This is dangerous and may damage the machine. Please recalibrate."
+msgstr "Opozorilo: Zaznana je negativna vrednost. To je nevarno in lahko poškoduje napravo. Prosimo, ponovno kalibrirajte."
+
+msgid "New nozzle height difference is: "
+msgstr "Nova razlika v višini šobe je: "
+
+msgid "Warning: Current value is negative. This is dangerous and may damage the machine. Please recalibrate."
+msgstr "Opozorilo: Trenutna vrednost je negativna. To je nevarno in lahko poškoduje napravo. Prosimo, ponovno kalibrirajte."
+
+msgid "Z Height Diff"
+msgstr "Razlika v višini Z"
+
+msgid "Adjust Zprobe Pos"
+msgstr "Prilagodi položaj Z sonde"
+
+msgid "Need reboot, relaunch immediately?"
+msgstr "Potreben je ponovni zagon, ponovno zaženem takoj?"
+
+msgid "Current nozzle height difference: "
+msgstr "Trenutna razlika v višini šobe: "
+
+msgid "New nozzle height difference: "
+msgstr "Nova razlika v višini šobe: "
+
+msgid "Dangerous nozzle height difference: "
+msgstr "Nevarna razlika v višini šobe: "
+
+msgid "Saved successfully!"
+msgstr "Uspešno shranjeno!"
 
 # Feed Filament Box
-#~ msgid "Edit"
-#~ msgstr "Uredi"
+msgid "Edit"
+msgstr "Uredi"
 
-#~ msgid "Filament Info"
-#~ msgstr "Informacije o filamentu"
+msgid "Filament Info"
+msgstr "Informacije o filamentu"
 
-#~ msgid "Not found"
-#~ msgstr "Ni najdeno"
+msgid "Not found"
+msgstr "Ni najdeno"
 
-#~ msgid "Vendor"
-#~ msgstr "Proizvajalec"
+msgid "Vendor"
+msgstr "Proizvajalec"
 
-#~ msgid "Type"
-#~ msgstr "Tip"
+msgid "Type"
+msgstr "Tip"
 
-#~ msgid "Set Color"
-#~ msgstr "Nastavi barvo"
+msgid "Color"
+msgstr "Barva"
 
-#~ msgid "Filament Settings"
-#~ msgstr "Nastavitve filamenta"
+msgid "Set Color"
+msgstr "Nastavi barvo"
 
-#~ msgid "Multi-Material Box"
-#~ msgstr "Večmaterialna škatla"
+msgid "Filament Settings"
+msgstr "Nastavitve filamenta"
 
-#~ msgid "Are you sure you wish to restart the firmware?"
-#~ msgstr "Ste prepričani, da želite ponovno zagnati programsko opremo?"
+msgid "Multi-Material Box"
+msgstr "Večmaterialna škatla"
 
-#~ msgid "Autofill filament disable"
-#~ msgstr "Onemogoči samodejno izpolnjevanje z vlaknom"
+msgid "Are you sure you wish to restart the firmware?"
+msgstr "Ste prepričani, da želite ponovno zagnati programsko opremo?"
 
-#~ msgid "Autofill filament enabled"
-#~ msgstr "Omogoči samodejno izpolnjevanje z vlaknom"
+msgid "Autofill filament disable"
+msgstr "Onemogoči samodejno izpolnjevanje z vlaknom"
 
-#~ msgid "Autofill filament: %s"
-#~ msgstr "Samodejno izpolnjevanje z vlaknom: %s"
+msgid "Autofill filament enabled"
+msgstr "Omogoči samodejno izpolnjevanje z vlaknom"
 
-#~ msgid "Backing up configuration files."
-#~ msgstr "Ustvarjanje varnostne kopije konfiguracijskih datotek."
+msgid "Autofill filament: %s"
+msgstr "Samodejno izpolnjevanje z vlaknom: %s"
 
-#~ msgid "Calibrate Cutter Pos"
-#~ msgstr "Kalibracija položaja sekače"
+msgid "Backing up configuration files."
+msgstr "Ustvarjanje varnostne kopije konfiguracijskih datotek."
 
-#~ msgid "Couldn't get the calibration cutter position."
-#~ msgstr "Ni bilo mogoče pridobiti položaja sekače za kalibracijo."
+msgid "Calibrate Cutter Pos"
+msgstr "Kalibracija položaja sekače"
 
-#~ msgid "Current filament indexes are:%s, active tool:%s"
-#~ msgstr "Trenutni indeksi vlakna so: %s, aktivna orodja: %s"
+msgid "Couldn't get the calibration cutter position."
+msgstr "Ni bilo mogoče pridobiti položaja sekače za kalibracijo."
 
-#~ msgid ""
-#~ "Current filament indexes are:%s, active tool:%s, resume_tool:%s, "
-#~ "pause_reason:%s"
-#~ msgstr ""
-#~ "Trenutni indeksi vlakna so: %s, aktivna orodja: %s, orodje za "
-#~ "nadaljevanje: %s, razlog zaustavitve: %s"
+msgid "Current filament indexes are:%s, active tool:%s"
+msgstr "Trenutni indeksi vlakna so: %s, aktivna orodja: %s"
 
-#~ msgid "Current value is %s"
-#~ msgstr "Trenutna vrednost je %s"
+msgid "Current filament indexes are:%s, active tool:%s, resume_tool:%s, pause_reason:%s"
+msgstr "Trenutni indeksi vlakna so: %s, aktivna orodja: %s, orodje za nadaljevanje: %s, razlog zaustavitve: %s"
 
-#~ msgid "Cut Filament Test"
-#~ msgstr "Test sekanja vlakna"
+msgid "Current value is %s"
+msgstr "Trenutna vrednost je %s"
 
-#~ msgid "Do you want to enable multi-material box?"
-#~ msgstr "Želite omogočiti polje za več materialov?"
+msgid "Cut Filament Test"
+msgstr "Test sekanja vlakna"
 
-#~ msgid "Do you want to use external filament?"
-#~ msgstr "Želite uporabljati zunanje vlakno?"
+msgid "Do you want to enable multi-material box?"
+msgstr "Želite omogočiti polje za več materialov?"
 
-#~ msgid "Error: Offset values not found"
-#~ msgstr "Napaka: Vrednosti odmika niso najdene"
+msgid "Do you want to use external filament?"
+msgstr "Želite uporabljati zunanje vlakno?"
 
-#~ msgid "Error: Z offset value not found"
-#~ msgstr "Napaka: Vrednost odmika Z ni najdena"
+msgid "Error: Offset values not found"
+msgstr "Napaka: Vrednosti odmika niso najdene"
 
-#~ msgid "External Filament"
-#~ msgstr "Zunanje vlakno"
+msgid "Error: Z offset value not found"
+msgstr "Napaka: Vrednost odmika Z ni najdena"
 
-#~ msgid "Extruder not hot enough"
-#~ msgstr "Ekstruder ni dovolj topel"
+msgid "External Filament"
+msgstr "Zunanje vlakno"
 
-#~ msgid "FEED error:External filament not removed"
-#~ msgstr "Napaka VRSTICE: zunanje vlakno ni odstranjeno"
+msgid "Extruder not hot enough"
+msgstr "Ekstruder ni dovolj topel"
 
-#~ msgid "Filament %s not found"
-#~ msgstr "Vlakno %s ni najdeno"
+msgid "FEED error:External filament not removed"
+msgstr "Napaka VRSTICE: zunanje vlakno ni odstranjeno"
 
-#~ msgid "Filament Sensor%s: No filament detected, canceling print"
-#~ msgstr "Čutilnik vlakna %s: Vlakna ni zaznano, prekinjam tiskanje"
+msgid "Filament %s not found"
+msgstr "Vlakno %s ni najdeno"
 
-#~ msgid "Filament Sensor%s: No filament detected, pausing print"
-#~ msgstr "Čutilnik vlakna %s: Vlakna ni zaznano, premor tiskanja"
+msgid "Filament Sensor%s: No filament detected, canceling print"
+msgstr "Čutilnik vlakna %s: Vlakna ni zaznano, prekinjam tiskanje"
 
-#~ msgid "Filament Sensor0: No filament detected, pausing print"
-#~ msgstr "Čutilnik vlakna 0: Vlakna ni zaznano, premor tiskanja"
+msgid "Filament Sensor%s: No filament detected, pausing print"
+msgstr "Čutilnik vlakna %s: Vlakna ni zaznano, premor tiskanja"
 
-#~ msgid "Filament Sensor1: No filament detected, pausing print"
-#~ msgstr "Čutilnik vlakna 1: Vlakna ni zaznano, premor tiskanja"
+msgid "Filament Sensor0: No filament detected, pausing print"
+msgstr "Čutilnik vlakna 0: Vlakna ni zaznano, premor tiskanja"
 
-#~ msgid ""
-#~ "Filament detected! Please remove filament from the hotend before enabling "
-#~ "multi-material box."
-#~ msgstr ""
-#~ "Vlakno zaznano! Prosimo, odstranite vlakno iz spruta pred omogočitvijo "
-#~ "polja za več materialov."
+msgid "Filament Sensor1: No filament detected, pausing print"
+msgstr "Čutilnik vlakna 1: Vlakna ni zaznano, premor tiskanja"
 
-#~ msgid "Missing required recovery data"
-#~ msgstr "Manjkajo potrebni podatki za obnovitev"
+msgid "Filament detected! Please remove filament from the hotend before enabling multi-material box."
+msgstr "Vlakno zaznano! Prosimo, odstranite vlakno iz spruta pred omogočitvijo polja za več materialov."
 
-#~ msgid "No power loss recovery data found"
-#~ msgstr "Podatkov za obnovitev po izgubi struje ni najdenih"
+msgid "Missing required recovery data"
+msgstr "Manjkajo potrebni podatki za obnovitev"
 
-#~ msgid "No valid params 'S'"
-#~ msgstr "Ni veljavnih parametrov 'S'"
+msgid "No power loss recovery data found"
+msgstr "Podatkov za obnovitev po izgubi struje ni najdenih"
 
-#~ msgid "No"
-#~ msgstr "Ne"
+msgid "No valid params 'S'"
+msgstr "Ni veljavnih parametrov 'S'"
 
-#~ msgid "Options"
-#~ msgstr "Možnosti"
+msgid "No"
+msgstr "Ne"
 
-#~ msgid "Pause. The \"extruder\" extrude error!"
-#~ msgstr "Premor. Napaka ekstrudiranja \"ekstruder\"!"
+msgid "OK"
+msgstr "V redu"
 
-#~ msgid "Please exit the filament from the nozzle first"
-#~ msgstr "Prosimo, najprej odstranite vlakno iz spruta"
+msgid "Options"
+msgstr "Možnosti"
 
-#~ msgid ""
-#~ "Please fill in the voice number correctly: 0-start printing, 1-end "
-#~ "printing, 2-outage detected, 3-cancel printing, 4-pause printing"
-#~ msgstr ""
-#~ "Prosimo, pravilno vnesite številko glasovnega ukaza: 0-začetek tiskanja, "
-#~ "1-končanje tiskanja, 2-izkazana izguba struje, 3-preklic tiskanja, 4-"
-#~ "premor tiskanja"
+msgid "Pause. The \"extruder\" extrude error!"
+msgstr "Premor. Napaka ekstrudiranja \"ekstruder\"!"
 
-#~ msgid "Please select how you would like to proceed."
-#~ msgstr "Prosimo, izberite način nadaljevanja."
+msgid "Please exit the filament from the nozzle first"
+msgstr "Prosimo, najprej odstranite vlakno iz spruta"
 
-#~ msgid "Power loss recovery, resuming print."
-#~ msgstr "Obnova po izgubi struje, nadaljevanje tiskanja."
+msgid "Please fill in the voice number correctly: 0-start printing, 1-end printing, 2-outage detected, 3-cancel printing, 4-pause printing"
+msgstr "Prosimo, pravilno vnesite številko glasovnega ukaza: 0-začetek tiskanja, 1-končanje tiskanja, 2-izkazana izguba struje, 3-preklic tiskanja, 4-premor tiskanja"
 
-#~ msgid "Power loss, saving print states."
-#~ msgstr "Izguba struje, shranjevanje stanja tiskanja."
+msgid "Please select how you would like to proceed."
+msgstr "Prosimo, izberite način nadaljevanja."
 
-#~ msgid "Press feedsys button"
-#~ msgstr "Pritisnite gumb sistemu hrane"
+msgid "Power loss recovery, resuming print."
+msgstr "Obnova po izgubi struje, nadaljevanje tiskanja."
 
-#~ msgid "Print resumed from power loss position"
-#~ msgstr "Tiskanje nadaljevano iz pozicije po izgubi struje"
+msgid "Power loss, saving print states."
+msgstr "Izguba struje, shranjevanje stanja tiskanja."
 
-#~ msgid "Printer not homed"
-#~ msgstr "Tiskalnik ni inicializiran"
+msgid "Press feedsys button"
+msgstr "Pritisnite gumb sistemu hrane"
 
-#~ msgid "RESUME error:autofill no fil"
-#~ msgstr "Napaka NADALJEVANJA: ni vlakna za samodejno izpolnjevanje"
+msgid "Print resumed from power loss position"
+msgstr "Tiskanje nadaljevano iz pozicije po izgubi struje"
 
-#~ msgid "RESUME error:no fil"
-#~ msgstr "Napaka NADALJEVANJA: ni vlakna"
+msgid "Printer not homed"
+msgstr "Tiskalnik ni inicializiran"
 
-#~ msgid "RESUME error:residual fil"
-#~ msgstr "Napaka NADALJEVANJA: ostanek vlakna"
+msgid "RESUME error:autofill no fil"
+msgstr "Napaka NADALJEVANJA: ni vlakna za samodejno izpolnjevanje"
 
-#~ msgid "Recovery data: Z=%s, File=%s, Pos=%s"
-#~ msgstr "Podatki obnovitve: Z=%s, Datoteka=%s, Pozicija=%s"
+msgid "RESUME error:no fil"
+msgstr "Napaka NADALJEVANJA: ni vlakna"
 
-#~ msgid "T%s direct feed"
-#~ msgstr "Direktna hrana T%s"
+msgid "RESUME error:residual fil"
+msgstr "Napaka NADALJEVANJA: ostanek vlakna"
 
-#~ msgid "T0 direct feed"
-#~ msgstr "Direktna hrana T0"
+msgid "Recovery data: Z=%s, File=%s, Pos=%s"
+msgstr "Podatki obnovitve: Z=%s, Datoteka=%s, Pozicija=%s"
 
-#~ msgid "T0 need exit filament"
-#~ msgstr "T0 zahteva odstranitev vlakna"
+msgid "Save & Restart"
+msgstr "Shrani in ponovno zagoni"
 
-#~ msgid "T1 direct feed"
-#~ msgstr "Direktna hrana T1"
+msgid "T%s direct feed"
+msgstr "Direktna hrana T%s"
 
-#~ msgid "T1 need exit filament"
-#~ msgstr "T1 zahteva odstranitev vlakna"
+msgid "T0 direct feed"
+msgstr "Direktna hrana T0"
 
-#~ msgid "T2 direct feed"
-#~ msgstr "Direktna hrana T2"
+msgid "T0 need exit filament"
+msgstr "T0 zahteva odstranitev vlakna"
 
-#~ msgid "T2 need exit filament"
-#~ msgstr "T2 zahteva odstranitev vlakna"
+msgid "T1 direct feed"
+msgstr "Direktna hrana T1"
 
-#~ msgid "T3 direct feed"
-#~ msgstr "Direktna hrana T3"
+msgid "T1 need exit filament"
+msgstr "T1 zahteva odstranitev vlakna"
 
-#~ msgid "T3 need exit filament"
-#~ msgstr "T3 zahteva odstranitev vlakna"
+msgid "T2 direct feed"
+msgstr "Direktna hrana T2"
 
-#~ msgid "The \"extruder\" extrude error!"
-#~ msgstr "Napaka ekstrudiranja \"ekstruder\"!"
+msgid "T2 need exit filament"
+msgstr "T2 zahteva odstranitev vlakna"
 
-#~ msgid "The current toolheade is T%s"
-#~ msgstr "Trenutna glava orodja je T%s"
+msgid "T3 direct feed"
+msgstr "Direktna hrana T3"
 
-#~ msgid "The current toolheade is T0"
-#~ msgstr "Trenutna glava orodja je T0"
+msgid "T3 need exit filament"
+msgstr "T3 zahteva odstranitev vlakna"
 
-#~ msgid "The current toolheade is T1"
-#~ msgstr "Trenutna glava orodja je T1"
+msgid "The \"extruder\" extrude error!"
+msgstr "Napaka ekstrudiranja \"ekstruder\"!"
 
-#~ msgid "The current toolheade is T2"
-#~ msgstr "Trenutna glava orodja je T2"
+msgid "The current toolheade is T%s"
+msgstr "Trenutna glava orodja je T%s"
 
-#~ msgid "The current toolheade is T3"
-#~ msgstr "Trenutna glava orodja je T3"
+msgid "The current toolheade is T0"
+msgstr "Trenutna glava orodja je T0"
 
-#~ msgid "The filament_box_%s no filament"
-#~ msgstr "V polju vlakna_%s ni vlakna"
+msgid "The current toolheade is T1"
+msgstr "Trenutna glava orodja je T1"
 
-#~ msgid "The motor is wrong."
-#~ msgstr "Motor je napačen."
+msgid "The current toolheade is T2"
+msgstr "Trenutna glava orodja je T2"
 
-#~ msgid "There is a residual filament, Please remove and continue"
-#~ msgstr "Obstaja ostanek vlakna, prosimo, odstranite in nadaljujte"
+msgid "The current toolheade is T3"
+msgstr "Trenutna glava orodja je T3"
 
-#~ msgid "There's a residual filament in box %s"
-#~ msgstr "Obstaja ostanek vlakna v polju %s"
+msgid "The filament_box_%s no filament"
+msgstr "V polju vlakna_%s ni vlakna"
 
-#~ msgid "There's a residual filament in box 1"
-#~ msgstr "Obstaja ostanek vlakna v polju 1"
+msgid "The motor is wrong."
+msgstr "Motor je napačen."
 
-#~ msgid "There's a residual filament in box 2"
-#~ msgstr "Obstaja ostanek vlakna v polju 2"
+msgid "There is a residual filament, Please remove and continue"
+msgstr "Obstaja ostanek vlakna, prosimo, odstranite in nadaljujte"
 
-#~ msgid "There's a residual filament in box 3"
-#~ msgstr "Obstaja ostanek vlakna v polju 3"
+msgid "There's a residual filament in box %s"
+msgstr "Obstaja ostanek vlakna v polju %s"
 
-#~ msgid "There's a residual filament in box 4"
-#~ msgstr "Obstaja ostanek vlakna v polju 4"
+msgid "There's a residual filament in box 1"
+msgstr "Obstaja ostanek vlakna v polju 1"
 
-#~ msgid "Unknown filament"
-#~ msgstr "Neznano vlakno"
+msgid "There's a residual filament in box 2"
+msgstr "Obstaja ostanek vlakna v polju 2"
 
-#~ msgid "Use external filament, please manually exit"
-#~ msgstr "Uporabite zunanje vlakno, prosimo, odstranite ročno"
+msgid "There's a residual filament in box 3"
+msgstr "Obstaja ostanek vlakna v polju 3"
 
-#~ msgid "Yes"
-#~ msgstr "Da"
+msgid "There's a residual filament in box 4"
+msgstr "Obstaja ostanek vlakna v polju 4"
 
-#~ msgid "auto shutdown error"
-#~ msgstr "napaka samodejnega izklopa"
+msgid "Unknown fan"
+msgstr "Neznana ventilacija"
 
-#~ msgid "bed_mash:%s"
-#~ msgstr "podložka_mreža:%s"
+msgid "Unknown filament"
+msgstr "Neznano vlakno"
 
-#~ msgid "clean pause_reason"
-#~ msgstr "počisti razlog_premora"
+msgid "Use external filament, please manually exit"
+msgstr "Uporabite zunanje vlakno, prosimo, odstranite ročno"
 
-#~ msgid "cut filament"
-#~ msgstr "seči vlakno"
+msgid "Warning"
+msgstr "Opozorilo"
 
-#~ msgid "cutter press!"
-#~ msgstr "sekača pritisnjen!"
+msgid "Yes"
+msgstr "Da"
 
-#~ msgid "cutter release!"
-#~ msgstr "sekača sproščena!"
+msgid "auto shutdown error"
+msgstr "napaka samodejnega izklopa"
 
-#~ msgid "feed busy"
-#~ msgstr "hrana zasedena"
+msgid "bed_mash:%s"
+msgstr "podložka_mreža:%s"
 
-#~ msgid "feed error"
-#~ msgstr "napaka hrane"
+msgid "clean pause_reason"
+msgstr "počisti razlog_premora"
 
-#~ msgid "feed finish"
-#~ msgstr "hrana končana"
+msgid "cut filament"
+msgstr "seči vlakno"
 
-#~ msgid "filament not removed"
-#~ msgstr "vlakno ni odstranjeno"
+msgid "cutter press!"
+msgstr "sekača pritisnjen!"
 
-#~ msgid "filament pause reason"
-#~ msgstr "razlog premora vlakna"
+msgid "cutter release!"
+msgstr "sekača sproščena!"
 
-#~ msgid "filament press"
-#~ msgstr "pritisnjenost vlakna"
+msgid "feed busy"
+msgstr "hrana zasedena"
 
-#~ msgid "filament release"
-#~ msgstr "sproščenost vlakna"
+msgid "feed error"
+msgstr "napaka hrane"
 
-#~ msgid "filament remove"
-#~ msgstr "odstranitev vlakna"
+msgid "feed finish"
+msgstr "hrana končana"
 
-#~ msgid "filament runout"
-#~ msgstr "zmanjkanje vlakna"
+msgid "filament not removed"
+msgstr "vlakno ni odstranjeno"
 
-#~ msgid "filament%s:%s"
-#~ msgstr "vlakno%s:%s"
+msgid "filament pause reason"
+msgstr "razlog premora vlakna"
 
-#~ msgid "flush filament"
-#~ msgstr "izprazni vlakno"
+msgid "filament press"
+msgstr "pritisnjenost vlakna"
 
-#~ msgid "motion sensor insert"
-#~ msgstr "vstavite čutilnik gibanja"
+msgid "filament release"
+msgstr "sproščenost vlakna"
 
-#~ msgid "motion sensor runout"
-#~ msgstr "zmanjkanje čutilnika gibanja"
+msgid "filament remove"
+msgstr "odstranitev vlakna"
 
-#~ msgid "motor_%s press"
-#~ msgstr "motor_%s pritisnjen"
+msgid "filament runout"
+msgstr "zmanjkanje vlakna"
 
-#~ msgid "motor_%s release"
-#~ msgstr "motor_%s sproščen"
+msgid "filament%s:%s"
+msgstr "vlakno%s:%s"
 
-#~ msgid "motor_1 press"
-#~ msgstr "motor_1 pritisnjen"
+msgid "flush filament"
+msgstr "izprazni vlakno"
 
-#~ msgid "motor_1 release"
-#~ msgstr "motor_1 sproščen"
+msgid "motion sensor insert"
+msgstr "vstavite čutilnik gibanja"
 
-#~ msgid "motor_2 press"
-#~ msgstr "motor_2 pritisnjen"
+msgid "motion sensor runout"
+msgstr "zmanjkanje čutilnika gibanja"
 
-#~ msgid "motor_2 release"
-#~ msgstr "motor_2 sproščen"
+msgid "motor_%s press"
+msgstr "motor_%s pritisnjen"
 
-#~ msgid "motor_3 press"
-#~ msgstr "motor_3 pritisnjen"
+msgid "motor_%s release"
+msgstr "motor_%s sproščen"
 
-#~ msgid "motor_3 release"
-#~ msgstr "motor_3 sproščen"
+msgid "motor_1 press"
+msgstr "motor_1 pritisnjen"
 
-#~ msgid "motor_4 press"
-#~ msgstr "motor_4 pritisnjen"
+msgid "motor_1 release"
+msgstr "motor_1 sproščen"
 
-#~ msgid "motor_4 release"
-#~ msgstr "motor_4 sproščen"
+msgid "motor_2 press"
+msgstr "motor_2 pritisnjen"
 
-#~ msgid "no bed_mash name"
-#~ msgstr "brez imena podložke_mreže"
+msgid "motor_2 release"
+msgstr "motor_2 sproščen"
 
-#~ msgid "no bed_mash"
-#~ msgstr "brez podložke_mreže"
+msgid "motor_3 press"
+msgstr "motor_3 pritisnjen"
 
-#~ msgid "no enabled"
-#~ msgstr "ni omogočen"
+msgid "motor_3 release"
+msgstr "motor_3 sproščen"
 
-#~ msgid "press button%s"
-#~ msgstr "pritisnite gumb%s"
+msgid "motor_4 press"
+msgstr "motor_4 pritisnjen"
 
-#~ msgid "press button1"
-#~ msgstr "pritisnite gumb1"
+msgid "motor_4 release"
+msgstr "motor_4 sproščen"
 
-#~ msgid "press button2"
-#~ msgstr "pritisnite gumb2"
+msgid "no bed_mash name"
+msgstr "brez imena podložke_mreže"
 
-#~ msgid "press button3"
-#~ msgstr "pritisnite gumb3"
+msgid "no bed_mash"
+msgstr "brez podložke_mreže"
 
-#~ msgid "press button4"
-#~ msgstr "pritisnite gumb4"
+msgid "no enabled"
+msgstr "ni omogočen"
 
-#~ msgid "remove filament"
-#~ msgstr "odstranite vlakno"
+msgid "press button%s"
+msgstr "pritisnite gumb%s"
 
-#~ msgid "residual filament%s"
-#~ msgstr "ostanek vlakna%s"
+msgid "press button1"
+msgstr "pritisnite gumb1"
 
-#~ msgid "residual filament0"
-#~ msgstr "ostanek vlakna0"
+msgid "press button2"
+msgstr "pritisnite gumb2"
 
-#~ msgid "residual filament1"
-#~ msgstr "ostanek vlakna1"
+msgid "press button3"
+msgstr "pritisnite gumb3"
 
-#~ msgid "residual filament2"
-#~ msgstr "ostanek vlakna2"
+msgid "press button4"
+msgstr "pritisnite gumb4"
 
-#~ msgid "residual filament3"
-#~ msgstr "ostanek vlakna3"
+msgid "remove filament"
+msgstr "odstranite vlakno"
 
-#~ msgid "resume:%s"
-#~ msgstr "nadali:%s"
+msgid "residual filament%s"
+msgstr "ostanek vlakna%s"
 
-#~ msgid "resume_tool:%s pause_reason:%s"
-#~ msgstr "nadali_orodje:%s razlog_premora:%s"
+msgid "residual filament0"
+msgstr "ostanek vlakna0"
 
-#~ msgid "Copy Print"
-#~ msgstr "Kopiraj tisk"
+msgid "residual filament1"
+msgstr "ostanek vlakna1"
 
-#~ msgid "Mirror Print"
-#~ msgstr "Zrcalni tisk"
+msgid "residual filament2"
+msgstr "ostanek vlakna2"
 
-#~ msgid "Manual Calibration"
-#~ msgstr "Ročna kalibracija"
+msgid "residual filament3"
+msgstr "ostanek vlakna3"
 
-#~ msgid "Calibration successful!"
-#~ msgstr "Kalibracija uspešna!"
+msgid "resume:%s"
+msgstr "nadali:%s"
 
-#~ msgid "Auto calibration failed. Please clean the nozzle and try again."
-#~ msgstr "Samodejna kalibracija ni uspela. Očistite šobo in poskusite znova."
+msgid "resume_tool:%s pause_reason:%s"
+msgstr "nadali_orodje:%s razlog_premora:%s"
 
-#~ msgid ""
-#~ "Auto calibration is not available. Please install required dependencies."
-#~ msgstr "Samodejna kalibracija ni na voljo. Namestite potrebne odvisnosti."
+msgid "Copy Print"
+msgstr "Kopiraj tisk"
 
-#~ msgid "Left extruder template saved"
-#~ msgstr "Predloga levega ekstruderja shranjena"
+msgid "Mirror Print"
+msgstr "Zrcalni tisk"
 
-#~ msgid "Right extruder template saved"
-#~ msgstr "Predloga desnega ekstruderja shranjena"
+msgid "Manual Calibration"
+msgstr "Ročna kalibracija"
 
-#~ msgid "No template images found. Please perform manual calibration first."
-#~ msgstr "Ni najdenih slik predlog. Najprej izvedite ročno kalibracijo."
+msgid "Auto Calibration"
+msgstr "Samodejna kalibracija"
 
-#~ msgid "Getting image of left extruder"
-#~ msgstr "Pridobivanje slike levega ekstruderja"
+msgid "Calibration successful!"
+msgstr "Kalibracija uspešna!"
 
-#~ msgid "Getting image of right extruder"
-#~ msgstr "Pridobivanje slike desnega ekstruderja"
+msgid "Auto calibration failed. Please clean the nozzle and try again."
+msgstr "Samodejna kalibracija ni uspela. Očistite šobo in poskusite znova."
 
-#~ msgid ""
-#~ "Left extruder calibration failed. Please clean the nozzle and try again."
-#~ msgstr ""
-#~ "Kalibracija levega ekstruderja ni uspela. Očistite šobo in poskusite "
-#~ "znova."
+msgid "Auto calibration is not available. Please install required dependencies."
+msgstr "Samodejna kalibracija ni na voljo. Namestite potrebne odvisnosti."
 
-#~ msgid ""
-#~ "Right extruder calibration failed. Please clean the nozzle and try again."
-#~ msgstr ""
-#~ "Kalibracija desnega ekstruderja ni uspela. Očistite šobo in poskusite "
-#~ "znova."
+msgid "Left extruder template saved"
+msgstr "Predloga levega ekstruderja shranjena"
 
-#~ msgid "left extruder pos: (%.3f, %.3f, %.3f)"
-#~ msgstr "položaj levega ekstruderja: (%.3f, %.3f, %.3f)"
+msgid "Right extruder template saved"
+msgstr "Predloga desnega ekstruderja shranjena"
 
-#~ msgid "Right extruder offset is (%.3f, %.3f, %.3f)"
-#~ msgstr "Odmik desnega ekstruderja je (%.3f, %.3f, %.3f)"
+msgid "Failed to save template"
+msgstr "Shranjevanje predloge ni uspelo"
 
-#~ msgid ""
-#~ "Please wait for the camera's fill light to light up for 5 seconds before "
-#~ "clicking 'Manual Calibration' or 'Auto Calibration'"
-#~ msgstr ""
-#~ "Počakajte 5 sekund, da se prižge polnilna luč kamere, preden kliknete "
-#~ "'Ročna kalibracija' ali 'Samodejna kalibracija'"
+msgid "No template images found. Please perform manual calibration first."
+msgstr "Ni najdenih slik predlog. Najprej izvedite ročno kalibracijo."
 
-#~ msgid "The door is open."
-#~ msgstr "Vrata so odprta."
+msgid "Getting image of left extruder"
+msgstr "Pridobivanje slike levega ekstruderja"
 
-#~ msgid "The door is closed."
-#~ msgstr "Vrata so zaprta."
+msgid "Getting image of right extruder"
+msgstr "Pridobivanje slike desnega ekstruderja"
 
-#~ msgid "Error getting origin offset values: %s"
-#~ msgstr "Napaka pri pridobivanju vrednosti odmika izhodišča: %s"
+msgid "Left extruder calibration failed. Please clean the nozzle and try again."
+msgstr "Kalibracija levega ekstruderja ni uspela. Očistite šobo in poskusite znova."
 
-#~ msgid "Filament run out, pausing print"
-#~ msgstr "Filament se je iztekel, postavljam tiskanje na pauzo"
+msgid "Right extruder calibration failed. Please clean the nozzle and try again."
+msgstr "Kalibracija desnega ekstruderja ni uspela. Očistite šobo in poskusite znova."
 
-#~ msgid "Not in single extruder mode, pausing print"
-#~ msgstr "Ni v načinu z enim ekstruderm, postavljam tiskanje na pauzo"
+msgid "left extruder pos: (%.3f, %.3f, %.3f)"
+msgstr "položaj levega ekstruderja: (%.3f, %.3f, %.3f)"
 
-#~ msgid "Current sensor not configured, pausing print"
-#~ msgstr "Trenutni senzor ni konfiguriran, postavljam tiskanje na pauzo"
+msgid "Right extruder offset is (%.3f, %.3f, %.3f)"
+msgstr "Odmik desnega ekstruderja je (%.3f, %.3f, %.3f)"
 
-#~ msgid "Other sensor not configured, pausing print"
-#~ msgstr "Ostali senzorji niso konfigurirani, postavljam tiskanje na pauzo"
+msgid "Please wait for the camera's fill light to light up for 5 seconds before clicking 'Manual Calibration' or 'Auto Calibration'"
+msgstr "Počakajte 5 sekund, da se prižge polnilna luč kamere, preden kliknete 'Ročna kalibracija' ali 'Samodejna kalibracija'"
 
-#~ msgid "Current extruder has filament, continuing print"
-#~ msgstr "Trenutni ekstruder ima filament, nadaljujem s tiskanjem"
+msgid "The door is open."
+msgstr "Vrata so odprta."
 
-#~ msgid "Both extruders out of filament, pausing print"
-#~ msgstr "Oba ekstruderja sta brez filamente, postavljam tiskanje na pauzo"
+msgid "The door is closed."
+msgstr "Vrata so zaprta."
 
-#~ msgid "Filament run out, switching extruder"
-#~ msgstr "Filament se je iztekel, zamenjam ekstruder"
+msgid "Error getting origin offset values: %s"
+msgstr "Napaka pri pridobivanju vrednosti odmika izhodišča: %s"
 
-#~ msgid "Switching to left extruder"
-#~ msgstr "Prehod na levi ekstruder"
+msgid "Raise"
+msgstr "Naprej"
 
-#~ msgid "Switching to right extruder"
-#~ msgstr "Prehod na desni ekstruder"
+msgid "Lower"
+msgstr "Navzdol"
 
-#~ msgid "Extruder switch complete, resuming print"
-#~ msgstr "Zamenjava ekstruderja končana, nadaljujem s tiskanjem"
+msgid "Filament run out, pausing print"
+msgstr "Filament se je iztekel, postavljam tiskanje na pauzo"
 
-#~ msgid "Auto extruder switch already enabled"
-#~ msgstr "Samodejna zamenjava ekstruderja že omogočena"
+msgid "Not in single extruder mode, pausing print"
+msgstr "Ni v načinu z enim ekstruderm, postavljam tiskanje na pauzo"
 
-#~ msgid ""
-#~ "Auto extruder switch enabled, this feature only works when printing with "
-#~ "a single extruder"
-#~ msgstr ""
-#~ "Samodejna zamenjava ekstruderja omogočena; ta funkcija deluje le pri "
-#~ "tiskanju z enim ekstruderjem"
+msgid "Current sensor not configured, pausing print"
+msgstr "Trenutni senzor ni konfiguriran, postavljam tiskanje na pauzo"
 
-#~ msgid "Auto extruder switch already disabled"
-#~ msgstr "Samodejna zamenjava ekstruderja že onemogočena"
+msgid "Other sensor not configured, pausing print"
+msgstr "Ostali senzorji niso konfigurirani, postavljam tiskanje na pauzo"
 
-#~ msgid "Auto extruder switch disabled"
-#~ msgstr "Samodejna zamenjava ekstruderja onemogočena"
+msgid "Current extruder has filament, continuing print"
+msgstr "Trenutni ekstruder ima filament, nadaljujem s tiskanjem"
 
-#~ msgid "Filament Sensor0: No filament detected, canceling print."
-#~ msgstr "Senzor filamente 0: Ni zaznan filament, prekinjam tiskanje."
+msgid "Both extruders out of filament, pausing print"
+msgstr "Oba ekstruderja sta brez filamente, postavljam tiskanje na pauzo"
 
-#~ msgid "Filament Sensor1: No filament detected, canceling print."
-#~ msgstr "Senzor filamente 1: Ni zaznan filament, prekinjam tiskanje."
+msgid "Filament run out, switching extruder"
+msgstr "Filament se je iztekel, zamenjam ekstruder"
 
-#~ msgid "Missing required information"
-#~ msgstr "Manjkajo zahtevane informacije"
+msgid "Switching to left extruder"
+msgstr "Prehod na levi ekstruder"
 
-#~ msgid "Resume Print"
-#~ msgstr "Nadaljuj Tiskanje"
+msgid "Switching to right extruder"
+msgstr "Prehod na desni ekstruder"
 
-#~ msgid "Tip: Please ensure the nozzle is about 0.1mm above the model"
-#~ msgstr "Nasvet: Prepričajte se, da je šoba približno 0.1mm nad modelom"
+msgid "Extruder switch complete, resuming print"
+msgstr "Zamenjava ekstruderja končana, nadaljujem s tiskanjem"
 
-#~ msgid "Please remove the extruder foam and take out the door handle."
-#~ msgstr "Prosimo, odstranite peno ekstruderja in izvlecite kljuko vrat."
+msgid "Auto extruder switch already enabled"
+msgstr "Samodejna zamenjava ekstruderja že omogočena"
 
-#~ msgid "Print Issue Detected!"
-#~ msgstr "Zaznana težava s tiskanjem!"
+msgid "Auto extruder switch enabled, this feature only works when printing with a single extruder"
+msgstr "Samodejna zamenjava ekstruderja omogočena; ta funkcija deluje le pri tiskanju z enim ekstruderjem"
 
-#~ msgid "AI Settings"
-#~ msgstr "AI Nastavitve"
+msgid "Auto extruder switch already disabled"
+msgstr "Samodejna zamenjava ekstruderja že onemogočena"
 
-#~ msgid "Detected defect: %s (Confidence: %.1f%%)"
-#~ msgstr "Zaznana napaka: %s (Zanesljivost: %.1f%%)"
+msgid "Auto extruder switch disabled"
+msgstr "Samodejna zamenjava ekstruderja onemogočena"
 
-#~ msgid "AI Detection Error: %s"
-#~ msgstr "Napaka AI zaznave: %s"
+msgid "Extruder switch when filament run out"
+msgstr "Zamenjava ekstruderja, ko se filament izteče"
+
+msgid "Filament Sensor0: No filament detected, canceling print."
+msgstr "Senzor filamente 0: Ni zaznan filament, prekinjam tiskanje."
+
+msgid "Filament Sensor1: No filament detected, canceling print."
+msgstr "Senzor filamente 1: Ni zaznan filament, prekinjam tiskanje."
+
+msgid "Active Extruder"
+msgstr "Aktivni Ekstruder"
+
+msgid "Active Extruder:"
+msgstr "Aktivni Ekstruder:"
+
+msgid "Bed Temp:"
+msgstr "Temp. Postelje:"
+
+msgid "Bed Temperature"
+msgstr "Temperatura Postelje"
+
+msgid "Filename"
+msgstr "Ime Datoteke"
+
+msgid "Filename:"
+msgstr "Ime Datoteke:"
+
+msgid "Missing required information"
+msgstr "Manjkajo zahtevane informacije"
+
+msgid "Nozzle Temp:"
+msgstr "Temp. Šobe:"
+
+msgid "Nozzle Temperature"
+msgstr "Temperatura Šobe"
+
+msgid "Power Loss Recovery"
+msgstr "Obnovitev po Izgubi Napajanja"
+
+msgid "Print Height"
+msgstr "Višina Tiska"
+
+msgid "Print Height:"
+msgstr "Višina Tiska:"
+
+msgid "Print height is less than 1mm"
+msgstr "Višina tiska je manjša od 1mm"
+
+msgid "Recovery File"
+msgstr "Datoteka za Obnovitev"
+
+msgid "Resume Print"
+msgstr "Nadaljuj Tiskanje"
+
+msgid "Tip: Please ensure the nozzle is about 0.1mm above the model"
+msgstr "Nasvet: Prepričajte se, da je šoba približno 0.1mm nad modelom"
+
+msgid "Force Move"
+msgstr "Prisilno premikanje"
+
+msgid "Force move: "
+msgstr "Prisilno premikanje:"
+
+msgid "Apply Z offset to Probe?"
+msgstr "Uporabim Z odmik za sondo?"
+
+msgid "Left Extruder: %s%.3f"
+msgstr "Levi ekstruder: %s%.3f"
+
+msgid "Left Extruder: Not adjusted"
+msgstr "Levi ekstruder: Ni prilagojen"
+
+msgid "Right Extruder: %s%.3f"
+msgstr "Desni ekstruder: %s%.3f"
+
+msgid "Right Extruder: Not adjusted"
+msgstr "Desni ekstruder: Ni prilagojen"
+
+msgid "Apply Z offset to Endstop?"
+msgstr "Uporabim Z odmik za končno stikalo?"
+
+msgid "Remove Foam"
+msgstr "Odstrani peno"
+
+msgid "Please remove the extruder foam and take out the door handle."
+msgstr "Prosimo, odstranite peno ekstruderja in izvlecite kljuko vrat."
+
+msgid "Please click the Z raise button to raise the Z axis to remove the foam around the bottom of the case."
+msgstr "Prosimo, kliknite gumb za dvig Z, da dvignete os Z in odstranite peno okoli dna ohišja."
+
+msgid "Print Issue Detected!"
+msgstr "Zaznana težava s tiskanjem!"
+
+msgid "No prediction image available"
+msgstr "Slika napovedovanja ni na voljo"
+
+msgid "Print resumed"
+msgstr "Tiskanje nadaljevano"
+
+msgid "Failed to resume print"
+msgstr "Nadaljevanje tiskanja ni uspelo"
+
+msgid "Print cancelled"
+msgstr "Tiskanje preklicano"
+
+msgid "Failed to cancel print"
+msgstr "Preklic tiskanja ni uspel"
+
+msgid "Configure basic AI service settings. Enable the AI service to monitor your prints and adjust the confidence threshold for detection sensitivity."
+msgstr "Konfigurirajte osnovne nastavitve storitve AI. Omogočite storitev AI za nadzor vaših tiskov in prilagodite prag zaupanja za občutljivost zaznave."
+
+
+msgid "AI Detection Alert"
+msgstr "Opozorilo zaznavanja AI"
+
+msgid "AI Monitor"
+msgstr "AI Monitor"
+
+msgid "AI Settings"
+msgstr "AI Nastavitve"
+
+msgid "Detected defect: %s (Confidence: %.1f%%)"
+msgstr "Zaznana napaka: %s (Zanesljivost: %.1f%%)"
+
+msgid "AI Detection Error: %s"
+msgstr "Napaka AI zaznave: %s"
+
+msgid "AI Detection Service"
+msgstr "AI Storitev Zaznavanja"
+
+msgid "AI Server URL"
+msgstr "AI Strežniški URL"
+
+msgid "Confidence Threshold (%)"
+msgstr "Prag Zanesljivosti (%)"
+
+msgid "Detection Interval (seconds)"
+msgstr "Interval Zaznavanja (sekunde)"
+
+msgid "Auto Pause on Detection"
+msgstr "Samodejna Prekinitev ob Zaznavanju"
+
+msgid "Enabled Defect Types"
+msgstr "Omogočene Vrste Napak"
+
+msgid "Camera Source"
+msgstr "Vir Kamere"
+
+msgid "Camera URL"
+msgstr "URL Kamere"
+
+msgid "Continue Detection While Paused"
+msgstr "Nadaljuj Zaznavanje Med Prekinitvijo"
+
+msgid "Sound Notification"
+msgstr "Zvočno Obvestilo"
+
+msgid "All valves closed"
+msgstr "Vsi ventili zaprti"
+
+msgid "Auto Feed"
+msgstr "Samodejno podajanje"
+
+msgid "Auto feed started"
+msgstr "Samodejno podajanje zagnano"
+
+msgid "Blowback Valve"
+msgstr "Ventil povratnega pihanja"
+
+msgid "Buffer"
+msgstr "Buffer"
+
+msgid "Buffer → Printhead"
+msgstr "Buffer → glava"
+
+msgid "Buffer Valve"
+msgstr "Ventil bufferja"
+
+msgid "Disconnected"
+msgstr "Odklopljeno"
+
+msgid "Dryer"
+msgstr "Sušilnik"
+
+msgid "Dryer → Buffer"
+msgstr "Sušilnik → buffer"
+
+msgid "Dryer Level"
+msgstr "Raven sušilnika"
+
+msgid "Dryer Sensor"
+msgstr "Tipalo sušilnika"
+
+msgid "Dryer Valve"
+msgstr "Ventil sušilnika"
+
+msgid "Feeder"
+msgstr "Podajalnik"
+
+msgid "Feeder:"
+msgstr "Podajalnik:"
+
+msgid "Hopper"
+msgstr "Lijak"
+
+msgid "Hopper → Dryer"
+msgstr "Lijak → sušilnik"
+
+msgid "Hopper Level"
+msgstr "Raven lijaka"
+
+msgid "Hopper Valve"
+msgstr "Ventil lijaka"
+
+msgid "Pressure:"
+msgstr "Tlak:"
+
+msgid "Printhead"
+msgstr "Glava"
+
+msgid "Printhead 1"
+msgstr "Glava 1"
+
+msgid "Printhead 2"
+msgstr "Glava 2"
+
+msgid "Retract blowback"
+msgstr "Povratni pih"
+
+msgid "Retract started"
+msgstr "Povlek zagnan"
+
+msgid "Run Mode:"
+msgstr "Način:"
+
+msgid "Stop All"
+msgstr "Ustavi vse"
+
+msgid "To Dryer"
+msgstr "V sušilnik"
+
+msgid "To Buffer"
+msgstr "V buffer"
+
+msgid "To Printhead"
+msgstr "V glavo"
+
+msgid "Return Buffer"
+msgstr "Nazaj v buffer"
