@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KlipperScreen\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-20 00:09-0300\n"
+"POT-Creation-Date: 2026-04-02 16:39+0800\n"
 "PO-Revision-Date: \n"
 "Last-Translator: SRBJ\n"
 "Language-Team: \n"
@@ -20,14 +20,20 @@ msgstr "%s vil blive opdateret til version"
 msgid "(default)"
 msgstr "(standard)"
 
-msgid "24 Hour Time"
-msgstr "24-timers visning"
-
 msgid "A FIRMWARE_RESTART may fix the issue."
 msgstr "En FIRMWARE_RESTART kan løse problemet."
 
 msgid "ADXL Not Configured"
 msgstr ""
+
+msgid "AI Detection Service"
+msgstr "AI Detektionstjeneste"
+
+msgid "AI Detection Status"
+msgstr ""
+
+msgid "AI Server URL"
+msgstr "AI Server URL"
 
 msgid "Abort"
 msgstr "Annuller"
@@ -38,22 +44,32 @@ msgstr "Acceleration:"
 msgid "Accept"
 msgstr "OK"
 
+msgid "Active Extruder"
+msgstr "Aktiv Ekstruder"
+
+msgid "Active Extruder:"
+msgstr "Aktiv Ekstruder:"
+
 msgid "Add profile"
 msgstr ""
+
+msgid "Adjust Zprobe Pos"
+msgstr "Juster Zprobe-position"
 
 msgid "All"
 msgstr ""
 
+msgid "All valves closed"
+msgstr "Alle ventiler lukket"
+
 msgid "Apply"
 msgstr ""
 
-#, python-format
-msgid "Apply %s%.3f offset to Endstop?"
-msgstr ""
+msgid "Apply Z offset to Endstop?"
+msgstr "Anvend Z-offset til endestop?"
 
-#, python-format
-msgid "Apply %s%.3f offset to Probe?"
-msgstr ""
+msgid "Apply Z offset to Probe?"
+msgstr "Anvend Z-offset til sonde?"
 
 msgid "Archived"
 msgstr ""
@@ -79,26 +95,56 @@ msgstr "Er du sikker på du vil lukke systemet?"
 msgid "Auto"
 msgstr "Auto"
 
+msgid "Auto Feed"
+msgstr "Auto-fremføring"
+
+msgid "Auto Pause on Detection"
+msgstr "Automatisk pause ved detektion"
+
+msgid "Auto feed started"
+msgstr "Auto-fremføring startet"
+
 msgid "Auto-calibrate"
 msgstr "Automatisk kalibrering"
 
 msgid "Auto-close notifications"
 msgstr ""
 
-msgid "Auto-open Extrude On Pause"
-msgstr ""
-
 msgid "Auto-scroll"
 msgstr "Auto-scroll"
+
+msgid "Back"
+msgstr ""
 
 msgid "Bed Level"
 msgstr "Bed-Level"
 
-msgid "Bed Mesh"
-msgstr "Bed-mesh"
+msgid "Bed Lower"
+msgstr ""
+
+msgid "Bed Temp:"
+msgstr "Printplade Temp:"
+
+msgid "Bed Temperature"
+msgstr "Printplade Temperatur"
 
 msgid "Bed screw configuration:"
 msgstr ""
+
+msgid "Blowback Valve"
+msgstr "Returblæsventil"
+
+msgid "Brightest"
+msgstr "Lysest"
+
+msgid "Buffer"
+msgstr "Buffer"
+
+msgid "Buffer Valve"
+msgstr "Bufferventil"
+
+msgid "Buffer → Printhead"
+msgstr "Buffer → printhoved"
 
 msgid "Calibrate"
 msgstr "Kalibrér"
@@ -109,8 +155,17 @@ msgstr "Kalibreret"
 msgid "Calibrating"
 msgstr "Kalibrerer"
 
+msgid "Calibration saved!"
+msgstr ""
+
 msgid "Camera"
 msgstr ""
+
+msgid "Camera Source"
+msgstr "Kamerakilde"
+
+msgid "Camera URL"
+msgstr "Kamera URL"
 
 msgid "Can't set above the maximum:"
 msgstr "Kan ikke indstilles over maksimum:"
@@ -130,6 +185,9 @@ msgstr "Annullerer"
 msgid "Cannot connect to Moonraker"
 msgstr "Kan ikke oprette forbindelse til Moonraker"
 
+msgid "Capture Image"
+msgstr ""
+
 msgid "Channel"
 msgstr "Kanal"
 
@@ -139,17 +197,55 @@ msgstr ""
 msgid "Checking for updates, please wait..."
 msgstr ""
 
+msgid "Choose Language"
+msgstr "Vælg sprog"
+
+msgid "Choose Timezone"
+msgstr "Vælg tidszone"
+
+msgid "Choose a language"
+msgstr "Vælg sprog"
+
+msgid "Choose a timezone"
+msgstr "Vælg tidszone"
+
 msgid "Clear"
+msgstr ""
+
+msgid "Clear History"
 msgstr ""
 
 msgid "Close"
 msgstr "Luk"
 
+msgid "Color"
+msgstr "Farve"
+
 msgid "Complete"
 msgstr "Færdig"
 
+msgid "Confidence Threshold (%)"
+msgstr "Tillidsgrænse (%)"
+
+msgid ""
+"Configure basic AI service settings. Enable the AI service to monitor your "
+"prints and adjust the confidence threshold for detection sensitivity."
+msgstr ""
+"Konfigurer grundlæggende AI-serviceindstillinger. Aktiver AI-tjenesten til "
+"at overvåge dine udskrifter og juster konfidensetærsklen for "
+"detektionfølsomhed."
+
+msgid "Confirm"
+msgstr "Bekræft"
+
 msgid "Confirm Emergency Stop"
 msgstr "Bekræft Nødstop"
+
+msgid "Confirm Movement"
+msgstr ""
+
+msgid "Confirm Pos"
+msgstr "Bekræft position"
 
 msgid "Connected"
 msgstr "Forbundet"
@@ -161,14 +257,38 @@ msgstr "Forbinder til %s"
 msgid "Connection failed"
 msgstr "Forbindelse mislykkedes"
 
-msgid "Console"
-msgstr "Terminal"
+msgid "Continue Detection While Paused"
+msgstr "Fortsæt detektion under pause"
 
 msgid "Cooldown"
 msgstr "Afkøling"
 
+msgid "Couldn't get the calibration camera position."
+msgstr "Kunne ikke få kalibreringskameraets position."
+
+msgid "Couldn't get the calibration switch position."
+msgstr ""
+
+msgid "Current Detection Image"
+msgstr ""
+
+msgid "Current language: "
+msgstr ""
+
+msgid "Current nozzle height difference: "
+msgstr "Nuværende dysehøjdeforskel: "
+
+msgid "Current nozzle height difference: ?"
+msgstr ""
+
+msgid "Current timezone: "
+msgstr ""
+
 msgid "DPMS has failed to load and has been disabled"
 msgstr ""
+
+msgid "Dangerous nozzle height difference: "
+msgstr "Farlig dysehøjdeforskel: "
 
 msgid "Date"
 msgstr "Dato"
@@ -182,21 +302,60 @@ msgstr ""
 msgid "Deselect"
 msgstr "Fravælg"
 
+msgid "Detection History"
+msgstr ""
+
+msgid "Detection Interval (seconds)"
+msgstr "Detektionsinterval (sekunder)"
+
 msgid "Disable Motors"
 msgstr "Deaktivér motorer"
 
+msgid "Disabled"
+msgstr ""
+
+msgid "Disconnected"
+msgstr "Frakoblet"
+
 msgid "Distance (mm)"
 msgstr "Længde (mm)"
+
+msgid "Do not touch the printer during self-check."
+msgstr "Berør ikke printeren under selvtesten."
 
 #, python-format
 msgid "Do you want to recover %s?"
 msgstr "Vil du gendanne %s?"
 
+msgid "Dryer"
+msgstr "Tørrer"
+
+msgid "Dryer Level"
+msgstr "Tørrerniveau"
+
+msgid "Dryer Sensor"
+msgstr "Tørrersensor"
+
+msgid "Dryer Valve"
+msgstr "Tørrerventil"
+
+msgid "Dryer → Buffer"
+msgstr "Tørrer → buffer"
+
 msgid "Elapsed:"
 msgstr "Tid:"
 
+msgid "Emergency Stop"
+msgstr ""
+
+msgid "Enabled Defect Types"
+msgstr "Aktiverede defekttyper"
+
 msgid "Error"
 msgstr "Fejl"
+
+msgid "Error writing configuration"
+msgstr "Fejl ved skrivning af konfiguration"
 
 msgid "Estimated Time Method"
 msgstr "Metode til beregning af tid"
@@ -204,23 +363,41 @@ msgstr "Metode til beregning af tid"
 msgid "Exclude Object"
 msgstr ""
 
-msgid "Extra Large"
-msgstr ""
-
 msgid "Extrude"
 msgstr "Ekstrudér"
 
-msgid "Extrusion +"
-msgstr "Ekstrudering +"
+msgid "Extruder switch when filament run out"
+msgstr "Ekstruder-skift når filden er brugt op"
 
-msgid "Extrusion -"
-msgstr "Ekstrudering -"
+msgid "Failed to cancel print"
+msgstr "Kunne ikke annullere print"
+
+msgid "Failed to capture image"
+msgstr ""
+
+msgid "Failed to detect nozzles"
+msgstr ""
+
+msgid "Failed to resume print"
+msgstr "Kunne ikke genoptage print"
+
+msgid "Failed to start AI monitoring"
+msgstr ""
 
 msgid "Failed, adjust position first"
 msgstr "Mislykkedes, juster først positionen"
 
 msgid "Fan"
 msgstr "Blæser"
+
+msgid "Feeder"
+msgstr ""
+
+msgid "Feeder:"
+msgstr "Fremf.:"
+
+msgid "Filament Box Power"
+msgstr "Filamentboks strøm"
 
 msgid "Filament Used"
 msgstr "Filament forbrug"
@@ -240,6 +417,12 @@ msgstr "Fil"
 msgid "File:"
 msgstr "Fil:"
 
+msgid "Filename"
+msgstr "Filnavn"
+
+msgid "Filename:"
+msgstr "Filnavn:"
+
 msgid "Filter"
 msgstr ""
 
@@ -255,17 +438,49 @@ msgstr "Færdig"
 msgid "Firmware Restart"
 msgstr "Firmware Genstart"
 
+# msgid "Firmware Restart"
+# msgstr "Genstart af firmware"
+msgid "Firmware has disconnected"
+msgstr "Firmware er frakoblet"
+
+msgid "Firmware has encountered an error."
+msgstr "Firmware har stødt på en fejl."
+
+msgid "Firmware has shutdown"
+msgstr "Firmware er blevet nedlagt"
+
+msgid "Firmware is attempting to start"
+msgstr "Firmware forsøger at starte"
+
+msgid "Firmware will reboot"
+msgstr "Firmware genstarter"
+
+msgid "Flow +"
+msgstr ""
+
+msgid "Flow -"
+msgstr ""
+
 msgid "Flow:"
 msgstr ""
 
 msgid "Flowrate:"
 msgstr ""
 
-msgid "Font Size"
-msgstr "Skriftstørrelse"
+msgid "Force Cancel"
+msgstr ""
+
+msgid "Force Move"
+msgstr "Tving bevægelse"
+
+msgid "Force move: "
+msgstr "Tving bevægelse:"
 
 msgid "Full Update"
 msgstr "Fuld Opdatering"
+
+msgid "Gcode Buttons"
+msgstr ""
 
 msgid "Go Back"
 msgstr "Gå tilbage"
@@ -276,11 +491,11 @@ msgstr ""
 msgid "Hidden"
 msgstr "Skjult"
 
+msgid "Hidden Network"
+msgstr ""
+
 msgid "Hide"
 msgstr "Skjule"
-
-msgid "Hide sensors in Temp."
-msgstr "Skjul sensorer i Temp."
 
 msgid "Hide temp."
 msgstr ""
@@ -303,8 +518,20 @@ msgstr "Home Y"
 msgid "Home Z"
 msgstr "Home Z"
 
-msgid "Host"
-msgstr ""
+msgid "Homing the printer..."
+msgstr "Homing af printeren..."
+
+msgid "Hopper"
+msgstr "Tragt"
+
+msgid "Hopper Level"
+msgstr "Tragtniveau"
+
+msgid "Hopper Valve"
+msgstr "Tragtventil"
+
+msgid "Hopper → Dryer"
+msgstr "Tragt → tørrer"
 
 msgid "Hostname"
 msgstr "Værtsnavn"
@@ -312,8 +539,12 @@ msgstr "Værtsnavn"
 msgid "ID"
 msgstr ""
 
-msgid "Icon Theme"
-msgstr "Ikon-tema"
+msgid ""
+"If your calibration device is under the PEI, please lift the PEI after "
+"homing."
+msgstr ""
+"Hvis din kalibreringsanordning er under PEI'en, løft venligst PEI'en efter "
+"homing."
 
 msgid "Initializing printer..."
 msgstr "Initialiserer printer..."
@@ -345,23 +576,8 @@ msgstr "Invertér Z"
 msgid "It may take more than 5 minutes depending on the heater power."
 msgstr ""
 
-#msgid "Firmware Restart"
-#msgstr "Genstart af firmware"
-
-msgid "Firmware has disconnected"
-msgstr "Firmware er frakoblet"
-
-msgid "Firmware has encountered an error."
-msgstr "Firmware har stødt på en fejl."
-
-msgid "Firmware has shutdown"
-msgstr "Firmware er blevet nedlagt"
-
-msgid "Firmware is attempting to start"
-msgstr "Firmware forsøger at starte"
-
-msgid "Firmware will reboot"
-msgstr "Firmware genstarter"
+msgid "LEDs"
+msgstr ""
 
 msgid ""
 "LOAD_FILAMENT/UNLOAD_FILAMENT are hidden and should be used from extrude"
@@ -370,8 +586,8 @@ msgstr ""
 msgid "Language"
 msgstr "Sprog"
 
-msgid "Large"
-msgstr "Stor"
+msgid "Last Detection:"
+msgstr ""
 
 msgid "Last Used"
 msgstr ""
@@ -382,26 +598,42 @@ msgstr ""
 msgid "Leds"
 msgstr ""
 
+#, python-format
+msgid "Left Extruder: %s%.3f"
+msgstr "Venstre ekstruder: %s%.3f"
+
+msgid "Left Extruder: Not adjusted"
+msgstr "Venstre ekstruder: Ikke justeret"
+
 msgid "Left:"
 msgstr "Resterende:"
 
-msgid "Limits"
-msgstr "Grænser"
+msgid "Leveling"
+msgstr "Nivellering"
 
 msgid "Load"
 msgstr "Indlæs"
 
+msgid "Local"
+msgstr ""
+
+msgid "Lower"
+msgstr "Senk"
+
 msgid "Lower Nozzle"
 msgstr "Sænk Nozzle"
 
-msgid "Macro shortcut on sidebar"
-msgstr "Makrogenvej på sidelinjen"
-
-msgid "Macros"
-msgstr "Makroer"
-
 msgid "Main Menu"
 msgstr "Hovedmenu"
+
+msgid "Manual"
+msgstr "Manuel"
+
+msgid "Manual Detect"
+msgstr ""
+
+msgid "Manual Detection"
+msgstr ""
 
 msgid "Material"
 msgstr ""
@@ -418,9 +650,6 @@ msgstr "Maks. acceleration til decceleration"
 msgid "Max Velocity"
 msgstr "Maks. hastighed"
 
-msgid "Maximum"
-msgstr ""
-
 msgid "Measure Both"
 msgstr ""
 
@@ -430,9 +659,6 @@ msgstr ""
 msgid "Measure Y"
 msgstr ""
 
-msgid "Medium"
-msgstr "Mellem"
-
 msgid "Menu"
 msgstr "Menu"
 
@@ -441,6 +667,12 @@ msgstr ""
 
 msgid "Modified"
 msgstr "Ændret"
+
+msgid "Monitoring:"
+msgstr ""
+
+msgid "Moonraker"
+msgstr ""
 
 msgid "Moonraker: connected"
 msgstr "Moonraker: tilsluttet"
@@ -457,6 +689,15 @@ msgstr "Flyt længde (mm)"
 msgid "Name"
 msgstr "Navn"
 
+msgid "Need home axis"
+msgstr "Behov for hjemmeakse"
+
+msgid "Need reboot, relaunch immediately?"
+msgstr "Behov for genstart, genstart straks?"
+
+msgid "Need to recalculate the offset value."
+msgstr "Skal beregne offsetværdien igen."
+
 msgid "Network"
 msgstr "Netværk"
 
@@ -466,7 +707,44 @@ msgstr ""
 msgid "New"
 msgstr "Ny"
 
+msgid "New nozzle height difference is: "
+msgstr "Ny dysehøjdeforskel er: "
+
+msgid "New nozzle height difference: "
+msgstr "Ny dysehøjdeforskel: "
+
+msgid "New nozzle height difference: ?"
+msgstr ""
+
+msgid "No Gcode Buttons configured"
+msgstr ""
+
+msgid "No calibration camera found."
+msgstr ""
+
+msgid "No camera URL available."
+msgstr ""
+
+msgid "No camera configured"
+msgstr ""
+
+msgid "No captured images found"
+msgstr ""
+
 msgid "No elegible macros:"
+msgstr ""
+
+msgid "No info available"
+msgstr ""
+
+msgid "No prediction image available"
+msgstr "Intet forudsigelsesplakat tilgængeligt"
+
+msgid "No wireless interface has been found"
+msgstr ""
+
+#, python-brace-format
+msgid "No {action} gcode configured for {button_name}"
 msgstr ""
 
 msgid ""
@@ -474,20 +752,44 @@ msgid ""
 "conf"
 msgstr ""
 
+msgid "Not working or not configured"
+msgstr ""
+
 msgid "Nothing selected"
 msgstr "Intet valgt"
+
+msgid "Notification log empty"
+msgstr ""
+
+msgid "Notifications"
+msgstr ""
+
+msgid "Nozzle Temp:"
+msgstr "Dyse Temp:"
+
+msgid "Nozzle Temperature"
+msgstr "Dyse Temperatur"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Only one extruder does not require calibration."
+msgstr "Kun en ekstruder kræver ikke kalibrering."
 
 #, python-format
 msgid "Outdated by %d"
 msgstr "Forældet med %d"
 
+msgid "Output Pins"
+msgstr ""
+
 msgid "PSK for"
 msgstr "PSK for"
 
 msgid "Package will be updated"
-
-msgstr "Pakken vil blive opdateret"
-
+msgid_plural "Packages will be updated"
+msgstr[0] ""
+msgstr[1] ""
 
 msgid "Part Fan"
 msgstr ""
@@ -504,20 +806,55 @@ msgstr "På pause"
 msgid "Perform a full upgrade?"
 msgstr "Vil du udføre en fuld opgradering?"
 
-msgid "Pins"
+msgid ""
+"Please click the Z raise button to raise the Z axis to remove the foam "
+"around the bottom of the case."
 msgstr ""
+"Klik venligst på Z-løft knappen for at hæve Z-aksen og fjerne skummet "
+"omkring bunden af kabinettet."
+
+msgid "Please observe if the nozzle is positioned above the probe."
+msgstr "Observér venligst om dysen er placeret over sonden."
 
 msgid "Please recompile and flash the micro-controller."
 msgstr "Genkompilér og flash mikrocontrolleren."
 
+msgid "Please wait for the camera initialization to complete."
+msgstr "Vent på, at kamerainitialiseringen er færdig."
+
+msgid ""
+"Please wait for the camera's fill light to light up for 5 seconds before "
+"clicking 'Start'"
+msgstr ""
+"Vent, indtil kameraets fyldelys lyser i 5 sekunder, før du klikker på "
+"'Start'."
+
+msgid "Please wait until the bed and nozzle is heated before calibrating."
+msgstr ""
+
 msgid "Power"
 msgstr "Strømstyring"
+
+msgid "Power Loss Recovery"
+msgstr "Strømafbrydelse Gendannelse"
 
 msgid "Power On Printer"
 msgstr "Tænd printer"
 
+msgid "Preheat"
+msgstr ""
+
+msgid "Press"
+msgstr ""
+
+msgid "Pressed"
+msgstr ""
+
 msgid "Pressure Advance:"
 msgstr ""
+
+msgid "Pressure:"
+msgstr "Tryk:"
 
 msgid "Print"
 msgstr "Print"
@@ -525,17 +862,35 @@ msgstr "Print"
 msgid "Print Control"
 msgstr "Print styring"
 
+msgid "Print Height"
+msgstr "Print Højde"
+
+msgid "Print Height:"
+msgstr "Print Højde:"
+
 msgid "Print Time"
 msgstr "Printtid"
 
-msgid "Printer"
-msgstr ""
+msgid "Print cancelled"
+msgstr "Print annulleret"
 
-msgid "Printer Connections"
-msgstr "Printer forbindelser"
+msgid "Print height is less than 1mm"
+msgstr "Print højde er mindre end 1mm"
+
+msgid "Print resumed"
+msgstr "Print genoptaget"
 
 msgid "Printer Select"
 msgstr ""
+
+msgid "Printhead"
+msgstr "Hoved"
+
+msgid "Printhead 1"
+msgstr "Hoved 1"
+
+msgid "Printhead 2"
+msgstr "Hoved 2"
 
 msgid "Printing"
 msgstr "Printer"
@@ -552,6 +907,9 @@ msgstr ""
 msgid "Quad Gantry Level"
 msgstr "Justering af 4-søjlers konstruktion"
 
+msgid "Raise"
+msgstr "Hæv"
+
 msgid "Raise Nozzle"
 msgstr "Hæv Nozzle"
 
@@ -564,11 +922,23 @@ msgstr "Nulstil alt"
 msgid "Recover Soft"
 msgstr "Nulstil"
 
+msgid "Recovery File"
+msgstr "Gendannelsesfil"
+
 msgid "Reference"
 msgstr "Reference"
 
 msgid "Refresh"
 msgstr ""
+
+msgid "Release"
+msgstr ""
+
+msgid "Released"
+msgstr ""
+
+msgid "Remove Foam"
+msgstr "Fjern skum"
 
 msgid "Rename/Move:"
 msgstr ""
@@ -576,14 +946,20 @@ msgstr ""
 msgid "Restart"
 msgstr "Genstart"
 
+msgid "Restart required. Restart now?"
+msgstr ""
+
 msgid "Resume"
 msgstr "Genoptag"
 
 msgid "Retract"
 msgstr "Retract"
 
-msgid "Retraction"
-msgstr ""
+msgid "Retract blowback"
+msgstr "Returblæs"
+
+msgid "Retract started"
+msgstr "Tilbagetræk startet"
 
 msgid "Retraction Length"
 msgstr ""
@@ -597,11 +973,30 @@ msgstr ""
 msgid "Retrying"
 msgstr ""
 
+msgid "Return Buffer"
+msgstr "Retur buffer"
+
+msgid "Right Extruder Z Offset"
+msgstr ""
+
+#, python-format
+msgid "Right Extruder: %s%.3f"
+msgstr "Højre ekstruder: %s%.3f"
+
+msgid "Right Extruder: Not adjusted"
+msgstr "Højre ekstruder: Ikke justeret"
+
+msgid "Run Mode:"
+msgstr "Mode:"
+
+msgid "Running"
+msgstr ""
+
 msgid "Save"
 msgstr "Gem"
 
-msgid "Save Config"
-msgstr "Gem Konfiguration"
+msgid "Save Results"
+msgstr ""
 
 msgid "Save Z"
 msgstr "Gem Z"
@@ -612,8 +1007,10 @@ msgstr "Gem Konfiguration?"
 msgid "Saved"
 msgstr "Gemt"
 
-#, python-format
-msgid "Saved offset: %s"
+msgid "Saved successfully!"
+msgstr "Gemt med succes!"
+
+msgid "Saved successfully."
 msgstr ""
 
 msgid "Screen DPMS"
@@ -628,8 +1025,17 @@ msgstr "Skruejustering"
 msgid "Select"
 msgstr "Vælg"
 
+msgid "Select WiFi"
+msgstr "Vælg WiFi"
+
+msgid "Self-check"
+msgstr "Selvtest"
+
 msgid "Send"
 msgstr "Sende"
+
+msgid "Service Status:"
+msgstr ""
 
 msgid "Set Temp"
 msgstr "Indstil Temp"
@@ -640,11 +1046,8 @@ msgstr "Indstillinger"
 msgid "Show"
 msgstr "At vise"
 
-msgid "Show Heater Power"
-msgstr ""
-
-msgid "Show Scrollbars Buttons"
-msgstr ""
+msgid "Shut down after printing completes"
+msgstr "Sluk efter udskrivning færdiggjort"
 
 msgid "Shutdown"
 msgstr ""
@@ -658,8 +1061,8 @@ msgstr "Slicer"
 msgid "Slicer:"
 msgstr ""
 
-msgid "Small"
-msgstr "Lille"
+msgid "Sound Notification"
+msgstr "Lydbesked"
 
 msgid "Speed (mm/s)"
 msgstr "Hastighed (mm/s)"
@@ -682,14 +1085,41 @@ msgstr ""
 msgid "Start"
 msgstr "Start"
 
+msgid "Start Calibration"
+msgstr ""
+
+msgid "Start Monitoring"
+msgstr ""
+
+msgid "Start Preview"
+msgstr ""
+
 msgid "Starting WiFi Association"
 msgstr "Starter WiFi Association"
+
+msgid "Starting dual nozzle height calibration..."
+msgstr "Starter kalibrering af dobbelt dysehøjde..."
 
 msgid "Starting recovery for"
 msgstr "Gendanner"
 
 msgid "Starting update for"
 msgstr "Opdaterer"
+
+msgid "Stop"
+msgstr ""
+
+msgid "Stop All"
+msgstr "Stop alt"
+
+msgid "Stop Monitoring"
+msgstr ""
+
+msgid "Stop Preview"
+msgstr ""
+
+msgid "Stopped"
+msgstr ""
 
 msgid "System"
 msgstr "System"
@@ -706,8 +1136,32 @@ msgstr "Temp (°C)"
 msgid "Temperature"
 msgstr "Temperatur"
 
+msgid "The nozzle temperature is too low, Are you sure you want to heat it?"
+msgstr "Dysetemperaturen er for lav. Er du sikker på, du vil opvarme den?"
+
+msgid "To Buffer"
+msgstr "Til buffer"
+
+msgid "To Dryer"
+msgstr "Til tørrer"
+
+msgid "To Printhead"
+msgstr "Til hoved"
+
 msgid "Total:"
 msgstr "Total:"
+
+msgid "Troubleshooting"
+msgstr "Fejlfinding"
+
+msgid "Turn off"
+msgstr "Sluk"
+
+msgid "URL"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
 
 msgid "Unknown Heater"
 msgstr "Ukendt varmelegeme"
@@ -736,8 +1190,37 @@ msgstr "Opdatering"
 msgid "Uploaded"
 msgstr "Uploadet"
 
+msgid "Voice Notify"
+msgstr "Stemmebesked"
+
+msgid "Warning"
+msgstr "Advarsel"
+
+msgid ""
+"Warning: Current value is negative. This is dangerous and may damage the "
+"machine. Please recalibrate."
+msgstr ""
+"Advarsel: Nuværende værdi er negativ. Dette er farligt og kan beskadige "
+"maskinen. Kalibrer venligst igen."
+
+msgid ""
+"Warning: Negative value detected. This is dangerous and may damage the "
+"machine. Please recalibrate."
+msgstr ""
+"Advarsel: Negativ værdi registreret. Dette er farligt og kan beskadige "
+"maskinen. Kalibrer venligst igen."
+
+msgid "Waste Chute"
+msgstr ""
+
+msgid "WebRTC is not supported by the backend trying Stream"
+msgstr ""
+
 msgid "XY Move Speed (mm/s)"
 msgstr "XY Flyt hastighed (mm/s)"
+
+msgid "XY Offset"
+msgstr "XY-offset"
 
 msgid "XY Speed (mm/s)"
 msgstr "XY Hastighed (mm/s)"
@@ -745,8 +1228,17 @@ msgstr "XY Hastighed (mm/s)"
 msgid "Z Calibrate"
 msgstr "Kalibrér Z"
 
+msgid "Z Endstop"
+msgstr ""
+
+msgid "Z Height Diff"
+msgstr "Z-højdeforskel"
+
 msgid "Z Move Speed (mm/s)"
 msgstr "Z Flyt hastighed (mm/s)"
+
+msgid "Z Offset"
+msgstr "Z-offset"
 
 msgid "Z Speed (mm/s)"
 msgstr "Z Hastighed (mm/s)"
@@ -754,21 +1246,24 @@ msgstr "Z Hastighed (mm/s)"
 msgid "Z Tilt"
 msgstr "Z-tilt"
 
+msgid "Z offset exceeds safe range"
+msgstr ""
+
 msgid "Z offset:"
 msgstr ""
 
 msgid "commit"
-
-msgstr "ændring"
-
+msgid_plural "commits"
+msgstr[0] ""
+msgstr[1] ""
 
 msgid "dBm"
 msgstr "dBm"
 
 msgid "hour"
-
-msgstr "time"
-
+msgid_plural "hours"
+msgstr[0] ""
+msgstr[1] ""
 
 msgid "macros that use 'rename_existing' are hidden"
 msgstr ""
@@ -777,8 +1272,9 @@ msgid "macros with a name starting with '_' are hidden"
 msgstr ""
 
 msgid "minute"
-msgstr "minut"
-
+msgid_plural "minutes"
+msgstr[0] ""
+msgstr[1] ""
 
 msgid "mm"
 msgstr "mm"
@@ -792,11 +1288,59 @@ msgstr "mm/s²"
 msgid "mm³/s"
 msgstr ""
 
+#~ msgid "24 Hour Time"
+#~ msgstr "24-timers visning"
+
+#~ msgid "Bed Mesh"
+#~ msgstr "Bed-mesh"
+
+#~ msgid "Console"
+#~ msgstr "Terminal"
+
+#~ msgid "Extrusion +"
+#~ msgstr "Ekstrudering +"
+
+#~ msgid "Extrusion -"
+#~ msgstr "Ekstrudering -"
+
+#~ msgid "Font Size"
+#~ msgstr "Skriftstørrelse"
+
+#~ msgid "Hide sensors in Temp."
+#~ msgstr "Skjul sensorer i Temp."
+
+#~ msgid "Icon Theme"
+#~ msgstr "Ikon-tema"
+
+#~ msgid "Large"
+#~ msgstr "Stor"
+
+#~ msgid "Limits"
+#~ msgstr "Grænser"
+
+#~ msgid "Macro shortcut on sidebar"
+#~ msgstr "Makrogenvej på sidelinjen"
+
+#~ msgid "Macros"
+#~ msgstr "Makroer"
+
+#~ msgid "Medium"
+#~ msgstr "Mellem"
+
+#~ msgid "Printer Connections"
+#~ msgstr "Printer forbindelser"
+
+#~ msgid "Save Config"
+#~ msgstr "Gem Konfiguration"
+
+#~ msgid "Small"
+#~ msgstr "Lille"
+
 #~ msgid "KlipperScreen will reboot"
 #~ msgstr "KlipperScreen vil genstarte"
 
-msgid "Continue"
-msgstr "Fortsæt"
+#~ msgid "Continue"
+#~ msgstr "Fortsæt"
 
 #~ msgid "Actions"
 #~ msgstr "Muligheder"
@@ -807,17 +1351,11 @@ msgstr "Fortsæt"
 #~ msgid "Homing"
 #~ msgstr "Homing"
 
-#~ msgid "Disable XY"
-#~ msgstr "Deaktivér XY"
-
 #~ msgid "Slicer Time correction (%)"
 #~ msgstr "Slicer Tidskorrektion (%)"
 
 #~ msgid "Calibrated, save configuration to make it permanent"
 #~ msgstr "Kalibreret, gem konfiguration for at gøre den permanent"
-
-#~ msgid "Decrease"
-#~ msgstr "Formindsk"
 
 #~ msgid "Increase"
 #~ msgstr "Forøg"
@@ -935,831 +1473,480 @@ msgstr "Fortsæt"
 #~ msgid "Temp"
 #~ msgstr "Temp"
 
-msgid "Leveling"
-msgstr "Nivellering"
+#~ msgid "General"
+#~ msgstr "Generelt"
 
-msgid "The nozzle temperature is too low, Are you sure you want to heat it?"
-msgstr "Dysetemperaturen er for lav. Er du sikker på, du vil opvarme den?"
+#~ msgid "Cautions"
+#~ msgstr "Advarsler"
 
-msgid "General"
-msgstr "Generelt"
+#~ msgid "Maintenance"
+#~ msgstr "Vedligeholdelse"
 
-msgid "Turn off"
-msgstr "Sluk"
+#~ msgid "Please confirm left extruder position."
+#~ msgstr "Bekræft venstre ekstruderposition."
 
-msgid "Brightest"
-msgstr "Lysest"
+#~ msgid "Nozzle Heating"
+#~ msgstr "Opvarmning af dyse"
 
-msgid "Manual"
-msgstr "Manuel"
+#~ msgid "Hot Bed Heating"
+#~ msgstr "Opvarmning af varmebed"
 
-msgid "Troubleshooting"
-msgstr "Fejlfinding"
+#~ msgid "Nozzle Cooling Fan"
+#~ msgstr "Dyseafkølingsblæser"
 
-msgid "Cautions"
-msgstr "Advarsler"
+#~ msgid "Hotend Cooling Fan"
+#~ msgstr "Hotend-afkølingsblæser"
 
-msgid "Maintenance"
-msgstr "Vedligeholdelse"
+#~ msgid "Auto Leveling"
+#~ msgstr "Automatisk nivellering"
 
-msgid "Calibration"
-msgstr "Kalibrering"
+#~ msgid "WiFi"
+#~ msgstr "WiFi"
 
-msgid "XY Offset"
-msgstr "XY-offset"
+#~ msgid "Power loss recovery, is resume print?"
+#~ msgstr "Gendannelse efter strømafbrydelse, vil genoptage udskrivning?"
 
-msgid "Z Offset"
-msgstr "Z-offset"
+#~ msgid "Skip All"
+#~ msgstr "Spring alle over"
 
-msgid "Only one extruder does not require calibration."
-msgstr "Kun en ekstruder kræver ikke kalibrering."
+#~ msgid "Please wait for the print job to end"
+#~ msgstr "Vent, indtil printopgaven er afsluttet"
 
-msgid "Please confirm left extruder position."
-msgstr "Bekræft venstre ekstruderposition."
+#~ msgid "Are you sure you wish to reset the printer?"
+#~ msgstr "Er du sikker på, at du vil nulstille printeren?"
 
-msgid "Need to recalculate the offset value."
-msgstr "Skal beregne offsetværdien igen."
+#~ msgid "Data will be deleted"
+#~ msgstr "Data vil blive slettet"
 
-msgid "Error writing configuration"
-msgstr "Fejl ved skrivning af konfiguration"
+#~ msgid "Reset Printer"
+#~ msgstr "Nulstil printer"
 
-msgid "Please wait for the camera initialization to complete."
-msgstr "Vent på, at kamerainitialiseringen er færdig."
+#~ msgid "Resetting printer, will restart, please wait..."
+#~ msgstr "Nulstiller printeren, genstarter, vent venligst..."
 
-msgid "Please wait for the camera's fill light to light up for 5 seconds before clicking 'Start'"
-msgstr "Vent, indtil kameraets fyldelys lyser i 5 sekunder, før du klikker på 'Start'."
+#~ msgid "Reset"
+#~ msgstr "Nulstil"
 
-msgid "Couldn't get the calibration camera position."
-msgstr "Kunne ikke få kalibreringskameraets position."
-
-msgid "Need home axis"
-msgstr "Behov for hjemmeakse"
-
-msgid "Choose Language"
-msgstr "Vælg sprog"
-
-msgid "Choose Timezone"
-msgstr "Vælg tidszone"
-
-msgid "Select WiFi"
-msgstr "Vælg WiFi"
-
-msgid "Self-check"
-msgstr "Selvtest"
-
-msgid "Nozzle Heating"
-msgstr "Opvarmning af dyse"
-
-msgid "Hot Bed Heating"
-msgstr "Opvarmning af varmebed"
-
-msgid "Nozzle Cooling Fan"
-msgstr "Dyseafkølingsblæser"
-
-msgid "Hotend Cooling Fan"
-msgstr "Hotend-afkølingsblæser"
-
-msgid "Filament Detection"
-msgstr "Filamentdetektion"
-
-msgid "Auto Leveling"
-msgstr "Automatisk nivellering"
-
-msgid "WiFi"
-msgstr "WiFi"
-
-msgid "Power loss recovery, is resume print?"
-msgstr "Gendannelse efter strømafbrydelse, vil genoptage udskrivning?"
-
-msgid "Please wait until the bed and nozzle are heated before calibrating."
-msgstr "Vent, indtil sengen og dysen er opvarmet, før du kalibrerer."
-
-msgid "Current language:"
-msgstr "Aktuelt sprog:"
-
-msgid "Skip All"
-msgstr "Spring alle over"
-
-msgid "Do not touch the printer during self-check."
-msgstr "Berør ikke printeren under selvtesten."
-
-msgid "Confirm"
-msgstr "Bekræft"
-
-msgid "Current timezone:"
-msgstr "Aktuel tidszone:"
-
-msgid "Choose a timezone"
-msgstr "Vælg tidszone"
-
-msgid "Choose a language"
-msgstr "Vælg sprog"
-
-msgid "Please wait for the print job to end"
-msgstr "Vent, indtil printopgaven er afsluttet"
-
-msgid "Are you sure you wish to reset the printer?"
-msgstr "Er du sikker på, at du vil nulstille printeren?"
-
-msgid "Data will be deleted"
-msgstr "Data vil blive slettet"
-
-msgid "Reset Printer"
-msgstr "Nulstil printer"
-
-msgid "Resetting printer, will restart, please wait..."
-msgstr "Nulstiller printeren, genstarter, vent venligst..."
-
-msgid "Reset"
-msgstr "Nulstil"
-
-msgid "Poweroff"
-msgstr "Sluk"
-
-msgid "Confirm Pos"
-msgstr "Bekræft position"
-
-msgid "Shut down after printing completes"
-msgstr "Sluk efter udskrivning færdiggjort"
-
-msgid "Voice Notify"
-msgstr "Stemmebesked"
-
-msgid "Filament Box Power"
-msgstr "Filamentboks strøm"
-
-msgid "If your calibration device is under the PEI, please lift the PEI after homing."
-msgstr "Hvis din kalibreringsanordning er under PEI'en, løft venligst PEI'en efter homing."
-
-msgid "Homing the printer..."
-msgstr "Homing af printeren..."
-
-msgid "Starting dual nozzle height calibration..."
-msgstr "Starter kalibrering af dobbelt dysehøjde..."
-
-msgid "Please observe if the nozzle is positioned above the probe."
-msgstr "Observér venligst om dysen er placeret over sonden."
-
-msgid "Warning: Negative value detected. This is dangerous and may damage the machine. Please recalibrate."
-msgstr "Advarsel: Negativ værdi registreret. Dette er farligt og kan beskadige maskinen. Kalibrer venligst igen."
-
-msgid "New nozzle height difference is: "
-msgstr "Ny dysehøjdeforskel er: "
-
-msgid "Warning: Current value is negative. This is dangerous and may damage the machine. Please recalibrate."
-msgstr "Advarsel: Nuværende værdi er negativ. Dette er farligt og kan beskadige maskinen. Kalibrer venligst igen."
-
-msgid "Z Height Diff"
-msgstr "Z-højdeforskel"
-
-msgid "Adjust Zprobe Pos"
-msgstr "Juster Zprobe-position"
-
-msgid "Need reboot, relaunch immediately?"
-msgstr "Behov for genstart, genstart straks?"
-
-msgid "Current nozzle height difference: "
-msgstr "Nuværende dysehøjdeforskel: "
-
-msgid "New nozzle height difference: "
-msgstr "Ny dysehøjdeforskel: "
-
-msgid "Dangerous nozzle height difference: "
-msgstr "Farlig dysehøjdeforskel: "
-
-msgid "Saved successfully!"
-msgstr "Gemt med succes!"
+#~ msgid "Poweroff"
+#~ msgstr "Sluk"
 
 # Feed Filament Box
-msgid "Edit"
-msgstr "Rediger"
+#~ msgid "Edit"
+#~ msgstr "Rediger"
 
-msgid "Filament Info"
-msgstr "Filament information"
+#~ msgid "Filament Info"
+#~ msgstr "Filament information"
 
-msgid "Not found"
-msgstr "Ikke fundet"
+#~ msgid "Not found"
+#~ msgstr "Ikke fundet"
 
-msgid "Vendor"
-msgstr "Producent"
+#~ msgid "Vendor"
+#~ msgstr "Producent"
 
-msgid "Type"
-msgstr "Type"
+#~ msgid "Type"
+#~ msgstr "Type"
 
-msgid "Color"
-msgstr "Farve"
+#~ msgid "Set Color"
+#~ msgstr "Indstil farve"
 
-msgid "Set Color"
-msgstr "Indstil farve"
+#~ msgid "Filament Settings"
+#~ msgstr "Filament indstillinger"
 
-msgid "Filament Settings"
-msgstr "Filament indstillinger"
+#~ msgid "Multi-Material Box"
+#~ msgstr "Multi-materiale boks"
 
-msgid "Multi-Material Box"
-msgstr "Multi-materiale boks"
+#~ msgid "Are you sure you wish to restart the firmware?"
+#~ msgstr "Er du sikker på, at du vil genstarte firmwaren?"
 
-msgid "Are you sure you wish to restart the firmware?"
-msgstr "Er du sikker på, at du vil genstarte firmwaren?"
+#~ msgid "Autofill filament disable"
+#~ msgstr "Deaktiver automatisk filamentfyldning"
 
-msgid "Autofill filament disable"
-msgstr "Deaktiver automatisk filamentfyldning"
+#~ msgid "Autofill filament enabled"
+#~ msgstr "Automatisk filamentfyldning aktiveret"
 
-msgid "Autofill filament enabled"
-msgstr "Automatisk filamentfyldning aktiveret"
+#~ msgid "Autofill filament: %s"
+#~ msgstr "Automatisk filamentfyldning: %s"
 
-msgid "Autofill filament: %s"
-msgstr "Automatisk filamentfyldning: %s"
+#~ msgid "Backing up configuration files."
+#~ msgstr "Sikkerhedskopierer konfigurationsfiler."
 
-msgid "Backing up configuration files."
-msgstr "Sikkerhedskopierer konfigurationsfiler."
+#~ msgid "Calibrate Cutter Pos"
+#~ msgstr "Kalibrer skæreposition"
 
-msgid "Calibrate Cutter Pos"
-msgstr "Kalibrer skæreposition"
+#~ msgid "Couldn't get the calibration cutter position."
+#~ msgstr "Kunne ikke få skærerens kalibreringsposition."
 
-msgid "Couldn't get the calibration cutter position."
-msgstr "Kunne ikke få skærerens kalibreringsposition."
+#~ msgid "Current filament indexes are:%s, active tool:%s"
+#~ msgstr "Aktuelle filamentindekser er:%s, aktivt værktøj:%s"
 
-msgid "Current filament indexes are:%s, active tool:%s"
-msgstr "Aktuelle filamentindekser er:%s, aktivt værktøj:%s"
+#~ msgid ""
+#~ "Current filament indexes are:%s, active tool:%s, resume_tool:%s, "
+#~ "pause_reason:%s"
+#~ msgstr ""
+#~ "Aktuelle filamentindekser er:%s, aktivt værktøj:%s, genoptag_værktøj:%s, "
+#~ "pause_årsag:%s"
 
-msgid "Current filament indexes are:%s, active tool:%s, resume_tool:%s, pause_reason:%s"
-msgstr "Aktuelle filamentindekser er:%s, aktivt værktøj:%s, genoptag_værktøj:%s, pause_årsag:%s"
+#~ msgid "Current value is %s"
+#~ msgstr "Aktuel værdi er %s"
 
-msgid "Current value is %s"
-msgstr "Aktuel værdi er %s"
+#~ msgid "Cut Filament Test"
+#~ msgstr "Test af filamentskæring"
 
-msgid "Cut Filament Test"
-msgstr "Test af filamentskæring"
+#~ msgid "Do you want to enable multi-material box?"
+#~ msgstr "Vil du aktivere multimaterialeboks?"
 
-msgid "Do you want to enable multi-material box?"
-msgstr "Vil du aktivere multimaterialeboks?"
+#~ msgid "Do you want to use external filament?"
+#~ msgstr "Vil du bruge eksternt filament?"
 
-msgid "Do you want to use external filament?"
-msgstr "Vil du bruge eksternt filament?"
+#~ msgid "Error: Offset values not found"
+#~ msgstr "Fejl: Offset-værdier ikke fundet"
 
-msgid "Error: Offset values not found"
-msgstr "Fejl: Offset-værdier ikke fundet"
+#~ msgid "Error: Z offset value not found"
+#~ msgstr "Fejl: Z-offset værdi ikke fundet"
 
-msgid "Error: Z offset value not found"
-msgstr "Fejl: Z-offset værdi ikke fundet"
+#~ msgid "External Filament"
+#~ msgstr "Eksternt filament"
 
-msgid "External Filament"
-msgstr "Eksternt filament"
+#~ msgid "Extruder not hot enough"
+#~ msgstr "Ekstruderen er ikke varm nok"
 
-msgid "Extruder not hot enough"
-msgstr "Ekstruderen er ikke varm nok"
+#~ msgid "FEED error:External filament not removed"
+#~ msgstr "FØDNINGSFEJL: Eksternt filament ikke fjernet"
 
-msgid "FEED error:External filament not removed"
-msgstr "FØDNINGSFEJL: Eksternt filament ikke fjernet"
+#~ msgid "Filament %s not found"
+#~ msgstr "Filament %s ikke fundet"
 
-msgid "Filament %s not found"
-msgstr "Filament %s ikke fundet"
+#~ msgid "Filament Sensor%s: No filament detected, canceling print"
+#~ msgstr "Filamentsensor%s: Intet filament registreret, annullerer udskrift"
 
-msgid "Filament Sensor%s: No filament detected, canceling print"
-msgstr "Filamentsensor%s: Intet filament registreret, annullerer udskrift"
+#~ msgid "Filament Sensor%s: No filament detected, pausing print"
+#~ msgstr ""
+#~ "Filamentsensor%s: Intet filament registreret, sætter udskrift på pause"
 
-msgid "Filament Sensor%s: No filament detected, pausing print"
-msgstr "Filamentsensor%s: Intet filament registreret, sætter udskrift på pause"
+#~ msgid ""
+#~ "Filament detected! Please remove filament from the hotend before enabling "
+#~ "multi-material box."
+#~ msgstr ""
+#~ "Filament registreret! Fjern venligst filament fra hotenden før aktivering "
+#~ "af multimaterialeboks."
 
-msgid "Filament detected! Please remove filament from the hotend before enabling multi-material box."
-msgstr "Filament registreret! Fjern venligst filament fra hotenden før aktivering af multimaterialeboks."
+#~ msgid "Missing required recovery data"
+#~ msgstr "Mangler nødvendige gendannelsesdata"
 
-msgid "Missing required recovery data"
-msgstr "Mangler nødvendige gendannelsesdata"
+#~ msgid "No power loss recovery data found"
+#~ msgstr "Ingen strømsvigts-gendannelsesdata fundet"
 
-msgid "No power loss recovery data found"
-msgstr "Ingen strømsvigts-gendannelsesdata fundet"
+#~ msgid "No valid params 'S'"
+#~ msgstr "Ingen gyldige parametre 'S'"
 
-msgid "No valid params 'S'"
-msgstr "Ingen gyldige parametre 'S'"
+#~ msgid "No"
+#~ msgstr "Nej"
 
-msgid "No"
-msgstr "Nej"
+#~ msgid "Options"
+#~ msgstr "Indstillinger"
 
-msgid "OK"
-msgstr "OK"
+#~ msgid "Pause. The \"extruder\" extrude error!"
+#~ msgstr "Pause. \"Ekstruder\" ekstruderingsfejl!"
 
-msgid "Options"
-msgstr "Indstillinger"
+#~ msgid "Please exit the filament from the nozzle first"
+#~ msgstr "Fjern venligst først filamentet fra dysen"
 
-msgid "Pause. The \"extruder\" extrude error!"
-msgstr "Pause. \"Ekstruder\" ekstruderingsfejl!"
+#~ msgid ""
+#~ "Please fill in the voice number correctly: 0-start printing, 1-end "
+#~ "printing, 2-outage detected, 3-cancel printing, 4-pause printing"
+#~ msgstr ""
+#~ "Udfyld venligst stemmenummeret korrekt: 0-start udskrivning, 1-afslut "
+#~ "udskrivning, 2-strømsvigt registreret, 3-annuller udskrivning, 4-pause "
+#~ "udskrivning"
 
-msgid "Please exit the filament from the nozzle first"
-msgstr "Fjern venligst først filamentet fra dysen"
+#~ msgid "Please select how you would like to proceed."
+#~ msgstr "Vælg venligst hvordan du vil fortsætte."
 
-msgid "Please fill in the voice number correctly: 0-start printing, 1-end printing, 2-outage detected, 3-cancel printing, 4-pause printing"
-msgstr "Udfyld venligst stemmenummeret korrekt: 0-start udskrivning, 1-afslut udskrivning, 2-strømsvigt registreret, 3-annuller udskrivning, 4-pause udskrivning"
+#~ msgid "Power loss recovery, resuming print."
+#~ msgstr "Gendannelse efter strømsvigt, genoptager udskrift."
 
-msgid "Please select how you would like to proceed."
-msgstr "Vælg venligst hvordan du vil fortsætte."
+#~ msgid "Power loss, saving print states."
+#~ msgstr "Strømsvigt, gemmer udskriftstilstande."
 
-msgid "Power loss recovery, resuming print."
-msgstr "Gendannelse efter strømsvigt, genoptager udskrift."
+#~ msgid "Press feedsys button"
+#~ msgstr "Tryk på fødningssystemknappen"
 
-msgid "Power loss, saving print states."
-msgstr "Strømsvigt, gemmer udskriftstilstande."
+#~ msgid "Print resumed from power loss position"
+#~ msgstr "Udskrift genoptaget fra strømsvigtsposition"
 
-msgid "Press feedsys button"
-msgstr "Tryk på fødningssystemknappen"
+#~ msgid "Printer not homed"
+#~ msgstr "Printer ikke hjemme"
 
-msgid "Print resumed from power loss position"
-msgstr "Udskrift genoptaget fra strømsvigtsposition"
+#~ msgid "RESUME error:autofill no fil"
+#~ msgstr "GENOPTAG fejl: autofyld intet filament"
 
-msgid "Printer not homed"
-msgstr "Printer ikke hjemme"
+#~ msgid "RESUME error:no fil"
+#~ msgstr "GENOPTAG fejl: intet filament"
 
-msgid "RESUME error:autofill no fil"
-msgstr "GENOPTAG fejl: autofyld intet filament"
+#~ msgid "RESUME error:residual fil"
+#~ msgstr "GENOPTAG fejl: resterende filament"
 
-msgid "RESUME error:no fil"
-msgstr "GENOPTAG fejl: intet filament"
+#~ msgid "Recovery data: Z=%s, File=%s, Pos=%s"
+#~ msgstr "Gendannelsesdata: Z=%s, Fil=%s, Pos=%s"
 
-msgid "RESUME error:residual fil"
-msgstr "GENOPTAG fejl: resterende filament"
+#~ msgid "T%s direct feed"
+#~ msgstr "T%s direkte fødning"
 
-msgid "Recovery data: Z=%s, File=%s, Pos=%s"
-msgstr "Gendannelsesdata: Z=%s, Fil=%s, Pos=%s"
+#~ msgid "T%s need exit filament"
+#~ msgstr "T%s skal have fjernet filament"
 
-msgid "Save & Restart"
-msgstr "Gem & Genstart"
+#~ msgid "The current toolheade is T%s"
+#~ msgstr "Det aktuelle værktøjshoved er T%s"
 
-msgid "T%s direct feed"
-msgstr "T%s direkte fødning"
+#~ msgid "The filament_box_%s no filament"
+#~ msgstr "Filamentboks_%s intet filament"
 
-msgid "T%s need exit filament"
-msgstr "T%s skal have fjernet filament"
+#~ msgid "The motor is wrong."
+#~ msgstr "Motoren er forkert."
 
-msgid "The current toolheade is T%s"
-msgstr "Det aktuelle værktøjshoved er T%s"
+#~ msgid "There is a residual filament, Please remove and continue"
+#~ msgstr "Der er resterende filament, fjern det venligst og fortsæt"
 
-msgid "The filament_box_%s no filament"
-msgstr "Filamentboks_%s intet filament"
+#~ msgid "There's a residual filament in box %s"
+#~ msgstr "Der er resterende filament i boks %s"
 
-msgid "The motor is wrong."
-msgstr "Motoren er forkert."
+#~ msgid "Unknown filament"
+#~ msgstr "Ukendt filament"
 
-msgid "There is a residual filament, Please remove and continue"
-msgstr "Der er resterende filament, fjern det venligst og fortsæt"
+#~ msgid "Use external filament, please manually exit"
+#~ msgstr "Brug eksternt filament, fjern det venligst manuelt"
 
-msgid "There's a residual filament in box %s"
-msgstr "Der er resterende filament i boks %s"
+#~ msgid "Yes"
+#~ msgstr "Ja"
 
-msgid "Unknown fan"
-msgstr "Ukendt blæser"
+#~ msgid "auto shutdown error"
+#~ msgstr "Automatisk nedlukningsfejl"
 
-msgid "Unknown filament"
-msgstr "Ukendt filament"
+#~ msgid "bed_mash:%s"
+#~ msgstr "bed_mash:%s"
 
-msgid "Use external filament, please manually exit"
-msgstr "Brug eksternt filament, fjern det venligst manuelt"
+#~ msgid "clean pause_reason"
+#~ msgstr "Ryd pause_årsag"
 
-msgid "Warning"
-msgstr "Advarsel"
+#~ msgid "cut filament"
+#~ msgstr "Skær filament"
 
-msgid "Yes"
-msgstr "Ja"
+#~ msgid "cutter press!"
+#~ msgstr "Skærer tryk!"
 
-msgid "auto shutdown error"
-msgstr "Automatisk nedlukningsfejl"
+#~ msgid "cutter release!"
+#~ msgstr "Skærer frigiv!"
 
-msgid "bed_mash:%s"
-msgstr "bed_mash:%s"
+#~ msgid "feed busy"
+#~ msgstr "Fødning optaget"
 
-msgid "clean pause_reason"
-msgstr "Ryd pause_årsag"
+#~ msgid "feed error"
+#~ msgstr "Fødningsfejl"
 
-msgid "cut filament"
-msgstr "Skær filament"
+#~ msgid "feed finish"
+#~ msgstr "Fødning afsluttet"
 
-msgid "cutter press!"
-msgstr "Skærer tryk!"
+#~ msgid "filament not removed"
+#~ msgstr "Filament ikke fjernet"
 
-msgid "cutter release!"
-msgstr "Skærer frigiv!"
+#~ msgid "filament pause reason"
+#~ msgstr "Filament pause årsag"
 
-msgid "feed busy"
-msgstr "Fødning optaget"
+#~ msgid "filament press"
+#~ msgstr "Filament tryk"
 
-msgid "feed error"
-msgstr "Fødningsfejl"
+#~ msgid "filament release"
+#~ msgstr "Filament frigiv"
 
-msgid "feed finish"
-msgstr "Fødning afsluttet"
+#~ msgid "filament remove"
+#~ msgstr "Fjern filament"
 
-msgid "filament not removed"
-msgstr "Filament ikke fjernet"
+#~ msgid "filament runout"
+#~ msgstr "Filament opbrugt"
 
-msgid "filament pause reason"
-msgstr "Filament pause årsag"
+#~ msgid "filament%s:%s"
+#~ msgstr "Filament%s:%s"
 
-msgid "filament press"
-msgstr "Filament tryk"
+#~ msgid "flush filament"
+#~ msgstr "Skyl filament"
 
-msgid "filament release"
-msgstr "Filament frigiv"
+#~ msgid "motion sensor insert"
+#~ msgstr "Bevægelsessensor indsæt"
 
-msgid "filament remove"
-msgstr "Fjern filament"
+#~ msgid "motion sensor runout"
+#~ msgstr "Bevægelsessensor opbrugt"
 
-msgid "filament runout"
-msgstr "Filament opbrugt"
+#~ msgid "motor_%s press"
+#~ msgstr "Motor_%s tryk"
 
-msgid "filament%s:%s"
-msgstr "Filament%s:%s"
+#~ msgid "motor_%s release"
+#~ msgstr "Motor_%s frigiv"
 
-msgid "flush filament"
-msgstr "Skyl filament"
+#~ msgid "no bed_mash name"
+#~ msgstr "Intet bed_mash navn"
 
-msgid "motion sensor insert"
-msgstr "Bevægelsessensor indsæt"
+#~ msgid "no bed_mash"
+#~ msgstr "Ingen bed_mash"
 
-msgid "motion sensor runout"
-msgstr "Bevægelsessensor opbrugt"
+#~ msgid "no enabled"
+#~ msgstr "Ikke aktiveret"
 
-msgid "motor_%s press"
-msgstr "Motor_%s tryk"
+#~ msgid "press button%s"
+#~ msgstr "Tryk knap%s"
 
-msgid "motor_%s release"
-msgstr "Motor_%s frigiv"
+#~ msgid "remove filament"
+#~ msgstr "Fjern filament"
 
-msgid "no bed_mash name"
-msgstr "Intet bed_mash navn"
+#~ msgid "residual filament%s"
+#~ msgstr "Resterende filament%s"
 
-msgid "no bed_mash"
-msgstr "Ingen bed_mash"
+#~ msgid "resume:%s"
+#~ msgstr "Genoptag:%s"
 
-msgid "no enabled"
-msgstr "Ikke aktiveret"
+#~ msgid "resume_tool:%s pause_reason:%s"
+#~ msgstr "Genoptag_værktøj:%s pause_årsag:%s"
 
-msgid "press button%s"
-msgstr "Tryk knap%s"
+#~ msgid "Copy Print"
+#~ msgstr "Kopier print"
 
-msgid "remove filament"
-msgstr "Fjern filament"
+#~ msgid "Mirror Print"
+#~ msgstr "Spejlvendt print"
 
-msgid "residual filament%s"
-msgstr "Resterende filament%s"
+#~ msgid "Manual Calibration"
+#~ msgstr "Manuel Kalibrering"
 
-msgid "resume:%s"
-msgstr "Genoptag:%s"
+#~ msgid "Calibration successful!"
+#~ msgstr "Kalibrering lykkedes!"
 
-msgid "resume_tool:%s pause_reason:%s"
-msgstr "Genoptag_værktøj:%s pause_årsag:%s"
+#~ msgid "Auto calibration failed. Please clean the nozzle and try again."
+#~ msgstr "Automatisk kalibrering mislykkedes. Rengør dysen og prøv igen."
 
-msgid "Copy Print"
-msgstr "Kopier print"
-msgid "Mirror Print"
-msgstr "Spejlvendt print"
+#~ msgid ""
+#~ "Auto calibration is not available. Please install required dependencies."
+#~ msgstr ""
+#~ "Automatisk kalibrering er ikke tilgængelig. Installer venligst de "
+#~ "nødvendige afhængigheder."
 
-msgid "Manual Calibration"
-msgstr "Manuel Kalibrering"
+#~ msgid "Left extruder template saved"
+#~ msgstr "Venstre ekstruder skabelon gemt"
 
-msgid "Auto Calibration"
-msgstr "Automatisk Kalibrering"
+#~ msgid "Right extruder template saved"
+#~ msgstr "Højre ekstruder skabelon gemt"
 
-msgid "Calibration successful!"
-msgstr "Kalibrering lykkedes!"
+#~ msgid "No template images found. Please perform manual calibration first."
+#~ msgstr ""
+#~ "Ingen skabelonbilleder fundet. Udfør venligst manuel kalibrering først."
 
-msgid "Auto calibration failed. Please clean the nozzle and try again."
-msgstr "Automatisk kalibrering mislykkedes. Rengør dysen og prøv igen."
+#~ msgid "Getting image of left extruder"
+#~ msgstr "Henter billede af venstre ekstruder"
 
-msgid "Auto calibration is not available. Please install required dependencies."
-msgstr "Automatisk kalibrering er ikke tilgængelig. Installer venligst de nødvendige afhængigheder."
+#~ msgid "Getting image of right extruder"
+#~ msgstr "Henter billede af højre ekstruder"
 
-msgid "Left extruder template saved"
-msgstr "Venstre ekstruder skabelon gemt"
+#~ msgid ""
+#~ "Left extruder calibration failed. Please clean the nozzle and try again."
+#~ msgstr ""
+#~ "Kalibrering af venstre ekstruder mislykkedes. Rengør dysen og prøv igen."
 
-msgid "Right extruder template saved"
-msgstr "Højre ekstruder skabelon gemt"
+#~ msgid ""
+#~ "Right extruder calibration failed. Please clean the nozzle and try again."
+#~ msgstr ""
+#~ "Kalibrering af højre ekstruder mislykkedes. Rengør dysen og prøv igen."
 
-msgid "Failed to save template"
-msgstr "Kunne ikke gemme skabelon"
+#~ msgid "left extruder pos: (%.3f, %.3f, %.3f)"
+#~ msgstr "venstre ekstruder position: (%.3f, %.3f, %.3f)"
 
-msgid "No template images found. Please perform manual calibration first."
-msgstr "Ingen skabelonbilleder fundet. Udfør venligst manuel kalibrering først."
+#~ msgid "Right extruder offset is (%.3f, %.3f, %.3f)"
+#~ msgstr "Højre ekstruder offset er (%.3f, %.3f, %.3f)"
 
-msgid "Getting image of left extruder"
-msgstr "Henter billede af venstre ekstruder"
+#~ msgid ""
+#~ "Please wait for the camera's fill light to light up for 5 seconds before "
+#~ "clicking 'Manual Calibration' or 'Auto Calibration'"
+#~ msgstr ""
+#~ "Vent venligst på at kameraets udfyldningslys lyser i 5 sekunder før du "
+#~ "klikker på 'Manuel Kalibrering' eller 'Automatisk Kalibrering'"
 
-msgid "Getting image of right extruder"
-msgstr "Henter billede af højre ekstruder"
+#~ msgid "The door is open."
+#~ msgstr "Døren er åben."
 
-msgid "Left extruder calibration failed. Please clean the nozzle and try again."
-msgstr "Kalibrering af venstre ekstruder mislykkedes. Rengør dysen og prøv igen."
+#~ msgid "The door is closed."
+#~ msgstr "Døren er lukket."
 
-msgid "Right extruder calibration failed. Please clean the nozzle and try again."
-msgstr "Kalibrering af højre ekstruder mislykkedes. Rengør dysen og prøv igen."
+#~ msgid "Error getting origin offset values: %s"
+#~ msgstr "Fejl ved hentning af oprindelige offset-værdier: %s"
 
-msgid "left extruder pos: (%.3f, %.3f, %.3f)"
-msgstr "venstre ekstruder position: (%.3f, %.3f, %.3f)"
+#~ msgid "Filament run out, pausing print"
+#~ msgstr "Filden er brugt op, pause i udskrivning"
 
-msgid "Right extruder offset is (%.3f, %.3f, %.3f)"
-msgstr "Højre ekstruder offset er (%.3f, %.3f, %.3f)"
+#~ msgid "Not in single extruder mode, pausing print"
+#~ msgstr "Ikke i enkeltextruder tilstand, pause i udskrivning"
 
-msgid "Please wait for the camera's fill light to light up for 5 seconds before clicking 'Manual Calibration' or 'Auto Calibration'"
-msgstr "Vent venligst på at kameraets udfyldningslys lyser i 5 sekunder før du klikker på 'Manuel Kalibrering' eller 'Automatisk Kalibrering'"
+#~ msgid "Current sensor not configured, pausing print"
+#~ msgstr "Nuværende sensor ikke konfigureret, pause i udskrivning"
 
-msgid "The door is open."
-msgstr "Døren er åben."
+#~ msgid "Other sensor not configured, pausing print"
+#~ msgstr "Andre sensorer ikke konfigureret, pause i udskrivning"
 
-msgid "The door is closed."
-msgstr "Døren er lukket."
+#~ msgid "Current extruder has filament, continuing print"
+#~ msgstr "Nuværende ekstruder har fild, fortsætter med udskrivning"
 
-msgid "Error getting origin offset values: %s"
-msgstr "Fejl ved hentning af oprindelige offset-værdier: %s"
+#~ msgid "Both extruders out of filament, pausing print"
+#~ msgstr "Begge ekstrudere er uden fil, pause i udskrivning"
 
-msgid "Raise"
-msgstr "Hæv"
+#~ msgid "Filament run out, switching extruder"
+#~ msgstr "Filden er brugt op, skifter ekstruder"
 
-msgid "Lower"
-msgstr "Senk"
+#~ msgid "Switching to left extruder"
+#~ msgstr "Skifter til venstre ekstruder"
 
-msgid "Filament run out, pausing print"
-msgstr "Filden er brugt op, pause i udskrivning"
+#~ msgid "Switching to right extruder"
+#~ msgstr "Skifter til højre ekstruder"
 
-msgid "Not in single extruder mode, pausing print"
-msgstr "Ikke i enkeltextruder tilstand, pause i udskrivning"
+#~ msgid "Extruder switch complete, resuming print"
+#~ msgstr "Ekstruder-skift færdigt, genoptager udskrivning"
 
-msgid "Current sensor not configured, pausing print"
-msgstr "Nuværende sensor ikke konfigureret, pause i udskrivning"
+#~ msgid "Auto extruder switch already enabled"
+#~ msgstr "Automatisk ekstruder-skift allerede aktiveret"
 
-msgid "Other sensor not configured, pausing print"
-msgstr "Andre sensorer ikke konfigureret, pause i udskrivning"
+#~ msgid ""
+#~ "Auto extruder switch enabled, this feature only works when printing with "
+#~ "a single extruder"
+#~ msgstr ""
+#~ "Automatisk ekstruder-skift aktiveret, denne funktion virker kun ved "
+#~ "udskrivning med en enkelt ekstruder"
 
-msgid "Current extruder has filament, continuing print"
-msgstr "Nuværende ekstruder har fild, fortsætter med udskrivning"
+#~ msgid "Auto extruder switch already disabled"
+#~ msgstr "Automatisk ekstruder-skift allerede deaktiveret"
 
-msgid "Both extruders out of filament, pausing print"
-msgstr "Begge ekstrudere er uden fil, pause i udskrivning"
+#~ msgid "Auto extruder switch disabled"
+#~ msgstr "Automatisk ekstruder-skift deaktiveret"
 
-msgid "Filament run out, switching extruder"
-msgstr "Filden er brugt op, skifter ekstruder"
+#~ msgid "Filament Sensor0: No filament detected, canceling print."
+#~ msgstr "Fildsensor 0: Ingen fild opdaget, annullerer udskrivning."
 
-msgid "Switching to left extruder"
-msgstr "Skifter til venstre ekstruder"
+#~ msgid "Filament Sensor1: No filament detected, canceling print."
+#~ msgstr "Fildsensor 1: Ingen fild opdaget, annullerer udskrivning."
 
-msgid "Switching to right extruder"
-msgstr "Skifter til højre ekstruder"
+#~ msgid "Missing required information"
+#~ msgstr "Mangler påkrævet information"
 
-msgid "Extruder switch complete, resuming print"
-msgstr "Ekstruder-skift færdigt, genoptager udskrivning"
+#~ msgid "Resume Print"
+#~ msgstr "Genoptag Print"
 
-msgid "Auto extruder switch already enabled"
-msgstr "Automatisk ekstruder-skift allerede aktiveret"
+#~ msgid "Tip: Please ensure the nozzle is about 0.1mm above the model"
+#~ msgstr "Tip: Sørg for at dysen er cirka 0.1mm over modellen"
 
-msgid "Auto extruder switch enabled, this feature only works when printing with a single extruder"
-msgstr "Automatisk ekstruder-skift aktiveret, denne funktion virker kun ved udskrivning med en enkelt ekstruder"
+#~ msgid "Please remove the extruder foam and take out the door handle."
+#~ msgstr "Fjern venligst ekstruderskummet og tag dørhåndtaget ud."
 
-msgid "Auto extruder switch already disabled"
-msgstr "Automatisk ekstruder-skift allerede deaktiveret"
+#~ msgid "Print Issue Detected!"
+#~ msgstr "Printproblem opdaget!"
 
-msgid "Auto extruder switch disabled"
-msgstr "Automatisk ekstruder-skift deaktiveret"
+#~ msgid "AI Settings"
+#~ msgstr "AI Indstillinger"
 
-msgid "Extruder switch when filament run out"
-msgstr "Ekstruder-skift når filden er brugt op"
+#~ msgid "Detected defect: %s (Confidence: %.1f%%)"
+#~ msgstr "Registreret defekt: %s (Sikkerhed: %.1f%%)"
 
-msgid "Filament Sensor0: No filament detected, canceling print."
-msgstr "Fildsensor 0: Ingen fild opdaget, annullerer udskrivning."
-
-msgid "Filament Sensor1: No filament detected, canceling print."
-msgstr "Fildsensor 1: Ingen fild opdaget, annullerer udskrivning."
-
-msgid "Active Extruder"
-msgstr "Aktiv Ekstruder"
-
-msgid "Active Extruder:"
-msgstr "Aktiv Ekstruder:"
-
-msgid "Bed Temp:"
-msgstr "Printplade Temp:"
-
-msgid "Bed Temperature"
-msgstr "Printplade Temperatur"
-
-msgid "Filename"
-msgstr "Filnavn"
-
-msgid "Filename:"
-msgstr "Filnavn:"
-
-msgid "Missing required information"
-msgstr "Mangler påkrævet information"
-
-msgid "Nozzle Temp:"
-msgstr "Dyse Temp:"
-
-msgid "Nozzle Temperature"
-msgstr "Dyse Temperatur"
-
-msgid "Power Loss Recovery"
-msgstr "Strømafbrydelse Gendannelse"
-
-msgid "Print Height"
-msgstr "Print Højde"
-
-msgid "Print Height:"
-msgstr "Print Højde:"
-
-msgid "Print height is less than 1mm"
-msgstr "Print højde er mindre end 1mm"
-
-msgid "Recovery File"
-msgstr "Gendannelsesfil"
-
-msgid "Resume Print"
-msgstr "Genoptag Print"
-
-msgid "Tip: Please ensure the nozzle is about 0.1mm above the model"
-msgstr "Tip: Sørg for at dysen er cirka 0.1mm over modellen"
-
-msgid "Force Move"
-msgstr "Tving bevægelse"
-
-msgid "Force move: "
-msgstr "Tving bevægelse:"
-
-msgid "Apply Z offset to Probe?"
-msgstr "Anvend Z-offset til sonde?"
-
-msgid "Left Extruder: %s%.3f"
-msgstr "Venstre ekstruder: %s%.3f"
-
-msgid "Left Extruder: Not adjusted"
-msgstr "Venstre ekstruder: Ikke justeret"
-
-msgid "Right Extruder: %s%.3f"
-msgstr "Højre ekstruder: %s%.3f"
-
-msgid "Right Extruder: Not adjusted"
-msgstr "Højre ekstruder: Ikke justeret"
-
-msgid "Apply Z offset to Endstop?"
-msgstr "Anvend Z-offset til endestop?"
-
-msgid "Remove Foam"
-msgstr "Fjern skum"
-
-msgid "Please remove the extruder foam and take out the door handle."
-msgstr "Fjern venligst ekstruderskummet og tag dørhåndtaget ud."
-
-msgid "Please click the Z raise button to raise the Z axis to remove the foam around the bottom of the case."
-msgstr "Klik venligst på Z-løft knappen for at hæve Z-aksen og fjerne skummet omkring bunden af kabinettet."
-
-msgid "Print Issue Detected!"
-msgstr "Printproblem opdaget!"
-
-msgid "No prediction image available"
-msgstr "Intet forudsigelsesplakat tilgængeligt"
-
-msgid "Print resumed"
-msgstr "Print genoptaget"
-
-msgid "Failed to resume print"
-msgstr "Kunne ikke genoptage print"
-
-msgid "Print cancelled"
-msgstr "Print annulleret"
-
-msgid "Failed to cancel print"
-msgstr "Kunne ikke annullere print"
-
-msgid "Configure basic AI service settings. Enable the AI service to monitor your prints and adjust the confidence threshold for detection sensitivity."
-msgstr "Konfigurer grundlæggende AI-serviceindstillinger. Aktiver AI-tjenesten til at overvåge dine udskrifter og juster konfidensetærsklen for detektionfølsomhed."
-
-
-msgid "AI Detection Alert"
-msgstr "AI Detektionsalarm"
-
-msgid "AI Monitor"
-msgstr "AI Monitor"
-
-msgid "AI Settings"
-msgstr "AI Indstillinger"
-
-msgid "Detected defect: %s (Confidence: %.1f%%)"
-msgstr "Registreret defekt: %s (Sikkerhed: %.1f%%)"
-
-msgid "AI Detection Error: %s"
-msgstr "AI-registreringsfejl: %s"
-
-msgid "AI Detection Service"
-msgstr "AI Detektionstjeneste"
-
-msgid "AI Server URL"
-msgstr "AI Server URL"
-
-msgid "Confidence Threshold (%)"
-msgstr "Tillidsgrænse (%)"
-
-msgid "Detection Interval (seconds)"
-msgstr "Detektionsinterval (sekunder)"
-
-msgid "Auto Pause on Detection"
-msgstr "Automatisk pause ved detektion"
-
-msgid "Enabled Defect Types"
-msgstr "Aktiverede defekttyper"
-
-msgid "Camera Source"
-msgstr "Kamerakilde"
-
-msgid "Camera URL"
-msgstr "Kamera URL"
-
-msgid "Continue Detection While Paused"
-msgstr "Fortsæt detektion under pause"
-
-msgid "Sound Notification"
-msgstr "Lydbesked"
-
-msgid "All valves closed"
-msgstr "Alle ventiler lukket"
-
-msgid "Auto Feed"
-msgstr "Auto-fremføring"
-
-msgid "Auto feed started"
-msgstr "Auto-fremføring startet"
-
-msgid "Blowback Valve"
-msgstr "Returblæsventil"
-
-msgid "Buffer"
-msgstr "Buffer"
-
-msgid "Buffer → Printhead"
-msgstr "Buffer → printhoved"
-
-msgid "Buffer Valve"
-msgstr "Bufferventil"
-
-msgid "Disconnected"
-msgstr "Frakoblet"
-
-msgid "Dryer"
-msgstr "Tørrer"
-
-msgid "Dryer → Buffer"
-msgstr "Tørrer → buffer"
-
-msgid "Dryer Level"
-msgstr "Tørrerniveau"
-
-msgid "Dryer Sensor"
-msgstr "Tørrersensor"
-
-msgid "Dryer Valve"
-msgstr "Tørrerventil"
-
-msgid "Feeder:"
-msgstr "Fremf.:"
-
-msgid "Hopper"
-msgstr "Tragt"
-
-msgid "Hopper → Dryer"
-msgstr "Tragt → tørrer"
-
-msgid "Hopper Level"
-msgstr "Tragtniveau"
-
-msgid "Hopper Valve"
-msgstr "Tragtventil"
-
-msgid "Pressure:"
-msgstr "Tryk:"
-
-msgid "Printhead"
-msgstr "Hoved"
-
-msgid "Printhead 1"
-msgstr "Hoved 1"
-
-msgid "Printhead 2"
-msgstr "Hoved 2"
-
-msgid "Retract blowback"
-msgstr "Returblæs"
-
-msgid "Retract started"
-msgstr "Tilbagetræk startet"
-
-msgid "Run Mode:"
-msgstr "Mode:"
-
-msgid "Stop All"
-msgstr "Stop alt"
-
-msgid "To Dryer"
-msgstr "Til tørrer"
-
-msgid "To Buffer"
-msgstr "Til buffer"
-
-msgid "To Printhead"
-msgstr "Til hoved"
-
-msgid "Return Buffer"
-msgstr "Retur buffer"
+#~ msgid "AI Detection Error: %s"
+#~ msgstr "AI-registreringsfejl: %s"

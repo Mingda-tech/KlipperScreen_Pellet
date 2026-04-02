@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-20 00:09-0300\n"
+"POT-Creation-Date: 2026-04-02 16:39+0800\n"
 "PO-Revision-Date: 2023-10-25 21:10+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -25,14 +25,20 @@ msgstr "%s sürüme güncellenecektir"
 msgid "(default)"
 msgstr "(varsayılan)"
 
-msgid "24 Hour Time"
-msgstr "24 Saat Zaman"
-
 msgid "A FIRMWARE_RESTART may fix the issue."
 msgstr "Bir FIRMWARE_RESTART sorunu çözebilir."
 
 msgid "ADXL Not Configured"
 msgstr "ADXL Yapılandırılmadı"
+
+msgid "AI Detection Service"
+msgstr "AI Algılama Servisi"
+
+msgid "AI Detection Status"
+msgstr ""
+
+msgid "AI Server URL"
+msgstr "AI Sunucu URL'si"
 
 msgid "Abort"
 msgstr "İptal et"
@@ -43,22 +49,32 @@ msgstr "Hızlanma:"
 msgid "Accept"
 msgstr "Kabul et"
 
+msgid "Active Extruder"
+msgstr "Aktif Ekstruder"
+
+msgid "Active Extruder:"
+msgstr "Aktif Ekstruder:"
+
 msgid "Add profile"
 msgstr "Profil ekle"
+
+msgid "Adjust Zprobe Pos"
+msgstr "Zprobe Konumunu Ayarla"
 
 msgid "All"
 msgstr "Tümü"
 
+msgid "All valves closed"
+msgstr "Tüm valfler kapalı"
+
 msgid "Apply"
 msgstr "Uygula"
 
-#, python-format
-msgid "Apply %s%.3f offset to Endstop?"
-msgstr "Endstop'a %s%.3f ofset uygulansın mı?"
+msgid "Apply Z offset to Endstop?"
+msgstr "Z ofsetini Sonlandırıcıya uygula?"
 
-#, python-format
-msgid "Apply %s%.3f offset to Probe?"
-msgstr "Prob'a %s%.3f ofset uygulansın mı?"
+msgid "Apply Z offset to Probe?"
+msgstr "Z ofsetini Proba uygula?"
 
 msgid "Archived"
 msgstr "Arşivlenen"
@@ -84,26 +100,56 @@ msgstr "Sistemi kapatmak istediğinizden emin misiniz?"
 msgid "Auto"
 msgstr "Otomatik"
 
+msgid "Auto Feed"
+msgstr "Otomatik besleme"
+
+msgid "Auto Pause on Detection"
+msgstr "Algılamada Otomatik Duraklat"
+
+msgid "Auto feed started"
+msgstr "Otomatik besleme başladı"
+
 msgid "Auto-calibrate"
 msgstr "Otomatik-Kalibrasyon"
 
 msgid "Auto-close notifications"
 msgstr "Bildirimleri otomatik kapat"
 
-msgid "Auto-open Extrude On Pause"
-msgstr "Duraklatıldığında Ekstrüzyonu Otomatik Aç"
-
 msgid "Auto-scroll"
 msgstr "Otomatik kaydırma"
+
+msgid "Back"
+msgstr ""
 
 msgid "Bed Level"
 msgstr "Tabla Ayarı"
 
-msgid "Bed Mesh"
-msgstr "Tabla Örgüsü"
+msgid "Bed Lower"
+msgstr ""
+
+msgid "Bed Temp:"
+msgstr "Tabla Sıcaklığı:"
+
+msgid "Bed Temperature"
+msgstr "Tabla Sıcaklığı"
 
 msgid "Bed screw configuration:"
 msgstr "Tabla vida yapılandırması:"
+
+msgid "Blowback Valve"
+msgstr "Geri üfleme valfi"
+
+msgid "Brightest"
+msgstr "En Parlak"
+
+msgid "Buffer"
+msgstr "Ara hazne"
+
+msgid "Buffer Valve"
+msgstr "Ara hazne valfi"
+
+msgid "Buffer → Printhead"
+msgstr "Ara hazne → kafa"
 
 msgid "Calibrate"
 msgstr "Kalibre et"
@@ -114,8 +160,17 @@ msgstr "Kalibre Edildi"
 msgid "Calibrating"
 msgstr "Kalibre Ediliyor"
 
+msgid "Calibration saved!"
+msgstr ""
+
 msgid "Camera"
 msgstr "Kamera"
+
+msgid "Camera Source"
+msgstr "Kamera Kaynağı"
+
+msgid "Camera URL"
+msgstr "Kamera URL'si"
 
 msgid "Can't set above the maximum:"
 msgstr "Maksimumun üzerine ayarlanamaz:"
@@ -135,6 +190,9 @@ msgstr "İptal ediliyor"
 msgid "Cannot connect to Moonraker"
 msgstr "Moonraker'a bağlanılamıyor"
 
+msgid "Capture Image"
+msgstr ""
+
 msgid "Channel"
 msgstr "Kanal"
 
@@ -144,17 +202,55 @@ msgstr "ADXL Bağlantılarını Kontrol Et"
 msgid "Checking for updates, please wait..."
 msgstr "Güncellemeler kontrol ediliyor, lütfen bekleyin..."
 
+msgid "Choose Language"
+msgstr "Dil Seçin"
+
+msgid "Choose Timezone"
+msgstr "Saat Dilimi Seçin"
+
+msgid "Choose a language"
+msgstr "Bir dil seçin"
+
+msgid "Choose a timezone"
+msgstr "Bir saat dilimi seçin"
+
 msgid "Clear"
 msgstr "Temizle"
+
+msgid "Clear History"
+msgstr ""
 
 msgid "Close"
 msgstr "Kapat"
 
+msgid "Color"
+msgstr "Renk"
+
 msgid "Complete"
 msgstr "Tamamlandı"
 
+msgid "Confidence Threshold (%)"
+msgstr "Güven Eşiği (%)"
+
+msgid ""
+"Configure basic AI service settings. Enable the AI service to monitor your "
+"prints and adjust the confidence threshold for detection sensitivity."
+msgstr ""
+"Temel AI hizmet ayarlarını yapılandırın. Yazdırma işlemlerinizi izlemek için "
+"AI hizmetini etkinleştirin ve algılama hassasiyeti için güven eşiğini "
+"ayarlayın."
+
+msgid "Confirm"
+msgstr "Onayla"
+
 msgid "Confirm Emergency Stop"
 msgstr "Acil Durdurmayı Onaylayın"
+
+msgid "Confirm Movement"
+msgstr ""
+
+msgid "Confirm Pos"
+msgstr "Doğrula konum"
 
 msgid "Connected"
 msgstr "Bağlandı"
@@ -166,14 +262,38 @@ msgstr "%s'e Bağlanılıyor"
 msgid "Connection failed"
 msgstr "Bağlantı başarısız"
 
-msgid "Console"
-msgstr "Konsol"
+msgid "Continue Detection While Paused"
+msgstr "Durakladığında Algılamaya Devam Et"
 
 msgid "Cooldown"
 msgstr "Soğutma"
 
+msgid "Couldn't get the calibration camera position."
+msgstr "Kalibrasyon kamera pozisyonu alınamadı."
+
+msgid "Couldn't get the calibration switch position."
+msgstr ""
+
+msgid "Current Detection Image"
+msgstr ""
+
+msgid "Current language: "
+msgstr ""
+
+msgid "Current nozzle height difference: "
+msgstr "Mevcut nozul yükseklik farkı: "
+
+msgid "Current nozzle height difference: ?"
+msgstr ""
+
+msgid "Current timezone: "
+msgstr ""
+
 msgid "DPMS has failed to load and has been disabled"
 msgstr "DPMS yüklenemedi ve devre dışı bırakıldı"
+
+msgid "Dangerous nozzle height difference: "
+msgstr "Tehlikeli nozul yükseklik farkı: "
 
 msgid "Date"
 msgstr "Tarih"
@@ -187,21 +307,60 @@ msgstr "Dosyayı Sil?"
 msgid "Deselect"
 msgstr "Seçimi kaldır"
 
+msgid "Detection History"
+msgstr ""
+
+msgid "Detection Interval (seconds)"
+msgstr "Algılama Aralığı (saniye)"
+
 msgid "Disable Motors"
 msgstr "Motorları Devre Dışı Bırak"
 
+msgid "Disabled"
+msgstr ""
+
+msgid "Disconnected"
+msgstr "Bağlı değil"
+
 msgid "Distance (mm)"
 msgstr "Uzaklık (mm)"
+
+msgid "Do not touch the printer during self-check."
+msgstr "Kendi kendine kontrol sırasında yazıcıya dokunmayın."
 
 #, python-format
 msgid "Do you want to recover %s?"
 msgstr "%s Kurtarmak istiyor musunuz?"
 
+msgid "Dryer"
+msgstr "Kurutucu"
+
+msgid "Dryer Level"
+msgstr "Kurutucu seviyesi"
+
+msgid "Dryer Sensor"
+msgstr "Kurutucu sensörü"
+
+msgid "Dryer Valve"
+msgstr "Kurutucu valfi"
+
+msgid "Dryer → Buffer"
+msgstr "Kurutucu → ara hazne"
+
 msgid "Elapsed:"
 msgstr "Geçen:"
 
+msgid "Emergency Stop"
+msgstr ""
+
+msgid "Enabled Defect Types"
+msgstr "Etkin Hata Türleri"
+
 msgid "Error"
 msgstr "Hata"
+
+msgid "Error writing configuration"
+msgstr "Yapılandırma yazma hatası"
 
 msgid "Estimated Time Method"
 msgstr "Tahmini Zaman Metodu"
@@ -209,23 +368,41 @@ msgstr "Tahmini Zaman Metodu"
 msgid "Exclude Object"
 msgstr "Nesneyi Hariç Tut"
 
-msgid "Extra Large"
-msgstr "Çok Büyük"
-
 msgid "Extrude"
 msgstr "Ekstrüzyon"
 
-msgid "Extrusion +"
-msgstr "Ekstrüzyon +"
+msgid "Extruder switch when filament run out"
+msgstr "Fılatman bittiğinde ekstrader değişim yapılıyor"
 
-msgid "Extrusion -"
-msgstr "Ekstrüzyon -"
+msgid "Failed to cancel print"
+msgstr "Yazdırma iptal edilemedi"
+
+msgid "Failed to capture image"
+msgstr ""
+
+msgid "Failed to detect nozzles"
+msgstr ""
+
+msgid "Failed to resume print"
+msgstr "Yazdırma devam ettirilemedi"
+
+msgid "Failed to start AI monitoring"
+msgstr ""
 
 msgid "Failed, adjust position first"
 msgstr "Başarısız, önce konumu ayarlayın"
 
 msgid "Fan"
 msgstr "Fan"
+
+msgid "Feeder"
+msgstr ""
+
+msgid "Feeder:"
+msgstr "Besleyici:"
+
+msgid "Filament Box Power"
+msgstr "Filament kutusu güç"
 
 msgid "Filament Used"
 msgstr "Kullanılan Filament"
@@ -245,6 +422,12 @@ msgstr "Dosya"
 msgid "File:"
 msgstr "Dosya:"
 
+msgid "Filename"
+msgstr "Dosya Adı"
+
+msgid "Filename:"
+msgstr "Dosya Adı:"
+
 msgid "Filter"
 msgstr "Filtre"
 
@@ -260,17 +443,49 @@ msgstr "Bitir"
 msgid "Firmware Restart"
 msgstr "Firmware Yeniden Başlat"
 
+# msgid "Firmware Restart"
+# msgstr "Yeniden Başlat"
+msgid "Firmware has disconnected"
+msgstr "Firmware bağlantısı kesildi"
+
+msgid "Firmware has encountered an error."
+msgstr "Firmware bir hata ile karşılaştı."
+
+msgid "Firmware has shutdown"
+msgstr "Firmware kapatıldı"
+
+msgid "Firmware is attempting to start"
+msgstr "Firmware başlatmaya çalışıyor"
+
+msgid "Firmware will reboot"
+msgstr "Firmware yeniden başlayacak"
+
+msgid "Flow +"
+msgstr ""
+
+msgid "Flow -"
+msgstr ""
+
 msgid "Flow:"
 msgstr "Akış:"
 
 msgid "Flowrate:"
 msgstr "Akış oranı:"
 
-msgid "Font Size"
-msgstr "Yazı boyutu"
+msgid "Force Cancel"
+msgstr ""
+
+msgid "Force Move"
+msgstr "Zorla Hareket"
+
+msgid "Force move: "
+msgstr "Zorla hareket:"
 
 msgid "Full Update"
 msgstr "Tam Güncelleme"
+
+msgid "Gcode Buttons"
+msgstr ""
 
 msgid "Go Back"
 msgstr "Geri git"
@@ -281,11 +496,11 @@ msgstr "Yükseklik:"
 msgid "Hidden"
 msgstr "Gizli"
 
+msgid "Hidden Network"
+msgstr ""
+
 msgid "Hide"
 msgstr "Gizle"
-
-msgid "Hide sensors in Temp."
-msgstr "Sıcaklıktaki sensörleri gizleyin."
 
 msgid "Hide temp."
 msgstr "Sıcaklığı gizle."
@@ -308,8 +523,20 @@ msgstr "Y Sıfırla"
 msgid "Home Z"
 msgstr "Z  Sıfırla"
 
-msgid "Host"
-msgstr "Sunucu"
+msgid "Homing the printer..."
+msgstr "Yazıcı başlangıç konumuna gidiyor..."
+
+msgid "Hopper"
+msgstr "Hazne"
+
+msgid "Hopper Level"
+msgstr "Hazne seviyesi"
+
+msgid "Hopper Valve"
+msgstr "Hazne valfi"
+
+msgid "Hopper → Dryer"
+msgstr "Hazne → kurutucu"
 
 msgid "Hostname"
 msgstr "Ana bilgisayar adı"
@@ -317,8 +544,12 @@ msgstr "Ana bilgisayar adı"
 msgid "ID"
 msgstr "ID"
 
-msgid "Icon Theme"
-msgstr "Simge Teması"
+msgid ""
+"If your calibration device is under the PEI, please lift the PEI after "
+"homing."
+msgstr ""
+"Kalibrasyon cihazınız PEI'nin altındaysa, lütfen başlangıç konumuna "
+"geldikten sonra PEI'yi kaldırın."
 
 msgid "Initializing printer..."
 msgstr "Yazıcı başlatılıyor..."
@@ -350,23 +581,8 @@ msgstr "Z Ters çevir"
 msgid "It may take more than 5 minutes depending on the heater power."
 msgstr "Isıtıcı gücüne bağlı olarak 5 dakikadan fazla sürebilir."
 
-#msgid "Firmware Restart"
-#msgstr "Yeniden Başlat"
-
-msgid "Firmware has disconnected"
-msgstr "Firmware bağlantısı kesildi"
-
-msgid "Firmware has encountered an error."
-msgstr "Firmware bir hata ile karşılaştı."
-
-msgid "Firmware has shutdown"
-msgstr "Firmware kapatıldı"
-
-msgid "Firmware is attempting to start"
-msgstr "Firmware başlatmaya çalışıyor"
-
-msgid "Firmware will reboot"
-msgstr "Firmware yeniden başlayacak"
+msgid "LEDs"
+msgstr ""
 
 msgid ""
 "LOAD_FILAMENT/UNLOAD_FILAMENT are hidden and should be used from extrude"
@@ -375,8 +591,8 @@ msgstr "FILEMENT_YUKLE/FILEMENT_KALDIR gizlidir ve extrude'dan kullanılmalıdı
 msgid "Language"
 msgstr "Dil"
 
-msgid "Large"
-msgstr "Büyük"
+msgid "Last Detection:"
+msgstr ""
 
 msgid "Last Used"
 msgstr "Son kullanılan"
@@ -387,26 +603,42 @@ msgstr "Katman:"
 msgid "Leds"
 msgstr "Ledler"
 
+#, python-format
+msgid "Left Extruder: %s%.3f"
+msgstr "Sol Ekstruder: %s%.3f"
+
+msgid "Left Extruder: Not adjusted"
+msgstr "Sol Ekstruder: Ayarlanmamış"
+
 msgid "Left:"
 msgstr "Kalan:"
 
-msgid "Limits"
-msgstr "Limitler"
+msgid "Leveling"
+msgstr "Seviyeleme"
 
 msgid "Load"
 msgstr "Yükle"
 
+msgid "Local"
+msgstr ""
+
+msgid "Lower"
+msgstr "Alçalt"
+
 msgid "Lower Nozzle"
 msgstr "Nozzle düşür"
 
-msgid "Macro shortcut on sidebar"
-msgstr "Kenar çubuğunda makro kısayolu"
-
-msgid "Macros"
-msgstr "Makrolar"
-
 msgid "Main Menu"
 msgstr "Ana Menü"
+
+msgid "Manual"
+msgstr "Manuel"
+
+msgid "Manual Detect"
+msgstr ""
+
+msgid "Manual Detection"
+msgstr ""
 
 msgid "Material"
 msgstr "Malzeme"
@@ -423,9 +655,6 @@ msgstr "Maksimum Hızlanma ve Yavaşlama"
 msgid "Max Velocity"
 msgstr "Maksimum Hız"
 
-msgid "Maximum"
-msgstr "Maksimum"
-
 msgid "Measure Both"
 msgstr "İkisini de ölçüle"
 
@@ -435,9 +664,6 @@ msgstr "X Ölçüle"
 msgid "Measure Y"
 msgstr "Y Ölçüle"
 
-msgid "Medium"
-msgstr "Orta"
-
 msgid "Menu"
 msgstr "Menü"
 
@@ -446,6 +672,12 @@ msgstr "Mesh Kalibre et"
 
 msgid "Modified"
 msgstr "Değiştirilmiş"
+
+msgid "Monitoring:"
+msgstr ""
+
+msgid "Moonraker"
+msgstr ""
 
 msgid "Moonraker: connected"
 msgstr "Moonraker: bağlandı"
@@ -462,6 +694,15 @@ msgstr "Hareket Mesafesi (mm)"
 msgid "Name"
 msgstr "İsim"
 
+msgid "Need home axis"
+msgstr "Ana eksene ihtiyaç var"
+
+msgid "Need reboot, relaunch immediately?"
+msgstr "Yeniden başlatma gerekiyor, hemen yeniden başlatılsın mı?"
+
+msgid "Need to recalculate the offset value."
+msgstr "Ofset değerini yeniden hesaplamak gerekiyor."
+
 msgid "Network"
 msgstr "Ağ"
 
@@ -471,8 +712,45 @@ msgstr "Asla"
 msgid "New"
 msgstr "Yeni"
 
+msgid "New nozzle height difference is: "
+msgstr "Yeni nozul yükseklik farkı: "
+
+msgid "New nozzle height difference: "
+msgstr "Yeni nozul yükseklik farkı: "
+
+msgid "New nozzle height difference: ?"
+msgstr ""
+
+msgid "No Gcode Buttons configured"
+msgstr ""
+
+msgid "No calibration camera found."
+msgstr ""
+
+msgid "No camera URL available."
+msgstr ""
+
+msgid "No camera configured"
+msgstr ""
+
+msgid "No captured images found"
+msgstr ""
+
 msgid "No elegible macros:"
 msgstr "Uygun makro yok:"
+
+msgid "No info available"
+msgstr ""
+
+msgid "No prediction image available"
+msgstr "Tahmin görüntüsü mevcut değil"
+
+msgid "No wireless interface has been found"
+msgstr ""
+
+#, python-brace-format
+msgid "No {action} gcode configured for {button_name}"
+msgstr ""
 
 msgid ""
 "Not supported for auto-detection, it needs to be configured in klipperscreen."
@@ -481,20 +759,44 @@ msgstr ""
 "Otomatik algılama desteklenmiyor, klipperscreen.conf dosyasından "
 "yapılandırmanız gerekli"
 
+msgid "Not working or not configured"
+msgstr ""
+
 msgid "Nothing selected"
 msgstr "Hiçbir şey seçilmedi"
+
+msgid "Notification log empty"
+msgstr ""
+
+msgid "Notifications"
+msgstr ""
+
+msgid "Nozzle Temp:"
+msgstr "Nozul Sıcaklığı:"
+
+msgid "Nozzle Temperature"
+msgstr "Nozul Sıcaklığı"
+
+msgid "OK"
+msgstr "Tamam"
+
+msgid "Only one extruder does not require calibration."
+msgstr "Sadece bir ekstruder kalibrasyon gerektirmiyor."
 
 #, python-format
 msgid "Outdated by %d"
 msgstr "Güncelliğini yitiren %d"
 
+msgid "Output Pins"
+msgstr ""
+
 msgid "PSK for"
 msgstr "PSK için"
 
 msgid "Package will be updated"
-
-msgstr "Paket yükseltilecek"
-
+msgid_plural "Packages will be updated"
+msgstr[0] ""
+msgstr[1] ""
 
 msgid "Part Fan"
 msgstr "Parça Fan"
@@ -511,20 +813,57 @@ msgstr "Duraklatıldı"
 msgid "Perform a full upgrade?"
 msgstr "Tam yükseltme yap?"
 
-msgid "Pins"
-msgstr "Pinler"
+msgid ""
+"Please click the Z raise button to raise the Z axis to remove the foam "
+"around the bottom of the case."
+msgstr ""
+"Kasanın alt kısmındaki köpüğü çıkarmak için Z eksenini yükseltmek üzere Z "
+"yükselt düğmesine tıklayın."
+
+msgid "Please observe if the nozzle is positioned above the probe."
+msgstr ""
+"Lütfen nozulun probun üzerinde konumlandırılıp konumlandırılmadığını "
+"gözlemleyin."
 
 msgid "Please recompile and flash the micro-controller."
 msgstr "Lütfen mikro denetleyiciyi yeniden derleyin ve flaşlayın."
 
+msgid "Please wait for the camera initialization to complete."
+msgstr "Lütfen kamera başlatma işleminin tamamlanmasını bekleyin."
+
+msgid ""
+"Please wait for the camera's fill light to light up for 5 seconds before "
+"clicking 'Start'"
+msgstr ""
+"Lütfen 'Başlat' düğmesine basmadan önce kameranın dolum ışığının 5 saniye "
+"boyunca yanmasını bekleyin."
+
+msgid "Please wait until the bed and nozzle is heated before calibrating."
+msgstr ""
+
 msgid "Power"
 msgstr "Güç"
+
+msgid "Power Loss Recovery"
+msgstr "Güç Kesintisi Kurtarma"
 
 msgid "Power On Printer"
 msgstr "Yazıcıya Güç Ver (aç)"
 
+msgid "Preheat"
+msgstr ""
+
+msgid "Press"
+msgstr ""
+
+msgid "Pressed"
+msgstr ""
+
 msgid "Pressure Advance:"
 msgstr "Akış Dengeleme:"
+
+msgid "Pressure:"
+msgstr "Basınç:"
 
 msgid "Print"
 msgstr "Yazdır"
@@ -532,17 +871,35 @@ msgstr "Yazdır"
 msgid "Print Control"
 msgstr "Yazdırma Kontrolü"
 
+msgid "Print Height"
+msgstr "Baskı Yüksekliği"
+
+msgid "Print Height:"
+msgstr "Baskı Yüksekliği:"
+
 msgid "Print Time"
 msgstr "Yazdırma Süresi"
 
-msgid "Printer"
-msgstr "Yazıcı"
+msgid "Print cancelled"
+msgstr "Yazdırma iptal edildi"
 
-msgid "Printer Connections"
-msgstr "Yazıcı Bağlantıları"
+msgid "Print height is less than 1mm"
+msgstr "Baskı yüksekliği 1mm'den az"
+
+msgid "Print resumed"
+msgstr "Yazdırma devam ettirildi"
 
 msgid "Printer Select"
 msgstr "Yazıcı Seçimi"
+
+msgid "Printhead"
+msgstr "Kafa"
+
+msgid "Printhead 1"
+msgstr "Kafa 1"
+
+msgid "Printhead 2"
+msgstr "Kafa 2"
 
 msgid "Printing"
 msgstr "Yazdırılıyor"
@@ -559,6 +916,9 @@ msgstr "Yardım isterken KlipperScreen.log dosyasını sağlayın.\n"
 msgid "Quad Gantry Level"
 msgstr "Dörtlü Köprü Seviyesi"
 
+msgid "Raise"
+msgstr "Yükselt"
+
 msgid "Raise Nozzle"
 msgstr "Nozzle yükselt"
 
@@ -571,11 +931,23 @@ msgstr "Zorla Kurtar"
 msgid "Recover Soft"
 msgstr "Yumuşak Kurtar"
 
+msgid "Recovery File"
+msgstr "Kurtarma Dosyası"
+
 msgid "Reference"
 msgstr "Referans"
 
 msgid "Refresh"
 msgstr "Yenile"
+
+msgid "Release"
+msgstr ""
+
+msgid "Released"
+msgstr ""
+
+msgid "Remove Foam"
+msgstr "Köpüğü kaldır"
 
 msgid "Rename/Move:"
 msgstr "Yeniden Adlandır/Taşı:"
@@ -583,14 +955,20 @@ msgstr "Yeniden Adlandır/Taşı:"
 msgid "Restart"
 msgstr "Yeniden Başlat"
 
+msgid "Restart required. Restart now?"
+msgstr ""
+
 msgid "Resume"
 msgstr "Devam Et"
 
 msgid "Retract"
 msgstr "Geri çek"
 
-msgid "Retraction"
-msgstr "Geri Çekme"
+msgid "Retract blowback"
+msgstr "Geri üfleme"
+
+msgid "Retract started"
+msgstr "Geri çekme başladı"
 
 msgid "Retraction Length"
 msgstr "Geri Çekme Uzunluğu"
@@ -604,11 +982,30 @@ msgstr "Tekrar dene"
 msgid "Retrying"
 msgstr "Yeniden Deneniyor"
 
+msgid "Return Buffer"
+msgstr "Ara hazneye dön"
+
+msgid "Right Extruder Z Offset"
+msgstr ""
+
+#, python-format
+msgid "Right Extruder: %s%.3f"
+msgstr "Sağ Ekstruder: %s%.3f"
+
+msgid "Right Extruder: Not adjusted"
+msgstr "Sağ Ekstruder: Ayarlanmamış"
+
+msgid "Run Mode:"
+msgstr "Mod:"
+
+msgid "Running"
+msgstr ""
+
 msgid "Save"
 msgstr "Kaydet"
 
-msgid "Save Config"
-msgstr "Yapılandırma Kayıt"
+msgid "Save Results"
+msgstr ""
 
 msgid "Save Z"
 msgstr "Z Kaydet"
@@ -619,9 +1016,11 @@ msgstr "Yapılandırmayı kaydet?"
 msgid "Saved"
 msgstr "Kaydedildi"
 
-#, python-format
-msgid "Saved offset: %s"
-msgstr "Kaydedilen ofset: %s"
+msgid "Saved successfully!"
+msgstr "Başarıyla kaydedildi!"
+
+msgid "Saved successfully."
+msgstr ""
 
 msgid "Screen DPMS"
 msgstr "Ekran DPMS"
@@ -635,8 +1034,17 @@ msgstr "Vida Ayarı"
 msgid "Select"
 msgstr "Seç"
 
+msgid "Select WiFi"
+msgstr "WiFi Seçin"
+
+msgid "Self-check"
+msgstr "Kendi kendine kontrol"
+
 msgid "Send"
 msgstr "Gönder"
+
+msgid "Service Status:"
+msgstr ""
 
 msgid "Set Temp"
 msgstr "Sıcaklık Ayarla"
@@ -647,11 +1055,8 @@ msgstr "Ayarlar"
 msgid "Show"
 msgstr "Göster"
 
-msgid "Show Heater Power"
-msgstr "Isıtıcı Gücünü Göster"
-
-msgid "Show Scrollbars Buttons"
-msgstr "Kaydırma çubuklarında düğmeleri göster"
+msgid "Shut down after printing completes"
+msgstr "Yazdırmayı tamamladıktan sonra kapat"
 
 msgid "Shutdown"
 msgstr "Kapat"
@@ -665,8 +1070,8 @@ msgstr "Dilimleme"
 msgid "Slicer:"
 msgstr "Dilimleyici:"
 
-msgid "Small"
-msgstr "Küçük"
+msgid "Sound Notification"
+msgstr "Ses Bildirimi"
 
 msgid "Speed (mm/s)"
 msgstr "Hız  (mm/s)"
@@ -689,14 +1094,41 @@ msgstr "Hazırda Bekle"
 msgid "Start"
 msgstr "Başlat"
 
+msgid "Start Calibration"
+msgstr ""
+
+msgid "Start Monitoring"
+msgstr ""
+
+msgid "Start Preview"
+msgstr ""
+
 msgid "Starting WiFi Association"
 msgstr "WiFi Bağlantısı başlatılıyor"
+
+msgid "Starting dual nozzle height calibration..."
+msgstr "Çift nozul yükseklik kalibrasyonu başlatılıyor..."
 
 msgid "Starting recovery for"
 msgstr "Kurtarma başlatılıyor"
 
 msgid "Starting update for"
 msgstr "Güncelleme başlatılıyor"
+
+msgid "Stop"
+msgstr ""
+
+msgid "Stop All"
+msgstr "Hepsini durdur"
+
+msgid "Stop Monitoring"
+msgstr ""
+
+msgid "Stop Preview"
+msgstr ""
+
+msgid "Stopped"
+msgstr ""
 
 msgid "System"
 msgstr "Sistem"
@@ -713,8 +1145,32 @@ msgstr "Sıcaklık (°C)"
 msgid "Temperature"
 msgstr "Sıcaklık"
 
+msgid "The nozzle temperature is too low, Are you sure you want to heat it?"
+msgstr "Nozul sıcaklığı çok düşük, Gerçekten ısıtmak istiyor musunuz?"
+
+msgid "To Buffer"
+msgstr "Ara hazneye"
+
+msgid "To Dryer"
+msgstr "Kurutucuya"
+
+msgid "To Printhead"
+msgstr "Kafaya"
+
 msgid "Total:"
 msgstr "Toplam:"
+
+msgid "Troubleshooting"
+msgstr "Sorun Giderme"
+
+msgid "Turn off"
+msgstr "Kapat"
+
+msgid "URL"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
 
 msgid "Unknown Heater"
 msgstr "Bilinmeyen Isıtıcı"
@@ -743,8 +1199,37 @@ msgstr "Yükleniyor"
 msgid "Uploaded"
 msgstr "Yüklendi"
 
+msgid "Voice Notify"
+msgstr "Sesli Bildirim"
+
+msgid "Warning"
+msgstr "Uyarı"
+
+msgid ""
+"Warning: Current value is negative. This is dangerous and may damage the "
+"machine. Please recalibrate."
+msgstr ""
+"Uyarı: Mevcut değer negatif. Bu tehlikelidir ve makineye zarar verebilir. "
+"Lütfen yeniden kalibre edin."
+
+msgid ""
+"Warning: Negative value detected. This is dangerous and may damage the "
+"machine. Please recalibrate."
+msgstr ""
+"Uyarı: Negatif değer tespit edildi. Bu tehlikelidir ve makineye zarar "
+"verebilir. Lütfen yeniden kalibre edin."
+
+msgid "Waste Chute"
+msgstr ""
+
+msgid "WebRTC is not supported by the backend trying Stream"
+msgstr ""
+
 msgid "XY Move Speed (mm/s)"
 msgstr "XY Hareket hızı (mm/s)"
+
+msgid "XY Offset"
+msgstr "XY Ofset"
 
 msgid "XY Speed (mm/s)"
 msgstr "XY Hızı (mm/s)"
@@ -752,8 +1237,17 @@ msgstr "XY Hızı (mm/s)"
 msgid "Z Calibrate"
 msgstr "Z Kalibrasyonu"
 
+msgid "Z Endstop"
+msgstr ""
+
+msgid "Z Height Diff"
+msgstr "Z Yükseklik Farkı"
+
 msgid "Z Move Speed (mm/s)"
 msgstr "Z Hareket hızı (mm/s)"
+
+msgid "Z Offset"
+msgstr "Z Ofset"
 
 msgid "Z Speed (mm/s)"
 msgstr "Z Hızı (mm/s)"
@@ -761,21 +1255,24 @@ msgstr "Z Hızı (mm/s)"
 msgid "Z Tilt"
 msgstr "Z Eğim"
 
+msgid "Z offset exceeds safe range"
+msgstr ""
+
 msgid "Z offset:"
 msgstr "Z ofset:"
 
 msgid "commit"
-
-msgstr "commit"
-
+msgid_plural "commits"
+msgstr[0] ""
+msgstr[1] ""
 
 msgid "dBm"
 msgstr "dBm"
 
 msgid "hour"
-
-msgstr "saat"
-
+msgid_plural "hours"
+msgstr[0] ""
+msgstr[1] ""
 
 msgid "macros that use 'rename_existing' are hidden"
 msgstr "'rename_existing'i kullanan makrolar gizlendi"
@@ -784,9 +1281,9 @@ msgid "macros with a name starting with '_' are hidden"
 msgstr "adı '_' ile başlayan makrolar gizlendi"
 
 msgid "minute"
-
-msgstr "dakika"
-
+msgid_plural "minutes"
+msgstr[0] ""
+msgstr[1] ""
 
 msgid "mm"
 msgstr "mm"
@@ -800,11 +1297,98 @@ msgstr "mm/s²"
 msgid "mm³/s"
 msgstr "mm³/s"
 
+#~ msgid "24 Hour Time"
+#~ msgstr "24 Saat Zaman"
+
+#, python-format
+#~ msgid "Apply %s%.3f offset to Endstop?"
+#~ msgstr "Endstop'a %s%.3f ofset uygulansın mı?"
+
+#, python-format
+#~ msgid "Apply %s%.3f offset to Probe?"
+#~ msgstr "Prob'a %s%.3f ofset uygulansın mı?"
+
+#~ msgid "Auto-open Extrude On Pause"
+#~ msgstr "Duraklatıldığında Ekstrüzyonu Otomatik Aç"
+
+#~ msgid "Bed Mesh"
+#~ msgstr "Tabla Örgüsü"
+
+#~ msgid "Console"
+#~ msgstr "Konsol"
+
+#~ msgid "Extra Large"
+#~ msgstr "Çok Büyük"
+
+#~ msgid "Extrusion +"
+#~ msgstr "Ekstrüzyon +"
+
+#~ msgid "Extrusion -"
+#~ msgstr "Ekstrüzyon -"
+
+#~ msgid "Font Size"
+#~ msgstr "Yazı boyutu"
+
+#~ msgid "Hide sensors in Temp."
+#~ msgstr "Sıcaklıktaki sensörleri gizleyin."
+
+#~ msgid "Host"
+#~ msgstr "Sunucu"
+
+#~ msgid "Icon Theme"
+#~ msgstr "Simge Teması"
+
+#~ msgid "Large"
+#~ msgstr "Büyük"
+
+#~ msgid "Limits"
+#~ msgstr "Limitler"
+
+#~ msgid "Macro shortcut on sidebar"
+#~ msgstr "Kenar çubuğunda makro kısayolu"
+
+#~ msgid "Macros"
+#~ msgstr "Makrolar"
+
+#~ msgid "Maximum"
+#~ msgstr "Maksimum"
+
+#~ msgid "Medium"
+#~ msgstr "Orta"
+
+#~ msgid "Pins"
+#~ msgstr "Pinler"
+
+#~ msgid "Printer"
+#~ msgstr "Yazıcı"
+
+#~ msgid "Printer Connections"
+#~ msgstr "Yazıcı Bağlantıları"
+
+#~ msgid "Retraction"
+#~ msgstr "Geri Çekme"
+
+#~ msgid "Save Config"
+#~ msgstr "Yapılandırma Kayıt"
+
+#, python-format
+#~ msgid "Saved offset: %s"
+#~ msgstr "Kaydedilen ofset: %s"
+
+#~ msgid "Show Heater Power"
+#~ msgstr "Isıtıcı Gücünü Göster"
+
+#~ msgid "Show Scrollbars Buttons"
+#~ msgstr "Kaydırma çubuklarında düğmeleri göster"
+
+#~ msgid "Small"
+#~ msgstr "Küçük"
+
 #~ msgid "KlipperScreen will reboot"
 #~ msgstr "KlipperScreen yeniden başlayacak"
 
-msgid "Continue"
-msgstr "Devam et"
+#~ msgid "Continue"
+#~ msgstr "Devam et"
 
 #~ msgid "Fullscreen"
 #~ msgstr "Tam Ekran"
@@ -818,17 +1402,11 @@ msgstr "Devam et"
 #~ msgid "Homing"
 #~ msgstr "Eksen Sıfırlama"
 
-#~ msgid "Disable XY"
-#~ msgstr "XY Devre dışı bırak"
-
 #~ msgid "Slicer Time correction (%)"
 #~ msgstr "Dilimleme Zamanı doğrulama (%)"
 
 #~ msgid "Calibrated, save configuration to make it permanent"
 #~ msgstr "Kalibre edildi, kalıcı hale getirmek için yapılandırmayı kaydedin"
-
-#~ msgid "Decrease"
-#~ msgstr "Azalt"
 
 #~ msgid "Increase"
 #~ msgstr "Artır"
@@ -908,934 +1486,587 @@ msgstr "Devam et"
 #~ msgid "Z Position"
 #~ msgstr "Z Pozisyonu"
 
-msgid "Leveling"
-msgstr "Seviyeleme"
+#~ msgid "General"
+#~ msgstr "Genel"
 
-msgid "The nozzle temperature is too low, Are you sure you want to heat it?"
-msgstr "Nozul sıcaklığı çok düşük, Gerçekten ısıtmak istiyor musunuz?"
+#~ msgid "Cautions"
+#~ msgstr "Uyarılar"
 
-msgid "General"
-msgstr "Genel"
+#~ msgid "Maintenance"
+#~ msgstr "Bakım"
 
-msgid "Turn off"
-msgstr "Kapat"
+#~ msgid "Please confirm left extruder position."
+#~ msgstr "Lütfen sol ekstruder pozisyonunu onaylayın."
 
-msgid "Brightest"
-msgstr "En Parlak"
+#~ msgid "Nozzle Heating"
+#~ msgstr "Nozul Isıtma"
 
-msgid "Manual"
-msgstr "Manuel"
+#~ msgid "Hot Bed Heating"
+#~ msgstr "Sıcak Yatak Isıtma"
 
-msgid "Troubleshooting"
-msgstr "Sorun Giderme"
+#~ msgid "Nozzle Cooling Fan"
+#~ msgstr "Nozul Soğutma Fanı"
 
-msgid "Cautions"
-msgstr "Uyarılar"
+#~ msgid "Hotend Cooling Fan"
+#~ msgstr "Hotend Soğutma Fanı"
 
-msgid "Maintenance"
-msgstr "Bakım"
+#~ msgid "Auto Leveling"
+#~ msgstr "Otomatik Seviyeleme"
 
-msgid "Calibration"
-msgstr "Kalibrasyon"
+#~ msgid "WiFi"
+#~ msgstr "WiFi"
 
-msgid "XY Offset"
-msgstr "XY Ofset"
+#~ msgid "Power loss recovery, is resume print?"
+#~ msgstr "Güç kaybı iyileştirmesi, yazdırmaya devam edilsin mi?"
 
-msgid "Z Offset"
-msgstr "Z Ofset"
+#~ msgid "Skip All"
+#~ msgstr "Tümünü Atla"
 
-msgid "Only one extruder does not require calibration."
-msgstr "Sadece bir ekstruder kalibrasyon gerektirmiyor."
+#~ msgid "Please wait for the print job to end"
+#~ msgstr "Baskı işleminin bitmesini bekleyin"
 
-msgid "Please confirm left extruder position."
-msgstr "Lütfen sol ekstruder pozisyonunu onaylayın."
+#~ msgid "Are you sure you wish to reset the printer?"
+#~ msgstr "Yazıcıyı sıfırlamak istediğinizden emin misiniz?"
 
-msgid "Need to recalculate the offset value."
-msgstr "Ofset değerini yeniden hesaplamak gerekiyor."
+#~ msgid "Data will be deleted"
+#~ msgstr "Veriler silinecek"
 
-msgid "Error writing configuration"
-msgstr "Yapılandırma yazma hatası"
+#~ msgid "Reset Printer"
+#~ msgstr "Yazıcıyı Sıfırla"
 
-msgid "Please wait for the camera initialization to complete."
-msgstr "Lütfen kamera başlatma işleminin tamamlanmasını bekleyin."
+#~ msgid "Resetting printer, will restart, please wait..."
+#~ msgstr "Yazıcıyı sıfırlıyorum, yeniden başlatılacak, lütfen bekleyin..."
 
-msgid "Please wait for the camera's fill light to light up for 5 seconds before clicking 'Start'"
-msgstr "Lütfen 'Başlat' düğmesine basmadan önce kameranın dolum ışığının 5 saniye boyunca yanmasını bekleyin."
+#~ msgid "Reset"
+#~ msgstr "Sıfırla"
 
-msgid "Couldn't get the calibration camera position."
-msgstr "Kalibrasyon kamera pozisyonu alınamadı."
-
-msgid "Need home axis"
-msgstr "Ana eksene ihtiyaç var"
-
-msgid "Choose Language"
-msgstr "Dil Seçin"
-
-msgid "Choose Timezone"
-msgstr "Saat Dilimi Seçin"
-
-msgid "Select WiFi"
-msgstr "WiFi Seçin"
-
-msgid "Self-check"
-msgstr "Kendi kendine kontrol"
-
-msgid "Nozzle Heating"
-msgstr "Nozul Isıtma"
-
-msgid "Hot Bed Heating"
-msgstr "Sıcak Yatak Isıtma"
-
-msgid "Nozzle Cooling Fan"
-msgstr "Nozul Soğutma Fanı"
-
-msgid "Hotend Cooling Fan"
-msgstr "Hotend Soğutma Fanı"
-
-msgid "Filament Detection"
-msgstr "Filament Algılama"
-
-msgid "Auto Leveling"
-msgstr "Otomatik Seviyeleme"
-
-msgid "WiFi"
-msgstr "WiFi"
-
-msgid "Power loss recovery, is resume print?"
-msgstr "Güç kaybı iyileştirmesi, yazdırmaya devam edilsin mi?"
-
-msgid "Please wait until the bed and nozzle are heated before calibrating."
-msgstr "Kalibrasyon öncesi yatağın ve nozülün ısınmasını bekleyin."
-
-msgid "Current language:"
-msgstr "Geçerli dil:"
-
-msgid "Skip All"
-msgstr "Tümünü Atla"
-
-msgid "Do not touch the printer during self-check."
-msgstr "Kendi kendine kontrol sırasında yazıcıya dokunmayın."
-
-msgid "Confirm"
-msgstr "Onayla"
-
-msgid "Current timezone:"
-msgstr "Geçerli saat dilimi:"
-
-msgid "Choose a timezone"
-msgstr "Bir saat dilimi seçin"
-
-msgid "Choose a language"
-msgstr "Bir dil seçin"
-
-msgid "Please wait for the print job to end"
-msgstr "Baskı işleminin bitmesini bekleyin"
-
-msgid "Are you sure you wish to reset the printer?"
-msgstr "Yazıcıyı sıfırlamak istediğinizden emin misiniz?"
-
-msgid "Data will be deleted"
-msgstr "Veriler silinecek"
-
-msgid "Reset Printer"
-msgstr "Yazıcıyı Sıfırla"
-
-msgid "Resetting printer, will restart, please wait..."
-msgstr "Yazıcıyı sıfırlıyorum, yeniden başlatılacak, lütfen bekleyin..."
-
-msgid "Reset"
-msgstr "Sıfırla"
-
-msgid "Poweroff"
-msgstr "Kapat"
-
-msgid "Confirm Pos"
-msgstr "Doğrula konum"
-
-msgid "Shut down after printing completes"
-msgstr "Yazdırmayı tamamladıktan sonra kapat"
-
-msgid "Voice Notify"
-msgstr "Sesli Bildirim"
-
-msgid "Filament Box Power"
-msgstr "Filament kutusu güç"
-
-msgid "If your calibration device is under the PEI, please lift the PEI after homing."
-msgstr "Kalibrasyon cihazınız PEI'nin altındaysa, lütfen başlangıç konumuna geldikten sonra PEI'yi kaldırın."
-
-msgid "Homing the printer..."
-msgstr "Yazıcı başlangıç konumuna gidiyor..."
-
-msgid "Starting dual nozzle height calibration..."
-msgstr "Çift nozul yükseklik kalibrasyonu başlatılıyor..."
-
-msgid "Please observe if the nozzle is positioned above the probe."
-msgstr "Lütfen nozulun probun üzerinde konumlandırılıp konumlandırılmadığını gözlemleyin."
-
-msgid "Warning: Negative value detected. This is dangerous and may damage the machine. Please recalibrate."
-msgstr "Uyarı: Negatif değer tespit edildi. Bu tehlikelidir ve makineye zarar verebilir. Lütfen yeniden kalibre edin."
-
-msgid "New nozzle height difference is: "
-msgstr "Yeni nozul yükseklik farkı: "
-
-msgid "Warning: Current value is negative. This is dangerous and may damage the machine. Please recalibrate."
-msgstr "Uyarı: Mevcut değer negatif. Bu tehlikelidir ve makineye zarar verebilir. Lütfen yeniden kalibre edin."
-
-msgid "Z Height Diff"
-msgstr "Z Yükseklik Farkı"
-
-msgid "Adjust Zprobe Pos"
-msgstr "Zprobe Konumunu Ayarla"
-
-msgid "Need reboot, relaunch immediately?"
-msgstr "Yeniden başlatma gerekiyor, hemen yeniden başlatılsın mı?"
-
-msgid "Current nozzle height difference: "
-msgstr "Mevcut nozul yükseklik farkı: "
-
-msgid "New nozzle height difference: "
-msgstr "Yeni nozul yükseklik farkı: "
-
-msgid "Dangerous nozzle height difference: "
-msgstr "Tehlikeli nozul yükseklik farkı: "
-
-msgid "Saved successfully!"
-msgstr "Başarıyla kaydedildi!"
+#~ msgid "Poweroff"
+#~ msgstr "Kapat"
 
 # Feed Filament Box
-msgid "Edit"
-msgstr "Düzenle"
+#~ msgid "Edit"
+#~ msgstr "Düzenle"
 
-msgid "Filament Info"
-msgstr "Filament Bilgisi"
+#~ msgid "Filament Info"
+#~ msgstr "Filament Bilgisi"
 
-msgid "Not found"
-msgstr "Bulunamadı"
+#~ msgid "Not found"
+#~ msgstr "Bulunamadı"
 
-msgid "Vendor"
-msgstr "Üretici"
+#~ msgid "Vendor"
+#~ msgstr "Üretici"
 
-msgid "Type"
-msgstr "Tür"
+#~ msgid "Type"
+#~ msgstr "Tür"
 
-msgid "Color"
-msgstr "Renk"
+#~ msgid "Set Color"
+#~ msgstr "Renk Ayarla"
 
-msgid "Set Color"
-msgstr "Renk Ayarla"
+#~ msgid "Filament Settings"
+#~ msgstr "Filament Ayarları"
 
-msgid "Filament Settings"
-msgstr "Filament Ayarları"
+#~ msgid "Multi-Material Box"
+#~ msgstr "Çoklu Malzeme Kutusu"
 
-msgid "Multi-Material Box"
-msgstr "Çoklu Malzeme Kutusu"
+#~ msgid "Are you sure you wish to restart the firmware?"
+#~ msgstr "Yazılımı yeniden başlatmak istediğinize emin misiniz?"
 
-msgid "Are you sure you wish to restart the firmware?"
-msgstr "Yazılımı yeniden başlatmak istediğinize emin misiniz?"
+#~ msgid "Autofill filament disable"
+#~ msgstr "Otomatik dolgu filamanı devre dışı bırak"
 
-msgid "Autofill filament disable"
-msgstr "Otomatik dolgu filamanı devre dışı bırak"
+#~ msgid "Autofill filament enabled"
+#~ msgstr "Otomatik dolgu filamanı etkinleştirildi"
 
-msgid "Autofill filament enabled"
-msgstr "Otomatik dolgu filamanı etkinleştirildi"
+#~ msgid "Autofill filament: %s"
+#~ msgstr "Otomatik dolgu filamanı: %s"
 
-msgid "Autofill filament: %s"
-msgstr "Otomatik dolgu filamanı: %s"
+#~ msgid "Backing up configuration files."
+#~ msgstr "Yapılandırma dosyaları yedekleniyor."
 
-msgid "Backing up configuration files."
-msgstr "Yapılandırma dosyaları yedekleniyor."
+#~ msgid "Calibrate Cutter Pos"
+#~ msgstr "Kesici Konumunu Kalibre Et"
 
-msgid "Calibrate Cutter Pos"
-msgstr "Kesici Konumunu Kalibre Et"
+#~ msgid "Couldn't get the calibration cutter position."
+#~ msgstr "Kesici konumu alınamadı."
 
-msgid "Couldn't get the calibration cutter position."
-msgstr "Kesici konumu alınamadı."
+#~ msgid "Current filament indexes are:%s, active tool:%s"
+#~ msgstr "Mevcut filaman indeksleri:%s, aktif araç:%s"
 
-msgid "Current filament indexes are:%s, active tool:%s"
-msgstr "Mevcut filaman indeksleri:%s, aktif araç:%s"
+#~ msgid ""
+#~ "Current filament indexes are:%s, active tool:%s, resume_tool:%s, "
+#~ "pause_reason:%s"
+#~ msgstr ""
+#~ "Mevcut filaman indeksleri:%s, aktif araç:%s, devam_araç:%s, "
+#~ "durdurma_nedeni:%s"
 
-msgid "Current filament indexes are:%s, active tool:%s, resume_tool:%s, pause_reason:%s"
-msgstr "Mevcut filaman indeksleri:%s, aktif araç:%s, devam_araç:%s, durdurma_nedeni:%s"
+#~ msgid "Current value is %s"
+#~ msgstr "Mevcut değer %s"
 
-msgid "Current value is %s"
-msgstr "Mevcut değer %s"
+#~ msgid "Cut Filament Test"
+#~ msgstr "Filaman Kesme Testi"
 
-msgid "Cut Filament Test"
-msgstr "Filaman Kesme Testi"
+#~ msgid "Do you want to enable multi-material box?"
+#~ msgstr "Çoklu malzeme kutusunu etkinleştirmek istiyor musunuz?"
 
-msgid "Do you want to enable multi-material box?"
-msgstr "Çoklu malzeme kutusunu etkinleştirmek istiyor musunuz?"
+#~ msgid "Do you want to use external filament?"
+#~ msgstr "Dış filaman kullanmak istiyor musunuz?"
 
-msgid "Do you want to use external filament?"
-msgstr "Dış filaman kullanmak istiyor musunuz?"
+#~ msgid "Error: Offset values not found"
+#~ msgstr "Hata: Kaydırma değerleri bulunamadı"
 
-msgid "Error: Offset values not found"
-msgstr "Hata: Kaydırma değerleri bulunamadı"
+#~ msgid "Error: Z offset value not found"
+#~ msgstr "Hata: Z kaydırma değeri bulunamadı"
 
-msgid "Error: Z offset value not found"
-msgstr "Hata: Z kaydırma değeri bulunamadı"
+#~ msgid "External Filament"
+#~ msgstr "Dış Filaman"
 
-msgid "External Filament"
-msgstr "Dış Filaman"
+#~ msgid "Extruder not hot enough"
+#~ msgstr "Ekstruder yeterince sıcak değil"
 
-msgid "Extruder not hot enough"
-msgstr "Ekstruder yeterince sıcak değil"
+#~ msgid "FEED error:External filament not removed"
+#~ msgstr "FEED hatası: Dış filaman çıkarılmadı"
 
-msgid "FEED error:External filament not removed"
-msgstr "FEED hatası: Dış filaman çıkarılmadı"
+#~ msgid "Filament %s not found"
+#~ msgstr "Filaman %s bulunamadı"
 
-msgid "Filament %s not found"
-msgstr "Filaman %s bulunamadı"
+#~ msgid "Filament Sensor%s: No filament detected, canceling print"
+#~ msgstr "Filaman Sensörü%s: Filaman algılanmadı, yazdırma iptal ediliyor"
 
-msgid "Filament Sensor%s: No filament detected, canceling print"
-msgstr "Filaman Sensörü%s: Filaman algılanmadı, yazdırma iptal ediliyor"
+#~ msgid "Filament Sensor%s: No filament detected, pausing print"
+#~ msgstr "Filaman Sensörü%s: Filaman algılanmadı, yazdırma duraklatılıyor"
 
-msgid "Filament Sensor%s: No filament detected, pausing print"
-msgstr "Filaman Sensörü%s: Filaman algılanmadı, yazdırma duraklatılıyor"
+#~ msgid "Filament Sensor0: No filament detected, pausing print"
+#~ msgstr "Filaman Sensörü0: Filaman algılanmadı, yazdırma duraklatılıyor"
 
-msgid "Filament Sensor0: No filament detected, pausing print"
-msgstr "Filaman Sensörü0: Filaman algılanmadı, yazdırma duraklatılıyor"
+#~ msgid "Filament Sensor1: No filament detected, pausing print"
+#~ msgstr "Filaman Sensörü1: Filaman algılanmadı, yazdırma duraklatılıyor"
 
-msgid "Filament Sensor1: No filament detected, pausing print"
-msgstr "Filaman Sensörü1: Filaman algılanmadı, yazdırma duraklatılıyor"
+#~ msgid ""
+#~ "Filament detected! Please remove filament from the hotend before enabling "
+#~ "multi-material box."
+#~ msgstr ""
+#~ "Filaman algılandı! Çoklu malzeme kutusunu etkinleştirmeden önce, nozdan "
+#~ "filamanı çıkarın."
 
-msgid "Filament detected! Please remove filament from the hotend before enabling multi-material box."
-msgstr "Filaman algılandı! Çoklu malzeme kutusunu etkinleştirmeden önce, nozdan filamanı çıkarın."
+#~ msgid "Missing required recovery data"
+#~ msgstr "Gerekli kurtarma verisi eksik"
 
-msgid "Missing required recovery data"
-msgstr "Gerekli kurtarma verisi eksik"
+#~ msgid "No power loss recovery data found"
+#~ msgstr "Enerji kaybı kurtarma verisi bulunamadı"
 
-msgid "No power loss recovery data found"
-msgstr "Enerji kaybı kurtarma verisi bulunamadı"
+#~ msgid "No valid params 'S'"
+#~ msgstr "Geçerli parametreler 'S' yok"
 
-msgid "No valid params 'S'"
-msgstr "Geçerli parametreler 'S' yok"
+#~ msgid "No"
+#~ msgstr "Hayır"
 
-msgid "No"
-msgstr "Hayır"
+#~ msgid "Options"
+#~ msgstr "Seçenekler"
 
-msgid "OK"
-msgstr "Tamam"
+#~ msgid "Pause. The \"extruder\" extrude error!"
+#~ msgstr "Duraklat. \"Ekstruder\" ekstrüzyon hatası!"
 
-msgid "Options"
-msgstr "Seçenekler"
+#~ msgid "Please exit the filament from the nozzle first"
+#~ msgstr "Lütfen önce filamanı nozdan çıkarın"
 
-msgid "Pause. The \"extruder\" extrude error!"
-msgstr "Duraklat. \"Ekstruder\" ekstrüzyon hatası!"
+#~ msgid ""
+#~ "Please fill in the voice number correctly: 0-start printing, 1-end "
+#~ "printing, 2-outage detected, 3-cancel printing, 4-pause printing"
+#~ msgstr ""
+#~ "Lütfen ses numarasını doğru girin: 0-yazdırmayı başlat, 1-yazdırmayı "
+#~ "sonlandır, 2-kesinti tespit edildi, 3-yazdırmayı iptal et, 4-yazdırmayı "
+#~ "duraklat"
 
-msgid "Please exit the filament from the nozzle first"
-msgstr "Lütfen önce filamanı nozdan çıkarın"
+#~ msgid "Please select how you would like to proceed."
+#~ msgstr "Devam etmek istediğiniz şekli seçin."
 
-msgid "Please fill in the voice number correctly: 0-start printing, 1-end printing, 2-outage detected, 3-cancel printing, 4-pause printing"
-msgstr "Lütfen ses numarasını doğru girin: 0-yazdırmayı başlat, 1-yazdırmayı sonlandır, 2-kesinti tespit edildi, 3-yazdırmayı iptal et, 4-yazdırmayı duraklat"
+#~ msgid "Power loss recovery, resuming print."
+#~ msgstr "Enerji kaybı kurtarma, yazdırmayı devam ettiriyor."
 
-msgid "Please select how you would like to proceed."
-msgstr "Devam etmek istediğiniz şekli seçin."
+#~ msgid "Power loss, saving print states."
+#~ msgstr "Enerji kaybı, yazdırma durumlarını kaydediyor."
 
-msgid "Power loss recovery, resuming print."
-msgstr "Enerji kaybı kurtarma, yazdırmayı devam ettiriyor."
+#~ msgid "Press feedsys button"
+#~ msgstr "Feedsys düğmesini basın"
 
-msgid "Power loss, saving print states."
-msgstr "Enerji kaybı, yazdırma durumlarını kaydediyor."
+#~ msgid "Print resumed from power loss position"
+#~ msgstr "Enerji kaybı pozisyonundan yazdırma devam ediyor"
 
-msgid "Press feedsys button"
-msgstr "Feedsys düğmesini basın"
+#~ msgid "Printer not homed"
+#~ msgstr "Yazıcı ev konumunda değil"
 
-msgid "Print resumed from power loss position"
-msgstr "Enerji kaybı pozisyonundan yazdırma devam ediyor"
+#~ msgid "RESUME error:autofill no fil"
+#~ msgstr "DEVAM ET hata: otomatik dolgu filamanı yok"
 
-msgid "Printer not homed"
-msgstr "Yazıcı ev konumunda değil"
+#~ msgid "RESUME error:no fil"
+#~ msgstr "DEVAM ET hata: filaman yok"
 
-msgid "RESUME error:autofill no fil"
-msgstr "DEVAM ET hata: otomatik dolgu filamanı yok"
+#~ msgid "RESUME error:residual fil"
+#~ msgstr "DEVAM ET hata: kalan filaman"
 
-msgid "RESUME error:no fil"
-msgstr "DEVAM ET hata: filaman yok"
+#~ msgid "Recovery data: Z=%s, File=%s, Pos=%s"
+#~ msgstr "Kurtarma verisi: Z=%s, Dosya=%s, Pozisyon=%s"
 
-msgid "RESUME error:residual fil"
-msgstr "DEVAM ET hata: kalan filaman"
+#~ msgid "T%s direct feed"
+#~ msgstr "T%s doğrudan besleme"
 
-msgid "Recovery data: Z=%s, File=%s, Pos=%s"
-msgstr "Kurtarma verisi: Z=%s, Dosya=%s, Pozisyon=%s"
+#~ msgid "T0 direct feed"
+#~ msgstr "T0 doğrudan besleme"
 
-msgid "Save & Restart"
-msgstr "Kaydet ve Yeniden Başlat"
+#~ msgid "T0 need exit filament"
+#~ msgstr "T0 filamanı çıkarmaya ihtiyaç var"
 
-msgid "T%s direct feed"
-msgstr "T%s doğrudan besleme"
+#~ msgid "T1 direct feed"
+#~ msgstr "T1 doğrudan besleme"
 
-msgid "T0 direct feed"
-msgstr "T0 doğrudan besleme"
+#~ msgid "T1 need exit filament"
+#~ msgstr "T1 filamanı çıkarmaya ihtiyaç var"
 
-msgid "T0 need exit filament"
-msgstr "T0 filamanı çıkarmaya ihtiyaç var"
+#~ msgid "T2 direct feed"
+#~ msgstr "T2 doğrudan besleme"
 
-msgid "T1 direct feed"
-msgstr "T1 doğrudan besleme"
+#~ msgid "T2 need exit filament"
+#~ msgstr "T2 filamanı çıkarmaya ihtiyaç var"
 
-msgid "T1 need exit filament"
-msgstr "T1 filamanı çıkarmaya ihtiyaç var"
+#~ msgid "T3 direct feed"
+#~ msgstr "T3 doğrudan besleme"
 
-msgid "T2 direct feed"
-msgstr "T2 doğrudan besleme"
+#~ msgid "T3 need exit filament"
+#~ msgstr "T3 filamanı çıkarmaya ihtiyaç var"
 
-msgid "T2 need exit filament"
-msgstr "T2 filamanı çıkarmaya ihtiyaç var"
+#~ msgid "The \"extruder\" extrude error!"
+#~ msgstr "\"Ekstruder\" ekstrüzyon hatası!"
 
-msgid "T3 direct feed"
-msgstr "T3 doğrudan besleme"
+#~ msgid "The current toolheade is T%s"
+#~ msgstr "Mevcut araç başı T%s"
 
-msgid "T3 need exit filament"
-msgstr "T3 filamanı çıkarmaya ihtiyaç var"
+#~ msgid "The current toolheade is T0"
+#~ msgstr "Mevcut araç başı T0"
 
-msgid "The \"extruder\" extrude error!"
-msgstr "\"Ekstruder\" ekstrüzyon hatası!"
+#~ msgid "The current toolheade is T1"
+#~ msgstr "Mevcut araç başı T1"
 
-msgid "The current toolheade is T%s"
-msgstr "Mevcut araç başı T%s"
+#~ msgid "The current toolheade is T2"
+#~ msgstr "Mevcut araç başı T2"
 
-msgid "The current toolheade is T0"
-msgstr "Mevcut araç başı T0"
+#~ msgid "The current toolheade is T3"
+#~ msgstr "Mevcut araç başı T3"
 
-msgid "The current toolheade is T1"
-msgstr "Mevcut araç başı T1"
+#~ msgid "The filament_box_%s no filament"
+#~ msgstr "Filaman kutusu_%s'da filaman yok"
 
-msgid "The current toolheade is T2"
-msgstr "Mevcut araç başı T2"
+#~ msgid "The motor is wrong."
+#~ msgstr "Motor yanlış."
 
-msgid "The current toolheade is T3"
-msgstr "Mevcut araç başı T3"
+#~ msgid "There is a residual filament, Please remove and continue"
+#~ msgstr "Kalan bir filaman var, lütfen çıkarın ve devam edin"
 
-msgid "The filament_box_%s no filament"
-msgstr "Filaman kutusu_%s'da filaman yok"
+#~ msgid "There's a residual filament in box %s"
+#~ msgstr "Kutuda %s kalan bir filaman var"
 
-msgid "The motor is wrong."
-msgstr "Motor yanlış."
+#~ msgid "There's a residual filament in box 1"
+#~ msgstr "Kutuda 1 kalan bir filaman var"
 
-msgid "There is a residual filament, Please remove and continue"
-msgstr "Kalan bir filaman var, lütfen çıkarın ve devam edin"
+#~ msgid "There's a residual filament in box 2"
+#~ msgstr "Kutuda 2 kalan bir filaman var"
 
-msgid "There's a residual filament in box %s"
-msgstr "Kutuda %s kalan bir filaman var"
+#~ msgid "There's a residual filament in box 3"
+#~ msgstr "Kutuda 3 kalan bir filaman var"
 
-msgid "There's a residual filament in box 1"
-msgstr "Kutuda 1 kalan bir filaman var"
+#~ msgid "There's a residual filament in box 4"
+#~ msgstr "Kutuda 4 kalan bir filaman var"
 
-msgid "There's a residual filament in box 2"
-msgstr "Kutuda 2 kalan bir filaman var"
+#~ msgid "Unknown filament"
+#~ msgstr "Bilinmeyen filaman"
 
-msgid "There's a residual filament in box 3"
-msgstr "Kutuda 3 kalan bir filaman var"
+#~ msgid "Use external filament, please manually exit"
+#~ msgstr "Dış filamanı kullanın, lütfen manuel olarak çıkarın"
 
-msgid "There's a residual filament in box 4"
-msgstr "Kutuda 4 kalan bir filaman var"
+#~ msgid "Yes"
+#~ msgstr "Evet"
 
-msgid "Unknown fan"
-msgstr "Bilinmeyen fan"
+#~ msgid "auto shutdown error"
+#~ msgstr "otomatik kapanış hatası"
 
-msgid "Unknown filament"
-msgstr "Bilinmeyen filaman"
+#~ msgid "bed_mash:%s"
+#~ msgstr "yatak_mash:%s"
 
-msgid "Use external filament, please manually exit"
-msgstr "Dış filamanı kullanın, lütfen manuel olarak çıkarın"
+#~ msgid "clean pause_reason"
+#~ msgstr "durdurma_nedenini temizle"
 
-msgid "Warning"
-msgstr "Uyarı"
+#~ msgid "cut filament"
+#~ msgstr "filamanı kes"
 
-msgid "Yes"
-msgstr "Evet"
+#~ msgid "cutter press!"
+#~ msgstr "kesici basıldı!"
 
-msgid "auto shutdown error"
-msgstr "otomatik kapanış hatası"
+#~ msgid "cutter release!"
+#~ msgstr "kesici serbest bırakıldı!"
 
-msgid "bed_mash:%s"
-msgstr "yatak_mash:%s"
+#~ msgid "feed busy"
+#~ msgstr "besleme meşgul"
 
-msgid "clean pause_reason"
-msgstr "durdurma_nedenini temizle"
+#~ msgid "feed error"
+#~ msgstr "besleme hatası"
 
-msgid "cut filament"
-msgstr "filamanı kes"
+#~ msgid "feed finish"
+#~ msgstr "besleme tamamlandı"
 
-msgid "cutter press!"
-msgstr "kesici basıldı!"
+#~ msgid "filament not removed"
+#~ msgstr "filaman çıkarılmadı"
 
-msgid "cutter release!"
-msgstr "kesici serbest bırakıldı!"
+#~ msgid "filament pause reason"
+#~ msgstr "filaman durdurma nedeni"
 
-msgid "feed busy"
-msgstr "besleme meşgul"
+#~ msgid "filament press"
+#~ msgstr "filaman basıldı"
 
-msgid "feed error"
-msgstr "besleme hatası"
+#~ msgid "filament release"
+#~ msgstr "filaman serbest bırakıldı"
 
-msgid "feed finish"
-msgstr "besleme tamamlandı"
+#~ msgid "filament remove"
+#~ msgstr "filaman çıkar"
 
-msgid "filament not removed"
-msgstr "filaman çıkarılmadı"
+#~ msgid "filament runout"
+#~ msgstr "filaman bitti"
 
-msgid "filament pause reason"
-msgstr "filaman durdurma nedeni"
+#~ msgid "filament%s:%s"
+#~ msgstr "filaman%s:%s"
 
-msgid "filament press"
-msgstr "filaman basıldı"
+#~ msgid "flush filament"
+#~ msgstr "filamanı temizle"
 
-msgid "filament release"
-msgstr "filaman serbest bırakıldı"
+#~ msgid "motion sensor insert"
+#~ msgstr "hareket sensörünü ekle"
 
-msgid "filament remove"
-msgstr "filaman çıkar"
+#~ msgid "motion sensor runout"
+#~ msgstr "hareket sensörü bitti"
 
-msgid "filament runout"
-msgstr "filaman bitti"
+#~ msgid "motor_%s press"
+#~ msgstr "motor_%s basıldı"
 
-msgid "filament%s:%s"
-msgstr "filaman%s:%s"
+#~ msgid "motor_%s release"
+#~ msgstr "motor_%s serbest bırakıldı"
 
-msgid "flush filament"
-msgstr "filamanı temizle"
+#~ msgid "motor_1 press"
+#~ msgstr "motor_1 basıldı"
 
-msgid "motion sensor insert"
-msgstr "hareket sensörünü ekle"
+#~ msgid "motor_1 release"
+#~ msgstr "motor_1 serbest bırakıldı"
 
-msgid "motion sensor runout"
-msgstr "hareket sensörü bitti"
+#~ msgid "motor_2 press"
+#~ msgstr "motor_2 basıldı"
 
-msgid "motor_%s press"
-msgstr "motor_%s basıldı"
+#~ msgid "motor_2 release"
+#~ msgstr "motor_2 serbest bırakıldı"
 
-msgid "motor_%s release"
-msgstr "motor_%s serbest bırakıldı"
+#~ msgid "motor_3 press"
+#~ msgstr "motor_3 basıldı"
 
-msgid "motor_1 press"
-msgstr "motor_1 basıldı"
+#~ msgid "motor_3 release"
+#~ msgstr "motor_3 serbest bırakıldı"
 
-msgid "motor_1 release"
-msgstr "motor_1 serbest bırakıldı"
+#~ msgid "motor_4 press"
+#~ msgstr "motor_4 basıldı"
 
-msgid "motor_2 press"
-msgstr "motor_2 basıldı"
+#~ msgid "motor_4 release"
+#~ msgstr "motor_4 serbest bırakıldı"
 
-msgid "motor_2 release"
-msgstr "motor_2 serbest bırakıldı"
+#~ msgid "no bed_mash name"
+#~ msgstr "yatak_mash adı yok"
 
-msgid "motor_3 press"
-msgstr "motor_3 basıldı"
+#~ msgid "no bed_mash"
+#~ msgstr "yatak_mash yok"
 
-msgid "motor_3 release"
-msgstr "motor_3 serbest bırakıldı"
+#~ msgid "no enabled"
+#~ msgstr "etkinleştirilmemiş"
 
-msgid "motor_4 press"
-msgstr "motor_4 basıldı"
+#~ msgid "press button%s"
+#~ msgstr "düğmeye basın%s"
 
-msgid "motor_4 release"
-msgstr "motor_4 serbest bırakıldı"
+#~ msgid "press button1"
+#~ msgstr "düğmeye basın1"
 
-msgid "no bed_mash name"
-msgstr "yatak_mash adı yok"
+#~ msgid "press button2"
+#~ msgstr "düğmeye basın2"
 
-msgid "no bed_mash"
-msgstr "yatak_mash yok"
+#~ msgid "press button3"
+#~ msgstr "düğmeye basın3"
 
-msgid "no enabled"
-msgstr "etkinleştirilmemiş"
+#~ msgid "press button4"
+#~ msgstr "düğmeye basın4"
 
-msgid "press button%s"
-msgstr "düğmeye basın%s"
+#~ msgid "remove filament"
+#~ msgstr "filamanı çıkar"
 
-msgid "press button1"
-msgstr "düğmeye basın1"
+#~ msgid "residual filament%s"
+#~ msgstr "kalan filaman%s"
 
-msgid "press button2"
-msgstr "düğmeye basın2"
+#~ msgid "residual filament0"
+#~ msgstr "kalan filaman0"
 
-msgid "press button3"
-msgstr "düğmeye basın3"
+#~ msgid "residual filament1"
+#~ msgstr "kalan filaman1"
 
-msgid "press button4"
-msgstr "düğmeye basın4"
+#~ msgid "residual filament2"
+#~ msgstr "kalan filaman2"
 
-msgid "remove filament"
-msgstr "filamanı çıkar"
+#~ msgid "residual filament3"
+#~ msgstr "kalan filaman3"
 
-msgid "residual filament%s"
-msgstr "kalan filaman%s"
+#~ msgid "resume:%s"
+#~ msgstr "devam:%s"
 
-msgid "residual filament0"
-msgstr "kalan filaman0"
+#~ msgid "resume_tool:%s pause_reason:%s"
+#~ msgstr "devam_araç:%s durdurma_nedeni:%s"
 
-msgid "residual filament1"
-msgstr "kalan filaman1"
+#~ msgid "Copy Print"
+#~ msgstr "Kopyalama Baskı"
 
-msgid "residual filament2"
-msgstr "kalan filaman2"
+#~ msgid "Mirror Print"
+#~ msgstr "Ayna Baskı"
 
-msgid "residual filament3"
-msgstr "kalan filaman3"
+#~ msgid "Manual Calibration"
+#~ msgstr "Manuel Kalibrasyon"
 
-msgid "resume:%s"
-msgstr "devam:%s"
+#~ msgid "Calibration successful!"
+#~ msgstr "Kalibrasyon başarılı!"
 
-msgid "resume_tool:%s pause_reason:%s"
-msgstr "devam_araç:%s durdurma_nedeni:%s"
+#~ msgid "Auto calibration failed. Please clean the nozzle and try again."
+#~ msgstr ""
+#~ "Otomatik kalibrasyon başarısız oldu. Lütfen nozülü temizleyin ve tekrar "
+#~ "deneyin."
 
-msgid "Copy Print"
-msgstr "Kopyalama Baskı"
+#~ msgid ""
+#~ "Auto calibration is not available. Please install required dependencies."
+#~ msgstr ""
+#~ "Otomatik kalibrasyon kullanılamıyor. Lütfen gerekli bağımlılıkları "
+#~ "yükleyin."
 
-msgid "Mirror Print"
-msgstr "Ayna Baskı"
+#~ msgid "Left extruder template saved"
+#~ msgstr "Sol ekstruder şablonu kaydedildi"
 
-msgid "Manual Calibration"
-msgstr "Manuel Kalibrasyon"
+#~ msgid "Right extruder template saved"
+#~ msgstr "Sağ ekstruder şablonu kaydedildi"
 
-msgid "Auto Calibration"
-msgstr "Otomatik Kalibrasyon"
+#~ msgid "No template images found. Please perform manual calibration first."
+#~ msgstr "Şablon görüntüsü bulunamadı. Lütfen önce manuel kalibrasyon yapın."
 
-msgid "Calibration successful!"
-msgstr "Kalibrasyon başarılı!"
+#~ msgid "Getting image of left extruder"
+#~ msgstr "Sol ekstruder görüntüsü alınıyor"
 
-msgid "Auto calibration failed. Please clean the nozzle and try again."
-msgstr "Otomatik kalibrasyon başarısız oldu. Lütfen nozülü temizleyin ve tekrar deneyin."
+#~ msgid "Getting image of right extruder"
+#~ msgstr "Sağ ekstruder görüntüsü alınıyor"
 
-msgid "Auto calibration is not available. Please install required dependencies."
-msgstr "Otomatik kalibrasyon kullanılamıyor. Lütfen gerekli bağımlılıkları yükleyin."
+#~ msgid ""
+#~ "Left extruder calibration failed. Please clean the nozzle and try again."
+#~ msgstr ""
+#~ "Sol ekstruder kalibrasyonu başarısız oldu. Lütfen nozülü temizleyin ve "
+#~ "tekrar deneyin."
 
-msgid "Left extruder template saved"
-msgstr "Sol ekstruder şablonu kaydedildi"
+#~ msgid ""
+#~ "Right extruder calibration failed. Please clean the nozzle and try again."
+#~ msgstr ""
+#~ "Sağ ekstruder kalibrasyonu başarısız oldu. Lütfen nozülü temizleyin ve "
+#~ "tekrar deneyin."
 
-msgid "Right extruder template saved"
-msgstr "Sağ ekstruder şablonu kaydedildi"
+#~ msgid "left extruder pos: (%.3f, %.3f, %.3f)"
+#~ msgstr "sol ekstruder konumu: (%.3f, %.3f, %.3f)"
 
-msgid "Failed to save template"
-msgstr "Şablon kaydedilemedi"
+#~ msgid "Right extruder offset is (%.3f, %.3f, %.3f)"
+#~ msgstr "Sağ ekstruder ofseti: (%.3f, %.3f, %.3f)"
 
-msgid "No template images found. Please perform manual calibration first."
-msgstr "Şablon görüntüsü bulunamadı. Lütfen önce manuel kalibrasyon yapın."
+#~ msgid ""
+#~ "Please wait for the camera's fill light to light up for 5 seconds before "
+#~ "clicking 'Manual Calibration' or 'Auto Calibration'"
+#~ msgstr ""
+#~ "'Manuel Kalibrasyon' veya 'Otomatik Kalibrasyon'a tıklamadan önce "
+#~ "kameranın dolgu ışığının 5 saniye boyunca yanmasını bekleyin"
 
-msgid "Getting image of left extruder"
-msgstr "Sol ekstruder görüntüsü alınıyor"
+#~ msgid "The door is open."
+#~ msgstr "Kapı açık."
 
-msgid "Getting image of right extruder"
-msgstr "Sağ ekstruder görüntüsü alınıyor"
+#~ msgid "The door is closed."
+#~ msgstr "Kapı kapalı."
 
-msgid "Left extruder calibration failed. Please clean the nozzle and try again."
-msgstr "Sol ekstruder kalibrasyonu başarısız oldu. Lütfen nozülü temizleyin ve tekrar deneyin."
+#~ msgid "Error getting origin offset values: %s"
+#~ msgstr "Orijin ofset değerleri alınırken hata oluştu: %s"
 
-msgid "Right extruder calibration failed. Please clean the nozzle and try again."
-msgstr "Sağ ekstruder kalibrasyonu başarısız oldu. Lütfen nozülü temizleyin ve tekrar deneyin."
+#~ msgid "Filament run out, pausing print"
+#~ msgstr "Fılatman bitti, yazıcıyı durduruyorum"
 
-msgid "left extruder pos: (%.3f, %.3f, %.3f)"
-msgstr "sol ekstruder konumu: (%.3f, %.3f, %.3f)"
+#~ msgid "Not in single extruder mode, pausing print"
+#~ msgstr "Tek ekstruder modunda değil, yazıcıyı durduruyorum"
 
-msgid "Right extruder offset is (%.3f, %.3f, %.3f)"
-msgstr "Sağ ekstruder ofseti: (%.3f, %.3f, %.3f)"
+#~ msgid "Current sensor not configured, pausing print"
+#~ msgstr "Mevcut sensör yapılandırılmadı, yazıcıyı durduruyorum"
 
-msgid "Please wait for the camera's fill light to light up for 5 seconds before clicking 'Manual Calibration' or 'Auto Calibration'"
-msgstr "'Manuel Kalibrasyon' veya 'Otomatik Kalibrasyon'a tıklamadan önce kameranın dolgu ışığının 5 saniye boyunca yanmasını bekleyin"
+#~ msgid "Other sensor not configured, pausing print"
+#~ msgstr "Diğer sensörler yapılandırılmadı, yazıcıyı durduruyorum"
 
-msgid "The door is open."
-msgstr "Kapı açık."
+#~ msgid "Current extruder has filament, continuing print"
+#~ msgstr "Mevcut ekstraderde fılatman var, yazmaya devam ediyorum"
 
-msgid "The door is closed."
-msgstr "Kapı kapalı."
+#~ msgid "Both extruders out of filament, pausing print"
+#~ msgstr "Her iki ekstraderde de fılatman yok, yazıcıyı durduruyorum"
 
-msgid "Error getting origin offset values: %s"
-msgstr "Orijin ofset değerleri alınırken hata oluştu: %s"
+#~ msgid "Filament run out, switching extruder"
+#~ msgstr "Fılatman bitti, ekstraderi değiştiriyorum"
 
-msgid "Raise"
-msgstr "Yükselt"
+#~ msgid "Switching to left extruder"
+#~ msgstr "Sol ekstradere geçiş yapılıyor"
 
-msgid "Lower"
-msgstr "Alçalt"
+#~ msgid "Switching to right extruder"
+#~ msgstr "Sağ ekstradere geçiş yapılıyor"
 
-msgid "Filament run out, pausing print"
-msgstr "Fılatman bitti, yazıcıyı durduruyorum"
+#~ msgid "Extruder switch complete, resuming print"
+#~ msgstr "Ekstrader değişim tamamlandı, yazmaya devam ediyorum"
 
-msgid "Not in single extruder mode, pausing print"
-msgstr "Tek ekstruder modunda değil, yazıcıyı durduruyorum"
+#~ msgid "Auto extruder switch already enabled"
+#~ msgstr "Otomatik ekstrader değişim zaten etkin"
 
-msgid "Current sensor not configured, pausing print"
-msgstr "Mevcut sensör yapılandırılmadı, yazıcıyı durduruyorum"
+#~ msgid ""
+#~ "Auto extruder switch enabled, this feature only works when printing with "
+#~ "a single extruder"
+#~ msgstr ""
+#~ "Otomatik ekstrader değişim etkinleştirildi; bu özellik sadece tek bir "
+#~ "ekstrader kullanılırken çalışır"
 
-msgid "Other sensor not configured, pausing print"
-msgstr "Diğer sensörler yapılandırılmadı, yazıcıyı durduruyorum"
+#~ msgid "Auto extruder switch already disabled"
+#~ msgstr "Otomatik ekstrader değişim zaten devre dışı"
 
-msgid "Current extruder has filament, continuing print"
-msgstr "Mevcut ekstraderde fılatman var, yazmaya devam ediyorum"
+#~ msgid "Auto extruder switch disabled"
+#~ msgstr "Otomatik ekstrader değişim devre dışı bırakıldı"
 
-msgid "Both extruders out of filament, pausing print"
-msgstr "Her iki ekstraderde de fılatman yok, yazıcıyı durduruyorum"
+#~ msgid "Filament Sensor0: No filament detected, canceling print."
+#~ msgstr ""
+#~ "Fılatman Sensörü 0: Fılatman algılanmadı, yazdırmayı iptal ediyorum."
 
-msgid "Filament run out, switching extruder"
-msgstr "Fılatman bitti, ekstraderi değiştiriyorum"
+#~ msgid "Filament Sensor1: No filament detected, canceling print."
+#~ msgstr ""
+#~ "Fılatman Sensörü 1: Fılatman algılanmadı, yazdırmayı iptal ediyorum."
 
-msgid "Switching to left extruder"
-msgstr "Sol ekstradere geçiş yapılıyor"
+#~ msgid "Missing required information"
+#~ msgstr "Gerekli bilgiler eksik"
 
-msgid "Switching to right extruder"
-msgstr "Sağ ekstradere geçiş yapılıyor"
+#~ msgid "Resume Print"
+#~ msgstr "Baskıyı Devam Ettir"
 
-msgid "Extruder switch complete, resuming print"
-msgstr "Ekstrader değişim tamamlandı, yazmaya devam ediyorum"
+#~ msgid "Tip: Please ensure the nozzle is about 0.1mm above the model"
+#~ msgstr ""
+#~ "İpucu: Lütfen nozulun model üzerinde yaklaşık 0.1mm olduğundan emin olun"
 
-msgid "Auto extruder switch already enabled"
-msgstr "Otomatik ekstrader değişim zaten etkin"
+#~ msgid "Please remove the extruder foam and take out the door handle."
+#~ msgstr "Lütfen ekstrüder köpüğünü çıkarın ve kapı kolunu çıkarın."
 
-msgid "Auto extruder switch enabled, this feature only works when printing with a single extruder"
-msgstr "Otomatik ekstrader değişim etkinleştirildi; bu özellik sadece tek bir ekstrader kullanılırken çalışır"
+#~ msgid "Print Issue Detected!"
+#~ msgstr "Yazdırma Sorunu Tespit Edildi!"
 
-msgid "Auto extruder switch already disabled"
-msgstr "Otomatik ekstrader değişim zaten devre dışı"
+#~ msgid "AI Settings"
+#~ msgstr "AI Ayarları"
 
-msgid "Auto extruder switch disabled"
-msgstr "Otomatik ekstrader değişim devre dışı bırakıldı"
+#~ msgid "Detected defect: %s (Confidence: %.1f%%)"
+#~ msgstr "Hata tespit edildi: %s (Güven: %.1f%%)"
 
-msgid "Extruder switch when filament run out"
-msgstr "Fılatman bittiğinde ekstrader değişim yapılıyor"
-
-msgid "Filament Sensor0: No filament detected, canceling print."
-msgstr "Fılatman Sensörü 0: Fılatman algılanmadı, yazdırmayı iptal ediyorum."
-
-msgid "Filament Sensor1: No filament detected, canceling print."
-msgstr "Fılatman Sensörü 1: Fılatman algılanmadı, yazdırmayı iptal ediyorum."
-
-msgid "Active Extruder"
-msgstr "Aktif Ekstruder"
-
-msgid "Active Extruder:"
-msgstr "Aktif Ekstruder:"
-
-msgid "Bed Temp:"
-msgstr "Tabla Sıcaklığı:"
-
-msgid "Bed Temperature"
-msgstr "Tabla Sıcaklığı"
-
-msgid "Filename"
-msgstr "Dosya Adı"
-
-msgid "Filename:"
-msgstr "Dosya Adı:"
-
-msgid "Missing required information"
-msgstr "Gerekli bilgiler eksik"
-
-msgid "Nozzle Temp:"
-msgstr "Nozul Sıcaklığı:"
-
-msgid "Nozzle Temperature"
-msgstr "Nozul Sıcaklığı"
-
-msgid "Power Loss Recovery"
-msgstr "Güç Kesintisi Kurtarma"
-
-msgid "Print Height"
-msgstr "Baskı Yüksekliği"
-
-msgid "Print Height:"
-msgstr "Baskı Yüksekliği:"
-
-msgid "Print height is less than 1mm"
-msgstr "Baskı yüksekliği 1mm'den az"
-
-msgid "Recovery File"
-msgstr "Kurtarma Dosyası"
-
-msgid "Resume Print"
-msgstr "Baskıyı Devam Ettir"
-
-msgid "Tip: Please ensure the nozzle is about 0.1mm above the model"
-msgstr "İpucu: Lütfen nozulun model üzerinde yaklaşık 0.1mm olduğundan emin olun"
-
-msgid "Force Move"
-msgstr "Zorla Hareket"
-
-msgid "Force move: "
-msgstr "Zorla hareket:"
-
-msgid "Apply Z offset to Probe?"
-msgstr "Z ofsetini Proba uygula?"
-
-msgid "Left Extruder: %s%.3f"
-msgstr "Sol Ekstruder: %s%.3f"
-
-msgid "Left Extruder: Not adjusted"
-msgstr "Sol Ekstruder: Ayarlanmamış"
-
-msgid "Right Extruder: %s%.3f"
-msgstr "Sağ Ekstruder: %s%.3f"
-
-msgid "Right Extruder: Not adjusted"
-msgstr "Sağ Ekstruder: Ayarlanmamış"
-
-msgid "Apply Z offset to Endstop?"
-msgstr "Z ofsetini Sonlandırıcıya uygula?"
-
-msgid "Remove Foam"
-msgstr "Köpüğü kaldır"
-
-msgid "Please remove the extruder foam and take out the door handle."
-msgstr "Lütfen ekstrüder köpüğünü çıkarın ve kapı kolunu çıkarın."
-
-msgid "Please click the Z raise button to raise the Z axis to remove the foam around the bottom of the case."
-msgstr "Kasanın alt kısmındaki köpüğü çıkarmak için Z eksenini yükseltmek üzere Z yükselt düğmesine tıklayın."
-
-msgid "Print Issue Detected!"
-msgstr "Yazdırma Sorunu Tespit Edildi!"
-
-msgid "No prediction image available"
-msgstr "Tahmin görüntüsü mevcut değil"
-
-msgid "Print resumed"
-msgstr "Yazdırma devam ettirildi"
-
-msgid "Failed to resume print"
-msgstr "Yazdırma devam ettirilemedi"
-
-msgid "Print cancelled"
-msgstr "Yazdırma iptal edildi"
-
-msgid "Failed to cancel print"
-msgstr "Yazdırma iptal edilemedi"
-
-msgid "Configure basic AI service settings. Enable the AI service to monitor your prints and adjust the confidence threshold for detection sensitivity."
-msgstr "Temel AI hizmet ayarlarını yapılandırın. Yazdırma işlemlerinizi izlemek için AI hizmetini etkinleştirin ve algılama hassasiyeti için güven eşiğini ayarlayın."
-
-
-msgid "AI Detection Alert"
-msgstr "AI Algılama Uyarısı"
-
-msgid "AI Monitor"
-msgstr "AI Monitör"
-
-msgid "AI Settings"
-msgstr "AI Ayarları"
-
-msgid "Detected defect: %s (Confidence: %.1f%%)"
-msgstr "Hata tespit edildi: %s (Güven: %.1f%%)"
-
-msgid "AI Detection Error: %s"
-msgstr "AI tespit hatası: %s"
-
-msgid "AI Detection Service"
-msgstr "AI Algılama Servisi"
-
-msgid "AI Server URL"
-msgstr "AI Sunucu URL'si"
-
-msgid "Confidence Threshold (%)"
-msgstr "Güven Eşiği (%)"
-
-msgid "Detection Interval (seconds)"
-msgstr "Algılama Aralığı (saniye)"
-
-msgid "Auto Pause on Detection"
-msgstr "Algılamada Otomatik Duraklat"
-
-msgid "Enabled Defect Types"
-msgstr "Etkin Hata Türleri"
-
-msgid "Camera Source"
-msgstr "Kamera Kaynağı"
-
-msgid "Camera URL"
-msgstr "Kamera URL'si"
-
-msgid "Continue Detection While Paused"
-msgstr "Durakladığında Algılamaya Devam Et"
-
-msgid "Sound Notification"
-msgstr "Ses Bildirimi"
-
-msgid "All valves closed"
-msgstr "Tüm valfler kapalı"
-
-msgid "Auto Feed"
-msgstr "Otomatik besleme"
-
-msgid "Auto feed started"
-msgstr "Otomatik besleme başladı"
-
-msgid "Blowback Valve"
-msgstr "Geri üfleme valfi"
-
-msgid "Buffer"
-msgstr "Ara hazne"
-
-msgid "Buffer → Printhead"
-msgstr "Ara hazne → kafa"
-
-msgid "Buffer Valve"
-msgstr "Ara hazne valfi"
-
-msgid "Disconnected"
-msgstr "Bağlı değil"
-
-msgid "Dryer"
-msgstr "Kurutucu"
-
-msgid "Dryer → Buffer"
-msgstr "Kurutucu → ara hazne"
-
-msgid "Dryer Level"
-msgstr "Kurutucu seviyesi"
-
-msgid "Dryer Sensor"
-msgstr "Kurutucu sensörü"
-
-msgid "Dryer Valve"
-msgstr "Kurutucu valfi"
-
-msgid "Feeder:"
-msgstr "Besleyici:"
-
-msgid "Hopper"
-msgstr "Hazne"
-
-msgid "Hopper → Dryer"
-msgstr "Hazne → kurutucu"
-
-msgid "Hopper Level"
-msgstr "Hazne seviyesi"
-
-msgid "Hopper Valve"
-msgstr "Hazne valfi"
-
-msgid "Pressure:"
-msgstr "Basınç:"
-
-msgid "Printhead"
-msgstr "Kafa"
-
-msgid "Printhead 1"
-msgstr "Kafa 1"
-
-msgid "Printhead 2"
-msgstr "Kafa 2"
-
-msgid "Retract blowback"
-msgstr "Geri üfleme"
-
-msgid "Retract started"
-msgstr "Geri çekme başladı"
-
-msgid "Run Mode:"
-msgstr "Mod:"
-
-msgid "Stop All"
-msgstr "Hepsini durdur"
-
-msgid "To Dryer"
-msgstr "Kurutucuya"
-
-msgid "To Buffer"
-msgstr "Ara hazneye"
-
-msgid "To Printhead"
-msgstr "Kafaya"
-
-msgid "Return Buffer"
-msgstr "Ara hazneye dön"
+#~ msgid "AI Detection Error: %s"
+#~ msgstr "AI tespit hatası: %s"

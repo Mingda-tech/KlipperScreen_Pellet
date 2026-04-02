@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Czech\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-20 00:09-0300\n"
+"POT-Creation-Date: 2026-04-02 16:39+0800\n"
 "PO-Revision-Date: 2023-12-05 11:06+0000\n"
 "Last-Translator: Mick#6366 <kos.m@post.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/klipperscreen/"
@@ -26,14 +26,20 @@ msgstr "%s bude aktualizováno na verzi"
 msgid "(default)"
 msgstr "(výchozí)"
 
-msgid "24 Hour Time"
-msgstr "24 hod formát"
-
 msgid "A FIRMWARE_RESTART may fix the issue."
 msgstr "FW restart může fixnout chyby."
 
 msgid "ADXL Not Configured"
 msgstr "ADXL není nastaven"
+
+msgid "AI Detection Service"
+msgstr "Služba detekce AI"
+
+msgid "AI Detection Status"
+msgstr ""
+
+msgid "AI Server URL"
+msgstr "URL serveru AI"
 
 msgid "Abort"
 msgstr "Zrušit"
@@ -44,22 +50,32 @@ msgstr "Zrychlení:"
 msgid "Accept"
 msgstr "Přijmout"
 
+msgid "Active Extruder"
+msgstr "Aktivní extruder"
+
+msgid "Active Extruder:"
+msgstr "Aktivní extruder:"
+
 msgid "Add profile"
 msgstr "Přidat profil"
+
+msgid "Adjust Zprobe Pos"
+msgstr "Nastavit pozici sondy"
 
 msgid "All"
 msgstr "Vše"
 
+msgid "All valves closed"
+msgstr "Všechny ventily zavřeny"
+
 msgid "Apply"
 msgstr "Použít"
 
-#, python-format
-msgid "Apply %s%.3f offset to Endstop?"
-msgstr "Potvrdit %s%.3f offset koncového spínače?"
+msgid "Apply Z offset to Endstop?"
+msgstr "Použít Z offset na koncový spínač?"
 
-#, python-format
-msgid "Apply %s%.3f offset to Probe?"
-msgstr "Potvrdit %s%.3f offset sondy?"
+msgid "Apply Z offset to Probe?"
+msgstr "Použít Z offset na sondu?"
 
 msgid "Archived"
 msgstr "Archivováno"
@@ -85,26 +101,56 @@ msgstr "Opravdu chcete vypnout systém?"
 msgid "Auto"
 msgstr "Auto"
 
+msgid "Auto Feed"
+msgstr "Auto podávání"
+
+msgid "Auto Pause on Detection"
+msgstr "Automatická pauza při detekci"
+
+msgid "Auto feed started"
+msgstr "Auto podávání spuštěno"
+
 msgid "Auto-calibrate"
 msgstr "Auto-kalibrace"
 
 msgid "Auto-close notifications"
 msgstr "Automaticky zavřít upozornění"
 
-msgid "Auto-open Extrude On Pause"
-msgstr "Automatické otevření Extruze při pauze"
-
 msgid "Auto-scroll"
 msgstr "Auto posun"
+
+msgid "Back"
+msgstr ""
 
 msgid "Bed Level"
 msgstr "Vyrovnání podložky"
 
-msgid "Bed Mesh"
-msgstr "Mapa podložky"
+msgid "Bed Lower"
+msgstr ""
+
+msgid "Bed Temp:"
+msgstr "Teplota podložky:"
+
+msgid "Bed Temperature"
+msgstr "Teplota podložky"
 
 msgid "Bed screw configuration:"
 msgstr "Vyrovnání šroubů podložky:"
+
+msgid "Blowback Valve"
+msgstr "Ventil zpětného ofuku"
+
+msgid "Brightest"
+msgstr "Nejjasnější"
+
+msgid "Buffer"
+msgstr "Mezizásobník"
+
+msgid "Buffer Valve"
+msgstr "Ventil mezizásobníku"
+
+msgid "Buffer → Printhead"
+msgstr "Mezizásobník → hlava"
 
 msgid "Calibrate"
 msgstr "Kalibrace"
@@ -115,8 +161,17 @@ msgstr "Zkalibrováno"
 msgid "Calibrating"
 msgstr "Kalibruji"
 
+msgid "Calibration saved!"
+msgstr ""
+
 msgid "Camera"
 msgstr "Kamera"
+
+msgid "Camera Source"
+msgstr "Zdroj kamery"
+
+msgid "Camera URL"
+msgstr "URL kamery"
 
 msgid "Can't set above the maximum:"
 msgstr "Nemohu nastavit víc než max:"
@@ -136,6 +191,9 @@ msgstr "Ruším"
 msgid "Cannot connect to Moonraker"
 msgstr "Nelze se připojit k Moonraker"
 
+msgid "Capture Image"
+msgstr ""
+
 msgid "Channel"
 msgstr "Kanál"
 
@@ -145,17 +203,54 @@ msgstr "Zkontroluj zapojení ADXL"
 msgid "Checking for updates, please wait..."
 msgstr "Kontrola aktualizací, čekej ..."
 
+msgid "Choose Language"
+msgstr "Vyberte jazyk"
+
+msgid "Choose Timezone"
+msgstr "Vyberte časové pásmo"
+
+msgid "Choose a language"
+msgstr "Vyberte jazyk"
+
+msgid "Choose a timezone"
+msgstr "Vyberte časové pásmo"
+
 msgid "Clear"
 msgstr "Vymaž"
+
+msgid "Clear History"
+msgstr ""
 
 msgid "Close"
 msgstr "Zavřít"
 
+msgid "Color"
+msgstr "Barva"
+
 msgid "Complete"
 msgstr "Hotovo"
 
+msgid "Confidence Threshold (%)"
+msgstr "Práh spolehlivosti (%)"
+
+msgid ""
+"Configure basic AI service settings. Enable the AI service to monitor your "
+"prints and adjust the confidence threshold for detection sensitivity."
+msgstr ""
+"Nakonfigurujte základní nastavení služby AI. Povolte službu AI pro "
+"monitorování vašich tisků a upravte práh spolehlivosti pro citlivost detekce."
+
+msgid "Confirm"
+msgstr "Potvrdit"
+
 msgid "Confirm Emergency Stop"
 msgstr "Potvrzovat Emergency Stop"
+
+msgid "Confirm Movement"
+msgstr ""
+
+msgid "Confirm Pos"
+msgstr "Potvrdit pozici"
 
 msgid "Connected"
 msgstr "Připojeno"
@@ -167,14 +262,38 @@ msgstr "Připojování k %s"
 msgid "Connection failed"
 msgstr "Připojení selhalo"
 
-msgid "Console"
-msgstr "Konsole"
+msgid "Continue Detection While Paused"
+msgstr "Pokračovat v detekci během pauzy"
 
 msgid "Cooldown"
 msgstr "Zchladit"
 
+msgid "Couldn't get the calibration camera position."
+msgstr "Nepodařilo se získat pozici kamery pro kalibraci."
+
+msgid "Couldn't get the calibration switch position."
+msgstr ""
+
+msgid "Current Detection Image"
+msgstr ""
+
+msgid "Current language: "
+msgstr ""
+
+msgid "Current nozzle height difference: "
+msgstr "Aktuální rozdíl výšky trysky: "
+
+msgid "Current nozzle height difference: ?"
+msgstr ""
+
+msgid "Current timezone: "
+msgstr ""
+
 msgid "DPMS has failed to load and has been disabled"
 msgstr "DPMS se nepodařilo načíst a byl deaktivován"
+
+msgid "Dangerous nozzle height difference: "
+msgstr "Nebezpečný rozdíl výšky trysky: "
 
 msgid "Date"
 msgstr "Datum"
@@ -188,21 +307,60 @@ msgstr "Smazat soubor?"
 msgid "Deselect"
 msgstr "Odznačit"
 
+msgid "Detection History"
+msgstr ""
+
+msgid "Detection Interval (seconds)"
+msgstr "Interval detekce (sekundy)"
+
 msgid "Disable Motors"
 msgstr "Uvolnit motory"
 
+msgid "Disabled"
+msgstr ""
+
+msgid "Disconnected"
+msgstr "Odpojeno"
+
 msgid "Distance (mm)"
 msgstr "Vzdálenost (mm)"
+
+msgid "Do not touch the printer during self-check."
+msgstr "Během samo-kontroly nedotýkejte tiskárny."
 
 #, python-format
 msgid "Do you want to recover %s?"
 msgstr "Obnovit %s?"
 
+msgid "Dryer"
+msgstr "Sušička"
+
+msgid "Dryer Level"
+msgstr "Úroveň sušičky"
+
+msgid "Dryer Sensor"
+msgstr "Čidlo sušičky"
+
+msgid "Dryer Valve"
+msgstr "Ventil sušičky"
+
+msgid "Dryer → Buffer"
+msgstr "Sušička → mezizásobník"
+
 msgid "Elapsed:"
 msgstr "Uplynulo:"
 
+msgid "Emergency Stop"
+msgstr ""
+
+msgid "Enabled Defect Types"
+msgstr "Povolené typy vad"
+
 msgid "Error"
 msgstr "Chyba"
+
+msgid "Error writing configuration"
+msgstr "Chyba při zápisu konfigurace"
 
 msgid "Estimated Time Method"
 msgstr "Výpočet doby tisku"
@@ -210,23 +368,41 @@ msgstr "Výpočet doby tisku"
 msgid "Exclude Object"
 msgstr "Vyloučit objekt"
 
-msgid "Extra Large"
-msgstr "Extra velký"
-
 msgid "Extrude"
 msgstr "Extruze"
 
-msgid "Extrusion +"
-msgstr "Extruze +"
+msgid "Extruder switch when filament run out"
+msgstr "Přepnutí extrudéru při vypršení filamentu"
 
-msgid "Extrusion -"
-msgstr "Extruze -"
+msgid "Failed to cancel print"
+msgstr "Nepodařilo se zrušit tisk"
+
+msgid "Failed to capture image"
+msgstr ""
+
+msgid "Failed to detect nozzles"
+msgstr ""
+
+msgid "Failed to resume print"
+msgstr "Nepodařilo se obnovit tisk"
+
+msgid "Failed to start AI monitoring"
+msgstr ""
 
 msgid "Failed, adjust position first"
 msgstr "Chyba, nastav nejprve pozici"
 
 msgid "Fan"
 msgstr "Větrák"
+
+msgid "Feeder"
+msgstr ""
+
+msgid "Feeder:"
+msgstr "Podavač:"
+
+msgid "Filament Box Power"
+msgstr "Napájení filamentové skříně"
 
 msgid "Filament Used"
 msgstr "Typ filamentu"
@@ -246,6 +422,12 @@ msgstr "Soubor"
 msgid "File:"
 msgstr "Soubor:"
 
+msgid "Filename"
+msgstr "Název souboru"
+
+msgid "Filename:"
+msgstr "Název souboru:"
+
 msgid "Filter"
 msgstr "Filtr"
 
@@ -258,20 +440,56 @@ msgstr "Ladění"
 msgid "Finish"
 msgstr "Konec"
 
-#msgid "Firmware Restart"
-#msgstr "Firmware Restart"
+msgid "Firmware Restart"
+msgstr "Restartování firmware"
 
+msgid "Firmware has disconnected"
+msgstr "Firmware byl odpojen"
+
+msgid "Firmware has encountered an error."
+msgstr "Firmware narazil na chybu."
+
+msgid "Firmware has shutdown"
+msgstr "Firmware byl vypnut"
+
+msgid "Firmware is attempting to start"
+msgstr "Firmware se pokouší spustit"
+
+msgid "Firmware will reboot"
+msgstr "Firmware se restartuje"
+
+# msgid "Firmware Restart"
+# msgstr "Firmware Restart"
+msgid "Flow +"
+msgstr ""
+
+# msgid "Firmware Restart"
+# msgstr "Firmware Restart"
+msgid "Flow -"
+msgstr ""
+
+# msgid "Firmware Restart"
+# msgstr "Firmware Restart"
 msgid "Flow:"
 msgstr "Tok:"
 
 msgid "Flowrate:"
 msgstr "Rychlost toku:"
 
-msgid "Font Size"
-msgstr "Velikost fontu"
+msgid "Force Cancel"
+msgstr ""
+
+msgid "Force Move"
+msgstr "Vynucený pohyb"
+
+msgid "Force move: "
+msgstr "Vynucený pohyb:"
 
 msgid "Full Update"
 msgstr "Úplný update"
+
+msgid "Gcode Buttons"
+msgstr ""
 
 msgid "Go Back"
 msgstr "Zpět"
@@ -282,11 +500,11 @@ msgstr "Výška:"
 msgid "Hidden"
 msgstr "Skrytý"
 
+msgid "Hidden Network"
+msgstr ""
+
 msgid "Hide"
 msgstr "Skrýt"
-
-msgid "Hide sensors in Temp."
-msgstr "Skrýt senzory v Temp."
 
 msgid "Hide temp."
 msgstr "Skrýt teplotu"
@@ -309,8 +527,20 @@ msgstr "Zaparkovat Y"
 msgid "Home Z"
 msgstr "Zaparkovat Z"
 
-msgid "Host"
-msgstr "Host"
+msgid "Homing the printer..."
+msgstr "Provádím domácí návrat tiskárny..."
+
+msgid "Hopper"
+msgstr "Zásobník"
+
+msgid "Hopper Level"
+msgstr "Úroveň zásobníku"
+
+msgid "Hopper Valve"
+msgstr "Ventil zásobníku"
+
+msgid "Hopper → Dryer"
+msgstr "Zásobník → sušička"
 
 msgid "Hostname"
 msgstr "Hostname"
@@ -318,8 +548,12 @@ msgstr "Hostname"
 msgid "ID"
 msgstr "ID"
 
-msgid "Icon Theme"
-msgstr "Sada ikon"
+msgid ""
+"If your calibration device is under the PEI, please lift the PEI after "
+"homing."
+msgstr ""
+"Pokud je vaše kalibrační zařízení pod PEI, po domácím návratu prosím "
+"zvedněte PEI."
 
 msgid "Initializing printer..."
 msgstr "Startuji tiskárnu ..."
@@ -351,23 +585,8 @@ msgstr "Otočit Z"
 msgid "It may take more than 5 minutes depending on the heater power."
 msgstr "V závislosti na výkonu ohřívače to může trvat déle než 5 minut."
 
-msgid "Firmware Restart"
-msgstr "Restartování firmware"
-
-msgid "Firmware has disconnected"
-msgstr "Firmware byl odpojen"
-
-msgid "Firmware has encountered an error."
-msgstr "Firmware narazil na chybu."
-
-msgid "Firmware has shutdown"
-msgstr "Firmware byl vypnut"
-
-msgid "Firmware is attempting to start"
-msgstr "Firmware se pokouší spustit"
-
-msgid "Firmware will reboot"
-msgstr "Firmware se restartuje"
+msgid "LEDs"
+msgstr ""
 
 msgid ""
 "LOAD_FILAMENT/UNLOAD_FILAMENT are hidden and should be used from extrude"
@@ -377,8 +596,8 @@ msgstr ""
 msgid "Language"
 msgstr "Jazyk"
 
-msgid "Large"
-msgstr "Velký"
+msgid "Last Detection:"
+msgstr ""
 
 msgid "Last Used"
 msgstr "Munulý"
@@ -389,26 +608,42 @@ msgstr "Vrstva:"
 msgid "Leds"
 msgstr "Ledky"
 
+#, python-format
+msgid "Left Extruder: %s%.3f"
+msgstr "Levý extruder: %s%.3f"
+
+msgid "Left Extruder: Not adjusted"
+msgstr "Levý extruder: Neupraveno"
+
 msgid "Left:"
 msgstr "Zbývá:"
 
-msgid "Limits"
-msgstr "Limity"
+msgid "Leveling"
+msgstr "Vyrovnání"
 
 msgid "Load"
 msgstr "Zasuň"
 
+msgid "Local"
+msgstr ""
+
+msgid "Lower"
+msgstr "Snížit"
+
 msgid "Lower Nozzle"
 msgstr "Trysku níž"
 
-msgid "Macro shortcut on sidebar"
-msgstr "Makro zkratka na postranním panelu"
-
-msgid "Macros"
-msgstr "Makra"
-
 msgid "Main Menu"
 msgstr "Hlavní menu"
+
+msgid "Manual"
+msgstr "Ruční"
+
+msgid "Manual Detect"
+msgstr ""
+
+msgid "Manual Detection"
+msgstr ""
 
 msgid "Material"
 msgstr "Materiál"
@@ -425,9 +660,6 @@ msgstr "Z max. zrychlení do zpomalení"
 msgid "Max Velocity"
 msgstr "Max. rychlost"
 
-msgid "Maximum"
-msgstr "Maximum"
-
 msgid "Measure Both"
 msgstr "Změřit oboje"
 
@@ -437,9 +669,6 @@ msgstr "Změřit X"
 msgid "Measure Y"
 msgstr "Změřit Y"
 
-msgid "Medium"
-msgstr "Střední"
-
 msgid "Menu"
 msgstr "Menu"
 
@@ -448,6 +677,12 @@ msgstr "Kalibrace sítě"
 
 msgid "Modified"
 msgstr "Změněno"
+
+msgid "Monitoring:"
+msgstr ""
+
+msgid "Moonraker"
+msgstr ""
 
 msgid "Moonraker: connected"
 msgstr "Moonraker: připojen"
@@ -464,6 +699,15 @@ msgstr "Vzdálenost posunu (mm)"
 msgid "Name"
 msgstr "Jméno"
 
+msgid "Need home axis"
+msgstr "Je potřeba nastavit domovskou osu"
+
+msgid "Need reboot, relaunch immediately?"
+msgstr "Je potřeba restartovat, spustit znovu ihned?"
+
+msgid "Need to recalculate the offset value."
+msgstr "Je nutné přepočítat hodnotu posunu."
+
 msgid "Network"
 msgstr "Síť"
 
@@ -473,26 +717,90 @@ msgstr "Nikdy"
 msgid "New"
 msgstr "Nový"
 
+msgid "New nozzle height difference is: "
+msgstr "Nový rozdíl výšky trysek je: "
+
+msgid "New nozzle height difference: "
+msgstr "Nový rozdíl výšky trysky: "
+
+msgid "New nozzle height difference: ?"
+msgstr ""
+
+msgid "No Gcode Buttons configured"
+msgstr ""
+
+msgid "No calibration camera found."
+msgstr ""
+
+msgid "No camera URL available."
+msgstr ""
+
+msgid "No camera configured"
+msgstr ""
+
+msgid "No captured images found"
+msgstr ""
+
 msgid "No elegible macros:"
 msgstr "Žádná použitelná makra:"
+
+msgid "No info available"
+msgstr ""
+
+msgid "No prediction image available"
+msgstr "Není k dispozici žádný predikční obrázek"
+
+msgid "No wireless interface has been found"
+msgstr ""
+
+#, python-brace-format
+msgid "No {action} gcode configured for {button_name}"
+msgstr ""
 
 msgid ""
 "Not supported for auto-detection, it needs to be configured in klipperscreen."
 "conf"
 msgstr "Nepodporováno autodetekcí, nakonfiguruj v klipperscreen.conf"
 
+msgid "Not working or not configured"
+msgstr ""
+
 msgid "Nothing selected"
 msgstr "Nevybráno nic"
+
+msgid "Notification log empty"
+msgstr ""
+
+msgid "Notifications"
+msgstr ""
+
+msgid "Nozzle Temp:"
+msgstr "Teplota trysky:"
+
+msgid "Nozzle Temperature"
+msgstr "Teplota trysky"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Only one extruder does not require calibration."
+msgstr "Pouze jeden extruder nevyžaduje kalibraci."
 
 #, python-format
 msgid "Outdated by %d"
 msgstr "Zastaralý %d"
 
+msgid "Output Pins"
+msgstr ""
+
 msgid "PSK for"
 msgstr "PSK pro"
 
 msgid "Package will be updated"
-msgstr "Balíček bude aktualizován"
+msgid_plural "Packages will be updated"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 msgid "Part Fan"
 msgstr "Částečný ofuk"
@@ -509,20 +817,55 @@ msgstr "Pozastaveno"
 msgid "Perform a full upgrade?"
 msgstr "Úplně aktualizovat?"
 
-msgid "Pins"
-msgstr "Piny"
+msgid ""
+"Please click the Z raise button to raise the Z axis to remove the foam "
+"around the bottom of the case."
+msgstr ""
+"Prosím klikněte na tlačítko zvednutí Z pro zvednutí osy Z a odstranění pěny "
+"kolem spodní části skříně."
+
+msgid "Please observe if the nozzle is positioned above the probe."
+msgstr "Prosím sledujte, zda je tryska umístěna nad sondou."
 
 msgid "Please recompile and flash the micro-controller."
 msgstr "Znovu přelož a flashni micro-controller."
 
+msgid "Please wait for the camera initialization to complete."
+msgstr "Počkejte, až inicializace kamery dokončí."
+
+msgid ""
+"Please wait for the camera's fill light to light up for 5 seconds before "
+"clicking 'Start'"
+msgstr ""
+"Počkejte, až se plné světlo kamery rozsvítí po dobu 5 sekund, než kliknete "
+"na 'Start'."
+
+msgid "Please wait until the bed and nozzle is heated before calibrating."
+msgstr ""
+
 msgid "Power"
 msgstr "Zdroj"
+
+msgid "Power Loss Recovery"
+msgstr "Obnova po výpadku napájení"
 
 msgid "Power On Printer"
 msgstr "Zapni tiskárnu"
 
+msgid "Preheat"
+msgstr ""
+
+msgid "Press"
+msgstr ""
+
+msgid "Pressed"
+msgstr ""
+
 msgid "Pressure Advance:"
 msgstr "Pressure Advance:"
+
+msgid "Pressure:"
+msgstr "Tlak:"
 
 msgid "Print"
 msgstr "Tisk"
@@ -530,17 +873,35 @@ msgstr "Tisk"
 msgid "Print Control"
 msgstr "Nastavení tisku"
 
+msgid "Print Height"
+msgstr "Výška tisku"
+
+msgid "Print Height:"
+msgstr "Výška tisku:"
+
 msgid "Print Time"
 msgstr "Čas tisku"
 
-msgid "Printer"
-msgstr "Tiskárna"
+msgid "Print cancelled"
+msgstr "Tisk zrušen"
 
-msgid "Printer Connections"
-msgstr "Připojení"
+msgid "Print height is less than 1mm"
+msgstr "Výška tisku je menší než 1mm"
+
+msgid "Print resumed"
+msgstr "Tisk pokračuje"
 
 msgid "Printer Select"
 msgstr "Výběr tiskárny"
+
+msgid "Printhead"
+msgstr "Hlava"
+
+msgid "Printhead 1"
+msgstr "Hlava 1"
+
+msgid "Printhead 2"
+msgstr "Hlava 2"
 
 msgid "Printing"
 msgstr "Probíhá tisk"
@@ -557,6 +918,9 @@ msgstr "Při žádosti o pomoc uveďte soubor KlipperScreen.log.\n"
 msgid "Quad Gantry Level"
 msgstr "QGL"
 
+msgid "Raise"
+msgstr "Zvednout"
+
 msgid "Raise Nozzle"
 msgstr "Zvedni trysku"
 
@@ -569,11 +933,23 @@ msgstr "Tvrdé obnovení"
 msgid "Recover Soft"
 msgstr "Měkké obnovení"
 
+msgid "Recovery File"
+msgstr "Soubor obnovy"
+
 msgid "Reference"
 msgstr "Odkaz"
 
 msgid "Refresh"
 msgstr "Obnovit"
+
+msgid "Release"
+msgstr ""
+
+msgid "Released"
+msgstr ""
+
+msgid "Remove Foam"
+msgstr "Odstranit pěnu"
 
 msgid "Rename/Move:"
 msgstr "Přejmenovat/Přesunout:"
@@ -581,14 +957,20 @@ msgstr "Přejmenovat/Přesunout:"
 msgid "Restart"
 msgstr "Restart"
 
+msgid "Restart required. Restart now?"
+msgstr ""
+
 msgid "Resume"
 msgstr "Pokračuj"
 
 msgid "Retract"
 msgstr "Retrakce"
 
-msgid "Retraction"
-msgstr "Retrakce"
+msgid "Retract blowback"
+msgstr "Zpětný ofuk"
+
+msgid "Retract started"
+msgstr "Zpětný tah spuštěn"
 
 msgid "Retraction Length"
 msgstr "Délka retrakce"
@@ -602,11 +984,30 @@ msgstr "Znovu"
 msgid "Retrying"
 msgstr "Zkouším znovu"
 
+msgid "Return Buffer"
+msgstr "Zpět do mezizásobníku"
+
+msgid "Right Extruder Z Offset"
+msgstr ""
+
+#, python-format
+msgid "Right Extruder: %s%.3f"
+msgstr "Pravý extruder: %s%.3f"
+
+msgid "Right Extruder: Not adjusted"
+msgstr "Pravý extruder: Neupraveno"
+
+msgid "Run Mode:"
+msgstr "Režim:"
+
+msgid "Running"
+msgstr ""
+
 msgid "Save"
 msgstr "Uložit"
 
-msgid "Save Config"
-msgstr "Ulož nastavení"
+msgid "Save Results"
+msgstr ""
 
 msgid "Save Z"
 msgstr "Uložit Z"
@@ -617,9 +1018,11 @@ msgstr "Uložit nastavení?"
 msgid "Saved"
 msgstr "Uloženo"
 
-#, python-format
-msgid "Saved offset: %s"
-msgstr "Uložený offset: %s"
+msgid "Saved successfully!"
+msgstr "Úspěšně uloženo!"
+
+msgid "Saved successfully."
+msgstr ""
 
 msgid "Screen DPMS"
 msgstr "Obrazovka DPMS"
@@ -633,8 +1036,17 @@ msgstr "Nastavit šrouby"
 msgid "Select"
 msgstr "Vyber"
 
+msgid "Select WiFi"
+msgstr "Vybrat WiFi"
+
+msgid "Self-check"
+msgstr "Samo-kontrola"
+
 msgid "Send"
 msgstr "Odeslat"
+
+msgid "Service Status:"
+msgstr ""
 
 msgid "Set Temp"
 msgstr "Nastav teplotu"
@@ -645,11 +1057,8 @@ msgstr "Nastavení"
 msgid "Show"
 msgstr "Ukaž"
 
-msgid "Show Heater Power"
-msgstr "Ukaž odběr topení"
-
-msgid "Show Scrollbars Buttons"
-msgstr "Ukaž rolovací tlačítka"
+msgid "Shut down after printing completes"
+msgstr "Vypnout po dokončení tisku"
 
 msgid "Shutdown"
 msgstr "Vypnout"
@@ -663,8 +1072,8 @@ msgstr "Slicer"
 msgid "Slicer:"
 msgstr "Slicer:"
 
-msgid "Small"
-msgstr "Malý"
+msgid "Sound Notification"
+msgstr "Zvukové oznámení"
 
 msgid "Speed (mm/s)"
 msgstr "Rychlost (mm/s)"
@@ -687,14 +1096,41 @@ msgstr "Pohotovostní režim"
 msgid "Start"
 msgstr "Start"
 
+msgid "Start Calibration"
+msgstr ""
+
+msgid "Start Monitoring"
+msgstr ""
+
+msgid "Start Preview"
+msgstr ""
+
 msgid "Starting WiFi Association"
 msgstr "Připojování k WiFi"
+
+msgid "Starting dual nozzle height calibration..."
+msgstr "Spouštím kalibraci výšky duální trysky..."
 
 msgid "Starting recovery for"
 msgstr "Obnovuji"
 
 msgid "Starting update for"
 msgstr "Spuštění aktualizace pro"
+
+msgid "Stop"
+msgstr ""
+
+msgid "Stop All"
+msgstr "Zastavit vše"
+
+msgid "Stop Monitoring"
+msgstr ""
+
+msgid "Stop Preview"
+msgstr ""
+
+msgid "Stopped"
+msgstr ""
 
 msgid "System"
 msgstr "Systém"
@@ -711,8 +1147,32 @@ msgstr "Teplota (°C)"
 msgid "Temperature"
 msgstr "Teplota"
 
+msgid "The nozzle temperature is too low, Are you sure you want to heat it?"
+msgstr "Teplota trysky je příliš nízká, Opravdu chcete ohřát?"
+
+msgid "To Buffer"
+msgstr "Do mezizásobníku"
+
+msgid "To Dryer"
+msgstr "Do sušičky"
+
+msgid "To Printhead"
+msgstr "Do hlavy"
+
 msgid "Total:"
 msgstr "Total:"
+
+msgid "Troubleshooting"
+msgstr "Řešení problémů"
+
+msgid "Turn off"
+msgstr "Vypnout"
+
+msgid "URL"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
 
 msgid "Unknown Heater"
 msgstr "Neznámé topení"
@@ -741,8 +1201,37 @@ msgstr "Aktualizuji"
 msgid "Uploaded"
 msgstr "Nahrané"
 
+msgid "Voice Notify"
+msgstr "Hlasové oznámení"
+
+msgid "Warning"
+msgstr "Varování"
+
+msgid ""
+"Warning: Current value is negative. This is dangerous and may damage the "
+"machine. Please recalibrate."
+msgstr ""
+"Varování: Aktuální hodnota je záporná. To je nebezpečné a může poškodit "
+"stroj. Prosím proveďte rekalibraci."
+
+msgid ""
+"Warning: Negative value detected. This is dangerous and may damage the "
+"machine. Please recalibrate."
+msgstr ""
+"Varování: Byla zjištěna záporná hodnota. To je nebezpečné a může poškodit "
+"stroj. Prosím proveďte rekalibraci."
+
+msgid "Waste Chute"
+msgstr ""
+
+msgid "WebRTC is not supported by the backend trying Stream"
+msgstr ""
+
 msgid "XY Move Speed (mm/s)"
 msgstr "Rychlost pohybu XY (mm/s)"
+
+msgid "XY Offset"
+msgstr "XY posun"
 
 msgid "XY Speed (mm/s)"
 msgstr "Rychlost XY (mm/s)"
@@ -750,8 +1239,17 @@ msgstr "Rychlost XY (mm/s)"
 msgid "Z Calibrate"
 msgstr "Kalibrace Z"
 
+msgid "Z Endstop"
+msgstr ""
+
+msgid "Z Height Diff"
+msgstr "Rozdíl výšky Z"
+
 msgid "Z Move Speed (mm/s)"
 msgstr "Rychlost pohybu Z (mm/s)"
+
+msgid "Z Offset"
+msgstr "Z posun"
 
 msgid "Z Speed (mm/s)"
 msgstr "Rychlost pohybu Z (mm/s)"
@@ -759,21 +1257,26 @@ msgstr "Rychlost pohybu Z (mm/s)"
 msgid "Z Tilt"
 msgstr "Z Tilt"
 
+msgid "Z offset exceeds safe range"
+msgstr ""
+
 msgid "Z offset:"
 msgstr "Z offset:"
 
 msgid "commit"
-msgstr "potvrzení"
-
-
+msgid_plural "commits"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 msgid "dBm"
 msgstr "dBm"
 
 msgid "hour"
-msgstr "hodina"
-
-
+msgid_plural "hours"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 msgid "macros that use 'rename_existing' are hidden"
 msgstr "makra, která používají 'rename_existing', jsou skryta"
@@ -782,9 +1285,10 @@ msgid "macros with a name starting with '_' are hidden"
 msgstr "makra s názvem začínajícím na '_' jsou skrytá"
 
 msgid "minute"
-msgstr "minuta"
-
-
+msgid_plural "minutes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 msgid "mm"
 msgstr "mm"
@@ -798,11 +1302,98 @@ msgstr "mm/s²"
 msgid "mm³/s"
 msgstr "mm³/s"
 
+#~ msgid "24 Hour Time"
+#~ msgstr "24 hod formát"
+
+#, python-format
+#~ msgid "Apply %s%.3f offset to Endstop?"
+#~ msgstr "Potvrdit %s%.3f offset koncového spínače?"
+
+#, python-format
+#~ msgid "Apply %s%.3f offset to Probe?"
+#~ msgstr "Potvrdit %s%.3f offset sondy?"
+
+#~ msgid "Auto-open Extrude On Pause"
+#~ msgstr "Automatické otevření Extruze při pauze"
+
+#~ msgid "Bed Mesh"
+#~ msgstr "Mapa podložky"
+
+#~ msgid "Console"
+#~ msgstr "Konsole"
+
+#~ msgid "Extra Large"
+#~ msgstr "Extra velký"
+
+#~ msgid "Extrusion +"
+#~ msgstr "Extruze +"
+
+#~ msgid "Extrusion -"
+#~ msgstr "Extruze -"
+
+#~ msgid "Font Size"
+#~ msgstr "Velikost fontu"
+
+#~ msgid "Hide sensors in Temp."
+#~ msgstr "Skrýt senzory v Temp."
+
+#~ msgid "Host"
+#~ msgstr "Host"
+
+#~ msgid "Icon Theme"
+#~ msgstr "Sada ikon"
+
+#~ msgid "Large"
+#~ msgstr "Velký"
+
+#~ msgid "Limits"
+#~ msgstr "Limity"
+
+#~ msgid "Macro shortcut on sidebar"
+#~ msgstr "Makro zkratka na postranním panelu"
+
+#~ msgid "Macros"
+#~ msgstr "Makra"
+
+#~ msgid "Maximum"
+#~ msgstr "Maximum"
+
+#~ msgid "Medium"
+#~ msgstr "Střední"
+
+#~ msgid "Pins"
+#~ msgstr "Piny"
+
+#~ msgid "Printer"
+#~ msgstr "Tiskárna"
+
+#~ msgid "Printer Connections"
+#~ msgstr "Připojení"
+
+#~ msgid "Retraction"
+#~ msgstr "Retrakce"
+
+#~ msgid "Save Config"
+#~ msgstr "Ulož nastavení"
+
+#, python-format
+#~ msgid "Saved offset: %s"
+#~ msgstr "Uložený offset: %s"
+
+#~ msgid "Show Heater Power"
+#~ msgstr "Ukaž odběr topení"
+
+#~ msgid "Show Scrollbars Buttons"
+#~ msgstr "Ukaž rolovací tlačítka"
+
+#~ msgid "Small"
+#~ msgstr "Malý"
+
 #~ msgid "KlipperScreen will reboot"
 #~ msgstr "KlipperScreen se restartuje"
 
-msgid "Continue"
-msgstr "Pokračuj"
+#~ msgid "Continue"
+#~ msgstr "Pokračuj"
 
 #~ msgid "Actions"
 #~ msgstr "Akce"
@@ -813,17 +1404,11 @@ msgstr "Pokračuj"
 #~ msgid "Homing"
 #~ msgstr "Domů"
 
-#~ msgid "Disable XY"
-#~ msgstr "Uvolnit XY"
-
 #~ msgid "Slicer Time correction (%)"
 #~ msgstr "Časová korekce Sliceru  (%)"
 
 #~ msgid "Calibrated, save configuration to make it permanent"
 #~ msgstr "Zkalibrováno, uložit změny jako trvalé"
-
-#~ msgid "Decrease"
-#~ msgstr "Snížit"
 
 #~ msgid "Increase"
 #~ msgstr "Zvětšit"
@@ -832,831 +1417,477 @@ msgstr "Pokračuj"
 #~ msgid "Sending Power ON signal to: %s"
 #~ msgstr "Odeslat ZAP do %s"
 
-msgid "Leveling"
-msgstr "Vyrovnání"
+#~ msgid "General"
+#~ msgstr "Obecné"
 
-msgid "The nozzle temperature is too low, Are you sure you want to heat it?"
-msgstr "Teplota trysky je příliš nízká, Opravdu chcete ohřát?"
+#~ msgid "Cautions"
+#~ msgstr "Upozornění"
 
-msgid "General"
-msgstr "Obecné"
+#~ msgid "Maintenance"
+#~ msgstr "Údržba"
 
-msgid "Turn off"
-msgstr "Vypnout"
+#~ msgid "Please confirm left extruder position."
+#~ msgstr "Prosím potvrďte pozici levého extruderu."
 
-msgid "Brightest"
-msgstr "Nejjasnější"
+#~ msgid "Nozzle Heating"
+#~ msgstr "Ohřev trysky"
 
-msgid "Manual"
-msgstr "Ruční"
+#~ msgid "Hot Bed Heating"
+#~ msgstr "Ohřev vyhřívaného stolu"
 
-msgid "Troubleshooting"
-msgstr "Řešení problémů"
+#~ msgid "Nozzle Cooling Fan"
+#~ msgstr "Ventilátor chlazení trysky"
 
-msgid "Cautions"
-msgstr "Upozornění"
+#~ msgid "Hotend Cooling Fan"
+#~ msgstr "Ventilátor chlazení Hotendu"
 
-msgid "Maintenance"
-msgstr "Údržba"
+#~ msgid "Auto Leveling"
+#~ msgstr "Automatické vyrovnání"
 
-msgid "Calibration"
-msgstr "Kalibrace"
+#~ msgid "WiFi"
+#~ msgstr "WiFi"
 
-msgid "XY Offset"
-msgstr "XY posun"
+#~ msgid "Power loss recovery, is resume print?"
+#~ msgstr "Obnovení po výpadku napájení, pokračovat v tisku?"
 
-msgid "Z Offset"
-msgstr "Z posun"
+#~ msgid "Skip All"
+#~ msgstr "Přeskočit vše"
 
-msgid "Only one extruder does not require calibration."
-msgstr "Pouze jeden extruder nevyžaduje kalibraci."
+#~ msgid "Please wait for the print job to end"
+#~ msgstr "Počkejte, až skončí tisková úloha"
 
-msgid "Please confirm left extruder position."
-msgstr "Prosím potvrďte pozici levého extruderu."
+#~ msgid "Are you sure you wish to reset the printer?"
+#~ msgstr "Opravdu chcete resetovat tiskárnu?"
 
-msgid "Need to recalculate the offset value."
-msgstr "Je nutné přepočítat hodnotu posunu."
+#~ msgid "Data will be deleted"
+#~ msgstr "Data budou smazána"
 
-msgid "Error writing configuration"
-msgstr "Chyba při zápisu konfigurace"
+#~ msgid "Reset Printer"
+#~ msgstr "Resetovat tiskárnu"
 
-msgid "Please wait for the camera initialization to complete."
-msgstr "Počkejte, až inicializace kamery dokončí."
+#~ msgid "Resetting printer, will restart, please wait..."
+#~ msgstr "Resetuji tiskárnu, bude restartována, počkejte prosím..."
 
-msgid "Please wait for the camera's fill light to light up for 5 seconds before clicking 'Start'"
-msgstr "Počkejte, až se plné světlo kamery rozsvítí po dobu 5 sekund, než kliknete na 'Start'."
+#~ msgid "Reset"
+#~ msgstr "Reset"
 
-msgid "Couldn't get the calibration camera position."
-msgstr "Nepodařilo se získat pozici kamery pro kalibraci."
-
-msgid "Need home axis"
-msgstr "Je potřeba nastavit domovskou osu"
-
-msgid "Choose Language"
-msgstr "Vyberte jazyk"
-
-msgid "Choose Timezone"
-msgstr "Vyberte časové pásmo"
-
-msgid "Select WiFi"
-msgstr "Vybrat WiFi"
-
-msgid "Self-check"
-msgstr "Samo-kontrola"
-
-msgid "Nozzle Heating"
-msgstr "Ohřev trysky"
-
-msgid "Hot Bed Heating"
-msgstr "Ohřev vyhřívaného stolu"
-
-msgid "Nozzle Cooling Fan"
-msgstr "Ventilátor chlazení trysky"
-
-msgid "Hotend Cooling Fan"
-msgstr "Ventilátor chlazení Hotendu"
-
-msgid "Filament Detection"
-msgstr "Detekce filamentu"
-
-msgid "Auto Leveling"
-msgstr "Automatické vyrovnání"
-
-msgid "WiFi"
-msgstr "WiFi"
-
-msgid "Power loss recovery, is resume print?"
-msgstr "Obnovení po výpadku napájení, pokračovat v tisku?"
-
-msgid "Please wait until the bed and nozzle are heated before calibrating."
-msgstr "Počkejte, až se vyhřeje podložka a tryska před kalibrací."
-
-msgid "Current language:"
-msgstr "Aktuální jazyk:"
-
-msgid "Skip All"
-msgstr "Přeskočit vše"
-
-msgid "Do not touch the printer during self-check."
-msgstr "Během samo-kontroly nedotýkejte tiskárny."
-
-msgid "Confirm"
-msgstr "Potvrdit"
-
-msgid "Current timezone:"
-msgstr "Aktuální časové pásmo:"
-
-msgid "Choose a timezone"
-msgstr "Vyberte časové pásmo"
-
-msgid "Choose a language"
-msgstr "Vyberte jazyk"
-
-msgid "Please wait for the print job to end"
-msgstr "Počkejte, až skončí tisková úloha"
-
-msgid "Are you sure you wish to reset the printer?"
-msgstr "Opravdu chcete resetovat tiskárnu?"
-
-msgid "Data will be deleted"
-msgstr "Data budou smazána"
-
-msgid "Reset Printer"
-msgstr "Resetovat tiskárnu"
-
-msgid "Resetting printer, will restart, please wait..."
-msgstr "Resetuji tiskárnu, bude restartována, počkejte prosím..."
-
-msgid "Reset"
-msgstr "Reset"
-
-msgid "Poweroff"
-msgstr "Vypnout"
-
-msgid "Confirm Pos"
-msgstr "Potvrdit pozici"
-
-msgid "Shut down after printing completes"
-msgstr "Vypnout po dokončení tisku"
-
-msgid "Voice Notify"
-msgstr "Hlasové oznámení"
-
-msgid "Filament Box Power"
-msgstr "Napájení filamentové skříně"
-
-msgid "If your calibration device is under the PEI, please lift the PEI after homing."
-msgstr "Pokud je vaše kalibrační zařízení pod PEI, po domácím návratu prosím zvedněte PEI."
-
-msgid "Homing the printer..."
-msgstr "Provádím domácí návrat tiskárny..."
-
-msgid "Starting dual nozzle height calibration..."
-msgstr "Spouštím kalibraci výšky duální trysky..."
-
-msgid "Please observe if the nozzle is positioned above the probe."
-msgstr "Prosím sledujte, zda je tryska umístěna nad sondou."
-
-msgid "Warning: Negative value detected. This is dangerous and may damage the machine. Please recalibrate."
-msgstr "Varování: Byla zjištěna záporná hodnota. To je nebezpečné a může poškodit stroj. Prosím proveďte rekalibraci."
-
-msgid "New nozzle height difference is: "
-msgstr "Nový rozdíl výšky trysek je: "
-
-msgid "Warning: Current value is negative. This is dangerous and may damage the machine. Please recalibrate."
-msgstr "Varování: Aktuální hodnota je záporná. To je nebezpečné a může poškodit stroj. Prosím proveďte rekalibraci."
-
-msgid "Z Height Diff"
-msgstr "Rozdíl výšky Z"
-
-msgid "Adjust Zprobe Pos"
-msgstr "Nastavit pozici sondy"
-
-msgid "Need reboot, relaunch immediately?"
-msgstr "Je potřeba restartovat, spustit znovu ihned?"
-
-msgid "Current nozzle height difference: "
-msgstr "Aktuální rozdíl výšky trysky: "
-
-msgid "New nozzle height difference: "
-msgstr "Nový rozdíl výšky trysky: "
-
-msgid "Dangerous nozzle height difference: "
-msgstr "Nebezpečný rozdíl výšky trysky: "
-
-msgid "Saved successfully!"
-msgstr "Úspěšně uloženo!"
+#~ msgid "Poweroff"
+#~ msgstr "Vypnout"
 
 # Feed Filament Box
-msgid "Edit"
-msgstr "Upravit"
+#~ msgid "Edit"
+#~ msgstr "Upravit"
 
-msgid "Filament Info"
-msgstr "Informace o filamentu"
+#~ msgid "Filament Info"
+#~ msgstr "Informace o filamentu"
 
-msgid "Not found"
-msgstr "Nenalezeno"
+#~ msgid "Not found"
+#~ msgstr "Nenalezeno"
 
-msgid "Vendor"
-msgstr "Výrobce"
+#~ msgid "Vendor"
+#~ msgstr "Výrobce"
 
-msgid "Type"
-msgstr "Typ"
+#~ msgid "Type"
+#~ msgstr "Typ"
 
-msgid "Color"
-msgstr "Barva"
+#~ msgid "Set Color"
+#~ msgstr "Nastavit barvu"
 
-msgid "Set Color"
-msgstr "Nastavit barvu"
+#~ msgid "Filament Settings"
+#~ msgstr "Nastavení filamentu"
 
-msgid "Filament Settings"
-msgstr "Nastavení filamentu"
+#~ msgid "Multi-Material Box"
+#~ msgstr "Box pro více materiálů"
 
-msgid "Multi-Material Box"
-msgstr "Box pro více materiálů"
+#~ msgid "Are you sure you wish to restart the firmware?"
+#~ msgstr "Opravdu chcete restartovat firmware?"
 
-msgid "Are you sure you wish to restart the firmware?"
-msgstr "Opravdu chcete restartovat firmware?"
+#~ msgid "Autofill filament disable"
+#~ msgstr "Zakázat automatické plnění filamentu"
 
-msgid "Autofill filament disable"
-msgstr "Zakázat automatické plnění filamentu"
+#~ msgid "Autofill filament enabled"
+#~ msgstr "Automatické plnění filamentu povoleno"
 
-msgid "Autofill filament enabled"
-msgstr "Automatické plnění filamentu povoleno"
+#~ msgid "Autofill filament: %s"
+#~ msgstr "Automatické plnění filamentu: %s"
 
-msgid "Autofill filament: %s"
-msgstr "Automatické plnění filamentu: %s"
+#~ msgid "Backing up configuration files."
+#~ msgstr "Zálohování konfiguračních souborů."
 
-msgid "Backing up configuration files."
-msgstr "Zálohování konfiguračních souborů."
+#~ msgid "Calibrate Cutter Pos"
+#~ msgstr "Kalibrace pozice řezačky"
 
-msgid "Calibrate Cutter Pos"
-msgstr "Kalibrace pozice řezačky"
+#~ msgid "Couldn't get the calibration cutter position."
+#~ msgstr "Nelze získat kalibrační pozici řezačky."
 
-msgid "Couldn't get the calibration cutter position."
-msgstr "Nelze získat kalibrační pozici řezačky."
+#~ msgid "Current filament indexes are:%s, active tool:%s"
+#~ msgstr "Aktuální indexy filamentu jsou:%s, aktivní nástroj:%s"
 
-msgid "Current filament indexes are:%s, active tool:%s"
-msgstr "Aktuální indexy filamentu jsou:%s, aktivní nástroj:%s"
+#~ msgid ""
+#~ "Current filament indexes are:%s, active tool:%s, resume_tool:%s, "
+#~ "pause_reason:%s"
+#~ msgstr ""
+#~ "Aktuální indexy filamentu jsou:%s, aktivní nástroj:%s, nástroj pro "
+#~ "obnovení:%s, důvod pozastavení:%s"
 
-msgid "Current filament indexes are:%s, active tool:%s, resume_tool:%s, pause_reason:%s"
-msgstr "Aktuální indexy filamentu jsou:%s, aktivní nástroj:%s, nástroj pro obnovení:%s, důvod pozastavení:%s"
+#~ msgid "Current value is %s"
+#~ msgstr "Aktuální hodnota je %s"
 
-msgid "Current value is %s"
-msgstr "Aktuální hodnota je %s"
+#~ msgid "Cut Filament Test"
+#~ msgstr "Test řezání filamentu"
 
-msgid "Cut Filament Test"
-msgstr "Test řezání filamentu"
+#~ msgid "Do you want to enable multi-material box?"
+#~ msgstr "Chcete povolit multi-materiálový box?"
 
-msgid "Do you want to enable multi-material box?"
-msgstr "Chcete povolit multi-materiálový box?"
+#~ msgid "Do you want to use external filament?"
+#~ msgstr "Chcete použít externí filament?"
 
-msgid "Do you want to use external filament?"
-msgstr "Chcete použít externí filament?"
+#~ msgid "Error: Offset values not found"
+#~ msgstr "Chyba: Hodnoty offsetu nebyly nalezeny"
 
-msgid "Error: Offset values not found"
-msgstr "Chyba: Hodnoty offsetu nebyly nalezeny"
+#~ msgid "Error: Z offset value not found"
+#~ msgstr "Chyba: Hodnota Z offsetu nebyla nalezena"
 
-msgid "Error: Z offset value not found"
-msgstr "Chyba: Hodnota Z offsetu nebyla nalezena"
+#~ msgid "External Filament"
+#~ msgstr "Externí filament"
 
-msgid "External Filament"
-msgstr "Externí filament"
+#~ msgid "Extruder not hot enough"
+#~ msgstr "Extruder není dostatečně zahřátý"
 
-msgid "Extruder not hot enough"
-msgstr "Extruder není dostatečně zahřátý"
+#~ msgid "FEED error:External filament not removed"
+#~ msgstr "Chyba podávání: Externí filament nebyl odstraněn"
 
-msgid "FEED error:External filament not removed"
-msgstr "Chyba podávání: Externí filament nebyl odstraněn"
+#~ msgid "Filament %s not found"
+#~ msgstr "Filament %s nenalezen"
 
-msgid "Filament %s not found"
-msgstr "Filament %s nenalezen"
+#~ msgid "Filament Sensor%s: No filament detected, canceling print"
+#~ msgstr "Senzor filamentu %s: Nebyl detekován filament, rušení tisku"
 
-msgid "Filament Sensor%s: No filament detected, canceling print"
-msgstr "Senzor filamentu %s: Nebyl detekován filament, rušení tisku"
+#~ msgid "Filament Sensor%s: No filament detected, pausing print"
+#~ msgstr "Senzor filamentu %s: Nebyl detekován filament, pozastavení tisku"
 
-msgid "Filament Sensor%s: No filament detected, pausing print"
-msgstr "Senzor filamentu %s: Nebyl detekován filament, pozastavení tisku"
+#~ msgid ""
+#~ "Filament detected! Please remove filament from the hotend before enabling "
+#~ "multi-material box."
+#~ msgstr ""
+#~ "Filament detekován! Před povolením multi-materiálového boxu odstraňte "
+#~ "filament z hotendu."
 
-msgid "Filament detected! Please remove filament from the hotend before enabling multi-material box."
-msgstr "Filament detekován! Před povolením multi-materiálového boxu odstraňte filament z hotendu."
+#~ msgid "Missing required recovery data"
+#~ msgstr "Chybí požadovaná data pro obnovení"
 
-msgid "Missing required recovery data"
-msgstr "Chybí požadovaná data pro obnovení"
+#~ msgid "No power loss recovery data found"
+#~ msgstr "Nebyla nalezena data pro obnovení po výpadku napájení"
 
-msgid "No power loss recovery data found"
-msgstr "Nebyla nalezena data pro obnovení po výpadku napájení"
+#~ msgid "No valid params 'S'"
+#~ msgstr "Neplatné parametry 'S'"
 
-msgid "No valid params 'S'"
-msgstr "Neplatné parametry 'S'"
+#~ msgid "No"
+#~ msgstr "Ne"
 
-msgid "No"
-msgstr "Ne"
+#~ msgid "Options"
+#~ msgstr "Možnosti"
 
-msgid "OK"
-msgstr "OK"
+#~ msgid "Pause. The \"extruder\" extrude error!"
+#~ msgstr "Pozastaveno. Chyba extruze \"extruderu\"!"
 
-msgid "Options"
-msgstr "Možnosti"
+#~ msgid "Please exit the filament from the nozzle first"
+#~ msgstr "Nejprve prosím vysuňte filament z trysky"
 
-msgid "Pause. The \"extruder\" extrude error!"
-msgstr "Pozastaveno. Chyba extruze \"extruderu\"!"
+#~ msgid ""
+#~ "Please fill in the voice number correctly: 0-start printing, 1-end "
+#~ "printing, 2-outage detected, 3-cancel printing, 4-pause printing"
+#~ msgstr ""
+#~ "Prosím vyplňte správně číslo hlasu: 0-začátek tisku, 1-konec tisku, 2-"
+#~ "detekován výpadek, 3-zrušení tisku, 4-pozastavení tisku"
 
-msgid "Please exit the filament from the nozzle first"
-msgstr "Nejprve prosím vysuňte filament z trysky"
+#~ msgid "Please select how you would like to proceed."
+#~ msgstr "Prosím vyberte, jak chcete pokračovat."
 
-msgid "Please fill in the voice number correctly: 0-start printing, 1-end printing, 2-outage detected, 3-cancel printing, 4-pause printing"
-msgstr "Prosím vyplňte správně číslo hlasu: 0-začátek tisku, 1-konec tisku, 2-detekován výpadek, 3-zrušení tisku, 4-pozastavení tisku"
+#~ msgid "Power loss recovery, resuming print."
+#~ msgstr "Obnovení po výpadku napájení, pokračování v tisku."
 
-msgid "Please select how you would like to proceed."
-msgstr "Prosím vyberte, jak chcete pokračovat."
+#~ msgid "Power loss, saving print states."
+#~ msgstr "Výpadek napájení, ukládání stavů tisku."
 
-msgid "Power loss recovery, resuming print."
-msgstr "Obnovení po výpadku napájení, pokračování v tisku."
+#~ msgid "Press feedsys button"
+#~ msgstr "Stiskněte tlačítko podávacího systému"
 
-msgid "Power loss, saving print states."
-msgstr "Výpadek napájení, ukládání stavů tisku."
+#~ msgid "Print resumed from power loss position"
+#~ msgstr "Tisk obnoven z pozice výpadku napájení"
 
-msgid "Press feedsys button"
-msgstr "Stiskněte tlačítko podávacího systému"
+#~ msgid "Printer not homed"
+#~ msgstr "Tiskárna není v výchozí pozici"
 
-msgid "Print resumed from power loss position"
-msgstr "Tisk obnoven z pozice výpadku napájení"
+#~ msgid "RESUME error:autofill no fil"
+#~ msgstr "Chyba obnovení: automatické plnění bez filamentu"
 
-msgid "Printer not homed"
-msgstr "Tiskárna není v výchozí pozici"
+#~ msgid "RESUME error:no fil"
+#~ msgstr "Chyba obnovení: žádný filament"
 
-msgid "RESUME error:autofill no fil"
-msgstr "Chyba obnovení: automatické plnění bez filamentu"
+#~ msgid "RESUME error:residual fil"
+#~ msgstr "Chyba obnovení: zbytkový filament"
 
-msgid "RESUME error:no fil"
-msgstr "Chyba obnovení: žádný filament"
+#~ msgid "Recovery data: Z=%s, File=%s, Pos=%s"
+#~ msgstr "Data obnovení: Z=%s, Soubor=%s, Pozice=%s"
 
-msgid "RESUME error:residual fil"
-msgstr "Chyba obnovení: zbytkový filament"
+#~ msgid "T%s direct feed"
+#~ msgstr "T%s přímé podávání"
 
-msgid "Recovery data: Z=%s, File=%s, Pos=%s"
-msgstr "Data obnovení: Z=%s, Soubor=%s, Pozice=%s"
+#~ msgid "T%s need exit filament"
+#~ msgstr "T%s potřebuje vysunout filament"
 
-msgid "Save & Restart"
-msgstr "Uložit a restartovat"
+#~ msgid "The current toolheade is T%s"
+#~ msgstr "Aktuální tisková hlava je T%s"
 
-msgid "T%s direct feed"
-msgstr "T%s přímé podávání"
+#~ msgid "The filament_box_%s no filament"
+#~ msgstr "Box filamentu_%s nemá filament"
 
-msgid "T%s need exit filament"
-msgstr "T%s potřebuje vysunout filament"
+#~ msgid "The motor is wrong."
+#~ msgstr "Motor je špatně."
 
-msgid "The current toolheade is T%s"
-msgstr "Aktuální tisková hlava je T%s"
+#~ msgid "There is a residual filament, Please remove and continue"
+#~ msgstr "Je zde zbytkový filament, prosím odstraňte jej a pokračujte"
 
-msgid "The filament_box_%s no filament"
-msgstr "Box filamentu_%s nemá filament"
+#~ msgid "There's a residual filament in box %s"
+#~ msgstr "V boxu %s je zbytkový filament"
 
-msgid "The motor is wrong."
-msgstr "Motor je špatně."
+#~ msgid "Unknown filament"
+#~ msgstr "Neznámý filament"
 
-msgid "There is a residual filament, Please remove and continue"
-msgstr "Je zde zbytkový filament, prosím odstraňte jej a pokračujte"
+#~ msgid "Use external filament, please manually exit"
+#~ msgstr "Použijte externí filament, prosím ručně vysuňte"
 
-msgid "There's a residual filament in box %s"
-msgstr "V boxu %s je zbytkový filament"
+#~ msgid "Yes"
+#~ msgstr "Ano"
 
-msgid "Unknown fan"
-msgstr "Neznámý ventilátor"
+#~ msgid "auto shutdown error"
+#~ msgstr "Chyba automatického vypnutí"
 
-msgid "Unknown filament"
-msgstr "Neznámý filament"
+#~ msgid "bed_mash:%s"
+#~ msgstr "bed_mash:%s"
 
-msgid "Use external filament, please manually exit"
-msgstr "Použijte externí filament, prosím ručně vysuňte"
+#~ msgid "clean pause_reason"
+#~ msgstr "Vyčistit důvod pozastavení"
 
-msgid "Warning"
-msgstr "Varování"
+#~ msgid "cut filament"
+#~ msgstr "Řezání filamentu"
 
-msgid "Yes"
-msgstr "Ano"
+#~ msgid "cutter press!"
+#~ msgstr "Stisk řezačky!"
 
-msgid "auto shutdown error"
-msgstr "Chyba automatického vypnutí"
+#~ msgid "cutter release!"
+#~ msgstr "Uvolnění řezačky!"
 
-msgid "bed_mash:%s"
-msgstr "bed_mash:%s"
+#~ msgid "feed busy"
+#~ msgstr "Podávání zaneprázdněno"
 
-msgid "clean pause_reason"
-msgstr "Vyčistit důvod pozastavení"
+#~ msgid "feed error"
+#~ msgstr "Chyba podávání"
 
-msgid "cut filament"
-msgstr "Řezání filamentu"
+#~ msgid "feed finish"
+#~ msgstr "Podávání dokončeno"
 
-msgid "cutter press!"
-msgstr "Stisk řezačky!"
+#~ msgid "filament not removed"
+#~ msgstr "Filament nebyl odstraněn"
 
-msgid "cutter release!"
-msgstr "Uvolnění řezačky!"
+#~ msgid "filament pause reason"
+#~ msgstr "Důvod pozastavení filamentu"
 
-msgid "feed busy"
-msgstr "Podávání zaneprázdněno"
+#~ msgid "filament press"
+#~ msgstr "Stisk filamentu"
 
-msgid "feed error"
-msgstr "Chyba podávání"
+#~ msgid "filament release"
+#~ msgstr "Uvolnění filamentu"
 
-msgid "feed finish"
-msgstr "Podávání dokončeno"
+#~ msgid "filament remove"
+#~ msgstr "Odstranění filamentu"
 
-msgid "filament not removed"
-msgstr "Filament nebyl odstraněn"
+#~ msgid "filament runout"
+#~ msgstr "Došel filament"
 
-msgid "filament pause reason"
-msgstr "Důvod pozastavení filamentu"
+#~ msgid "filament%s:%s"
+#~ msgstr "Filament%s:%s"
 
-msgid "filament press"
-msgstr "Stisk filamentu"
+#~ msgid "flush filament"
+#~ msgstr "Propláchnout filament"
 
-msgid "filament release"
-msgstr "Uvolnění filamentu"
+#~ msgid "motion sensor insert"
+#~ msgstr "Vložení pohybového senzoru"
 
-msgid "filament remove"
-msgstr "Odstranění filamentu"
+#~ msgid "motion sensor runout"
+#~ msgstr "Došel pohybový senzor"
 
-msgid "filament runout"
-msgstr "Došel filament"
+#~ msgid "motor_%s press"
+#~ msgstr "Stisk motoru_%s"
 
-msgid "filament%s:%s"
-msgstr "Filament%s:%s"
+#~ msgid "motor_%s release"
+#~ msgstr "Uvolnění motoru_%s"
 
-msgid "flush filament"
-msgstr "Propláchnout filament"
+#~ msgid "no bed_mash name"
+#~ msgstr "Žádný název bed_mash"
 
-msgid "motion sensor insert"
-msgstr "Vložení pohybového senzoru"
+#~ msgid "no bed_mash"
+#~ msgstr "Žádný bed_mash"
 
-msgid "motion sensor runout"
-msgstr "Došel pohybový senzor"
+#~ msgid "no enabled"
+#~ msgstr "Není povoleno"
 
-msgid "motor_%s press"
-msgstr "Stisk motoru_%s"
+#~ msgid "press button%s"
+#~ msgstr "Stiskněte tlačítko%s"
 
-msgid "motor_%s release"
-msgstr "Uvolnění motoru_%s"
+#~ msgid "remove filament"
+#~ msgstr "Odstranit filament"
 
-msgid "no bed_mash name"
-msgstr "Žádný název bed_mash"
+#~ msgid "residual filament%s"
+#~ msgstr "Zbytkový filament%s"
 
-msgid "no bed_mash"
-msgstr "Žádný bed_mash"
+#~ msgid "resume:%s"
+#~ msgstr "Obnovit:%s"
 
-msgid "no enabled"
-msgstr "Není povoleno"
+#~ msgid "resume_tool:%s pause_reason:%s"
+#~ msgstr "Nástroj pro obnovení:%s důvod pozastavení:%s"
 
-msgid "press button%s"
-msgstr "Stiskněte tlačítko%s"
+#~ msgid "Copy Print"
+#~ msgstr "Kopírovat tisk"
 
-msgid "remove filament"
-msgstr "Odstranit filament"
+#~ msgid "Mirror Print"
+#~ msgstr "Zrcadlový tisk"
 
-msgid "residual filament%s"
-msgstr "Zbytkový filament%s"
+#~ msgid "Manual Calibration"
+#~ msgstr "Ruční kalibrace"
 
-msgid "resume:%s"
-msgstr "Obnovit:%s"
+#~ msgid "Calibration successful!"
+#~ msgstr "Kalibrace úspěšná!"
 
-msgid "resume_tool:%s pause_reason:%s"
-msgstr "Nástroj pro obnovení:%s důvod pozastavení:%s"
+#~ msgid "Auto calibration failed. Please clean the nozzle and try again."
+#~ msgstr "Automatická kalibrace selhala. Vyčistěte trysku a zkuste to znovu."
 
-msgid "Copy Print"
-msgstr "Kopírovat tisk"
-msgid "Mirror Print"
-msgstr "Zrcadlový tisk"
+#~ msgid ""
+#~ "Auto calibration is not available. Please install required dependencies."
+#~ msgstr ""
+#~ "Automatická kalibrace není k dispozici. Nainstalujte prosím požadované "
+#~ "závislosti."
 
-msgid "Manual Calibration"
-msgstr "Ruční kalibrace"
+#~ msgid "Left extruder template saved"
+#~ msgstr "Šablona levého extruderu uložena"
 
-msgid "Auto Calibration"
-msgstr "Automatická kalibrace"
+#~ msgid "Right extruder template saved"
+#~ msgstr "Šablona pravého extruderu uložena"
 
-msgid "Calibration successful!"
-msgstr "Kalibrace úspěšná!"
+#~ msgid "No template images found. Please perform manual calibration first."
+#~ msgstr "Nebyly nalezeny žádné šablony. Nejprve proveďte ruční kalibraci."
 
-msgid "Auto calibration failed. Please clean the nozzle and try again."
-msgstr "Automatická kalibrace selhala. Vyčistěte trysku a zkuste to znovu."
+#~ msgid "Getting image of left extruder"
+#~ msgstr "Získávání snímku levého extruderu"
 
-msgid "Auto calibration is not available. Please install required dependencies."
-msgstr "Automatická kalibrace není k dispozici. Nainstalujte prosím požadované závislosti."
+#~ msgid "Getting image of right extruder"
+#~ msgstr "Získávání snímku pravého extruderu"
 
-msgid "Left extruder template saved"
-msgstr "Šablona levého extruderu uložena"
+#~ msgid ""
+#~ "Left extruder calibration failed. Please clean the nozzle and try again."
+#~ msgstr ""
+#~ "Kalibrace levého extruderu selhala. Vyčistěte trysku a zkuste to znovu."
 
-msgid "Right extruder template saved"
-msgstr "Šablona pravého extruderu uložena"
+#~ msgid ""
+#~ "Right extruder calibration failed. Please clean the nozzle and try again."
+#~ msgstr ""
+#~ "Kalibrace pravého extruderu selhala. Vyčistěte trysku a zkuste to znovu."
 
-msgid "Failed to save template"
-msgstr "Nepodařilo se uložit šablonu"
+#~ msgid "left extruder pos: (%.3f, %.3f, %.3f)"
+#~ msgstr "pozice levého extruderu: (%.3f, %.3f, %.3f)"
 
-msgid "No template images found. Please perform manual calibration first."
-msgstr "Nebyly nalezeny žádné šablony. Nejprve proveďte ruční kalibraci."
+#~ msgid "Right extruder offset is (%.3f, %.3f, %.3f)"
+#~ msgstr "offset pravého extruderu: (%.3f, %.3f, %.3f)"
 
-msgid "Getting image of left extruder"
-msgstr "Získávání snímku levého extruderu"
+#~ msgid ""
+#~ "Please wait for the camera's fill light to light up for 5 seconds before "
+#~ "clicking 'Manual Calibration' or 'Auto Calibration'"
+#~ msgstr ""
+#~ "Počkejte prosím 5 sekund na rozsvícení přisvětlovacího světla kamery před "
+#~ "kliknutím na 'Ruční kalibrace' nebo 'Automatická kalibrace'"
 
-msgid "Getting image of right extruder"
-msgstr "Získávání snímku pravého extruderu"
+#~ msgid "The door is open."
+#~ msgstr "Dvířka jsou otevřená."
 
-msgid "Left extruder calibration failed. Please clean the nozzle and try again."
-msgstr "Kalibrace levého extruderu selhala. Vyčistěte trysku a zkuste to znovu."
+#~ msgid "The door is closed."
+#~ msgstr "Dvířka jsou zavřená."
 
-msgid "Right extruder calibration failed. Please clean the nozzle and try again."
-msgstr "Kalibrace pravého extruderu selhala. Vyčistěte trysku a zkuste to znovu."
+#~ msgid "Error getting origin offset values: %s"
+#~ msgstr "Chyba při získávání hodnot původního offsetu: %s"
 
-msgid "left extruder pos: (%.3f, %.3f, %.3f)"
-msgstr "pozice levého extruderu: (%.3f, %.3f, %.3f)"
+#~ msgid "Filament run out, pausing print"
+#~ msgstr "Vypršel filament, pozastavuji tisk"
 
-msgid "Right extruder offset is (%.3f, %.3f, %.3f)"
-msgstr "offset pravého extruderu: (%.3f, %.3f, %.3f)"
+#~ msgid "Not in single extruder mode, pausing print"
+#~ msgstr "Není v režimu jednoho extrudéru, pozastavuji tisk"
 
-msgid "Please wait for the camera's fill light to light up for 5 seconds before clicking 'Manual Calibration' or 'Auto Calibration'"
-msgstr "Počkejte prosím 5 sekund na rozsvícení přisvětlovacího světla kamery před kliknutím na 'Ruční kalibrace' nebo 'Automatická kalibrace'"
+#~ msgid "Current sensor not configured, pausing print"
+#~ msgstr "Aktuální senzor není nakonfigurován, pozastavuji tisk"
 
-msgid "The door is open."
-msgstr "Dvířka jsou otevřená."
+#~ msgid "Other sensor not configured, pausing print"
+#~ msgstr "Ostatní senzor není nakonfigurován, pozastavuji tisk"
 
-msgid "The door is closed."
-msgstr "Dvířka jsou zavřená."
+#~ msgid "Current extruder has filament, continuing print"
+#~ msgstr "Aktuální extrudér má filament, pokračuji v tisku"
 
-msgid "Error getting origin offset values: %s"
-msgstr "Chyba při získávání hodnot původního offsetu: %s"
+#~ msgid "Both extruders out of filament, pausing print"
+#~ msgstr "Oba extrudéry jsou bez filamentu, pozastavuji tisk"
 
-msgid "Raise"
-msgstr "Zvednout"
+#~ msgid "Filament run out, switching extruder"
+#~ msgstr "Vypršel filament, přepínám extrudér"
 
-msgid "Lower"
-msgstr "Snížit"
+#~ msgid "Switching to left extruder"
+#~ msgstr "Přepínám na levý extrudér"
 
-msgid "Filament run out, pausing print"
-msgstr "Vypršel filament, pozastavuji tisk"
+#~ msgid "Switching to right extruder"
+#~ msgstr "Přepínám na pravý extrudér"
 
-msgid "Not in single extruder mode, pausing print"
-msgstr "Není v režimu jednoho extrudéru, pozastavuji tisk"
+#~ msgid "Extruder switch complete, resuming print"
+#~ msgstr "Přepnutí extrudéru dokončeno, obnovuji tisk"
 
-msgid "Current sensor not configured, pausing print"
-msgstr "Aktuální senzor není nakonfigurován, pozastavuji tisk"
+#~ msgid "Auto extruder switch already enabled"
+#~ msgstr "Automatické přepínání extrudéru již povoleno"
 
-msgid "Other sensor not configured, pausing print"
-msgstr "Ostatní senzor není nakonfigurován, pozastavuji tisk"
+#~ msgid ""
+#~ "Auto extruder switch enabled, this feature only works when printing with "
+#~ "a single extruder"
+#~ msgstr ""
+#~ "Automatické přepínání extrudéru povoleno, tato funkce funguje pouze při "
+#~ "tisku s jedním extrudérem"
 
-msgid "Current extruder has filament, continuing print"
-msgstr "Aktuální extrudér má filament, pokračuji v tisku"
+#~ msgid "Auto extruder switch already disabled"
+#~ msgstr "Automatické přepínání extrudéru již zakázáno"
 
-msgid "Both extruders out of filament, pausing print"
-msgstr "Oba extrudéry jsou bez filamentu, pozastavuji tisk"
+#~ msgid "Auto extruder switch disabled"
+#~ msgstr "Automatické přepínání extrudéru zakázáno"
 
-msgid "Filament run out, switching extruder"
-msgstr "Vypršel filament, přepínám extrudér"
+#~ msgid "Filament Sensor0: No filament detected, canceling print."
+#~ msgstr "Senzor filamentu 0: Nebyl detekován žádný filament, ruším tisk."
 
-msgid "Switching to left extruder"
-msgstr "Přepínám na levý extrudér"
+#~ msgid "Filament Sensor1: No filament detected, canceling print."
+#~ msgstr "Senzor filamentu 1: Nebyl detekován žádný filament, ruším tisk."
 
-msgid "Switching to right extruder"
-msgstr "Přepínám na pravý extrudér"
+#~ msgid "Missing required information"
+#~ msgstr "Chybí požadované informace"
 
-msgid "Extruder switch complete, resuming print"
-msgstr "Přepnutí extrudéru dokončeno, obnovuji tisk"
+#~ msgid "Resume Print"
+#~ msgstr "Pokračovat v tisku"
 
-msgid "Auto extruder switch already enabled"
-msgstr "Automatické přepínání extrudéru již povoleno"
+#~ msgid "Tip: Please ensure the nozzle is about 0.1mm above the model"
+#~ msgstr "Tip: Ujistěte se, že tryska je přibližně 0.1mm nad modelem"
 
-msgid "Auto extruder switch enabled, this feature only works when printing with a single extruder"
-msgstr "Automatické přepínání extrudéru povoleno, tato funkce funguje pouze při tisku s jedním extrudérem"
+#~ msgid "Please remove the extruder foam and take out the door handle."
+#~ msgstr "Prosím odstraňte pěnu extruderu a vyjměte kliku dveří."
 
-msgid "Auto extruder switch already disabled"
-msgstr "Automatické přepínání extrudéru již zakázáno"
+#~ msgid "Print Issue Detected!"
+#~ msgstr "Zjištěn problém s tiskem!"
 
-msgid "Auto extruder switch disabled"
-msgstr "Automatické přepínání extrudéru zakázáno"
+#~ msgid "AI Settings"
+#~ msgstr "Nastavení AI"
 
-msgid "Extruder switch when filament run out"
-msgstr "Přepnutí extrudéru při vypršení filamentu"
+#~ msgid "Detected defect: %s (Confidence: %.1f%%)"
+#~ msgstr "Zjištěna vada: %s (Spolehlivost: %.1f%%)"
 
-msgid "Filament Sensor0: No filament detected, canceling print."
-msgstr "Senzor filamentu 0: Nebyl detekován žádný filament, ruším tisk."
-
-msgid "Filament Sensor1: No filament detected, canceling print."
-msgstr "Senzor filamentu 1: Nebyl detekován žádný filament, ruším tisk."
-
-msgid "Active Extruder"
-msgstr "Aktivní extruder"
-
-msgid "Active Extruder:"
-msgstr "Aktivní extruder:"
-
-msgid "Bed Temp:"
-msgstr "Teplota podložky:"
-
-msgid "Bed Temperature"
-msgstr "Teplota podložky"
-
-msgid "Filename"
-msgstr "Název souboru"
-
-msgid "Filename:"
-msgstr "Název souboru:"
-
-msgid "Missing required information"
-msgstr "Chybí požadované informace"
-
-msgid "Nozzle Temp:"
-msgstr "Teplota trysky:"
-
-msgid "Nozzle Temperature"
-msgstr "Teplota trysky"
-
-msgid "Power Loss Recovery"
-msgstr "Obnova po výpadku napájení"
-
-msgid "Print Height"
-msgstr "Výška tisku"
-
-msgid "Print Height:"
-msgstr "Výška tisku:"
-
-msgid "Print height is less than 1mm"
-msgstr "Výška tisku je menší než 1mm"
-
-msgid "Recovery File"
-msgstr "Soubor obnovy"
-
-msgid "Resume Print"
-msgstr "Pokračovat v tisku"
-
-msgid "Tip: Please ensure the nozzle is about 0.1mm above the model"
-msgstr "Tip: Ujistěte se, že tryska je přibližně 0.1mm nad modelem"
-
-msgid "Force Move"
-msgstr "Vynucený pohyb"
-
-msgid "Force move: "
-msgstr "Vynucený pohyb:"
-
-msgid "Apply Z offset to Probe?"
-msgstr "Použít Z offset na sondu?"
-
-msgid "Left Extruder: %s%.3f"
-msgstr "Levý extruder: %s%.3f"
-
-msgid "Left Extruder: Not adjusted"
-msgstr "Levý extruder: Neupraveno"
-
-msgid "Right Extruder: %s%.3f"
-msgstr "Pravý extruder: %s%.3f"
-
-msgid "Right Extruder: Not adjusted"
-msgstr "Pravý extruder: Neupraveno"
-
-msgid "Apply Z offset to Endstop?"
-msgstr "Použít Z offset na koncový spínač?"
-
-msgid "Remove Foam"
-msgstr "Odstranit pěnu"
-
-msgid "Please remove the extruder foam and take out the door handle."
-msgstr "Prosím odstraňte pěnu extruderu a vyjměte kliku dveří."
-
-msgid "Please click the Z raise button to raise the Z axis to remove the foam around the bottom of the case."
-msgstr "Prosím klikněte na tlačítko zvednutí Z pro zvednutí osy Z a odstranění pěny kolem spodní části skříně."
-
-msgid "Print Issue Detected!"
-msgstr "Zjištěn problém s tiskem!"
-
-msgid "No prediction image available"
-msgstr "Není k dispozici žádný predikční obrázek"
-
-msgid "Print resumed"
-msgstr "Tisk pokračuje"
-
-msgid "Failed to resume print"
-msgstr "Nepodařilo se obnovit tisk"
-
-msgid "Print cancelled"
-msgstr "Tisk zrušen"
-
-msgid "Failed to cancel print"
-msgstr "Nepodařilo se zrušit tisk"
-
-msgid "Configure basic AI service settings. Enable the AI service to monitor your prints and adjust the confidence threshold for detection sensitivity."
-msgstr "Nakonfigurujte základní nastavení služby AI. Povolte službu AI pro monitorování vašich tisků a upravte práh spolehlivosti pro citlivost detekce."
-
-
-msgid "AI Detection Alert"
-msgstr "Výstraha detekce AI"
-
-msgid "AI Monitor"
-msgstr "AI Monitor"
-
-msgid "AI Settings"
-msgstr "Nastavení AI"
-
-msgid "Detected defect: %s (Confidence: %.1f%%)"
-msgstr "Zjištěna vada: %s (Spolehlivost: %.1f%%)"
-
-msgid "AI Detection Error: %s"
-msgstr "Chyba AI detekce: %s"
-
-msgid "AI Detection Service"
-msgstr "Služba detekce AI"
-
-msgid "AI Server URL"
-msgstr "URL serveru AI"
-
-msgid "Confidence Threshold (%)"
-msgstr "Práh spolehlivosti (%)"
-
-msgid "Detection Interval (seconds)"
-msgstr "Interval detekce (sekundy)"
-
-msgid "Auto Pause on Detection"
-msgstr "Automatická pauza při detekci"
-
-msgid "Enabled Defect Types"
-msgstr "Povolené typy vad"
-
-msgid "Camera Source"
-msgstr "Zdroj kamery"
-
-msgid "Camera URL"
-msgstr "URL kamery"
-
-msgid "Continue Detection While Paused"
-msgstr "Pokračovat v detekci během pauzy"
-
-msgid "Sound Notification"
-msgstr "Zvukové oznámení"
-
-msgid "All valves closed"
-msgstr "Všechny ventily zavřeny"
-
-msgid "Auto Feed"
-msgstr "Auto podávání"
-
-msgid "Auto feed started"
-msgstr "Auto podávání spuštěno"
-
-msgid "Blowback Valve"
-msgstr "Ventil zpětného ofuku"
-
-msgid "Buffer"
-msgstr "Mezizásobník"
-
-msgid "Buffer → Printhead"
-msgstr "Mezizásobník → hlava"
-
-msgid "Buffer Valve"
-msgstr "Ventil mezizásobníku"
-
-msgid "Disconnected"
-msgstr "Odpojeno"
-
-msgid "Dryer"
-msgstr "Sušička"
-
-msgid "Dryer → Buffer"
-msgstr "Sušička → mezizásobník"
-
-msgid "Dryer Level"
-msgstr "Úroveň sušičky"
-
-msgid "Dryer Sensor"
-msgstr "Čidlo sušičky"
-
-msgid "Dryer Valve"
-msgstr "Ventil sušičky"
-
-msgid "Feeder:"
-msgstr "Podavač:"
-
-msgid "Hopper"
-msgstr "Zásobník"
-
-msgid "Hopper → Dryer"
-msgstr "Zásobník → sušička"
-
-msgid "Hopper Level"
-msgstr "Úroveň zásobníku"
-
-msgid "Hopper Valve"
-msgstr "Ventil zásobníku"
-
-msgid "Pressure:"
-msgstr "Tlak:"
-
-msgid "Printhead"
-msgstr "Hlava"
-
-msgid "Printhead 1"
-msgstr "Hlava 1"
-
-msgid "Printhead 2"
-msgstr "Hlava 2"
-
-msgid "Retract blowback"
-msgstr "Zpětný ofuk"
-
-msgid "Retract started"
-msgstr "Zpětný tah spuštěn"
-
-msgid "Run Mode:"
-msgstr "Režim:"
-
-msgid "Stop All"
-msgstr "Zastavit vše"
-
-msgid "To Dryer"
-msgstr "Do sušičky"
-
-msgid "To Buffer"
-msgstr "Do mezizásobníku"
-
-msgid "To Printhead"
-msgstr "Do hlavy"
-
-msgid "Return Buffer"
-msgstr "Zpět do mezizásobníku"
+#~ msgid "AI Detection Error: %s"
+#~ msgstr "Chyba AI detekce: %s"
