@@ -1,0 +1,1136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: KlipperScreen\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 00:09-0300\n"
+"PO-Revision-Date: 2026-04-10 00:00+0000\n"
+"Last-Translator: OpenAI Codex <noreply@openai.com>\n"
+"Language-Team: Bulgarian <https://hosted.weblate.org/projects/klipperscreen/klipperscreen/bg/>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Codex\n"
+
+msgid "(default)"
+msgstr "(по подразбиране)"
+
+msgid "24 Hour Time"
+msgstr "24 часово време"
+
+msgid "A FIRMWARE_RESTART may fix the issue."
+msgstr "Рестартиране на фърмуера може да реши проблема."
+
+msgid "ADXL Not Configured"
+msgstr "ADXL не е конфигуриран"
+
+msgid "Abort"
+msgstr "Прекъсване"
+
+msgid "Acceleration:"
+msgstr "Ускорение:"
+
+msgid "Accept"
+msgstr "Приложи"
+
+msgid "Add profile"
+msgstr "Добавете профил"
+
+msgid "All"
+msgstr "Всички"
+
+msgid "Apply"
+msgstr "Приложи"
+
+#, python-format
+msgid "Apply %s%.3f offset to Endstop?"
+msgstr "Да се ​​приложи ли отместване на %s%.3f към Endstop?"
+
+#, python-format
+msgid "Apply %s%.3f offset to Probe?"
+msgstr "Прилагане на %s%.3f отместване към сонда?"
+
+msgid "Archived"
+msgstr "Архивирано"
+
+msgid "Are you sure do you want to exclude the object?"
+msgstr "Сигурни ли сте, че искате да изключите обекта?"
+
+msgid "Are you sure you want to run Emergency Stop?"
+msgstr "Сигурни ли сте, че искате да стартирате аварийно спиране?"
+
+msgid "Are you sure you wish to cancel this print?"
+msgstr "Сигурни ли сте, че искате да отмените този печат?"
+
+msgid "Are you sure you wish to disable motors?"
+msgstr "Сигурни ли сте, че искате да деактивирате двигателите?"
+
+msgid "Are you sure you wish to reboot the system?"
+msgstr "Сигурни ли сте, че искате да рестартирате системата?"
+
+msgid "Are you sure you wish to shutdown the system?"
+msgstr "Сигурни ли сте, че искате да изключите системата?"
+
+msgid "Auto"
+msgstr "Авто"
+
+msgid "Auto-calibrate"
+msgstr "Автоматично калибриране"
+
+msgid "Auto-close notifications"
+msgstr "Известия за автоматично затваряне"
+
+msgid "Auto-open Extrude On Pause"
+msgstr "Автоматично отваряне на екструдиране при пауза"
+
+msgid "Auto-scroll"
+msgstr "Автоматично превъртане"
+
+msgid "Bed Level"
+msgstr "Ниво на леглото"
+
+msgid "Bed Mesh"
+msgstr "Мрежа за легло"
+
+msgid "Bed screw configuration:"
+msgstr "Конфигурация на винта на леглото:"
+
+msgid "Calibrate"
+msgstr "Калибриране"
+
+msgid "Calibrated"
+msgstr "Калибриран"
+
+msgid "Calibrating"
+msgstr "Калибриране"
+
+msgid "Camera"
+msgstr "Камера"
+
+msgid "Can't set above the maximum:"
+msgstr "Не може да се зададе над максимума:"
+
+msgid "Cancel"
+msgstr "Отказ"
+
+msgid "Cancel Print"
+msgstr "Край на печата"
+
+msgid "Cancelled"
+msgstr "Отменен"
+
+msgid "Cancelling"
+msgstr "Отмяна"
+
+msgid "Cannot connect to Moonraker"
+msgstr "Не може да се свърже с Moonraker"
+
+msgid "Channel"
+msgstr "Канал"
+
+msgid "Check ADXL Wiring"
+msgstr "Проверете ADXL свързването"
+
+msgid "Checking for updates, please wait..."
+msgstr "Проверява се за актуализации, моля изчакайте..."
+
+msgid "Clear"
+msgstr "Изчисти"
+
+msgid "Close"
+msgstr "Затваряне"
+
+msgid "Complete"
+msgstr "Завършено"
+
+msgid "Confirm Emergency Stop"
+msgstr "Потвърдете аварийно спиране"
+
+msgid "Connected"
+msgstr "Свързан"
+
+#, python-format
+msgid "Connecting to %s"
+msgstr "Свързан с  %s"
+
+msgid "Console"
+msgstr "Конзола"
+
+msgid "Cooldown"
+msgstr "Охлади"
+
+msgid "DPMS has failed to load and has been disabled"
+msgstr "DPMS не успя да се зареди и е деактивиран"
+
+msgid "Date"
+msgstr "Дата"
+
+msgid "Delete Directory?"
+msgstr "Изтриване на директория?"
+
+msgid "Delete File?"
+msgstr "Изтрий файла?"
+
+msgid "Deselect"
+msgstr "Отмени"
+
+msgid "Disable Motors"
+msgstr "Изкл. моторите"
+
+msgid "Distance (mm)"
+msgstr "Растояние (mm)"
+
+#, python-format
+msgid "Do you want to recover %s?"
+msgstr "Искате ли да възстановите %s?"
+
+msgid "Elapsed:"
+msgstr "Изминало:"
+
+msgid "Error"
+msgstr "Грешка"
+
+msgid "Estimated Time Method"
+msgstr "Расчетно време"
+
+msgid "Exclude Object"
+msgstr "Изключване на обект"
+
+msgid "Extra Large"
+msgstr "Много голям"
+
+msgid "Extrude"
+msgstr "Екструзия"
+
+msgid "Extrusion +"
+msgstr "Екструзия +"
+
+msgid "Extrusion -"
+msgstr "Екструзия -"
+
+msgid "Failed, adjust position first"
+msgstr "Грешка. Първо сменете позицията"
+
+msgid "Fan"
+msgstr "Охлаждане"
+
+msgid "Filament Used"
+msgstr "Използване на филамента"
+
+msgid "Filament total:"
+msgstr "Общо нишка:"
+
+msgid "Filament used:"
+msgstr "Използван филамент:"
+
+msgid "Filament:"
+msgstr "Филамент:"
+
+msgid "File"
+msgstr "Файл"
+
+msgid "File:"
+msgstr "Файл:"
+
+msgid "Filter"
+msgstr "Филтър"
+
+msgid "Finding ADXL"
+msgstr "ADXL Търсене"
+
+msgid "Fine Tuning"
+msgstr "Фина настройка"
+
+msgid "Finish"
+msgstr "Край"
+
+msgid "Firmware Restart"
+msgstr "Рестартиране на фърмуера"
+
+msgid "Flow:"
+msgstr "Поток:"
+
+msgid "Flowrate:"
+msgstr "Расход:"
+
+msgid "Font Size"
+msgstr "Размер на шрифта"
+
+msgid "Full Update"
+msgstr "Пълна актуализация"
+
+msgid "Go Back"
+msgstr "Назад"
+
+msgid "Height:"
+msgstr "Височина:"
+
+msgid "Hidden"
+msgstr "Скрит"
+
+msgid "Hide"
+msgstr "Скрий"
+
+msgid "Hide sensors in Temp."
+msgstr "Скрий датчиците в Temp."
+
+msgid "Hide temp."
+msgstr "Скрий температурата."
+
+msgid "Home"
+msgstr "Паркирай X"
+
+msgid "Home All"
+msgstr "Паркирай всички"
+
+msgid "Home X"
+msgstr "Паркирай X"
+
+msgid "Home XY"
+msgstr "Паркирай XY"
+
+msgid "Home Y"
+msgstr "Паркирай Y"
+
+msgid "Home Z"
+msgstr "Паркирай Z"
+
+msgid "Host"
+msgstr "Хост"
+
+msgid "Hostname"
+msgstr "Име на хоста"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Icon Theme"
+msgstr "Тема"
+
+msgid "Initializing printer..."
+msgstr "Принтера стартира..."
+
+msgid "Initiate a PID calibration for:"
+msgstr "Започнете PID калибриране за:"
+
+msgid "Input Shaper"
+msgstr "Входен шейпер"
+
+msgid "Interface"
+msgstr "Интерфейс"
+
+msgid "Invalid"
+msgstr "Неправилно"
+
+msgid "Invalid password"
+msgstr "Грешна парола"
+
+msgid "Invert X"
+msgstr "Инверсиране X"
+
+msgid "Invert Y"
+msgstr "Инверсиране Y"
+
+msgid "Invert Z"
+msgstr "Инверсиране Z"
+
+msgid "It may take more than 5 minutes depending on the heater power."
+msgstr "Може да отнеме повече от 5 минути в зависимост от мощността на нагревателя."
+
+msgid "Firmware has disconnected"
+msgstr "Фърмуерът прекъсна връзката"
+
+msgid "Firmware has encountered an error."
+msgstr "Фърмуерът срещна грешка."
+
+msgid "Firmware has shutdown"
+msgstr "Фърмуерът се изключи"
+
+msgid "Firmware is attempting to start"
+msgstr "Фърмуерът се опитва да стартира"
+
+msgid "Firmware will reboot"
+msgstr "Фърмуерът ще се рестартира"
+
+msgid "LOAD_FILAMENT/UNLOAD_FILAMENT are hidden and should be used from extrude"
+msgstr "LOAD_FILAMENT/UNLOAD_FILAMENT са скрити и трябва да се използват от екструдиране"
+
+msgid "Language"
+msgstr "Език"
+
+msgid "Large"
+msgstr "Голям"
+
+msgid "Last Used"
+msgstr "Използване на филамента"
+
+msgid "Layer:"
+msgstr "Слой:"
+
+msgid "Leds"
+msgstr "LEDs"
+
+msgid "Left:"
+msgstr "Остава:"
+
+msgid "Limits"
+msgstr "Лимити"
+
+msgid "Load"
+msgstr "Зареди"
+
+msgid "Lower Nozzle"
+msgstr "Спусни дюзата"
+
+msgid "Macro shortcut on sidebar"
+msgstr "Покажи макроси в панела"
+
+msgid "Macros"
+msgstr "Макроси"
+
+msgid "Main Menu"
+msgstr "Главно меню"
+
+msgid "Material"
+msgstr "Материал"
+
+msgid "Max"
+msgstr "Макс"
+
+msgid "Max Acceleration"
+msgstr "Максимално ускорение"
+
+msgid "Max Acceleration to Deceleration"
+msgstr "Ускорение на забавяне"
+
+msgid "Max Velocity"
+msgstr "Скорост"
+
+msgid "Maximum"
+msgstr "Максимум"
+
+msgid "Measure Both"
+msgstr "Измерете и двете"
+
+msgid "Measure X"
+msgstr "Измерете X"
+
+msgid "Measure Y"
+msgstr "Измерете Y"
+
+msgid "Medium"
+msgstr "Средно"
+
+msgid "Menu"
+msgstr "Меню"
+
+msgid "Mesh calibrate"
+msgstr "Калибриране на мрежата"
+
+msgid "Modified"
+msgstr "Променено"
+
+msgid "Moonraker: connected"
+msgstr "Moonraker: Свързан"
+
+msgid "More"
+msgstr "Повече"
+
+msgid "Move"
+msgstr "Ход"
+
+msgid "Move Distance (mm)"
+msgstr "Дистанция на движение (мм)"
+
+msgid "Name"
+msgstr "Име"
+
+msgid "Network"
+msgstr "Мрежа"
+
+msgid "Never"
+msgstr "Никога"
+
+msgid "New"
+msgstr "Нов"
+
+msgid "No elegible macros:"
+msgstr "Няма избираеми макроси:"
+
+msgid "Not supported for auto-detection, it needs to be configured in klipperscreen.conf"
+msgstr "Не се поддържа за автоматично откриване, трябва да се конфигурира в klipperscreen.conf"
+
+msgid "Nothing selected"
+msgstr "Нищо не е избрано"
+
+#, python-format
+msgid "Outdated by %d"
+msgstr "Остарял на %d"
+
+msgid "PSK for"
+msgstr "PSK за"
+
+msgid "Package will be updated"
+msgid_plural "Packages will be updated"
+msgstr[0] "Пакета ще бъде обновен"
+msgstr[1] "Пакетите ще бъдат обновени"
+
+msgid "Part Fan"
+msgstr "Частичен вентилатор"
+
+msgid "Password saved"
+msgstr "Паролата е записана"
+
+msgid "Pause"
+msgstr "Пауза"
+
+msgid "Paused"
+msgstr "Спряно"
+
+msgid "Perform a full upgrade?"
+msgstr "Пълна актуализация?"
+
+msgid "Pins"
+msgstr "Пинове"
+
+msgid "Output Pins"
+msgstr "Изходни пинове"
+
+msgid "Please recompile and flash the micro-controller."
+msgstr "Моля, прекомпилирайте и флашнете микроконтролера."
+
+msgid "Power"
+msgstr "Изк. принтера"
+
+msgid "Power On Printer"
+msgstr "Вкл. принтера"
+
+msgid "Pressure Advance:"
+msgstr "Предварително налягане:"
+
+msgid "Print"
+msgstr "Печат"
+
+msgid "Print Control"
+msgstr "Контрол на печата"
+
+msgid "Print Time"
+msgstr "Време за печат"
+
+msgid "Printer"
+msgstr "Принтер"
+
+msgid "Printer Connections"
+msgstr "Свързване на принтер"
+
+msgid "Printer Select"
+msgstr "Избор на принтер"
+
+msgid "Printing"
+msgstr "Печатане"
+
+msgid "Probe Offset"
+msgstr "Отместване на сондата"
+
+msgid "Profile Name:"
+msgstr "Име на профила:"
+
+msgid "Provide KlipperScreen.log when asking for help.\n"
+msgstr "Осигурете KlipperScreen.log, когато поискате помощ.\n"
+
+msgid "Quad Gantry Level"
+msgstr "Ниво Quad Gantry"
+
+msgid "Raise Nozzle"
+msgstr "Повдигнете дюзата"
+
+msgid "Recover"
+msgstr "Възстановяване"
+
+msgid "Recover Hard"
+msgstr "Възстановяване Hard"
+
+msgid "Recover Soft"
+msgstr "Възстановяване Soft"
+
+msgid "Reference"
+msgstr "Връзка"
+
+msgid "Refresh"
+msgstr "Опресняване"
+
+msgid "Rename/Move:"
+msgstr "Преименуване/Преместване:"
+
+msgid "Restart"
+msgstr "Рестарт"
+
+msgid "Resume"
+msgstr "Продължи"
+
+msgid "Retract"
+msgstr "Ретракт"
+
+msgid "Retraction"
+msgstr "Ретракт"
+
+msgid "Retraction Length"
+msgstr "Дължина на ретракта"
+
+msgid "Retraction Speed"
+msgstr "Скорост на ретракта"
+
+msgid "Retry"
+msgstr "Повтори"
+
+msgid "Retrying"
+msgstr "Повторен опит"
+
+msgid "Save"
+msgstr "Запиши"
+
+msgid "Save Config"
+msgstr "Зап. Конфиг"
+
+msgid "Save Z"
+msgstr "Запиши Z"
+
+msgid "Save configuration?"
+msgstr "Запиши конфигурацията?"
+
+msgid "Saved"
+msgstr "Записано"
+
+#, python-format
+msgid "Saved offset: %s"
+msgstr "Записан офсет: %s"
+
+msgid "Screen DPMS"
+msgstr "Екран DPMS"
+
+msgid "Screen Power Off Time"
+msgstr "Време за изключване на екрана"
+
+msgid "Screws Adjust"
+msgstr "Настройки на винтовете"
+
+msgid "Select"
+msgstr "Избери"
+
+msgid "Send"
+msgstr "Изпрати"
+
+msgid "Set Temp"
+msgstr "Задайте температура"
+
+msgid "Settings"
+msgstr "Настройки"
+
+msgid "Show"
+msgstr "Покажи"
+
+msgid "Show Heater Power"
+msgstr "Показване на мощността на нагревателя"
+
+msgid "Show Scrollbars Buttons"
+msgstr "Показване на бутони за ленти за превъртане"
+
+msgid "Shutdown"
+msgstr "Изключване"
+
+msgid "Size"
+msgstr "Размер"
+
+msgid "Slicer"
+msgstr "Слайсер"
+
+msgid "Slicer:"
+msgstr "Слайсер:"
+
+msgid "Small"
+msgstr "Малък"
+
+msgid "Speed (mm/s)"
+msgstr "Скорост (мм/с)"
+
+msgid "Speed +"
+msgstr "Скорост +"
+
+msgid "Speed -"
+msgstr "Скорост -"
+
+msgid "Speed:"
+msgstr "Скорост:"
+
+msgid "Square Corner Velocity"
+msgstr "Квадратна ъглова скорост"
+
+msgid "Standby"
+msgstr "В режим на готовност"
+
+msgid "Start"
+msgstr "Старт"
+
+msgid "Starting WiFi Association"
+msgstr "Сдвояване"
+
+msgid "Starting recovery for"
+msgstr "Започнете възстановяване за"
+
+msgid "Starting update for"
+msgstr "Стартиране на актуализация за"
+
+msgid "System"
+msgstr "Система"
+
+msgid "System Restart"
+msgstr "Рестартиране на системата"
+
+msgid "System Shutdown"
+msgstr "Изключване на системата"
+
+msgid "Temp (°C)"
+msgstr "Темп  (°С)"
+
+msgid "Temperature"
+msgstr "Tемпература"
+
+msgid "Total:"
+msgstr "Всичко:"
+
+msgid "Unknown Heater"
+msgstr "Неизвестен нагревател"
+
+msgid "Unknown screw position"
+msgstr "Неизвестна позиция на винта"
+
+msgid "Unload"
+msgstr "Извади"
+
+msgid "Unretract Extra Length"
+msgstr "Отмяна на прибиране на допълнителната дължина"
+
+msgid "Unretract Speed"
+msgstr "Скорост на оттегляне"
+
+msgid "Up To Date"
+msgstr "Актуално"
+
+msgid "Update"
+msgstr "Обнови"
+
+msgid "Updating"
+msgstr "Обновяване"
+
+msgid "Uploaded"
+msgstr "Качено"
+
+msgid "XY Move Speed (mm/s)"
+msgstr "Скорост по оси XY (мм/с)"
+
+msgid "XY Speed (mm/s)"
+msgstr "XY скорост (mm/s)"
+
+msgid "Z Calibrate"
+msgstr "Калибр. Z"
+
+msgid "Z Move Speed (mm/s)"
+msgstr "Скорост по ос Z (мм/с)"
+
+msgid "Z Speed (mm/s)"
+msgstr "Z скорост (mm/s)"
+
+msgid "Z Tilt"
+msgstr "Z Наклон"
+
+msgid "Z offset:"
+msgstr "Z отместване:"
+
+msgid "commit"
+msgid_plural "commits"
+msgstr[0] "промяна"
+msgstr[1] "промяна"
+
+msgid "dBm"
+msgstr "dBm"
+
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "час"
+msgstr[1] "часа"
+
+msgid "macros that use 'rename_existing' are hidden"
+msgstr "макросите, които използват 'rename_existing' са скрити"
+
+msgid "macros with a name starting with '_' are hidden"
+msgstr "макросите с име, започващо с '_' са скрити"
+
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "минута"
+msgstr[1] "минути"
+
+msgid "mm"
+msgstr "мм"
+
+msgid "mm/s"
+msgstr "мм/с"
+
+msgid "mm/s²"
+msgstr "мм/с²"
+
+msgid "mm³/s"
+msgstr "мм³/s"
+
+msgid "AI Detection Service"
+msgstr "Услуга за откриване с ИИ"
+
+msgid "AI Server URL"
+msgstr "URL на сървъра за ИИ"
+
+msgid "AI Confidence Threshold"
+msgstr "Праг на увереност на ИИ"
+
+msgid "AI Detection Interval"
+msgstr "Интервал за откриване с ИИ"
+
+msgid "AI Auto Pause"
+msgstr "Автоматична пауза от ИИ"
+
+msgid "AI Defect Types"
+msgstr "Типове дефекти за ИИ"
+
+msgid "AI Camera Source"
+msgstr "Източник на камерата за ИИ"
+
+msgid "AI Camera URL"
+msgstr "URL на камерата за ИИ"
+
+msgid "AI Detection Enabled While Paused"
+msgstr "Откриването с ИИ е активно при пауза"
+
+msgid "AI Notification Sound"
+msgstr "Звук за известия от ИИ"
+
+msgid "AI Monitor"
+msgstr "Монитор на ИИ"
+
+msgid "AI Settings"
+msgstr "Настройки на ИИ"
+
+msgid "AI Detection Alert"
+msgstr "Предупреждение за откриване с ИИ"
+
+msgid "AI Warning"
+msgstr "Предупреждение от ИИ"
+
+msgid "Detected Defect"
+msgstr "Открит дефект"
+
+msgid "Confidence"
+msgstr "Увереност"
+
+msgid "Detection Time"
+msgstr "Време на откриване"
+
+msgid "Print has been automatically paused"
+msgstr "Печатът беше автоматично поставен на пауза"
+
+msgid "Please check your print and decide the next action"
+msgstr "Моля, проверете печата и изберете следващото действие"
+
+msgid "Continue Print"
+msgstr "Продължи печата"
+
+msgid "View Details"
+msgstr "Виж подробности"
+
+msgid "Print resumed"
+msgstr "Печатът е възобновен"
+
+msgid "Failed to resume print"
+msgstr "Неуспешно възобновяване на печата"
+
+msgid "Print cancelled"
+msgstr "Печатът е отменен"
+
+msgid "Failed to cancel print"
+msgstr "Неуспешно отменяне на печата"
+
+msgid "Spaghetti (炒面)"
+msgstr "Спагети (炒面)"
+
+msgid "Head Burst (爆头)"
+msgstr "Повреда на главата (爆头)"
+
+msgid "Misalignment (错位)"
+msgstr "Разместване (错位)"
+
+msgid "Layer Crack (层间开裂)"
+msgstr "Пукнатина между слоевете (层间开裂)"
+
+msgid "Warping (翘曲变形)"
+msgstr "Изкривяване (翘曲变形)"
+
+msgid "Porosity (孔隙)"
+msgstr "Порьозност (孔隙)"
+
+msgid "Spaghetti failure detected. The filament appears to be tangled or the print has failed catastrophically. Immediate attention required."
+msgstr "Засечена е повреда тип „спагети“. Изглежда, че филаментът е оплетен или печатът се е провалил катастрофално. Нужно е незабавно внимание."
+
+msgid "Head burst detected. There may be a nozzle clog or extrusion problem. Check the hotend and clear any blockages."
+msgstr "Засечена е повреда на печатащата глава. Възможно е запушване на дюзата или проблем с екструзията. Проверете хотенда и отстранете всички запушвания."
+
+msgid "Layer misalignment detected. Check belt tension, motor steps, and mechanical components for proper alignment."
+msgstr "Засечено е разместване на слоевете. Проверете опъна на ремъците, стъпките на моторите и механичните компоненти за правилно подравняване."
+
+msgid "Layer adhesion problems detected. Check print temperature, layer height, and cooling settings."
+msgstr "Засечени са проблеми със слепването между слоевете. Проверете температурата на печат, височината на слоя и настройките за охлаждане."
+
+msgid "Warping detected. Consider adjusting bed temperature, print speed, or adding support structures."
+msgstr "Засечено е изкривяване. Помислете за коригиране на температурата на леглото, скоростта на печат или добавяне на поддържащи структури."
+
+msgid "Surface porosity detected. Check extrusion multiplier, print speed, and temperature settings."
+msgstr "Засечена е повърхностна порьозност. Проверете множителя на екструзията, скоростта на печат и температурните настройки."
+
+msgid "An issue has been detected with your print. Please inspect the print carefully."
+msgstr "Засечен е проблем с вашия печат. Моля, огледайте го внимателно."
+
+msgid "Configure AI service settings here. The AI service can monitor your prints and detect potential issues like spaghetti failures, layer cracks, and warping. You can adjust the confidence threshold and choose whether to automatically pause prints when issues are detected."
+msgstr "Конфигурирайте тук настройките на услугата за ИИ. Услугата за ИИ може да наблюдава вашите разпечатки и да открива потенциални проблеми като дефекти тип „спагети“, пукнатини между слоевете и изкривяване. Можете да настроите прага на увереност и да изберете дали разпечатките да се поставят автоматично на пауза при откриване на проблеми."
+
+msgid "Defect Types"
+msgstr "Типове дефекти"
+
+msgid "Connection Test"
+msgstr "Тест на връзката"
+
+msgid "Test Connection"
+msgstr "Тествай връзката"
+
+msgid "Not tested"
+msgstr "Не е тествано"
+
+msgid "✅ Connected - {} models loaded"
+msgstr "✅ Свързано - заредени са {} модела"
+
+msgid "✅ Server connected, camera OK"
+msgstr "✅ Сървърът е свързан, камерата е наред"
+
+msgid "⚠️ Server OK, camera failed"
+msgstr "⚠️ Сървърът е наред, камерата не работи"
+
+msgid "⚠️ Camera OK, server failed"
+msgstr "⚠️ Камерата е наред, сървърът не работи"
+
+msgid "❌ Connection failed: {}"
+msgstr "❌ Връзката е неуспешна: {}"
+
+msgid "❌ AI manager not initialized"
+msgstr "❌ Мениджърът на ИИ не е инициализиран"
+
+msgid "❌ Error: {}"
+msgstr "❌ Грешка: {}"
+
+msgid "🔄 Testing..."
+msgstr "🔄 Тестване..."
+
+msgid "Detection Statistics"
+msgstr "Статистика на откриването"
+
+msgid "Total Detections"
+msgstr "Общо откривания"
+
+msgid "Defect Detections"
+msgstr "Откривания на дефекти"
+
+msgid "Defect Rate"
+msgstr "Честота на дефектите"
+
+msgid "Avg Inference Time"
+msgstr "Средно време за инференция"
+
+msgid "Refresh Stats"
+msgstr "Обнови статистиката"
+
+msgid "AI Detection Status"
+msgstr "Статус на откриването с ИИ"
+
+msgid "Current Image"
+msgstr "Текущо изображение"
+
+msgid "Last Detection"
+msgstr "Последно откриване"
+
+msgid "Detection History"
+msgstr "История на откриването"
+
+msgid "Manual Detection"
+msgstr "Ръчно откриване"
+
+msgid "Capture & Analyze"
+msgstr "Заснеми и анализирай"
+
+msgid "Clear History"
+msgstr "Изчисти историята"
+
+msgid "Status: {}"
+msgstr "Статус: {}"
+
+msgid "Enabled"
+msgstr "Активирано"
+
+msgid "Disabled"
+msgstr "Деактивирано"
+
+msgid "Idle"
+msgstr "В изчакване"
+
+msgid "Processing"
+msgstr "Обработка"
+
+msgid "No image available"
+msgstr "Няма налично изображение"
+
+msgid "Last: {} at {}"
+msgstr "Последно: {} в {}"
+
+msgid "No detections yet"
+msgstr "Все още няма откривания"
+
+msgid "Manual detection started"
+msgstr "Ръчното откриване стартира"
+
+msgid "Failed to perform manual detection"
+msgstr "Неуспешно ръчно откриване"
+
+msgid "Detection history cleared"
+msgstr "Историята на откриването е изчистена"
+
+msgid "Failed to clear detection history"
+msgstr "Неуспешно изчистване на историята на откриването"
+
+msgid "🔍 Analyzing image..."
+msgstr "🔍 Анализиране на изображението..."
+
+msgid "📸 Capturing image..."
+msgstr "📸 Заснемане на изображение..."
+
+msgid "Server Health"
+msgstr "Състояние на сървъра"
+
+msgid "Model Status"
+msgstr "Статус на модела"
+
+msgid "Healthy"
+msgstr "Изправно"
+
+msgid "Unhealthy"
+msgstr "Неизправно"
+
+msgid "Loaded"
+msgstr "Зареден"
+
+msgid "Failed"
+msgstr "Неуспешно"
+
+msgid "All valves closed"
+msgstr "Всички клапани са затворени"
+
+msgid "Auto Feed"
+msgstr "Автоподаване"
+
+msgid "Auto feed started"
+msgstr "Автоподаването стартира"
+
+msgid "Blowback Valve"
+msgstr "Клапан за обратно продухване"
+
+msgid "Buffer"
+msgstr "Буфер"
+
+msgid "Buffer → Printhead"
+msgstr "Буфер → Печатаща глава"
+
+msgid "Buffer Valve"
+msgstr "Буферен клапан"
+
+msgid "Disconnected"
+msgstr "Изключено"
+
+msgid "Dryer"
+msgstr "Сушилня"
+
+msgid "Dryer → Buffer"
+msgstr "Сушилня → Буфер"
+
+msgid "Dryer Level"
+msgstr "Ниво на сушилнята"
+
+msgid "Dryer Sensor"
+msgstr "Сензор на сушилнята"
+
+msgid "Dryer Valve"
+msgstr "Клапан на сушилнята"
+
+msgid "Feeder"
+msgstr "Подача"
+
+msgid "Feeder:"
+msgstr "Подача:"
+
+msgid "Hopper"
+msgstr "Бункер"
+
+msgid "Hopper → Dryer"
+msgstr "Бункер → Сушилня"
+
+msgid "Hopper Level"
+msgstr "Ниво на бункера"
+
+msgid "Hopper Valve"
+msgstr "Клапан на бункера"
+
+msgid "Manual"
+msgstr "Ръчно"
+
+msgid "Pressure:"
+msgstr "Налягане:"
+
+msgid "Printhead"
+msgstr "Печатаща глава"
+
+msgid "Printhead 1"
+msgstr "Печатаща глава 1"
+
+msgid "Printhead 2"
+msgstr "Печатаща глава 2"
+
+msgid "Retract blowback"
+msgstr "Обратно продухване"
+
+msgid "Retract started"
+msgstr "Прибирането стартира"
+
+msgid "Run Mode:"
+msgstr "Режим на работа:"
+
+msgid "Stop All"
+msgstr "Спри всичко"
+
+msgid "To Dryer"
+msgstr "Към сушилнята"
+
+msgid "To Buffer"
+msgstr "Към буфера"
+
+msgid "To Printhead"
+msgstr "Към печатащата глава"
+
+msgid "Return Buffer"
+msgstr "Обратно към буфера"
