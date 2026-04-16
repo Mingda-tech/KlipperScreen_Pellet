@@ -97,9 +97,7 @@ class Panel(ScreenPanel):
         self.buttons['start'].set_sensitive(False)
         self._screen._ws.klippy.gcode_script("G28")
         if method == "endstop":
-            if "MD_1000D" in self._printer.available_commands:
-                self._screen._ws.klippy.gcode_script("G1 Y200")
-            self._screen._ws.klippy.gcode_script("CALIBRATE_Z_OFFSET")
+            self._screen._ws.klippy.gcode_script("Z_ENDSTOP_CALIBRATE")
 
     def activate(self):
         if self._printer.get_stat("manual_probe", "is_active"):
