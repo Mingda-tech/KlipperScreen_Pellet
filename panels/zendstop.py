@@ -45,11 +45,11 @@ class Panel(ScreenPanel):
         self.buttons['complete'].connect("clicked", self.accept)
         self.buttons['cancel'].connect("clicked", self.abort)
 
-        # 检查是否有CALIBRATE_Z_OFFSET命令
-        if "CALIBRATE_Z_OFFSET" in self._printer.available_commands:
+        # 检查是否有Z_ENDSTOP_CALIBRATE命令
+        if "Z_ENDSTOP_CALIBRATE" in self._printer.available_commands:
             self.buttons['start'].connect("clicked", self.start_calibration, "endstop")
         else:
-            # 如果没有CALIBRATE_Z_OFFSET命令，禁用开始按钮
+            # 如果没有Z_ENDSTOP_CALIBRATE命令，禁用开始按钮
             self.buttons['start'].set_sensitive(False)
 
         distgrid = Gtk.Grid()
