@@ -32,15 +32,7 @@ class Panel(ScreenPanel):
             pos.attach(Gtk.Label(_("New")), 1, 3, 1, 1)
             pos.attach(Gtk.Label(f"{self.z_offset:.3f}"), 0, 4, 1, 1)
             pos.attach(self.widgets['zoffset'], 1, 4, 1, 1)
-        z_up_image = "z-farther"
-        z_down_image = "z-closer"
-        z_up_label = _("Raise")  
-        z_down_label = _("Lower")
-        if True:
-            z_up_image = "bed_down"
-            z_down_image = "bed_up"
-            z_up_label = _("Lower")
-            z_down_label = _("Raise")            
+        z_up_image, z_down_image, z_up_label, z_down_label = self.get_z_move_buttons()
         self.buttons = {
             'zpos': self._gtk.Button(z_up_image, z_up_label, 'color4'),
             'zneg': self._gtk.Button(z_down_image, z_down_label, 'color1'),
@@ -91,12 +83,9 @@ class Panel(ScreenPanel):
             grid.attach(self.buttons['cancel'], 1, 2, 1, 1)
             grid.attach(distances, 0, 3, 2, 1)
         else:
-            if True:
-                grid.attach(self.buttons['zneg'], 0, 0, 1, 1)
-                grid.attach(self.buttons['zpos'], 0, 1, 1, 1)
-            else:            
-                grid.attach(self.buttons['zpos'], 0, 0, 1, 1)
-                grid.attach(self.buttons['zneg'], 0, 1, 1, 1)
+            z_top, z_bottom = ('zneg', 'zpos') if self.use_bed_move_icons() else ('zpos', 'zneg')
+            grid.attach(self.buttons[z_top], 0, 0, 1, 1)
+            grid.attach(self.buttons[z_bottom], 0, 1, 1, 1)
             grid.attach(self.buttons['start'], 1, 0, 1, 1)
             grid.attach(pos, 1, 1, 1, 1)
             grid.attach(self.buttons['complete'], 2, 0, 1, 1)
@@ -190,4 +179,3 @@ class Panel(ScreenPanel):
 
     def deactivate(self):
         pass
-

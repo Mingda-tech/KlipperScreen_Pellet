@@ -22,15 +22,7 @@ class Panel(ScreenPanel):
 
         pos = self._gtk.HomogeneousGrid()
         pos.attach(self.widgets['zposition'], 0, 1, 2, 1)
-        z_up_image = "z-farther"
-        z_down_image = "z-closer"
-        z_up_label = _("Raise")  
-        z_down_label = _("Lower")
-        if True:
-            z_up_image = "bed_down"
-            z_down_image = "bed_up"
-            z_up_label = _("Lower")
-            z_down_label = _("Raise")
+        z_up_image, z_down_image, z_up_label, z_down_label = self.get_z_move_buttons()
         if self.z_offset is not None:
             self.widgets['zoffset'] = Gtk.Label(label="?")
             pos.attach(Gtk.Label(_("Probe Offset") + ": "), 0, 2, 2, 1)
@@ -118,14 +110,9 @@ class Panel(ScreenPanel):
             grid.attach(self.buttons['cancel'], 1, 2, 1, 1)
             grid.attach(distances, 0, 3, 2, 1)
         else:
-            if True:
-                grid.attach(self.buttons['zneg'], 0, 0, 1, 1)
-                grid.attach(self.buttons['zpos'], 0, 1, 1, 1)
-            else:            
-                grid.attach(self.buttons['zpos'], 0, 0, 1, 1)
-                grid.attach(self.buttons['zneg'], 0, 1, 1, 1)
-            grid.attach(self.buttons['zneg'], 0, 0, 1, 1)
-            grid.attach(self.buttons['zpos'], 0, 1, 1, 1)
+            z_top, z_bottom = ('zneg', 'zpos') if self.use_bed_move_icons() else ('zpos', 'zneg')
+            grid.attach(self.buttons[z_top], 0, 0, 1, 1)
+            grid.attach(self.buttons[z_bottom], 0, 1, 1, 1)
             grid.attach(self.buttons['start'], 1, 0, 1, 1)
             grid.attach(pos, 1, 1, 1, 1)
             grid.attach(self.buttons['complete'], 2, 0, 1, 1)

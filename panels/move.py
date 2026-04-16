@@ -25,10 +25,7 @@ class Panel(ScreenPanel):
 
         self.settings = {}
         self.menu = ['move_menu']
-        z_up_image = "bed_down"
-        z_down_image = "bed_up"
-        z_up_label = _("Lower")
-        z_down_label = _("Raise")
+        z_up_image, z_down_image, z_up_label, z_down_label = self.get_z_move_buttons()
         self.buttons = {
             'x+': self._gtk.Button("arrow-right", "X+", "color1"),
             'x-': self._gtk.Button("arrow-left", "X-", "color1"),
@@ -83,8 +80,9 @@ class Panel(ScreenPanel):
                 grid.attach(self.buttons['x-'], 2, 1, 1, 1)
             grid.attach(self.buttons['y+'], 1, 0, 1, 1)
             grid.attach(self.buttons['y-'], 1, 1, 1, 1)
-            grid.attach(self.buttons['z-'], 3, 0, 1, 1)
-            grid.attach(self.buttons['z+'], 3, 1, 1, 1)
+            z_top, z_bottom = ('z-', 'z+') if self.use_bed_move_icons() else ('z+', 'z-')
+            grid.attach(self.buttons[z_top], 3, 0, 1, 1)
+            grid.attach(self.buttons[z_bottom], 3, 1, 1, 1)
 
         grid.attach(self.buttons['home'], 0, 0, 1, 1)
         grid.attach(self.buttons['motors_off'], 2, 0, 1, 1)

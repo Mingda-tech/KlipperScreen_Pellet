@@ -43,8 +43,7 @@ class Panel(ScreenPanel):
         grid.attach(prev_btn, 0, 0, 1, 1)
         
 
-        z_up_image = "bed_down"
-        z_up_label = _("Bed Lower")
+        z_up_image, _, _, _ = self.get_z_move_buttons()
             
         self.z_raise_btn = self._gtk.Button(z_up_image, None, "color3", scale=.66)
         self.z_raise_btn.connect("clicked", self.move_z_up)
@@ -180,4 +179,4 @@ class Panel(ScreenPanel):
         # Scale the Pixbuf
         scaled_pixbuf = pixbuf.scale_simple(new_width, new_height, GdkPixbuf.InterpType.BILINEAR)
         
-        return scaled_pixbuf        
+        return scaled_pixbuf

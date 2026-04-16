@@ -60,6 +60,16 @@ class ScreenPanel:
             return self._gtk.PixbufFromHttp(loc[1], width, height)
         return None
 
+    def use_bed_move_icons(self):
+        if self._printer is None:
+            return False
+        return any(macro.upper() == "_USE_BED_MOVE" for macro in self._printer.get_hidden_gcode_macros())
+
+    def get_z_move_buttons(self):
+        if self.use_bed_move_icons():
+            return "bed_down", "bed_up", _("Lower"), _("Raise")
+        return "z-farther", "z-closer", _("Raise"), _("Lower")
+
     def menu_item_clicked(self, widget, item):
         if 'extra' in item:
             self._screen.show_panel(item['panel'], item['name'], extra=item['extra'])

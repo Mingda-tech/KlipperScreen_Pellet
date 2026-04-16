@@ -76,8 +76,9 @@ class Panel(ScreenPanel):
         grid = self._gtk.HomogeneousGrid()
         grid.set_row_homogeneous(False)
 
-        self.labels['z+'] = self._gtk.Button("bed_down", "Z+", "color1")
-        self.labels['z-'] = self._gtk.Button("bed_up", "Z-", "color1")
+        z_up_image, z_down_image, _, _ = self.get_z_move_buttons()
+        self.labels['z+'] = self._gtk.Button(z_up_image, "Z+", "color1")
+        self.labels['z-'] = self._gtk.Button(z_down_image, "Z-", "color1")
         self.labels['zoffset'] = self._gtk.Button("refresh", '  0.00' + _("mm"),
                                                   "color1", self.bts, Gtk.PositionType.LEFT, 1)
         self.labels['speed+'] = self._gtk.Button("speed+", _("Speed +"), "color3")
@@ -104,8 +105,9 @@ class Panel(ScreenPanel):
             grid.attach(extgrid, 0, 5, 3, 1)
         else:
             grid.attach(self.labels['zoffset'], 0, 0, 1, 1)
-            grid.attach(self.labels['z-'], 0, 1, 1, 1)
-            grid.attach(self.labels['z+'], 0, 2, 1, 1)
+            z_top, z_bottom = ('z-', 'z+') if self.use_bed_move_icons() else ('z+', 'z-')
+            grid.attach(self.labels[z_top], 0, 1, 1, 1)
+            grid.attach(self.labels[z_bottom], 0, 2, 1, 1)
             grid.attach(zgrid, 0, 3, 1, 1)
             grid.attach(self.labels['speedfactor'], 1, 0, 1, 1)
             grid.attach(self.labels['speed+'], 1, 1, 1, 1)
