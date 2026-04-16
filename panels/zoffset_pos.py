@@ -28,7 +28,7 @@ class Panel(ScreenPanel):
         self.pos['y'] = 0
         self.settings = {}
         self.menu = ['move_menu']
-        z_up_image, z_down_image, _, _ = self.get_z_move_buttons()
+        z_up_image, z_down_image, _z_up_label, _z_down_label = self.get_z_move_buttons()
         self.buttons = {
             'x+': self._gtk.Button("arrow-right", "X+", "color1"),
             'x-': self._gtk.Button("arrow-left", "X-", "color1"),

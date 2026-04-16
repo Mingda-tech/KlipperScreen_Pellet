@@ -76,7 +76,7 @@ class Panel(ScreenPanel):
         grid = self._gtk.HomogeneousGrid()
         grid.set_row_homogeneous(False)
 
-        z_up_image, z_down_image, _, _ = self.get_z_move_buttons()
+        z_up_image, z_down_image, _z_up_label, _z_down_label = self.get_z_move_buttons()
         self.labels['z+'] = self._gtk.Button(z_up_image, "Z+", "color1")
         self.labels['z-'] = self._gtk.Button(z_down_image, "Z-", "color1")
         self.labels['zoffset'] = self._gtk.Button("refresh", '  0.00' + _("mm"),

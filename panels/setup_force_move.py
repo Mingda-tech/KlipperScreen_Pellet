@@ -43,7 +43,7 @@ class Panel(ScreenPanel):
         grid.attach(prev_btn, 0, 0, 1, 1)
         
 
-        z_up_image, _, _, _ = self.get_z_move_buttons()
+        z_up_image, _z_down_image, _z_up_label, _z_down_label = self.get_z_move_buttons()
             
         self.z_raise_btn = self._gtk.Button(z_up_image, None, "color3", scale=.66)
         self.z_raise_btn.connect("clicked", self.move_z_up)
