@@ -176,7 +176,8 @@ class Panel(ScreenPanel):
 
         delete = self._gtk.Button("delete", style="color1", scale=self.bts)
         delete.set_hexpand(False)
-        rename = self._gtk.Button("files", style="color2", scale=self.bts)
+        rename_icon = "move_file" if os.path.isfile(os.path.join(self._gtk.themedir, "move_file.svg")) else "files"
+        rename = self._gtk.Button(rename_icon, style="color2", scale=self.bts)
         rename.set_hexpand(False)
 
         if filename:

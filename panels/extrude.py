@@ -21,7 +21,7 @@ class Panel(ScreenPanel):
             for macro in macros
         )
 
-        self.speeds = ['100', '200']
+        self.speeds = ['25', '50']
         self.distances = ['1000', '2500', '5000', '10000']
         if self.ks_printer_cfg is not None:
             dis = self.ks_printer_cfg.get("extrude_distances", '1000, 2500, 5000, 10000')
@@ -29,7 +29,7 @@ class Panel(ScreenPanel):
                 dis = [str(i.strip()) for i in dis.split(',')]
                 if 1 < len(dis) < 5:
                     self.distances = dis
-            vel = self.ks_printer_cfg.get("extrude_speeds", '100, 200')
+            vel = self.ks_printer_cfg.get("extrude_speeds", '25, 50')
             if re.match(r'^[0-9,\s]+$', vel):
                 vel = [str(i.strip()) for i in vel.split(',')]
                 if 1 < len(vel) < 5:

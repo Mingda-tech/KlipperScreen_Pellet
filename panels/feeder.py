@@ -25,6 +25,11 @@ class Panel(ScreenPanel):
     def __init__(self, screen, title):
         super().__init__(screen, title)
 
+        self.has_hopper = (
+            self.ks_printer_cfg.getboolean("feeder_has_hopper", True)
+            if self.ks_printer_cfg is not None else True
+        )
+
         # 电磁阀定义 (根据协议)
         self.valves = {
             0: {"name": _("Hopper Valve"), "desc": _("Hopper → Dryer")},
@@ -32,6 +37,8 @@ class Panel(ScreenPanel):
             2: {"name": _("Buffer Valve"), "desc": _("Buffer → Printhead")},
             3: {"name": _("Blowback Valve"), "desc": _("Retract blowback")},
         }
+        if not self.has_hopper:
+            del self.valves[0]
 
         # 耗材传感器定义 (根据协议)
         self.filament_sensors = {
@@ -45,6 +52,8 @@ class Panel(ScreenPanel):
             0: {"name": _("Hopper Level"), "empty": 610, "full": 280},
             1: {"name": _("Dryer Level"), "empty": 510, "full": 20},
         }
+        if not self.has_hopper:
+            del self.ultrasonic_sensors[0]
 
         # 状态数据
         self.feeder_status = {
@@ -67,7 +76,7 @@ class Panel(ScreenPanel):
         # 创建主布局
         self._build_ui()
 
-        logging.info("Feeder: Panel initialized")
+        logging.info(f"Feeder: Panel initialized, has_hopper={self.has_hopper}")
 
         # 首次获取状态
         GLib.timeout_add_seconds(1, self._initial_status_request)
@@ -136,11 +145,13 @@ class Panel(ScreenPanel):
         flow_box.set_hexpand(True)
 
         stages = [
-            {"name": _("Hopper"), "has_level": True, "level_id": 0},
-            {"name": _("Dryer"), "has_level": True, "level_id": 1, "has_sensor": True, "sensor_id": 0},
-            {"name": _("Buffer"), "has_sensor": True, "sensor_id": 1},  # HEAD1
+            {"name": _("Dryer"), "has_level": True, "level_id": 1, "has_sensor": True,
+             "sensor_id": 0, "valve_id": 1},
+            {"name": _("Buffer"), "has_sensor": True, "sensor_id": 1, "valve_id": 2},  # HEAD1
             {"name": _("Printhead"), "has_sensor": True, "sensor_id": 2},  # HEAD2
         ]
+        if self.has_hopper:
+            stages.insert(0, {"name": _("Hopper"), "has_level": True, "level_id": 0, "valve_id": 0})
 
         for i, stage in enumerate(stages):
             # 阶段框
@@ -153,9 +164,10 @@ class Panel(ScreenPanel):
                 arrow_box.set_valign(Gtk.Align.CENTER)
 
                 # 阀门指示器
-                self.labels[f'valve_ind_{i}'] = Gtk.Label(label="○")
-                self.labels[f'valve_ind_{i}'].get_style_context().add_class("sensor_off")
-                arrow_box.pack_start(self.labels[f'valve_ind_{i}'], False, False, 0)
+                valve_id = stage["valve_id"]
+                self.labels[f'valve_ind_{valve_id}'] = Gtk.Label(label="○")
+                self.labels[f'valve_ind_{valve_id}'].get_style_context().add_class("sensor_off")
+                arrow_box.pack_start(self.labels[f'valve_ind_{valve_id}'], False, False, 0)
 
                 # 箭头
                 arrow = Gtk.Label(label="→")
@@ -277,7 +289,7 @@ class Panel(ScreenPanel):
 
         valve_labels = [_("To Dryer"), _("To Buffer"), _("To Printhead"), _("Return Buffer")]  # 简短标签
 
-        for valve_id, valve in self.valves.items():
+        for column, valve_id in enumerate(self.valves):
             # 状态指示 + 按钮组合
             self.labels[f'valve_status_{valve_id}'] = Gtk.Label(label="○")
             self.labels[f'valve_status_{valve_id}'].get_style_context().add_class("sensor_off")
@@ -286,7 +298,7 @@ class Panel(ScreenPanel):
             btn.connect("clicked", self._on_valve_toggle, valve_id)
             self.labels[f'valve_btn_{valve_id}'] = btn
 
-            valve_grid.attach(btn, valve_id, 0, 1, 1)
+            valve_grid.attach(btn, column, 0, 1, 1)
 
         parent.pack_start(valve_grid, False, False, 2)
 
@@ -295,8 +307,9 @@ class Panel(ScreenPanel):
     def _on_auto_feed(self, widget):
         """自动送料"""
         logging.info("Auto feed triggered")
-        # 按顺序打开电磁阀: 料箱→干燥箱→中间料管
-        self._send_valve_command(0, 0x01, mode=0x00)  # 打开料箱阀，自动模式
+        # 从首个送料阶段开始：有料斗使用料斗阀，无料斗使用干燥箱阀
+        valve_id = 0 if self.has_hopper else 1
+        self._send_valve_command(valve_id, 0x01, mode=0x00)
         self._screen.show_popup_message(_("Auto feed started"), level=1)
 
     def _on_retract(self, widget):
@@ -313,7 +326,7 @@ class Panel(ScreenPanel):
     def _on_stop(self, widget):
         """停止所有操作"""
         logging.info("Stop all triggered")
-        # 关闭所有电磁阀
+        # 停止时关闭全部协议输出，包括界面中隐藏的料斗阀
         for valve_id in range(4):
             self._send_valve_command(valve_id, 0x00)
         self._screen.show_popup_message(_("All valves closed"), level=1)
@@ -332,6 +345,10 @@ class Panel(ScreenPanel):
         动作: 0x00=关闭, 0x01=打开, 0x02=切换, 0x04=手动开, 0x05=手动关
         模式: 0x00=自动, 0x01=手动
         """
+        # 未配置的料斗阀只允许关闭，保证“停止所有操作”覆盖全部输出
+        if valve_id not in self.valves and not (valve_id == 0 and action == 0x00):
+            logging.warning(f"Feeder: ignoring command for unavailable valve {valve_id}")
+            return
         cmd_data = [0x20, valve_id, action, mode]
         self._send_can_command(cmd_data)
 
@@ -499,7 +516,7 @@ class Panel(ScreenPanel):
 
         self.labels['btn_auto_feed'].set_sensitive(connected and pressure_ok)
         self.labels['btn_retract'].set_sensitive(connected and pressure_ok)
-        for i in range(4):
+        for i in self.valves:
             btn_key = f'valve_btn_{i}'
             if btn_key in self.labels:
                 self.labels[btn_key].set_sensitive(connected and pressure_ok)

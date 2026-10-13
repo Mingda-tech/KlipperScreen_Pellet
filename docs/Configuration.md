@@ -99,9 +99,37 @@ screw_rotation: 0
 extrude_distances: 5, 10, 15, 25
 extrude_speeds: 1, 2, 5, 25
 
+# Whether the feeder has a hopper/material bin. Default: True.
+# Set False for machines that feed from the dryer directly.
+feeder_has_hopper: True
+
 # Camera needs to be configured in moonraker:
 # https://moonraker.readthedocs.io/en/latest/configuration/#webcam
 ```
+
+### Feeder with or without a hopper
+
+Set `feeder_has_hopper` in each machine's `[printer ...]` section in
+`KlipperScreen.conf`, then restart KlipperScreen. If omitted, it defaults to
+`True` and keeps the existing four-stage feeder layout.
+
+For a machine without a hopper:
+
+```ini
+[printer Pellet Printer]
+feeder_has_hopper: False
+```
+
+The panel shows Dryer → Buffer → Printhead and hides the hopper level and hopper
+valve controls. Auto Feed opens dryer valve 1 in automatic mode; with a hopper,
+it opens hopper valve 0. Stop All closes all four protocol outputs, including
+the hidden hopper output on machines without a hopper.
+
+CAN protocol IDs remain unchanged: hopper valve 0, dryer valve 1, buffer valve 2,
+blowback valve 3, and dryer level sensor 1. Status arrays must retain their
+original protocol positions, including the unused hopper entries. This setting
+configures the panel; the feeder controller must support automatic feeding from
+dryer valve 1 on machines without a hopper.
 
 ## Preheat Options
 
