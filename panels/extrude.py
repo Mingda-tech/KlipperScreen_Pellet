@@ -22,9 +22,9 @@ class Panel(ScreenPanel):
         )
 
         self.speeds = ['25', '50']
-        self.distances = ['1000', '2500', '5000', '10000']
+        self.distances = ['500', '1000', '2500', '5000']
         if self.ks_printer_cfg is not None:
-            dis = self.ks_printer_cfg.get("extrude_distances", '1000, 2500, 5000, 10000')
+            dis = self.ks_printer_cfg.get("extrude_distances", '500, 1000, 2500, 5000')
             if re.match(r'^[0-9,\s]+$', dis):
                 dis = [str(i.strip()) for i in dis.split(',')]
                 if 1 < len(dis) < 5:
