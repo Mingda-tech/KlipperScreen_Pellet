@@ -257,8 +257,10 @@ class Panel(ScreenPanel):
 
     def extrude(self, widget, direction):
         temp = self._printer.get_dev_stat(self.current_extruder, "temperature")
-        if temp < 190:
-            script = {"script": "M104 S240"}
+        extruder_config = self._printer.get_config_section(self.current_extruder) or {}
+        min_extrude_temp = float(extruder_config.get("min_extrude_temp", 170))
+        if temp < min_extrude_temp:
+            script = {"script": f"M104 S{min_extrude_temp:g}"}
             self._screen._confirm_send_action(None,
                                               _("The nozzle temperature is too low, Are you sure you want to heat it?"),
                                               "printer.gcode.script", script, save_button=False)
